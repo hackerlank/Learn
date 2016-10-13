@@ -28,4 +28,21 @@ case $val in
         ;;
 esac
 
+#-le:小于或者等于
+#let val++ 等同于val += 1
+while [ $val -le 10 ]
+do
+    echo "val : $val"
+    let val++
+done
 
+until [ $val -le 10 ]
+do
+    echo "until :$val"
+    let val--
+done
+
+for val in a b c d e
+do
+    echo "val : $val"
+done
