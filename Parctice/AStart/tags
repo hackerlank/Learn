@@ -1,0 +1,68 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASTART_H	include/astart.h	2;"	d
+AStart	include/astart.h	/^class AStart$/;"	c
+AStart	src/astart.cpp	/^AStart::AStart(const std::vector<NodeType> &mapVec,const unsigned short row,const unsigned short col) : m_mapVec(mapVec),m_row(row),m_col(col)$/;"	f	class:AStart
+Comp	include/astart.h	/^struct Comp$/;"	s
+NODE_H	include/node.h	2;"	d
+NT_Barry	include/astart.h	/^    NT_Barry = 0,$/;"	e	enum:NodeType
+NT_Pass	include/astart.h	/^    NT_Pass = 1,$/;"	e	enum:NodeType
+Node	include/node.h	/^class Node$/;"	c
+Node	src/node.cpp	/^Node::Node(const Node &node)$/;"	f	class:Node
+Node	src/node.cpp	/^Node::Node(const Point &point,Node *parent):m_point(point),m_g(0),m_f(0),m_h(0),m_parent(parent)$/;"	f	class:Node
+NodeType	include/astart.h	/^enum NodeType$/;"	g
+Point	include/node.h	/^    Point(const Point &pt)$/;"	f	struct:Point
+Point	include/node.h	/^    Point(const unsigned short x = 0,const unsigned short y = 0) : m_x(x),m_y(y)$/;"	f	struct:Point
+Point	include/node.h	/^typedef struct Point$/;"	s
+Point	include/node.h	/^}Point;$/;"	t	typeref:struct:Point
+SR_Error	include/astart.h	/^    SR_Error = -1,$/;"	e	enum:SearchRet
+SR_Find	include/astart.h	/^    SR_Find = 1,$/;"	e	enum:SearchRet
+SR_NotFound	include/astart.h	/^    SR_NotFound = 0,$/;"	e	enum:SearchRet
+SearchRet	include/astart.h	/^enum SearchRet$/;"	g
+checkPath	src/astart.cpp	/^bool AStart::checkPath(const Point &pt,Node *parent,const Node *end,const unsigned short cost)$/;"	f	class:AStart
+count	src/node.cpp	/^void Node::count(const Node *end,const unsigned short cost)$/;"	f	class:Node
+countF	src/node.cpp	/^void Node::countF()$/;"	f	class:Node
+countG	src/node.cpp	/^void Node::countG(const unsigned short cost)$/;"	f	class:Node
+countH	src/node.cpp	/^void Node::countH(const Node *end)$/;"	f	class:Node
+findPtNode	src/astart.cpp	/^Node* AStart::findPtNode(const Point &pt)$/;"	f	class:AStart
+getF	src/node.cpp	/^unsigned short Node::getF() const$/;"	f	class:Node
+getG	src/node.cpp	/^unsigned short Node::getG() const$/;"	f	class:Node
+getH	src/node.cpp	/^unsigned short Node::getH() const$/;"	f	class:Node
+getParent	src/node.cpp	/^Node* Node::getParent() const$/;"	f	class:Node
+getPath	src/astart.cpp	/^void AStart::getPath(std::list<Node*> &retList,Node *node)$/;"	f	class:AStart
+getPt	src/node.cpp	/^const Point& Node::getPt() const$/;"	f	class:Node
+inCloseList	src/astart.cpp	/^bool AStart::inCloseList(const Point &pt)$/;"	f	class:AStart
+m_closeList	include/astart.h	/^        std::set<Point> m_closeList;$/;"	m	class:AStart
+m_col	include/astart.h	/^        unsigned short m_col;$/;"	m	class:AStart
+m_f	include/node.h	/^        unsigned short m_f;$/;"	m	class:Node
+m_g	include/node.h	/^        unsigned short m_g;$/;"	m	class:Node
+m_h	include/node.h	/^        unsigned short m_h;$/;"	m	class:Node
+m_mapVec	include/astart.h	/^        std::vector<NodeType> m_mapVec;$/;"	m	class:AStart
+m_openList	include/astart.h	/^        std::list<Node*> m_openList;$/;"	m	class:AStart
+m_parent	include/node.h	/^        Node *m_parent;$/;"	m	class:Node
+m_point	include/node.h	/^        Point m_point;$/;"	m	class:Node
+m_row	include/astart.h	/^        unsigned short m_row;$/;"	m	class:AStart
+m_x	include/node.h	/^    unsigned short m_x;$/;"	m	struct:Point
+m_y	include/node.h	/^    unsigned short m_y;$/;"	m	struct:Point
+main	src/astart.cpp	/^int main(void)$/;"	f
+operator ()	include/astart.h	/^    bool operator() (const Node *node1, const Node *node2)$/;"	f	struct:Comp
+operator <	include/node.h	/^    bool operator< (const Point &pt) const$/;"	f	struct:Point
+operator ==	include/node.h	/^    bool operator== (const Point &pt) const$/;"	f	struct:Point
+printPath	src/astart.cpp	/^void AStart::printPath(const Point &begin,const Point &end,const std::list<Node*> &retList)$/;"	f	class:AStart
+ptBarry	src/astart.cpp	/^bool AStart::ptBarry(const Point &pt)$/;"	f	class:AStart
+ptOverBroad	src/astart.cpp	/^bool AStart::ptOverBroad(const Point &pt)$/;"	f	class:AStart
+s_diagoalCost	include/astart.h	/^        static unsigned short s_diagoalCost;$/;"	m	class:AStart
+s_diagoalCost	src/astart.cpp	/^unsigned short AStart::s_diagoalCost = 14;$/;"	m	class:AStart
+s_straightCost	include/astart.h	/^        static unsigned short s_straightCost;$/;"	m	class:AStart
+s_straightCost	src/astart.cpp	/^unsigned short AStart::s_straightCost = 10;$/;"	m	class:AStart
+search	src/astart.cpp	/^SearchRet AStart::search(const Point &pt1,const Point &pt2)$/;"	f	class:AStart
+searchNode	src/astart.cpp	/^void AStart::searchNode(const Node *end,std::list<Node*> &retList)$/;"	f	class:AStart
+setF	src/node.cpp	/^void Node::setF(const unsigned short f)$/;"	f	class:Node
+setG	src/node.cpp	/^void Node::setG(const unsigned short g)$/;"	f	class:Node
+setParent	src/node.cpp	/^void Node::setParent(Node *parent)$/;"	f	class:Node
+setX	src/node.cpp	/^void Node::setX(const unsigned short x)$/;"	f	class:Node
+setY	src/node.cpp	/^void Node::setY(const unsigned short y)$/;"	f	class:Node
