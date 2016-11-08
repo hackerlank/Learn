@@ -44,7 +44,8 @@ int main(int argc,char *argv[])
 
         addr.sin_family = AF_INET;
         addr.sin_port = ntohs(port);
-        inet_pton(fd,ip,addr.sin_addr.s_addr,sizeof(addr.sin_addr.s_addr));
+        addr.sin_addr.s_addr = inet_addr(ip);
+        //inet_pton(fd,ip,addr.sin_addr.s_addr,sizeof(addr.sin_addr.s_addr));
         if(connect(fd,(struct sockaddr*)&addr,sizeof(addr)) < 0)
         {
             perror("connect error");

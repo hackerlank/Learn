@@ -69,7 +69,10 @@ int main(int argc,char *argv[])
         //这里填充网络字节序
         addr.sin_port = htons(port);
         //这里表示是所有网卡
-        addr.sin_addr.s_addr = INADDR_ANY;
+        const char *ip = "114.80.207.171";
+        addr.sin_addr.s_addr = inet_addr(ip);
+        //inet_pton(AF_INET,ip,&addr.sin_addr.s_addr);
+        //addr.sin_addr.s_addr = INADDR_ANY;
         if(bind(fd,(struct sockaddr*)&addr,sizeof(addr)) < 0)
         {
             perror("bind error");
