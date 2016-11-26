@@ -1,0 +1,131 @@
+if v:progname =~? "evim"
+	finish
+endif
+
+"开启vim模式"
+set nocompatible
+
+"设置删除键功能"
+set backspace=indent,eol,start
+
+"关闭vim自动生成文件备份功能,以及设置覆盖文件时备份"
+if has("vms")
+	set nobackup
+else
+	set backup
+endif
+
+"设置历史记录数量"
+set history=50
+
+"打开状态栏标尺"
+set ruler        
+
+"命令行里显示输入的命令"
+set showcmd
+
+"输入字符串显示匹配点"
+set incsearch
+
+"语法自动高亮,以及查找高亮"
+if &t_Co > 2 || has("gui_running")
+	syntax on
+	set hlsearch
+endif
+
+" Only do this part when compiled with support for autocommands
+if has("autocmd")
+  " In text files, always limit the width of text to 78 characters
+  autocmd FileType text setlocal textwidth=78
+  " When editing a file, always jump to the last cursor position
+  autocmd BufReadPost *
+  \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+  \   exe "normal! g'\"" |
+  \ endif
+endif
+
+filetype plugin indent on
+
+"自动缩进"
+set autoindent
+
+"设置缩进量"
+set cindent
+
+"显示行数"
+set number
+
+"设置table键长度"
+set tabstop=4
+
+"设定 << 和 >> 命令移动时的宽度"
+set shiftwidth=4
+
+"收索对大小写不敏感"
+set ignorecase
+
+let g:explVertical=1
+let g:explSplitRight=1
+
+
+"自动把内容写回文件"
+set autowrite
+set fo=tcroq
+
+"设定linux系统中ctags程序的位置"
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+
+"按<F5>打开taglist"
+map <F5> :TlistToggle<CR>
+
+"按照name进行排序"
+let Tlist_Sort_Type = "name"
+
+"在右边打开一个窗口"
+let Tlist_Use_Right_Window = 1
+
+"设置底部欢度为0"
+let Tlist_Inc_Winwidth=0
+
+"设置c++语言"
+let s:tlist_def_cpp_settings = 'c++;v:variable;d:macro;t:typedef;c:class;'.'n:namespace;g:enum;s:struct;u:union;f:function'
+
+"设置tag文件"
+set tags=./tags,tags,./../tags,./*/tags,/home/flyer/flyer/School/tags
+
+"映射把c+]键代替g+]键"
+map <c-]> g<c-]>
+
+map <F2> <Esc><Esc>:em C/C++.Comments.C/C++-file\ header<Enter>
+map <F3> <Esc><Esc>:em C/C++.Comments.class\ description<Enter>
+map <F4> <Esc><Esc>:em C/C++.Comments.function\ description<Enter>
+map !<F2> <Esc><Esc>:em C/C++.Comments.C/C++-file\ header<Enter>
+map !<F3> <Esc><Esc>:em C/C++.Comments.class\ description<Enter>
+map !<F4> <Esc><Esc>:em C/C++.Comments.function\ description<Enter>
+
+let g:C_AuthorName="陈真"
+let g:C_AuthorRef="陈真"
+let g:C_Email="flyer_son@126.com"
+
+"设置grep.vim插件"
+let Grep_Default_Filelist = '*.c *.cpp *.h *.pkg *.lua *.xml'
+nnoremap <silent> <F3> :Rgrep<CR>
+
+"tag用法 g+[键显示所有的tag，ctrl+]键显示定义处"
+
+"taglist 用法 o建打开一个新的窗口,p键就在原来打开的窗口显示实现处"
+
+"a.vim 用法 :A头文件／源文件切换,:AV垂直切割窗口后切换头/源文件(切割为左右两个窗口)"
+
+
+
+
+
+
+
+
+
+
+
+
+
