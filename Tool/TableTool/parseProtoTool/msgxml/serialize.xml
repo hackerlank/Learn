@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+	<enum name="CounterResetType" desc="计数器重置类型">
+		<member name="Reset_No" value="0" desc="不重置"/>
+		<member name="Reset_Day" value="1" desc="每天零点重置"/>
+		<member name="Reset_SixHour" value="2" desc="每天6点重置"/>
+		<member name="Reset_Week" value="3" desc="每周重置"/>
+		<member name="Reset_Month" value="4" desc="每月重置"/>
+	</enum>
+	
+	<proto name="PbCounter" desc="人物身上计数器">
+		<member name="id" prefix="optional" type="uint32" desc="计数器编号"/>
+		<member name="type" prefix="optional" type="CounterResetType" desc="计数器类型"/>
+		<member name="lastTime" prefix="optional" type="uint32" desc="最后记录时间,为0时，不需要记录，秒数"/>
+		<member name="count" prefix="optional" type="uint32" desc="计数值"/>
+	</proto>
+	
+	<proto name="PbStoreItem" desc="需要保存的道具信息">
+		<member name="itemId" prefix="optional" type="uint32" desc="道具类型id"/>
+		<member name="itemCount" prefix="optional" type="uint32" desc="道具数量"/>
+	</proto>
+	
+	<enum name="SaleCellStatusType" desc="摊位单元格状态类型">
+		<member name="Sale_Status_Empty" value="0" desc="空闲"/>
+		<member name="Sale_Status_For_Sale" value="1" desc="待售"/>
+		<member name="Sale_Status_Sale_End" value="2" desc="已售"/>
+	</enum>
+	
+	<proto name="PbSaleCell" desc="摊位单元格">
+		<member name="cellId" prefix="optional" type="uint32" desc="格子id"/>
+		<member name="itemId" prefix="optional" type="uint32" desc="道具id"/>
+		<member name="itemCount" prefix="optional" type="uint32" desc="道具数量"/>
+		<member name="status" prefix="optional" type="SaleCellStatusType" desc="状态"/>
+		<member name="nickName" prefix="optional" type="string" desc="购买者名字"/>
+	</proto>
+	
+	<proto name="PbSaleBooth" desc="摊位">
+		<member name="saleCell" prefix="repeated" type="PbSaleCell" desc="摊位"/>
+	</proto>
+	
+	<proto name="Serialize" desc="存档的二进制内容">
+		<member name="pb_counters" prefix="repeated" type="PbCounter" desc="人物身上计数器"/>
+		<member name="store_items" prefix="repeated" type="PbStoreItem" desc="需要保存的道具信息"/>
+		<member name="saleBooth" prefix="optional" type="PbSaleBooth" desc="摊位"/>
+	</proto>
+	
+	<proto name="MsgSaleCell" desc="存档的二进制内容">
+		<member name="pb_counters" prefix="repeated" type="PbCounter" desc="人物身上计数器"/>
+		<member name="store_items" prefix="repeated" type="PbStoreItem" desc="需要保存的道具信息"/>
+		<member name="saleBooth" prefix="optional" type="PbSaleBooth" desc="摊位"/>
+	</proto>
+	
+	<enum name="StoreItemType" desc="道具容器类型">
+		<member name="Store_Type_Ware_House" value="0" desc="仓库"/>
+		<member name="Store_Type_Package" value="1" desc="包裹"/>
+		<member name="Store_Type_Sale" value="2" desc="摊位"/>
+	</enum>
+	
+	<proto name="RequireStoreItem" desc="请求道具容器信息">
+		<member name="type" prefix="required" type="StoreItemType" desc="容器类型"/>
+	</proto>
+	
+	<proto name="FlushSaleBooth" desc="刷新摊位信息">
+		<member name="saleBooth" prefix="optional" type="PbSaleBooth" desc="摊位"/>
+	</proto>
+	
+	<proto name="FlushWareHouse" desc="刷新仓库信息">
+		<member name="store_items" prefix="repeated" type="PbStoreItem" desc="道具信息"/>
+	</proto>
+		
+	<proto name="RequireAddItem" desc="请求仓库增加道具">
+		<member name="item" prefix="required" type="PbStoreItem" desc="添加道具"/>
+	</proto>
+	
+	<proto name="AddItemReturn" desc="仓库增加道具返回">
+		<member name="ret" prefix="required" type="bool" desc="true表示成功，失败只能是空间不足"/>
+	</proto>
+	
+	<proto name="requireSallPutItem" desc="请求摊位单元格放置道具">
+		<member name="cellId" prefix="required" type="uint32" desc="格子id"/>
+		<member name="itemId" prefix="required" type="uint32" desc="道具id"/>
+		<member name="itemCount" prefix="required" type="uint32" desc="道具数量"/>
+	</proto>
+	
+	<proto name="SaleCellPutItemReturn" desc="摊位放东西结果返回">
+		<member name="ret" prefix="required" type="bool" desc="true表示成功"/>
+	</proto>
+	
+	<proto name="RequirSellPaper" desc="请求寄售行报纸">
+		<member name="time" prefix="required" type="uint32" desc="请求时间"/>
+	</proto>
+	
+	<proto name="SellPaperCell" desc="寄售行报纸单元格">
+		<member name="zoneID" prefix="required" type="uint32" desc="区ID"/>
+		<member name="charid" prefix="required" type="uint64" desc="charid"/>
+		<member name="briefIntroduction" prefix="required" type="string" desc="简介"/>
+	</proto>
+	
+	<proto name="ReturnSellPaper" desc="生成寄售行报纸返回">
+		<member name="createTime" prefix="required" type="uint32" desc="生成时间"/>
+		<member name="paperCell" prefix="repeated" type="SellPaperCell" desc="每个格子的信息"/>
+	</proto>
+	
+</protocol>
+

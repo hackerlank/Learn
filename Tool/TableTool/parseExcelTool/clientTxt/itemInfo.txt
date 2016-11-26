@@ -1,0 +1,6 @@
+id	道具名	级别	获得方式	作用	等级	售价	部位	分类	是否套装	套装作用1	套装属性1	套装作用1	套装属性2	套装作用1	套装属性3	是否卡牌	描述
+int	string	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	string
+id	item	level	getWay	function	grade	price	part	kind	tier	tierFunction1	tierAttribute1	tierFunction2	tierAttribute2	tierFunction3	tierAttribute3	card	describe
+0-100	0.0	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0-100	0.0
+1	背包	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+2	怀表	1	1	1	1	10	1	1	1	1	1	1	1	1	1	1	1

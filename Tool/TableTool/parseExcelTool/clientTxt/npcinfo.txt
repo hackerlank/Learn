@@ -1,0 +1,5 @@
+id	角色名	形象图片	获得条件	作用	作用数值	好感度	关系	任务条件	最喜欢的	级别	描述
+int	string	int	int	int	int	int	int	int	int	int	int
+id	name	pic	getWay	function	functionValue	friendly	require	missionRequire	favourate	grade	describe
+0-10000	0.0	0-10000	0-10000	0-10000	0-10000	0-10000	0-10000	0-10000	0-10000	0-10000	0-10000
+1	1	1	1	1	1	1	1	1	1	1	1

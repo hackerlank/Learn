@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+	<proto name="ClientRequestVersion" desc="发送版本号">
+		<member name="clientVersion" prefix="required" type="uint32" desc="版本号"/>
+	</proto>
+	
+	<enum name="PhoneType" desc="手机类型">
+		<member name="Android" value="0" desc="安卓手机"/>
+		<member name="Iphone" value="1" desc="苹果手机"/>
+	</enum>
+	
+	<enum name="NetType" desc="玩家网络类型">
+		<member name="Tele" value="0" desc="电信"/>
+		<member name="NetCom" value="1" desc="网通"/>
+	</enum>
+	
+	<enum name="UserPlateType" desc="用户所属平台">
+		<member name="Tencent" value="0" desc="腾讯"/>
+		<member name="Baidu" value="1" desc="百度"/>
+		<member name="Qihoo" value="2" desc="360"/>
+		<member name="Other" value="3" desc="其他平台"/>
+	</enum>
+	
+	<proto name="ClientRequestLogin" desc="请求登录">
+		<member name="phoneType" prefix="required" type="PhoneType" desc="手机的类型"/>
+		<member name="phoneUuid" prefix="required" type="string" desc="手机的uuid"/>
+		<member name="gameZone" prefix="required" type="uint32" desc="区号"/>
+		<member name="account" prefix="required" type="string" desc="用户名"/>
+		<member name="netType" prefix="required" type="NetType" desc="玩家网络类型"/>
+		<member name="usertype" prefix="required" type="UserPlateType" desc="玩家来自的平台"/>
+	</proto>
+	
+	<enum name="LoginFailReason" desc="登录失败原因">
+		<member name="AccountOdd" value="0" desc="账号异常"/>
+		<member name="VersionError" value="1" desc="版本错误"/>
+		<member name="NormalMain" value="2" desc="游戏正常维护中"/>
+		<member name="GatewayNotOpen" value="3" desc="网关服务器未开"/>
+		<member name="UserFull" value="4" desc="用户已满"/>
+		<member name="SendZoneError" value="5" desc="向区服务器发送指令失败"/>
+		<member name="TimeOut" value="6" desc="连接超时"/>
+		<member name="UuidError" value="7" desc="UUID错误"/>
+		<member name="NameIllega" value="8" desc="创建角色时，昵称非法"/>
+		<member name="NameAgain" value="9" desc="创建角色时,角色名重复"/>
+		<member name="NotRole" value="10" desc="创建角色后,无角色返回"/>
+	</enum>
+	
+	<proto name="ClientLoginFailReturn" desc="客户端登录失败返回">
+		<member name="failReason" prefix="required" type="LoginFailReason" desc="登录失败原因"/>
+	</proto>
+	
+	<enum name="LoginRetType" desc="成功登录返回类型">
+		<member name="Normal" value="0" desc="正常登录"/>
+		<member name="Kick" value="1" desc="踢掉原来的登录账号"/>
+	</enum>
+	
+	
+	<proto name="LoginSuccessReturn" desc="登录成功返回">
+		<member name="loginTempID" prefix="required" type="uint32" desc="临时id"/>
+		<member name="gatewayIP" prefix="required" type="string" desc="网关ip"/>
+		<member name="gatewayPort" prefix="required" type="uint32" desc="网关端口"/>
+		<member name="keyArr" prefix="repeated" type="uint32" desc="秘钥"/>
+		<member name="loginRet" prefix="required" type="LoginRetType" desc="登录结果"/>
+	</proto>
+	
+	<proto name="LoginGateway" desc="登录网关">
+		<member name="account" prefix="required" type="string" desc="用户名"/>
+		<member name="usertype" prefix="required" type="UserPlateType" desc="玩家来自的平台"/>
+		<member name="phoneType" prefix="required" type="PhoneType" desc="手机的类型"/>
+		<member name="phoneUuid" prefix="required" type="string" desc="手机的uuid"/>
+	</proto>
+	
+	<proto name="GameTime" desc="同步游戏时间">
+		<member name="gameTime" prefix="required" type="uint64" desc="游戏时间，精确到秒"/>
+	</proto>
+	
+	<enum name="SexType" desc="性别类型">
+		<member name="Male" value="0" desc="男性"/>
+		<member name="Female" value="1" desc="女性"/>
+	</enum>
+	
+	<proto name="UserBaseInfo" desc="角色基本信息">
+		<member name="charId" prefix="required" type="uint64" desc="角色id"/>
+		<member name="name" prefix="required" type="string" desc="昵称"/>
+		<member name="sex" prefix="required" type="SexType" desc="性别"/>
+		<member name="level" prefix="required" type="uint32" desc="等级"/>
+		<member name="exp" prefix="required" type="uint64" desc="经验"/>
+		<member name="gold" prefix="required" type="uint64" desc="游戏币，系统产出"/>
+		<member name="gem" prefix="required" type="uint64" desc="人民币，系统只暂且叫灵石吧"/>
+	</proto>
+	
+	<proto name="ReturnUserInfo" desc="返回给客户端角色进本信息">
+		<member name="hasUser" prefix="required" type="bool" desc="是否有角色，ture表示有角色"/>
+		<member name="userBase" prefix="required" type="UserBaseInfo" desc="角色基本信息"/>
+	</proto>
+	
+	<proto name="RequireCreateRole" desc="创建角色">
+		<member name="name" prefix="required" type="string" desc="角色昵称"/>
+		<member name="sex" prefix="required" type="SexType" desc="性别"/>
+		<member name="heroId" prefix="required" type="uint32" desc="英雄id"/>
+	</proto>
+	
+	<enum name="SwitchType" desc="接收世界聊天消息开关">
+		<member name="Open" value="0" desc="开启"/>
+		<member name="Close" value="1" desc="关闭"/>
+	</enum>
+	
+	<proto name="OpReceiveWorldChatCmd" desc="创建角色">
+		<member name="switchFlg" prefix="required" type="SwitchType" desc="接收世界聊天消息开关"/>
+	</proto>
+	
+	<enum name="NoticeType" desc="提示消息类型">
+		<member name="Notice_Kick_Out" value="0" desc="被踢下线"/>
+	</enum>
+	
+	<proto name="NoticeClient" desc="消息提示">
+		<member name="noticeType" prefix="required" type="NoticeType" desc="消息提示类型"/>
+	</proto>
+	
+</protocol>
+
