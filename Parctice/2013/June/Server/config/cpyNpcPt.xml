@@ -1,0 +1,20 @@
+<!--
+	文件名：enterCpyNpcPt.xml
+	文件作用：存储副本配置文件
+	作者：chenzhen
+	创建日期：2012.12.29
+-->
+
+<!--   属性说明
+	mapId ： 表示此npc所在地图id
+	cpyType ： 表示副本类型（1：表示普通副本，2：表示帮派副本）
+	x ：此npc的像素横坐标
+	y ： 此npc的像素纵坐标
+	range ：表示要离此npc多远，才能进入副本	
+-->
+<root>
+  <NpcPt mapId="map_001" cpyType="1" x="7814" y="3707" range="1000" />
+  <NpcPt mapId="map_001" cpyType="2" x="7664" y="3457" range="1000" />
+  <NpcPt mapId="map_010" cpyType="1" x="1679" y="1828" range="1000" />
+  <NpcPt mapId="map_010" cpyType="2" x="7449" y="1954" range="1000" /> 
+</root>

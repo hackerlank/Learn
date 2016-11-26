@@ -1,0 +1,38 @@
+<!--
+	文件名：cpyPassOlder.xml
+	文件作用：副本通关顺序
+	作者：chenzhen
+	创建日期：2012.10.11
+-->
+
+<!--   属性说明
+	cpyId ： 表示哪个副本id受此限制
+	注意：一定要按顺序填<只有打完前一个副本的江湖或者英雄难度，才能开启下一个副本,帮派副本除外>
+-->
+<cpyPassOlder>
+<Older cpyId="001"/>
+<Older cpyId="002"/>
+<Older cpyId="003"/>
+<Older cpyId="004"/>
+<Older cpyId="005"/>
+<Older cpyId="006"/>
+<Older cpyId="007"/>
+<Older cpyId="008"/>
+<Older cpyId="009"/>
+<Older cpyId="010"/> 
+<Older cpyId="011"/>
+<Older cpyId="012"/>
+<Older cpyId="013"/>
+<Older cpyId="014"/>
+<Older cpyId="015"/>
+<Older cpyId="016"/>
+
+<!--part fuben-->
+
+<!-- 
+<Older cpyId="017"/>
+<Older cpyId="018"/>
+<Older cpyId="019"/>
+<Older cpyId="020"/> 
+-->
+</cpyPassOlder>

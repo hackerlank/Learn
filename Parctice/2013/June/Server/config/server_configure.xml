@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<server_configure>
+	<!-- 连接缓存服务器的配置信息 description:连接的缓存服务器类型   -->
+	<game_mem_configure description="game_mem" ip="127.0.0.1" port="11212"></game_mem_configure>
+	
+	<!-- 同名检测缓存服务器  TODO 不要删除，以防需求更改-->
+	<nickname_inspection_mem_configure description="nickname_inspection_mem" ip="127.0.0.1" port="11213"></nickname_inspection_mem_configure>
+
+	<!--日志服务器-->
+	<log_mem_configure description="log_server" ip="192.168.11.12" port="8059"/>
+	
+	<!--充值服务器-->
+	<recharge_mem_configure description="recharge_server" ip="192.168.11.12" port="8999"/>
+	
+	<!--cdKey服务器-->
+	<cdkey_mem_configure description="cdkey_server" ip="192.168.11.12" port="9000"/>
+	
+	<!-- 邮件数据的存储位置 -->
+	<mail_data_url url="mail_data" ></mail_data_url>
+	<!-- 账号获取GM信息的匹配字符 -->
+	<gm_verify passward="/whosyourdaddy"></gm_verify>
+	<ok_ip ip = "192.168.11."/>
+	<ok_ip ip = "180.156.249.91"/>
+	<serverName name="WJR001"></serverName>
+	<dataVersion data="20130606"></dataVersion>
+</server_configure>

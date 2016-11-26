@@ -1,0 +1,133 @@
+<root>
+   <!-- 帮派拉镖 -->
+	<Item id="task00295" brandType="0">
+		<Level guildLevel="1" rewardGuildExp="100" rewardGuildGlory="10" 
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="1000"/>
+		<Level guildLevel="2" rewardGuildExp="200" rewardGuildGlory="20" 
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="2000"/>
+		<Level guildLevel="3" rewardGuildExp="300" rewardGuildGlory="30" 
+			rewardSelfGlory="30" rewardSelfExp="0" rewardSelfMoney="3000"/>
+		<Level guildLevel="4" rewardGuildExp="400" rewardGuildGlory="40" 
+			rewardSelfGlory="40" rewardSelfExp="0" rewardSelfMoney="4000"/>
+		<Level guildLevel="5" rewardGuildExp="500" rewardGuildGlory="50" 
+			rewardSelfGlory="50" rewardSelfExp="0" rewardSelfMoney="5000"/>
+	</Item>
+	<!-- 帮派破敌 -->
+	<Item id="task00297" brandType="3">
+		<Level guildLevel="1" rewardGuildExp="100" rewardGuildGlory="10" 
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="1000"/>
+		<Level guildLevel="2" rewardGuildExp="200" rewardGuildGlory="20" 
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="2000"/>
+		<Level guildLevel="3" rewardGuildExp="300" rewardGuildGlory="30" 
+			rewardSelfGlory="30" rewardSelfExp="0" rewardSelfMoney="3000"/>
+		<Level guildLevel="4" rewardGuildExp="400" rewardGuildGlory="40" 
+			rewardSelfGlory="40" rewardSelfExp="0" rewardSelfMoney="4000"/>
+		<Level guildLevel="5" rewardGuildExp="500" rewardGuildGlory="50" 
+			rewardSelfGlory="50" rewardSelfExp="0" rewardSelfMoney="5000"/>
+	</Item>
+	
+	<!-- 帮会假设 -->
+	<Item id="task00421" brandType="2">
+		<Level guildLevel="1" rewardGuildExp="100" rewardGuildGlory="12" 
+			rewardSelfGlory="12" rewardSelfExp="0" rewardSelfMoney="1000"/>
+		<Level guildLevel="2" rewardGuildExp="200" rewardGuildGlory="24" 
+			rewardSelfGlory="24" rewardSelfExp="0" rewardSelfMoney="2000"/>
+		<Level guildLevel="3" rewardGuildExp="300" rewardGuildGlory="36" 
+			rewardSelfGlory="36" rewardSelfExp="0" rewardSelfMoney="3000"/>
+		<Level guildLevel="4" rewardGuildExp="400" rewardGuildGlory="48" 
+			rewardSelfGlory="48" rewardSelfExp="0" rewardSelfMoney="4000"/>
+		<Level guildLevel="5" rewardGuildExp="500" rewardGuildGlory="60" 
+			rewardSelfGlory="60" rewardSelfExp="0" rewardSelfMoney="5000"/>
+	</Item>
+<!-- 	加强联系 -->
+	<Item id="task00422" brandType="4">
+		<Level guildLevel="1" rewardGuildExp="100" rewardGuildGlory="12" 
+			rewardSelfGlory="12" rewardSelfExp="0" rewardSelfMoney="1000"/>
+		<Level guildLevel="2" rewardGuildExp="200" rewardGuildGlory="24" 
+			rewardSelfGlory="24" rewardSelfExp="0" rewardSelfMoney="2000"/>
+		<Level guildLevel="3" rewardGuildExp="300" rewardGuildGlory="36" 
+			rewardSelfGlory="36" rewardSelfExp="0" rewardSelfMoney="3000"/>
+		<Level guildLevel="4" rewardGuildExp="400" rewardGuildGlory="48" 
+			rewardSelfGlory="48" rewardSelfExp="0" rewardSelfMoney="4000"/>
+		<Level guildLevel="5" rewardGuildExp="500" rewardGuildGlory="60" 
+			rewardSelfGlory="60" rewardSelfExp="0" rewardSelfMoney="5000"/>
+	</Item>
+	<!-- 签到 -->
+	<Item id="guildNormSign" brandType="0">
+		<Level guildLevel="1" rewardGuildExp="50" rewardGuildGlory="5" 
+			rewardSelfGlory="5" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="2" rewardGuildExp="100" rewardGuildGlory="10" 
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="3" rewardGuildExp="150" rewardGuildGlory="15" 
+			rewardSelfGlory="15" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="4" rewardGuildExp="200" rewardGuildGlory="20" 
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="5" rewardGuildExp="250" rewardGuildGlory="25" 
+			rewardSelfGlory="25" rewardSelfExp="0" rewardSelfMoney="0"/>
+	</Item>
+	<!-- 元宝签到 -->
+	<Item id="guildGoldSign" brandType="1">
+		<Level guildLevel="1" rewardGuildExp="100" rewardGuildGlory="10" 
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="2" rewardGuildExp="200" rewardGuildGlory="20" 
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="3" rewardGuildExp="300" rewardGuildGlory="30" 
+			rewardSelfGlory="30" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="4" rewardGuildExp="400" rewardGuildGlory="40" 
+			rewardSelfGlory="40" rewardSelfExp="0" rewardSelfMoney="0"/>
+		<Level guildLevel="5" rewardGuildExp="500" rewardGuildGlory="50" 
+			rewardSelfGlory="50" rewardSelfExp="0" rewardSelfMoney="0"/>
+	</Item>
+	<!-- 阵营争夺战福利 -->
+	<Item id="campLeader" brandType="0">
+		<Level guildLevel="1" rewardGuildGlory="0" rewardGuildExp="150" rewardGuildMoney="0"
+			rewardSelfGlory="5" rewardSelfExp="0" rewardSelfMoney="10000"/>
+		<Level guildLevel="2" rewardGuildGlory="0" rewardGuildExp="300" rewardGuildMoney="0"
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="20000"/>
+		<Level guildLevel="3" rewardGuildGlory="0" rewardGuildExp="450" rewardGuildMoney="0"
+			rewardSelfGlory="15" rewardSelfExp="0" rewardSelfMoney="30000"/>
+		<Level guildLevel="4" rewardGuildGlory="0" rewardGuildExp="600" rewardGuildMoney="0"
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="40000"/>
+		<Level guildLevel="5" rewardGuildGlory="0" rewardGuildExp="750" rewardGuildMoney="0"
+			rewardSelfGlory="25" rewardSelfExp="0" rewardSelfMoney="50000"/>
+	</Item>
+	<!-- 武林盟主福利 -->
+	<Item id="campChief" brandType="0">
+		<Level guildLevel="1" rewardGuildGlory="0" rewardGuildExp="200" rewardGuildMoney="0"
+			rewardSelfGlory="10" rewardSelfExp="0" rewardSelfMoney="10000"/>
+		<Level guildLevel="2" rewardGuildGlory="0" rewardGuildExp="400" rewardGuildMoney="0"
+			rewardSelfGlory="20" rewardSelfExp="0" rewardSelfMoney="20000"/>
+		<Level guildLevel="3" rewardGuildGlory="0" rewardGuildExp="600" rewardGuildMoney="0"
+			rewardSelfGlory="30" rewardSelfExp="0" rewardSelfMoney="30000"/>
+		<Level guildLevel="4" rewardGuildGlory="0" rewardGuildExp="800" rewardGuildMoney="0"
+			rewardSelfGlory="40" rewardSelfExp="0" rewardSelfMoney="40000"/>
+		<Level guildLevel="5" rewardGuildGlory="0" rewardGuildExp="1000" rewardGuildMoney="0"
+			rewardSelfGlory="50" rewardSelfExp="0" rewardSelfMoney="50000"/>
+	</Item>
+	<!-- 帮派排名日福利 -->
+	<Item id="dayRankReward" brandType="0">
+		<Level guildLevel="1" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="2" rewardSelfExp="2000" rewardSelfMoney="1000"/>
+		<Level guildLevel="2" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="4" rewardSelfExp="10000" rewardSelfMoney="5000"/>
+		<Level guildLevel="3" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="6" rewardSelfExp="50000" rewardSelfMoney="10000"/>
+		<Level guildLevel="4" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="8" rewardSelfExp="100000" rewardSelfMoney="50000"/>
+		<Level guildLevel="5" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="10" rewardSelfExp="500000" rewardSelfMoney="100000"/>
+	</Item>	
+	<!-- 帮派排名周福利 -->
+	<Item id="weekRankReward" brandType="0">
+		<Level guildLevel="1" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="10" rewardSelfExp="10000" rewardSelfMoney="5000"/>
+		<Level guildLevel="2" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="20" rewardSelfExp="50000" rewardSelfMoney="25000"/>
+		<Level guildLevel="3" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="30" rewardSelfExp="250000" rewardSelfMoney="50000"/>
+		<Level guildLevel="4" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="40" rewardSelfExp="500000" rewardSelfMoney="250000"/>
+		<Level guildLevel="5" rewardGuildGlory="0" rewardGuildExp="0" rewardGuildMoney="0"
+			rewardSelfGlory="50" rewardSelfExp="2500000" rewardSelfMoney="500000"/>
+	</Item>		
+</root>

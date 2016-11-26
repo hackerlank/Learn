@@ -1,0 +1,25 @@
+<root>
+	<!--帮派宴席-->
+	<!--id:宴席类型 cost:花费非绑定元宝 lastTime:持续时间(单位：分钟) contb:请宴者对帮派贡献度 HostReward:请宴者福利 JoinReward:赴宴者福利 money:绑定银两 glory:帮贡 reputation:声望-->
+	<!--bpyx:帮派宴席-->
+	<Feast id="item104" cost="20" lastTime="1800" contb="64">
+		<HostReward hostMoney="20000" hostGlory="75" hostReputation="60"/>
+		<JoinReward joinMoney="14000" joinGlory="50" joinReputation="40"/>
+	</Feast>
+	<Feast id="item105" cost="50" lastTime="1800" contb="180">
+		<HostReward hostMoney="50000" hostGlory="225" hostReputation="180"/>
+		<JoinReward joinMoney="30000" joinGlory="150" joinReputation="120"/>
+	</Feast>
+	<Feast id="item106" cost="100" lastTime="1800" contb="950">
+		<HostReward hostMoney="1000000" hostGlory="525" hostReputation="375"/>
+		<JoinReward joinMoney="600000" joinGlory="350" joinReputation="250"/>
+	</Feast>
+	<Feast id="item107" cost="500" lastTime="1800" contb="500">
+		<HostReward hostMoney="5000000" hostGlory="3000" hostReputation="2250"/>
+		<JoinReward joinMoney="300000" joinGlory="2000" joinReputation="1500"/>
+	</Feast>
+	<Feast id="item104" cost="0" lastTime="3600" contb="0">
+		<HostReward hostMoney="0" hostGlory="0" hostReputation="0"/>
+		<JoinReward joinMoney="15000" joinGlory="30" joinReputation="20"/>
+	</Feast>
+</root>

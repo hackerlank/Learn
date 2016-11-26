@@ -1,0 +1,178 @@
+<!--
+	文件名：cpyLimit.xml
+	文件作用：存储所有副本限制条
+	作者：chenzhen
+	创建日期：2012.06.11
+-->
+
+<!--   属性说明
+	cpyLimitId ：表示副本限制编号
+	cpyId ： 表示哪个副本id受此限制
+	jugTme : 过关评估时间<秒为单位>
+	jdgGolRat : 副本通关奖励分
+	baseGole  : 通关基础分
+	num : 表示所进副本人数限制
+	rank ： 表示所进副本等级限制
+	room ： 表示此副本房间数
+	注：还有道具限制，此处没加
+	name：副本名字
+	costFatigue:消耗体力值
+-->
+<cpyLimit>
+<cpyLimit cpyLimitId="001" cpyId="001_0" jugTme="1200" baseGole="20" jdgGolRat="60" num="1" rank="10" name="桃花厅" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="002" cpyId="001_1" jugTme="1200" baseGole="25" jdgGolRat="55" num="1" rank="10" name="桃花厅" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="003" cpyId="001_2" jugTme="1200" baseGole="30" jdgGolRat="50" num="1" rank="10" name="桃花厅" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="004" cpyId="002_0" jugTme="1200" baseGole="20" jdgGolRat="60" num="1" rank="20" name="金瓯水道" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="005" cpyId="002_1" jugTme="1200" baseGole="25" jdgGolRat="55" num="1" rank="20" name="金瓯水道" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="006" cpyId="002_2" jugTme="1200" baseGole="30" jdgGolRat="50" num="1" rank="20" name="金瓯水道" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="007" cpyId="003_0" jugTme="1200" baseGole="20" jdgGolRat="60" num="1" rank="25" name="迎春阁" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="008" cpyId="003_1" jugTme="1200" baseGole="25" jdgGolRat="55" num="1" rank="25" name="迎春阁" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="009" cpyId="003_2" jugTme="1200" baseGole="30" jdgGolRat="50" num="1" rank="25" name="迎春阁" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="010" cpyId="004_0" jugTme="1200" baseGole="25" jdgGolRat="55" num="1" rank="30" name="迎春阁地下室" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="011" cpyId="004_1" jugTme="1200" baseGole="30" jdgGolRat="50" num="1" rank="30" name="迎春阁地下室" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="012" cpyId="004_2" jugTme="1200" baseGole="35" jdgGolRat="45" num="1" rank="30" name="迎春阁地下室" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="013" cpyId="005_0" jugTme="1200" baseGole="25" jdgGolRat="55" num="1" rank="35" name="珠光宝气阁" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="014" cpyId="005_1" jugTme="1200" baseGole="30" jdgGolRat="50" num="1" rank="35" name="珠光宝气阁" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="015" cpyId="005_2" jugTme="1200" baseGole="35" jdgGolRat="45" num="1" rank="35" name="珠光宝气阁" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="016" cpyId="006_0" jugTme="1800" baseGole="25" jdgGolRat="45" num="1" rank="40" name="幻宫迷境一层" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="017" cpyId="006_1" jugTme="1800" baseGole="30" jdgGolRat="40" num="1" rank="40" name="幻宫迷境一层" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="018" cpyId="006_2" jugTme="1800" baseGole="35" jdgGolRat="35" num="1" rank="40" name="幻宫迷境一层" costFatigue="5" room="12"/>
+
+
+<cpyLimit cpyLimitId="019" cpyId="007_0" jugTme="1500" baseGole="30" jdgGolRat="45" num="1" rank="45" name="幻宫迷境二层" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="020" cpyId="007_1" jugTme="1500" baseGole="35" jdgGolRat="40" num="1" rank="45" name="幻宫迷境二层" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="021" cpyId="007_2" jugTme="1500" baseGole="40" jdgGolRat="35" num="1" rank="45" name="幻宫迷境二层" costFatigue="5" room="12"/>
+
+
+
+<cpyLimit cpyLimitId="022" cpyId="008_0" jugTme="2100" baseGole="30" jdgGolRat="35" num="1" rank="50" name="渡劫" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="023" cpyId="008_1" jugTme="2100" baseGole="35" jdgGolRat="30" num="1" rank="50" name="渡劫" costFatigue="5" room="12"/>
+<cpyLimit cpyLimitId="024" cpyId="008_2" jugTme="2100" baseGole="40" jdgGolRat="25" num="1" rank="50" name="渡劫" costFatigue="5" room="12"/>
+
+
+
+<cpyLimit cpyLimitId="025" cpyId="009_0" jugTme="2100" baseGole="30" jdgGolRat="35" num="1" rank="52" name="石甲阵" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="026" cpyId="009_1" jugTme="2100" baseGole="35" jdgGolRat="30" num="1" rank="52" name="石甲阵" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="027" cpyId="009_2" jugTme="2100" baseGole="40" jdgGolRat="25" num="1" rank="52" name="石甲阵" costFatigue="10" room="12"/>
+
+
+<!--   tafang cpy
+<cpyLimit cpyLimitId="028" cpyId="010_0" num="1" rank="1" name="" costFatigue="5" room="12"/>
+-->
+
+
+<cpyLimit cpyLimitId="028" cpyId="010_0" jugTme="1800" baseGole="20" jdgGolRat="35" num="1" rank="54" name="落阳坡" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="029" cpyId="010_1" jugTme="1800" baseGole="20" jdgGolRat="30" num="1" rank="54" name="落阳坡" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="030" cpyId="010_2" jugTme="1800" baseGole="20" jdgGolRat="25" num="1" rank="54" name="落阳坡" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="031" cpyId="011_0" jugTme="1500" baseGole="35" jdgGolRat="40" num="1" rank="56" name="通天神台" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="032" cpyId="011_1" jugTme="1500" baseGole="40" jdgGolRat="35" num="1" rank="56" name="通天神台" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="033" cpyId="011_2" jugTme="1500" baseGole="45" jdgGolRat="30" num="1" rank="56" name="通天神台" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="034" cpyId="012_0" jugTme="1800" baseGole="35" jdgGolRat="35" num="1" rank="60" name="桃园刺杀" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="035" cpyId="012_1" jugTme="1800" baseGole="40" jdgGolRat="30" num="1" rank="60" name="桃园刺杀" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="036" cpyId="012_2" jugTme="1800" baseGole="45" jdgGolRat="25" num="1" rank="60" name="桃园刺杀" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="037" cpyId="013_0" jugTme="1800" baseGole="40" jdgGolRat="30" num="1" rank="65" name="英雄岛" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="038" cpyId="013_1" jugTme="1800" baseGole="45" jdgGolRat="25" num="1" rank="65" name="英雄岛" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="039" cpyId="013_2" jugTme="1800" baseGole="50" jdgGolRat="20" num="1" rank="65" name="英雄岛" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="040" cpyId="014_0" jugTme="2100" baseGole="40" jdgGolRat="25" num="1" rank="70" name="九龙棋手" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="041" cpyId="014_1" jugTme="2100" baseGole="45" jdgGolRat="20" num="1" rank="70" name="九龙棋手" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="042" cpyId="014_2" jugTme="2100" baseGole="50" jdgGolRat="15" num="1" rank="70" name="九龙棋手" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="043" cpyId="015_0" jugTme="2100" baseGole="40" jdgGolRat="25" num="1" rank="75" name="鬼域密室" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="044" cpyId="015_1" jugTme="2100" baseGole="45" jdgGolRat="20" num="1" rank="75" name="鬼域密室" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="045" cpyId="015_2" jugTme="2100" baseGole="50" jdgGolRat="15" num="1" rank="75" name="鬼域密室" costFatigue="10" room="12"/>
+
+
+<cpyLimit cpyLimitId="046" cpyId="016_0" jugTme="2400" baseGole="50" jdgGolRat="15" num="1" rank="80" name="清风三观" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="047" cpyId="016_1" jugTme="2400" baseGole="55" jdgGolRat="10" num="1" rank="80" name="清风三观" costFatigue="10" room="12"/>
+<cpyLimit cpyLimitId="048" cpyId="016_2" jugTme="2400" baseGole="60" jdgGolRat="5" num="1" rank="80" name="清风三观" costFatigue="10" room="12"/>
+
+<!-- 以下等级限制是帮派等级的限制，不是人物等级限制 -->
+
+<cpyLimit cpyLimitId="049" cpyId="017_3" jugTme="1800" baseGole="30" jdgGolRat="40" num="1" rank="1" name="紫金雀" costFatigue="5" room="12"/>
+
+<cpyLimit cpyLimitId="050" cpyId="018_3" jugTme="2100" baseGole="40" jdgGolRat="25" num="1" rank="1" name="噬月狼" costFatigue="5" room="12"/>
+
+<cpyLimit cpyLimitId="051" cpyId="019_3" jugTme="2100" baseGole="50" jdgGolRat="15" num="1" rank="1" name="白纹虎" costFatigue="10" room="12"/>
+
+<cpyLimit cpyLimitId="052" cpyId="020_3" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="1" name="震天龙" costFatigue="10" room="12"/>
+
+<!--任务副本：法海不懂爱-->
+
+<cpyLimit cpyLimitId="053" cpyId="021_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="1" name="法海不懂爱" costFatigue="0" room="12"/>
+
+<!-- 青衣楼 -->
+<cpyLimit cpyLimitId="054" cpyId="022_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="2" name="尚武开天第一层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="055" cpyId="023_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="5" name="尚武开天第二层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="056" cpyId="024_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="8" name="尚武开天第三层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="057" cpyId="025_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="11" name="尚武开天第四层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="058" cpyId="026_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="14" name="尚武开天第五层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="059" cpyId="027_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="15" name="尚武开天第六层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="060" cpyId="028_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="18" name="尚武开天第七层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="061" cpyId="029_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="21" name="尚武开天第八层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="062" cpyId="030_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="24" name="尚武开天第九层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="063" cpyId="031_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="27" name="尚武开天第十层" costFatigue="0" room="12"/>
+
+<cpyLimit cpyLimitId="064" cpyId="032_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="28" name="精武辟世第一层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="065" cpyId="033_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="31" name="精武辟世第二层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="066" cpyId="034_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="34" name="精武辟世第三层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="067" cpyId="035_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="37" name="精武辟世第四层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="068" cpyId="036_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="40" name="精武辟世第五层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="069" cpyId="037_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="41" name="精武辟世第六层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="070" cpyId="038_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="43" name="精武辟世第七层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="071" cpyId="039_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="45" name="精武辟世第八层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="072" cpyId="040_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="47" name="精武辟世第九层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="073" cpyId="041_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="49" name="精武辟世第十层" costFatigue="0" room="12"/>
+
+<cpyLimit cpyLimitId="074" cpyId="042_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="50" name="渡劫立侠第一层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="075" cpyId="043_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="52" name="渡劫立侠第二层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="076" cpyId="044_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="54" name="渡劫立侠第三层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="077" cpyId="045_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="56" name="渡劫立侠第四层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="078" cpyId="046_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="58" name="渡劫立侠第五层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="079" cpyId="047_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="60" name="渡劫立侠第六层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="080" cpyId="048_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="62" name="渡劫立侠第七层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="081" cpyId="049_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="64" name="渡劫立侠第八层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="082" cpyId="050_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="66" name="渡劫立侠第九层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="083" cpyId="051_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="68" name="渡劫立侠第十层" costFatigue="0" room="12"/>
+
+<cpyLimit cpyLimitId="084" cpyId="052_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="70" name="豪侠建封第一层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="085" cpyId="053_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="72" name="豪侠建封第二层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="086" cpyId="054_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="74" name="豪侠建封第三层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="087" cpyId="055_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="75" name="豪侠建封第四层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="088" cpyId="056_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="75" name="豪侠建封第五层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="089" cpyId="057_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="76" name="豪侠建封第六层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="090" cpyId="058_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="76" name="豪侠建封第七层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="091" cpyId="059_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="77" name="豪侠建封第八层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="092" cpyId="060_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="77" name="豪侠建封第九层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="093" cpyId="061_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="77" name="豪侠建封第十层" costFatigue="0" room="12"/>
+
+<cpyLimit cpyLimitId="094" cpyId="062_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="78" name="霸王降生第一层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="095" cpyId="063_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="78" name="霸王降生第二层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="096" cpyId="064_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="78" name="霸王降生第三层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="097" cpyId="065_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="79" name="霸王降生第四层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="098" cpyId="066_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="79" name="霸王降生第五层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="099" cpyId="067_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="79" name="霸王降生第六层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="100" cpyId="068_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="80" name="霸王降生第七层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="101" cpyId="069_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="80" name="霸王降生第八层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="102" cpyId="070_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="80" name="霸王降生第九层" costFatigue="0" room="12"/>
+<cpyLimit cpyLimitId="103" cpyId="071_0" jugTme="1200" baseGole="60" jdgGolRat="20" num="1" rank="80" name="霸王降生第十层" costFatigue="0" room="12"/>
+
+</cpyLimit>

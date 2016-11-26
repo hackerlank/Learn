@@ -1,0 +1,23 @@
+<root>
+<!-- zhanli吞噬副宠后获得进阶点数 number吞噬副宠后相应获得的进阶点数 -->
+	<partA id="zhanli">
+		<range max="300" number="2"/>
+		<range max="500" number="3"/>
+		<range max="1000" number="5"/>
+		<range max="2000" number="10"/>
+		<range max="4000" number="20"/>
+		<range max="6000" number="30"/>
+		<range max="8000" number="40"/>
+		<range max="10000" number="50"/>
+		<range max="14000" number="80"/>
+		<range max="5000000" number="100"/>
+    </partA>
+<!-- xidian宠物属性刷新 cost每次刷新消耗绑定金币数量  charge每次单独保留属性时候消耗绑定元宝数量 
+outattackval外功攻击  inattackval内功攻击  hit命中  crit暴击-->
+	<partB id="xidian" cost="20000" charge="2">
+	    <outattackval min="-20" max="10"/>
+		<inattackval min="-20" max="10"/>
+		<hit min="-10" max="3"/>
+		<crit min="-10" max="3"/>
+	</partB>
+</root>

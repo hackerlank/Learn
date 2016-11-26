@@ -1,0 +1,23 @@
+<root>
+<!-- flag 0为外功防御	1内功防御  2为外功攻击	 3为内功攻击	4为生命		5为真气  6为命中  7为暴击  8为闪避  9为韧性 -->
+  <skill id="f_zq_124_103" name="初级金钟罩" flag="0" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_104" name="初级铁布衫" flag="1" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_105" name="初级狂傲战意" flag="2" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_106" name="初级炽魂心法" flag="3" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_101" name="初级万物命源" flag="4" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_102" name="初级气纳百川" flag="5" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_107" name="初级千里眼" flag="6" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_108" name="初级纤羽步" flag="7" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_109" name="初级百炼韧骨" flag="8" value="3" grade="1" fullGrade="1"/>
+  <skill id="f_zq_124_110" name="初级暴怒掌控" flag="9" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_103" name="初级金钟罩" flag="0" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_104" name="初级铁布衫" flag="1" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_105" name="初级狂傲战意" flag="2" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_106" name="初级炽魂心法" flag="3" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_101" name="初级万物命源" flag="4" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_102" name="初级气纳百川" flag="5" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_107" name="初级千里眼" flag="6" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_108" name="初级纤羽步" flag="7" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_109" name="初级百炼韧骨" flag="8" value="3" grade="1" fullGrade="1"/>
+  <skill id="b_zq_124_110" name="初级暴怒掌控" flag="9" value="3" grade="1" fullGrade="1"/>
+</root>

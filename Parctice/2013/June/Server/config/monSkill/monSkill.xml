@@ -1,0 +1,163 @@
+<!--
+	文件名：monSkill.xml
+	文件作用：存储所有副本限制条
+	作者：chenzhen
+	创建日期：2012.07.09
+	文件名：monSkill.xml
+	文件作用：存储所有副本限制条
+	作者：chenzhen
+	最后修改日期：2012.08.06
+-->
+
+<!--   属性说明
+	id ：表示技能id
+	name ： 表示技能名称
+	rank : 技能受限等级
+	relPer ： 技能触发频率
+	angerVal ： 技能触发怒气值
+	cdTime：技能cd时间
+	during:技能是否为可持续性（1为可持续，0为瞬发）
+	recoverLife：回血量占总血量的比例
+	trgPer：当血量低于这一比例时，也触发
+	lastTime:持续时间
+	注：副本，和非副本的Boss技能都在此处
+	callTypeT：召唤陷阱
+	callTypeM：召唤小怪
+	callTypeTAM：召唤小怪和陷阱
+-->
+
+<root>
+  <skill id="callTypeT" name="召唤陷阱" rank="1" relPer="0.5" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="callTypeM" name="召唤小怪" rank="1" relPer="0.5" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="callTypeTAM" name="召唤小怪和陷阱" rank="1" relPer="0.5" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="colChaHue01" name="幻化" rank="20" relPer="0.15" angVal="5000" cdTime="2" playCd="1.7" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="roarFla01" name="烈焰" rank="25" relPer="0.2" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.4" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="sprWing01" name="扬翅" rank="30" relPer="0.2" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon01" name="半月刀环" rank="35" relPer="0.25" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.5" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dragMovTal01" name="小龙摆尾" rank="40" relPer="0.1" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="darkSukBld01" name="暗夜吸血" rank="45" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="0" recoverLife="0" trgPer="0.3" lastTime="0"/>
+  <skill id="tightEncir01" name="天罗地网" rank="55" relPer="0.12" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="supreSword01" name="无上剑锋" rank="50" relPer="0.2" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="0.6" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="verHookShot01" name="反勾手" rank="57" relPer="0.25" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.65" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="conqKnife01" name="霸王刀" rank="59" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.7" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="delMethod01" name="蛊惑之术" rank="70" relPer="0.12" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="snow01" name="遮天之雹" rank="70" relPer="0.15" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.75" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="proArms01" name="铁臂神拳" rank="61" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.8" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="spentBult01" name="强弩之末" rank="63" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="strRimLes01" name="万拂无边" rank="75" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.9" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="whipMovAllDir01" name="鞭抖八方" rank="76" relPer="0.16" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="chakko01" name="必死之心" rank="77" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="flowerBloom01" name="百花齐放" rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="stranded01" name="龟缩" rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="5"/>
+  <skill id="holyAttack01" name="神圣一击" rank="85" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="thousandBud01" name="万佛朝宗" rank="85" relPer="0.15" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.22" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="colChaHue02" name="幻化" rank="22" relPer="0.2" angVal="5000" cdTime="2" playCd="1.7" hrtRatio="0.4" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="roarFla02" name="烈焰" rank="27" relPer="0.2" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.5" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="sprWing02" name="扬翅" rank="32" relPer="0.25" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon02" name="半月刀环" rank="37" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.6" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dragMovTal02" name="小龙摆尾" rank="42" relPer="0.1" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0.65" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="darkSukBld02" name="暗夜吸血" rank="47" relPer="0.12" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="0" recoverLife="0" trgPer="0.5" lastTime="0"/>
+  <skill id="tightEncir02" name="天罗地网" rank="57" relPer="0.2" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="supreSword02" name="无上剑锋" rank="52" relPer="0.25" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="0.7" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="verHookShot02" name="反勾手" rank="59" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.75" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="conqKnife02" name="霸王刀" rank="61" relPer="0.12" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.8" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="delMethod02" name="蛊惑之术" rank="72" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="snow02" name="遮天之雹" rank="70" relPer="0.16" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="proArms02" name="铁臂神拳" rank="63" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.9" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="spentBult02" name="强弩之末" rank="65" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="strRimLes02" name="万拂无边" rank="77" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="1" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="whipMovAllDir02" name="鞭抖八方" rank="78" relPer="0.16" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="chakko02" name="必死之心" rank="79" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.15" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="flowerBloom02" name="百花齐放" rank="82" relPer="0.16" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="stranded02" name="龟缩" rank="82" relPer="0.16" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="5"/>
+  <skill id="holyAttack02" name="神圣一击" rank="87" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="thousandBud02" name="万佛朝宗" rank="87" relPer="0.2" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.32" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="colChaHue03" name="幻化" rank="24" relPer="0.2" angVal="5000" cdTime="2" playCd="1.7" hrtRatio="0.5" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="roarFla03" name="烈焰" rank="29" relPer="0.25" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.6" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="sprWing03" name="扬翅" rank="34" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.65" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon03" name="半月刀环" rank="39" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.7" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dragMovTal03" name="小龙摆尾" rank="44" relPer="0.12" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0.75" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="darkSukBld03" name="暗夜吸血" rank="49" relPer="0.2" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="0" recoverLife="0" trgPer="0.5" lastTime="0"/>
+  <skill id="tightEncir03" name="天罗地网" rank="59" relPer="0.25" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="supreSword03" name="无上剑锋" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="0.8" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="verHookShot03" name="反勾手" rank="61" relPer="0.12" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="conqKnife03" name="霸王刀" rank="63" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.9" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="delMethod03" name="蛊惑之术" rank="74" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="snow03" name="遮天之雹" rank="70" relPer="0.16" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="proArms03" name="铁臂神拳" rank="65" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="1" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="spentBult03" name="强弩之末" rank="67" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="strRimLes03" name="万拂无边" rank="79" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="1.1" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="whipMovAllDir03" name="鞭抖八方" rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="1.15" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="chakko03" name="必死之心" rank="81" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="flowerBloom03" name="百花齐放" rank="84" relPer="0.15" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="stranded03" name="龟缩" rank="84" relPer="0.15" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="5"/>
+  <skill id="holyAttack03" name="神圣一击" rank="89" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="1.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="thousandBud03" name="万佛朝宗" rank="89" relPer="0.15" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="1.42" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="colChaHue04" name="幻化" rank="14" relPer="0.95" angVal="5000" cdTime="2" playCd="1.7" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="rowSword" name="划剑" rank="17" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="deadHit" name="致命一击" rank="20" relPer="0.15" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="blastCut" name="爆破斩" rank="24" relPer="0.15" angVal="5000" cdTime="2" playCd="0.7" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon04" name="半月刀环" rank="20" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="linkStab" name="连刺" rank="27" relPer="0.16" angVal="5000" cdTime="2" playCd="0.7" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="posionSword" name="淬毒箭" rank="33" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="spentBult04" name="强弩之末" rank="34" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="crackPalm01" name="裂岳斩" rank="31" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="crackPalm02" name="裂岳斩" rank="32" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="angKnife" name="怒刀崩地" rank="35" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="guiDogBeat" name="打狗棒法" rank="37" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.35" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="slap" name="猛击" rank="43" relPer="0.17" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="StaHitCrown" name="稳打天灵" rank="44" relPer="0.2" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="swig" name="大喝" rank="50" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear" name="铁骨扇" rank="51" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="openFire" name="火力全开" rank="55" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="spentBult05" name="强弩之末" rank="55" relPer="0.18" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="hawkSprWig" name="大鹏展翅" rank="64" relPer="0.18" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="fury" name="暴怒" rank="65" relPer="0.18" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="iaido" name="居合" rank="70" relPer="0.17" angVal="5000" cdTime="2" playCd="0.7" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="mrsanSwod" name="紫宵剑法" rank="78" relPer="0.2" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dieHard" name="不死之身  " rank="79" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="3"/>
+  <skill id="reelLaw" name="转轮大法  " rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="rowSword01" name="划剑" rank="21" relPer="0.16" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="darkSukBld04" name="暗夜吸血" rank="36" relPer="0.18" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0.5" lastTime="0"/>
+  <skill id="swig01" name="大喝" rank="56" relPer="0.18" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="mrsanSwod01" name="紫宵剑法" rank="76" relPer="0.18" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="sprWing04" name="扬翅" rank="40" relPer="0.17" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="flowerBloom04" name="百花齐放" rank="50" relPer="0.2" angVal="5000" cdTime="2" playCd="1.2" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="stranded04" name="龟缩" rank="50" relPer="0.15" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0" during="1" recoverLife="0" trgPer="0" lastTime="5"/>
+  <skill id="darkSukBld05" name="暗夜吸血" rank="60" relPer="0.15" angVal="5000" cdTime="2" playCd="1" hrtRatio="0" during="0" recoverLife="0" trgPer="0.5" lastTime="0"/>
+  <skill id="proArms04" name="铁臂神拳" rank="70" relPer="0.16" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.95" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dragMovTal04" name="小龙摆尾" rank="80" relPer="0.18" angVal="5000" cdTime="2" playCd="1.1" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="roarFla04" name="烈焰" rank="90" relPer="0.18" angVal="5000" cdTime="2" playCd="1" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="delMethod04" name="蛊惑之术" rank="100" relPer="0.18" angVal="5000" cdTime="2" playCd="1" hrtRatio="1.05" during="1" recoverLife="0" trgPer="0" lastTime="4"/>
+  <skill id="snow04" name="遮天之雹" rank="70" relPer="0.18" angVal="5000" cdTime="2" playCd="1.3" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="roarFla05" name="烈焰" rank="100" relPer="0.18" angVal="5000" cdTime="2" playCd="1" hrtRatio="1.05" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="whipMovAllDir04" name="鞭抖八方" rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear01" name="铁骨扇" rank="20" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear02" name="铁骨扇" rank="40" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear03" name="铁骨扇" rank="60" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear04" name="铁骨扇" rank="70" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.65" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear05" name="铁骨扇" rank="80" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.75" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="ironFleLear06" name="铁骨扇" rank="120" relPer="0.15" angVal="5000" cdTime="2" playCd="1.5" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="iaido01" name="居合" rank="20" relPer="0.17" angVal="5000" cdTime="2" playCd="0.7" hrtRatio="0.3" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="iaido02" name="居合" rank="23" relPer="0.17" angVal="5000" cdTime="2" playCd="0.7" hrtRatio="0.45" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="chakko04" name="必死之心" rank="22" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.55" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="chakko05" name="必死之心" rank="25" relPer="0.15" angVal="5000" cdTime="2" playCd="0.8" hrtRatio="0.65" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon05" name="半月刀环" rank="18" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.85" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="halfMoon06" name="半月刀环" rank="23" relPer="0.1" angVal="5000" cdTime="2" playCd="0.9" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="StaHitCrown01" name="稳打天灵" rank="23" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="muDaoRen" name="木道人" rank="67" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="luXiaoFeng" name="陆小凤" rank="12" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="huaManLou" name="花满楼" rank="80" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="shangGuanFy" name="上官飞燕" rank="65" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="huoXiu" name="霍休" rank="55" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="shangGuanDf" name="上官丹凤" rank="25" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="xiMenCx" name="西门吹雪" rank="25" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="jinPengDW" name="金鹏大王" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="nineLong" name="九龙朝圣" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="dailFire" name="地狱鬼火" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="toxicSmog" name="毒雾 " rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="gravel" name="碎石陀螺" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="swallow" name="燕返" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="lotusFlower" name="步步生莲" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+  <skill id="krissSword" name="天魔降伏" rank="54" relPer="0.1" angVal="5000" cdTime="2" playCd="1" hrtRatio="0.25" during="0" recoverLife="0" trgPer="0" lastTime="0"/>
+</root>

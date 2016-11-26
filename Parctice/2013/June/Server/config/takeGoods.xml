@@ -1,0 +1,209 @@
+<!--
+		文件名：takeGoods.xml
+		文件作用：存储副本配置文件
+		作者：chenzhen
+		创建日期：2012.09.04
+	-->
+
+	<!--   属性说明
+		typeId ： 表示物品类型id，这个服务器木有具体标准
+		name ：表示物品名字
+		photoId : 表示此物品的图片id（注意，要跟客户端对应）
+		isDis : 表示此物品会否消失（1：会消失   0：不消失）
+		trigByMsg : 表示此物品触发方式（1：通过客户端消息触发<比如饭桌>，0：自动触发）	
+		takeModle:表示同时有几个人可以采的模式<如果同时只能一个人采，请填1，否则，填2>
+		taskStyle：表示采集物的类型<如果是任务可采集物品，请填1，是宴席，请填2，其余的，暂填0   3为帮派战旗   宠物为4   5阵营资源战的资源>
+		takeTme:表示采集这个物品需要多少秒.
+		isMove : 表示是否可以移动<如是，请填1，否则填0>
+		brandType:采集物品子类型(当type=0时:brandType=0:采集直接放到背包中的物品；1:采集完没物品放到背包中；2:采集后随机出物品放包裹里  3:代表狮子  4：)
+		offerWords:采集信息提示语
+		durTme:表示宴席的使用后持续时间<如果不是宴席，请填0>
+		isInterrupt:是否打断，如果不打断请填0，否则请填1
+	-->
+<takeGoods>
+<!-- 和武举人重合部分 -->
+  <item typeId="item097" goodsId="b_rw_100_00385_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="游侠旗" isInterrupt="0" photoId="I004"/> 
+  <item typeId="item098" goodsId="b_rw_100_00389_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="密宗旗" isInterrupt="0" photoId="I005"/>
+  <item typeId="item099" goodsId="b_rw_100_00381_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="邪派旗" isInterrupt="0" photoId="I006"/>
+  <item typeId="item100" goodsId="b_rw_100_00388_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="密宗资源" isInterrupt="0" photoId="I007"/> 
+  <item typeId="item101" goodsId="b_rw_100_00380_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="邪派资源" isInterrupt="0" photoId="I008"/>
+  <item typeId="item102" goodsId="b_rw_100_00384_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在夺取中..." name="游侠资源" isInterrupt="0" photoId="I009"/>
+  <item typeId="item103" goodsId="b_rw_101_00402_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="2" isMove="0" offerWords="正在打开中..." name="宝箱" isInterrupt="0" photoId="I010"/>
+  <item typeId="item104" goodsId="0" trigByMsg="1" isDis="1" takeModle="2" taskStyle="2" takeTme="300" durTme="1800" brandType="1" isMove="0" offerWords="正在就餐中...（需要5分钟）" name="家常小菜" isInterrupt="0" photoId="I017" emptyPhotoId="I020"/>
+  <item typeId="item105" goodsId="0" trigByMsg="1" isDis="1" takeModle="2" taskStyle="2" takeTme="300" durTme="1800" brandType="1" isMove="0" offerWords="正在就餐中...（需要5分钟）" name="经典大餐" isInterrupt="0" photoId="I018" emptyPhotoId="I020"/>
+  <item typeId="item106" goodsId="0" trigByMsg="1" isDis="1" takeModle="2" taskStyle="2" takeTme="300" durTme="1800" brandType="1" isMove="0" offerWords="正在就餐中...（需要5分钟）" name="宫廷宴席" isInterrupt="0" photoId="I016" emptyPhotoId="I020"/>
+  <item typeId="item107" goodsId="0" trigByMsg="1" isDis="1" takeModle="2" taskStyle="2" takeTme="300" durTme="1800" brandType="1" isMove="0" offerWords="正在就餐中...（需要5分钟）" name="满汉全席" isInterrupt="0" photoId="I019" emptyPhotoId="I020"/>
+  <item typeId="item108" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="4" takeTme="10" durTme="0" brandType="3" isMove="1" offerWords="正在抓宠中..." name="一代宠物" isInterrupt="0" photoId="CP101"/>
+  <item typeId="item109" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="4" takeTme="10" durTme="0" brandType="4" isMove="1" offerWords="正在抓宠中..." name="一代宠物" isInterrupt="0" photoId="CP102"/>
+  <item typeId="item110" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="4" takeTme="10" durTme="0" brandType="5" isMove="1" offerWords="正在抓宠中..." name="一代宠物" isInterrupt="0" photoId="CP103"/>
+  <item typeId="item111" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="4" takeTme="10" durTme="0" brandType="6" isMove="1" offerWords="正在抓宠中..." name="一代宠物" isInterrupt="0" photoId="CP104"/>
+  
+  <item typeId="item112" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="5" takeTme="5" durTme="1800" brandType="1" isMove="0" offerWords="正在夺取阵营资源..." name="水晶" isInterrupt="0" photoId="I074"/>
+  
+  <item typeId="item113" goodsId="b_rw_111_00010_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="营救中..." name="江湖义士" isInterrupt="0" photoId="I014"/>
+  <item typeId="item114" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="3" takeTme="10" durTme="0" brandType="0" isMove="0" offerWords="正在采集中..." name="帮派旗A" isInterrupt="0" photoId="I072"/>
+  <item typeId="item115" goodsId="0" trigByMsg="0" isDis="1" takeModle="1" taskStyle="3" takeTme="10" durTme="0" brandType="1" isMove="0" offerWords="正在采集中..." name="帮派旗B" isInterrupt="0" photoId="I073"/>
+  <item typeId="item116" goodsId="b_rw_100_00102_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="正在采集中..." name="木柴" isInterrupt="0" photoId="I002"/>
+
+
+
+  <!-- 龙翔山道 -->
+  <item typeId="item001" goodsId="b_rw_111_00001_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这就是上官姑娘掉落的玉佩了吧！" name="玉佩" isInterrupt="0" photoId="I025"/> 
+  <item typeId="item002" goodsId="b_rw_111_00003_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="石鼎炉被打开的机关内找到藏宝图……" name="石鼎炉" isInterrupt="0" photoId="I021"/> 
+  <item typeId="item003" goodsId="b_rw_111_00005_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="居然养了这么多的猴子！" name="猴子" isInterrupt="0" photoId="I063"/> 
+  <item typeId="item004" goodsId="b_rw_111_00004_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这衣服也太多了……" name="洗衣盆" isInterrupt="0" photoId="I023"/> 
+  <!-- <item typeId="item005" goodsId="b_rw_111_00006_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="花呀，你为什么别样红？" name="鲜花" isInterrupt="0" photoId="I024"/>  -->
+  <item typeId="item006" goodsId="b_rw_111_00006_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="应该就是这本！" name="账本" isInterrupt="0" photoId="I022"/> 
+  <item typeId="item007" goodsId="b_rw_111_00007_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="感受世界，感受爱。" name="鲜花" isInterrupt="0" photoId="I024"/>
+  <item typeId="item117" goodsId="b_rw_111_00008_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="回生仙草，真的可以起死回生？" name="回生仙草" isInterrupt="0" photoId="I038"/>
+  <!-- 大金鹏王府 -->
+  <item typeId="item008" goodsId="b_rw_111_00011_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="好香的女儿红！" name="女儿红" isInterrupt="0" photoId="I013"/> 
+  <!--   <item typeId="item009" goodsId="b_rw_111_00010_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="花满楼故意把玉佩丢了。" name="玉佩" isInterrupt="0" photoId="I025"/>  -->
+  <!--   <item typeId="item010" goodsId="b_rw_111_00011_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="采集鲜花中..." name="鲜花" isInterrupt="0" photoId="I024"/>  -->
+  <!-- <item typeId="item011" goodsId="b_rw_111_00012_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="老子快渴死了……" name="花" isInterrupt="0" photoId="I024"/>  -->
+  <!-- <item typeId="item012" goodsId="b_rw_111_00013_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="一把锈迹斑斑的断剑。" name="断剑1" isInterrupt="0" photoId="I026"/>  -->
+  <!-- <item typeId="item013" goodsId="b_rw_111_00014_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="上面写着“花”和“陆”。" name="断剑2" isInterrupt="0" photoId="I026"/>  -->
+  <item typeId="item014" goodsId="b_rw_111_00012_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="发信号提醒大家注意！" name="信号弹" isInterrupt="0" photoId="I027"/> 
+  <!-- <item typeId="item015" goodsId="b_rw_111_00016_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="点燃信号弹中……" name="信号弹2" isInterrupt="0" photoId="I027"/> -->
+  <item typeId="item118" goodsId="b_rw_111_00013_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这个好像是青衣楼的名册。" name="神秘名册" isInterrupt="0" photoId="I022"/> 
+  <!-- 霍休小屋 -->
+  <!-- <item typeId="item016" goodsId="b_rw_111_00017_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="挑水亦能学武功！" name="水桶" isInterrupt="0" photoId="I029"/>  -->
+  <item typeId="item017" goodsId="b_rw_111_00017_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="好香甜的果子。" name="野果" isInterrupt="0" photoId="I028"/> 
+  <!-- <item typeId="item018" goodsId="b_rw_111_00019_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="欲练此功，必先自攻……" name="武林秘笈" isInterrupt="0" photoId="I022"/>  -->
+  <!-- <item typeId="item019" goodsId="b_rw_111_00020_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="扬起拳头破坏中……" name="机关兽" isInterrupt="0" photoId="I002"/>  -->
+  <!-- <item typeId="item020" goodsId="b_rw_111_00021_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这只鞋子看起来好眼熟啊！" name="一只鞋子" isInterrupt="0" photoId="I030"/> -->
+  <item typeId="item119" goodsId="b_rw_111_00014_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这应该就是丢失的胭脂盒了。." name="胭脂盒" isInterrupt="0" photoId="I043"/> 
+  <item typeId="item120" goodsId="b_rw_111_00015_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="好沉好沉啊……" name="石头" isInterrupt="0" photoId="I062"/>
+  <item typeId="item121" goodsId="b_rw_111_00016_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="看起来真不好整理。" name="木材" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item122" goodsId="b_rw_111_00018_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这些草药应该可以治疗姑娘的伤." name="草药" isInterrupt="0" photoId="I038"/> 
+  <!-- 乱葬岗 -->  
+  <!-- <item typeId="item021" goodsId="b_rw_111_00022_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="哟嗬！哟嗬！劈柴真舒坦！" name="木柴" isInterrupt="0" photoId="I002"/>  -->
+  <item typeId="item022" goodsId="b_rw_111_00021_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="峨眉派的秘籍，还是不要偷看的好。" name="武学秘籍" isInterrupt="0" photoId="I022"/> 
+  <!-- <item typeId="item023" goodsId="b_rw_111_00024_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="上官丹凤来袭——传国玉玺——" name="监听筒" isInterrupt="0" photoId="I031"/>  -->
+  <!-- <item typeId="item024" goodsId="b_rw_111_00025_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="西门吹雪的剑削铁如泥。" name="西门吹雪的剑" isInterrupt="0" photoId="I032"/>  -->
+  <!-- <item typeId="item025" goodsId="b_rw_111_00026_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="陆小凤想烧了青衣楼。" name="火把" isInterrupt="0" photoId="I015"/> -->
+  <item typeId="item123" goodsId="b_rw_111_00019_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="通透如美玉的晨露。" name="露水" isInterrupt="0" photoId="I048"/> 
+  <item typeId="item124" goodsId="b_rw_111_00020_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这铁盒装了什么？" name="铁盒" isInterrupt="0" photoId="I059"/>
+  <item typeId="item125" goodsId="b_rw_111_00022_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="暗器上似乎有剧毒啊。" name="暗器" isInterrupt="0" photoId="I042"/> 
+  <!-- 上林春 -->  
+  <item typeId="item026" goodsId="b_rw_111_00023_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="不愧是上林春的招牌酒，好香！" name="竹叶青酒" isInterrupt="0" photoId="I013"/> 
+  <!-- <item typeId="item027" goodsId="b_rw_111_00031_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="查看阎铁珊的画像。" name="阎铁珊画像" isInterrupt="0" photoId="I033"/> 
+  <item typeId="item028" goodsId="b_rw_111_00032_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="查看独孤鹤的画像。" name="独孤鹤画像" isInterrupt="0" photoId="I033"/> 
+  <item typeId="item029" goodsId="b_rw_111_00033_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="查看霍休的画像。" name="霍休画像" isInterrupt="0" photoId="I033"/> 
+  <item typeId="item030" goodsId="b_rw_111_00034_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="救命啊！救命啊，杀人啦！" name="被捆绑的雪儿" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item031" goodsId="b_rw_111_00035_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="上帝之水可解万渴！" name="一壶水" isInterrupt="0" photoId="I034"/> -->
+  <item typeId="item126" goodsId="b_rw_111_00026_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="丢了这个掌柜该急死了。" name="账本" isInterrupt="0" photoId="I022"/> 
+  <item typeId="item127" goodsId="b_rw_111_00027_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="闻着都好醉人啊。" name="杜康酒" isInterrupt="0" photoId="I013"/> 
+  <item typeId="item128" goodsId="b_rw_111_00032_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="真是一把好剑！" name="宝剑" isInterrupt="0" photoId="I032"/>
+  <!-- 水蛇帮领地 -->  
+  <!-- <item typeId="item032" goodsId="b_rw_111_00034_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="你看见倭寇已经包围了此处。" name="千里眼" isInterrupt="0" photoId="I039"/>  -->
+  <item typeId="item033" goodsId="b_rw_111_00036_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="熄灭掉解除信号。" name="篝火" isInterrupt="0" photoId="I036"/> 
+  <item typeId="item034" goodsId="b_rw_111_00039_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="解除邪术全赖这个了。" name="解毒药草" isInterrupt="0" photoId="I038"/> 
+  <item typeId="item035" goodsId="b_rw_111_00035_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="破坏了的话水蛇帮就没武器了。" name="武器架" isInterrupt="0" photoId="I040"/> 
+  <item typeId="item036" goodsId="b_rw_111_00037_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="看来用着有些年头了。" name="钵盂" isInterrupt="0" photoId="I035"/> 
+  <item typeId="item037" goodsId="b_rw_111_00041_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="使用可增加解毒效果。" name="香草" isInterrupt="0" photoId="I038"/> 
+  <item typeId="item038" goodsId="b_rw_111_00033_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="里面都空了，但闻着好香。" name="铁锅" isInterrupt="0" photoId="I037"/>
+  <!-- 又一村 -->  
+  <!-- <item typeId="item039" goodsId="b_rw_111_00046_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="刀，刮胡子的刀。" name="柳叶刀" isInterrupt="0" photoId="I042"/> 
+  <item typeId="item040" goodsId="b_rw_111_00047_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="陆小凤夹住剑。" name="木人陆" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item041" goodsId="b_rw_111_00048_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="花满楼被陆小凤挡在身后。" name="木人花" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item042" goodsId="b_rw_111_00049_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="西门吹雪被剑插中" name="木人西" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item043" goodsId="b_rw_111_00050_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="采集机关材料中……" name="机关关键部位材料" isInterrupt="0" photoId="I041"/> 
+  <item typeId="item044" goodsId="b_rw_111_00051_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这么清的水，难倒没污染么？" name="一盆清水" isInterrupt="0" photoId="I029"/> 
+  <item typeId="item045" goodsId="b_rw_111_00052_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="果然是山珍海味！" name="盛宴" isInterrupt="0" photoId="I019"/> -->
+  <item typeId="item129" goodsId="b_rw_111_00042_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="是坛好酒。" name="酒" isInterrupt="0" photoId="I013"/> 
+  <item typeId="item130" goodsId="b_rw_111_00044_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="应该就是这本了。" name="剑谱" isInterrupt="0" photoId="I022"/>
+  <item typeId="item131" goodsId="b_rw_111_00045_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这个看来就是蜂蜜了。" name="蜂蜜" isInterrupt="0" photoId="I001"/>
+  <item typeId="item132" goodsId="b_rw_111_00046_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这酒壶看起来真精致。" name="一壶酒" isInterrupt="0" photoId="I034"/>
+  <item typeId="item133" goodsId="b_rw_111_00047_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这竟然是青衣楼第一楼的地图。" name="地图" isInterrupt="0" photoId="I047"/> 
+  <!-- 白虎镇 -->  
+  <!-- <item typeId="item046" goodsId="b_rw_111_00053_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="点燃信号弹，释放假信号。" name="信号弹" isInterrupt="0" photoId="I027"/> 
+  <item typeId="item047" goodsId="b_rw_111_00054_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="替上官丹凤松绑中……" name="上官丹凤" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item048" goodsId="b_rw_111_00055_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="回天有术，就选仙草。" name="回生仙草" isInterrupt="0" photoId="I038"/>  -->
+  <item typeId="item049" goodsId="b_rw_111_00052_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这鸟巢都掉到树下了。" name="鸟蛋" isInterrupt="0" photoId="I044"/> 
+  <item typeId="item050" goodsId="b_rw_111_00053_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="看上去真馋人。" name="仙桃" isInterrupt="0" photoId="I045"/> 
+  <!-- <item typeId="item051" goodsId="b_rw_111_00058_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="轻松易容，马上变身。" name="化妆品" isInterrupt="0" photoId="I043"/> 
+  <item typeId="item052" goodsId="b_rw_111_00059_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="正在临摹超级剑法……" name="剑谱" isInterrupt="0" photoId="I022"/> -->
+  <item typeId="item134" goodsId="b_rw_111_00048_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这中间好像藏着什么……" name="竹子" isInterrupt="0" photoId="I011"/> 
+  <item typeId="item135" goodsId="b_rw_111_00049_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这茶叶看着好特殊啊。" name="仙茶" isInterrupt="0" photoId="I061"/>
+  <item typeId="item136" goodsId="b_rw_111_00050_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这都多久没洗了……" name="水桶" isInterrupt="0" photoId="I029"/>
+  <item typeId="item137" goodsId="b_rw_111_00051_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="看来经常有人扫墓。" name="前庄主墓" isInterrupt="0" photoId="I056"/> 
+  <!-- 枫林书院 -->  
+  <!-- <item typeId="item053" goodsId="b_rw_111_00060_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="你闻到了一阵浓香。" name="好酒" isInterrupt="0" photoId="I013"/> 
+  <item typeId="item054" goodsId="b_rw_111_00061_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="捉牛可是体力活！" name="牛" isInterrupt="0" photoId="I002"/> --> 
+  <item typeId="item055" goodsId="b_rw_111_00054_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="书院还有人没逃脱！" name="千里眼" isInterrupt="0" photoId="I039"/> 
+  <!-- <item typeId="item056" goodsId="b_rw_111_00063_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="正在绘制草图……" name="草图" isInterrupt="0" photoId="I047"/> 
+  <item typeId="item057" goodsId="b_rw_111_00064_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="正在拆解机关……" name="机关" isInterrupt="0" photoId="I046"/> 
+  <item typeId="item058" goodsId="b_rw_111_00065_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="好剑谱！学学先……" name="北斗七剑剑法" isInterrupt="0" photoId="I022"/> 
+  <item typeId="item059" goodsId="b_rw_111_00066_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="果然有成千上万的木人骨架！" name="木人骨架" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item060" goodsId="b_rw_111_00067_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="开启机关中……" name="护栏机关" isInterrupt="0" photoId="I046"/> -->
+  <item typeId="item138" goodsId="b_rw_111_00055_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这什么破鞋啊。" name="鞋子" isInterrupt="0" photoId="I030"/>
+  <item typeId="item139" goodsId="b_rw_111_00056_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="看着真甜。" name="果子" isInterrupt="0" photoId="I028"/> 
+  <item typeId="item140" goodsId="b_rw_111_00057_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="小心别爆炸了。" name="炸药" isInterrupt="0" photoId="I054"/> 
+  <!-- 珠光宝气阁 -->  
+  <!-- <item typeId="item061" goodsId="b_rw_111_00068_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="到底谁在枯井里？！" name="枯井" isInterrupt="0" photoId="I050"/> 
+  <item typeId="item062" goodsId="b_rw_111_00069_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="嘿—咻！看我把你拉上来！" name="井绳" isInterrupt="0" photoId="I049"/> 
+  <item typeId="item063" goodsId="b_rw_111_00070_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="鞭子、滴蜡等各种酷刑中……" name="青衣剑侠" isInterrupt="0" photoId="I069"/> 
+  <item typeId="item064" goodsId="b_rw_111_00072_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="通透如美玉的晨露。" name="晨露" isInterrupt="0" photoId="I048"/> 
+  <item typeId="item065" goodsId="b_rw_111_00074_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="时间正在慢慢溜走……" name="一炷香" isInterrupt="0" photoId="I052"/> 
+  <item typeId="item066" goodsId="b_rw_111_00075_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="好酒！再来一碗！" name="酒" isInterrupt="0" photoId="I013"/> 
+  <item typeId="item067" goodsId="b_rw_111_00076_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="推开石门，别有洞天。" name="石门" isInterrupt="0" photoId="I051"/> -->
+  <item typeId="item141" goodsId="b_rw_111_00058_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="里面有好多珠宝啊！" name="宝箱" isInterrupt="0" photoId="I010"/>
+  <item typeId="item142" goodsId="b_rw_111_00059_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="已经昏迷不醒了。" name="重伤弟子" isInterrupt="0" photoId="I014"/>
+  <item typeId="item143" goodsId="b_rw_111_00060_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这把剑看着比较锋利。" name="宝剑" isInterrupt="0" photoId="I032"/>
+  <item typeId="item144" goodsId="b_rw_111_00061_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="点一定要快点关掉才行。" name="机关" isInterrupt="0" photoId="I046"/> 
+  <!-- 荒岭边塞 -->  
+  <!-- <item typeId="item068" goodsId="b_rw_111_00077_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="你看见朝廷大队人马！" name="千里眼" isInterrupt="0" photoId="I039"/>  -->
+  <item typeId="item069" goodsId="b_rw_111_00067_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="已经快爆炸了！" name="炸药" isInterrupt="0" photoId="I054"/> 
+  <item typeId="item070" goodsId="b_rw_111_00064_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="要悄悄弄坏才行。" name="导火线" isInterrupt="0" photoId="I053"/> 
+  <!-- <item typeId="item071" goodsId="b_rw_111_00080_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="点燃篝火，引出山贼。" name="篝火" isInterrupt="0" photoId="I036"/> 
+  <item typeId="item072" goodsId="b_rw_111_00081_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="木人脚底显示刘牛出品。" name="木人" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item073" goodsId="b_rw_111_00082_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="布置路障中……" name="路障" isInterrupt="0" photoId="I046"/> -->
+  <item typeId="item145" goodsId="b_rw_111_00062_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="好沉啊。" name="货物" isInterrupt="0" photoId="I008"/> 
+  <item typeId="item146" goodsId="b_rw_111_00065_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="武器真多。" name="武器架" isInterrupt="0" photoId="I040"/> 
+  <item typeId="item147" goodsId="b_rw_111_00066_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="突出重围就靠这个了！" name="烟雾弹" isInterrupt="0" photoId="I057"/> 
+  <item typeId="item148" goodsId="b_rw_111_00068_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="拆了就没事了吗？" name="机关" isInterrupt="0" photoId="I046"/> 
+  <!-- 边塞鬼村 -->  
+  <!-- <item typeId="item074" goodsId="b_rw_111_00083_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="感觉自己像个盗墓贼？！" name="无名坟墓" isInterrupt="0" photoId="I056"/>  -->
+  <item typeId="item075" goodsId="b_rw_111_00070_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="居然有六根脚趾。" name="上官丹凤的尸体" isInterrupt="0" photoId="I070"/> 
+  <item typeId="item076" goodsId="b_rw_111_00071_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这剑真能有用吗？" name="木剑" isInterrupt="0" photoId="I055"/> 
+  <!-- <item typeId="item077" goodsId="b_rw_111_00086_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="金鹏大王已经没有双腿了。" name="金鹏大王" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item078" goodsId="b_rw_111_00087_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="夏天煮饭，冬天烤火的木柴。" name="木柴" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item079" goodsId="b_rw_111_00088_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="服用此草，再无烦忧。" name="毒草" isInterrupt="0" photoId="I038"/> 
+  <item typeId="item080" goodsId="b_rw_111_00089_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="快些服下毒草吧！" name="中毒的病人" isInterrupt="0" photoId="I012"/> -->
+  <item typeId="item159" goodsId="b_rw_111_00069_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="是个雕有燕子的玉佩。" name="玉佩" isInterrupt="0" photoId="I025"/> 
+  <!-- 清风观 -->  
+  <!-- <item typeId="item081" goodsId="b_rw_111_00091_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="打开月光宝盒，即刻穿越！" name="月光宝盒" isInterrupt="0" photoId="I059"/>
+  <item typeId="item082" goodsId="b_rw_111_00092_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="玫瑰代表女人，百合代表男人。" name="鲜花" isInterrupt="0" photoId="I024"/> 
+  <item typeId="item083" goodsId="b_rw_111_00093_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="好酒解千愁！" name="好酒" isInterrupt="0" photoId="I013"/> 
+  <item typeId="item084" goodsId="b_rw_111_00094_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="磨药中……" name="药罐" isInterrupt="0" photoId="I058"/>
+  <item typeId="item085" goodsId="b_rw_111_00095_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="释放烟雾弹，制造混乱。" name="土制烟雾弹" isInterrupt="0" photoId="I057"/> 
+  <item typeId="item086" goodsId="b_rw_111_00096_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="打开机关，救出霍天青。" name="火柱机关" isInterrupt="0" photoId="I015"/> -->
+  <item typeId="item149" goodsId="b_rw_111_00072_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="召集所有峨眉弟子了！" name="号角" isInterrupt="0" photoId="I031"/> 
+  <item typeId="item150" goodsId="b_rw_111_00073_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="有什么玄妙的地方吗？" name="外部机关" isInterrupt="0" photoId="I053"/> 
+  <item typeId="item151" goodsId="b_rw_111_00074_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="要立即停止才行！" name="内部机关" isInterrupt="0" photoId="I053"/> 
+  <item typeId="item160" goodsId="b_rw_111_00075_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这一撮爆炸了不堪设想！" name="炸药" isInterrupt="0" photoId="I054"/> 
+  <!-- 金鹏王朝遗址 -->  
+  <!-- <item typeId="item087" goodsId="b_rw_111_00098_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="想不到古人用的烟叶这么好……" name="烟叶" isInterrupt="0" photoId="I061"/>
+  <item typeId="item088" goodsId="b_rw_111_00099_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="此剑法莫非是教人抽烟？！" name="无上烟法" isInterrupt="0" photoId="I022"/> 
+  <item typeId="item089" goodsId="b_rw_111_00100_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="叶子有点发黄……" name="育灵草" isInterrupt="0" photoId="I038"/> 
+  <item typeId="item090" goodsId="b_rw_111_00101_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="破开西面，方便进入。" name="栅栏" isInterrupt="0" photoId="I051"/>
+  <item typeId="item091" goodsId="b_rw_111_00102_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="用来练弹指没问题吧？" name="沙石" isInterrupt="0" photoId="I060"/> 
+  <item typeId="item092" goodsId="b_rw_111_00103_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="哈！嗬！呀！……" name="装满石头的框" isInterrupt="0" photoId="I062"/> -->
+  <item typeId="item152" goodsId="b_rw_111_00076_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这井水清甜冰凉。" name="井" isInterrupt="0" photoId="I050"/>
+  <item typeId="item153" goodsId="b_rw_111_00077_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="上官飞燕原来在那。" name="千里眼" isInterrupt="0" photoId="I039"/>
+  <item typeId="item154" goodsId="b_rw_111_00078_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="看来是刚打上来的井水。" name="一桶水" isInterrupt="0" photoId="I029"/>
+  <item typeId="item155" goodsId="b_rw_111_00079_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="看上去挺锋利的。" name="宝剑" isInterrupt="0" photoId="I032"/>
+  <!-- 京师郊外 -->  
+  <!-- <item typeId="item093" goodsId="b_rw_111_00104_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="霍休带领大部队往京师开去！" name="瞭望镜" isInterrupt="0" photoId="I039"/>
+  <item typeId="item094" goodsId="b_rw_111_00105_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="香草以配之，必媚！" name="香草" isInterrupt="0" photoId="I038"/> 
+  <item typeId="item095" goodsId="b_rw_111_00106_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="正在拆解木人舌头……" name="木人" isInterrupt="0" photoId="I002"/> 
+  <item typeId="item096" goodsId="b_rw_111_00108_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="埋放连营雷中……" name="连营雷" isInterrupt="0" photoId="I054"/> -->
+  <item typeId="item156" goodsId="b_rw_111_00080_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="这水真解渴。" name="水桶" isInterrupt="0" photoId="I029"/>
+  <item typeId="item157" goodsId="b_rw_111_00081_1" trigByMsg="0" isDis="1" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="0" isMove="0" offerWords="这该还给大金鹏王。" name="藏宝图" isInterrupt="0" photoId="I047"/> 
+  <item typeId="item158" goodsId="b_rw_111_00084_1" trigByMsg="0" isDis="0" takeModle="1" taskStyle="1" takeTme="3" durTme="0" brandType="1" isMove="0" offerWords="烟花真好看！" name="烟花" isInterrupt="0" photoId="I027"/> 
+
+  
+  
+  
+</takeGoods>

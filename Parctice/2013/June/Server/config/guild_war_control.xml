@@ -1,0 +1,25 @@
+<root>
+<!-- room_control阵营资源战信息    pickScore每个水晶所得积分  perCampLimitHeros资源战对每个阵营人数限制   roomLimitHeros每个房间人数限制
+time_ctl阵营资源战时间设定  prepareTime战斗预备时间  pkTime采集资源时间  brushTime资源刷新间隔时间  rewardTime奖励物品保护时间
+from_location玩家进入点   
+camp_win_reward阵营获得第一名的奖励 minScore获得奖励最低积分数要求 money金币奖励  prestige声望奖励
+join_reward未获得水晶的参与玩家的奖励
+res_num_reward获得水晶玩家的奖励系数  玩家获得金币数量=moneyBase*收集水晶所得积分   玩家获得声望数量=prestigeBase*[收集水晶所得积分/100](取整)
+rank_fst_reward个人排名奖励 -->
+	<guild_war_control quickStartNeedHeroNum="3">
+		<time_item lockTime="120" perpareTime="90" readyTime="5" pkTime="600" rewardTime="60" protectTime="180"/>
+		<score_item killScoreOfHero="2" killScoreOfGuild="1" AFlagScoreOfHero="5" AFlagScoreOfGuild="25" BFlagScoreOfHero="5" BFlagScoreOfGuild="25" MFlagScoreOfHero="5" MFlagScoreOfGuild="30"/>
+		<reward_item>
+			<joinReward money="11000" glory="1000" reserved="0"/>
+			<scoreReward moneyBase="11000" gloryBase="1000" reserved="0"/>
+			<winGuildFirstReward money="11000" glory="1000" reserved="0"/>
+			<winGuildSecondReward money="11000" glory="1000" reserved="0"/>
+			<winGuildThirdReward money="11000" glory="1000" reserved="0"/>
+			<winGuildOtherReward money="11000" glory="1000" reserved="0"/>
+			<loseGuildFirstReward money="11000" glory="1000" reserved="0"/>
+			<loseGuildSecondReward money="11000" glory="1000" reserved="0"/>
+			<loseGuildThirdReward money="11000" glory="1000" reserved="0"/>
+			<loseGuildOtherReward money="11000" glory="1000" reserved="0"/>
+		</reward_item>
+	</guild_war_control>
+</root>

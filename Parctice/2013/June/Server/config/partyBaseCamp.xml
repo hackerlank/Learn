@@ -1,0 +1,18 @@
+<!--
+	文件名：partyBaseCamp.xml
+	文件作用：帮派大本营
+	作者：chenzhen
+	创建日期：2012.12.14
+-->
+
+<!--   属性说明
+	partyLevel ： 表示此地图对应的帮派等级
+	partyMapId : 表示此地图的mapId
+	num ： 表示进入此地图的人数限制
+	room ： 表示此副本房间数
+	注：还有时间限制，暂时还木有加
+-->
+<partyBaseCamp>
+<partyBaseCamp campLimitId="001" campMapId="map_030" num="1" partyLevel="1" room="120"/>
+<partyBaseCamp campLimitId="002" campMapId="map_031" num="1" partyLevel="3" room="120"/>
+</partyBaseCamp>

@@ -1,0 +1,105 @@
+<root>
+
+<!-- flag 0为外功防御	1内功防御  2为外功攻击	 3为内功攻击	4为生命		5为真气  6为命中  7为暴击  8为闪避  9为韧性 
+number  需要武魂点数    rate每次消耗绑定元宝刷新出现属性概率  freeRate玩家每天免费三次刷新出现属性概率
+color  ui面板上显示字体颜色  1为蓝色  2为粉色  3为橙色
+cost1 开启第二条属性消耗的绑定元宝数量 cost2开启第三条属性消耗的绑定元宝 cost3三条属性同时刷新消耗的元宝 cost4锁定一条属性后刷新消耗的元宝 cost5锁定两条属性后刷新消耗的元宝 -->
+  <part id="0" number="100" cost1="100" cost2="150" cost3="5" cost4="10" cost5="15" freeTimes="3">
+  <skill flag="0" rate="70" freeRate="80" min="2000" max="4000" color="1"/>
+  <skill flag="1" rate="140" freeRate="160" min="2000" max="4000" color="1"/>
+  <skill flag="2" rate="210" freeRate="240" min="1000" max="1300" color="1"/>
+  <skill flag="3" rate="280" freeRate="320" min="1000" max="1300" color="1"/>
+  <skill flag="4" rate="350" freeRate="400" min="1000" max="5000" color="1"/>
+  <skill flag="5" rate="420" freeRate="480" min="1000" max="5000" color="1"/>
+  <skill flag="6" rate="490" freeRate="560" min="10" max="50" color="1"/>
+  <skill flag="7" rate="560" freeRate="640" min="10" max="50" color="1"/>
+  <skill flag="8" rate="630" freeRate="720" min="10" max="50" color="1"/>
+  <skill flag="9" rate="700" freeRate="800" min="10" max="50" color="1"/>
+  <skill flag="0" rate="720" freeRate="815" min="4000" max="8000" color="2"/>
+  <skill flag="1" rate="740" freeRate="830" min="4000" max="8000" color="2"/>
+  <skill flag="2" rate="760" freeRate="845" min="1300" max="1800" color="2"/>
+  <skill flag="3" rate="780" freeRate="860" min="1300" max="1800" color="2"/>
+  <skill flag="4" rate="800" freeRate="875" min="5000" max="10000" color="2"/>
+  <skill flag="5" rate="820" freeRate="890" min="5000" max="10000" color="2"/>
+  <skill flag="6" rate="840" freeRate="905" min="50" max="100" color="2"/>
+  <skill flag="7" rate="860" freeRate="920" min="50" max="100" color="2"/>
+  <skill flag="8" rate="880" freeRate="935" min="50" max="100" color="2"/>
+  <skill flag="9" rate="900" freeRate="950" min="50" max="100" color="2"/>
+  <skill flag="0" rate="910" freeRate="955" min="8000" max="10000" color="3"/>
+  <skill flag="1" rate="920" freeRate="960" min="8000" max="10000" color="3"/>
+  <skill flag="2" rate="930" freeRate="965" min="1800" max="2300" color="3"/>
+  <skill flag="3" rate="940" freeRate="970" min="1800" max="2300" color="3"/>
+  <skill flag="4" rate="950" freeRate="975" min="10000" max="15000" color="3"/>
+  <skill flag="5" rate="960" freeRate="980" min="10000" max="15000" color="3"/>
+  <skill flag="6" rate="970" freeRate="985" min="100" max="150" color="3"/>
+  <skill flag="7" rate="980" freeRate="990" min="100" max="150" color="3"/>
+  <skill flag="8" rate="990" freeRate="995" min="100" max="150" color="3"/>
+  <skill flag="9" rate="1000" freeRate="1000" min="100" max="150" color="3"/>
+  </part>
+  
+  <part id="1" number="500" cost1="100" cost2="150" cost3="5" cost4="10" cost5="15" freeTimes="3">
+  <skill flag="0" rate="65" freeRate="80" min="4000" max="8000" color="1"/>
+  <skill flag="1" rate="130" freeRate="160" min="4000" max="8000" color="1"/>
+  <skill flag="2" rate="195" freeRate="240" min="1300" max="1800" color="1"/>
+  <skill flag="3" rate="260" freeRate="320" min="1300" max="1800" color="1"/>
+  <skill flag="4" rate="325" freeRate="400" min="5000" max="10000" color="1"/>
+  <skill flag="5" rate="390" freeRate="480" min="5000" max="10000" color="1"/>
+  <skill flag="6" rate="455" freeRate="560" min="50" max="100" color="1"/>
+  <skill flag="7" rate="520" freeRate="640" min="50" max="100" color="1"/>
+  <skill flag="8" rate="585" freeRate="720" min="50" max="100" color="1"/>
+  <skill flag="9" rate="650" freeRate="800" min="50" max="100" color="1"/>
+  <skill flag="0" rate="675" freeRate="815" min="8000" max="10000" color="2"/>
+  <skill flag="1" rate="700" freeRate="830" min="8000" max="10000" color="2"/>
+  <skill flag="2" rate="725" freeRate="845" min="1800" max="2300" color="2"/>
+  <skill flag="3" rate="750" freeRate="860" min="1800" max="2300" color="2"/>
+  <skill flag="4" rate="775" freeRate="875" min="10000" max="15000" color="2"/>
+  <skill flag="5" rate="800" freeRate="890" min="10000" max="15000" color="2"/>
+  <skill flag="6" rate="825" freeRate="905" min="100" max="150" color="2"/>
+  <skill flag="7" rate="850" freeRate="920" min="100" max="150" color="2"/>
+  <skill flag="8" rate="875" freeRate="935" min="100" max="150" color="2"/>
+  <skill flag="9" rate="900" freeRate="950" min="100" max="150" color="2"/>
+  <skill flag="0" rate="910" freeRate="955" min="10000" max="15000" color="3"/>
+  <skill flag="1" rate="920" freeRate="960" min="10000" max="15000" color="3"/>
+  <skill flag="2" rate="930" freeRate="965" min="2300" max="2800" color="3"/>
+  <skill flag="3" rate="940" freeRate="970" min="2300" max="2800" color="3"/>
+  <skill flag="4" rate="950" freeRate="975" min="15000" max="20000" color="3"/>
+  <skill flag="5" rate="960" freeRate="980" min="15000" max="20000" color="3"/>
+  <skill flag="6" rate="970" freeRate="985" min="150" max="200" color="3"/>
+  <skill flag="7" rate="980" freeRate="990" min="150" max="200" color="3"/>
+  <skill flag="8" rate="990" freeRate="995" min="150" max="200" color="3"/>
+  <skill flag="9" rate="1000" freeRate="1000" min="150" max="200" color="3"/>
+  </part>
+  
+  <part id="2" number="1000" cost1="100" cost2="150" cost3="5" cost4="10" cost5="15" freeTimes="3">
+  <skill flag="0" rate="60" freeRate="80" min="8000" max="10000" color="1"/>
+  <skill flag="1" rate="120" freeRate="160" min="8000" max="10000" color="1"/>
+  <skill flag="2" rate="180" freeRate="240" min="1800" max="2300" color="1"/>
+  <skill flag="3" rate="240" freeRate="320" min="1800" max="2300" color="1"/>
+  <skill flag="4" rate="300" freeRate="400" min="10000" max="15000" color="1"/>
+  <skill flag="5" rate="360" freeRate="480" min="10000" max="15000" color="1"/>
+  <skill flag="6" rate="420" freeRate="560" min="100" max="150" color="1"/>
+  <skill flag="7" rate="480" freeRate="640" min="100" max="150" color="1"/>
+  <skill flag="8" rate="540" freeRate="720" min="100" max="150" color="1"/>
+  <skill flag="9" rate="600" freeRate="800" min="100" max="150" color="1"/>
+  <skill flag="0" rate="625" freeRate="815" min="10000" max="15000" color="2"/>
+  <skill flag="1" rate="650" freeRate="830" min="10000" max="15000" color="2"/>
+  <skill flag="2" rate="675" freeRate="845" min="2300" max="2800" color="2"/>
+  <skill flag="3" rate="700" freeRate="860" min="2300" max="2800" color="2"/>
+  <skill flag="4" rate="725" freeRate="875" min="15000" max="20000" color="2"/>
+  <skill flag="5" rate="750" freeRate="890" min="15000" max="20000" color="2"/>
+  <skill flag="6" rate="775" freeRate="905" min="150" max="200" color="2"/>
+  <skill flag="7" rate="800" freeRate="920" min="150" max="200" color="2"/>
+  <skill flag="8" rate="825" freeRate="935" min="150" max="200" color="2"/>
+  <skill flag="9" rate="850" freeRate="950" min="150" max="200" color="2"/>
+  <skill flag="0" rate="865" freeRate="955" min="15000" max="20000" color="3"/>
+  <skill flag="1" rate="880" freeRate="960" min="15000" max="20000" color="3"/>
+  <skill flag="2" rate="895" freeRate="965" min="2800" max="3300" color="3"/>
+  <skill flag="3" rate="910" freeRate="970" min="2800" max="3300" color="3"/>
+  <skill flag="4" rate="925" freeRate="975" min="20000" max="25000" color="3"/>
+  <skill flag="5" rate="940" freeRate="980" min="20000" max="25000" color="3"/>
+  <skill flag="6" rate="955" freeRate="985" min="200" max="250" color="3"/>
+  <skill flag="7" rate="970" freeRate="990" min="200" max="250" color="3"/>
+  <skill flag="8" rate="985" freeRate="995" min="200" max="250" color="3"/>
+  <skill flag="9" rate="1000" freeRate="1000" min="200" max="250" color="3"/>
+  </part>
+</root>

@@ -1,0 +1,62 @@
+<root>
+	<FiveElem startLevel="25" changeNeedGold="50">
+		<!--Elem(1:金；2:木；3:土；4:水；5:火；6:无)-->
+		<Item Elem="1" defGoldFactor="0.002" defWoodFactor="0.003" defEarthFactor="0.001" defWaterFactor="0.002" defFireFactor="0.001" defNoElemFactor="1.00"/>
+		<Item Elem="2" defGoldFactor="0.001" defWoodFactor="0.002" defEarthFactor="0.003" defWaterFactor="0.002" defFireFactor="0.002" defNoElemFactor="1.00"/>
+		<Item Elem="3" defGoldFactor="0.002" defWoodFactor="0.001" defEarthFactor="0.002" defWaterFactor="0.003" defFireFactor="0.002" defNoElemFactor="1.00"/>
+		<Item Elem="4" defGoldFactor="0.002" defWoodFactor="0.002" defEarthFactor="0.001" defWaterFactor="0.002" defFireFactor="0.003" defNoElemFactor="1.00"/>
+		<Item Elem="5" defGoldFactor="0.003" defWoodFactor="0.002" defEarthFactor="0.002" defWaterFactor="0.001" defFireFactor="0.002" defNoElemFactor="1.00"/>
+		<Item Elem="6" defGoldFactor="0.00" defWoodFactor="0.00" defEarthFactor="0.00" defWaterFactor="0.00" defFireFactor="0.00" defNoElemFactor="0.00"/>
+		<level lvl="0" needHeroLevel="1" upgradeNeedExp="0" fiveValue="0"/>
+		<level lvl="1" needHeroLevel="25" upgradeNeedExp="4" fiveValue="50"/>
+		<level lvl="2" needHeroLevel="26" upgradeNeedExp="8" fiveValue="60"/>
+		<level lvl="3" needHeroLevel="27" upgradeNeedExp="12" fiveValue="70"/>
+		<level lvl="4" needHeroLevel="28" upgradeNeedExp="16" fiveValue="80"/>
+		<level lvl="5" needHeroLevel="29" upgradeNeedExp="20" fiveValue="90"/>
+		<level lvl="6" needHeroLevel="30" upgradeNeedExp="24" fiveValue="100"/>
+		<level lvl="7" needHeroLevel="31" upgradeNeedExp="28" fiveValue="110"/>
+		<level lvl="8" needHeroLevel="32" upgradeNeedExp="32" fiveValue="120"/>
+		<level lvl="9" needHeroLevel="33" upgradeNeedExp="36" fiveValue="130"/>
+		<level lvl="10" needHeroLevel="34" upgradeNeedExp="40" fiveValue="140"/>
+		<level lvl="11" needHeroLevel="35" upgradeNeedExp="44" fiveValue="150"/>
+		<level lvl="12" needHeroLevel="36" upgradeNeedExp="48" fiveValue="160"/>
+		<level lvl="13" needHeroLevel="37" upgradeNeedExp="52" fiveValue="170"/>
+		<level lvl="14" needHeroLevel="38" upgradeNeedExp="56" fiveValue="180"/>
+		<level lvl="15" needHeroLevel="39" upgradeNeedExp="60" fiveValue="190"/>
+		<level lvl="16" needHeroLevel="40" upgradeNeedExp="64" fiveValue="200"/>
+		<level lvl="17" needHeroLevel="41" upgradeNeedExp="68" fiveValue="210"/>
+		<level lvl="18" needHeroLevel="42" upgradeNeedExp="72" fiveValue="220"/>
+		<level lvl="19" needHeroLevel="43" upgradeNeedExp="76" fiveValue="230"/>
+		<level lvl="20" needHeroLevel="44" upgradeNeedExp="80" fiveValue="240"/>
+		<level lvl="21" needHeroLevel="45" upgradeNeedExp="84" fiveValue="250"/>
+		<level lvl="22" needHeroLevel="46" upgradeNeedExp="88" fiveValue="260"/>
+		<level lvl="23" needHeroLevel="47" upgradeNeedExp="92" fiveValue="270"/>
+		<level lvl="24" needHeroLevel="48" upgradeNeedExp="96" fiveValue="280"/>
+		<level lvl="25" needHeroLevel="49" upgradeNeedExp="100" fiveValue="290"/>
+		<level lvl="26" needHeroLevel="50" upgradeNeedExp="104" fiveValue="300"/>
+		<level lvl="27" needHeroLevel="51" upgradeNeedExp="108" fiveValue="310"/>
+		<level lvl="28" needHeroLevel="52" upgradeNeedExp="112" fiveValue="320"/>
+		<level lvl="29" needHeroLevel="53" upgradeNeedExp="116" fiveValue="330"/>
+		<level lvl="30" needHeroLevel="54" upgradeNeedExp="120" fiveValue="340"/>
+		<level lvl="31" needHeroLevel="55" upgradeNeedExp="124" fiveValue="350"/>
+		<level lvl="32" needHeroLevel="56" upgradeNeedExp="128" fiveValue="360"/>
+		<level lvl="33" needHeroLevel="57" upgradeNeedExp="132" fiveValue="370"/>
+		<level lvl="34" needHeroLevel="58" upgradeNeedExp="136" fiveValue="380"/>
+		<level lvl="35" needHeroLevel="59" upgradeNeedExp="140" fiveValue="390"/>
+		<level lvl="36" needHeroLevel="60" upgradeNeedExp="144" fiveValue="400"/>
+		<level lvl="37" needHeroLevel="61" upgradeNeedExp="148" fiveValue="410"/>
+		<level lvl="38" needHeroLevel="62" upgradeNeedExp="152" fiveValue="420"/>
+		<level lvl="39" needHeroLevel="63" upgradeNeedExp="156" fiveValue="430"/>
+		<level lvl="40" needHeroLevel="64" upgradeNeedExp="160" fiveValue="440"/>
+		<level lvl="41" needHeroLevel="65" upgradeNeedExp="164" fiveValue="450"/>
+		<level lvl="42" needHeroLevel="66" upgradeNeedExp="168" fiveValue="460"/>
+		<level lvl="43" needHeroLevel="67" upgradeNeedExp="172" fiveValue="470"/>
+		<level lvl="44" needHeroLevel="68" upgradeNeedExp="176" fiveValue="480"/>
+		<level lvl="45" needHeroLevel="69" upgradeNeedExp="180" fiveValue="490"/>
+		<level lvl="46" needHeroLevel="70" upgradeNeedExp="184" fiveValue="500"/>
+		<level lvl="47" needHeroLevel="71" upgradeNeedExp="188" fiveValue="510"/>
+		<level lvl="48" needHeroLevel="72" upgradeNeedExp="192" fiveValue="520"/>
+		<level lvl="49" needHeroLevel="73" upgradeNeedExp="196" fiveValue="530"/>
+		<level lvl="50" needHeroLevel="74" upgradeNeedExp="200" fiveValue="540"/>
+	</FiveElem>	
+</root>

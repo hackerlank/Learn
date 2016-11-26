@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--副本奖励信息-->
+
+  <!-- pelSkill人物阅历奖励   skill宠物技能点 -->
+    <EctypeReward id="001_0" goldRate="10" pelSkill="10"  skill="0" exp="4500" money="7500" silver="500">
+	 <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="48" vip4Rate="48" vip5Rate="45" vip6Rate="45" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="white020"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="27" vip4Rate="27" vip5Rate="30" vip6Rate="30" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="blue020"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="book1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+     <EctypeReward id="001_1" goldRate="10" pelSkill="20"  skill="0" exp="6750" money="11250" silver="1000">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="37" vip4Rate="37" vip5Rate="35" vip6Rate="35" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="white020"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="33" vip4Rate="33" vip5Rate="35" vip6Rate="35" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="blue020"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="book1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="001_2" goldRate="10" pelSkill="30"  skill="0" exp="9000" money="15000" silver="1500">
+	  <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="37" vip4Rate="37" vip5Rate="35" vip6Rate="35" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="white020"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="33" vip4Rate="33" vip5Rate="35" vip6Rate="35" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="blue020"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="book1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+ 
+    <EctypeReward id="002_0" goldRate="10" pelSkill="25"  skill="0" exp="8000" money="10000" silver="1050">
+	 <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="stone"/>
+  <item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="57" vip4Rate="57" vip5Rate="55" vip6Rate="55" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="blue020"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+	 </EctypeReward>
+    <EctypeReward id="002_1" goldRate="10" pelSkill="40"  skill="0" exp="12000" money="15000" silver="1550">
+	 <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="stone"/>
+  <item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="53" vip4Rate="53" vip5Rate="50" vip6Rate="50" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="blue030"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="002_2" goldRate="10" pelSkill="55"  skill="0" exp="16000" money="20000" silver="2050">
+	 <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="stone"/>
+  <item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="53" vip4Rate="53" vip5Rate="50" vip6Rate="50" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="blue030"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+ 
+    <EctypeReward id="003_0" goldRate="10" pelSkill="40"  skill="0" exp="125000" money="12500" silver="1600">
+	 <item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="57" vip4Rate="57" vip5Rate="55" vip6Rate="55" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="blue030"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petEgg"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="003_1" goldRate="10" pelSkill="60"  skill="0" exp="187500" money="18750" silver="2100">
+	 <item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="53" vip4Rate="53" vip5Rate="50" vip6Rate="50" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="blue030"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petEgg"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="003_2" goldRate="10" pelSkill="80"  skill="0" exp="250000" money="25000" silver="2600">
+	 <item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="53" vip4Rate="53" vip5Rate="50" vip6Rate="50" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="blue030"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petEgg"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="004_0" goldRate="10" pelSkill="55"  skill="0" exp="18000" money="60000" silver="2150">
+	 <item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="57" vip4Rate="57" vip5Rate="55" vip6Rate="55" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="blue030"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="23" vip4Rate="23" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple030"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="004_1" goldRate="10" pelSkill="80"  skill="0" exp="27000" money="90000" silver="2650">
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="57" vip4Rate="57" vip5Rate="55" vip6Rate="55" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="blue040"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="23" vip4Rate="23" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="004_2" goldRate="10" pelSkill="105"  skill="0" exp="36000" money="120000" silver="3150">
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="42" vip4Rate="42" vip5Rate="40" vip6Rate="40" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="blue040"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="23" vip4Rate="23" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+  
+    <EctypeReward id="005_0" goldRate="10" pelSkill="70"  skill="0" exp="24500" money="17500" silver="2700">
+	<item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="37" vip4Rate="37" vip5Rate="35" vip6Rate="35" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="blue040"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="stone"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="005_1" goldRate="10" pelSkill="100"  skill="0" exp="36750" money="26250" silver="3200">
+	<item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="23" vip4Rate="23" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue040"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="pink040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="stone"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="005_2" goldRate="10" pelSkill="130"  skill="0" exp="49000" money="35000" silver="3700">
+	<item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="23" vip4Rate="23" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue040"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="stone"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+ 
+    <EctypeReward id="006_0" goldRate="10" pelSkill="85"  skill="0" exp="32000" money="80000" silver="3250">
+	<item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="27" vip4Rate="27" vip5Rate="25" vip6Rate="25" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="blue040"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="pink040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="006_1" goldRate="10" pelSkill="120"  skill="0" exp="48000" money="120000" silver="3750">
+	<item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="23" vip4Rate="23" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue040"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="006_2" goldRate="10" pelSkill="155"  skill="0" exp="64000" money="160000" silver="4250">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="17" vip4Rate="17" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue040"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple040"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="18" vip4Rate="18" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink040"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="007_0" goldRate="10" pelSkill="100"  skill="0" exp="40500" money="22500" silver="3800">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="38" vip4Rate="38" vip5Rate="35" vip6Rate="35" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="blue050"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="purple050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+    <EctypeReward id="007_1" goldRate="10" pelSkill="140"  skill="0" exp="60750" money="33750" silver="4300">
+	<item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="22" vip4Rate="22" vip5Rate="20" vip6Rate="20" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue050"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple050"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="pink050"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+    <EctypeReward id="007_2" goldRate="10" pelSkill="180"  skill="0" exp="81000" money="45000" silver="4800">
+	<item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="18" vip4Rate="18" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue050"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple050"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="pink050"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+ 
+    <EctypeReward id="008_0" goldRate="10" pelSkill="115"  skill="0" exp="500000" money="25000" silver="4350">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="10" vip4Rate="10" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="book2"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="stone"/>
+  <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="65" vip4Rate="65" vip5Rate="60" vip6Rate="60" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="008_1" goldRate="10" pelSkill="160"  skill="0" exp="750000" money="37500" silver="4850">
+   <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="book2"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="stone"/>
+  <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="008_2" goldRate="10" pelSkill="205"  skill="0" exp="1000000" money="50000" silver="5350">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="book2"/>
+  <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="stone"/>
+  <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+	
+    <EctypeReward id="009_0" goldRate="10" pelSkill="130"  skill="0" exp="540800" money="104000" silver="4900">
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="42" vip4Rate="42" vip5Rate="40" vip6Rate="40" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="blue050"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="13" vip4Rate="13" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+    <EctypeReward id="009_1" goldRate="10" pelSkill="180"  skill="0" exp="811200" money="156000" silver="5400">
+	<item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="27" vip4Rate="27" vip5Rate="20" vip6Rate="20" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue050"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="purple050"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink050"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+    <EctypeReward id="009_2" goldRate="10" pelSkill="230"  skill="0" exp="1081600" money="208000" silver="5900">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="23" vip4Rate="23" vip5Rate="10" vip6Rate="10" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue050"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple050"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="20" vip4Rate="20" vip5Rate="30" vip6Rate="30" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="pink050"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange050"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="buff1"/>
+    </EctypeReward>
+
+    <EctypeReward id="010_0" goldRate="10" pelSkill="145"  skill="0" exp="586200" money="27000" silver="5450">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="15" vip4Rate="15" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="stone"/>
+  <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="75" vip4Rate="75" vip5Rate="70" vip6Rate="70" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="010_1" goldRate="10" pelSkill="200"  skill="0" exp="874800" money="40500" silver="5950">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="18" vip4Rate="18" vip5Rate="23" vip6Rate="23" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="stone"/>
+  <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="72" vip4Rate="72" vip5Rate="67" vip6Rate="67" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="010_2" goldRate="10" pelSkill="255"  skill="0" exp="1166400" money="54000" silver="6450">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="20" vip4Rate="20" vip5Rate="25" vip6Rate="25" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="stone"/>
+  <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="70" vip4Rate="70" vip5Rate="65" vip6Rate="65" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+  
+    <EctypeReward id="011_0" goldRate="10" pelSkill="160"  skill="0" exp="62720" money="28000" silver="6000">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="28" vip4Rate="28" vip5Rate="25" vip6Rate="25" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="blue060"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple060"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink060"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="stone"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="011_1" goldRate="10" pelSkill="220"  skill="0" exp="94080" money="42000" silver="6500">
+   <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="12" vip4Rate="12" vip5Rate="10" vip6Rate="10" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple060"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink060"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange060"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="stone"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="011_2" goldRate="10" pelSkill="280"  skill="0" exp="125440" money="56000" silver="7000">
+   <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="8" vip4Rate="8" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink060"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange060"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="stone"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="012_0" goldRate="10" pelSkill="175"  skill="0" exp="720000" money="30000" silver="6550">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="33" vip4Rate="33" vip5Rate="30" vip6Rate="30" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="blue060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple060"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="012_1" goldRate="10" pelSkill="240"  skill="0" exp="1080000" money="45000" silver="7050">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="17" vip4Rate="17" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue060"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple060"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink060"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="012_2" goldRate="10" pelSkill="305"  skill="0" exp="1440000" money="60000" silver="7550">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="13" vip4Rate="13" vip5Rate="10" vip6Rate="10" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue060"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink060"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange060"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="013_0" goldRate="10" pelSkill="190"  skill="0" exp="84500" money="32500" silver="7100">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="25" vip4Rate="25" vip5Rate="22" vip6Rate="22" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue070"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="purple070"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink070"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="5" vip4Rate="5" vip5Rate="8" vip6Rate="8" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="book3"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="013_1" goldRate="10" pelSkill="260"  skill="0" exp="126750" money="48750" silver="7600">
+    <item vip0Rate="34" vip1Rate="34" vip2Rate="34" vip3Rate="15" vip4Rate="15" vip5Rate="10" vip6Rate="10" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue070"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="purple070"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="pink070"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange070"/>
+  <item vip0Rate="1" vip1Rate="1" vip2Rate="1" vip3Rate="7" vip4Rate="7" vip5Rate="10" vip6Rate="10" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="book3"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="013_2" goldRate="10" pelSkill="330"  skill="0" exp="169000" money="65000" silver="8100">
+     <item vip0Rate="28" vip1Rate="28" vip2Rate="28" vip3Rate="15" vip4Rate="15" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue070"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="purple070"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink070"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange070"/>
+  <item vip0Rate="2" vip1Rate="2" vip2Rate="2" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="book3"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="014_0" goldRate="10" pelSkill="205"  skill="0" exp="980000" money="140000" silver="7650">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple070"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="13" vip4Rate="13" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink070"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="stone"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="014_1" goldRate="10" pelSkill="280"  skill="0" exp="1470000" money="210000" silver="8150">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="17" vip4Rate="17" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue070"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple070"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink070"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange070"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="stone"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="014_2" goldRate="10" pelSkill="355"  skill="0" exp="1960000" money="280000" silver="8650">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="8" vip4Rate="8" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue070"/>
+  <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="purple070"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink070"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange070"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="stone"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="015_0" goldRate="10" pelSkill="220"  skill="0" exp="112500" money="37500" silver="8200">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="blue080"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="30" vip4Rate="30" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple080"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="3" vip4Rate="3" vip5Rate="5" vip6Rate="5" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="book4"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="015_1" goldRate="10" pelSkill="300"  skill="0" exp="168750" money="56250" silver="8700">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="15" vip4Rate="15" vip5Rate="12" vip6Rate="12" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue080"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="purple080"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="5" vip4Rate="5" vip5Rate="8" vip6Rate="8" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="book4"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="015_2" goldRate="10" pelSkill="380"  skill="0" exp="225000" money="75000" silver="9200">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="25" vip4Rate="25" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue080"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="purple080"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="15" vip4Rate="15" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="8" vip4Rate="8" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="book4"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="016_0" goldRate="10" pelSkill="235"  skill="0" exp="128000" money="40000" silver="8750">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="23" vip4Rate="23" vip5Rate="20" vip6Rate="20" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="blue080"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="purple080"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="12" vip4Rate="12" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="pink080"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="material"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="016_1" goldRate="10" pelSkill="320"  skill="0" exp="192000" money="60000" silver="9250">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="20" vip4Rate="20" vip5Rate="15" vip6Rate="15" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue080"/>
+  <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="purple080"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="5" vip4Rate="5" vip5Rate="10" vip6Rate="10" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="orange080"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="material"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+    <EctypeReward id="016_2" goldRate="10" pelSkill="405"  skill="0" exp="256000" money="80000" silver="9750">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="15" vip4Rate="15" vip5Rate="10" vip6Rate="10" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="blue080"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="purple080"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="pink080"/>
+  <item vip0Rate="0" vip1Rate="0" vip2Rate="0" vip3Rate="10" vip4Rate="10" vip5Rate="15" vip6Rate="15" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="orange080"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="material"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="buff1"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="017_3" goldRate="10" pelSkill="100"  skill="0" exp="50000" money="10000" silver="2000">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="30bpwhite"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="40bpwhite"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="30bpblue"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="40bpblue"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="30bppurple"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="40bppurple"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="material"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="buff1"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="five"/>
+    </EctypeReward>
+	
+    <EctypeReward id="018_3" goldRate="10" pelSkill="150"  skill="0" exp="100000" money="50000" silver="5000">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="50bpwhite"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="60bpwhite"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="50bpblue"/>
+  <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="60bpblue"/>
+  <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="50bppurple"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="60bppurple"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="material"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="buff1"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="019_3" goldRate="10" pelSkill="200"  skill="0" exp="200000" money="100000" silver="8000">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="70bpwhite"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="70bpblue"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="70bppurple"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="buff1"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="five"/>
+    </EctypeReward>
+
+    <EctypeReward id="020_3" goldRate="10" pelSkill="250"  skill="0" exp="500000" money="150000" silver="15000">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="80bpwhite"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="80bpblue"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="80bppurple"/>
+  <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="material"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="buff1"/>
+  <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="five"/>
+    </EctypeReward>
+
+	
+	
+	
+    <EctypeReward id="022_0" goldRate="10" pelSkill="0"  skill="5" exp="50" money="1000" silver="0">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="petbook"/>
+    <item vip0Rate="95" vip1Rate="95" vip2Rate="95" vip3Rate="95" vip4Rate="95" vip5Rate="95" vip6Rate="95" vip7Rate="95" vip8Rate="95" vip9Rate="95" vip10Rate="95" typeId="goods1"/>
+	</EctypeReward>
+
+	
+
+    <EctypeReward id="023_0" goldRate="10" pelSkill="0"  skill="5" exp="80" money="2000" silver="0">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="petbook"/>
+    <item vip0Rate="95" vip1Rate="95" vip2Rate="95" vip3Rate="95" vip4Rate="95" vip5Rate="95" vip6Rate="95" vip7Rate="95" vip8Rate="95" vip9Rate="95" vip10Rate="95" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="024_0" goldRate="10" pelSkill="0"  skill="5" exp="100" money="3000" silver="0">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="petbook"/>
+    <item vip0Rate="95" vip1Rate="95" vip2Rate="95" vip3Rate="95" vip4Rate="95" vip5Rate="95" vip6Rate="95" vip7Rate="95" vip8Rate="95" vip9Rate="95" vip10Rate="95" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="025_0" goldRate="10" pelSkill="0"  skill="5" exp="200" money="4000" silver="0">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="petbook"/>
+    <item vip0Rate="95" vip1Rate="95" vip2Rate="95" vip3Rate="95" vip4Rate="95" vip5Rate="95" vip6Rate="95" vip7Rate="95" vip8Rate="95" vip9Rate="95" vip10Rate="95" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="026_0" goldRate="10" pelSkill="0"  skill="5" exp="300" money="5000" silver="0">
+    <item vip0Rate="5" vip1Rate="5" vip2Rate="5" vip3Rate="5" vip4Rate="5" vip5Rate="5" vip6Rate="5" vip7Rate="5" vip8Rate="5" vip9Rate="5" vip10Rate="5" typeId="petbook"/>
+    <item vip0Rate="95" vip1Rate="95" vip2Rate="95" vip3Rate="95" vip4Rate="95" vip5Rate="95" vip6Rate="95" vip7Rate="95" vip8Rate="95" vip9Rate="95" vip10Rate="95" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="027_0" goldRate="10" pelSkill="0"  skill="10" exp="400" money="6000" silver="0">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="petbook"/>
+    <item vip0Rate="90" vip1Rate="90" vip2Rate="90" vip3Rate="90" vip4Rate="90" vip5Rate="90" vip6Rate="90" vip7Rate="90" vip8Rate="90" vip9Rate="90" vip10Rate="90" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="028_0" goldRate="10" pelSkill="0"  skill="10" exp="500" money="7000" silver="0">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="petbook"/>
+    <item vip0Rate="90" vip1Rate="90" vip2Rate="90" vip3Rate="90" vip4Rate="90" vip5Rate="90" vip6Rate="90" vip7Rate="90" vip8Rate="90" vip9Rate="90" vip10Rate="90" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="029_0" goldRate="10" pelSkill="0"  skill="10" exp="600" money="8000" silver="0">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="petbook"/>
+    <item vip0Rate="90" vip1Rate="90" vip2Rate="90" vip3Rate="90" vip4Rate="90" vip5Rate="90" vip6Rate="90" vip7Rate="90" vip8Rate="90" vip9Rate="90" vip10Rate="90" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="030_0" goldRate="10" pelSkill="0"  skill="10" exp="700" money="9000" silver="0">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="petbook"/>
+    <item vip0Rate="90" vip1Rate="90" vip2Rate="90" vip3Rate="90" vip4Rate="90" vip5Rate="90" vip6Rate="90" vip7Rate="90" vip8Rate="90" vip9Rate="90" vip10Rate="90" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="031_0" goldRate="10" pelSkill="0"  skill="20" exp="1000" money="30000" silver="0">
+    <item vip0Rate="10" vip1Rate="10" vip2Rate="10" vip3Rate="10" vip4Rate="10" vip5Rate="10" vip6Rate="10" vip7Rate="10" vip8Rate="10" vip9Rate="10" vip10Rate="10" typeId="petbook"/>
+    <item vip0Rate="90" vip1Rate="90" vip2Rate="90" vip3Rate="90" vip4Rate="90" vip5Rate="90" vip6Rate="90" vip7Rate="90" vip8Rate="90" vip9Rate="90" vip10Rate="90" typeId="goods1"/>
+	</EctypeReward>
+	
+    <EctypeReward id="032_0" goldRate="10" pelSkill="0"  skill="20" exp="800" money="10000" silver="0">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petbook"/>
+    <item vip0Rate="85" vip1Rate="85" vip2Rate="85" vip3Rate="85" vip4Rate="85" vip5Rate="85" vip6Rate="85" vip7Rate="85" vip8Rate="85" vip9Rate="85" vip10Rate="85" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="033_0" goldRate="10" pelSkill="0"  skill="20" exp="1800" money="13000" silver="0">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petbook"/>
+    <item vip0Rate="85" vip1Rate="85" vip2Rate="85" vip3Rate="85" vip4Rate="85" vip5Rate="85" vip6Rate="85" vip7Rate="85" vip8Rate="85" vip9Rate="85" vip10Rate="85" typeId="goods2"/>
+	</EctypeReward>
+  
+	
+
+    <EctypeReward id="034_0" goldRate="10" pelSkill="0"  skill="20" exp="2800" money="16000" silver="0">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petbook"/>
+    <item vip0Rate="85" vip1Rate="85" vip2Rate="85" vip3Rate="85" vip4Rate="85" vip5Rate="85" vip6Rate="85" vip7Rate="85" vip8Rate="85" vip9Rate="85" vip10Rate="85" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="035_0" goldRate="10" pelSkill="0"  skill="20" exp="3800" money="19000" silver="0">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petbook"/>
+    <item vip0Rate="85" vip1Rate="85" vip2Rate="85" vip3Rate="85" vip4Rate="85" vip5Rate="85" vip6Rate="85" vip7Rate="85" vip8Rate="85" vip9Rate="85" vip10Rate="85" typeId="goods2"/>
+	</EctypeReward>
+	
+    <EctypeReward id="036_0" goldRate="10" pelSkill="0"  skill="35" exp="4800" money="22000" silver="0">
+    <item vip0Rate="15" vip1Rate="15" vip2Rate="15" vip3Rate="15" vip4Rate="15" vip5Rate="15" vip6Rate="15" vip7Rate="15" vip8Rate="15" vip9Rate="15" vip10Rate="15" typeId="petbook"/>
+    <item vip0Rate="85" vip1Rate="85" vip2Rate="85" vip3Rate="85" vip4Rate="85" vip5Rate="85" vip6Rate="85" vip7Rate="85" vip8Rate="85" vip9Rate="85" vip10Rate="85" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="037_0" goldRate="10" pelSkill="0"  skill="35" exp="5800" money="25000" silver="0">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petbook"/>
+    <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="80" vip4Rate="80" vip5Rate="80" vip6Rate="80" vip7Rate="80" vip8Rate="80" vip9Rate="80" vip10Rate="80" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="038_0" goldRate="10" pelSkill="0"  skill="35" exp="6800" money="28000" silver="0">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petbook"/>
+    <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="80" vip4Rate="80" vip5Rate="80" vip6Rate="80" vip7Rate="80" vip8Rate="80" vip9Rate="80" vip10Rate="80" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="039_0" goldRate="10" pelSkill="0"  skill="35" exp="7800" money="31000" silver="0">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petbook"/>
+    <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="80" vip4Rate="80" vip5Rate="80" vip6Rate="80" vip7Rate="80" vip8Rate="80" vip9Rate="80" vip10Rate="80" typeId="goods2"/>
+	</EctypeReward>
+	
+    <EctypeReward id="040_0" goldRate="10" pelSkill="0"  skill="35" exp="8800" money="34000" silver="0">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petbook"/>
+    <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="80" vip4Rate="80" vip5Rate="80" vip6Rate="80" vip7Rate="80" vip8Rate="80" vip9Rate="80" vip10Rate="80" typeId="goods2"/>
+	</EctypeReward>
+
+    <EctypeReward id="041_0" goldRate="10" pelSkill="0"  skill="40" exp="30000" money="80000" silver="0">
+    <item vip0Rate="20" vip1Rate="20" vip2Rate="20" vip3Rate="20" vip4Rate="20" vip5Rate="20" vip6Rate="20" vip7Rate="20" vip8Rate="20" vip9Rate="20" vip10Rate="20" typeId="petbook"/>
+    <item vip0Rate="80" vip1Rate="80" vip2Rate="80" vip3Rate="80" vip4Rate="80" vip5Rate="80" vip6Rate="80" vip7Rate="80" vip8Rate="80" vip9Rate="80" vip10Rate="80" typeId="goods2"/>
+	</EctypeReward>
+	
+    <EctypeReward id="042_0" goldRate="10" pelSkill="0"  skill="40" exp="10000" money="30000" silver="0">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="petbook"/>
+	<item vip0Rate="75" vip1Rate="75" vip2Rate="75" vip3Rate="75" vip4Rate="75" vip5Rate="75" vip6Rate="75" vip7Rate="75" vip8Rate="75" vip9Rate="75" vip10Rate="75" typeId="goods3"/>
+	</EctypeReward>
+	
+    <EctypeReward id="043_0" goldRate="10" pelSkill="0"  skill="40" exp="15000" money="35000" silver="0">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="petbook"/>
+	<item vip0Rate="75" vip1Rate="75" vip2Rate="75" vip3Rate="75" vip4Rate="75" vip5Rate="75" vip6Rate="75" vip7Rate="75" vip8Rate="75" vip9Rate="75" vip10Rate="75" typeId="goods3"/>
+	</EctypeReward>
+	
+    <EctypeReward id="044_0" goldRate="10" pelSkill="0"  skill="40" exp="20000" money="40000" silver="0">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="petbook"/>
+	<item vip0Rate="75" vip1Rate="75" vip2Rate="75" vip3Rate="75" vip4Rate="75" vip5Rate="75" vip6Rate="75" vip7Rate="75" vip8Rate="75" vip9Rate="75" vip10Rate="75" typeId="goods3"/>
+	</EctypeReward>
+
+    <EctypeReward id="045_0" goldRate="10" pelSkill="0"  skill="40" exp="25000" money="45000" silver="0">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="petbook"/>
+	<item vip0Rate="75" vip1Rate="75" vip2Rate="75" vip3Rate="75" vip4Rate="75" vip5Rate="75" vip6Rate="75" vip7Rate="75" vip8Rate="75" vip9Rate="75" vip10Rate="75" typeId="goods3"/>
+	</EctypeReward>
+
+    <EctypeReward id="046_0" goldRate="10" pelSkill="0"  skill="50" exp="30000" money="50000" silver="0">
+    <item vip0Rate="25" vip1Rate="25" vip2Rate="25" vip3Rate="25" vip4Rate="25" vip5Rate="25" vip6Rate="25" vip7Rate="25" vip8Rate="25" vip9Rate="25" vip10Rate="25" typeId="petbook"/>
+	<item vip0Rate="75" vip1Rate="75" vip2Rate="75" vip3Rate="75" vip4Rate="75" vip5Rate="75" vip6Rate="75" vip7Rate="75" vip8Rate="75" vip9Rate="75" vip10Rate="75" typeId="goods3"/>
+	</EctypeReward>
+	
+    <EctypeReward id="047_0" goldRate="10" pelSkill="0"  skill="50" exp="35000" money="55000" silver="0">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="petbook"/>
+	<item vip0Rate="70" vip1Rate="70" vip2Rate="70" vip3Rate="70" vip4Rate="70" vip5Rate="70" vip6Rate="70" vip7Rate="70" vip8Rate="70" vip9Rate="70" vip10Rate="70" typeId="goods3"/>
+	</EctypeReward>
+
+    <EctypeReward id="048_0" goldRate="10" pelSkill="0"  skill="50" exp="40000" money="60000" silver="0">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="petbook"/>
+	<item vip0Rate="70" vip1Rate="70" vip2Rate="70" vip3Rate="70" vip4Rate="70" vip5Rate="70" vip6Rate="70" vip7Rate="70" vip8Rate="70" vip9Rate="70" vip10Rate="70" typeId="goods3"/>
+	</EctypeReward>
+	
+    <EctypeReward id="049_0" goldRate="10" pelSkill="0"  skill="50" exp="45000" money="65000" silver="0">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="petbook"/>
+	<item vip0Rate="70" vip1Rate="70" vip2Rate="70" vip3Rate="70" vip4Rate="70" vip5Rate="70" vip6Rate="70" vip7Rate="70" vip8Rate="70" vip9Rate="70" vip10Rate="70" typeId="goods3"/>
+	</EctypeReward>
+
+    <EctypeReward id="050_0" goldRate="10" pelSkill="0"  skill="50" exp="50000" money="70000" silver="0">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="petbook"/>
+	<item vip0Rate="70" vip1Rate="70" vip2Rate="70" vip3Rate="70" vip4Rate="70" vip5Rate="70" vip6Rate="70" vip7Rate="70" vip8Rate="70" vip9Rate="70" vip10Rate="70" typeId="goods3"/>
+	</EctypeReward>
+
+    <EctypeReward id="051_0" goldRate="10" pelSkill="0"  skill="80" exp="100000" money="150000" silver="0">
+    <item vip0Rate="30" vip1Rate="30" vip2Rate="30" vip3Rate="30" vip4Rate="30" vip5Rate="30" vip6Rate="30" vip7Rate="30" vip8Rate="30" vip9Rate="30" vip10Rate="30" typeId="petbook"/>
+	<item vip0Rate="70" vip1Rate="70" vip2Rate="70" vip3Rate="70" vip4Rate="70" vip5Rate="70" vip6Rate="70" vip7Rate="70" vip8Rate="70" vip9Rate="70" vip10Rate="70" typeId="goods3"/>
+	</EctypeReward>
+	
+    <EctypeReward id="052_0" goldRate="10" pelSkill="0"  skill="80" exp="60000" money="50000" silver="0">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="petbook"/>
+	<item vip0Rate="65" vip1Rate="65" vip2Rate="65" vip3Rate="65" vip4Rate="65" vip5Rate="65" vip6Rate="65" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="053_0" goldRate="10" pelSkill="0"  skill="80" exp="70000" money="58000" silver="0">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="petbook"/>
+	<item vip0Rate="65" vip1Rate="65" vip2Rate="65" vip3Rate="65" vip4Rate="65" vip5Rate="65" vip6Rate="65" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="054_0" goldRate="10" pelSkill="0"  skill="80" exp="80000" money="66000" silver="0">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="petbook"/>
+	<item vip0Rate="65" vip1Rate="65" vip2Rate="65" vip3Rate="65" vip4Rate="65" vip5Rate="65" vip6Rate="65" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="goods4"/>
+	</EctypeReward>
+ 
+	
+
+    <EctypeReward id="055_0" goldRate="10" pelSkill="0"  skill="80" exp="90000" money="74000" silver="0">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="petbook"/>
+	<item vip0Rate="65" vip1Rate="65" vip2Rate="65" vip3Rate="65" vip4Rate="65" vip5Rate="65" vip6Rate="65" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="056_0" goldRate="10" pelSkill="0"  skill="120" exp="100000" money="82000" silver="0">
+    <item vip0Rate="35" vip1Rate="35" vip2Rate="35" vip3Rate="35" vip4Rate="35" vip5Rate="35" vip6Rate="35" vip7Rate="35" vip8Rate="35" vip9Rate="35" vip10Rate="35" typeId="petbook"/>
+	<item vip0Rate="65" vip1Rate="65" vip2Rate="65" vip3Rate="65" vip4Rate="65" vip5Rate="65" vip6Rate="65" vip7Rate="65" vip8Rate="65" vip9Rate="65" vip10Rate="65" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="057_0" goldRate="10" pelSkill="0"  skill="120" exp="110000" money="90000" silver="0">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="petbook"/>
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="60" vip4Rate="60" vip5Rate="60" vip6Rate="60" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="058_0" goldRate="10" pelSkill="0"  skill="120" exp="120000" money="98000" silver="0">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="petbook"/>
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="60" vip4Rate="60" vip5Rate="60" vip6Rate="60" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="059_0" goldRate="10" pelSkill="0"  skill="120" exp="130000" money="106000" silver="0">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="petbook"/>
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="60" vip4Rate="60" vip5Rate="60" vip6Rate="60" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="060_0" goldRate="10" pelSkill="0"  skill="120" exp="140000" money="114000" silver="0">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="petbook"/>
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="60" vip4Rate="60" vip5Rate="60" vip6Rate="60" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="061_0" goldRate="10" pelSkill="0"  skill="160" exp="1000000" money="114000" silver="0">
+    <item vip0Rate="40" vip1Rate="40" vip2Rate="40" vip3Rate="40" vip4Rate="40" vip5Rate="40" vip6Rate="40" vip7Rate="40" vip8Rate="40" vip9Rate="40" vip10Rate="40" typeId="petbook"/>
+	<item vip0Rate="60" vip1Rate="60" vip2Rate="60" vip3Rate="60" vip4Rate="60" vip5Rate="60" vip6Rate="60" vip7Rate="60" vip8Rate="60" vip9Rate="60" vip10Rate="60" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="062_0" goldRate="10" pelSkill="0"  skill="160" exp="200000" money="80000" silver="0">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="45" vip4Rate="45" vip5Rate="45" vip6Rate="45" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="petbook"/>
+	<item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="55" vip4Rate="55" vip5Rate="55" vip6Rate="55" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="063_0" goldRate="10" pelSkill="0"  skill="160" exp="250000" money="90000" silver="0">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="45" vip4Rate="45" vip5Rate="45" vip6Rate="45" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="petbook"/>
+	<item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="55" vip4Rate="55" vip5Rate="55" vip6Rate="55" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="064_0" goldRate="10" pelSkill="0"  skill="160" exp="300000" money="90000" silver="0">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="45" vip4Rate="45" vip5Rate="45" vip6Rate="45" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="petbook"/>
+	<item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="55" vip4Rate="55" vip5Rate="55" vip6Rate="55" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="065_0" goldRate="10" pelSkill="0"  skill="160" exp="350000" money="110000" silver="0">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="45" vip4Rate="45" vip5Rate="45" vip6Rate="45" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="petbook"/>
+	<item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="55" vip4Rate="55" vip5Rate="55" vip6Rate="55" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="066_0" goldRate="10" pelSkill="0"  skill="200" exp="400000" money="120000" silver="0">
+    <item vip0Rate="45" vip1Rate="45" vip2Rate="45" vip3Rate="45" vip4Rate="45" vip5Rate="45" vip6Rate="45" vip7Rate="45" vip8Rate="45" vip9Rate="45" vip10Rate="45" typeId="petbook"/>
+	<item vip0Rate="55" vip1Rate="55" vip2Rate="55" vip3Rate="55" vip4Rate="55" vip5Rate="55" vip6Rate="55" vip7Rate="55" vip8Rate="55" vip9Rate="55" vip10Rate="55" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="067_0" goldRate="10" pelSkill="0"  skill="200" exp="450000" money="130000" silver="0">
+    <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="petbook"/>
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="068_0" goldRate="10" pelSkill="0"  skill="200" exp="500000" money="140000" silver="0">
+    <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="petbook"/>
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="069_0" goldRate="10" pelSkill="0"  skill="200" exp="550000" money="150000" silver="0">
+    <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="petbook"/>
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="goods4"/>
+	</EctypeReward>
+	
+    <EctypeReward id="070_0" goldRate="10" pelSkill="0"  skill="200" exp="600000" money="160000" silver="0">
+    <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="petbook"/>
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="goods4"/>
+	</EctypeReward>
+
+    <EctypeReward id="071_0" goldRate="10" pelSkill="0"  skill="320" exp="5000000" money="500000" silver="0">
+    <item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="petbook"/>
+	<item vip0Rate="50" vip1Rate="50" vip2Rate="50" vip3Rate="50" vip4Rate="50" vip5Rate="50" vip6Rate="50" vip7Rate="50" vip8Rate="50" vip9Rate="50" vip10Rate="50" typeId="goods4"/>
+	</EctypeReward>
+	
+</root>

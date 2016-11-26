@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<tower_defence>
+    <instancing>
+        <instancing_infor id="008_0" name="守卫扬州-普通" degree="0" ></instancing_infor>
+        <!--sigle_frequency表示每只怪刷出的时间间隔,unit_frequency表示每批怪刷出的时间间隔（应为偶数）-->
+        <instancing_strategy sigle_frequency="2" unit_frequency="30" attractMonNum="2" ></instancing_strategy>
+		<!-- 每批怪物的间隔时间,已逗号隔开,且已逗号结尾 -->
+        <time_gap>15,15,15,10,10,10,10,10,10,10,</time_gap>
+		<!-- level:进入该副本的等级要求 free_limit:每日免费进入次数 -->
+        <instancing_require open_flag="0" level="30" free_limit="1" ></instancing_require>
+		<stand_point>2465,2958;690,2535;1538,1180;3713,1768;</stand_point>		
+		<route_left>2617,3117;2269,2909;1853,3121;1252,3043;708,2708;706,2544;963,2067;991,1697;1687,1315;1217,1003;</route_left>
+		<route_right>2503,3019;2842,2812;2904,2499;3515,2190;3743,1666;2820,1198;2482,1069;1458,1143;1522,1201;1239,995;</route_right>
+		<instancing_scene>
+            <sceneId>ectype_map_034_0</sceneId>
+            <sceneId>ectype_map_034_0</sceneId>
+        </instancing_scene>
+    </instancing>
+
+    <instancing>
+        <instancing_infor id="008_1" name="守卫扬州-江湖" degree="1" ></instancing_infor>
+        <!--sigle_frequency表示每只怪刷出的时间间隔,unit_frequency表示每批怪刷出的时间间隔（应为偶数）-->
+        <instancing_strategy sigle_frequency="2" unit_frequency="20" attractMonNum="2" ></instancing_strategy>
+		<!-- 每批怪物的怪物数目,已逗号隔开,且已逗号结尾 -->
+        <time_gap>15,15,15,10,10,10,10,10,10,10,</time_gap>
+		<!-- level:进入该副本的等级要求 free_limit:每日免费进入次数 -->
+        <instancing_require open_flag="1" level="30" free_limit="1" ></instancing_require>
+		<stand_point>2465,2958;690,2535;1538,1180;3713,1768;</stand_point>	
+		<route_left>2617,3117;2269,2909;1853,3121;1252,3043;708,2708;706,2544;963,2067;991,1697;1687,1315;1217,1003;</route_left>
+		<route_right>2503,3019;2842,2812;2904,2499;3515,2190;3743,1666;2820,1198;2482,1069;1458,1143;1522,1201;1239,995;</route_right>
+		<instancing_scene>
+            <sceneId>ectype_map_034_1</sceneId>
+            <sceneId>ectype_map_034_1</sceneId>
+        </instancing_scene>
+    </instancing>
+
+    <instancing>
+        <instancing_infor id="008_2" name="守卫扬州-英雄" degree="2" ></instancing_infor>
+        <!--sigle_frequency表示每只怪刷出的时间间隔,unit_frequency表示每批怪刷出的时间间隔（应为偶数）-->
+        <instancing_strategy sigle_frequency="2" unit_frequency="20" attractMonNum="2" ></instancing_strategy>
+		<!-- 每批怪物的怪物数目,已逗号隔开,且已逗号结尾 -->
+        <time_gap>15,15,15,10,10,10,10,10,10,10,</time_gap>
+		<!-- open_flag：开启条件 level:进入该副本的等级要求 free_limit:每日免费进入次数 -->
+        <instancing_require open_flag="2" level="30" free_limit="1" ></instancing_require>
+		<stand_point>2465,2958;690,2535;1538,1180;3713,1768;</stand_point>		
+		<route_left>2617,3117;2269,2909;1853,3121;1252,3043;708,2708;706,2544;963,2067;991,1697;1687,1315;1217,1003;</route_left>
+		<route_right>2503,3019;2842,2812;2904,2499;3515,2190;3743,1666;2820,1198;2482,1069;1458,1143;1522,1201;1239,995;</route_right>
+        <instancing_scene>
+            <sceneId>ectype_map_034_2</sceneId>
+            <sceneId>ectype_map_034_2</sceneId>
+        </instancing_scene>
+    </instancing>
+
+</tower_defence>

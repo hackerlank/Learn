@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<cuLian_configure>
+
+	<!-- upper_level:粗炼等级上限 元宝消耗,cost1:星星->月亮 cost2：月亮->太阳 -->
+	<basic_infor upper_level="999" cost1="10" cost2="50"></basic_infor>
+	
+	<!-- 属性增加值 -->
+	<increase HP_upper="30" MP_upper="30" in_harm="3" out_harm="3" in_attack="3" out_attack="3" in_def="3" out_def="3"></increase>
+
+</cuLian_configure>

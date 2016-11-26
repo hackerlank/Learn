@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<!-- 充值奖励时间配置信息 有疑问RTX xhm -->
+	<date year="2013" month="2" dayStart="13" dayEnd="15"/>
+	<!-- 物品使用列表-->
+	<use_goods	goods_id_1="cl_102_100"  goods_id_2="cl_102_101"  goods_id_3="cl_102_100" 
+				size_1="1000"	present_id1="b_dj_120_129" 
+				size_2="2000"	present_id2="b_dj_120_130" 
+				size_3="3000"	present_id3="b_dj_120_131"/>
+	<gain_goods	goods_id_1="cl_102_100"  goods_id_2="cl_102_101"  goods_id_3="cl_102_100" 
+				size_1="1000"	present_id1="b_dj_120_129" 
+				size_2="2000"	present_id2="b_dj_120_130" 
+				size_3="3000"	present_id3="b_dj_120_131"/>
+</root>

@@ -1,0 +1,51 @@
+<!--
+	文件名：bottle.xml
+	文件作用：读取副本配置文件
+	作者：chenzhen
+	创建日期：2012.09.04
+-->
+
+<!--   属性说明
+	typeId ： 表示瓶罐类型id，这个服务器木有具体标准
+	lifeVal ： 表示瓶罐的生命值
+	hurt ： 表示每次击打瓶罐的伤害值
+	name ：表示瓶罐名字
+	photoId : 表示此瓶罐的图片id（注意，要跟客户端对应）	
+	brushStyle: 表示刷出模式<如果打碎后，等一段时间，再刷出，请填0.如果打碎后，再也不刷出，请填1>
+	bloodPre:回血百分比<打碎玩家回总血量的百分比,注意：填小数>
+	magicPre:回蓝百分比<打碎玩家回总蓝量的百分比,注意：填小数>
+	dropNum:掉落数量,如果不掉请填0
+	dropStage:掉落阶段，如果不掉，请填0
+-->
+<!-- <item typeId="tt_pt_001" lifeVal="300" hurt="100" name="图腾" photoId="MB047"/> -->
+
+
+
+
+
+
+<bottle>
+  <item typeId="mx_pt_001" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="木箱" dropNum="1" dropStage="bb014" photoId="MB048" face="MB048"/>
+  <item typeId="mt_pt_001" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="木桶" dropNum="1" dropStage="bb014" photoId="MB044" face="MB044"/>
+  <item typeId="tz_pt_001" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="坛子" dropNum="1" dropStage="bb014" photoId="MB049" face="MB049"/>
+  <item typeId="pz_pt_001" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="瓶子" dropNum="1" dropStage="bb014" photoId="MB057" face="MB057"/>
+  <item typeId="xpz_pt_001" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="小瓶子" dropNum="1" dropStage="bb014" photoId="MB051" face="MB051"/>
+  <item typeId="mx_fb_001" lifeVal="200" hurt="100" brushStyle="1" bloodPre="0.1" magicPre="0.1" name="木箱" dropNum="1" dropStage="bb014" photoId="MB048" face="MB048"/>
+  <item typeId="mt_fb_001" lifeVal="200" hurt="100" brushStyle="1" bloodPre="0.1" magicPre="0.1" name="木桶" dropNum="1" dropStage="bb014" photoId="MB044" face="MB044"/>
+  <item typeId="tz_fb_001" lifeVal="200" hurt="100" brushStyle="1" bloodPre="0.1" magicPre="0.1" name="坛子" dropNum="1" dropStage="bb014" photoId="MB049" face="MB049"/>
+  <item typeId="pz_fb_001" lifeVal="200" hurt="100" brushStyle="1" bloodPre="0.1" magicPre="0.1" name="瓶子" dropNum="1" dropStage="bb014" photoId="MB057" face="MB057"/>
+  <item typeId="xpz_fb_001" lifeVal="200" hurt="100" brushStyle="1" bloodPre="0.1" magicPre="0.1" name="小瓶子" dropNum="1" dropStage="bb014" photoId="MB051" face="MB051"/>
+  <item typeId="f_dj_117_100" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="一级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  <item typeId="f_dj_117_101" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="二级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  <item typeId="f_dj_117_102" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="三级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  <item typeId="f_dj_117_103" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="四级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  <item typeId="f_dj_117_104" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="五级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  <item typeId="f_dj_117_105" lifeVal="100" hurt="100" brushStyle="1" bloodPre="0" magicPre="0" name="六级金钱宝箱" dropNum="1" dropStage="bb014" photoId="MB058" face="MB058"/>
+  
+  
+  
+  
+  <item typeId="tz_pt_002" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="坛子" dropNum="1" dropStage="fb003" photoId="MB049" face="MB049"/><!-- 上林春-掉落牛肉 -->
+  <item typeId="mx_pt_002" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="木箱" dropNum="1" dropStage="fb003" photoId="MB048" face="MB048"/><!-- 上林春-掉落羊肉 -->
+  <item typeId="mx_pt_003" lifeVal="300" hurt="100" brushStyle="0" bloodPre="0" magicPre="0" name="木箱" dropNum="1" dropStage="fb003" photoId="MB048" face="MB048"/><!-- 荒岭边塞-掉落通行令牌 -->
+</bottle>

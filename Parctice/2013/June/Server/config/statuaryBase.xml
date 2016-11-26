@@ -1,0 +1,24 @@
+<!--
+	文件名：statuaryBase.xml
+	文件作用：替身雕像配置文件
+	作者：chenzhen
+	创建日期：2013.03.01
+-->
+
+<!--   属性说明
+	vocationId ： 表示职业id
+	requre1 ： 表示条件(T010：阵营统领 T009:武林盟主）
+	statuaryColour1 ： 表示requre1对应的雕像的颜色（001表示石头，002表示玉色，0013表示金色)
+	piexPt.x ：此雕像的横坐标
+	piexPt.y ：此雕像的纵坐标
+	mapId ： 此雕像在哪张地图上出现
+-->
+
+
+<statuaryBase>
+  <statuaryPt x1="6198" y1="4005"/>
+  <statuary vocationId="M" requre1="SH_T024" statuaryColour1="002" mapId="map_001"/>
+  <statuary vocationId="H" requre1="SH_T024" statuaryColour1="002" mapId="map_001"/>
+  <statuary vocationId="X" requre1="SH_T024" statuaryColour1="002" mapId="map_001"/>
+  <statuary vocationId="G" requre1="SH_T024" statuaryColour1="002" mapId="map_001"/>
+</statuaryBase>

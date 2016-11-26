@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<heCheng_configure>
+	<!-- cost: 游戏币消耗  rate成功率*100 -->
+	<level_two cost="100000" rate="70"></level_two>
+	<level_three cost="500000" rate="65"></level_three>
+	<level_four cost="1000000" rate="60"></level_four>
+</heCheng_configure>

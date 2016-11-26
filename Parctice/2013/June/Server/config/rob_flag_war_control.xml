@@ -1,0 +1,21 @@
+<root>
+<!-- quickStartNeedHeroNum-点击“开始”前需要的本帮人数  radius-抢夺旗帜后到达半径范围算成功
+lockTime-密码保护时间  prepareTime-两帮派都进入后强制开始的准备时间  readyTime-倒计时  pkTime-战斗时间  rewardTime-奖励领取限制时间
+
+flagScore-每面旗帜的积分   reserved预留奖励项-->
+	<rob_flag_war_control quickStartNeedHeroNum="1" radius="100">
+		<time_item lockTime="120" prepareTime="90" readyTime="10" pkTime="1200" rewardTime="300"/>
+		<location_item>
+		<!-- 旗帜1需要交往的地点 -->
+			<scoreLoc1 mapId="ectype_map_045" x="3033" y="2334"/>
+		<!-- 旗帜1需要交往的地点 -->
+			<scoreLoc2 mapId="ectype_map_045" x="3731" y="1646"/>
+		</location_item>
+		<score_item flagScore="20"/>   
+		<reward_item>
+			<winGuildReward money="1000000" glory="1000" prestige="800"  reserved="0"/>
+			<loseGuildReward money="500000" glory="500" prestige="300"  reserved="0"/>
+			<encourageReward money="10000" glory="100" prestige ="50" reserved="0"/>
+		</reward_item>
+	</rob_flag_war_control>
+</root>

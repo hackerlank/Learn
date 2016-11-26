@@ -1,0 +1,80 @@
+<root>
+	<cycleTaskReward level="30">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+	<cycleTaskReward level="40">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+	<cycleTaskReward level="50">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+	<cycleTaskReward level="60">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+	<cycleTaskReward level="70">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+	<cycleTaskReward level="80">
+		<Item loop="1" rewardFactor="1.0"/>
+		<Item loop="2" rewardFactor="0.8"/>
+		<Item loop="3" rewardFactor="0.6"/>
+		<Item loop="4" rewardFactor="0.4"/>
+		<Item loop="5" rewardFactor="0.2"/>
+		<Item loop="6" rewardFactor="0.1"/>
+		<Item loop="7" rewardFactor="0.1"/>
+		<Item loop="8" rewardFactor="0.1"/>
+		<Item loop="9" rewardFactor="0.1"/>
+		<Item loop="10" rewardFactor="0.1"/>
+	</cycleTaskReward>
+	
+</root>

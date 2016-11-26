@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<!-- 消费奖励时间配置信息 有疑问RTX xhm -->
+	<date year="2013" month="1" dayStart="21" dayEnd="31" levelSize="6"/>
+	<!-- 消费奖励奖励配置信息 暂时只能配置10个等级	-->
+	<reward	level="0" rechargeNum="10"		goodsIdA="b_dj_120_107" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<reward	level="1" rechargeNum="50" 	    goodsIdA="b_dj_120_108" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<reward	level="2" rechargeNum="100" 	goodsIdA="b_dj_120_109" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<reward	level="3" rechargeNum="500" 	goodsIdA="b_dj_120_110" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<reward	level="4" rechargeNum="1000" 	goodsIdA="b_dj_120_111" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<reward	level="5" rechargeNum="5000" 	goodsIdA="b_dj_120_112" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+	<!-- 消费全服第一充值奖励	必须要配置-->
+	<reward	level="6" rechargeNum="0" 	    goodsIdA="b_dj_120_113" sizeA="1"	goodsIdB="0"  sizeB="0" bind_gold="0"/>
+</root>

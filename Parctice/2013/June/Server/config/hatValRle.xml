@@ -1,0 +1,30 @@
+<!--
+	文件名：hatValRle.xml
+	文件作用：怪物仇恨规则配置文件
+	作者：chenzhen
+	创建日期：2013.01.24
+-->
+
+<!--   属性说明
+	hatInRag ： 表示进入怪物仇恨范围时，对怪物增加的仇恨值
+	genHitPer ：普通攻击仇恨值增长比例<注意：这个值乘以伤害值就是产生的仇恨值>
+	sklHitPer : 伤害技能仇恨值增长比例<注意：这个值乘以伤害值就是产生的仇恨值>	
+	proLosPer : 损益技能仇恨值增长比例<注意：这个值乘以伤害值就是产生的仇恨值>
+	friHitGan : 第一次被攻击时产生的额外仇恨值
+	chageAir ： 转换攻击目标仇恨比例
+	hatUpVal ：	仇恨值上限值
+	redueValPer ：达到仇恨上限时，仇恨缩减比例
+	hatRage ：仇恨范围<但后面每个怪都有自己的仇恨范围,故这个值暂时没用上>
+-->
+
+<!--  修改备注
+	修改者：chenzhen
+	修改日期：2013.01.24
+	修改内容：根据副本管理方案，重新作出调整
+-->
+
+
+
+<root>
+<hatValRul hatInRag="100" genHitPer="0.1" sklHitPer="0.1" proLosPer="1" friHitGan="1000" chageAir="1.1" hatUpVal="10000" redueValPer="0.5" hatRage="100"></hatValRul >
+</root>

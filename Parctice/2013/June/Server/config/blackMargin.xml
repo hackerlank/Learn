@@ -1,0 +1,90 @@
+<!--
+	文件名：blackMargin.xml
+	文件作用：黑木崖副本配置
+	作者：chenzhen
+	创建日期：2013.04.08
+-->
+
+<!--   属性说明
+	towerId ： 表示塔的id（按顺序一层一层往下写）
+	layerId ：表示层次id（按顺序写）
+	cpyId : 表示副本id
+	注：还有副本玩法，没有加
+-->
+
+<AirTower>    
+	<tower towerId="tower_001">
+		<layer layerId="layer_001" cpyId="022_0" />
+		<layer layerId="layer_002" cpyId="023_0" />
+		<layer layerId="layer_003" cpyId="024_0" />
+		<layer layerId="layer_004" cpyId="025_0" />
+		<layer layerId="layer_005" cpyId="026_0" />
+	</tower>	
+	<tower towerId="tower_002">
+		<layer layerId="layer_001" cpyId="027_0" />
+		<layer layerId="layer_002" cpyId="028_0" />
+		<layer layerId="layer_003" cpyId="029_0" />
+		<layer layerId="layer_004" cpyId="030_0" />
+		<layer layerId="layer_005" cpyId="031_0" />
+	</tower>	
+	<tower towerId="tower_003">
+		<layer layerId="layer_001" cpyId="032_0" />
+		<layer layerId="layer_002" cpyId="033_0" />
+		<layer layerId="layer_003" cpyId="034_0" />
+		<layer layerId="layer_004" cpyId="035_0" />
+		<layer layerId="layer_005" cpyId="036_0" />
+	</tower>	
+	<tower towerId="tower_004">
+		<layer layerId="layer_001" cpyId="037_0" />
+		<layer layerId="layer_002" cpyId="038_0" />
+		<layer layerId="layer_003" cpyId="039_0" />
+		<layer layerId="layer_004" cpyId="040_0" />
+		<layer layerId="layer_005" cpyId="041_0" />
+	</tower>	
+	<tower towerId="tower_005">
+		<layer layerId="layer_001" cpyId="042_0" />
+		<layer layerId="layer_002" cpyId="043_0" />
+		<layer layerId="layer_003" cpyId="044_0" />
+		<layer layerId="layer_004" cpyId="045_0" />
+		<layer layerId="layer_005" cpyId="046_0" />
+	</tower>	
+	<tower towerId="tower_006">
+		<layer layerId="layer_001" cpyId="047_0" />
+		<layer layerId="layer_002" cpyId="048_0" />
+		<layer layerId="layer_003" cpyId="049_0" />
+		<layer layerId="layer_004" cpyId="050_0" />
+		<layer layerId="layer_005" cpyId="051_0" />
+		
+	</tower>	
+	<tower towerId="tower_007">
+		<layer layerId="layer_001" cpyId="052_0" />
+		<layer layerId="layer_002" cpyId="053_0" />
+		<layer layerId="layer_003" cpyId="054_0" />
+		<layer layerId="layer_004" cpyId="055_0" />
+		<layer layerId="layer_005" cpyId="056_0" />
+	</tower>	
+	<tower towerId="tower_008">
+		<layer layerId="layer_001" cpyId="057_0" />
+		<layer layerId="layer_002" cpyId="058_0" />
+		<layer layerId="layer_003" cpyId="059_0" />
+		<layer layerId="layer_004" cpyId="060_0" />
+		<layer layerId="layer_005" cpyId="061_0" />
+	</tower>	
+	<tower towerId="tower_009">
+		<layer layerId="layer_001" cpyId="062_0" />
+		<layer layerId="layer_002" cpyId="063_0" />
+		<layer layerId="layer_003" cpyId="064_0" />
+		<layer layerId="layer_004" cpyId="065_0" />
+		<layer layerId="layer_005" cpyId="066_0" />
+	</tower>	
+	<tower towerId="tower_010">
+		<layer layerId="layer_001" cpyId="067_0" />
+		<layer layerId="layer_002" cpyId="068_0" />
+		<layer layerId="layer_003" cpyId="069_0" />
+		<layer layerId="layer_004" cpyId="070_0" />
+		<layer layerId="layer_005" cpyId="071_0" />
+	</tower>	
+</AirTower> 
+ 
+
+ 

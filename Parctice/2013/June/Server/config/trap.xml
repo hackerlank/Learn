@@ -1,0 +1,66 @@
+<root>
+<!--
+		文件名：trap.xml
+		文件作用：存储副本配置文件
+		作者：chenzhen
+		创建日期：2012.09.04
+	-->
+
+	<!--   属性说明
+		typeId ： 表示陷阱类型id，这个服务器木有具体标准
+		attack ： 表示陷阱的攻击伤害
+		attackRge ：表示陷阱的攻击范围
+		cd ： 表示陷阱的cd时间
+		name ：表示陷阱名字
+		photoId : 表示此陷阱的图片id（注意，要跟客户端对应）
+        attStyle : 攻击模式<注意：请务必填对。如果有目标才发生攻击，且攻击后消失，请填1，
+				如果有目标才发生攻击，且攻击后不消失，请填2，
+				如果没有人，也会触发攻击，且消失，请填3，
+				如果没有人，也会触发攻击，但不会消失，请填4>	
+        isWarning ：表示是否会预警（1表示会预警，0表示不会）
+		warnTime ： 预警时间（如果不会预警，则填0）预警时间最好不要超过陷阱的cd时间！				
+	-->
+  <item typeId="trap_cj_001" attack="0" attackRge="300" attStyle="4" cd="2" isWarning="1" warnTime="1" name="黄闪电雷击" photoId="MB070"/>
+  <item typeId="trap_cj_002" attack="0.01" attackRge="300" attStyle="4" cd="3" isWarning="1" warnTime="1" name="红闪电雷击" photoId="MB062"/>
+  <item typeId="trap_cj_003" attack="0" attackRge="300" attStyle="4" cd="2" isWarning="1" warnTime="1" name="青闪电雷击" photoId="MB063"/>
+  <item typeId="trap_cj_004" attack="0" attackRge="300" attStyle="4" cd="3" isWarning="1" warnTime="1" name="紫闪电雷击" photoId="MB061"/>
+  <item typeId="trap_pt_001" attack="0.05" attackRge="300" attStyle="4" cd="2" isWarning="0" warnTime="0" name="毒积水" photoId="MB052"/>
+  <item typeId="trap_pt_002" attack="0.05" attackRge="35" attStyle="2" cd="2" isWarning="0" warnTime="0" name="野兽夹" photoId="MB053"/>
+  <item typeId="trap_pt_003" attack="0.05" attackRge="95" attStyle="2" cd="2" isWarning="1" warnTime="1" name="地刺" photoId="MB054"/>
+  <item typeId="trap_pt_004" attack="0.05" attackRge="300" attStyle="2" cd="2" isWarning="1" warnTime="1" name="树藤" photoId="MB055"/>
+  <item typeId="trap_pt_005" attack="0.05" attackRge="300" attStyle="4" cd="2" isWarning="1" warnTime="1" name="箭弩车" photoId="MB056"/>
+  <item typeId="trap_pt_006" attack="0.05" attackRge="130" attStyle="2" cd="2" isWarning="1" warnTime="1" name="落石" photoId="MB057"/>
+  <item typeId="trap_pt_007" attack="0.05" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="闪电雷击" photoId="MB070"/>
+  <item typeId="trap_pt_008" attack="0.05" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="左墙" photoId="MB059"/>
+  <item typeId="trap_pt_009" attack="0.05" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="右墙" photoId="MB060"/>
+  <item typeId="trap_pt_010" attack="0.05" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="红闪电" photoId="MB062"/>
+  <item typeId="trap_pt_011" attack="0.05" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="青闪电" photoId="MB063"/>
+  <item typeId="trap_pt_012" attack="0.05" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="紫闪电" photoId="MB061"/>
+  <item typeId="trap_pt_013" attack="0.05" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="食人花" photoId="MB064"/>
+  <item typeId="trap_jh_001" attack="0.06" attackRge="300" attStyle="4" cd="2" isWarning="0" warnTime="0" name="毒积水" photoId="MB052"/>
+  <item typeId="trap_jh_002" attack="0.06" attackRge="35" attStyle="2" cd="2" isWarning="0" warnTime="0" name="野兽夹" photoId="MB053"/>
+  <item typeId="trap_jh_003" attack="0.06" attackRge="95" attStyle="2" cd="2" isWarning="1" warnTime="1" name="地刺" photoId="MB054"/>
+  <item typeId="trap_jh_004" attack="0.06" attackRge="300" attStyle="2" cd="2" isWarning="1" warnTime="1" name="树藤" photoId="MB055"/>
+  <item typeId="trap_jh_005" attack="0.06" attackRge="300" attStyle="4" cd="2" isWarning="1" warnTime="1" name="箭弩车" photoId="MB056"/>
+  <item typeId="trap_jh_006" attack="0.06" attackRge="130" attStyle="2" cd="2" isWarning="1" warnTime="1" name="落石" photoId="MB057"/>
+  <item typeId="trap_jh_007" attack="0.06" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="闪电雷击" photoId="MB070"/>
+  <item typeId="trap_jh_008" attack="0.06" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="左墙" photoId="MB059"/>
+  <item typeId="trap_jh_009" attack="0.06" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="右墙" photoId="MB060"/>
+  <item typeId="trap_jh_010" attack="0.06" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="红闪电" photoId="MB062"/>
+  <item typeId="trap_jh_011" attack="0.06" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="青闪电" photoId="MB063"/>
+  <item typeId="trap_jh_012" attack="0.06" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="紫闪电" photoId="MB061"/>
+  <item typeId="trap_jh_013" attack="0.06" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="食人花" photoId="MB064"/>
+  <item typeId="trap_yx_001" attack="0.08" attackRge="300" attStyle="4" cd="2" isWarning="0" warnTime="0" name="毒积水" photoId="MB052"/>
+  <item typeId="trap_yx_002" attack="0.08" attackRge="35" attStyle="2" cd="2" isWarning="0" warnTime="0" name="野兽夹" photoId="MB053"/>
+  <item typeId="trap_yx_003" attack="0.08" attackRge="95" attStyle="2" cd="2" isWarning="1" warnTime="1" name="地刺" photoId="MB054"/>
+  <item typeId="trap_yx_004" attack="0.08" attackRge="300" attStyle="2" cd="2" isWarning="1" warnTime="1" name="树藤" photoId="MB055"/>
+  <item typeId="trap_yx_005" attack="0.08" attackRge="300" attStyle="4" cd="2" isWarning="1" warnTime="1" name="箭弩车" photoId="MB056"/>
+  <item typeId="trap_yx_006" attack="0.08" attackRge="130" attStyle="2" cd="2" isWarning="1" warnTime="1" name="落石" photoId="MB057"/>
+  <item typeId="trap_yx_007" attack="0.08" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="闪电雷击" photoId="MB070"/>
+  <item typeId="trap_yx_008" attack="0.08" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="左墙" photoId="MB059"/>
+  <item typeId="trap_yx_009" attack="0.08" attackRge="130" attStyle="1" cd="2" isWarning="0" warnTime="0" name="右墙" photoId="MB060"/>
+  <item typeId="trap_yx_010" attack="0.08" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="红闪电" photoId="MB062"/>
+  <item typeId="trap_yx_011" attack="0.08" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="青闪电" photoId="MB063"/>
+  <item typeId="trap_yx_012" attack="0.08" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="紫闪电" photoId="MB061"/>
+  <item typeId="trap_yx_013" attack="0.08" attackRge="150" attStyle="2" cd="2" isWarning="1" warnTime="1" name="食人花" photoId="MB064"/>
+</root>

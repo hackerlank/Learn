@@ -1,0 +1,17 @@
+<root>
+	<heroRank>
+		<reward id1="b_dj_116_113" number1="5" id2="b_dj_107_100" number2="12" id3="b_dj_116_103" number3="6" />
+		<reward id1="b_dj_116_113" number1="3" id2="b_dj_107_100" number2="6" id3="b_dj_116_103" number3="3" />
+		<reward id1="b_dj_116_113" number1="2" id2="b_dj_107_100" number2="4" id3="b_dj_116_103" number3="2" />
+	</heroRank>
+	<petRank>
+		<reward id1="b_dj_116_112" number1="5" id2="b_cl_124_100" number2="180" id3="b_dj_116_103" number3="6" />
+		<reward id1="b_dj_116_112" number1="3" id2="b_cl_124_100" number2="120" id3="b_dj_116_103" number3="3" />
+		<reward id1="b_dj_116_112" number1="2" id2="b_cl_124_100" number2="60" id3="b_dj_116_103" number3="1" />
+	</petRank>
+	<rideRank>
+		<reward id1="b_dj_116_112" number1="5" id2="0" number2="0" id3="b_dj_116_103" number3="12" />
+		<reward id1="b_dj_116_112" number1="3" id2="0" number2="0" id3="b_dj_116_103" number3="6" />
+		<reward id1="b_dj_116_112" number1="2" id2="0" number2="0" id3="b_dj_116_103" number3="2" />
+	</rideRank>
+</root>

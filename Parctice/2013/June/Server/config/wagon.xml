@@ -1,0 +1,42 @@
+<!--
+	文件名：wagon.xml
+	文件作用：存储副本配置文件
+	作者：chenzhen
+	创建日期：2012.09.04
+-->
+
+<!--   属性说明
+	typeId ： 表示马车类型id，这个服务器木有具体标准
+	lifeVal ： 表示马车的生命值
+	hurt ： 表示每次击打马车的伤害值
+	color ： 表示马车的颜色
+	name ：表示马车名字
+	photoId : 表示此马车的图片id（注意，要跟客户端对应）	
+	upRate：刷新上升概率
+	downRate：刷新下降概率
+	stillRate：刷新不变概率
+	prevId：下降后马车id
+	nextId：上升后马车id
+	face：中间小图标
+	rewardTimes  马车颜色后奖励倍数
+	haveSpeedGame  是否增加速度游戏 0为没有 1为有
+	blackSpeed  普通速度  
+	yellowSpeed  黄色区域速度
+	redSpeed   红色区域速度
+	gameLastTime   游戏进度条持续时间
+	gameLastTime   游戏进度条持续时间
+	gameCdTime   加速效果cd时间
+	incSpeedTime   加速效果持续时间
+	
+-->
+    <!-- cost：马车刷新对应消耗绑定元宝的数量 -->
+<root>
+  <item typeId="mc_pt_001" lifeVal="3000" hurt="100" rewardTimes="1" upRate="70" downRate="0" stillRate="30" prevId="mc_pt_001" nextId="mc_pt_002" color="white" name="简陋的马车" photoId="MB065" face="MB065" cost="20" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_002" lifeVal="3500" hurt="100" rewardTimes="1.5" upRate="60" downRate="10" stillRate="30" prevId="mc_pt_001" nextId="mc_pt_003" color="blue" name="漂亮的马车" photoId="MB046" face="MB046" cost="20" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_003" lifeVal="4000" hurt="100" rewardTimes="2" upRate="50" downRate="20" stillRate="30" prevId="mc_pt_002" nextId="mc_pt_004" color="purple" name="华丽的马车" photoId="MB066" face="MB066" cost="20" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_004" lifeVal="4500" hurt="100" rewardTimes="3" upRate="40" downRate="30" stillRate="30" prevId="mc_pt_003" nextId="mc_pt_005" color="pink" name="豪华的马车" photoId="MB067" face="MB067" cost="20" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_005" lifeVal="5000" hurt="100" rewardTimes="5" upRate="0" downRate="0" stillRate="100" prevId="mc_pt_005" nextId="mc_pt_005" color="orange" name="尊贵的马车" photoId="MB068" face="MB068" cost="20" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_006" lifeVal="5000" hurt="100" rewardTimes="1" upRate="0" downRate="0" stillRate="100" prevId="mc_pt_006" nextId="mc_pt_006" color="white" name="阵营镖车" photoId="MB047" face="MB047" cost="0" haveSpeedGame="1" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_007" lifeVal="3000" hurt="100" rewardTimes="1" upRate="0" downRate="0" stillRate="100" prevId="mc_pt_007" nextId="mc_pt_007" color="white" name="龙儿" photoId="MB200" face="MB200" cost="0" haveSpeedGame="0" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+  <item typeId="mc_pt_008" lifeVal="3000" hurt="100" rewardTimes="1" upRate="0" downRate="0" stillRate="100" prevId="mc_pt_008" nextId="mc_pt_008" color="white" name="白蛇" photoId="MB069" face="MB069" cost="0" haveSpeedGame="0" blackSpeed="90" yellowSpeed="180" redSpeed="270" gameLastTime="2.0" gameCdTime="10" incSpeedTime="4.0"/>
+</root>

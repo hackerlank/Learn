@@ -1,0 +1,41 @@
+<root>
+	<debuff>
+	    <!--明教主动技能附加降低外功防御效果，effectbase,和Effectincfactor分别是：200是20%，这里都乘以了1000-->
+	    <Item skillId="M007" effect="32" lastTimeBase="10" lastTimeFactor="0" effectBase="200" effectIncFactor="0"/>
+		<!--明教主动技能附加眩晕效果-->
+		<Item skillId="M008" effect="1" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<!--明教主动技能降低移动速度-->
+		<Item skillId="M009" effect="8192" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<!--华山主动技能附加点穴效果-->
+		<Item skillId="H008" effect="4" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<!--华山主动技能附加降低韧性效果-->
+		<Item skillId="H009" effect="64" lastTimeBase="8" lastTimeFactor="0" effectBase="32" effectIncFactor="4"/>
+		<!--逍遥主动技能附加定身效果-->
+		<Item skillId="X008" effect="2" lastTimeBase="3" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<!--逍遥主动技能附加降低命中效果-->
+		<Item skillId="X009" effect="10" lastTimeBase="10" lastTimeFactor="0" effectBase="50" effectIncFactor="10"/>
+		<!--逍遥主动技能附加降低移动速度-->
+		<Item skillId="X010" effect="8192" lastTimeBase="4" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<!--逍遥主动技能附加持续掉血效果，只这一个技能效果持续减少数值-->
+		<Item skillId="X011" effect="8" lastTimeBase="4" lastTimeFactor="0" effectBase="100" effectIncFactor="20"/>
+		<Item skillId="G009" effect="1" lastTimeBase="3" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		
+	</debuff>
+	<buff>
+		<!--明教buff技能反弹伤害效果，成长之前是持续时间成长现在修改橙反弹伤害百分比成长，这里effectbase,和Effectincfactor分别是：170是17%，20是2%，这里都乘以了1000-->
+		<Item skillId="M010" effect="1024" lastTimeBase="10" lastTimeFactor="0" effectBase="170" effectIncFactor="20"/>
+		<!--明教buff技能牺牲自己生命提高外功伤害效果，提升自己外功攻击-->
+		<Item skillId="M011" effect="512" lastTimeBase="15" lastTimeFactor="0" effectBase="350" effectIncFactor="70"/>
+	 	<!--华山buff技能效果，之前是吸血效果，现在改为短时间内增加暴击-->
+		<Item skillId="H010" effect="128" lastTimeBase="15" lastTimeFactor="0" effectBase="100" effectIncFactor="15"/>
+		<!--华山buff技能效果，之前是增加生命上限效果，现在改为短时间内增加闪避-->
+		<Item skillId="H011" effect="256" lastTimeBase="20" lastTimeFactor="0" effectBase="150" effectIncFactor="20"/>
+		<!--古墓buff技能效果，原来无敌效果，现在改为真气护盾，吸收伤害-->
+		<Item skillId="G010" effect="16384" lastTimeBase="25" lastTimeFactor="0" effectBase="3000" effectIncFactor="1500"/>
+		<Item skillId="M012" effect="4096" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<Item skillId="H012" effect="4096" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<Item skillId="X012" effect="4096" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		<Item skillId="G012" effect="4096" lastTimeBase="5" lastTimeFactor="0" effectBase="0" effectIncFactor="0"/>
+		
+	</buff>
+</root>

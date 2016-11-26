@@ -1,0 +1,26 @@
+<!--
+	文件名：groupBrush.xml
+	文件作用：存储副本配置文件
+	作者：chenzhen
+	创建日期：2012.07.06
+-->
+
+<!--   属性说明
+	groupId ： 批次id号<此处暂时还没有什么意义>
+	generRatio ：表示此批中普通怪占的比例，为浮点数	
+	eliteRatio : 表示此批中精英怪占的比例，为浮点数
+	randFlg :表示此批怪中Boss怪是否随机涮出，0表示不随机，1表示随机
+	bossNum：表示此批怪中随机刷出的数量，randFlg为1时，后面才会大于0，否则为0
+	passRatio：表示被动怪所占比例，为浮点数
+	activeRatio：表示主动怪所占比例，为浮点数	
+	patRatio：表示巡逻怪所占比例，为浮点数
+	注：普通怪所占比例是指在这批怪中，普通怪占普通怪和精英怪总和的比例，boss怪此处没写
+		普通怪所占比例与精英怪所占比例相加为1，下面的也一样
+-->
+
+
+<groupBrushType>
+<groupType groupId="groupIdOne" generRatio="0.4" eliteRatio="0.4" randFlg="0" bossNum="1" passRatio="0.5" activeRatio="0.2" patRatio="0.3"/>
+
+<groupType groupId="groupIdTwo" generRatio="0.4" eliteRatio="0.4" randFlg="0" BossNum="1" passRatio="0.5" activeRatio="0.2" patRatio="0.3"/>
+</groupBrushType>

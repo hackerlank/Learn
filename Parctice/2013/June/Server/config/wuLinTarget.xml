@@ -1,0 +1,104 @@
+<root>
+	<targets flag="0" goodsid="b_dj_120_148" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_109_100" number="1" target="任务新手" prompt="完成一个主线任务！" url="UI_WuLinTargetIcon16.png"/>
+  <item id="1" goodsid="b_dj_109_104" number="1" target="踏足青衣楼" prompt="进入一次青衣楼！" url="UI_WuLinTargetIcon14.png"/>
+  <item id="2" goodsid="b_dj_109_100" number="1" target="初识陆大侠" prompt="新手村和陆小凤交接任务！" url="UI_WuLinTargetIcon16.png"/>
+  <item id="3" goodsid="b_dj_109_104" number="1" target="武学入门" prompt="人物学会第一个主动技能！" url="UI_WuLinTargetIcon11.png"/>
+  <item id="4" goodsid="b_dj_103_101" number="1" target="闯荡青衣楼" prompt="通关青衣楼第一层" url="UI_WuLinTargetIcon14.png"/>
+  <item id="5" goodsid="b_dj_122_100" number="1" target="加入阵营" prompt="选择一个阵营加入！" url="UI_WuLinTargetIcon03.png"/>
+	</targets>
+	<targets flag="1" goodsid="b_dj_120_149" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_cl_102_100" number="1" target="结识好友" prompt="拥有一个好友！" url="UI_WuLinTargetIcon17.png"/>
+  <item id="1" goodsid="b_cl_109_100" number="1" target="初次摆摊" prompt="进行一次摆摊！" url="UI_WuLinTargetIcon15.png"/>
+  <item id="2" goodsid="b_dj_122_100" number="1" target="策马奔腾" prompt="在开封做任务获得！" url="UI_WuLinTargetIcon16.png"/>
+  <item id="3" goodsid="b_dj_109_108" number="1" target="勇闯桃花厅" prompt="通关桃花厅江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="4" goodsid="b_dj_103_100" number="1" target="可爱宠物" prompt="在迎春阁做任务获得！" url="UI_WuLinTargetIcon04.png"/>
+  <item id="5" goodsid="b_dj_109_100" number="1" target="新手镖师" prompt="完成一次阵营拉镖！" url="UI_WuLinTargetIcon17.png"/>
+  <item id="6" goodsid="b_dj_116_100" number="1" target="立足帮派" prompt="加入/创建帮派！" url="UI_WuLinTargetIcon03.png"/>
+  <item id="7" goodsid="b_dj_109_111" number="1" target="领悟内力 " prompt="第一次修炼内力！" url="UI_WuLinTargetIcon19.png"/>
+  <item id="8" goodsid="b_dj_109_100" number="1" target="灭蛟高手" prompt="通关金瓯水道副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+	</targets>
+	<targets flag="2" goodsid="b_dj_120_150" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_113_100" number="1" target="装备开刃" prompt="开刃一次装备！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="1" goodsid="b_cl_103_100" number="1" target="娱乐达人" prompt="进入娱乐地图！" url="UI_WuLinTargetIcon21.png"/>
+  <item id="2" goodsid="b_cl_124_100" number="1" target="宠物进阶" prompt="成功进阶一次宠物！" url="UI_WuLinTargetIcon04.png"/>
+  <item id="3" goodsid="b_dj_109_108" number="1" target="宠物资质" prompt="成功修炼一次宠物资质！" url="UI_WuLinTargetIcon04.png"/>
+  <item id="4" goodsid="b_dj_116_101" number="1" target="了解熔炼" prompt="熔炼一次装备！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="5" goodsid="b_cl_102_100" number="1" target="点石成金" prompt="使用一次点石成金！" url="UI_WuLinTargetIcon23.png"/>
+  <item id="6" goodsid="b_cl_117_100" number="1" target="大闹迎春阁" prompt="通关迎春阁副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="7" goodsid="b_dj_113_101" number="1" target="初次切磋" prompt="进入pk地图与其他玩家战斗！" url="UI_WuLinTargetIcon20.png"/>
+  <item id="8" goodsid="b_dj_113_107" number="1" target="镶嵌宝石" prompt="给装备镶嵌一次宝石！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="9" goodsid="b_dj_113_102" number="1" target="阵营欢乐斗" prompt="参加一次阵营欢乐斗活动！" url="UI_WuLinTargetIcon17.png"/>
+  <item id="10" goodsid="b_dj_109_111" number="1" target="探秘地下室" prompt="通关迎春阁地下室副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="11" goodsid="b_dj_109_101" number="1" target="阵营夺旗" prompt="完成一次阵营夺旗！" url="UI_WuLinTargetIcon17.png"/>
+  <item id="12" goodsid="b_dj_109_105" number="1" target="击杀大侠" prompt="击杀敌对阵营大侠！" url="UI_WuLinTargetIcon17.png"/>
+  <item id="13" goodsid="b_dj_109_101" number="1" target="击杀信使" prompt="击杀敌对阵营信使！" url="UI_WuLinTargetIcon01.png"/>
+	</targets>
+	<targets flag="3" goodsid="b_dj_120_151" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_109_105" number="1" target="珠光宝气" prompt="通关珠光宝气阁副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="1" goodsid="b_cl_102_100" number="1" target="帮派武者" prompt="学得一个帮派技能" url="UI_WuLinTargetIcon03.png"/>
+  <item id="2" goodsid="b_dj_116_102" number="1" target="宝石达人" prompt="同类的一级宝石合成二级宝石！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="3" goodsid="b_cl_102_100" number="1" target="闯出迷境" prompt="通关幻宫迷境一层副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="4" goodsid="b_dj_113_100" number="1" target="帮派财神" prompt="成功捐献给帮派金币10000！" url="UI_WuLinTargetIcon13.png"/>
+  <item id="5" goodsid="b_cl_109_100" number="1" target="深入青衣楼" prompt="开启青衣楼第11层！" url="UI_WuLinTargetIcon01.png"/>
+  <item id="6" goodsid="b_cl_140_100" number="1" target="通关噬月狼" prompt="通关帮派一级副本，帮派达到二级！" url="UI_WuLinTargetIcon03.png"/>
+  <item id="7" goodsid="b_cl_124_100" number="1" target="二代宠物" prompt="利用宠物进阶系统进阶！" url="UI_WuLinTargetIcon04.png"/>
+	
+	
+	</targets>
+	
+	
+	<targets flag="4" goodsid="b_dj_120_152" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_113_101" number="1" target="逍遥迷境" prompt="通关幻宫迷境二层副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="1" goodsid="b_dj_109_106" number="1" target="深度开刃" prompt="将一件装备开刃到10级！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="2" goodsid="b_dj_109_102" number="1" target="宝石圣人" prompt="同类的二级宝石合成三级宝石！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="3" goodsid="b_cl_124_100" number="1" target="高度熔炼" prompt="将一件装备熔炼到10级！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="4" goodsid="b_dj_103_101" number="1" target="深入江湖" prompt="人物达到50级！" url="UI_WuLinTargetIcon05.png"/>
+  <item id="5" goodsid="b_cl_124_100" number="1" target="渡劫成功" prompt="通关渡劫副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="6" goodsid="b_dj_109_109" number="1" target="通关白纹虎" prompt="通关帮派二级副本，帮派达到三级！" url="UI_WuLinTargetIcon03.png"/>
+  <item id="7" goodsid="b_dj_113_100" number="1" target="共享盛宴" prompt="邀请帮众吃一顿盛宴！" url="UI_WuLinTargetIcon03.png"/>
+  <item id="8" goodsid="b_cl_117_100" number="1" target="顶级装备" prompt="获得一个橙装！" url="UI_WuLinTargetIcon06.png"/>
+	
+	
+	</targets>
+	
+	<targets flag="5" goodsid="b_dj_120_153" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_109_106" number="1" target="珠宝装备" prompt="将一件装备镶嵌6颗一级宝石！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="1" goodsid="b_dj_122_101" number="1" target="大破石甲阵" prompt="通关石甲阵副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="2" goodsid="b_dj_118_100" number="1" target="宝石之神" prompt="同类的三级宝石合成四级宝石！" url="UI_WuLinTargetIcon07.png"/>
+  <item id="3" goodsid="b_dj_113_102" number="1" target="斩将落阳坡" prompt="通关落阳坡副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="4" goodsid="b_dj_113_110" number="1" target="高资质宠物" prompt="利用宠物资质更改宠物资质！" url="UI_WuLinTargetIcon04.png"/>
+  <item id="5" goodsid="b_dj_113_103" number="1" target="捣毁神台" prompt="通关通天神台副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="6" goodsid="b_dj_102_102" number="1" target="江湖大侠" prompt="人物达到60级！" url="UI_WuLinTargetIcon05.png"/>
+  <item id="7" goodsid="b_dj_113_111" number="1" target="力挡刺杀" prompt="通关桃园刺杀副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="8" goodsid="b_cl_117_100" number="1" target="笑傲青衣楼" prompt="开启青衣楼第31层！" url="UI_WuLinTargetIcon01.png"/>
+  <item id="9" goodsid="b_dj_118_101" number="1" target="通关震天龙" prompt="通关帮派三级副本，帮派达到四级！" url="UI_WuLinTargetIcon12.png"/>
+	
+	
+	</targets>
+	
+	<targets flag="6" goodsid="b_dj_120_154" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_113_103" number="1" target="体魄强大" prompt="人物体魄属性达到100！" url="UI_WuLinTargetIcon19.png"/>
+  <item id="1" goodsid="b_dj_113_103" number="1" target="武术强大" prompt="人物武术属性达到100！" url="UI_WuLinTargetIcon19.png"/>
+  <item id="2" goodsid="b_dj_113_103" number="1" target="意志强大" prompt="人物意志属性达到100！" url="UI_WuLinTargetIcon19.png"/>
+  <item id="3" goodsid="b_dj_113_103" number="1" target="身法强大" prompt="人物身法属性达到100！" url="UI_WuLinTargetIcon19.png"/>
+  <item id="4" goodsid="b_dj_113_115" number="1" target="称霸英雄岛" prompt="通关英雄岛副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="5" goodsid="b_dj_109_107" number="1" target="技能大师" prompt="激活所有种类技能！" url="UI_WuLinTargetIcon08.png"/>
+  <item id="6" goodsid="b_dj_113_120" number="1" target="终极熔炼" prompt="将一件装备熔炼满级！" url="UI_WuLinTargetIcon02.png"/>
+  <item id="7" goodsid="b_dj_113_119" number="1" target="内力饱满" prompt="将内力修炼满级！" url="UI_WuLinTargetIcon12.png"/>
+  <item id="8" goodsid="b_dj_113_104" number="1" target="智胜棋手" prompt="通关九龙棋手副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+	
+	
+	</targets>
+	
+	<targets flag="7" goodsid="b_dj_120_155" number="1" describe="完成该章节的所有目标将获得对应大礼包" src="Ico_wp_182.png">
+  <item id="0" goodsid="b_dj_113_104" number="1" target="帮派武圣" prompt="激活所有帮派技能！" url="UI_WuLinTargetIcon08.png"/>
+  <item id="1" goodsid="b_dj_113_116" number="1" target="宠物神技" prompt="一只宠物所学四个技能全部满级！" url="UI_WuLinTargetIcon08.png"/>
+  <item id="2" goodsid="b_dj_113_104" number="1" target="密室逃生" prompt="通关鬼蜮密室副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="3" goodsid="b_dj_113_118" number="1" target="瑰宝装备" prompt="人物身上达到所有装备镶嵌四级宝石总数到30颗！" url="UI_WuLinTargetIcon12.png"/>
+  <item id="4" goodsid="b_dj_113_117" number="1" target="计取清风观" prompt="通关清风三观副本江湖难度！" url="UI_WuLinTargetIcon09.png"/>
+  <item id="5" goodsid="b_dj_113_119" number="1" target="江湖武神" prompt="人物所有技能都达到满级！" url="UI_WuLinTargetIcon11.png"/>
+  <item id="6" goodsid="b_dj_113_104" number="1" target="帮派武神" prompt="加入帮派后学得全部技能并到满级" url="UI_WuLinTargetIcon02.png"/>
+  <item id="7" goodsid="b_dj_113_120" number="1" target="通关青衣楼" prompt="开启青衣楼第50层！" url="UI_WuLinTargetIcon02.png"/>
+	</targets>
+</root>

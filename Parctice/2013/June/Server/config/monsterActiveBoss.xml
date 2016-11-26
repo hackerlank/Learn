@@ -1,0 +1,28 @@
+<!--
+	文件名：monsterActiveBoss.xml
+	文件作用：读取副本配置文件
+	作者：chenzhen
+	创建日期：2012.10.23
+-->
+
+<!--   属性说明
+	typeId ： 表示boss类型id
+	mapId : 表示此怪在哪张地图上
+	x ： 表示像素横坐标
+	y ： 表示像素y坐标
+-->
+
+<monsterActiveBoss>
+
+<activeBoss typeId="hdboss_pt_001" mapId="map_019" x="1391" y="2496"/>
+<activeBoss typeId="hdboss_pt_002" mapId="map_019" x="330" y="850"/>
+<activeBoss typeId="hdboss_pt_003" mapId="map_018" x="791" y="384"/>
+<activeBoss typeId="hdboss_pt_004" mapId="map_018" x="4876" y="717"/>
+<activeBoss typeId="hdboss_pt_005" mapId="map_018" x="4923" y="1237"/>
+<activeBoss typeId="hdboss_pt_006" mapId="map_018" x="965" y="2537"/>
+<activeBoss typeId="hdboss_pt_007" mapId="map_018" x="5053" y="3531"/>
+<activeBoss typeId="hdboss_pt_008" mapId="map_020" x="3485" y="915"/>
+<activeBoss typeId="hdboss_pt_009" mapId="map_020" x="1846" y="1388"/>
+<activeBoss typeId="hdboss_pt_010" mapId="map_020" x="5427" y="2691"/>
+
+</monsterActiveBoss>

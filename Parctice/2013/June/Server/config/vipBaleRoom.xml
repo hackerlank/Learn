@@ -1,0 +1,21 @@
+<!--
+	文件名：vipBaleRoom.xml
+	文件作用：存储所有vip包间以及限制条件
+	作者：chenzhen
+	创建日期：2012.12.14
+-->
+
+<!--   属性说明
+	vipLimitId ：表示vip包厢限制类id
+	vipMapId ： 表示vip包厢地图id
+	num : 表示进入vip包厢人数限制
+	vipRank ： 表示进入vip包厢vip最低等级限制
+	room ： 表示此副本房间数
+	注：还有时间限制，暂时还木有加
+-->
+<vipBaleLimit>
+<vipBaleLimit vipLimitId="01" vipMapId="map_025" num="1" vipRank="1" room="120"/>
+<vipBaleLimit vipLimitId="02" vipMapId="map_026" num="1" vipRank="3" room="120"/>
+<vipBaleLimit vipLimitId="03" vipMapId="map_027" num="1" vipRank="1" room="120"/>
+<vipBaleLimit vipLimitId="04" vipMapId="map_028" num="1" vipRank="3" room="120"/>
+</vipBaleLimit>

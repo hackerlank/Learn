@@ -1,0 +1,80 @@
+<!--
+	文件名：dailyActive:xml
+	文件作用：读取副本配置文件
+	作者：chenzhen
+	创建日期：2012:10:23
+-->
+
+<!--   属性说明
+	activeId ： 表示活动id
+	day : 表示星期几（依次为1,2,3,4,5,6,0，如果无限制，请填-1  0表示周天）
+	beginTime : 表示开始时间(如果只有一个开始时间，后面的请填"0")
+	endTime : 表示结束时间时间(如果只有一个开始时间，后面的请填"0")
+	mapId : 表示此活动在哪张地图上进行
+	x ： 表示传入点像素横坐标
+	y ： 表示传入点像素y坐标
+	level : 表示参加此活动的等级限制
+	activeId="001"：圣诞节礼包
+	activeId="002"：圣诞时装兑换
+	activeId="003"：卫护反击战
+	activeId="004"：帮派签到
+	activeId="005"：帮战
+	activeId="006"：帮派盛宴
+	activeId="007"：阵营拉镖
+	activeId="008"：阵营战场令
+	activeId="009"：欢乐斗
+	activeId="010"：阵营争夺战
+	activeId="011"：武林盟主
+	offBeginTime1:表示提示开始时间<如果没有，请填0>
+	offTimes1：表示提示次数<没有请填-1>
+	durTimes1：表示隔多少秒提示一次<没有请填-1>
+	peaceTme1:和平时间<没有的请填0>
+	注意：所有的活动时间，最好不要重合
+-->
+
+<dailyActive>
+<!--
+ <active activeId="101" name="圣诞节礼包" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="8406" y="4211" level="1"/>
+
+ <active activeId="102" name="圣诞时装兑换" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="1"/>
+ 
+ <active activeId="106" name="新年礼包兑换" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="1"/>
+ 
+ 
+ <active activeId="107" name="帮派元宵" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="1"/>
+ 
+ <active activeId="109" name="春节收集" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="5895" y="3958" level="1"/>
+ 
+ <active activeId="108" name="法海，你不懂爱" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="8517" y="8517" level="1"/>
+ -->
+  
+ <!-- <active activeId="304" name="统领争夺战" day1="6" day2="-1" offBeginTime1="21:15"  offTimes1="5" durTimes1="60" peaceTme1="21:25" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="21:20" endTime1="22:00" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="1"/>
+ <active activeId="305" name="武林盟主" day1="0" day2="-1" offBeginTime1="21:15" offTimes1="5" durTimes1="60" peaceTme1="21:25" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="21:20" endTime1="22:00" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="1"/>
+ <active activeId="306" name="统领争夺战报名" day1="6" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="21:00" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="1"/> -->
+  
+  
+  
+  
+  <active activeId="103" name="卫护反击战" day1="-1" day2="-1" offBeginTime1="08:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="14:55" offTimes2="5" durTimes2="60" peaceTme2="0" offBeginTime3="18:55" offTimes3="5" durTimes3="60" peaceTme3="0" beginTime1="09:00" endTime1="10:30" beginTime2="15:00" endTime2="15:30" beginTime3="19:00" endTime3="19:30" mapId="map_001" x="5015" y="2942" level="30"/>
+  <active activeId="104" name="天下第一楼" day1="-1" day2="-1" offBeginTime1="17:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="18:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="6061" y="5815" level="22"/>
+  <active activeId="105" name="天上人间" day1="-1" day2="-1" offBeginTime1="17:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="18:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_010" x="4091" y="720" level="60"/>
+  <active activeId="201" name="帮派签到" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="17:30" endTime1="17:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  <active activeId="202" name="帮战" day1="-1" day2="-1" offBeginTime1="19:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="20:00" endTime1="20:30" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  
+  <!-- 帮派战之后半个小时评出积分统计 -->
+  <active activeId="204" name="帮派战积分统计" day1="-1" day2="-1" offBeginTime1="20:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="21:00" endTime1="21:30" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  
+  <!-- 一周最后一次帮战之后评选武林盟主和阵营大侠 -->
+  <active activeId="205" name="评选武林盟主阵营大侠" day1="0" day2="-1" offBeginTime1="21:35" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="21:40" endTime1="21:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  
+   <!-- 清除上周帮战统计积分结果（在本周第一次帮战开始之前） -->
+  <active activeId="206" name="清除上周帮战统计积分结果" day1="1" day2="-1" offBeginTime1="18:55" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="19:00" endTime1="19:30" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  
+  
+  <active activeId="203" name="帮派盛宴" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7664" y="3457" level="18"/>
+  <active activeId="301" name="阵营拉镖" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="15"/>
+  <active activeId="302" name="阵营战场令" day1="-1" day2="-1" offBeginTime1="0" offTimes1="-1" durTimes1="-1" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="00:00" endTime1="23:50" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="5015" y="2942" level="30"/>
+  <active activeId="303" name="欢乐斗" day1="-1" day2="-1" offBeginTime1="09:25" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="13:40" endTime1="13:45" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="30"/>
+  <active activeId="307" name="阵营资源争夺战" day1="-1" day2="-1" offBeginTime1="19:25" offTimes1="5" durTimes1="60" peaceTme1="0" offBeginTime2="0" offTimes2="-1" durTimes2="-1" peaceTme2="0" offBeginTime3="0" offTimes3="-1" durTimes3="-1" peaceTme3="0" beginTime1="19:30" endTime1="20:00" beginTime2="0" endTime2="0" beginTime3="0" endTime3="0" mapId="map_001" x="7063" y="3295" level="30"/>
+  
+</dailyActive>

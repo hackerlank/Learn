@@ -1,0 +1,28 @@
+<root>
+	<!--帮派活动-->
+	<!--id:活动id guildLevelLimit:活动参与的等级限制 weekDay:一周的天数(0-6) bphd_001：签到 bphd_002：帮战 bphd_003：阵营大乱斗 bphd_004：阵营争夺战 bphd_001：武林盟主-->
+	<!--beginHour:活动开始的时间点(0-23)-->
+			<Activity id="bphd_001" guildLevelLimit="1">
+				<Time weekDay="0" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="1" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="2" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="3" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="4" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="5" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="6" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+				</Activity>
+			<Activity id="bphd_002" guildLevelLimit="2">
+				<Time weekDay="2" beginHour="11" beginMin="0" endHour="12" endMin="0"/>
+        <Time weekDay="6" beginHour="11" beginMin="0" endHour="12" endMin="0"/>
+			</Activity>
+			<Activity id="bphd_003" guildLevelLimit="2">
+				<Time weekDay="0" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="1" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="2" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="3" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="4" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="5" beginHour="0" beginMin="0" endHour="23" endMin="59"/>
+		<Time weekDay="6" beginHour="0" beginMin="0" endHour="23" endMin="59"/>		
+			</Activity>
+			
+</root>

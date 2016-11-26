@@ -1,0 +1,168 @@
+<!--
+	文件名：cpy.xml
+	文件作用：存储副本配置文件
+	作者：chenzhen
+	创建日期：2012.03.11
+-->
+
+<!--   属性说明
+	cpyId ： 表示副本id
+	cpyLimitId ：表示副本限制编号	
+	MapId1 : 表示副本地图，后面还有MapId2，MapId3，等，且按副本层次依次排放	
+	mapSum : 表示副本地图总数
+	注：还有副本玩法，没有加
+-->
+
+<!--  修改备注
+	修改者：chenzhen
+	修改日期：2012.06.11
+	修改内容：根据副本管理方案，重新作出调整
+-->
+
+<cpys>
+	<cpy cpyId="001_0" cpyLimitId="001" MapId1="ectype_map_025_0" mapSum="1"/>
+    <cpy cpyId="001_1" cpyLimitId="002" MapId1="ectype_map_025_1" mapSum="1"/>
+	<cpy cpyId="001_2" cpyLimitId="003" MapId1="ectype_map_025_2" mapSum="1"/>  
+
+	<cpy cpyId="002_0" cpyLimitId="004" MapId1="ectype_map_026_0" mapSum="1"/>
+    <cpy cpyId="002_1" cpyLimitId="005" MapId1="ectype_map_026_1" mapSum="1"/>
+	<cpy cpyId="002_2" cpyLimitId="006" MapId1="ectype_map_026_2" mapSum="1"/>                        
+
+	<cpy cpyId="003_0" cpyLimitId="007" MapId1="ectype_map_028_0" mapSum="1"/>
+	<cpy cpyId="003_1" cpyLimitId="008" MapId1="ectype_map_028_1" mapSum="1"/>
+	<cpy cpyId="003_2" cpyLimitId="009" MapId1="ectype_map_028_2" mapSum="1"/>
+
+	<cpy cpyId="004_0" cpyLimitId="010" MapId1="ectype_map_029_0" mapSum="1"/>
+	<cpy cpyId="004_1" cpyLimitId="011" MapId1="ectype_map_029_1" mapSum="1"/>
+	<cpy cpyId="004_2" cpyLimitId="012" MapId1="ectype_map_029_2" mapSum="1"/>
+
+	<cpy cpyId="005_0" cpyLimitId="013" MapId1="ectype_map_032_0" mapSum="1"/>
+	<cpy cpyId="005_1" cpyLimitId="014" MapId1="ectype_map_032_1" mapSum="1"/>
+	<cpy cpyId="005_2" cpyLimitId="015" MapId1="ectype_map_032_2" mapSum="1"/>
+
+	<cpy cpyId="006_0" cpyLimitId="016" MapId1="ectype_map_027_0" mapSum="1"/>
+	<cpy cpyId="006_1" cpyLimitId="017" MapId1="ectype_map_027_1" mapSum="1"/>
+	<cpy cpyId="006_2" cpyLimitId="018" MapId1="ectype_map_027_2" mapSum="1"/>
+
+	<cpy cpyId="007_0" cpyLimitId="019" MapId1="ectype_map_033_0" mapSum="1"/>
+	<cpy cpyId="007_1" cpyLimitId="020" MapId1="ectype_map_033_1" mapSum="1"/>
+	<cpy cpyId="007_2" cpyLimitId="021" MapId1="ectype_map_033_2" mapSum="1"/>
+
+	<cpy cpyId="008_0" cpyLimitId="022" MapId1="ectype_map_034_0" mapSum="1"/>
+	<cpy cpyId="008_1" cpyLimitId="023" MapId1="ectype_map_034_1" mapSum="1"/>
+	<cpy cpyId="008_2" cpyLimitId="024" MapId1="ectype_map_034_2" mapSum="1"/>
+
+	<cpy cpyId="009_0" cpyLimitId="025" MapId1="ectype_map_035_0" mapSum="1"/>
+	<cpy cpyId="009_1" cpyLimitId="026" MapId1="ectype_map_035_1" mapSum="1"/>
+	<cpy cpyId="009_2" cpyLimitId="027" MapId1="ectype_map_035_2" mapSum="1"/>
+
+	<cpy cpyId="010_0" cpyLimitId="028" MapId1="ectype_map_036_0" mapSum="1"/>
+	<cpy cpyId="010_1" cpyLimitId="029" MapId1="ectype_map_036_1" mapSum="1"/>
+	<cpy cpyId="010_2" cpyLimitId="030" MapId1="ectype_map_036_2" mapSum="1"/>
+
+	<cpy cpyId="011_0" cpyLimitId="031" MapId1="ectype_map_037_0" mapSum="1"/>
+	<cpy cpyId="011_1" cpyLimitId="032" MapId1="ectype_map_037_1" mapSum="1"/>
+	<cpy cpyId="011_2" cpyLimitId="033" MapId1="ectype_map_037_2" mapSum="1"/>
+
+	<cpy cpyId="012_0" cpyLimitId="034" MapId1="ectype_map_038_0" mapSum="1"/>
+	<cpy cpyId="012_1" cpyLimitId="035" MapId1="ectype_map_038_1" mapSum="1"/>
+	<cpy cpyId="012_2" cpyLimitId="036" MapId1="ectype_map_038_2" mapSum="1"/>
+
+	<cpy cpyId="013_0" cpyLimitId="037" MapId1="ectype_map_039_0" mapSum="1"/>
+	<cpy cpyId="013_1" cpyLimitId="038" MapId1="ectype_map_039_1" mapSum="1"/>
+	<cpy cpyId="013_2" cpyLimitId="039" MapId1="ectype_map_039_2" mapSum="1"/>
+
+	<cpy cpyId="014_0" cpyLimitId="040" MapId1="ectype_map_031_0" mapSum="1"/>
+	<cpy cpyId="014_1" cpyLimitId="041" MapId1="ectype_map_031_1" mapSum="1"/>
+	<cpy cpyId="014_2" cpyLimitId="042" MapId1="ectype_map_031_2" mapSum="1"/>
+
+	<cpy cpyId="015_0" cpyLimitId="043" MapId1="ectype_map_030_0" mapSum="1"/>
+	<cpy cpyId="015_1" cpyLimitId="044" MapId1="ectype_map_030_1" mapSum="1"/>
+	<cpy cpyId="015_2" cpyLimitId="045" MapId1="ectype_map_030_2" mapSum="1"/>
+
+	<cpy cpyId="016_0" cpyLimitId="046" MapId1="ectype_map_040_0" MapId2="ectype_map_041_0" MapId3="ectype_map_042_0" mapSum="3"/>
+	<cpy cpyId="016_1" cpyLimitId="047" MapId1="ectype_map_040_1" MapId2="ectype_map_041_1" MapId3="ectype_map_042_1" mapSum="3"/>
+	<cpy cpyId="016_2" cpyLimitId="048" MapId1="ectype_map_040_2" MapId2="ectype_map_041_2" MapId3="ectype_map_042_2" mapSum="3"/>	
+	
+	<!-- 以下为帮派等级，不是人物等级 -->
+	
+	<cpy cpyId="017_3" cpyLimitId="049" MapId1="ectype_map_021_0" mapSum="1"/>
+	
+	<cpy cpyId="018_3" cpyLimitId="050" MapId1="ectype_map_022_0" mapSum="1"/>
+	
+	<cpy cpyId="019_3" cpyLimitId="051" MapId1="ectype_map_023_0" mapSum="1"/>
+	
+	<cpy cpyId="020_3" cpyLimitId="052" MapId1="ectype_map_024_0" mapSum="1"/>
+	
+	
+	<!-- 以上等级限制是帮派等级，不是人物等级 -->
+	
+	
+	<!--任务副本：法海不懂爱-->
+	
+	<cpy cpyId="021_0" cpyLimitId="053" MapId1="ectype_map_047" mapSum="1"/>
+	
+	<!-- 青衣楼 -->
+	<cpy cpyId="022_0" cpyLimitId="054" MapId1="ectype_map_050_0" mapSum="1"/>
+	<cpy cpyId="023_0" cpyLimitId="055" MapId1="ectype_map_050_1" mapSum="1"/>
+	<cpy cpyId="024_0" cpyLimitId="056" MapId1="ectype_map_050_2" mapSum="1"/>
+	<cpy cpyId="025_0" cpyLimitId="057" MapId1="ectype_map_050_3" mapSum="1"/>
+	<cpy cpyId="026_0" cpyLimitId="058" MapId1="ectype_map_050_4" mapSum="1"/>
+	
+	<cpy cpyId="027_0" cpyLimitId="059" MapId1="ectype_map_051_5" mapSum="1"/>
+	<cpy cpyId="028_0" cpyLimitId="060" MapId1="ectype_map_051_6" mapSum="1"/>
+	<cpy cpyId="029_0" cpyLimitId="061" MapId1="ectype_map_051_7" mapSum="1"/>
+	<cpy cpyId="030_0" cpyLimitId="062" MapId1="ectype_map_051_8" mapSum="1"/>
+	<cpy cpyId="031_0" cpyLimitId="063" MapId1="ectype_map_051_9" mapSum="1"/>
+	
+	<cpy cpyId="032_0" cpyLimitId="064" MapId1="ectype_map_052_0" mapSum="1"/>
+	<cpy cpyId="033_0" cpyLimitId="065" MapId1="ectype_map_052_1" mapSum="1"/>
+	<cpy cpyId="034_0" cpyLimitId="066" MapId1="ectype_map_052_2" mapSum="1"/>
+	<cpy cpyId="035_0" cpyLimitId="067" MapId1="ectype_map_052_3" mapSum="1"/>
+	<cpy cpyId="036_0" cpyLimitId="068" MapId1="ectype_map_052_4" mapSum="1"/>
+	
+	<cpy cpyId="037_0" cpyLimitId="069" MapId1="ectype_map_052_5" mapSum="1"/>
+	<cpy cpyId="038_0" cpyLimitId="070" MapId1="ectype_map_052_6" mapSum="1"/>
+	<cpy cpyId="039_0" cpyLimitId="071" MapId1="ectype_map_052_7" mapSum="1"/>
+	<cpy cpyId="040_0" cpyLimitId="072" MapId1="ectype_map_052_8" mapSum="1"/>
+	<cpy cpyId="041_0" cpyLimitId="073" MapId1="ectype_map_052_9" mapSum="1"/>
+	
+	<cpy cpyId="042_0" cpyLimitId="074" MapId1="ectype_map_053_0" mapSum="1"/>
+	<cpy cpyId="043_0" cpyLimitId="075" MapId1="ectype_map_053_1" mapSum="1"/>
+	<cpy cpyId="044_0" cpyLimitId="076" MapId1="ectype_map_053_2" mapSum="1"/>
+	<cpy cpyId="045_0" cpyLimitId="077" MapId1="ectype_map_053_3" mapSum="1"/>
+	<cpy cpyId="046_0" cpyLimitId="078" MapId1="ectype_map_053_4" mapSum="1"/>
+	
+	<cpy cpyId="047_0" cpyLimitId="079" MapId1="ectype_map_053_5" mapSum="1"/>
+	<cpy cpyId="048_0" cpyLimitId="080" MapId1="ectype_map_053_6" mapSum="1"/>
+	<cpy cpyId="049_0" cpyLimitId="081" MapId1="ectype_map_053_7" mapSum="1"/>
+	<cpy cpyId="050_0" cpyLimitId="082" MapId1="ectype_map_053_8" mapSum="1"/>
+	<cpy cpyId="051_0" cpyLimitId="083" MapId1="ectype_map_053_9" mapSum="1"/>
+	
+	<cpy cpyId="052_0" cpyLimitId="084" MapId1="ectype_map_054_0" mapSum="1"/>
+	<cpy cpyId="053_0" cpyLimitId="085" MapId1="ectype_map_054_1" mapSum="1"/>
+	<cpy cpyId="054_0" cpyLimitId="086" MapId1="ectype_map_054_2" mapSum="1"/>
+	<cpy cpyId="055_0" cpyLimitId="087" MapId1="ectype_map_054_3" mapSum="1"/>
+	<cpy cpyId="056_0" cpyLimitId="088" MapId1="ectype_map_054_4" mapSum="1"/>
+	
+	<cpy cpyId="057_0" cpyLimitId="089" MapId1="ectype_map_054_5" mapSum="1"/>
+	<cpy cpyId="058_0" cpyLimitId="090" MapId1="ectype_map_054_6" mapSum="1"/>
+	<cpy cpyId="059_0" cpyLimitId="091" MapId1="ectype_map_054_7" mapSum="1"/>
+	<cpy cpyId="060_0" cpyLimitId="092" MapId1="ectype_map_054_8" mapSum="1"/>
+	<cpy cpyId="061_0" cpyLimitId="093" MapId1="ectype_map_054_9" mapSum="1"/>
+	
+	<cpy cpyId="062_0" cpyLimitId="094" MapId1="ectype_map_055_0" mapSum="1"/>
+	<cpy cpyId="063_0" cpyLimitId="095" MapId1="ectype_map_055_1" mapSum="1"/>
+	<cpy cpyId="064_0" cpyLimitId="096" MapId1="ectype_map_055_2" mapSum="1"/>
+	<cpy cpyId="065_0" cpyLimitId="097" MapId1="ectype_map_055_3" mapSum="1"/>
+	<cpy cpyId="066_0" cpyLimitId="098" MapId1="ectype_map_055_4" mapSum="1"/>
+	
+	<cpy cpyId="067_0" cpyLimitId="099" MapId1="ectype_map_055_5" mapSum="1"/>
+	<cpy cpyId="068_0" cpyLimitId="100" MapId1="ectype_map_055_6" mapSum="1"/>
+	<cpy cpyId="069_0" cpyLimitId="101" MapId1="ectype_map_055_7" mapSum="1"/>
+	<cpy cpyId="070_0" cpyLimitId="102" MapId1="ectype_map_055_8" mapSum="1"/>
+	<cpy cpyId="071_0" cpyLimitId="103" MapId1="ectype_map_055_9" mapSum="1"/>
+</cpys> 
+ 
+
+ 

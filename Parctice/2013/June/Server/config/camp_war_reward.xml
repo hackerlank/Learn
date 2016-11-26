@@ -1,0 +1,87 @@
+<root>
+  <!--	阵营欢乐斗奖励配置
+		gold_base_value绑定金币基准数据（第一名奖励金币值，后面照前）  
+		gold_dec_value绑定金币递减大小（每靠后一名减少金币大小，后面照前）
+		prestige_base_value声望基准数据
+		prestige_dec_value声望递减大小
+		rank_limit_value排名递减限制大小(等于或者小于这个名次，奖励不递减，												和rank_limit_value-1名次奖励相同)	-->
+  <ordinary_campWar_reward 
+	gold_base_value="500000"
+	gold_dec_value="50000" 
+	prestige_base_value="300" 
+	prestige_dec_value="30" 
+	rank_limit_value="10"
+	/>
+ 
+  <!-- 统领争夺战赢家奖励配置  
+		gold_dec_value绑定金币递减大小
+		prestige_base_value声望基准数据
+		prestige_dec_value声望递减大小
+		guidGlory_base_value帮贡基准数据
+		guidGlory_dec_value帮贡递减大小
+		guidExp_base_value帮派经验基准数据
+		guidExp_dec_value帮派经验递减大小
+		rank_limit_value最后一个递减的排名大小（下面配置标示相同，不再说明）	-->
+  <winner_leader_campWar_reward 
+	gold_base_value="18000" 
+	gold_dec_value="2000" 
+	prestige_base_value="90" 
+	prestige_dec_value="10" 
+	guidGlory_base_value="90" 
+	guidGlory_dec_value="10"	
+	guidExp_base_value="2700" 
+	guidExp_dec_value="300" 
+	rank_limit_value="10"
+	/> 
+ 
+  <!-- 统领争夺战输家奖励配置   -->  
+  <failure_leader_campWar_reward 
+	gold_base_value="90000" 
+	gold_dec_value="10000" 
+	prestige_base_value="45" 
+	prestige_dec_value="5" 
+	guidGlory_base_value="45" 
+	guidGlory_dec_value="5" 
+	guidExp_base_value="1350" 
+	guidExp_dec_value="150" 
+	rank_limit_value="10"
+	/>  
+  
+  <!-- 盟主争夺战第一名奖励配置   -->   
+  <first_chief_campWar_reward 
+	gold_base_value="180000" 
+	gold_dec_value="20000" 
+	prestige_base_value="180" 
+	prestige_dec_value="20" 
+	guidGlory_base_value="180" 
+	guidGlory_dec_value="20" 
+	guidExp_base_value="3600" 
+	guidExp_dec_value="400" 
+	rank_limit_value="10"
+	/>  
+  
+   <!-- 盟主争夺战第二名奖励配置   -->    
+  <second_chief_campWar_reward 
+	gold_base_value="90000" 
+	gold_dec_value="10000" 
+	prestige_base_value="90" 
+	prestige_dec_value="10" 
+	guidGlory_base_value="90" 
+	guidGlory_dec_value="10" 
+	guidExp_base_value="1800" 
+	guidExp_dec_value="200" 
+	rank_limit_value="10"
+	/> 
+  
+   <!-- 盟主争夺战第三名奖励配置   -->     
+  <third_chief_campWar_reward 
+	gold_base_value="45000" 
+	gold_dec_value="5000" 
+	prestige_base_value="45" 
+	prestige_dec_value="5"   
+	guidGlory_base_value="45" 
+	guidGlory_dec_value="5" 
+	guidExp_base_value="900" 
+	guidExp_dec_value="100" 
+	rank_limit_value="10"/>    
+</root>

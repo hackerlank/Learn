@@ -1,0 +1,18 @@
+<!--
+	文件名：partyRoom.xml
+	文件作用：存储所有帮派房间
+	作者：chenzhen
+	创建日期：2012.12.14
+-->
+
+<!--   属性说明
+	partyLimitId ：表示帮派限制类id
+	partyMapId ： 表示帮派地图id
+	partyNum : 表示进入帮派人数限制
+	partyRank ： 表示进入帮派房间帮派最低等级限制
+	room ： 表示此场景帮派房间数
+	注：还有时间限制，暂时还木有加
+-->
+<partyLimit>
+<partyLimit partyLimitId="01" partyMapId="map_029" partyNum="1" partyRank="1" room="120"/>
+</partyLimit>

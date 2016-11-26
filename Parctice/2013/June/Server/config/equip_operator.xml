@@ -1,0 +1,57 @@
+<root>
+<!-- rongLianPer-熔炼的成功率
+rongLianAdd-熔炼一次增加的比例
+kaiRenAdd-开刃一次增加的比例 -->
+
+  <operator level="0" rongLianPer="1000" rongLianAdd="0" kaiRenAdd="0"></operator>
+  <operator level="1" rongLianPer="1000" rongLianAdd="18" kaiRenAdd="50"></operator>
+  <operator level="2" rongLianPer="950" rongLianAdd="37" kaiRenAdd="100"></operator>
+  <operator level="3" rongLianPer="900" rongLianAdd="56" kaiRenAdd="150"></operator>
+  <operator level="4" rongLianPer="850" rongLianAdd="75" kaiRenAdd="200"></operator>
+  <operator level="5" rongLianPer="700" rongLianAdd="95" kaiRenAdd="250"></operator>
+  <operator level="6" rongLianPer="750" rongLianAdd="114" kaiRenAdd="300"></operator>
+  <operator level="7" rongLianPer="700" rongLianAdd="134" kaiRenAdd="350"></operator>
+  <operator level="8" rongLianPer="650" rongLianAdd="154" kaiRenAdd="400"></operator>
+  <operator level="9" rongLianPer="600" rongLianAdd="174" kaiRenAdd="450"></operator>
+  <operator level="10" rongLianPer="550" rongLianAdd="194" kaiRenAdd="500"></operator>
+  <operator level="11" rongLianPer="450" rongLianAdd="215" kaiRenAdd="750"></operator>
+  <operator level="12" rongLianPer="420" rongLianAdd="236" kaiRenAdd="1000"></operator>
+  <operator level="13" rongLianPer="390" rongLianAdd="257" kaiRenAdd="1250"></operator>
+  <operator level="14" rongLianPer="360" rongLianAdd="278" kaiRenAdd="1500"></operator>
+  <operator level="15" rongLianPer="330" rongLianAdd="300" kaiRenAdd="1750"></operator>
+  <operator level="16" rongLianPer="300" rongLianAdd="322" kaiRenAdd="2000"></operator>
+  <operator level="17" rongLianPer="270" rongLianAdd="344" kaiRenAdd="2250"></operator>
+  <operator level="18" rongLianPer="255" rongLianAdd="366" kaiRenAdd="2500"></operator>
+  <operator level="19" rongLianPer="240" rongLianAdd="389" kaiRenAdd="2750"></operator>
+  <operator level="20" rongLianPer="225" rongLianAdd="412" kaiRenAdd="3000"></operator>
+  <operator level="21" rongLianPer="210" rongLianAdd="435" kaiRenAdd="-1"></operator>
+  <operator level="22" rongLianPer="200" rongLianAdd="458" kaiRenAdd="-1"></operator>
+  <operator level="23" rongLianPer="190" rongLianAdd="482" kaiRenAdd="-1"></operator>
+  <operator level="24" rongLianPer="180" rongLianAdd="505" kaiRenAdd="-1"></operator>
+  <operator level="25" rongLianPer="170" rongLianAdd="530" kaiRenAdd="-1"></operator>
+  <operator level="26" rongLianPer="160" rongLianAdd="554" kaiRenAdd="-1"></operator>
+  <operator level="27" rongLianPer="145" rongLianAdd="579" kaiRenAdd="-1"></operator>
+  <operator level="28" rongLianPer="130" rongLianAdd="603" kaiRenAdd="-1"></operator>
+  <operator level="29" rongLianPer="115" rongLianAdd="629" kaiRenAdd="-1"></operator>
+  <operator level="30" rongLianPer="100" rongLianAdd="654" kaiRenAdd="-1"></operator>
+  <operator level="31" rongLianPer="90" rongLianAdd="745" kaiRenAdd="-1"></operator>
+  <operator level="32" rongLianPer="80" rongLianAdd="839" kaiRenAdd="-1"></operator>
+  <operator level="33" rongLianPer="70" rongLianAdd="937" kaiRenAdd="-1"></operator>
+  <operator level="34" rongLianPer="60" rongLianAdd="1039" kaiRenAdd="-1"></operator>
+  <operator level="35" rongLianPer="50" rongLianAdd="1145" kaiRenAdd="-1"></operator>
+  <operator level="36" rongLianPer="40" rongLianAdd="1255" kaiRenAdd="-1"></operator>
+  <operator level="37" rongLianPer="30" rongLianAdd="1369" kaiRenAdd="-1"></operator>
+  <operator level="38" rongLianPer="25" rongLianAdd="1488" kaiRenAdd="-1"></operator>
+  <operator level="39" rongLianPer="20" rongLianAdd="1612" kaiRenAdd="-1"></operator>
+  <operator level="40" rongLianPer="15" rongLianAdd="1740" kaiRenAdd="-1"></operator>
+  <operator level="41" rongLianPer="10" rongLianAdd="1873" kaiRenAdd="-1"></operator>
+  <operator level="42" rongLianPer="9" rongLianAdd="2012" kaiRenAdd="-1"></operator>
+  <operator level="43" rongLianPer="8" rongLianAdd="2155" kaiRenAdd="-1"></operator>
+  <operator level="44" rongLianPer="7" rongLianAdd="2305" kaiRenAdd="-1"></operator>
+  <operator level="45" rongLianPer="6" rongLianAdd="2460" kaiRenAdd="-1"></operator>
+  <operator level="46" rongLianPer="5" rongLianAdd="2622" kaiRenAdd="-1"></operator>
+  <operator level="47" rongLianPer="4" rongLianAdd="2790" kaiRenAdd="-1"></operator>
+  <operator level="48" rongLianPer="3" rongLianAdd="2964" kaiRenAdd="-1"></operator>
+  <operator level="49" rongLianPer="2" rongLianAdd="3145" kaiRenAdd="-1"></operator>
+  <operator level="50" rongLianPer="1" rongLianAdd="3333" kaiRenAdd="-1"></operator>
+</root>

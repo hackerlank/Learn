@@ -1,0 +1,19 @@
+<root>
+<!-- room_control阵营资源战信息   brushNumPerTimes出现资源和人数的比例关系数    pickScore每个水晶所得积分  perCampLimitHeros资源战对每个阵营人数限制   roomLimitHeros每个房间人数限制
+time_ctl阵营资源战时间设定  prepareTime战斗预备时间  pkTime采集资源时间  brushTime资源刷新间隔时间  rewardTime奖励物品保护时间
+from_location玩家进入点   
+camp_win_reward阵营获得第一名的奖励 minScore获得奖励最低积分数要求 money金币奖励  prestige声望奖励
+join_reward未获得水晶的参与玩家的奖励
+res_num_reward获得水晶玩家的奖励系数  玩家获得金币数量=moneyBase*收集水晶所得积分   玩家获得声望数量=prestigeBase*[收集水晶所得积分/100](取整)
+rank_fst_reward个人排名奖励 -->
+	<room_control brushNumPerTimes="10" pickScore="100" perCampLimitHeros="30" roomLimitHeros="90">
+		<time_ctl prepareTime="15" pkTime="1200" brushTime="180" rewardTime="300"/>
+		<from_location fromMap="map_001" fromPt_X="7015" fromPt_Y="3255"/>
+		<camp_win_reward minScore="0" money="100000" prestige="80"/>
+		<join_reward money="10000" prestige="5"/>
+		<res_num_reward moneyBase="30" prestigeBase="1"/>
+		<rank_fst_reward minScore="0" money="500000" prestige="100" goodsId="f_cl_117_100"/>
+		<rank_scd_reward minScore="0" money="250000" prestige="50" goodsId="f_cl_117_100"/>
+		<rank_thd_reward minScore="0" money="150000" prestige="30" goodsId="f_cl_117_100"/>
+	</room_control>
+</root>

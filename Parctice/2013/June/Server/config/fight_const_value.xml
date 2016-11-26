@@ -1,0 +1,6 @@
+<root>
+<!-- attkFactor攻击系数C1  defFactor防御系数C2
+hitFactor命中系数   critFactor暴击系数  tencFactor韧性系数  critBase暴击常数  tencBase韧性常数   tencMax=100    critDivisor暴击率公式分母
+critTimes暴击倍数 -->
+	<FightConst attkFactor="1" defFactor="500" hitFactor="20" critFactor="30" tencFactor="30" critBase="15" tencBase="5" tencMax="100" critDivisor="10000" critTimes="2"/>
+</root>

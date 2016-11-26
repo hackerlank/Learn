@@ -1,0 +1,91 @@
+	<root>
+	<!-- openNeedGuildMoney 开启技能需要金钱  openNeedGuildGlory 开启技能需要帮贡  upNeedMoneyBase 技能升级消耗的初始金钱   initval 技能初始值  addFactor 技能增长值系数  upNeedGloryFactor 帮贡需求系数  upNeedMoneyFactor 金钱需求系数 
+	技能n级消耗金钱 技能等级的平方*金钱系数+（n-1）级消耗金钱
+	技能n级消耗帮贡 技能等级*消耗帮贡系数
+	-->
+		<guildSkill>
+			<skill id="bpskill_001" order="0" openNeedGuildMoney="12000" openNeedGuildGlory="40" upNeedMoneyBase="1000" initval="100" addFactor="4" upNeedGloryFactor="6" upNeedMoneyFactor="50">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="8"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- n级技能效果   技能等级的平方*系数 -->
+			
+			
+			<skill id="bpskill_002" order="1" openNeedGuildMoney="24000" openNeedGuildGlory="80" upNeedMoneyBase="1000" initval="50" addFactor="3" upNeedGloryFactor="6" upNeedMoneyFactor="50">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="8"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- n级技能效果   技能等级的平方*系数 -->
+			
+			
+			<skill id="bpskill_003" order="2" openNeedGuildMoney="36000" openNeedGuildGlory="120" upNeedMoneyBase="1000" initval="20" addFactor="4" upNeedGloryFactor="6" upNeedMoneyFactor="50">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="8"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+           <!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_004" order="3" openNeedGuildMoney="48000" openNeedGuildGlory="160" upNeedMoneyBase="1000" initval="20" addFactor="4" upNeedGloryFactor="6" upNeedMoneyFactor="50">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="8"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_005" order="4" openNeedGuildMoney="60000" openNeedGuildGlory="200" upNeedMoneyBase="1500" initval="10" addFactor="3" upNeedGloryFactor="10" upNeedMoneyFactor="80">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_006" order="5" openNeedGuildMoney="72000" openNeedGuildGlory="240" upNeedMoneyBase="1500" initval="10" addFactor="3" upNeedGloryFactor="10" upNeedMoneyFactor="80">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_007" order="6" openNeedGuildMoney="84000" openNeedGuildGlory="280" upNeedMoneyBase="1200" initval="2" addFactor="0.5" upNeedGloryFactor="10" upNeedMoneyFactor="60">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="12"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_008" order="7" openNeedGuildMoney="96000" openNeedGuildGlory="320" upNeedMoneyBase="1500" initval="2" addFactor="0.5" upNeedGloryFactor="12" upNeedMoneyFactor="80">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="0"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_009" order="8" openNeedGuildMoney="108000" openNeedGuildGlory="360" upNeedMoneyBase="1200" initval="2" addFactor="0.5" upNeedGloryFactor="12" upNeedMoneyFactor="80">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="0"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+			<!-- 		技能效果增长公式	等级*系数 -->
+			<skill id="bpskill_010" order="9" openNeedGuildMoney="120000" openNeedGuildGlory="400" upNeedMoneyBase="1500" initval="2" addFactor="0.5" upNeedGloryFactor="12" upNeedMoneyFactor="80">
+				<limit guildLevel="1" canUpTo="0"/>
+				<limit guildLevel="2" canUpTo="0"/>
+				<limit guildLevel="3" canUpTo="0"/>
+				<limit guildLevel="4" canUpTo="16"/>
+				<limit guildLevel="5" canUpTo="20"/>
+			</skill>
+		</guildSkill>
+	</root>

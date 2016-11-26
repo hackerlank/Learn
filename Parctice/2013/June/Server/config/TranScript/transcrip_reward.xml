@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<!--limit进入副本的等级要求-->
+	<EntLevel limit ="15">
+		<!--GoodsPack可能奖励物品范围 Class难度层级-->
+		<GoodsPack>
+			<!--WEquips白色装备id列表 BEquips蓝色装备id列表 PEquips紫色装备id列表 YEquips黄色……-->
+			<!--PetEggs宠物蛋id列表 Others其他装备id列表 Reserve预留节点，以备再添加-->
+			<WEquips>g1001,g1002,g1003,g1004,h1001,h1002,h1003,h1004,</WEquips>
+			<BEquips>g2001,g2002,g2003,g2004,h2001,h2002,h2003,h2004,</BEquips>
+			<PEquips>g3001,</PEquips>
+			<YEquips>g4001,</YEquips>
+			<OEquips>g5001,</OEquips>
+			<PetEggs>petegg1,</PetEggs>
+			<Others>other1,</Others>
+			<Reserve>reserve,</Reserve>
+		</GoodsPack>
+		<!--level难度等级 exp经验奖励值 money金钱奖励值-->
+		<!--奖励率的值是对应的百分比值，精确到小数点后两位-->
+		<!--wEqpRate白装奖励率 bEqpRate蓝装奖励率 yEqpRate黄装奖励率 oEqpRate橙装奖励率-->
+		<!--petEggRate宠物蛋奖励率 otherRate其他物品奖励率 reserveRate对应预留物品-->
+		<Class level="1" exp="10000" money="10000" wEqpRate="50" bEqpRate="20" pEqpRate="10" yEqpRate="1" oEqpRate="1" petEggRate="0" otherRate="12" reserveRate="0">
+		</Class>
+		<Class level="2" exp="15000" money="15000" wEqpRate="30" bEqpRate="20" pEqpRate="10" yEqpRate="5" oEqpRate="1" petEggRate="20" otherRate="14" reserveRate="0">
+		</Class>
+		<Class level="3" exp="20000" money="20000" wEqpRate="20" bEqpRate="20" pEqpRate="10" yEqpRate="10" oEqpRate="11" petEggRate="0" otherRate="24" reserveRate="0">
+		</Class>
+	</EntLevel>
+</root>

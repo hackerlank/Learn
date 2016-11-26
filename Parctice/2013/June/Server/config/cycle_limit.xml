@@ -1,0 +1,125 @@
+<root>
+	<!--everyDay:每天更新的项目 everyWeek:每周更新的项目-->
+	<!--id:项目名；limitTimes:每天限制次数-->
+	<everyDay>
+		<dayTask>
+			<Item id="task00493" limitTimes="5"/>
+			<Item id="task00402" limitTimes="3"/>
+			<Item id="task00419" limitTimes="1"/>
+			<Item id="task00420" limitTimes="1"/>
+			<Item id="task00481" limitTimes="1"/>
+		</dayTask>
+		<guildTask>
+			<Item id="task00295" limitTimes="3"/>
+			<Item id="task00347" limitTimes="1"/>
+			<Item id="task00421" limitTimes="3"/>
+			<Item id="task00422" limitTimes="1"/>
+		</guildTask>
+		<campTask>
+			<Item id="task00378" limitTimes="1"/>
+			<Item id="task00379" limitTimes="1"/>
+			<Item id="task00380" limitTimes="1"/>
+			<Item id="task00381" limitTimes="1"/>
+			<Item id="task00382" limitTimes="1"/>
+			<Item id="task00383" limitTimes="1"/>
+			<Item id="task00384" limitTimes="1"/>
+			<Item id="task00385" limitTimes="1"/>
+			<Item id="task00386" limitTimes="1"/>
+			<Item id="task00387" limitTimes="1"/>
+			<Item id="task00388" limitTimes="1"/>
+			<Item id="task00389" limitTimes="1"/>
+			<Item id="task00390" limitTimes="1"/>
+			<Item id="task00391" limitTimes="1"/>
+			<Item id="task00392" limitTimes="1"/>
+			<Item id="task00393" limitTimes="1"/>
+			<Item id="task00394" limitTimes="1"/>
+			<Item id="task00395" limitTimes="1"/>
+			<Item id="task00396" limitTimes="1"/>
+			<Item id="task00397" limitTimes="1"/>
+			<Item id="task00398" limitTimes="1"/>
+			<Item id="task00399" limitTimes="1"/>
+			<Item id="task00400" limitTimes="1"/>
+			<Item id="task00401" limitTimes="1"/>
+		</campTask>
+		<otherItem>
+			<Item id="ectypeReward" limitTimes="1"/>
+			<Item id="campLeaderReward" limitTimes="1"/>
+			<Item id="campChiefReward" limitTimes="1"/>
+			<Item id="joinGuildWarTimes" limitTimes="1"/>
+		</otherItem>
+		
+		<cycleTask level="30">
+			<Item id="task00601" limitTimes="50000"/>
+			<Item id="task00602" limitTimes="50000"/>
+			<Item id="task00603" limitTimes="50000"/>
+			<Item id="task00604" limitTimes="50000"/>
+			<Item id="task00605" limitTimes="50000"/>
+			<Item id="task00606" limitTimes="50000"/>
+			<Item id="task00607" limitTimes="50000"/>
+			<Item id="task00608" limitTimes="50000"/>
+			<Item id="task00609" limitTimes="50000"/>
+			<Item id="task00610" limitTimes="50000"/>
+		</cycleTask>
+		
+		<cycleTask level="40">
+			<Item id="task00611" limitTimes="50000"/>
+			<Item id="task00612" limitTimes="50000"/>
+			<Item id="task00613" limitTimes="50000"/>
+			<Item id="task00614" limitTimes="50000"/>
+			<Item id="task00615" limitTimes="50000"/>
+			<Item id="task00616" limitTimes="50000"/>
+			<Item id="task00617" limitTimes="50000"/>
+			<Item id="task00618" limitTimes="50000"/>
+			<Item id="task00619" limitTimes="50000"/>
+			<Item id="task00620" limitTimes="50000"/>
+		</cycleTask>
+		
+		<cycleTask level="50">
+			<Item id="task00621" limitTimes="50000"/>
+			<Item id="task00622" limitTimes="50000"/>
+			<Item id="task00623" limitTimes="50000"/>
+			<Item id="task00624" limitTimes="50000"/>
+			<Item id="task00625" limitTimes="50000"/>
+			<Item id="task00626" limitTimes="50000"/>
+			<Item id="task00627" limitTimes="50000"/>
+			<Item id="task00628" limitTimes="50000"/>
+			<Item id="task00629" limitTimes="50000"/>
+			<Item id="task00630" limitTimes="50000"/>
+		</cycleTask>
+		
+		<cycleTask level="60">
+			<Item id="task00631" limitTimes="50000"/>
+			<Item id="task00632" limitTimes="50000"/>
+			<Item id="task00633" limitTimes="50000"/>
+			<Item id="task00634" limitTimes="50000"/>
+			<Item id="task00635" limitTimes="50000"/>
+			<Item id="task00636" limitTimes="50000"/>
+			<Item id="task00637" limitTimes="50000"/>
+			<Item id="task00638" limitTimes="50000"/>
+			<Item id="task00639" limitTimes="50000"/>
+			<Item id="task00640" limitTimes="50000"/>
+		</cycleTask>
+		
+		<cycleTask level="70">
+			<Item id="task00641" limitTimes="50000"/>
+			<Item id="task00642" limitTimes="50000"/>
+			<Item id="task00643" limitTimes="50000"/>
+			<Item id="task00644" limitTimes="50000"/>
+			<Item id="task00645" limitTimes="50000"/>
+			<Item id="task00646" limitTimes="50000"/>
+			<Item id="task00647" limitTimes="50000"/>
+			<Item id="task00648" limitTimes="50000"/>
+			<Item id="task00649" limitTimes="50000"/>
+			<Item id="task00650" limitTimes="50000"/>
+		</cycleTask>
+		
+		<cycleTask level="80">
+			<Item id="task00651" limitTimes="50000"/>
+		</cycleTask>
+	
+	</everyDay>
+	<everyWeek>
+		<Item id="ddddddd" limitTimes="5"/>
+	</everyWeek>
+	
+</root>

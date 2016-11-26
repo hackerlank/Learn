@@ -1,0 +1,4 @@
+<root>
+<!-- normalHeroSpeed人物移动速度   normalPetSpeed宠物的移动速度  normalMonsterSpeed怪物的移动速度  normalWagonSpeed马车的移动速度 -->
+	<speed normalHeroSpeed="180" normalPetSpeed="180" normalMonsterSpeed="120" normalWagonSpeed="90"/>
+</root>
