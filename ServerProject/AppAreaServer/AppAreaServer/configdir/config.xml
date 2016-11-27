@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--参数-->
+<Flyer>
+    <global>
+        <!--消息命令空间-->
+        <namespace>ProtoMsgData</namespace>
+        <!--消息map--> 
+        <cmdxml>configdir/xmlConfig/cmdXml.xml</cmdxml>
+        <!--管理服ip和端口-->
+        <superip>121.40.77.217</superip>
+        <superport>10100</superport>
+        <superid>2</superid>
+        <!--套接字的缓冲区-->
+        <socketbuffersize>1024</socketbuffersize>
+        <!--host:port:user:passwd:dbname-->
+        <mysql>0:121.40.77.217:3306:flyer:flyer:medo</mysql>
+        <!--mysql连接最大使用次数-->
+        <maxmysqlusecnt>1800</maxmysqlusecnt>
+        <!--mysql连接最大使用时间单位为秒-->
+        <maxmysqlusetime>1800</maxmysqlusetime>
+        <!--accpet等待毫秒数-->
+        <acceptwaittime>-1</acceptwaittime>
+        <!--增加epoll的大小-->
+        <addepollsize>10</addepollsize>
+        <!--主线程处理任务数量-->
+        <threadprocesstask>256</threadprocesstask>
+        <!--线程睡眠时间(毫秒)-->
+        <threadsleep>10</threadsleep>
+        <!--连接等待时间-->
+        <taskwaittime>60</taskwaittime>
+        <!--用户最大数据-->
+        <datasize>10240</datasize>
+        <!--excel表数据目录-->
+        <exceltbx>configdir/excelTbx/</exceltbx>
+         <!--心跳包间隔-->
+        <hearttime>100</hearttime>
+        <!--redis配置文件-->
+        <redisxml>configdir/xmlConfig/redisConfig.xml</redisxml>
+        <!--http 超时秒数-->
+        <httptimeout>30</httptimeout>
+        <!--测试url-->
+        <url>http://121.40.77.217:8081/StudentSystem/register</url>
+    </global>
+    <login>
+    </login>
+    <super>
+    </super>
+    <record>
+    </record>
+    <scene>
+    </scene>
+    <gateway>
+    </gateway>
+    <robot>
+        <!--登陆服务器IP和端口-->
+        <loginip>121.40.77.217</loginip>
+        <loginport>10010</loginport>
+    </robot>
+</Flyer>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redisconf>
+	<redis var="redismap" key="id">
+		<memdb id="1" ip="139.196.154.45" port="6385"/>
+		<memdb id="2" ip="139.196.154.45" port="6385"/>
+        <memdb id="3" ip="139.196.154.45" port="6385"/>
+        <memdb id="4" ip="139.196.154.45" port="6385"/>
+        <memdb id="5" ip="139.196.154.45" port="6385"/>
+        <memdb id="6" ip="139.196.154.45" port="6385"/>
+        <memdb id="7" ip="139.196.154.45" port="6385"/>
+	</redis>
+</redisconf>
+

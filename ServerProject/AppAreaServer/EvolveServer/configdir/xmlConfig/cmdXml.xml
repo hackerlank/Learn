@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protocol>	
+	<RegisterProto name="消息ID注册" desc="注册命令">
+		<ReqSystemLogicID name="逻辑ID" value="1" desc="系统消息">
+			<member name="Register" value="1" proto="ReqServerInfo" desc="请求ip"/>
+            <member name="Register" value="2" proto="ReqVerifyServer" desc="请求连接服务器"/>
+            <member name="Register" value="3" proto="ReqHeartBeat" desc="请求心跳"/>
+            <member name="Register" value="4" proto="ReqCreateUser" desc="请求创建角色"/>
+            <member name="Register" value="5" proto="ReqLoginScene" desc="请求登陆场景"/>
+		</ReqSystemLogicID>
+		<AckSystemLogicID name="逻辑ID" value="2" desc="注册登录类返回">
+            <member name="Register" value="1" proto="AckVerifyServer" desc="服务器验证返回"/>
+            <member name="Register" value="2" proto="AckUpdateServerInfo" desc="更新服务器信息"/>
+            <member name="Register" value="3" proto="AckRespServerInfo" desc="回应服务器消息"/>
+            <member name="Register" value="4" proto="AckNotifyMe" desc="通知启动服"/>
+            <member name="Register" value="5" proto="AckHeartBeat" desc="回应心跳"/>
+            <member name="Register" value="6" proto="AckCreateUser" desc="回应创建角色"/>
+            <member name="Register" value="7" proto="AckLoginScene" desc="回应登陆场景"/>
+            <member name="Register" value="8" proto="AckUserMsg" desc="发送到客户端消息"/>
+		</AckSystemLogicID>
+        
+        <ReqLoginLogicID name="逻辑ID" value="3" desc="登陆消息">
+			<member name="Register" value="1" proto="ReqRegister" desc="请求注册"/>
+            <member name="Register" value="2" proto="ReqGateway" desc="请求网关"/>
+            <member name="Register" value="3" proto="ReqLoginGateway" desc="请求登陆网关"/>
+		</ReqLoginLogicID>
+		<AckLoginLogicID name="逻辑ID" value="4" desc="注册登录类返回">
+            <member name="Register" value="1" proto="AckRegister" desc="注册回应"/>
+            <member name="Register" value="2" proto="AckGateway" desc="请求网关回应"/>
+            <member name="Register" value="3" proto="AckLoginGateway" desc="登陆网关回应"/>
+            <member name="Register" value="4" proto="AckOnLine" desc="成功登陆返回"/>
+            <member name="Register" value="5" proto="AckErrorCode" desc="错误码"/>
+		</AckLoginLogicID>
+	</RegisterProto>
+</protocol>
+

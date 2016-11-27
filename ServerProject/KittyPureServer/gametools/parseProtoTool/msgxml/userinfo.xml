@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+	<!--角色属性-->
+	<proto name="UserInfo" desc="角色基本信息">
+		<member name="charid" prefix="required" type="uint64" desc="角色id"/>
+        <member name="account" prefix="required" type="string" desc="账号"/>
+        <member name="level" prefix="required" type="uint32" desc="等级"/>
+		<member name="vouchers" prefix="required" type="uint32" desc="代金券"/>
+    </proto>
+	
+	<!--创建角色-->
+	<proto name="ReqCreateRole" desc="创建角色">
+    </proto>
+
+	<!--刷新角色基本消息-->
+	<proto name="AckUserInfo" desc="刷新角色基本信息">
+        <member name="userinfo" prefix="required" type="UserInfo" desc="角色基本信息"/>
+    </proto>
+	
+	<!--同步系统时间-->
+	<proto name="AckSystemTime" desc="同步系统时间">
+        <member name="time" prefix="required" type="uint64" desc="系统时间，精确到秒"/>
+    </proto>
+	
+  
+
+</protocol>
+

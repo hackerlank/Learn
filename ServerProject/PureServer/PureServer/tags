@@ -1,0 +1,713 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	base/Makefile	/^AR            = ar$/;"	m
+AR	protocpp/Makefile	/^AR            = ar$/;"	m
+AckTest	protocpp/serialize.pb.cc	/^AckTest::AckTest()$/;"	f	class:ProtoMsgData::AckTest
+AckTest	protocpp/serialize.pb.cc	/^AckTest::AckTest(const AckTest& from)$/;"	f	class:ProtoMsgData::AckTest
+AckTest	protocpp/serialize.pb.h	/^class AckTest : public ::google::protobuf::Message {$/;"	c	namespace:ProtoMsgData
+AckTest_descriptor_	protocpp/serialize.pb.cc	/^const ::google::protobuf::Descriptor* AckTest_descriptor_ = NULL;$/;"	m	namespace:ProtoMsgData::__anon1	file:
+AckTest_reflection_	protocpp/serialize.pb.cc	/^  AckTest_reflection_ = NULL;$/;"	m	namespace:ProtoMsgData::__anon1	file:
+ByteSize	protocpp/serialize.pb.cc	/^int AckTest::ByteSize() const {$/;"	f	class:ProtoMsgData::AckTest
+ByteSize	protocpp/serialize.pb.cc	/^int ReqTest::ByteSize() const {$/;"	f	class:ProtoMsgData::ReqTest
+CC	base/Makefile	/^CC            = gcc$/;"	m
+CC	client/Makefile	/^CC            = gcc$/;"	m
+CC	protocpp/Makefile	/^CC            = gcc$/;"	m
+CC	server/Makefile	/^CC            = gcc$/;"	m
+CFLAGS	base/Makefile	/^CFLAGS         := -std=c++11 $(FLYER_COMPILE_OPT) $(PIC_FLAG) -Wall -D_GNU_SOURCE -D_REENTRANT$/;"	m
+CFLAGS	client/Makefile	/^CFLAGS         := -std=c++11 $(FLYER_COMPILE_OPT) $(PIC_FLAG) -Wall -D_GNU_SOURCE -D_REENTRANT$/;"	m
+CFLAGS	protocpp/Makefile	/^CFLAGS         := -std=c++11 $(FLYER_COMPILE_OPT) $(PIC_FLAG) -Wall -D_GNU_SOURCE -D_REENTRANT$/;"	m
+CFLAGS	server/Makefile	/^CFLAGS         := -std=c++11 $(FLYER_COMPILE_OPT) $(PIC_FLAG) -I \/usr\/local\/apr\/include -Wall -D_GNU_SOURCE -D_REENTRANT$/;"	m
+CHINA_NAME_COL	tooldir/parseExcelTool/tool_parse_excel.py	/^CHINA_NAME_COL = 0     #字段中文名$/;"	v
+CHINA_NAME_COL	tooldir/parseExcelTool/tool_parse_excel.py~	/^CHINA_NAME_COL = 0     #字段中文名$/;"	v
+CLIENR_SERVER_USERD	tooldir/parseExcelTool/tool_parse_excel.py	/^CLIENR_SERVER_USERD = "A"$/;"	v
+CLIENR_SERVER_USERD	tooldir/parseExcelTool/tool_parse_excel.py~	/^CLIENR_SERVER_USERD = "A"$/;"	v
+CLIENT_H	client/client.h	2;"	d
+CLIENT_ONLY_UESED	tooldir/parseExcelTool/tool_parse_excel.py	/^CLIENT_ONLY_UESED = "C"$/;"	v
+CLIENT_ONLY_UESED	tooldir/parseExcelTool/tool_parse_excel.py~	/^CLIENT_ONLY_UESED = "C"$/;"	v
+CLIENT_SERVER_NOT_USERD	tooldir/parseExcelTool/tool_parse_excel.py	/^CLIENT_SERVER_NOT_USERD = "N"$/;"	v
+CLIENT_SERVER_NOT_USERD	tooldir/parseExcelTool/tool_parse_excel.py~	/^CLIENT_SERVER_NOT_USERD = "N"$/;"	v
+CLIENT_TXT_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^CLIENT_TXT_DIR_NAME = "clientTxt"$/;"	v
+CLIENT_TXT_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^CLIENT_TXT_DIR_NAME = "clientTxt"$/;"	v
+CLIENT_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^CLIENT_XML_DIR_NAME = "clientXml"$/;"	v
+CLIENT_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^CLIENT_XML_DIR_NAME = "clientXml"$/;"	v
+CMD_FUN_MANAGER_H	base/cmdFunManager.h	2;"	d
+CXX	base/Makefile	/^CXX           = g++$/;"	m
+CXX	client/Makefile	/^CXX           = g++$/;"	m
+CXX	server/Makefile	/^CXX           = g++$/;"	m
+Clear	protocpp/serialize.pb.cc	/^void AckTest::Clear() {$/;"	f	class:ProtoMsgData::AckTest
+Clear	protocpp/serialize.pb.cc	/^void ReqTest::Clear() {$/;"	f	class:ProtoMsgData::ReqTest
+Client	client/client.h	/^        Client() {};$/;"	f	class:Client
+Client	client/client.h	/^class Client : public Singleton<Client>$/;"	c
+CmdFunManager	base/cmdFunManager.cpp	/^CmdFunManager::CmdFunManager()$/;"	f	class:CmdFunManager
+CmdFunManager	base/cmdFunManager.h	/^class CmdFunManager : public Singleton<CmdFunManager>$/;"	c
+CopyFrom	protocpp/serialize.pb.cc	/^void AckTest::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:ProtoMsgData::AckTest
+CopyFrom	protocpp/serialize.pb.cc	/^void AckTest::CopyFrom(const AckTest& from) {$/;"	f	class:ProtoMsgData::AckTest
+CopyFrom	protocpp/serialize.pb.cc	/^void ReqTest::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:ProtoMsgData::ReqTest
+CopyFrom	protocpp/serialize.pb.cc	/^void ReqTest::CopyFrom(const ReqTest& from) {$/;"	f	class:ProtoMsgData::ReqTest
+DATA_TYPE	tooldir/parseExcelTool/tool_parse_excel.py	/^DATA_TYPE = 1          #字段数据类型$/;"	v
+DATA_TYPE	tooldir/parseExcelTool/tool_parse_excel.py~	/^DATA_TYPE = 1          #字段数据类型$/;"	v
+DEBUG_OPT	Makefile	/^DEBUG_OPT = $(WARNING_OPT) $(MACRO_OPT) $(DIR_OPT)$/;"	m
+DEL_FILE	base/Makefile	/^DEL_FILE      = -rm -rf$/;"	m
+DEL_FILE	client/Makefile	/^DEL_FILE      = -rm -rf$/;"	m
+DEL_FILE	protocpp/Makefile	/^DEL_FILE      = -rm -rf$/;"	m
+DEL_FILE	server/Makefile	/^DEL_FILE      = -rm -rf$/;"	m
+DIR_OPT	Makefile	/^DIR_OPT = -I\/usr\/gcc\/lib\/gcc\/x86_64-unknown-linux-gnu\/5.3.0\/include\/ -I\/usr\/local\/protobuf\/include\/ -I\/usr\/include\/libxml2\/ -I\/usr\/local\/include\/ -I\/usr\/local\/mysql\/include\/ -I..\/protocpp -I..\/base$/;"	m
+DO_	protocpp/serialize.pb.cc	180;"	d	file:
+DO_	protocpp/serialize.pb.cc	191;"	d	file:
+DO_	protocpp/serialize.pb.cc	336;"	d	file:
+DO_	protocpp/serialize.pb.cc	347;"	d	file:
+DataType	base/flyerValue.h	/^            typedef union DataType$/;"	u	class:Flyer::FlyerValue
+DataType	base/flyerValue.h	/^            }DataType;$/;"	t	class:Flyer::FlyerValue	typeref:union:Flyer::FlyerValue::DataType
+Debug	base/flyer.h	5;"	d
+DisCopy	base/singleton.h	/^        DisCopy()$/;"	f	class:DisCopy
+DisCopy	base/singleton.h	/^class DisCopy$/;"	c
+EALLY_CHAR_MAP	tooldir/parseExcelTool/tool_parse_excel.py	/^EALLY_CHAR_MAP = {"*":"*", " ":" ", "?":"?"}$/;"	v
+EALLY_CHAR_MAP	tooldir/parseExcelTool/tool_parse_excel.py~	/^EALLY_CHAR_MAP = {"*":"*", " ":" ", "?":"?"}$/;"	v
+ENGLISH_NAME_COL	tooldir/parseExcelTool/tool_parse_excel.py	/^ENGLISH_NAME_COL = 3   #字段英文名$/;"	v
+ENGLISH_NAME_COL	tooldir/parseExcelTool/tool_parse_excel.py~	/^ENGLISH_NAME_COL = 3   #字段英文名$/;"	v
+EXCEL_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^EXCEL_DIR_NAME = "Excel"$/;"	v
+EXCEL_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^EXCEL_DIR_NAME = "Excel"$/;"	v
+EXEC	Makefile	/^EXEC = object$/;"	m
+Error	base/flyer.h	7;"	d
+FLOAT_TYPE	tooldir/parseExcelTool/tool_parse_excel.py	/^FLOAT_TYPE = "float"$/;"	v
+FLOAT_TYPE	tooldir/parseExcelTool/tool_parse_excel.py~	/^FLOAT_TYPE = "float"$/;"	v
+FLYER_H	base/flyer.h	2;"	d
+FLYER_LIB	client/Makefile	/^FLYER_LIB = ..\/base\/libbase.a ..\/protocpp\/libproto.a$/;"	m
+FLYER_LIB	server/Makefile	/^FLYER_LIB = ..\/protocpp\/libproto.a ..\/base\/libbase.a$/;"	m
+FLYER_VALUE_H	base/flyerValue.h	2;"	d
+FLYER_XML_PARSE_H	base/flyerXmlParse.h	2;"	d
+Flyer	base/flyer.cpp	/^namespace Flyer$/;"	n
+Flyer	base/flyer.h	/^namespace Flyer$/;"	n
+Flyer	base/flyerValue.cpp	/^namespace Flyer$/;"	n
+Flyer	base/flyerValue.h	/^namespace Flyer$/;"	n
+Flyer	base/flyerXmlParse.cpp	/^namespace Flyer$/;"	n
+Flyer	base/flyerXmlParse.h	/^namespace Flyer$/;"	n
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue()$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const FlyerValue &arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const bool arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const char *arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const char arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const float arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const int arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const long arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const short arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const std::string &arg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const unsigned char uarg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const unsigned int uarg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(const unsigned short uarg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.cpp	/^    FlyerValue::FlyerValue(unsigned long uarg)$/;"	f	class:Flyer::FlyerValue
+FlyerValue	base/flyerValue.h	/^    class FlyerValue$/;"	c	namespace:Flyer
+FlyerXmlParse	base/flyerXmlParse.cpp	/^    FlyerXmlParse::FlyerXmlParse() : m_doc(NULL)$/;"	f	class:Flyer::FlyerXmlParse
+FlyerXmlParse	base/flyerXmlParse.h	/^    class FlyerXmlParse$/;"	c	namespace:Flyer
+GetCachedSize	protocpp/serialize.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:ProtoMsgData::AckTest
+GetCachedSize	protocpp/serialize.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:ProtoMsgData::ReqTest
+GetMetadata	protocpp/serialize.pb.cc	/^::google::protobuf::Metadata AckTest::GetMetadata() const {$/;"	f	class:ProtoMsgData::AckTest
+GetMetadata	protocpp/serialize.pb.cc	/^::google::protobuf::Metadata ReqTest::GetMetadata() const {$/;"	f	class:ProtoMsgData::ReqTest
+HEAD_H	base/head.h	2;"	d
+HandleStatus	base/mysqlHandle.h	/^enum HandleStatus$/;"	g
+Handle_Invalid	base/mysqlHandle.h	/^    Handle_Invalid = 0,  \/\/无效$/;"	e	enum:HandleStatus
+Handle_Used	base/mysqlHandle.h	/^    Handle_Used = 2,     \/\/正在使用$/;"	e	enum:HandleStatus
+Handle_Valid	base/mysqlHandle.h	/^    Handle_Valid = 1,    \/\/有效$/;"	e	enum:HandleStatus
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	protocpp/serialize.pb.cc	4;"	d	file:
+INT_TYPE	tooldir/parseExcelTool/tool_parse_excel.py	/^INT_TYPE = "int"$/;"	v
+INT_TYPE	tooldir/parseExcelTool/tool_parse_excel.py~	/^INT_TYPE = "int"$/;"	v
+Info	base/flyer.h	6;"	d
+InitAsDefaultInstance	protocpp/serialize.pb.cc	/^void AckTest::InitAsDefaultInstance() {$/;"	f	class:ProtoMsgData::AckTest
+InitAsDefaultInstance	protocpp/serialize.pb.cc	/^void ReqTest::InitAsDefaultInstance() {$/;"	f	class:ProtoMsgData::ReqTest
+IsInitialized	protocpp/serialize.pb.cc	/^bool AckTest::IsInitialized() const {$/;"	f	class:ProtoMsgData::AckTest
+IsInitialized	protocpp/serialize.pb.cc	/^bool ReqTest::IsInitialized() const {$/;"	f	class:ProtoMsgData::ReqTest
+KEY_H	base/key.h	2;"	d
+LDFLAG	base/Makefile	/^LDFLAG         := $(FLYER_COMPILE_OPT) -Wall -L\/usr\/local\/lib\/ -llog4cxx -L\/usr\/local\/libxml2\/lib\/ -lxml2 -L..\/protocpp -lproto -L\/usr\/local\/protobuf\/lib\/ -lprotobuf -L\/usr\/local\/mysql\/lib\/mysql\/ -lmysqlclient$/;"	m
+LDFLAG	client/Makefile	/^LDFLAG         := $(FLYER_COMPILE_OPT) -Wall -L..\/base -lbase -L..\/protocpp -lproto -lpthread -lrt -L\/usr\/local\/apr\/lib -lapr-1 -L\/usr\/local\/apr-util\/lib -laprutil-1 -L\/usr\/local\/lib\/ -llog4cxx -L\/usr\/local\/libxml2\/lib\/ -lxml2 -L\/usr\/local\/protobuf\/lib\/ -lprotobuf -L\/usr\/local\/mysql\/lib\/mysql\/ -lmysqlclient $/;"	m
+LDFLAG	protocpp/Makefile	/^LDFLAG         := $(FLYER_COMPILE_OPT) -Wall -L\/usr\/local\/protobuf\/lib\/ -lprotobuf$/;"	m
+LDFLAG	server/Makefile	/^LDFLAG         := $(FLYER_COMPILE_OPT) -Wall -L..\/base -lbase -L..\/protocpp -lproto -lpthread -lrt -L\/usr\/local\/apr\/lib -lapr-1 -L\/usr\/local\/apr-util\/lib -laprutil-1 -L\/usr\/local\/lib\/ -llog4cxx -L\/usr\/local\/libxml2\/lib\/ -lxml2 -L\/usr\/local\/protobuf\/lib\/ -lprotobuf -L\/usr\/local\/mysql\/lib\/mysql\/ -lmysqlclient$/;"	m
+LINK	base/Makefile	/^LINK          = g++$/;"	m
+LINK	client/Makefile	/^LINK          = g++$/;"	m
+LINK	protocpp/Makefile	/^LINK          = g++$/;"	m
+LINK	server/Makefile	/^LINK          = g++$/;"	m
+MACRO_OPT	Makefile	/^MACRO_OPT = -D_DEBUG_WCX -D_ZYZ_DEBUG -D_DEBUG_LBS -D_USE_CMD_NAMESPACE  -D_USE_EPOLL_ -D_GNU_SOURCE -D_REENTRANT -D_USE_GCC_4$/;"	m
+MAIN_THREAD_H	base/mainThread.h	2;"	d
+MANAGER_CPP_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^MANAGER_CPP_DIR_NAME = "managercpp"$/;"	v
+MANAGER_CPP_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^MANAGER_CPP_DIR_NAME = "managercpp"$/;"	v
+MAX_UN_DATA_NUM_COL	tooldir/parseExcelTool/tool_parse_excel.py	/^MAX_UN_DATA_NUM_COL = 5$/;"	v
+MAX_UN_DATA_NUM_COL	tooldir/parseExcelTool/tool_parse_excel.py~	/^MAX_UN_DATA_NUM_COL = 5$/;"	v
+MESSAGE_QUEUE_H	base/messageQueue.h	2;"	d
+MYSQL_HANDLE_H	base/mysqlHandle.h	2;"	d
+MYSQL_POOL_H	base/mysqlPool.h	2;"	d
+MYSQL_URL_H	base/mysqlUrl.h	2;"	d
+MainThread	base/mainThread.h	/^        MainThread() : Thread("主线程")$/;"	f	class:MainThread
+MainThread	base/mainThread.h	/^class MainThread : public Thread,public TaskQueue,public Singleton<MainThread>$/;"	c
+MergeFrom	protocpp/serialize.pb.cc	/^void AckTest::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:ProtoMsgData::AckTest
+MergeFrom	protocpp/serialize.pb.cc	/^void AckTest::MergeFrom(const AckTest& from) {$/;"	f	class:ProtoMsgData::AckTest
+MergeFrom	protocpp/serialize.pb.cc	/^void ReqTest::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:ProtoMsgData::ReqTest
+MergeFrom	protocpp/serialize.pb.cc	/^void ReqTest::MergeFrom(const ReqTest& from) {$/;"	f	class:ProtoMsgData::ReqTest
+MergePartialFromCodedStream	protocpp/serialize.pb.cc	/^bool AckTest::MergePartialFromCodedStream($/;"	f	class:ProtoMsgData::AckTest
+MergePartialFromCodedStream	protocpp/serialize.pb.cc	/^bool ReqTest::MergePartialFromCodedStream($/;"	f	class:ProtoMsgData::ReqTest
+MessageBuffer	base/messageQueue.cpp	/^MessageBuffer::MessageBuffer() : m_readPos(0),m_writePos(0),m_buffer(s_MessageBufferMax)$/;"	f	class:MessageBuffer
+MessageBuffer	base/messageQueue.h	/^class MessageBuffer$/;"	c
+MessageData	base/messageQueue.h	/^    MessageData()$/;"	f	struct:MessageData
+MessageData	base/messageQueue.h	/^struct MessageData$/;"	s
+MessageQueue	base/messageQueue.cpp	/^MessageQueue::MessageQueue()$/;"	f	class:MessageQueue
+MessageQueue	base/messageQueue.h	/^class MessageQueue$/;"	c
+MysqlHandle	base/mysqlHandle.cpp	/^MysqlHandle::MysqlHandle(const UrlInfo &urlInfo) : m_urlInfo(urlInfo),m_id(++s_tempid),m_mysql(NULL),m_status(Handle_Invalid),m_usedCnt(0),m_lifeTime()$/;"	f	class:MysqlHandle
+MysqlHandle	base/mysqlHandle.h	/^class MysqlHandle : public DisCopy$/;"	c
+MysqlPool	base/mysqlPool.cpp	/^MysqlPool::MysqlPool()$/;"	f	class:MysqlPool
+MysqlPool	base/mysqlPool.h	/^class MysqlPool : public Singleton<MysqlPool>$/;"	c
+NJOBS	Makefile	/^NJOBS = `if [ "" == "$(NCPUS)" ]; then echo ""; else echo "-j$(NCPUS)"; fi`$/;"	m
+New	protocpp/serialize.pb.cc	/^AckTest* AckTest::New() const {$/;"	f	class:ProtoMsgData::AckTest
+New	protocpp/serialize.pb.cc	/^ReqTest* ReqTest::New() const {$/;"	f	class:ProtoMsgData::ReqTest
+PARSE_MESSAGE_H	base/parseMessage.h	2;"	d
+PROTOBUF_serialize_2eproto__INCLUDED	protocpp/serialize.pb.h	5;"	d
+PROTO_DIR_NAME	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^PROTO_DIR_NAME = "protodir"$/;"	v
+PROTO_DIR_NAME	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^PROTO_DIR_NAME = "protodir"$/;"	v
+PROTO_MSG_XML_DIR_NAME	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^PROTO_MSG_XML_DIR_NAME = "msgxml"$/;"	v
+PROTO_MSG_XML_DIR_NAME	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^PROTO_MSG_XML_DIR_NAME = "msgxml"$/;"	v
+ProtoMsgData	protocpp/serialize.pb.cc	/^namespace ProtoMsgData {$/;"	n	file:
+ProtoMsgData	protocpp/serialize.pb.h	/^namespace ProtoMsgData {$/;"	n
+RANGE_COL	tooldir/parseExcelTool/tool_parse_excel.py	/^RANGE_COL = 4          #字段值范围$/;"	v
+RANGE_COL	tooldir/parseExcelTool/tool_parse_excel.py~	/^RANGE_COL = 4          #字段值范围$/;"	v
+READ_TBX_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^READ_TBX_XML_DIR_NAME = "readtbxxml"$/;"	v
+READ_TBX_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^READ_TBX_XML_DIR_NAME = "readtbxxml"$/;"	v
+RM	Makefile	/^RM   = rm -rf$/;"	m
+ReqTest	protocpp/serialize.pb.cc	/^ReqTest::ReqTest()$/;"	f	class:ProtoMsgData::ReqTest
+ReqTest	protocpp/serialize.pb.cc	/^ReqTest::ReqTest(const ReqTest& from)$/;"	f	class:ProtoMsgData::ReqTest
+ReqTest	protocpp/serialize.pb.h	/^class ReqTest : public ::google::protobuf::Message {$/;"	c	namespace:ProtoMsgData
+ReqTest_descriptor_	protocpp/serialize.pb.cc	/^const ::google::protobuf::Descriptor* ReqTest_descriptor_ = NULL;$/;"	m	namespace:ProtoMsgData::__anon1	file:
+ReqTest_reflection_	protocpp/serialize.pb.cc	/^  ReqTest_reflection_ = NULL;$/;"	m	namespace:ProtoMsgData::__anon1	file:
+SERVER_CPP_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^SERVER_CPP_DIR_NAME = "cppproto"$/;"	v
+SERVER_CPP_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^SERVER_CPP_DIR_NAME = "cppproto"$/;"	v
+SERVER_H	server/server.h	2;"	d
+SERVER_ONLY_USERD	tooldir/parseExcelTool/tool_parse_excel.py	/^SERVER_ONLY_USERD = "S"$/;"	v
+SERVER_ONLY_USERD	tooldir/parseExcelTool/tool_parse_excel.py~	/^SERVER_ONLY_USERD = "S"$/;"	v
+SERVER_PYTHON_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^SERVER_PYTHON_DIR_NAME = "pythonproto"$/;"	v
+SERVER_PYTHON_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^SERVER_PYTHON_DIR_NAME = "pythonproto"$/;"	v
+SERVER_TBX_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^SERVER_TBX_DIR_NAME = "tbx"$/;"	v
+SERVER_TBX_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^SERVER_TBX_DIR_NAME = "tbx"$/;"	v
+SERVER_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py	/^SERVER_XML_DIR_NAME = "serverproto"$/;"	v
+SERVER_XML_DIR_NAME	tooldir/parseExcelTool/tool_parse_excel.py~	/^SERVER_XML_DIR_NAME = "serverproto"$/;"	v
+SHEET_TYPE_CHECK_AND_WRITE	tooldir/parseExcelTool/tool_parse_excel.py	/^SHEET_TYPE_CHECK_AND_WRITE = 3$/;"	v
+SHEET_TYPE_CHECK_AND_WRITE	tooldir/parseExcelTool/tool_parse_excel.py~	/^SHEET_TYPE_CHECK_AND_WRITE = 3$/;"	v
+SHEET_TYPE_IGNORE	tooldir/parseExcelTool/tool_parse_excel.py	/^SHEET_TYPE_IGNORE = 1$/;"	v
+SHEET_TYPE_IGNORE	tooldir/parseExcelTool/tool_parse_excel.py~	/^SHEET_TYPE_IGNORE = 1$/;"	v
+SHEET_TYPE_ONLY_CHECK	tooldir/parseExcelTool/tool_parse_excel.py	/^SHEET_TYPE_ONLY_CHECK = 2$/;"	v
+SHEET_TYPE_ONLY_CHECK	tooldir/parseExcelTool/tool_parse_excel.py~	/^SHEET_TYPE_ONLY_CHECK = 2$/;"	v
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SINGLETON_H	base/singleton.h	2;"	d
+SOURCE_TOOL_DIR	Makefile	/^SOURCE_TOOL_DIR = tooldir$/;"	m
+STRING_TYPE	tooldir/parseExcelTool/tool_parse_excel.py	/^STRING_TYPE = "string"$/;"	v
+STRING_TYPE	tooldir/parseExcelTool/tool_parse_excel.py~	/^STRING_TYPE = "string"$/;"	v
+SUB_DIR	Makefile	/^SUB_DIR = protocpp base$/;"	m
+SerializeWithCachedSizes	protocpp/serialize.pb.cc	/^void AckTest::SerializeWithCachedSizes($/;"	f	class:ProtoMsgData::AckTest
+SerializeWithCachedSizes	protocpp/serialize.pb.cc	/^void ReqTest::SerializeWithCachedSizes($/;"	f	class:ProtoMsgData::ReqTest
+SerializeWithCachedSizesToArray	protocpp/serialize.pb.cc	/^::google::protobuf::uint8* AckTest::SerializeWithCachedSizesToArray($/;"	f	class:ProtoMsgData::AckTest
+SerializeWithCachedSizesToArray	protocpp/serialize.pb.cc	/^::google::protobuf::uint8* ReqTest::SerializeWithCachedSizesToArray($/;"	f	class:ProtoMsgData::ReqTest
+Server	server/server.cpp	/^Server::Server()$/;"	f	class:Server
+Server	server/server.h	/^class Server : public Singleton<Server>$/;"	c
+SetCachedSize	protocpp/serialize.pb.cc	/^void AckTest::SetCachedSize(int size) const {$/;"	f	class:ProtoMsgData::AckTest
+SetCachedSize	protocpp/serialize.pb.cc	/^void ReqTest::SetCachedSize(int size) const {$/;"	f	class:ProtoMsgData::ReqTest
+SharedCtor	protocpp/serialize.pb.cc	/^void AckTest::SharedCtor() {$/;"	f	class:ProtoMsgData::AckTest
+SharedCtor	protocpp/serialize.pb.cc	/^void ReqTest::SharedCtor() {$/;"	f	class:ProtoMsgData::ReqTest
+SharedDtor	protocpp/serialize.pb.cc	/^void AckTest::SharedDtor() {$/;"	f	class:ProtoMsgData::AckTest
+SharedDtor	protocpp/serialize.pb.cc	/^void ReqTest::SharedDtor() {$/;"	f	class:ProtoMsgData::ReqTest
+SharedPtr	base/singleton.h	/^        SharedPtr()$/;"	f	class:SharedPtr
+SharedPtr	base/singleton.h	/^class SharedPtr : public boost::enable_shared_from_this<SharedPtr>$/;"	c
+Singleton	base/singleton.h	/^        Singleton()$/;"	f	class:Singleton
+Singleton	base/singleton.h	/^class Singleton : private DisCopy$/;"	c
+StaticDescriptorInitializer_serialize_2eproto	protocpp/serialize.pb.cc	/^  StaticDescriptorInitializer_serialize_2eproto() {$/;"	f	struct:ProtoMsgData::StaticDescriptorInitializer_serialize_2eproto
+StaticDescriptorInitializer_serialize_2eproto	protocpp/serialize.pb.cc	/^struct StaticDescriptorInitializer_serialize_2eproto {$/;"	s	namespace:ProtoMsgData	file:
+Swap	protocpp/serialize.pb.cc	/^void AckTest::Swap(AckTest* other) {$/;"	f	class:ProtoMsgData::AckTest
+Swap	protocpp/serialize.pb.cc	/^void ReqTest::Swap(ReqTest* other) {$/;"	f	class:ProtoMsgData::ReqTest
+TARGET_DIR	Makefile	/^TARGET_DIR = client server$/;"	m
+TASK_H	base/task.h	2;"	d
+TASK_MANAGER_H	base/taskManager.h	2;"	d
+TASK_QUEUE_H	base/taskQueue.h	2;"	d
+THREAD_H	base/thread.h	2;"	d
+THREAD_PROCESS_MAX_TASK_NUM	base/thread.h	/^const int THREAD_PROCESS_MAX_TASK_NUM = 256;$/;"	v
+TIME_FUN_H	base/timefun.h	2;"	d
+TIME_TICK_H	client/timeTick.h	2;"	d
+TIME_TICK_H	server/timeTick.h	2;"	d
+Task	base/task.cpp	/^Task::Task(const int socket) : m_socket(socket)$/;"	f	class:Task
+Task	base/task.h	/^class Task : public SharedPtr , private DisCopy$/;"	c
+TaskManager	base/taskManager.h	/^        TaskManager()$/;"	f	class:TaskManager
+TaskManager	base/taskManager.h	/^class TaskManager : public Singleton<TaskManager>$/;"	c
+TaskQueue	base/taskQueue.h	/^        TaskQueue()$/;"	f	class:TaskQueue
+TaskQueue	base/taskQueue.h	/^class TaskQueue$/;"	c
+Thread	base/thread.cpp	/^Thread::Thread(const std::string &name,const bool join) : m_id(0),m_name(name),m_complete(false),m_alive(false),m_join(join)$/;"	f	class:Thread
+Thread	base/thread.h	/^class Thread : public SharedPtr , private DisCopy$/;"	c
+Time	base/timefun.cpp	/^Time::Time(const unsigned long long msec)$/;"	f	class:Time
+Time	base/timefun.h	/^class Time$/;"	c
+TimeClock	base/timefun.cpp	/^TimeClock::TimeClock(const unsigned long msec) : m_msec(msec),m_time(m_msec)$/;"	f	class:TimeClock
+TimeClock	base/timefun.h	/^class TimeClock$/;"	c
+TimeTick	client/timeTick.cpp	/^TimeTick::TimeTick() : Thread("客户端时间线程"),m_secClock(1000),m_minClock(60*1000),m_hourClock(60*60*1000),m_halfHourClock(30*60*1000)$/;"	f	class:TimeTick
+TimeTick	client/timeTick.h	/^class TimeTick : public Thread , public Singleton<TimeTick>$/;"	c
+TimeTick	server/timeTick.cpp	/^TimeTick::TimeTick() : Thread("服务器时间线程"),m_secClock(1000),m_minClock(60*1000),m_hourClock(60*60*1000),m_halfHourClock(30*60*1000)$/;"	f	class:TimeTick
+TimeTick	server/timeTick.h	/^class TimeTick : public Thread , public Singleton<TimeTick>$/;"	c
+TimeTv	base/timefun.cpp	/^TimeTv::TimeTv()$/;"	f	class:TimeTv
+TimeTv	base/timefun.h	/^class TimeTv$/;"	c
+USE_FLAG	tooldir/parseExcelTool/tool_parse_excel.py	/^USE_FLAG = 2           #字段使用范围$/;"	v
+USE_FLAG	tooldir/parseExcelTool/tool_parse_excel.py~	/^USE_FLAG = 2           #字段使用范围$/;"	v
+UrlInfo	base/mysqlUrl.cpp	/^UrlInfo::UrlInfo(const std::string &url) : m_host(),m_port(0),m_account(),m_passwd(),m_dbName(),m_code(0),m_valid(false)$/;"	f	class:UrlInfo
+UrlInfo	base/mysqlUrl.h	/^class UrlInfo$/;"	c
+VALUE_TYPE_MAP	tooldir/parseExcelTool/tool_parse_excel.py	/^VALUE_TYPE_MAP = {STRING_TYPE:"字符串类型",INT_TYPE:"int型类型",FLOAT_TYPE:"浮点型数据"}$/;"	v
+VALUE_TYPE_MAP	tooldir/parseExcelTool/tool_parse_excel.py~	/^VALUE_TYPE_MAP = {STRING_TYPE:"字符串类型",INT_TYPE:"int型类型",FLOAT_TYPE:"浮点型数据"}$/;"	v
+WARNING_OPT	Makefile	/^WARNING_OPT = -g -Wall -Werror -Wno-unused-local-typedefs -Wno-narrowing -Wno-deprecated -fno-strict-aliasing$/;"	m
+WRITE_FIRST_CPP_FLAG	tooldir/parseExcelTool/tool_parse_excel.py	/^WRITE_FIRST_CPP_FLAG = True $/;"	v
+WRITE_FIRST_CPP_FLAG	tooldir/parseExcelTool/tool_parse_excel.py~	/^WRITE_FIRST_CPP_FLAG = True $/;"	v
+XML_CPP_COMMON_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py	/^XML_CPP_COMMON_DIR_NAME = "xmlcommon"$/;"	v
+XML_CPP_COMMON_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py~	/^XML_CPP_COMMON_DIR_NAME = "xmlcommon"$/;"	v
+XML_CPP_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py	/^XML_CPP_DIR_NAME = "xmlcpp"$/;"	v
+XML_CPP_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py~	/^XML_CPP_DIR_NAME = "xmlcpp"$/;"	v
+XML_CPP_MANAGER_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py	/^XML_CPP_MANAGER_DIR_NAME = "managerxmlcpp"$/;"	v
+XML_CPP_MANAGER_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py~	/^XML_CPP_MANAGER_DIR_NAME = "managerxmlcpp"$/;"	v
+XML_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py	/^XML_DIR_NAME = "xmldir"$/;"	v
+XML_DIR_NAME	tooldir/parseXmlTool/tool_parse_xml.py~	/^XML_DIR_NAME = "xmldir"$/;"	v
+_cached_size_	protocpp/serialize.pb.h	/^  mutable int _cached_size_;$/;"	m	class:ProtoMsgData::AckTest
+_cached_size_	protocpp/serialize.pb.h	/^  mutable int _cached_size_;$/;"	m	class:ProtoMsgData::ReqTest
+_has_bits_	protocpp/serialize.pb.h	/^  ::google::protobuf::uint32 _has_bits_[1];$/;"	m	class:ProtoMsgData::AckTest
+_has_bits_	protocpp/serialize.pb.h	/^  ::google::protobuf::uint32 _has_bits_[1];$/;"	m	class:ProtoMsgData::ReqTest
+_unknown_fields_	protocpp/serialize.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:ProtoMsgData::AckTest
+_unknown_fields_	protocpp/serialize.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:ProtoMsgData::ReqTest
+ableWriteSize	base/messageQueue.cpp	/^unsigned int MessageBuffer::ableWriteSize()$/;"	f	class:MessageBuffer
+accept	server/server.cpp	/^int Server::accept(std::map<int,int> &socketMap)$/;"	f	class:Server
+accpetMsg	base/task.cpp	/^bool Task::accpetMsg()$/;"	f	class:Task
+add	base/mainThread.cpp	/^bool MainThread::add(boost::shared_ptr<Task> task)$/;"	f	class:MainThread
+addEpoll	base/task.cpp	/^void Task::addEpoll(const int epfd,const unsigned long events)$/;"	f	class:Task
+addTask	base/taskManager.cpp	/^bool TaskManager::addTask(boost::shared_ptr<Task> task)$/;"	f	class:TaskManager
+addTask	base/taskQueue.cpp	/^void TaskQueue::addTask(boost::shared_ptr<Task> task)$/;"	f	class:TaskQueue
+addUrl	base/mysqlPool.cpp	/^bool MysqlPool::addUrl(const std::string &_url)$/;"	f	class:MysqlPool
+adjustPos	base/messageQueue.cpp	/^bool MessageBuffer::adjustPos(unsigned int size)$/;"	f	class:MessageBuffer
+beginRead	base/messageQueue.cpp	/^MessageData* MessageBuffer::beginRead()$/;"	f	class:MessageBuffer
+beginWrite	base/messageQueue.cpp	/^unsigned char* MessageBuffer::beginWrite()$/;"	f	class:MessageBuffer
+checkConnect	base/mysqlHandle.cpp	/^bool MysqlHandle::checkConnect()$/;"	f	class:MysqlHandle
+checkQueue	base/taskQueue.cpp	/^void TaskQueue::checkQueue()$/;"	f	class:TaskQueue
+check_analysis_sheet_name	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_analysis_sheet_name(name,result):$/;"	f
+check_analysis_sheet_name	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_analysis_sheet_name(name,result):$/;"	f
+check_english_name	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_english_name(name):$/;"	f
+check_english_name	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_english_name(name):$/;"	f
+check_sheet	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_sheet(data,keyMap,classArr):$/;"	f
+check_sheet	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_sheet(data,keyMap,classArr):$/;"	f
+check_sheet_all_cols	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_sheet_all_cols(sheet,sheetKeyArr):$/;"	f
+check_sheet_all_cols	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_sheet_all_cols(sheet,sheetKeyArr):$/;"	f
+check_sheet_col_type	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_sheet_col_type(sheet,col,sheetKeyArr):$/;"	f
+check_sheet_col_type	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_sheet_col_type(sheet,col,sheetKeyArr):$/;"	f
+check_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py	/^def check_tbx_file(sheet):$/;"	f
+check_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py~	/^def check_tbx_file(sheet):$/;"	f
+childCnt	base/flyerXmlParse.cpp	/^    unsigned int FlyerXmlParse::childCnt(const xmlNode *parent, const char *name) const$/;"	f	class:Flyer::FlyerXmlParse
+clear	base/flyerValue.cpp	/^    void FlyerValue::clear()$/;"	f	class:Flyer::FlyerValue
+clear	tooldir/parseMySqlTool/database.py	/^def clear():$/;"	f
+closeFd	base/task.cpp	/^void Task::closeFd()$/;"	f	class:Task
+closeHandle	base/mysqlHandle.cpp	/^void MysqlHandle::closeHandle()$/;"	f	class:MysqlHandle
+connectServer	client/client.cpp	/^bool Client::connectServer()$/;"	f	class:Client
+copydata	tooldir/parseMySqlTool/database.py	/^def copydata(text,updateFlg,index):$/;"	f
+createMessage	base/parseMessage.cpp	/^google::protobuf::Message* createMessage(const char *messageName)$/;"	f
+create_book_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_book_tbx_file(fileName,keyMap):$/;"	f
+create_book_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_book_tbx_file(fileName,keyMap):$/;"	f
+create_code	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_code():$/;"	f
+create_code	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_code():$/;"	f
+create_common_define_file	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_common_define_file():$/;"	f
+create_common_define_file	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_common_define_file():$/;"	f
+create_cpp_cpp_file	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_cpp_file(classArr):$/;"	f
+create_cpp_cpp_file	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_cpp_file(classArr):$/;"	f
+create_cpp_cpp_function	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_cpp_function(classArr):$/;"	f
+create_cpp_cpp_function	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_cpp_function(classArr):$/;"	f
+create_cpp_cpp_tail	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_cpp_tail():$/;"	f
+create_cpp_cpp_tail	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_cpp_tail():$/;"	f
+create_cpp_define_file	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_cpp_define_file(file,objectMap):$/;"	f
+create_cpp_define_file	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_cpp_define_file(file,objectMap):$/;"	f
+create_cpp_head	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_head():$/;"	f
+create_cpp_head	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_head():$/;"	f
+create_cpp_head_file	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_head_file(classArr):$/;"	f
+create_cpp_head_file	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_head_file(classArr):$/;"	f
+create_cpp_head_function	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_head_function(classArr):$/;"	f
+create_cpp_head_function	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_head_function(classArr):$/;"	f
+create_cpp_head_tail	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_head_tail():$/;"	f
+create_cpp_head_tail	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_head_tail():$/;"	f
+create_cpp_headcpp	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_cpp_headcpp():$/;"	f
+create_cpp_headcpp	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_cpp_headcpp():$/;"	f
+create_cpp_map_code	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_cpp_map_code(var_name,var_type,objectMap,tab_char):$/;"	f
+create_cpp_map_code	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_cpp_map_code(var_name,var_type,objectMap,tab_char):$/;"	f
+create_cpp_vector_code	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_cpp_vector_code(var_name,var_type,objectMap,tab_char):$/;"	f
+create_cpp_vector_code	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_cpp_vector_code(var_name,var_type,objectMap,tab_char):$/;"	f
+create_cpp_vector_func	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_cpp_vector_func(tab_char):$/;"	f
+create_cpp_vector_func	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_cpp_vector_func(tab_char):$/;"	f
+create_dir	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_dir(name):$/;"	f
+create_dir	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_dir(name):$/;"	f
+create_manager_cpp_file	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_manager_cpp_file(xmlFileArr):$/;"	f
+create_manager_cpp_file	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_manager_cpp_file(xmlFileArr):$/;"	f
+create_manager_define_file	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_manager_define_file(xmlFileArr):$/;"	f
+create_manager_define_file	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_manager_define_file(xmlFileArr):$/;"	f
+create_sheet_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py	/^def create_sheet_tbx_file(sheet,mod,keyMap):$/;"	f
+create_sheet_tbx_file	tooldir/parseExcelTool/tool_parse_excel.py~	/^def create_sheet_tbx_file(sheet,mod,keyMap):$/;"	f
+create_struct_code	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_struct_code(name,objectMap,tab_char):$/;"	f
+create_struct_code	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_struct_code(name,objectMap,tab_char):$/;"	f
+create_struct_var_code	tooldir/parseXmlTool/tool_parse_xml.py	/^def create_struct_var_code(objectMap, tab_char):$/;"	f
+create_struct_var_code	tooldir/parseXmlTool/tool_parse_xml.py~	/^def create_struct_var_code(objectMap, tab_char):$/;"	f
+data	base/messageQueue.h	/^    unsigned char data[0]; $/;"	m	struct:MessageData
+databases	tooldir/parseMySqlTool/database.py	/^databases = []$/;"	v
+decodeMessage	base/parseMessage.cpp	/^google::protobuf::Message* decodeMessage(boost::shared_ptr<MessageData> messageData)$/;"	f
+default_instance	protocpp/serialize.pb.cc	/^const AckTest& AckTest::default_instance() {$/;"	f	class:ProtoMsgData::AckTest
+default_instance	protocpp/serialize.pb.cc	/^const ReqTest& ReqTest::default_instance() {$/;"	f	class:ProtoMsgData::ReqTest
+default_instance_	protocpp/serialize.pb.cc	/^AckTest* AckTest::default_instance_ = NULL;$/;"	m	class:ProtoMsgData::AckTest	file:
+default_instance_	protocpp/serialize.pb.cc	/^ReqTest* ReqTest::default_instance_ = NULL;$/;"	m	class:ProtoMsgData::ReqTest	file:
+default_instance_	protocpp/serialize.pb.h	/^  static AckTest* default_instance_;$/;"	m	class:ProtoMsgData::AckTest
+default_instance_	protocpp/serialize.pb.h	/^  static ReqTest* default_instance_;$/;"	m	class:ProtoMsgData::ReqTest
+delEpoll	base/task.cpp	/^void Task::delEpoll(const int epfd,const unsigned long events)$/;"	f	class:Task
+delay	base/timefun.cpp	/^void Time::delay(const unsigned long long msec)$/;"	f	class:Time
+delete_empty_dir	tooldir/parseExcelTool/tool_parse_excel.py	/^def delete_empty_dir(name):$/;"	f
+delete_empty_dir	tooldir/parseExcelTool/tool_parse_excel.py~	/^def delete_empty_dir(name):$/;"	f
+depend	base/Makefile	/^depend = $(patsubst %.cpp,%.d,$(src))$/;"	m
+depend	client/Makefile	/^depend = $(patsubst %.cpp,%.d,$(src))$/;"	m
+depend	protocpp/Makefile	/^depend = $(patsubst %.cc,%.d,$(src))$/;"	m
+depend	server/Makefile	/^depend = $(patsubst %.cpp,%.d,$(src))$/;"	m
+descriptor	protocpp/serialize.pb.cc	/^const ::google::protobuf::Descriptor* AckTest::descriptor() {$/;"	f	class:ProtoMsgData::AckTest
+descriptor	protocpp/serialize.pb.cc	/^const ::google::protobuf::Descriptor* ReqTest::descriptor() {$/;"	f	class:ProtoMsgData::ReqTest
+doAcceptMessage	base/task.cpp	/^void Task::doAcceptMessage()$/;"	f	class:Task
+elapse	base/timefun.cpp	/^unsigned long TimeTv::elapse() const$/;"	f	class:TimeTv
+empty	base/messageQueue.cpp	/^bool MessageQueue::empty() const$/;"	f	class:MessageQueue
+encodeMessage	base/parseMessage.cpp	/^bool encodeMessage(const google::protobuf::Message* message,std::string &ret)$/;"	f
+excSql	tooldir/parseMySqlTool/database.py	/^def excSql(index):$/;"	f
+execSql	base/mysqlHandle.cpp	/^bool MysqlHandle::execSql(const char *sql,const unsigned int sqlLen)$/;"	f	class:MysqlHandle
+final	base/flyerXmlParse.cpp	/^    void FlyerXmlParse::final()$/;"	f	class:Flyer::FlyerXmlParse
+getAccount	base/mysqlUrl.h	/^        inline const char* getAccount() const$/;"	f	class:UrlInfo
+getChild	base/flyerXmlParse.cpp	/^    const xmlNode* FlyerXmlParse::getChild(const xmlNode *parent, const char *name) const$/;"	f	class:Flyer::FlyerXmlParse
+getCmd	base/cmdFunManager.cpp	/^unsigned int CmdFunManager::getCmd(const std::string &protoName)$/;"	f	class:CmdFunManager
+getCode	base/mysqlUrl.h	/^        inline const unsigned short getCode() const$/;"	f	class:UrlInfo
+getDBName	base/mysqlUrl.h	/^        inline const char* getDBName() const$/;"	f	class:UrlInfo
+getHandle	base/mysqlPool.cpp	/^boost::shared_ptr<MysqlHandle> MysqlPool::getHandle(const unsigned int id)$/;"	f	class:MysqlPool
+getHost	base/mysqlUrl.h	/^        inline const char* getHost() const$/;"	f	class:UrlInfo
+getID	base/mysqlHandle.cpp	/^unsigned int MysqlHandle::getID()$/;"	f	class:MysqlHandle
+getID	base/task.h	/^        inline unsigned long getID() const$/;"	f	class:Task
+getIdleHandle	base/mysqlPool.cpp	/^boost::shared_ptr<MysqlHandle> MysqlPool::getIdleHandle(const unsigned short code)$/;"	f	class:MysqlPool
+getInstance	base/singleton.h	/^        static T& getInstance()$/;"	f	class:Singleton
+getMessage	base/messageQueue.cpp	/^boost::shared_ptr<MessageData> MessageQueue::getMessage()$/;"	f	class:MessageQueue
+getNext	base/flyerXmlParse.cpp	/^    const xmlNode* FlyerXmlParse::getNext(const xmlNode *node, const char *name) const$/;"	f	class:Flyer::FlyerXmlParse
+getPasswd	base/mysqlUrl.h	/^        inline const char* getPasswd() const$/;"	f	class:UrlInfo
+getPort	base/mysqlUrl.h	/^        inline const unsigned short getPort() const$/;"	f	class:UrlInfo
+getProtoName	base/cmdFunManager.cpp	/^std::string CmdFunManager::getProtoName(const unsigned int cmdKey)$/;"	f	class:CmdFunManager
+getRoot	base/flyerXmlParse.cpp	/^    const xmlNode* FlyerXmlParse::getRoot()$/;"	f	class:Flyer::FlyerXmlParse
+getSec	base/timefun.h	/^        inline unsigned long getSec() const$/;"	f	class:TimeTv
+getSharedPtr	base/singleton.h	/^        boost::shared_ptr<SharedPtr> getSharedPtr()$/;"	f	class:SharedPtr
+getStatus	base/mysqlHandle.cpp	/^HandleStatus MysqlHandle::getStatus()$/;"	f	class:MysqlHandle
+getValid	base/mysqlUrl.h	/^        inline const bool getValid() const$/;"	f	class:UrlInfo
+get_sheet_col_range	tooldir/parseExcelTool/tool_parse_excel.py	/^def get_sheet_col_range(rangeStr,dataType,rangeArr):$/;"	f
+get_sheet_col_range	tooldir/parseExcelTool/tool_parse_excel.py~	/^def get_sheet_col_range(rangeStr,dataType,rangeArr):$/;"	f
+getopt	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+getopt	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+getopt	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+getopt	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+globalConfMap	base/flyer.cpp	/^    std::map<std::string,std::string> globalConfMap;$/;"	m	namespace:Flyer
+google	protocpp/serialize.pb.h	/^namespace google {$/;"	n
+hasAttribute	base/flyerXmlParse.cpp	/^    bool FlyerXmlParse::hasAttribute(const xmlNode *node, const char *name) const$/;"	f	class:Flyer::FlyerXmlParse
+hashKey	base/key.cpp	/^unsigned int hashKey(unsigned short key1,unsigned short key2)$/;"	f
+hashKey	base/key.cpp	/^unsigned long hashKey(unsigned int key1,unsigned int key2)$/;"	f
+hashKey	base/key.cpp	/^unsigned short hashKey(unsigned char key1,unsigned char key2)$/;"	f
+import_mod	tooldir/parseExcelTool/tool_parse_excel.py	/^def import_mod(modname, path):$/;"	f
+import_mod	tooldir/parseExcelTool/tool_parse_excel.py~	/^def import_mod(modname, path):$/;"	f
+init	base/flyer.cpp	/^    void init()$/;"	f	namespace:Flyer
+init	base/mysqlHandle.cpp	/^bool MysqlHandle::init()$/;"	f	class:MysqlHandle
+init	server/server.cpp	/^bool Server::init()$/;"	f	class:Server
+initMsgVec	base/task.cpp	/^void Task::initMsgVec()$/;"	f	class:Task
+initMysql	base/mysqlHandle.cpp	/^bool MysqlHandle::initMysql()$/;"	f	class:MysqlHandle
+install	tooldir/parseMySqlTool/database.py	/^def install():$/;"	f
+isFinal	base/thread.h	/^        inline bool isFinal()$/;"	f	class:Thread
+join	base/thread.h	/^        inline bool join()$/;"	f	class:Thread
+key	base/messageQueue.h	/^    unsigned int key;$/;"	m	struct:MessageData
+loadCmd	base/cmdFunManager.cpp	/^bool CmdFunManager::loadCmd(const char *fileName)$/;"	f	class:CmdFunManager
+loadFile	base/flyerXmlParse.cpp	/^    bool FlyerXmlParse::loadFile(const char *fileName)$/;"	f	class:Flyer::FlyerXmlParse
+loadXmlConf	base/flyerXmlParse.cpp	/^    bool loadXmlConf(const char *fileName,const char *nodeName)$/;"	f	namespace:Flyer
+logCmdMap	base/cmdFunManager.cpp	/^void CmdFunManager::logCmdMap() const$/;"	f	class:CmdFunManager
+logGlobalMap	base/flyer.cpp	/^    void logGlobalMap()$/;"	f	namespace:Flyer
+logger	base/flyer.cpp	/^    log4cxx::LoggerPtr logger;$/;"	m	namespace:Flyer
+m_account	base/mysqlUrl.h	/^        std::string m_account;$/;"	m	class:UrlInfo
+m_alive	base/thread.h	/^        bool m_alive;$/;"	m	class:Thread
+m_bool	base/flyerValue.h	/^                bool m_bool;$/;"	m	union:Flyer::FlyerValue::DataType
+m_buffer	base/messageQueue.h	/^        std::vector<unsigned char> m_buffer;$/;"	m	class:MessageBuffer
+m_char	base/flyerValue.h	/^                char m_char;$/;"	m	union:Flyer::FlyerValue::DataType
+m_cmdProtoNameMap	base/cmdFunManager.h	/^        std::map<unsigned int,std::string> m_cmdProtoNameMap;$/;"	m	class:CmdFunManager
+m_code	base/mysqlUrl.h	/^        unsigned short m_code;$/;"	m	class:UrlInfo
+m_codeHandeMap	base/mysqlPool.h	/^        std::map<unsigned short,std::set<unsigned int> >m_codeHandeMap;$/;"	m	class:MysqlPool
+m_codeUrlMap	base/mysqlPool.h	/^        std::map<unsigned short,UrlInfo> m_codeUrlMap;$/;"	m	class:MysqlPool
+m_complete	base/thread.h	/^        bool m_complete;$/;"	m	class:Thread
+m_cond	base/thread.h	/^        pthread_cond_t m_cond;$/;"	m	class:Thread
+m_dataType	base/flyerValue.h	/^            DataType m_dataType;$/;"	m	class:Flyer::FlyerValue
+m_dbName	base/mysqlUrl.h	/^        std::string m_dbName;$/;"	m	class:UrlInfo
+m_doc	base/flyerXmlParse.h	/^            xmlDocPtr m_doc;$/;"	m	class:Flyer::FlyerXmlParse
+m_epfd	base/mainThread.h	/^        int m_epfd;$/;"	m	class:MainThread
+m_epfd	server/server.h	/^        int m_epfd;$/;"	m	class:Server
+m_epollEventVec	base/mainThread.h	/^        std::vector<struct epoll_event> m_epollEventVec;$/;"	m	class:MainThread
+m_epollEventVec	server/server.h	/^        std::vector<struct epoll_event> m_epollEventVec; $/;"	m	class:Server
+m_fd	server/server.h	/^        int m_fd;$/;"	m	class:Server
+m_float	base/flyerValue.h	/^                float m_float;$/;"	m	union:Flyer::FlyerValue::DataType
+m_halfHourClock	client/timeTick.h	/^        TimeClock m_halfHourClock; $/;"	m	class:TimeTick
+m_halfHourClock	server/timeTick.h	/^        TimeClock m_halfHourClock;$/;"	m	class:TimeTick
+m_handleMap	base/mysqlPool.h	/^        std::map<unsigned int,boost::shared_ptr<MysqlHandle> >m_handleMap;$/;"	m	class:MysqlPool
+m_host	base/mysqlUrl.h	/^        std::string m_host;$/;"	m	class:UrlInfo
+m_hourClock	client/timeTick.h	/^        TimeClock m_hourClock;$/;"	m	class:TimeTick
+m_hourClock	server/timeTick.h	/^        TimeClock m_hourClock;$/;"	m	class:TimeTick
+m_id	base/mysqlHandle.h	/^        const unsigned int m_id;$/;"	m	class:MysqlHandle
+m_id	base/task.h	/^        unsigned long m_id;$/;"	m	class:Task
+m_id	base/thread.h	/^        pthread_t m_id;$/;"	m	class:Thread
+m_int	base/flyerValue.h	/^                int m_int;$/;"	m	union:Flyer::FlyerValue::DataType
+m_join	base/thread.h	/^        bool m_join;$/;"	m	class:Thread
+m_lifeTime	base/mysqlHandle.h	/^        TimeTv m_lifeTime;$/;"	m	class:MysqlHandle
+m_long	base/flyerValue.h	/^                long m_long;$/;"	m	union:Flyer::FlyerValue::DataType
+m_messageBuffer	base/task.h	/^        MessageBuffer m_messageBuffer;$/;"	m	class:Task
+m_messageList	base/messageQueue.h	/^        std::list<boost::shared_ptr<MessageData> > m_messageList;$/;"	m	class:MessageQueue
+m_messageQueue	base/task.h	/^        MessageQueue m_messageQueue;$/;"	m	class:Task
+m_minClock	client/timeTick.h	/^        TimeClock m_minClock;$/;"	m	class:TimeTick
+m_minClock	server/timeTick.h	/^        TimeClock m_minClock;$/;"	m	class:TimeTick
+m_msec	base/timefun.h	/^        unsigned int m_msec;$/;"	m	class:TimeClock
+m_msec	base/timefun.h	/^        unsigned long long m_msec;$/;"	m	class:Time
+m_mutex	base/messageQueue.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:MessageBuffer
+m_mutex	base/messageQueue.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:MessageQueue
+m_mutex	base/mysqlPool.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:MysqlPool
+m_mutex	base/taskQueue.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:TaskQueue
+m_mutex	base/thread.h	/^        pthread_mutex_t m_mutex;$/;"	m	class:Thread
+m_mysql	base/mysqlHandle.h	/^        MYSQL *m_mysql;$/;"	m	class:MysqlHandle
+m_name	base/thread.h	/^        std::string m_name;$/;"	m	class:Thread
+m_passwd	base/mysqlUrl.h	/^        std::string m_passwd;$/;"	m	class:UrlInfo
+m_port	base/mysqlUrl.h	/^        unsigned short m_port;$/;"	m	class:UrlInfo
+m_protoNameCmdMap	base/cmdFunManager.h	/^        std::map<std::string,unsigned int> m_protoNameCmdMap;$/;"	m	class:CmdFunManager
+m_queue	base/taskQueue.h	/^        std::queue<boost::shared_ptr<Task>,std::deque<boost::shared_ptr<Task> > > m_queue;$/;"	m	class:TaskQueue
+m_readPos	base/messageQueue.h	/^        unsigned int m_readPos;$/;"	m	class:MessageBuffer
+m_sec	base/timefun.h	/^        time_t m_sec;$/;"	m	class:TimeTv
+m_secClock	client/timeTick.h	/^        TimeClock m_secClock;$/;"	m	class:TimeTick
+m_secClock	server/timeTick.h	/^        TimeClock m_secClock;$/;"	m	class:TimeTick
+m_short	base/flyerValue.h	/^                short m_short;$/;"	m	union:Flyer::FlyerValue::DataType
+m_socket	base/task.h	/^        int m_socket;$/;"	m	class:Task
+m_socketPortMap	server/server.h	/^        std::map<int,int> m_socketPortMap;$/;"	m	class:Server
+m_status	base/mysqlHandle.h	/^        HandleStatus m_status;$/;"	m	class:MysqlHandle
+m_taskMap	base/taskManager.h	/^        std::map<unsigned long,boost::shared_ptr<Task> > m_taskMap;$/;"	m	class:TaskManager
+m_taskSet	base/mainThread.h	/^        std::map<unsigned long,boost::shared_ptr<Task> > m_taskSet;$/;"	m	class:MainThread
+m_tempQueue	base/taskQueue.h	/^        std::queue<boost::shared_ptr<Task>,std::deque<boost::shared_ptr<Task> > > m_tempQueue;$/;"	m	class:TaskQueue
+m_time	base/timefun.h	/^        Time m_time;$/;"	m	class:TimeClock
+m_tv	base/timefun.h	/^        struct tm m_tv;$/;"	m	class:TimeTv	typeref:struct:TimeTv::tm
+m_uchar	base/flyerValue.h	/^                unsigned char m_uchar;$/;"	m	union:Flyer::FlyerValue::DataType
+m_uint	base/flyerValue.h	/^                unsigned m_uint;$/;"	m	union:Flyer::FlyerValue::DataType
+m_ulong	base/flyerValue.h	/^                unsigned m_ulong;$/;"	m	union:Flyer::FlyerValue::DataType
+m_urlInfo	base/mysqlHandle.h	/^        const UrlInfo &m_urlInfo;$/;"	m	class:MysqlHandle
+m_usedCnt	base/mysqlHandle.h	/^        unsigned int m_usedCnt;$/;"	m	class:MysqlHandle
+m_ushort	base/flyerValue.h	/^                unsigned short m_ushort;$/;"	m	union:Flyer::FlyerValue::DataType
+m_val	base/flyerValue.h	/^            std::string m_val;$/;"	m	class:Flyer::FlyerValue
+m_valid	base/mysqlUrl.h	/^        bool m_valid;$/;"	m	class:UrlInfo
+m_writePos	base/messageQueue.h	/^        unsigned int m_writePos;$/;"	m	class:MessageBuffer
+main	client/client.cpp	/^int main()$/;"	f
+main	server/server.cpp	/^int main()$/;"	f
+main	tooldir/parseExcelTool/tool_parse_excel.py	/^def main():$/;"	f
+main	tooldir/parseExcelTool/tool_parse_excel.py~	/^def main():$/;"	f
+main	tooldir/parseMySqlTool/database.py	/^def main():$/;"	f
+main	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^def main():$/;"	f
+main	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^def main():$/;"	f
+main	tooldir/parseXmlTool/tool_parse_xml.py	/^def main():$/;"	f
+main	tooldir/parseXmlTool/tool_parse_xml.py~	/^def main():$/;"	f
+mian	base/main.cpp	/^int mian()$/;"	f
+minidom	tooldir/parseMySqlTool/database.py	/^from xml.dom import minidom$/;"	i
+minidom	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^from xml.dom import minidom$/;"	i
+minidom	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^from xml.dom import minidom$/;"	i
+minidom	tooldir/parseXmlTool/tool_parse_xml.py	/^from xml.dom import minidom$/;"	i
+minidom	tooldir/parseXmlTool/tool_parse_xml.py~	/^from xml.dom import minidom$/;"	i
+mktempsql	tooldir/parseMySqlTool/database.py	/^def mktempsql():$/;"	f
+moveWritePos	base/messageQueue.cpp	/^void MessageBuffer::moveWritePos(unsigned int size)$/;"	f	class:MessageBuffer
+msec	base/timefun.cpp	/^unsigned long long Time::msec() const$/;"	f	class:Time
+msleep	base/thread.cpp	/^void Thread::msleep(const unsigned int msec)$/;"	f	class:Thread
+mutable_unknown_fields	protocpp/serialize.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:ProtoMsgData::AckTest
+mutable_unknown_fields	protocpp/serialize.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:ProtoMsgData::ReqTest
+mv_cc_to_cpp	tooldir/parseExcelTool/tool_parse_excel.py	/^def mv_cc_to_cpp():$/;"	f
+mv_cc_to_cpp	tooldir/parseExcelTool/tool_parse_excel.py~	/^def mv_cc_to_cpp():$/;"	f
+nodeAttributeVal	base/flyerXmlParse.cpp	/^    Flyer::FlyerValue FlyerXmlParse::nodeAttributeVal(const xmlNode *node, const char *name) const$/;"	f	class:Flyer::FlyerXmlParse
+nodeTextValue	base/flyerXmlParse.cpp	/^    Flyer::FlyerValue FlyerXmlParse::nodeTextValue(const xmlNode *node) const$/;"	f	class:Flyer::FlyerXmlParse
+now	base/timefun.cpp	/^void Time::now()$/;"	f	class:Time
+now	base/timefun.cpp	/^void TimeTv::now()$/;"	f	class:TimeTv
+object	base/Makefile	/^object = $(patsubst %.cpp,%.o,$(src))$/;"	m
+object	client/Makefile	/^object = $(patsubst %.cpp,%.o,$(src))$/;"	m
+object	protocpp/Makefile	/^object = $(patsubst %.cc,%.o,$(src))$/;"	m
+object	server/Makefile	/^object = $(patsubst %.cpp,%.o,$(src))$/;"	m
+open_excel	tooldir/parseExcelTool/tool_parse_excel.py	/^def open_excel(file):$/;"	f
+open_excel	tooldir/parseExcelTool/tool_parse_excel.py~	/^def open_excel(file):$/;"	f
+operator ()	base/timefun.cpp	/^bool TimeClock::operator () (const Time &time)$/;"	f	class:TimeClock
+operator <	base/timefun.cpp	/^bool Time::operator < (const Time &arg) const$/;"	f	class:Time
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const char *arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const char arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const float arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const int arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const long arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const short arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const std::string &arg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const unsigned char uarg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const unsigned int uarg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const unsigned long uarg)$/;"	f	class:Flyer::FlyerValue
+operator =	base/flyerValue.cpp	/^    Flyer::FlyerValue& FlyerValue::operator= (const unsigned short uarg)$/;"	f	class:Flyer::FlyerValue
+operator =	protocpp/serialize.pb.h	/^  inline AckTest& operator=(const AckTest& from) {$/;"	f	class:ProtoMsgData::AckTest
+operator =	protocpp/serialize.pb.h	/^  inline ReqTest& operator=(const ReqTest& from) {$/;"	f	class:ProtoMsgData::ReqTest
+operator const bool	base/flyerValue.cpp	/^    FlyerValue::operator const bool()$/;"	f	class:Flyer::FlyerValue
+operator const char	base/flyerValue.cpp	/^    FlyerValue::operator const char()$/;"	f	class:Flyer::FlyerValue
+operator const char*	base/flyerValue.cpp	/^    FlyerValue::operator const char*() const$/;"	f	class:Flyer::FlyerValue
+operator const float	base/flyerValue.cpp	/^    FlyerValue::operator const float()$/;"	f	class:Flyer::FlyerValue
+operator const int	base/flyerValue.cpp	/^    FlyerValue::operator const int()$/;"	f	class:Flyer::FlyerValue
+operator const long	base/flyerValue.cpp	/^    FlyerValue::operator const long()$/;"	f	class:Flyer::FlyerValue
+operator const short	base/flyerValue.cpp	/^    FlyerValue::operator const short()$/;"	f	class:Flyer::FlyerValue
+operator const std::string	base/flyerValue.cpp	/^    FlyerValue::operator const std::string() const$/;"	f	class:Flyer::FlyerValue
+operator const unsigned char	base/flyerValue.cpp	/^    FlyerValue::operator const unsigned char()$/;"	f	class:Flyer::FlyerValue
+operator const unsigned int	base/flyerValue.cpp	/^    FlyerValue::operator const unsigned int()$/;"	f	class:Flyer::FlyerValue
+operator const unsigned long	base/flyerValue.cpp	/^    FlyerValue::operator const unsigned long()$/;"	f	class:Flyer::FlyerValue
+operator const unsigned short	base/flyerValue.cpp	/^    FlyerValue::operator const unsigned short()$/;"	f	class:Flyer::FlyerValue
+os	tooldir/parseExcelTool/tool_parse_excel.py	/^import xdrlib,sys,os,shutil$/;"	i
+os	tooldir/parseExcelTool/tool_parse_excel.py~	/^import xdrlib,sys,os,shutil$/;"	i
+os	tooldir/parseMySqlTool/database.py	/^import os,time,sys$/;"	i
+os	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+os	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+os	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+os	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+parseConfig	tooldir/parseMySqlTool/database.py	/^def parseConfig():$/;"	f
+parseExcel	tooldir/parseExcelTool/tool_parse_excel.py	/^def parseExcel(fileName,classArr):$/;"	f
+parseExcel	tooldir/parseExcelTool/tool_parse_excel.py~	/^def parseExcel(fileName,classArr):$/;"	f
+parseUrl	base/mysqlUrl.cpp	/^bool UrlInfo::parseUrl(const std::string &url)$/;"	f	class:UrlInfo
+parse_container_type	tooldir/parseXmlTool/tool_parse_xml.py	/^def parse_container_type(node,objectMap):$/;"	f
+parse_container_type	tooldir/parseXmlTool/tool_parse_xml.py~	/^def parse_container_type(node,objectMap):$/;"	f
+parse_file	tooldir/parseXmlTool/tool_parse_xml.py	/^def parse_file(fileName):$/;"	f
+parse_file	tooldir/parseXmlTool/tool_parse_xml.py~	/^def parse_file(fileName):$/;"	f
+parse_node	tooldir/parseXmlTool/tool_parse_xml.py	/^def parse_node(node, objects):$/;"	f
+parse_node	tooldir/parseXmlTool/tool_parse_xml.py~	/^def parse_node(node, objects):$/;"	f
+parse_xml_node	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^def parse_xml_node(file,root):$/;"	f
+parse_xml_node	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^def parse_xml_node(file,root):$/;"	f
+parse_xml_node	tooldir/parseXmlTool/tool_parse_xml.py	/^def parse_xml_node(node,objectMap):$/;"	f
+parse_xml_node	tooldir/parseXmlTool/tool_parse_xml.py~	/^def parse_xml_node(node,objectMap):$/;"	f
+parse_xml_node_attr	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^def parse_xml_node_attr(file,node,protoCode):$/;"	f
+parse_xml_node_attr	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^def parse_xml_node_attr(file,node,protoCode):$/;"	f
+parse_xml_to_proto	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^def parse_xml_to_proto(fileName):$/;"	f
+parse_xml_to_proto	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^def parse_xml_to_proto(fileName):$/;"	f
+process	base/thread.cpp	/^void* Thread::process(void *arg)$/;"	f	class:Thread
+protobuf	protocpp/serialize.pb.h	/^namespace protobuf {$/;"	n	namespace:google
+protobuf_AddDesc_serialize_2eproto	protocpp/serialize.pb.cc	/^void protobuf_AddDesc_serialize_2eproto() {$/;"	f	namespace:ProtoMsgData
+protobuf_AssignDesc_serialize_2eproto	protocpp/serialize.pb.cc	/^void protobuf_AssignDesc_serialize_2eproto() {$/;"	f	namespace:ProtoMsgData
+protobuf_AssignDescriptorsOnce	protocpp/serialize.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:ProtoMsgData::__anon2
+protobuf_RegisterTypes	protocpp/serialize.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:ProtoMsgData::__anon2
+protobuf_ShutdownFile_serialize_2eproto	protocpp/serialize.pb.cc	/^void protobuf_ShutdownFile_serialize_2eproto() {$/;"	f	namespace:ProtoMsgData
+putMessage	base/messageQueue.cpp	/^void MessageQueue::putMessage(boost::shared_ptr<MessageData> messageData)$/;"	f	class:MessageQueue
+randBetween	base/flyer.cpp	/^    int randBetween(int min,int max)$/;"	f	namespace:Flyer
+randCloseFd	base/taskManager.cpp	/^void TaskManager::randCloseFd(const unsigned long cnt)$/;"	f	class:TaskManager
+randOpDB	base/taskManager.cpp	/^void TaskManager::randOpDB(const unsigned long cnt)$/;"	f	class:TaskManager
+randSendMsg	base/taskManager.cpp	/^void TaskManager::randSendMsg(const unsigned long cnt)$/;"	f	class:TaskManager
+randTestDB	base/task.cpp	/^bool Task::randTestDB()$/;"	f	class:Task
+re	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+re	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+re	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+re	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+readConfig	tooldir/parseMySqlTool/database.py	/^def readConfig(file):$/;"	f
+read_xml	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^def read_xml(file):$/;"	f
+read_xml	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^def read_xml(file):$/;"	f
+read_xml	tooldir/parseXmlTool/tool_parse_xml.py	/^def read_xml(file):$/;"	f
+read_xml	tooldir/parseXmlTool/tool_parse_xml.py~	/^def read_xml(file):$/;"	f
+run	base/mainThread.cpp	/^void MainThread::run()$/;"	f	class:MainThread
+run	client/timeTick.cpp	/^void TimeTick::run()$/;"	f	class:TimeTick
+run	server/timeTick.cpp	/^void TimeTick::run()$/;"	f	class:TimeTick
+s_MessageBufferMax	base/messageQueue.h	/^        static const unsigned int s_MessageBufferMax = 10240;$/;"	m	class:MessageBuffer
+s_initFlg	base/task.cpp	/^bool Task::s_initFlg = false;$/;"	m	class:Task
+s_initFlg	base/task.h	/^        static bool s_initFlg;$/;"	m	class:Task
+s_instance	base/singleton.h	/^        static T *s_instance;$/;"	m	class:Singleton
+s_instance	base/singleton.h	/^template<typename T> T* Singleton<T>::s_instance = NULL;$/;"	m	class:Singleton
+s_ip	client/client.cpp	/^std::string Client::s_ip = "121.40.77.217";$/;"	m	class:Client
+s_ip	client/client.h	/^        static std::string s_ip;$/;"	m	class:Client
+s_maxClient	server/server.h	/^        static const int s_maxClient = 2000;$/;"	m	class:Server
+s_msgVec	base/task.cpp	/^std::vector<std::string> Task::s_msgVec;$/;"	m	class:Task
+s_msgVec	base/task.h	/^        static std::vector<std::string> s_msgVec;$/;"	m	class:Task
+s_port	client/client.cpp	/^int Client::s_port = 10000;$/;"	m	class:Client
+s_port	client/client.h	/^        static int s_port;$/;"	m	class:Client
+s_port	server/server.h	/^        static const int s_port = 10000;$/;"	m	class:Server
+s_tempid	base/mysqlHandle.cpp	/^unsigned int MysqlHandle::s_tempid = 0;$/;"	m	class:MysqlHandle
+s_tempid	base/mysqlHandle.h	/^        static unsigned int s_tempid;$/;"	m	class:MysqlHandle
+s_tempid	base/task.cpp	/^unsigned long Task::s_tempid = 0;$/;"	m	class:Task
+s_tempid	base/task.h	/^        static unsigned long s_tempid;$/;"	m	class:Task
+s_time	client/timeTick.cpp	/^Time TimeTick::s_time;$/;"	m	class:TimeTick
+s_time	client/timeTick.h	/^        static Time s_time;$/;"	m	class:TimeTick
+s_time	server/timeTick.cpp	/^Time TimeTick::s_time;$/;"	m	class:TimeTick
+s_time	server/timeTick.h	/^        static Time s_time;$/;"	m	class:TimeTick
+s_timeOut	server/server.h	/^        static const int s_timeOut = 1000;$/;"	m	class:Server
+sec	base/timefun.cpp	/^unsigned long Time::sec()$/;"	f	class:Time
+seed	base/flyer.cpp	/^    unsigned int seed;$/;"	m	namespace:Flyer
+sendMsg	base/task.cpp	/^void Task::sendMsg()$/;"	f	class:Task
+serverCallBack	server/server.cpp	/^void Server::serverCallBack()$/;"	f	class:Server
+setLogger	base/flyer.cpp	/^    void setLogger(const std::string &fileName)$/;"	f	namespace:Flyer
+shutil	tooldir/parseExcelTool/tool_parse_excel.py	/^import xdrlib,sys,os,shutil$/;"	i
+shutil	tooldir/parseExcelTool/tool_parse_excel.py~	/^import xdrlib,sys,os,shutil$/;"	i
+shutil	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+shutil	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+shutil	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+shutil	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+size	base/messageQueue.h	/^    unsigned int size;$/;"	m	struct:MessageData
+size	base/taskManager.h	/^        inline size_t size() const$/;"	f	class:TaskManager
+sleep	base/thread.cpp	/^void Thread::sleep(const unsigned int sec)$/;"	f	class:Thread
+src	base/Makefile	/^src = thread.cpp\\$/;"	m
+src	client/Makefile	/^src = client.cpp\\$/;"	m
+src	protocpp/Makefile	/^src = serialize.pb.cc $/;"	m
+src	server/Makefile	/^src = server.cpp\\$/;"	m
+start	base/thread.cpp	/^bool Thread::start()$/;"	f	class:Thread
+static_descriptor_initializer_serialize_2eproto_	protocpp/serialize.pb.cc	/^} static_descriptor_initializer_serialize_2eproto_;$/;"	m	namespace:ProtoMsgData	typeref:struct:ProtoMsgData::StaticDescriptorInitializer_serialize_2eproto	file:
+sys	tooldir/parseExcelTool/tool_parse_excel.py	/^import xdrlib,sys,os,shutil$/;"	i
+sys	tooldir/parseExcelTool/tool_parse_excel.py~	/^import xdrlib,sys,os,shutil$/;"	i
+sys	tooldir/parseMySqlTool/database.py	/^import os,time,sys$/;"	i
+sys	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+sys	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+sys	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+sys	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+tempsql	tooldir/parseMySqlTool/database.py	/^tempsql = os.getcwd() + os.sep + "temp.sql"$/;"	v
+time	tooldir/parseMySqlTool/database.py	/^import os,time,sys$/;"	i
+unknown_fields	protocpp/serialize.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:ProtoMsgData::AckTest
+unknown_fields	protocpp/serialize.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:ProtoMsgData::ReqTest
+update	tooldir/parseMySqlTool/database.py	/^def update():$/;"	f
+usage	tooldir/parseMySqlTool/database.py	/^def usage():$/;"	f
+usleep	base/thread.cpp	/^void Thread::usleep(const unsigned int msec)$/;"	f	class:Thread
+write_proto	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_proto(data,keyMap):$/;"	f
+write_proto	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_proto(data,keyMap):$/;"	f
+write_proto_col	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_proto_col(sheet,protoCode,keyArr):$/;"	f
+write_proto_col	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_proto_col(sheet,protoCode,keyArr):$/;"	f
+write_proto_sheet_node	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_proto_sheet_node(sheet,protoCode,keyMap):$/;"	f
+write_proto_sheet_node	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_proto_sheet_node(sheet,protoCode,keyMap):$/;"	f
+write_tbx_row_obj	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_tbx_row_obj(sheet,obj,keyArr,row):$/;"	f
+write_tbx_row_obj	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_tbx_row_obj(sheet,obj,keyArr,row):$/;"	f
+write_tbx_xml_node	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_tbx_xml_node():$/;"	f
+write_tbx_xml_node	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_tbx_xml_node():$/;"	f
+write_txt_code	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_txt_code(sheet,keyArr):$/;"	f
+write_txt_code	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_txt_code(sheet,keyArr):$/;"	f
+write_txt_data	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_txt_data(data,keyArr):$/;"	f
+write_txt_data	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_txt_data(data,keyArr):$/;"	f
+write_txt_sheet	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_txt_sheet(sheet,keyArr):$/;"	f
+write_txt_sheet	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_txt_sheet(sheet,keyArr):$/;"	f
+write_xml_declaration	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_xml_declaration():$/;"	f
+write_xml_declaration	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_xml_declaration():$/;"	f
+write_xml_root	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_xml_root(data,rootName,keyMap):$/;"	f
+write_xml_root	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_xml_root(data,rootName,keyMap):$/;"	f
+write_xml_row	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_xml_row(sheet,xmlCode,keyArr,clientFlg=True):$/;"	f
+write_xml_row	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_xml_row(sheet,xmlCode,keyArr,clientFlg=True):$/;"	f
+write_xml_sheet_node	tooldir/parseExcelTool/tool_parse_excel.py	/^def write_xml_sheet_node(sheet,xmlCode,keyMap):$/;"	f
+write_xml_sheet_node	tooldir/parseExcelTool/tool_parse_excel.py~	/^def write_xml_sheet_node(sheet,xmlCode,keyMap):$/;"	f
+xdrlib	tooldir/parseExcelTool/tool_parse_excel.py	/^import xdrlib,sys,os,shutil$/;"	i
+xdrlib	tooldir/parseExcelTool/tool_parse_excel.py~	/^import xdrlib,sys,os,shutil$/;"	i
+xlrd	tooldir/parseExcelTool/tool_parse_excel.py	/^import xlrd$/;"	i
+xlrd	tooldir/parseExcelTool/tool_parse_excel.py~	/^import xlrd$/;"	i
+xlrd	tooldir/parseProtoTool/tool_parse_xml_proto.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+xlrd	tooldir/parseProtoTool/tool_parse_xml_proto.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+xlrd	tooldir/parseXmlTool/tool_parse_xml.py	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+xlrd	tooldir/parseXmlTool/tool_parse_xml.py~	/^import xlrd, os, sys, re, getopt,shutil$/;"	i
+~AckTest	protocpp/serialize.pb.cc	/^AckTest::~AckTest() {$/;"	f	class:ProtoMsgData::AckTest
+~Client	client/client.h	/^        ~Client() {};$/;"	f	class:Client
+~CmdFunManager	base/cmdFunManager.cpp	/^CmdFunManager::~CmdFunManager()$/;"	f	class:CmdFunManager
+~DisCopy	base/singleton.h	/^        ~DisCopy()$/;"	f	class:DisCopy
+~FlyerXmlParse	base/flyerXmlParse.cpp	/^    FlyerXmlParse::~FlyerXmlParse()$/;"	f	class:Flyer::FlyerXmlParse
+~MainThread	base/mainThread.h	/^        ~MainThread()$/;"	f	class:MainThread
+~MessageBuffer	base/messageQueue.cpp	/^MessageBuffer::~MessageBuffer()$/;"	f	class:MessageBuffer
+~MessageQueue	base/messageQueue.cpp	/^MessageQueue::~MessageQueue()$/;"	f	class:MessageQueue
+~ReqTest	protocpp/serialize.pb.cc	/^ReqTest::~ReqTest() {$/;"	f	class:ProtoMsgData::ReqTest
+~Server	server/server.h	/^        ~Server()$/;"	f	class:Server
+~SharedPtr	base/singleton.h	/^        virtual ~SharedPtr()$/;"	f	class:SharedPtr
+~Singleton	base/singleton.h	/^        ~Singleton()$/;"	f	class:Singleton
+~Task	base/task.h	/^        ~Task()$/;"	f	class:Task
+~TaskManager	base/taskManager.h	/^        ~TaskManager()$/;"	f	class:TaskManager
+~TaskQueue	base/taskQueue.h	/^        virtual ~TaskQueue()$/;"	f	class:TaskQueue
+~Thread	base/thread.h	/^        virtual ~Thread()$/;"	f	class:Thread
+~TimeTick	client/timeTick.h	/^        ~TimeTick() {};$/;"	f	class:TimeTick
+~TimeTick	server/timeTick.h	/^        ~TimeTick() {};$/;"	f	class:TimeTick

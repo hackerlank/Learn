@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+	<import>
+        <member name="userinfo" desc="导入角色基本信息文件"/>
+    </import>
+	
+	<!--注册协议-->
+    <enum name="RegisterType" desc="注册类型">
+        <member name="RT_Phone" value="0" desc="手机"/>
+        <member name="RT_Email" value="1" desc="邮件"/>
+    </enum>
+	
+	<proto name="RegisterUint" desc="注册信息">
+		<member name="registertype" prefix="required" type="RegisterType" desc="注册类型"/>
+        <member name="registerkey" prefix="required" type="string" desc="注册键值"/>
+		<member name="account" prefix="optional" type="string" default="" desc="用户账号(就是昵称)"/>
+		<member name="passwd" prefix="required" type="string" desc="用户密码"/>
+    </proto>
+
+    <proto name="ReqRegister" desc="请求注册">
+        <member name="registeruint" prefix="required" type="RegisterUint" desc="注册信息"/>
+    </proto>
+	
+	<enum name="RegisterError" desc="注册失败原因">
+        <member name="RE_Default" value="0" desc="默认值"/>
+		<member name="RE_Phone_Illegal" value="1" desc="手机号码非法"/>
+        <member name="RE_Phone_Again" value="2" desc="手机号码重复注册"/>
+		<member name="RE_Email_Illegal" value="3" desc="邮箱非法"/>
+		<member name="RE_Email_Again" value="4" desc="邮箱重复注册"/>
+		<member name="RE_Account_Illegal" value="5" desc="账号非法"/>
+		<member name="RE_Passwd_Illegal" value="6" desc="密码非法"/>
+    </enum>
+	
+	<proto name="AckRegister" desc="回复注册">
+		<member name="ret" prefix="required" type="bool" desc="成功与否"/>
+        <member name="failreason" prefix="optional" type="RegisterError" default="RE_Default" desc="失败原因"/>
+    </proto>
+
+	
+	<!--登录协议-->
+	<proto name="ReqGateway" desc="请求网关ip和端口">
+        <member name="login" prefix="required" type="RegisterUint" desc="登录信息"/>
+		<member name="version" prefix="optional" type="uint32" default="0" desc="客户端版本号"/>
+    </proto>
+	
+	<enum name="LoginError" desc="登录失败原因">
+        <member name="LE_Default" value="0" desc="默认值"/>
+		<member name="LE_Account_Error" value="1" desc="账号错误"/>
+        <member name="LE_Passwd_Error" value="2" desc="密码错误"/>
+		<member name="LE_Gateway_Close" value="3" desc="网关未开"/>
+		<member name="LE_Version_Error" value="4" desc="版本号不对"/>
+		<member name="LE_Time_Out" value="5" desc="超时"/>
+		<member name="LE_No_Char" value="6" desc="没有角色"/>
+		<member name="LE_Other_Error" value="7" desc="其他错误"/>
+    </enum>
+	
+	<proto name="AckGateway" desc="回复网关ip和端口">
+		<member name="ret" prefix="required" type="bool" desc="是否成功"/>
+        <member name="failreason" prefix="optional" type="LoginError" default="LE_Default"  desc="登录信息"/>
+		<member name="gatewayip" prefix="optional" type="string" default="" desc="网关ip"/>
+		<member name="gatewayport" prefix="optional" type="uint32" default="0" desc="网关端口"/>
+    </proto>
+	
+	<proto name="ReqLoginGateway" desc="请求登录网关">
+        <member name="login" prefix="required" type="RegisterUint" desc="登录信息"/>
+    </proto>
+	
+	<proto name="AckLoginGateway" desc="回复登录">
+		<member name="ret" prefix="required" type="bool" desc="是否成功"/>
+        <member name="failreason" prefix="optional" type="LoginError" default="LE_Default"  desc="登录信息"/>
+    </proto>
+	
+
+</protocol>
+

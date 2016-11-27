@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <proto name="ReqTest" desc="请求测试">
+    </proto>
+
+    <proto name="AckTest" desc="回应测试">
+    </proto>
+</protocol>
+

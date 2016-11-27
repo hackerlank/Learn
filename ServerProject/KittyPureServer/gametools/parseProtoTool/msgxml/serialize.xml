@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>
+	<import>
+		<member name="item" desc="道具对应的proto"/>
+	</import>
+	
+	<proto name="CharBin" desc="charBin的二进制数据">
+	</proto>
+	
+	<proto name="Serialize" desc="存档的二进制内容">
+		<member name="charbin" prefix="required" type="CharBin" desc="角色二进制信息"/>
+		<member name="iteminfo" prefix="repeated" type="ItemInfo" desc="道具信息"/>
+	</proto>
+	
+</protocol>
+

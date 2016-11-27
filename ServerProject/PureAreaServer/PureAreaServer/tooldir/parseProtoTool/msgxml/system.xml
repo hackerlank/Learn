@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <enum name="ServerType" desc="服务器类型">
+        <member name="ST_Client" value="0" desc="客户端"/>
+        <member name="ST_Login" value="1" desc="登陆服务器"/>
+        <member name="ST_Super" value="2" desc="中心服务器"/>
+        <member name="ST_Record" value="3" desc="档案服务器"/>
+        <member name="ST_Scene" value="4" desc="场景服务器"/>
+        <member name="ST_Gateway" value="5" desc="网关服务器"/>
+    </enum>
+    
+    <enum name="ServerStatus" desc="服务器状态">
+        <member name="ST_Wait" value="1" desc="等待启动"/>
+        <member name="ST_Start" value="2" desc="已经启动"/>
+        <member name="ST_Close" value="3" desc="已经关闭"/>
+    </enum>
+    
+
+    <proto name="ReqServerInfo" desc="向管理服请求ip和端口">
+        <member name="servertype" prefix="required" type="ServerType" desc="服务器类型"/>
+    </proto>
+
+    <proto name="ServerInfo" desc="向管理服请求ip和端口">
+        <member name="servertype" prefix="optional" type="ServerType" desc="服务器类型"/>
+        <member name="id" prefix="optional" type="uint32" defaule="0" desc="id"/>
+        <member name="ip" prefix="optional" type="string" default="" desc="ip"/>
+        <member name="port" prefix="optional" type="uint32" default="0" desc="端口"/>
+        <member name="status" prefix="optional" type="ServerStatus" default="ST_Wait" desc="状态"/>
+    </proto>
+
+    <proto name="AckUpdateServerInfo" desc="向依赖服务器更新信息">
+        <member name="serverinfo" prefix="optional" type="ServerInfo" desc="服务器信息"/>
+    </proto>
+    <proto name="AckRespServerInfo" desc="回应依赖服务器更新信息">
+        <member name="id" prefix="optional" type="uint32" default="0" desc="服务器信息"/>
+    </proto>
+    <proto name="AckNotifyMe" desc="通知服务器">
+        <member name="serverinfo" prefix="repeated" type="ServerInfo" desc="服务器信息"/>
+    </proto> 
+    
+    <proto name="ReqHeartBeat" desc="请求心跳">
+    </proto> 
+    
+    <proto name="AckHeartBeat" desc="回应心跳">
+    </proto> 
+    
+    <proto name="ReqVerifyServer" desc="向服务器请求验证">
+        <member name="serverinfo" prefix="optional" type="ServerInfo" desc="服务器信息"/>
+    </proto>
+    <proto name="AckVerifyServer" desc="服务器验证返回">
+        <member name="ret" prefix="optional" type="bool" desc="是否可连接"/>
+    </proto>
+    
+
+
+
+
+
+
+</protocol>
+

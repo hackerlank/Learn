@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--所有各种服务器参数-->
+<Fir>
+    <global>
+        <!-- Specify the log level[debug,info,warning,error,fatal,always]. -->
+        <log>all</log>
+        <ifname>eth0</ifname>
+        <!-- Connected to the specified supserserver, property 'port' default value is 10000. -->
+        <superserver port="8020">114.80.207.171</superserver>
+        <gateway_maxconns>5000</gateway_maxconns>
+        <!--重连开关-->
+        <reconn>true</reconn>
+        <!--是否启动GM指令 true:启用  false:不启用-->
+        <gm>true</gm>
+        <!--http端口-->
+        <http_port>8001</http_port>
+        <!-- http线程池连接数量 -->
+        <httpThreadPoolCapacity>1024</httpThreadPoolCapacity>		
+        <!-- 充值验证key -->
+        <chargekey>70d27d8c9c2aad41344218655ec93ddf</chargekey>
+        <configdir>gametools/parseXmlTool/xmldir/</configdir>
+        <luadir>gametools/lua</luadir>
+        <forbidWordsFile>forbidWords</forbidWordsFile>
+    </global>
+    <superserver>
+        <!-- 统一用户平台服务器列表文件 -->
+        <loginServerListFile>superserver/loginServerList.xml</loginServerListFile>
+        <mysql>mysql://flyer:flyer@114.80.207.171:3306/debug</mysql>
+    </superserver>
+    <dbserver>
+        <mysql>mysql://flyer:flyer@114.80.207.171:3306/debug</mysql>
+    </dbserver>
+    <sceneserver>
+        <mysql>mysql://flyer:flyer@114.80.207.171:3306/debug</mysql>
+        <!-- 是否开启存档MD5 验证-->
+        <md5Verify>false</md5Verify>
+        <!-- 数据库存档分组-->
+        <writeBackGroup>10</writeBackGroup>
+    </sceneserver>
+    <recordserver>
+        <log>debug</log>
+        <mysql>mysql://flyer:flyer@114.80.207.171:3306/debug</mysql>
+    </recordserver>
+    <gateserver>
+        <forbidWordsFile>forbidWords</forbidWordsFile>
+    </gateserver>
+    <allzoneserver>
+        <!-- Specify the log level[debug,info,warning,error,fatal,always]. -->
+        <log>debug</log>
+        <!-- 内部使用端口，用于服务器之间数据传输 -->
+        <inside_port>8002</inside_port>
+    </allzoneserver>
+    <flserver>
+        <!-- Specify the log level[debug,info,warning,error,fatal,always]. -->
+        <log>debug</log>
+        <!-- 网关最大连接数量 0表示无限制 -->
+        <maxGatewayUser>10000</maxGatewayUser>
+        <!-- Specify the log filename. -->
+        <mysql>mysql://flyer:flyer@114.80.207.171:3306/debugflserver</mysql>
+        <!-- 区信息列表数据库 -->
+        <zoneInfo_mysql hashcode="20">mysql://flyer:flyer@114.80.207.171:3306/debugflserver</zoneInfo_mysql><!--t_zone-->
+        <!-- 邀请码数据库 -->
+        <invitcode_mysql hashcode="10">mysql://flyer:flyer@114.80.207.171:3306/debugflserver</invitcode_mysql><!--account_zone-->
+        <!-- 客户端登陆端口，外部使用 -->
+        <login_port>8003</login_port>
+        <!-- 内部使用端口，用于服务器之间数据传输 -->
+        <inside_port>8004</inside_port>
+        <!-- PHP登陆端口，外部使用 -->
+        <php_port>8005</php_port>
+    </flserver>
+    <robotserver>
+        <login_port>8003</login_port>
+        <login_ip>114.80.207.171</login_ip>
+        <log>info</log>
+    </robotserver> 
+</Fir>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <proto name="UserBinary" desc="角色存档二进制">
+        <member name="phone" prefix="required" type="string" desc="手机号码"/>
+        <member name="charid" prefix="required" type="uint64" desc="角色ID"/>
+        <member name="ontime" prefix="required" type="uint32" desc="上线时间"/>
+        <member name="offtime" prefix="required" type="uint32" desc="下线时间"/>
+    </proto>
+</protocol>
+

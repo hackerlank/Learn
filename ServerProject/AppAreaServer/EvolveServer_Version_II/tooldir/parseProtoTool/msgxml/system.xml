@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <import>
+        <member name="common" desc="公共对应的proto"/>
+    </import>
+
+    <enum name="ServerType" desc="服务器类型">
+        <member name="ST_Client" value="0" desc="客户端"/>
+        <member name="ST_Login" value="1" desc="登陆服务器"/>
+        <member name="ST_Super" value="2" desc="中心服务器"/>
+        <member name="ST_Record" value="3" desc="档案服务器"/>
+        <member name="ST_Scene" value="4" desc="场景服务器"/>
+        <member name="ST_Gateway" value="5" desc="网关服务器"/>
+        <member name="ST_Robot" value="6" desc="机器人服务器"/>
+    </enum>
+    
+    <enum name="ServerStatus" desc="服务器状态">
+        <member name="ST_Wait" value="1" desc="等待启动"/>
+        <member name="ST_Start" value="2" desc="已经启动"/>
+        <member name="ST_Close" value="3" desc="已经关闭"/>
+    </enum>
+    
+
+    <proto name="ReqServerInfo" desc="向管理服请求ip和端口">
+        <member name="servertype" prefix="required" type="ServerType" desc="服务器类型"/>
+    </proto>
+
+    <proto name="ServerInfo" desc="向管理服请求ip和端口">
+        <member name="servertype" prefix="optional" type="ServerType" desc="服务器类型"/>
+        <member name="id" prefix="optional" type="uint32" defaule="0" desc="id"/>
+        <member name="ip" prefix="optional" type="string" default="" desc="ip"/>
+        <member name="port" prefix="optional" type="uint32" default="0" desc="端口"/>
+        <member name="status" prefix="optional" type="ServerStatus" default="ST_Wait" desc="状态"/>
+    </proto>
+
+    <proto name="AckUpdateServerInfo" desc="向依赖服务器更新信息">
+        <member name="serverinfo" prefix="optional" type="ServerInfo" desc="服务器信息"/>
+    </proto>
+    <proto name="AckRespServerInfo" desc="回应依赖服务器更新信息">
+        <member name="id" prefix="optional" type="uint32" default="0" desc="服务器信息"/>
+    </proto>
+    <proto name="AckNotifyMe" desc="通知服务器">
+        <member name="serverinfo" prefix="repeated" type="ServerInfo" desc="服务器信息"/>
+    </proto> 
+    
+    <proto name="ReqHeartBeat" desc="请求心跳">
+    </proto> 
+    
+    <proto name="AckHeartBeat" desc="回应心跳">
+    </proto> 
+    
+    <proto name="ReqVerifyServer" desc="向服务器请求验证">
+        <member name="serverinfo" prefix="optional" type="ServerInfo" desc="服务器信息"/>
+    </proto>
+    <proto name="AckVerifyServer" desc="服务器验证返回">
+        <member name="ret" prefix="optional" type="bool" desc="是否可连接"/>
+    </proto>
+    
+    <enum name="GatewayStatus" desc="网关状态">
+        <member name="GS_Close" value="0" desc="没开"/>
+        <member name="GS_Normal" value="1" desc="正常"/>
+        <member name="GS_Full" value="2" desc="爆满"/>
+    </enum>
+    
+    <proto name="GatewayInfo" desc="网关数据">
+        <member name="id" prefix="optional" type="uint32" desc="id"/>
+        <member name="ip" prefix="optional" type="string" desc="ip"/>
+        <member name="port" prefix="optional" type="uint32" desc="端口"/>
+        <member name="person" prefix="optional" type="uint32" desc="人数"/>
+        <member name="status" prefix="optional" type="GatewayStatus" desc="状态"/>
+    </proto>
+
+    <proto name="ReqCreateUser" desc="请求创造角色">
+        <member name="phone" prefix="optional" type="string" desc="手机号"/>
+        <member name="id" prefix="optional" type="uint64" desc="连接id"/>
+    </proto>
+    
+    <proto name="AckCreateUser" desc="创造角色回应">
+        <member name="code" prefix="optional" type="ErrorCode" desc="错误码"/>
+        <member name="phone" prefix="optional" type="string" desc="手机号"/>
+        <member name="id" prefix="optional" type="uint64" desc="连接id"/>
+        <member name="charid" prefix="optional" type="uint64" desc="角色id"/>
+    </proto>
+   
+    <proto name="SceneInfo" desc="场景服务器数据">
+        <member name="id" prefix="optional" type="uint32" desc="id"/>
+        <member name="person" prefix="optional" type="uint32" desc="人数"/>
+        <member name="status" prefix="optional" type="GatewayStatus" desc="状态"/>
+    </proto>
+    
+    <proto name="ReqLoginScene" desc="登录场景">
+        <member name="charid" prefix="optional" type="uint64" desc="角色ID"/>
+    </proto>
+    <proto name="AckLoginScene" desc="登录场景">
+        <member name="charid" prefix="optional" type="uint64" desc="角色ID"/>
+        <member name="ret" prefix="optional" type="bool" desc="结果"/>
+    </proto>
+    
+    
+    <proto name="AckUserMsg" desc="场景发送给客户端消息">
+        <member name="charid" prefix="optional" type="uint64" desc="角色ID"/>
+        <member name="data" prefix="optional" type="bytes" desc="二进制消息包"/>
+    </proto>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</protocol>
+

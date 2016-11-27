@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redisconf>
+	<redis var="redismap" key="id">
+		<memdb id="1" ip="121.40.77.217" port="6382"/>
+		<memdb id="2" ip="121.40.77.217" port="6382"/>
+	</redis>
+</redisconf>
+

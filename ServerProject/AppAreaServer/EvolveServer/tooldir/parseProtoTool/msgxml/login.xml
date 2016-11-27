@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <proto name="ReqRegister" desc="请求注册">
+        <member name="phone" prefix="optional" type="string" desc="手机号码"/>
+        <member name="passwd" prefix="optional" type="string" desc="密码"/>
+    </proto>
+    <proto name="AckRegister" desc="注册返回">
+        <member name="ret" prefix="optional" type="bool" default="false" desc="结果"/>
+    </proto>
+    
+    <proto name="ReqGateway" desc="请求网关">
+        <member name="phone" prefix="optional" type="string" desc="手机号码"/>
+        <member name="passwd" prefix="optional" type="string" desc="密码"/>
+    </proto>
+    <proto name="AckGateway" desc="网关返回">
+        <member name="ret" prefix="optional" type="bool" default="false" desc="结果"/>
+        <member name="ip" prefix="optional" type="string" default="" desc="ip"/>
+        <member name="port" prefix="optional" type="uint32" default="0" desc="端口"/>
+    </proto>
+    
+    <proto name="ReqLoginGateway" desc="请求登录网关">
+        <member name="phone" prefix="optional" type="string" desc="手机号码"/>
+        <member name="passwd" prefix="optional" type="string" desc="密码"/>
+    </proto>
+    <proto name="AckLoginGateway" desc="网关返回">
+        <member name="ret" prefix="optional" type="bool" default="false" desc="结果"/>
+    </proto>
+    
+    <proto name="AckOnLine" desc="登陆成功刷新">
+    </proto>
+    
+
+
+
+
+
+
+
+
+
+</protocol>
+

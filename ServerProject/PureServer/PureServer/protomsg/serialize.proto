@@ -1,0 +1,9 @@
+package ProtoMsgData;
+
+message ReqTest
+{
+}
+
+message AckTest
+{
+}

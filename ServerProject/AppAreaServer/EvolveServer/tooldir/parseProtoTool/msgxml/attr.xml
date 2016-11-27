@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+    <enum name="AttrType" desc="属性">
+        <member name="AT_Level" value="1" desc="等级"/>
+    </enum>
+
+</protocol>
+

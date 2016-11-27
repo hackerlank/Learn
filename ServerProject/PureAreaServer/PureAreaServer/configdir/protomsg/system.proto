@@ -1,0 +1,65 @@
+package ProtoMsgData;
+
+enum ServerType 
+{
+	 ST_Client = 0;
+	 ST_Login = 1;
+	 ST_Super = 2;
+	 ST_Record = 3;
+	 ST_Scene = 4;
+	 ST_Gateway = 5;
+}
+
+enum ServerStatus 
+{
+	 ST_Wait = 1;
+	 ST_Start = 2;
+	 ST_Close = 3;
+}
+
+message ReqServerInfo
+{
+	 required ServerType servertype = 1;
+}
+
+message ServerInfo
+{
+	 optional ServerType servertype = 1;
+	 optional uint32 id = 2;
+	 optional string ip = 3;
+	 optional uint32 port = 4;
+	 optional ServerStatus status = 5;
+}
+
+message AckUpdateServerInfo
+{
+	 optional ServerInfo serverinfo = 1;
+}
+
+message AckRespServerInfo
+{
+	 optional uint32 id = 1;
+}
+
+message AckNotifyMe
+{
+	 repeated ServerInfo serverinfo = 1;
+}
+
+message ReqHeartBeat
+{
+}
+
+message AckHeartBeat
+{
+}
+
+message ReqVerifyServer
+{
+	 optional ServerInfo serverinfo = 1;
+}
+
+message AckVerifyServer
+{
+	 optional bool ret = 1;
+}

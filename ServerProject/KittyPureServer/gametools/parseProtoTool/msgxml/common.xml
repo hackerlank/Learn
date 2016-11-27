@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+	<enum name="AttrType" desc="属性类型类型">
+		<member name="Attr_Level" value="1" desc="金币"/>
+		<member name="Attr_Vouchers" value="2" desc="代金券"/>
+		<member name="Attr_Package_Size" value="3" desc="包裹大小"/>
+        <member name="Attr_Max" value="20" desc="属性最大值"/>
+	</enum>
+	
+	<proto name="AckUpdateAttrVal" desc="更新角色基本属性值">
+		<member name="attrtype" prefix="required" type="AttrType" desc="属性类型"/>
+		<member name="attrval" prefix="required" type="uint32" desc="属性值"/>
+	</proto>
+	
+</protocol>
+

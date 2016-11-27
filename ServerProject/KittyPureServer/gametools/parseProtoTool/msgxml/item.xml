@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<protocol>	
+
+	<proto name="ItemInfo" desc="道具信息">
+		<member name="id" prefix="required" type="uint32" desc="道具id"/>
+		<member name="val" prefix="required" type="uint32" desc="道具数量"/>
+	</proto>
+	
+</protocol>
+

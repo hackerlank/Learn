@@ -1,0 +1,4 @@
+AppAreaServer app服务器
+
+EvolveServer_Version_I版本是最低级版本，一个对象的指针存在多个容器中，比较容易出错
+EvolveServer_Version_II版本是中级版本，一个对象的指针只存放在一个容器中，其余的地方存放id，通过id来索引指针，经过测试，此版本比较稳定，5000个链接一直不会断线

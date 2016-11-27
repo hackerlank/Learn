@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<protocol>	
+	<RegisterProto name="消息ID注册" desc="注册命令">
+		<ReqLoginLogicID name="逻辑ID" value="1" desc="测试消息">
+			<member name="Register" value="1" proto="ReqTest" desc="请求测试"/>
+		</ReqLoginLogicID>
+		<AckLoginLogicID name="逻辑ID" value="2" desc="注册登录类返回">
+            <member name="Register" value="1" proto="AckTest" desc="回应测试"/>
+		</AckLoginLogicID>
+	</RegisterProto>
+</protocol>
+
