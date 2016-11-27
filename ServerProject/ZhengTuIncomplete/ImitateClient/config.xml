@@ -1,0 +1,28 @@
+<Config>
+	
+	<PlateServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/plateserver.log</logfilename>
+	</PlateServer>
+
+	<SuperServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/superserver.log</logfilename>
+	</SuperServer>
+	
+	<RecordServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/recordserver.log</logfilename>
+	</RecordServer>
+	
+	<SessionServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/sessionserver.log</logfilename>
+	</SessionServer>
+
+	<SceneServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/sceneserver.log</logfilename>
+	</SceneServer>
+	
+	<GatewayServer>
+		<logfilename>/home/flyer/flyer/SchoolProgress/trunk/School/log/gatewayserver.log</logfilename>
+	</GatewayServer>
+	
+</Config>
+
