@@ -1,0 +1,11 @@
+<!--
+    游戏服务器配置文件
+    ip : 对应游戏服务器的IP地址
+    name : 对应服务器的名称
+    port : 对应服务器的端口号
+    upperNum : 对应服务器最大承载人数
+-->
+
+<root>
+<gameSer ip="127.0.0.1" name="flyer" port="8024" upperNum="100"/>
+</root>

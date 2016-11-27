@@ -1,0 +1,20 @@
+####### Compiler, tools and options
+
+DEL_FILE      = rm -f
+CC            = gcc
+CXX           = g++
+LINK          = g++
+
+####### Files
+object = test.o\
+		 main.o
+
+edit : $(object)
+	$(LINK) -g -o edit $(object)
+%.o : %.cpp
+	$(CXX) -g -c $< -o $@
+
+.PYONEY:clean
+
+clean:
+	$(DEL_FILE) $(object) 

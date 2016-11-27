@@ -1,0 +1,21 @@
+####### Compiler, tools and options
+
+DEL_FILE      = rm -f
+CC            = gcc
+CXX           = g++
+LINK          = g++
+CFLAGS        = 
+INCLUDE       =
+
+####### Files
+object = test.o\
+		 main.o
+
+edit : $(object)
+	$(LINK) -g -o edit $(object)	
+test.o : test.cpp
+	$(CXX) -g  -c $< -Iinclude 
+main.o : main.cpp
+	$(CXX) -g  -c $< -Iinclude
+clean:
+	$(DEL_FILE) $(object) 

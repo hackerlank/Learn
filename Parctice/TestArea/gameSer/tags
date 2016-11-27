@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+CC	Makefile	/^CC            = gcc$/;"	m
+COM_H	include/com.h	2;"	d
+CXX	Makefile	/^CXX           = g++$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+GAME_SER_H	include/gameSer.h	3;"	d
+GameSer	include/gameSer.h	/^class GameSer$/;"	c
+GameSer	modle/gameSer.cpp	/^GameSer::GameSer(const char *_ip,const char *_name,size_t _port,size_t _upperNum)$/;"	f	class:GameSer
+IPADDR	include/com.h	14;"	d
+LINK	Makefile	/^LINK          = g++$/;"	m
+READ_CONF_H	include/readConf.h	3;"	d
+SERNAME	include/com.h	15;"	d
+ULI	include/com.h	/^typedef unsigned long int ULI;$/;"	t
+base	include/gameSer.h	/^        event_base *base;$/;"	m	class:GameSer
+do_accept	modle/gameSer.cpp	/^void do_accept(evutil_socket_t listenerFd,short event,void *arg)$/;"	f
+init	modle/gameSer.cpp	/^void GameSer::init(void)$/;"	f	class:GameSer
+ip	include/gameSer.h	/^        char ip[IPADDR];$/;"	m	class:GameSer
+listenerFd	include/gameSer.h	/^        ULI listenerFd;                            \/\/监听客户端fd  $/;"	m	class:GameSer
+main	main.cpp	/^int main(void)$/;"	f
+name	include/gameSer.h	/^        char name[SERNAME];$/;"	m	class:GameSer
+object	Makefile	/^object = gameSer.o\\$/;"	m
+port	include/gameSer.h	/^        size_t port; $/;"	m	class:GameSer
+readGameSer	src/readGameSer.cpp	/^GameSer* readGameSer(const char *fileName)$/;"	f
+runLoop	modle/gameSer.cpp	/^void GameSer::runLoop(void)$/;"	f	class:GameSer
+upperNum	include/gameSer.h	/^        ULI upperNum;$/;"	m	class:GameSer
+~GameSer	modle/gameSer.cpp	/^GameSer::~GameSer(void)$/;"	f	class:GameSer

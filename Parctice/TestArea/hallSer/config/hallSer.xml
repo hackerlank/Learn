@@ -1,0 +1,11 @@
+<!--
+    注意 此配置为大厅服务器所连接的各个游戏服务器的信息
+    ip : 对应游戏服务器的IP地址
+    name : 对应服务器的名称
+    port : 对应服务器的端口号
+    upperNum : 对应服务器最大承载人数
+-->
+
+<root>
+<hallSer ip="127.0.0.1" name="flyer" port="8024" upperNum="100"/>
+</root>
