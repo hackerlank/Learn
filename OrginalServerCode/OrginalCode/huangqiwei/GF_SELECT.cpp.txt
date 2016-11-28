@@ -1,0 +1,978 @@
+/** @file
+* 演示T2_SDK进行异步发包、收包
+* 并且实现了T2_SDK断开重连的一个方法（运行平台Win32）
+* @author  T2小组
+* @author  恒生电子股份有限公司
+* @version 1.0
+* @date    20090325
+*/
+
+#include "t2sdk_interface.h"
+#include <windows.h>
+#include <iostream>
+#include <stdio.h>
+#include <fstream>
+#include <string>
+#include <cstring>
+#include <cstdlib>
+using namespace std;
+// 全局连接对象
+CConnectionInterface *g_Connection = NULL;
+
+// 全局事件
+HANDLE g_CloseEvent = CreateEvent(NULL, false, false, NULL);
+
+void ShowPacket(IF2UnPacker *lpUnPacker)
+{
+    int i = 0, t = 0, j = 0, k = 0;
+	
+    for (i = 0; i < lpUnPacker->GetDatasetCount(); ++i)
+    {
+		//printf("XXXXXXXXXXXXXX %dXXXXXXXXXXXXXXXXXXXXXXXXXX\n",lpUnPacker->GetDatasetCount());
+        // 设置当前结果集
+        lpUnPacker->SetCurrentDatasetByIndex(i);
+
+        // 打印字段
+        for (t = 0; t < lpUnPacker->GetColCount(); ++t)
+        {
+            printf("%20s", lpUnPacker->GetColName(t));
+        }
+
+        putchar('\n');
+
+        // 打印所有记录
+        //printf("XXXXXXXXXXXXXX %dXXXXXXXXXXXXXXXXXXXXXXXXXX\n",(int)lpUnPacker->GetRowCount());
+        for (j = 0; j < (int)lpUnPacker->GetRowCount(); ++j)
+        {
+            // 打印每条记录
+            for (k = 0; k < lpUnPacker->GetColCount(); ++k)
+            {
+                switch (lpUnPacker->GetColType(k))
+                {
+                case 'I':
+                    printf("%20d", lpUnPacker->GetIntByIndex(k));
+                    break;
+
+                case 'C':
+                    printf("%20c", lpUnPacker->GetCharByIndex(k));
+                    break;
+
+                case 'S':
+                    printf("%20s", lpUnPacker->GetStrByIndex(k));
+                    break;
+
+                case 'F':
+                    printf("%20f", lpUnPacker->GetDoubleByIndex(k));
+                    break;
+
+                case 'R':
+                    {
+                        int nLength = 0;
+                        void *lpData = lpUnPacker->GetRawByIndex(k, &nLength);
+
+                        // 对2进制数据进行处理
+                        break;
+                    }
+
+                default:
+                    // 未知数据类型
+                    printf("未知数据类型。\n");
+                    break;
+                }
+            }
+
+            putchar('\n');
+
+            lpUnPacker->Next();
+        }
+
+        putchar('\n');
+    }
+}
+
+// 自定义类CCallback，通过继承（实现）CCallbackInterface，来自定义各种事件（包括连接成功、
+// 连接断开、发送完成、收到数据等）发生时的回调方法
+class CCallback : public CCallbackInterface
+{
+public:
+    // 因为CCallbackInterface的最终纯虚基类是IKnown，所以需要实现一下这3个方法
+    unsigned long  FUNCTION_CALL_MODE QueryInterface(const char *iid, IKnown **ppv);
+    unsigned long  FUNCTION_CALL_MODE AddRef();
+    unsigned long  FUNCTION_CALL_MODE Release();
+
+    // 各种事件发生时的回调方法，实际使用时可以根据需要来选择实现，对于不需要的事件回调方法，可直接return
+    // Reserved?为保留方法，为以后扩展做准备，实现时可直接return或return 0。
+    void FUNCTION_CALL_MODE OnConnect(CConnectionInterface *lpConnection);
+    void FUNCTION_CALL_MODE OnSafeConnect(CConnectionInterface *lpConnection);
+    void FUNCTION_CALL_MODE OnRegister(CConnectionInterface *lpConnection);
+    void FUNCTION_CALL_MODE OnClose(CConnectionInterface *lpConnection);
+    void FUNCTION_CALL_MODE OnSent(CConnectionInterface *lpConnection, int hSend, void *reserved1, void *reserved2, int nQueuingData);
+    void FUNCTION_CALL_MODE Reserved1(void *a, void *b, void *c, void *d);
+    void FUNCTION_CALL_MODE Reserved2(void *a, void *b, void *c, void *d);
+    int  FUNCTION_CALL_MODE Reserved3();
+    void FUNCTION_CALL_MODE Reserved4();
+    void FUNCTION_CALL_MODE Reserved5();
+    void FUNCTION_CALL_MODE Reserved6();
+    void FUNCTION_CALL_MODE Reserved7();
+    void FUNCTION_CALL_MODE OnReceivedBiz(CConnectionInterface *lpConnection, int hSend, const void *lpUnPackerOrStr, int nResult);
+		void FUNCTION_CALL_MODE OnReceivedBizEx(CConnectionInterface *lpConnection, int hSend, LPRET_DATA lpRetData, const void *lpUnpackerOrStr, int nResult);
+
+};
+
+unsigned long CCallback::QueryInterface(const char *iid, IKnown **ppv)
+{
+    return 0;
+}
+
+unsigned long CCallback::AddRef()
+{
+    return 0;
+}
+
+unsigned long CCallback::Release()
+{
+    return 0;
+}
+
+// 以下各回调方法的实现仅仅为演示使用
+void CCallback::OnConnect(CConnectionInterface *lpConnection)
+{
+    puts("CCallback::OnConnect");
+}
+
+void CCallback::OnSafeConnect(CConnectionInterface *lpConnection)
+{
+    puts("CCallback::OnSafeConnect");
+}
+
+void CCallback::OnRegister(CConnectionInterface *lpConnection)
+{
+    puts("CCallback::OnRegister");
+}
+
+void CCallback::OnClose(CConnectionInterface *lpConnection)
+{
+    puts("CCallback::OnClose");
+
+    // 在OnClose回调函数中激活事件，表示连接已经断开
+    SetEvent(g_CloseEvent);
+}
+
+void CCallback::OnSent(CConnectionInterface *lpConnection, int hSend, void *reserved1, void *reserved2, int nQueuingData)
+{
+}
+
+void CCallback::Reserved1(void *a, void *b, void *c, void *d)
+{
+}
+
+void CCallback::Reserved2(void *a, void *b, void *c, void *d)
+{
+}
+
+void CCallback::OnReceivedBizEx(CConnectionInterface *lpConnection, int hSend, LPRET_DATA lpRetData, const void *lpUnpackerOrStr, int nResult)
+{
+	
+}
+
+void CCallback::OnReceivedBiz(CConnectionInterface *lpConnection, int hSend, const void *lpUnPackerOrStr, int nResult)
+{
+    switch (nResult)
+    {
+    case 0:
+        {
+            puts("业务操作成功。");
+            ShowPacket((IF2UnPacker *)lpUnPackerOrStr);
+            break;
+        }
+
+    case 1:
+        {
+            puts("业务操作失败。");
+            ShowPacket((IF2UnPacker *)lpUnPackerOrStr);
+            break;
+        }
+
+    case 2:
+        {
+            puts((char *)lpUnPackerOrStr);
+            break;
+        }
+
+    default:
+        {
+            puts("业务包解包失败。");
+            break;
+        }
+    }
+}
+
+int  CCallback::Reserved3()
+{
+    return 0;
+}
+
+void CCallback::Reserved4()
+{
+}
+
+void CCallback::Reserved5()
+{
+}
+
+void CCallback::Reserved6()
+{
+}
+
+void CCallback::Reserved7()
+{
+}
+
+// 实现断开重连功能的线程函数
+DWORD __stdcall AutoConnect(LPVOID lp)
+{
+    for (int ret = 0;;)
+    {
+        WaitForSingleObject(g_CloseEvent, INFINITE);
+
+        for (;;)
+        {
+            if (ret = g_Connection->Connect(1000))
+            {
+                // 打印连接失败原因
+                puts(g_Connection->GetErrorMsg(ret));
+
+                // 避免连接太过频繁，Sleep一下
+                Sleep(100);
+            }
+            else
+            {
+                // 重连成功，跳出内层循环，等待断开事件再次被激活
+                break;
+            }
+        }
+    }
+
+    return 0;
+}
+
+int main()
+{    
+	
+	/////////////////////////////////////////////////////////////////////////
+	string Xnum;
+	int buy_stock_vol=0;
+	char AssetProp;
+	printf("...........形成股票池正在交易：\n");
+	string Secnum[500];
+	int i=0;
+    ifstream infile;
+    infile.open("trade\\0.txt",ios::in);
+	while(!infile.eof())
+	{
+		getline(infile,Secnum[i],'\n');
+		i++;
+	}
+     infile.close();
+   ////////////////////////////////////////////////////////////////////////////
+	 ///printf("...........形成股票池正在交易：\n");
+    string ex_type[500];
+	int ii=0;
+    ifstream exfile;
+    exfile.open("trade\\1.txt",ios::in);
+	while(!exfile.eof())
+	{
+		getline(exfile,ex_type[ii],'\n');
+		ii++;
+	}
+     exfile.close();
+  ////////////////////////////////////////////////////////////////////////////
+	 ///printf("...........形成股票池正在交易：\n");
+   
+  ////////////////////////////////////////////////////////////////////////////
+	 ///printf("...........形成股票池正在交易：\n");
+    
+  /////////////////////////////////////////////////////////////////////////////
+	 ///printf("...........形成股票池正在交易：\n");
+	
+////////////////////////////////////////////////////////////////////////////////////
+	
+///////////////////////////////////////////////////////////////////////////////////
+	 
+    ///printf("...........形成股票池正在交易price==%f：\n",buy_stock_price[0]);
+    for(int j=0;j<ii;j++){
+  
+
+/*
+	 const char *Ticker_symbol=Secnum[1].c_str();
+	 getchar();
+*/
+    // 通过T2SDK的引出函数，来获取一个新的CConfig对象
+    // 此对象在创建连接对象时被传递，用于配置所创建的连接对象的各种属性（比如服务器IP地址、安全模式）
+    CConfigInterface * lpConfig = NewConfig();
+    // 通过T2SDK的引出函数NewXXXX返回的对象，需要调用对象的Release方法释放，而不能直接用delete
+    // 因为t2sdk.dll和调用程序可能是由不同的编译器、编译模式生成，delete可能会导致异常
+    // 为了适应Delphi等使用（Delphi对接口自动调用AddRef方法），用C/C++开发的代码，需要在NewXXXX之后调用一下AddRef
+    // 以保证引用计数正确
+    lpConfig->AddRef();
+    // [t2sdk] servers指定需要连接的IP地址及端口
+    lpConfig->SetString("t2sdk", "servers", "210.13.70.253:18001");
+	//printf("return=%d\n",lpConfig->SetString("t2sdk", "servers", "192.168.59.59:8001;222.240.130.3:9302;192.168.94.30:9999"));
+	//222.240.130.3:9302
+	//lpConfig->SetString("t2sdk", "init_recv_buf_size", "512");
+	//lpConfig->SetString("t2sdk", "init_send_buf_size", "512");
+    // [t2sdk] license_file指定许可证文件
+    lpConfig->SetString("t2sdk", "license_file", "(20130301)GFZQ-GFTYZB-0000_3rd.dat");
+	//printf("return=%d\n",lpConfig->SetString("t2sdk", "license_file", "(20130301)GFZQ-GFTYZB-0000_3rd.dat"));
+    // [t2sdk] send_queue_size指定T2_SDK的发送队列大小
+    lpConfig->SetString("t2sdk", "send_queue_size", "1000");
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//                    lpConfig->SetString("safe", "safe_level", "SSL");
+	//                    lpConfig->SetString("safe", "ca_file", "hs20121011.pfx");
+	//                    lpConfig->SetString("safe", "ca_pwd", "111111");
+	//                    lpConfig->SetString("safe", "cert_file", "hs20121011.pfx");
+	//                    lpConfig->SetString("safe", "cert_pwd", "111111");
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//lpConfig->Release();
+	//cout<<"结束：：：\n"<<endl;
+	//getchar();
+    // 通过T2SDK的引出函数，来获取一个新的CConnection对象
+    g_Connection = NewConnection(lpConfig);
+    g_Connection->AddRef();
+    //g_Connection->Release();
+	//cout<<"结束：：：\n"<<endl;
+	//getchar();
+    // 创建自定义类CCallback的对象（在初始化连接对象时需传递此对象，请看下面代码）
+
+    ///CCallback callback;
+#if 0
+    int ret = 0;
+	void *Pointer = NULL;
+	double SP1=0;
+	double BP1;
+	//int entrust_num[500];
+	//memset(entrust_num,0,sizeof(entrust_num));
+	//int s_entrust_num[500];
+	double enablemoney;
+	int sys_id=0;
+	//char BS_status;
+	//string c_exchange_type[500];
+	//string c_stock_code[500];
+	//int c_enable_amount[500];
+	//string EX_type;
+	//double EX_amount;
+	
+	//string SCode;
+	string lp_client_name;
+	string c_exchange_type[1000];
+	string c_stock_code[1000];
+	int c_enable_amount[1000];
+	double c_last_price[1000];
+	int entrust_num[1000];
+	int BK_ISO[1000];
+	int t1;
+    // 初始化连接对象，返回0表示初始化成功，注意此时并没开始连接服务器
+	char sh_stock_account[128]={0};
+	char sz_stock_account[128]={0};
+	char lpclient_id[128]={0};
+	char lpaccount_content[128]={0};
+	char lppassword[128]={0};
+
+	const char* lp_client_id=NULL;
+	const char* lp_sh_stock_account=NULL;
+	const char* lp_sz_stock_account=NULL;
+
+	const char *lp_account_content=Secnum[j].c_str();
+	memcpy(lpaccount_content,lp_account_content,strlen(lp_account_content));
+	const char *lp_password=ex_type[j].c_str();
+	memcpy(lppassword,lp_password,strlen(lp_password));
+
+    if (0 == (ret = g_Connection->Create(NULL)))
+    {
+		printf("%d\n",g_Connection->Create(NULL));
+
+        // 开启断开重连线程，由于在非断开情况下，该线程处于Wait状态，故对应用性能影响甚微
+        ///HANDLE thread = CreateThread(NULL, 0, AutoConnect, NULL, 0, NULL);
+        ///CloseHandle(thread);
+        // 正式开始连接注册，参数1000为超时参数，单位是ms
+
+        if (ret = g_Connection->Connect(1000))
+        {
+            // 若连接/注册失败，打印失败原因
+            puts(g_Connection->GetErrorMsg(ret));
+        }
+        else
+        {
+//~~~~~~~~~~~功能号331100~~~~~客户登录~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+			cout<<"...........功能号331100~~~~~客户登录:演示如何使用打包器\n"<<endl;
+            // 演示如何使用打包器
+            IF2Packer *lpPacker = NewPacker(2);
+            lpPacker->AddRef();
+            lpPacker->BeginPack();
+
+			lpPacker->AddField( "identity_type", 'C', 1 );//帐户身份类别 1 调拨人  2指令人  3 查询  默认不输入
+			lpPacker->AddField( "op_branch_no", 'I', 5 );//操作分支营业部号
+			lpPacker->AddField( "op_entrust_way", 'C', 1 );//委托方式
+			lpPacker->AddField( "op_station", 'S', 255 );//站点地址
+			lpPacker->AddField( "branch_no", 'I', 5 );//分支机构
+			lpPacker->AddField( "input_content", 'C', 1 );//客户标志类型 1 为资金帐号
+			lpPacker->AddField( "account_content", 'S', 30 );//资金帐号
+			lpPacker->AddField( "content_type", 'S', 6 );//客户标示类型 输入0即可
+			lpPacker->AddField( "password", 'S', 10 );
+			lpPacker->AddField( "password_type", 'C', 1 );//密码类别  2 为交易密码
+
+			lpPacker->AddChar( '1' );
+			lpPacker->AddInt( 101 );
+			lpPacker->AddChar( '3' );
+			lpPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630");//站点地址// 需    要   修   改！！！！！！！！！！！！！！
+			lpPacker->AddInt( 101 );
+			lpPacker->AddChar( '1' );
+			lpPacker->AddStr( lpaccount_content );
+			lpPacker->AddChar( '0' );
+			lpPacker->AddStr( lppassword );
+			lpPacker->AddChar( '2' );
+
+            lpPacker->EndPack();            
+			int hSend=g_Connection->SendBiz(331100, lpPacker,0);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			///printf("...........发送句柄（SendBiz的成功返回值）：%d \n",ret);
+			if (ret==0) 
+			{
+				lp_client_name=((IF2UnPacker *)Pointer)->GetStr("client_name");
+			///printf("...........发送句柄（SendBiz的成功返回值）：%d \n",ret);
+			sys_id=((IF2UnPacker *)Pointer)->GetInt("sysnode_id");
+			printf("...........系统节点：%d\n",sys_id);
+			AssetProp=((IF2UnPacker *)Pointer)->GetChar("asset_prop");
+			////
+			printf("...................：%c\n",AssetProp);
+			//printf("...........结果集的个数：%d",((IF2UnPacker *)Pointer)->GetDatasetCount());
+			///getchar();
+			lp_client_id=((IF2UnPacker *)Pointer)->GetStr("client_id");
+			memcpy(lpclient_id,lp_client_id,strlen(lp_client_id));
+			printf("client_id==%s\n",lpclient_id);
+			cout<<"...........演示返回数据：\n"<<endl;
+
+				puts("...........业务操作成功。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			if (ret==1)
+			{
+				puts("...........业务操作失败。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			///getchar();
+			cout<<"...........释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+            // 释放打包器，不释放会引起内存泄露，后果严重
+			lpPacker->FreeMem(lpPacker->GetPackBuf());
+			lpPacker->Release();
+			//getchar();
+			///getchar();
+//~~~~~~~~~~~功能号331300~~~~~股东账号查询~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+			
+			cout<<"...........功能号331300~~~~~股东账号查询:演示如何使用打包器\n"<<endl;
+            IF2Packer *SPacker = NewPacker(2);
+            SPacker->AddRef();
+            SPacker->BeginPack();
+
+			SPacker->AddField("identity_type",'C',1); 
+            SPacker->AddField("op_branch_no",'I',5);
+            SPacker->AddField("op_entrust_way",'C',1); 
+            SPacker->AddField("op_station",'S',255);              
+            SPacker->AddField("branch_no",'I',5); 
+			SPacker->AddField("client_id",'S',18); 
+			SPacker->AddField("fund_account",'S',18);//资金账户 
+			SPacker->AddField("password",'S',10);//密码
+			SPacker->AddField("password_type",'C',1); 
+			SPacker->AddField("user_token",'S',40); 
+            SPacker->AddField("exchange_type",'S',4);//
+			SPacker->AddField("position_str",'S',32);//
+			SPacker->AddField("request_num",'I',8);//
+
+            SPacker->AddChar('1');   
+            SPacker->AddInt(101);//op_branch_no 
+            SPacker->AddChar('3');//op_entrust_way
+            SPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //站点地址// 需    要   修   改！！！！！！！！！！！！！！
+			SPacker->AddInt( 101 );
+			SPacker->AddStr(lpclient_id); 
+			SPacker->AddStr(lpaccount_content); 
+			SPacker->AddStr( lppassword );
+			SPacker->AddChar( '2' );
+			SPacker->AddStr(" ");
+			SPacker->AddStr(" ");
+			SPacker->AddStr(" ");
+			SPacker->AddInt(50);
+
+            SPacker->EndPack();
+			hSend=g_Connection->SendBiz(331300, SPacker,0);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			for (int j = 0; j < (int)((IF2UnPacker *)Pointer)->GetRowCount(); ++j)
+			{
+				if ((string)((IF2UnPacker *)Pointer)->GetStr("exchange_type")=="1")
+				{
+
+					lp_sh_stock_account=((IF2UnPacker *)Pointer)->GetStr("stock_account");
+					memcpy(sh_stock_account,lp_sh_stock_account,strlen(lp_sh_stock_account));
+					printf("...........上海股票股东账号：%s\n",sh_stock_account);
+				}
+				else if ((string)((IF2UnPacker *)Pointer)->GetStr("exchange_type")=="2")
+				{
+
+					lp_sz_stock_account=((IF2UnPacker *)Pointer)->GetStr("stock_account");
+					memcpy(sz_stock_account,lp_sz_stock_account,strlen(lp_sz_stock_account));
+					printf("...........上海股票股东账号：%s\n",sz_stock_account);
+				}
+				else if ((string)((IF2UnPacker *)Pointer)->GetStr("exchange_type")=="9")
+				{
+
+					const char *stock_account_9=((IF2UnPacker *)Pointer)->GetStr("stock_account");
+					printf("...........9股票股东账号：%s\n",stock_account_9);
+				}
+				((IF2UnPacker *)Pointer)->Next();
+
+			}
+
+			printf("...........发送句柄（SendBiz的成功返回值）：%d \n",ret);
+
+			cout<<"...........释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+			SPacker->FreeMem(SPacker->GetPackBuf());
+			SPacker->Release();
+			///getchar();
+//~~~~~~~~~~~功能号332255~~~~~最新资产查询~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+			cout<<"...........功能号332255~~~~~最新资产查询:演示如何使用打包器\n"<<endl;
+            IF2Packer *ZPacker = NewPacker(2);
+            ZPacker->AddRef();
+            ZPacker->BeginPack();
+
+			ZPacker->AddField("identity_type",'C',1); 
+            ZPacker->AddField("op_branch_no",'I',5);
+            ZPacker->AddField("op_entrust_way",'C',1); 
+            ZPacker->AddField("op_station",'S',255);              
+            ZPacker->AddField("branch_no",'I',5);
+
+			ZPacker->AddField("client_id",'S',18); 
+			ZPacker->AddField("fund_account",'S',18);//
+			ZPacker->AddField("password",'S',10);//
+			ZPacker->AddField("password_type",'C',1); 
+			ZPacker->AddField("user_token",'S',40); 
+			if (AssetProp=='7'){
+              ZPacker->AddField("asset_prop",'C',1); 
+			}
+			ZPacker->AddField("money_type",'C',1); 
+
+            ZPacker->AddChar('1');   
+            ZPacker->AddInt(101);//op_branch_no 
+            ZPacker->AddChar('3');//op_entrust_way
+            ZPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //站点地址// 需    要   修   改！！！！！！！！！！！！！！
+			ZPacker->AddInt( 101 );
+
+			ZPacker->AddStr(lpclient_id); 
+			ZPacker->AddStr(lpaccount_content); 
+			ZPacker->AddStr( lppassword );
+			ZPacker->AddChar( '2' );
+			ZPacker->AddStr(" ");
+
+			if (AssetProp=='7'){
+                ZPacker->AddChar('7');
+			}
+			ZPacker->AddChar('0');   
+
+            ZPacker->EndPack();
+
+			if (AssetProp=='7'){
+				cout<<"...........77777777777777777777777777777777777：\n"<<endl;
+                hSend=g_Connection->SendBiz(335101, ZPacker,0,sys_id);
+			}
+			else{
+			hSend=g_Connection->SendBiz(332255, ZPacker,0);
+			}
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			enablemoney=((IF2UnPacker *)Pointer)->GetDouble("enable_balance");
+			printf("...........可用资金余额：%f\n",enablemoney);
+			if (ret==0) 
+			{
+				puts("...........业务操作成功。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+
+			///getchar();
+			cout<<"...........释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+			ZPacker->FreeMem(ZPacker->GetPackBuf());
+			ZPacker->Release();
+			///getchar();			
+///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+        //~~~~~~~~~~~功能号333104~~~~~证券持仓查询~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+            cout<<"...........111111111111111111111111111111111111111111：\n"<<endl;
+			IF2Packer *CPacker = NewPacker(2);
+            CPacker->AddRef();
+            CPacker->BeginPack();
+
+			CPacker->AddField("identity_type",'C',1); 
+            CPacker->AddField("op_branch_no",'I',5);
+            CPacker->AddField("op_entrust_way",'C',1); 
+            CPacker->AddField("op_station",'S',255);              
+            CPacker->AddField("branch_no",'I',5); 
+
+			CPacker->AddField("client_id",'S',18); 
+            CPacker->AddField("fund_account",'S',18);//资金账户 
+			CPacker->AddField("password",'S',10);//密码
+			CPacker->AddField("password_type",'C',1); 
+			CPacker->AddField("user_token",'S',40); 
+
+            CPacker->AddField("exchange_type",'S',4);//交易类别
+            CPacker->AddField("stock_account",'S',11); //证券账户
+            CPacker->AddField("stock_code",'S',6);//orderfield.StockCode
+			if (AssetProp=='7'){
+               CPacker->AddField("asset_prop",'C',1); 
+			}
+			CPacker->AddField("query_mode",'C',1); 
+            CPacker->AddField("position_str",'S',32);
+			CPacker->AddField("request_num",'I',8);
+
+			CPacker->AddChar('1'); //identity_type  
+            CPacker->AddInt(101);//op_branch_no 
+            CPacker->AddChar('3');//op_entrust_way
+            CPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //op_station
+			CPacker->AddInt( 101 );//branch_no
+
+			CPacker->AddStr(lpclient_id); //client_id
+			CPacker->AddStr(lpaccount_content); //fund_account
+			CPacker->AddStr( lppassword );//password
+			CPacker->AddChar( '2' );//password_type
+			CPacker->AddStr(" ");//user_token
+
+			CPacker->AddStr(" ");
+			CPacker->AddStr(" ");
+			CPacker->AddStr(" ");
+			if (AssetProp=='7'){
+				CPacker->AddChar('7');
+			}
+			CPacker->AddChar('0');
+			CPacker->AddStr(" ");
+			CPacker->AddInt(1000);
+
+			CPacker->EndPack();
+			if (AssetProp=='7'){
+				cout<<"...........77777777777777777777777777777777777777777：\n"<<endl;
+				hSend=g_Connection->SendBiz(335102, CPacker,0,sys_id);
+			}
+			else{
+			hSend=g_Connection->SendBiz(333104, CPacker,0,sys_id);
+			}
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			printf("X===========%d\n",ret);
+			t1=0;
+			memset(c_enable_amount,0,sizeof(c_enable_amount));
+			memset(c_last_price,0,sizeof(c_last_price));
+///			getchar();
+			if (ret==0) 
+			{
+			for (int j = 0; j <= (int)((IF2UnPacker *)Pointer)->GetRowCount(); ++j)
+			{
+				ofstream client_nameout("trade\\client_name.txt",ios::out|ios::app);
+			    if(client_nameout.is_open()){
+				client_nameout <<lp_client_name << endl;
+				client_nameout.close();
+				}
+
+				ofstream stock_nameout("trade\\stock_name.txt",ios::out|ios::app);
+			    if(stock_nameout.is_open()){
+				stock_nameout <<(string)((IF2UnPacker *)Pointer)->GetStr("stock_name") << endl;
+				stock_nameout.close();
+				}
+
+				ofstream market_valueout("trade\\stock_code.txt",ios::out|ios::app);
+			    if(market_valueout.is_open()){
+				market_valueout <<(string)((IF2UnPacker *)Pointer)->GetStr("stock_code") << endl;
+				market_valueout.close();
+				}
+
+				ofstream enable_balanceout("trade\\enable_amount.txt",ios::out|ios::app);
+			    if(enable_balanceout.is_open()){
+				enable_balanceout << int(((IF2UnPacker *)Pointer)->GetDouble("enable_amount")) << endl;
+				enable_balanceout.close();
+			    }
+				c_exchange_type[t1]=(string)((IF2UnPacker *)Pointer)->GetStr("exchange_type");
+				c_stock_code[t1]=(string)((IF2UnPacker *)Pointer)->GetStr("stock_code");
+				const char *Ticker_symbol=c_stock_code[t1].c_str();
+				printf("...........股票代码:%s",Ticker_symbol);
+				c_enable_amount[t1]=int(((IF2UnPacker *)Pointer)->GetDouble("enable_amount"));
+				c_last_price[t1]=((IF2UnPacker *)Pointer)->GetDouble("last_price");
+				printf("...........可卖股票数:%d",c_enable_amount[t1]);
+				printf("...........最新股票价格:%f\n",c_last_price[t1]);
+				t1++;
+				((IF2UnPacker *)Pointer)->Next();
+			}
+///			getchar();
+			
+			
+				puts("...........业务操作成功。");
+///				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			cout<<"...........释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+			CPacker->FreeMem(CPacker->GetPackBuf());
+			CPacker->Release();
+			
+
+///			getchar();
+			////////////////////////////////////////////////////////////////////////////////////////////////////////
+			
+			///Sleep(3000);
+			///////////////////////////////////////////////////////////////////////////////////////////////////////
+			///////////////////////////////////////////////////////////////////////////////////////////////////////
+			/*
+			for (int j=0;j<=t1;j++) {
+			if (entrust_num[j]>0){
+			cout<<"功能号333100~~~~~可撤单委托查询:演示如何使用打包器\n"<<endl;
+			///getchar();
+            IF2Packer *KPacker = NewPacker(2);
+            KPacker->AddRef();
+            KPacker->BeginPack();
+
+			KPacker->AddField("identity_type",'C',1); 
+            KPacker->AddField("op_branch_no",'I',5);
+            KPacker->AddField("op_entrust_way",'C',1); 
+            KPacker->AddField("op_station",'S',255);              
+            KPacker->AddField("branch_no",'I',5); 
+
+			KPacker->AddField("client_id",'S',18); 
+            KPacker->AddField("fund_account",'S',18);//资金账户 
+			KPacker->AddField("password",'S',10);//密码
+			KPacker->AddField("password_type",'C',1); 
+			KPacker->AddField("user_token",'S',40); 
+
+            KPacker->AddField("entrust_no",'I',8);//交易类别
+            KPacker->AddField("stock_account",'S',11); //证券账户
+            KPacker->AddField("position_str",'S',32);//orderfield.StockCode 
+            KPacker->AddField("request_num",'I',8); 
+			//
+            KPacker->AddChar('1'); //identity_type  
+            KPacker->AddInt(101);//op_branch_no 
+            KPacker->AddChar('7');//op_entrust_way
+            KPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //op_station
+			KPacker->AddInt( 101 );//branch_no
+
+			KPacker->AddStr("021400000070"); //client_id
+			KPacker->AddStr("32000073"); //fund_account
+			KPacker->AddStr( "121327" );//password
+			KPacker->AddChar( '2' );//password_type
+			KPacker->AddStr(" ");//user_token
+
+			KPacker->AddInt(entrust_num[j]);//exchange_type
+			KPacker->AddStr(" ");//stock_account
+			KPacker->AddStr(" ");//stock_code
+			KPacker->AddInt(1000);//entrust_amount
+
+            KPacker->EndPack();
+			hSend=g_Connection->SendBiz(333100, KPacker,0,sys_id);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			if (ret==0) 
+			{
+			printf("which 系统输入输出： sysnode_id=%d \n",ret);
+			BS_status=((IF2UnPacker *)Pointer)->GetChar("entrust_status");
+			EX_type=(string)(((IF2UnPacker *)Pointer)->GetStr("exchange_type"));
+			printf("股票代码%s:\n",((IF2UnPacker *)Pointer)->GetStr("stock_code"));
+			SCode=(string)(((IF2UnPacker *)Pointer)->GetStr("stock_code"));
+			const char *EX_code=SCode.c_str();
+			printf("股票代码%s:\n",EX_code);
+			//const char *EX_code=((string)((IF2UnPacker *)Pointer)->GetStr("stock_code")).c_str();
+			EX_amount=((IF2UnPacker *)Pointer)->GetDouble("entrust_amount");
+			printf("0:未报 1:待报 2:已报 3:已报待撤 4:部成待撤 7:部成 W:待确认:委托查询状态:%20c\n",BS_status);
+			
+				puts("业务操作成功。");
+				ShowPacket((IF2UnPacker *)Pointer);
+            IF2Packer *CDPacker = NewPacker(2);
+            CDPacker->AddRef();
+            CDPacker->BeginPack();
+
+			CDPacker->AddField("identity_type",'C',1); 
+            CDPacker->AddField("op_branch_no",'I',5);
+            CDPacker->AddField("op_entrust_way",'C',1); 
+            CDPacker->AddField("op_station",'S',255);              
+            CDPacker->AddField("branch_no",'I',5); 
+
+			CDPacker->AddField("client_id",'S',18); 
+            CDPacker->AddField("fund_account",'S',18);//资金账户 
+			CDPacker->AddField("password",'S',10);//密码
+			CDPacker->AddField("password_type",'C',1); 
+			CDPacker->AddField("user_token",'S',40);
+
+			CDPacker->AddField("batch_flag",'C',1); 
+			CDPacker->AddField("exchange_type",'S',4); 
+			CDPacker->AddField("entrust_no",'I',8);
+
+			CDPacker->AddChar('1'); //identity_type  
+            CDPacker->AddInt(101);//op_branch_no 
+            CDPacker->AddChar('7');//op_entrust_way
+            CDPacker->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //op_station
+			CDPacker->AddInt( 101 );//branch_no
+
+			CDPacker->AddStr("021400000070"); //client_id
+			CDPacker->AddStr("32000073"); //fund_account
+			CDPacker->AddStr( "121327" );//password
+			CDPacker->AddChar( '2' );//password_type
+			CDPacker->AddStr(" ");//user_token
+
+			CDPacker->AddChar('0');
+			CDPacker->AddStr(" ");
+			CDPacker->AddInt(entrust_num[j]);
+
+			CDPacker->EndPack();
+			hSend=g_Connection->SendBiz(333017, CDPacker,0,sys_id);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			if (ret==0) {
+            cout<<"功能号333107~~~~~撤销成功：：：:演示如何使用打包器\n"<<endl;
+            IF2Packer *HPacker = NewPacker(2);
+            HPacker->AddRef();
+            HPacker->BeginPack();
+			HPacker->AddField( "identity_type", 'C', 1 );//帐户身份类别 1 调拨人  2指令人  3 查询  默认不输入
+			HPacker->AddField( "exchange_type", 'S', 4 );
+			HPacker->AddField("stock_code",'S',6);
+
+			HPacker->AddChar('1');
+			if (EX_type=="2") {
+				///printf("....................EX_type==2\n");
+			HPacker->AddStr("2");
+			HPacker->AddStr(EX_code);
+			///printf("股票代码%s:\n",EX_code);
+			}
+			else
+			{
+				///printf("....................EX_type==1\n");
+             HPacker->AddStr("1");
+			HPacker->AddStr(EX_code);
+			///printf("股票代码%s:\n",EX_code);
+			}
+			HPacker->EndPack();
+			hSend=g_Connection->SendBiz(400, HPacker,0);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+
+			SP1=((IF2UnPacker *)Pointer)->GetDouble("buy_price2");
+			///printf("股票代码%s:\n",EX_code);
+			///printf("...........股票%s的申购卖二价格：%f",EX_code,SP1);
+			HPacker->FreeMem(HPacker->GetPackBuf());
+			HPacker->Release();
+			///printf("股票代码%s:\n",EX_code);
+			///getchar();
+			cout<<"再次买入股票：：：:演示如何使用打包器\n"<<endl;
+            IF2Packer *Packer = NewPacker(2);
+            Packer->AddRef();
+            Packer->BeginPack();
+
+			Packer->AddField("identity_type",'C',1); 
+            Packer->AddField("op_branch_no",'I',5);
+            Packer->AddField("op_entrust_way",'C',1); 
+            Packer->AddField("op_station",'S',255);              
+            Packer->AddField("branch_no",'I',5); 
+
+			Packer->AddField("client_id",'S',18); 
+            Packer->AddField("fund_account",'S',18);//资金账户 
+			Packer->AddField("password",'S',10);//密码
+			Packer->AddField("password_type",'C',1); 
+			Packer->AddField("user_token",'S',40); 
+
+            Packer->AddField("exchange_type",'S',4);//交易类别
+            Packer->AddField("stock_account",'S',11); //证券账户
+            Packer->AddField("stock_code",'S',6);//orderfield.StockCode 
+            Packer->AddField("entrust_amount",'I',16); 
+            Packer->AddField("entrust_price",'I',9);
+
+            Packer->AddField("entrust_bs",'C',1); 
+            Packer->AddField("entrust_prop",'C',1); 
+            Packer->AddField("batch_no",'I',8); 
+			//
+            Packer->AddChar('1'); //identity_type  
+            Packer->AddInt(101);//op_branch_no 
+            Packer->AddChar('7');//op_entrust_way
+            Packer->AddStr("TC2.2.176-IP:222.66.234.246,58.246.12.93,58.246.14.154,MAC:28D2447D490C,HDD:HGST HTS725050A7E630"); //站点地址// 需    要   修   改！！！！！！！！！！！！！！
+			Packer->AddInt( 101 );//branch_no
+
+			Packer->AddStr("021400000070"); //client_id
+			Packer->AddStr("32000073"); //fund_account
+			Packer->AddStr( "121327" );//password
+			Packer->AddChar( '2' );//password_type
+			Packer->AddStr(" ");//user_token
+
+			if (EX_type=="2")
+			{
+			Packer->AddStr("2");//exchange_type
+			Packer->AddStr("0158451491");//stock_account
+			}
+			else
+			{
+            Packer->AddStr("1");//exchange_type
+			Packer->AddStr("A463581218");//stock_account
+			}
+			Packer->AddStr(EX_code);//stock_code//
+			Packer->AddInt(EX_amount);//entrust_amount
+			Packer->AddDouble(SP1);//entrust_price
+
+			Packer->AddChar('2');//entrust_bs
+			Packer->AddChar('0');//entrust_prop
+			Packer->AddInt(0);//batch_no
+
+            Packer->EndPack();
+			hSend=g_Connection->SendBiz(333002, Packer,0,sys_id);
+			ret=g_Connection->RecvBiz(hSend, &Pointer);
+			printf("...........which 系统输入输出： sysnode_id=%d \n",ret);
+			//entrust_num[j]=((IF2UnPacker *)Pointer)->GetInt("entrust_no");
+			//printf("...........:::::%d:::::\n",entrust_num);
+			if (ret==0) 
+			{
+				puts("...........业务操作成功。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			if (ret==1)
+			{
+				puts("...........业务操作失败。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			///getchar();
+			cout<<"...........释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+			Packer->FreeMem(Packer->GetPackBuf());
+			Packer->Release();
+			}
+			CDPacker->FreeMem(CDPacker->GetPackBuf());
+			CDPacker->Release();
+			}
+			if (ret==1)
+			{
+				puts("业务操作失败。");
+				ShowPacket((IF2UnPacker *)Pointer);
+			}
+			///getchar();
+			cout<<"释放打包器，不释放会引起内存泄露，后果严重：\n"<<endl;
+			KPacker->FreeMem(KPacker->GetPackBuf());
+			KPacker->Release();
+			///getchar();
+			}
+			}
+			*/
+        }
+    }
+    else
+    {
+        puts(g_Connection->GetErrorMsg(ret));
+    }
+    // 通过getchar阻塞线程，等待服务端应答包到达
+    // 演示断开重连时，可在此时关闭服务器，然后再恢复
+	cout<<"-------------------\n"<<endl;
+///    getchar();
+	cout<<"-------------------\n"<<endl;
+    // 释放资源
+	g_Connection->Release();
+	cout<<"释放资源\n"<<endl;
+	lpConfig->Release();
+#endif
+	}
+	cout<<"释放资源\n"<<endl;
+
+	cout<<"释放资源\n"<<endl;
+	ofstream readyout("trade\\ready.txt",ios::out);
+	readyout.close();
+	///getchar();
+	/////////////////////////////////////////////////////////
+	///Sleep(5000);
+	////////////////////////////////////////////////////////
+    return 0;
+}
