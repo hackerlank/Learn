@@ -1,0 +1,39 @@
+/************************************************************************
+//  工具自动生成的Flash客户端协议代码(结构体类型)
+//  File Name:    SRetParam_ReqTHAwardInfo.as
+//  Purpose:      请求寻宝奖励信息
+//  Copyright (c) 2010-2020 上海恺英网络科技有限公司, All rights reserved.
+*************************************************************************/
+
+package net.protocol.treasureHuntProt
+{
+	/**
+	 * 请求寻宝奖励信息的返回的参数组成的结构体
+	 */
+	public final class SRetParam_ReqTHAwardInfo
+	{
+		public var byCopyID:uint; //(无符号8位整数)副本ID
+		public var vecTHAwardInfo:Vector.<STHAwardInfo>; //寻宝奖励信息
+
+		/**
+		 * 转换为XML
+		 * @param name_ 此类型作为成员变量时的变量名
+		 */
+		public function toXML(name_:String = null):XML
+		{
+			var topXml:XML
+			if(name_ != null && name_ != "")
+				topXml = <SRetParam_ReqTHAwardInfo _name_={name_} byCopyID={byCopyID}/>;
+			else
+				topXml = <SRetParam_ReqTHAwardInfo byCopyID={byCopyID}/>;
+			if(vecTHAwardInfo != null)
+			{
+				var vecTHAwardInfoXml:XML = <Vec_STHAwardInfo _name_="vecTHAwardInfo"/>;
+				for each(var s1:STHAwardInfo in vecTHAwardInfo)
+					vecTHAwardInfoXml.appendChild(s1.toXML());
+				topXml.appendChild(vecTHAwardInfoXml);
+			}
+			return topXml;
+		}
+	}
+}

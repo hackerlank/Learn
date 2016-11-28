@@ -1,0 +1,750 @@
+﻿/************************************************************************
+//  工具自动生成的协议类型定义代码(UTF-8 With BOM)
+//  File Name:    VarDefine.cpp
+//  Purpose:      Var变量定义
+//  Copyright (c) 2010-2020 上海恺英网络科技有限公司, All rights reserved.
+*************************************************************************/
+
+#include "UtilFunc.h"
+#include "VarDefine.h"
+#include "SessionMgr.h"
+
+#ifdef _WIN32
+#pragma warning(disable:4700)
+#endif
+
+namespace NVarDefine
+{
+
+#ifdef PROT_USE_XML
+
+const char* EnumValToStr(EPlayerVar e)
+{
+	switch(e)
+	{
+	case ePlayerVarNone:
+		return "ePlayerVarNone";
+	case ePlayerVarArenaWirship:
+		return "ePlayerVarArenaWirship";
+	case ePlayerVarArenaChallengeFree:
+		return "ePlayerVarArenaChallengeFree";
+	case ePlayerVarArenaChallengeFlush:
+		return "ePlayerVarArenaChallengeFlush";
+	case ePlayerVarArenaChallenge0:
+		return "ePlayerVarArenaChallenge0";
+	case ePlayerVarArenaChallenge12:
+		return "ePlayerVarArenaChallenge12";
+	case ePlayerVarArenaChallenge18:
+		return "ePlayerVarArenaChallenge18";
+	case ePlayerVarSendMail:
+		return "ePlayerVarSendMail";
+	case ePlayerVarBuyArenaChallengeTimes:
+		return "ePlayerVarBuyArenaChallengeTimes";
+	case ePlayerVarBuyArenaChallengeTimesOneDay:
+		return "ePlayerVarBuyArenaChallengeTimesOneDay";
+	case ePlayerVarLadderUpdate:
+		return "ePlayerVarLadderUpdate";
+	case ePlayerVarGuildDonate:
+		return "ePlayerVarGuildDonate";
+	case ePlayerVarGuildWorship:
+		return "ePlayerVarGuildWorship";
+	case ePlayerVarLadderChallenge:
+		return "ePlayerVarLadderChallenge";
+	case ePlayerVarChallegeAward:
+		return "ePlayerVarChallegeAward";
+	case ePlayerVarAdoreCount:
+		return "ePlayerVarAdoreCount";
+	case ePlayerVarTripodShanfeng:
+		return "ePlayerVarTripodShanfeng";
+	case ePlayerVarTripodHelp:
+		return "ePlayerVarTripodHelp";
+	case ePlayerVarArenaChallengeFreeFlush:
+		return "ePlayerVarArenaChallengeFreeFlush";
+	case ePlayerNoticeUpdateMark:
+		return "ePlayerNoticeUpdateMark";
+	case ePlayerSysDialogMark:
+		return "ePlayerSysDialogMark";
+	case ePlayerQQCoinLevel:
+		return "ePlayerQQCoinLevel";
+	case ePlayerAnswer:
+		return "ePlayerAnswer";
+	case ePlayerAnswerScoreAndTime:
+		return "ePlayerAnswerScoreAndTime";
+	case ePlayerTeamPos1Cache:
+		return "ePlayerTeamPos1Cache";
+	case ePlayerTeamPos2Cache:
+		return "ePlayerTeamPos2Cache";
+	case ePlayerTeamPos3Cache:
+		return "ePlayerTeamPos3Cache";
+	case ePlayerVarDayRechargeCenter:
+		return "ePlayerVarDayRechargeCenter";
+	case ePlayerVarDragonBall_TodayCount:
+		return "ePlayerVarDragonBall_TodayCount";
+	case ePlayerVarDragonBall_AllCount:
+		return "ePlayerVarDragonBall_AllCount";
+	case ePlayerShipRobTimes:
+		return "ePlayerShipRobTimes";
+	case ePlayerShipDefenseTimes:
+		return "ePlayerShipDefenseTimes";
+	case ePlayerShipOpenTimes:
+		return "ePlayerShipOpenTimes";
+	case ePlayerShipReFluseTimes:
+		return "ePlayerShipReFluseTimes";
+	case ePlayerBuyOpenShipTimesToday:
+		return "ePlayerBuyOpenShipTimesToday";
+	case ePlayerBuyRoBShipTimesToday:
+		return "ePlayerBuyRoBShipTimesToday";
+	case ePlayerBuyReflushShipTimesToday:
+		return "ePlayerBuyReflushShipTimesToday";
+	case ePlayerFreezShipTimer:
+		return "ePlayerFreezShipTimer";
+	case ePlayerInvites:
+		return "ePlayerInvites";
+	case ePlayerVarXiheHelpCount:
+		return "ePlayerVarXiheHelpCount";
+	case ePlayerVarFruit:
+		return "ePlayerVarFruit";
+	case ePlayerVarDayPackage:
+		return "ePlayerVarDayPackage";
+	case ePlayerVarMonsterPackage:
+		return "ePlayerVarMonsterPackage";
+	case ePlayerVarTotalScore:
+		return "ePlayerVarTotalScore";
+	case ePlayerVarBuyLadderTimesToday:
+		return "ePlayerVarBuyLadderTimesToday";
+	case ePlayerVarGuildExchangedItemToday:
+		return "ePlayerVarGuildExchangedItemToday";
+	case ePlayerVarSevenConsumeGold:
+		return "ePlayerVarSevenConsumeGold";
+	case ePlayerVarSevenConsumeAwardInfo:
+		return "ePlayerVarSevenConsumeAwardInfo";
+	case ePlayerVarGuildWorshipTypeBegin:
+		return "ePlayerVarGuildWorshipTypeBegin";
+	case ePlayerVarGuildWorshipType2:
+		return "ePlayerVarGuildWorshipType2";
+	case ePlayerVarGuildWorshipType3:
+		return "ePlayerVarGuildWorshipType3";
+	case ePlayerVarGuildWorshipTypeEnd:
+		return "ePlayerVarGuildWorshipTypeEnd";
+	case ePlayerMinLadderRank:
+		return "ePlayerMinLadderRank";
+	case ePlayerQQCoinExchangeCount:
+		return "ePlayerQQCoinExchangeCount";
+	case ePlayerQQCoinExchangeValue:
+		return "ePlayerQQCoinExchangeValue";
+	case ePlayerVarRecharge:
+		return "ePlayerVarRecharge";
+	case ePlayerVarConsume:
+		return "ePlayerVarConsume";
+	case ePlayerVarFirstRechrgeStatus:
+		return "ePlayerVarFirstRechrgeStatus";
+	case ePlayerVarDayEvent:
+		return "ePlayerVarDayEvent";
+	case ePlayerFlushGroupTask:
+		return "ePlayerFlushGroupTask";
+	case ePlayerFlushYaMenTask:
+		return "ePlayerFlushYaMenTask";
+	case ePlayerFinishGroupTask:
+		return "ePlayerFinishGroupTask";
+	case ePlayerFinishYaMenTask:
+		return "ePlayerFinishYaMenTask";
+	case ePlayerGetGroupPExp:
+		return "ePlayerGetGroupPExp";
+	case ePlayerActivity:
+		return "ePlayerActivity";
+	case ePlayerActivityTask:
+		return "ePlayerActivityTask";
+	case ePlayerActivityAward:
+		return "ePlayerActivityAward";
+	case ePlayerVIPEndTime:
+		return "ePlayerVIPEndTime";
+	case ePlayerVIPGrowthValue:
+		return "ePlayerVIPGrowthValue";
+	case ePlayerVIPType:
+		return "ePlayerVIPType";
+	case ePlayerVIPDayTime:
+		return "ePlayerVIPDayTime";
+	case ePlayerVIPGetDayPack:
+		return "ePlayerVIPGetDayPack";
+	case ePlayerVIPUsedGold:
+		return "ePlayerVIPUsedGold";
+	case ePlayerVarIndulgeTime:
+		return "ePlayerVarIndulgeTime";
+	case ePlayerVarSittingTime:
+		return "ePlayerVarSittingTime";
+	case ePlayerVarTaskMark:
+		return "ePlayerVarTaskMark";
+	case ePlayerVarMaxAction:
+		return "ePlayerVarMaxAction";
+	case ePlayerVarActionRegain1:
+		return "ePlayerVarActionRegain1";
+	case ePlayerVarActionRegain2:
+		return "ePlayerVarActionRegain2";
+	case ePlayerVarActionAdd:
+		return "ePlayerVarActionAdd";
+	case ePlayerVarBuyActionCnt:
+		return "ePlayerVarBuyActionCnt";
+	case ePlayerVarActionBuffer:
+		return "ePlayerVarActionBuffer";
+	case ePlayerGetYaMenPExp:
+		return "ePlayerGetYaMenPExp";
+	case ePlayerBuyGroupTask:
+		return "ePlayerBuyGroupTask";
+	case ePlayerBuyYaMenTask:
+		return "ePlayerBuyYaMenTask";
+	case eDemonTowerAtkMonsterCd:
+		return "eDemonTowerAtkMonsterCd";
+	case eTeamDgnAward:
+		return "eTeamDgnAward";
+	case ePlayerYDDayBag:
+		return "ePlayerYDDayBag";
+	case ePlayerYDNewBag:
+		return "ePlayerYDNewBag";
+	case ePlayerYDYearBag:
+		return "ePlayerYDYearBag";
+	case ePlayerYDLuxuryBag:
+		return "ePlayerYDLuxuryBag";
+	case ePlayerYDGrowBag:
+		return "ePlayerYDGrowBag";
+	case ePlayerYDHorseBag:
+		return "ePlayerYDHorseBag";
+	case ePlayerOnLineTime:
+		return "ePlayerOnLineTime";
+	case ePlayerGetInvite:
+		return "ePlayerGetInvite";
+	case ePlayerVIPGetLevelAward:
+		return "ePlayerVIPGetLevelAward";
+	case ePlayerMallDiscountPos1:
+		return "ePlayerMallDiscountPos1";
+	case ePlayerMallDiscountPos2:
+		return "ePlayerMallDiscountPos2";
+	case ePlayerMallDiscountPos3:
+		return "ePlayerMallDiscountPos3";
+	case ePlayerMallDiscountRecharge:
+		return "ePlayerMallDiscountRecharge";
+	case ePlayerMallDiscountConsume:
+		return "ePlayerMallDiscountConsume";
+	case ePlayerMallDayLimitFresh:
+		return "ePlayerMallDayLimitFresh";
+	case ePlayerSign:
+		return "ePlayerSign";
+	case ePlayerLoginPkg:
+		return "ePlayerLoginPkg";
+	case ePlayerLeaveLHB:
+		return "ePlayerLeaveLHB";
+	case ePlayerLHBSkill1:
+		return "ePlayerLHBSkill1";
+	case ePlayerLHBSkill2:
+		return "ePlayerLHBSkill2";
+	case ePlayerLHBSkill3:
+		return "ePlayerLHBSkill3";
+	case ePlayerLHBLoginTime:
+		return "ePlayerLHBLoginTime";
+	case ePlayerDujieFailTimes:
+		return "ePlayerDujieFailTimes";
+	case ePlayerDujieCount:
+		return "ePlayerDujieCount";
+	case ePlayerVarMonthCardEndTime:
+		return "ePlayerVarMonthCardEndTime";
+	case ePlayerVarMonthCardGetTime:
+		return "ePlayerVarMonthCardGetTime";
+	case ePlayerVarMonthCardOverNotice:
+		return "ePlayerVarMonthCardOverNotice";
+	case ePlayerVarLoginDays:
+		return "ePlayerVarLoginDays";
+	case ePlayerVarSecondRechrgeStatus:
+		return "ePlayerVarSecondRechrgeStatus";
+	case ePlayerVarSecondRechargeValue:
+		return "ePlayerVarSecondRechargeValue";
+	case ePlayerVarCuiTiCount:
+		return "ePlayerVarCuiTiCount";
+	case ePlayerVarZhanQi:
+		return "ePlayerVarZhanQi";
+	case ePlayerVarRechargeToday:
+		return "ePlayerVarRechargeToday";
+	case ePlayerVarGetRechargeAward:
+		return "ePlayerVarGetRechargeAward";
+	case ePlayerVarShengLingBuyLife:
+		return "ePlayerVarShengLingBuyLife";
+	case ePlayerVarShengLingBuyEnter:
+		return "ePlayerVarShengLingBuyEnter";
+	case ePlayerVarShengLingUseEnter:
+		return "ePlayerVarShengLingUseEnter";
+	case ePlayerVarUseControlDice:
+		return "ePlayerVarUseControlDice";
+	case ePlayerVarBuyControlDice:
+		return "ePlayerVarBuyControlDice";
+	case ePlayerVarUseTurnDice:
+		return "ePlayerVarUseTurnDice";
+	case ePlayerVarBuyTurnDice:
+		return "ePlayerVarBuyTurnDice";
+	case ePlayerVarMotuScore:
+		return "ePlayerVarMotuScore";
+	case ePlayerVarMotuStep:
+		return "ePlayerVarMotuStep";
+	case ePlayerVarMotuPrizeState:
+		return "ePlayerVarMotuPrizeState";
+	case ePlayerVarPlayerLevel:
+		return "ePlayerVarPlayerLevel";
+	case ePlayerVarPlayerGridIndex:
+		return "ePlayerVarPlayerGridIndex";
+	case ePlayerVarPlayerPreGridIndex:
+		return "ePlayerVarPlayerPreGridIndex";
+	case ePlayerVarPlayerPreLevel:
+		return "ePlayerVarPlayerPreLevel";
+	case ePlayerVarPlayerDir:
+		return "ePlayerVarPlayerDir";
+	case ePlayerVarPlayerBuyEnterTimes:
+		return "ePlayerVarPlayerBuyEnterTimes";
+	case ePlayerVarPlayerBuyTurnDiceTimes:
+		return "ePlayerVarPlayerBuyTurnDiceTimes";
+	case ePlayerVarPlayerBuyControlDiceTimes:
+		return "ePlayerVarPlayerBuyControlDiceTimes";
+	case ePlayerVarPlayerBuyLifeTimes:
+		return "ePlayerVarPlayerBuyLifeTimes";
+	case ePlayerVarShengLingUseLife:
+		return "ePlayerVarShengLingUseLife";
+	case ePlayerVarControlDiceSended:
+		return "ePlayerVarControlDiceSended";
+	case ePlayerVarCheckContinue:
+		return "ePlayerVarCheckContinue";
+	case ePlayerVarPlayDiceEffect:
+		return "ePlayerVarPlayDiceEffect";
+	case ePlayerVarFenbaoyan:
+		return "ePlayerVarFenbaoyan";
+	case ePlayerVarFirstEnterShengLing:
+		return "ePlayerVarFirstEnterShengLing";
+	case ePlayerZeroDay:
+		return "ePlayerZeroDay";
+	case ePlayerTHKillNum:
+		return "ePlayerTHKillNum";
+	case ePlayerTHCond:
+		return "ePlayerTHCond";
+	case ePlayerTGSL:
+		return "ePlayerTGSL";
+	case ePlayerBJGX:
+		return "ePlayerBJGX";
+	case ePlayerTLHZ:
+		return "ePlayerTLHZ";
+	case ePlayerShushanweiwei:
+		return "ePlayerShushanweiwei";
+	case ePlayerShushanweixin:
+		return "ePlayerShushanweixin";
+	case ePlayerShushanweibo:
+		return "ePlayerShushanweibo";
+	case ePlayerVarDayRechargeGame:
+		return "ePlayerVarDayRechargeGame";
+	case ePlayerVarShushanFoundInfo:
+		return "ePlayerVarShushanFoundInfo";
+	case ePlayerVarShushanFoundLoginDays:
+		return "ePlayerVarShushanFoundLoginDays";
+	case ePlayerCircleTaskStar:
+		return "ePlayerCircleTaskStar";
+	case ePlayerCircleTaskNum:
+		return "ePlayerCircleTaskNum";
+	case ePlayerVarChongZhi:
+		return "ePlayerVarChongZhi";
+	case ePlayerTaskMarket:
+		return "ePlayerTaskMarket";
+	case ePlayerlixianDgnBuyTimes:
+		return "ePlayerlixianDgnBuyTimes";
+	case ePlayerlixianDgnBuyTimesToday:
+		return "ePlayerlixianDgnBuyTimesToday";
+	case ePlayerlixianDgnPassToday:
+		return "ePlayerlixianDgnPassToday";
+	case ePlayerWeiboNum:
+		return "ePlayerWeiboNum";
+	case ePlayerWeixinNum:
+		return "ePlayerWeixinNum";
+	case ePlayerGEMEntryNum:
+		return "ePlayerGEMEntryNum";
+	case ePlayerGEMMissionStatus:
+		return "ePlayerGEMMissionStatus";
+	case ePlayerGEMBuyEntryNum:
+		return "ePlayerGEMBuyEntryNum";
+	case ePlayerQQAlarm:
+		return "ePlayerQQAlarm";
+	case ePlayerDrawCount:
+		return "ePlayerDrawCount";
+	case ePlayerMoneyTreeCount:
+		return "ePlayerMoneyTreeCount";
+	case ePlayerRegisterSevenDaysA:
+		return "ePlayerRegisterSevenDaysA";
+	case ePlayerRegisterSevenDaysB:
+		return "ePlayerRegisterSevenDaysB";
+	case ePlayerRegisterSevenDaysC:
+		return "ePlayerRegisterSevenDaysC";
+	case ePlayerRegisterSevenDaysD:
+		return "ePlayerRegisterSevenDaysD";
+	case ePlayerRegisterSevenDaysE:
+		return "ePlayerRegisterSevenDaysE";
+	case ePlayerRegisterSevenDaysF:
+		return "ePlayerRegisterSevenDaysF";
+	case ePlayerRegisterSevenDaysG:
+		return "ePlayerRegisterSevenDaysG";
+	case ePlayerCurDayBuyMark:
+		return "ePlayerCurDayBuyMark";
+	case ePlayerFighterBuyMark:
+		return "ePlayerFighterBuyMark";
+	case ePlayerMallDiscountPos1Mark:
+		return "ePlayerMallDiscountPos1Mark";
+	case ePlayerMallDiscountPos2Mark:
+		return "ePlayerMallDiscountPos2Mark";
+	case ePlayerMallDiscountPos3Mark:
+		return "ePlayerMallDiscountPos3Mark";
+	case ePlayerMallDiscountPos1Recharge:
+		return "ePlayerMallDiscountPos1Recharge";
+	case ePlayerMallDiscountPos2Recharge:
+		return "ePlayerMallDiscountPos2Recharge";
+	case ePlayerMallDiscountPos3Recharge:
+		return "ePlayerMallDiscountPos3Recharge";
+	case ePlayerMallDiscountPos1Consume:
+		return "ePlayerMallDiscountPos1Consume";
+	case ePlayerMallDiscountPos2Consume:
+		return "ePlayerMallDiscountPos2Consume";
+	case ePlayerMallDiscountPos3Consume:
+		return "ePlayerMallDiscountPos3Consume";
+	case ePlayerVarMax:
+		return "ePlayerVarMax";
+	default:
+		return NULL;
+	}
+}
+
+bool EnumStrToVal(const char* pszEnumStr, EPlayerVar& e)
+{
+	if(pszEnumStr == NULL)
+	{
+		LOG_CRI << "pszEnumStr is NULL!";
+		return false;
+	}
+	static map<string, EPlayerVar> mapStr2Val;
+	if(mapStr2Val.empty())
+	{
+		mapStr2Val.insert(make_pair("ePlayerVarNone", ePlayerVarNone));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaWirship", ePlayerVarArenaWirship));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallengeFree", ePlayerVarArenaChallengeFree));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallengeFlush", ePlayerVarArenaChallengeFlush));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallenge0", ePlayerVarArenaChallenge0));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallenge12", ePlayerVarArenaChallenge12));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallenge18", ePlayerVarArenaChallenge18));
+		mapStr2Val.insert(make_pair("ePlayerVarSendMail", ePlayerVarSendMail));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyArenaChallengeTimes", ePlayerVarBuyArenaChallengeTimes));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyArenaChallengeTimesOneDay", ePlayerVarBuyArenaChallengeTimesOneDay));
+		mapStr2Val.insert(make_pair("ePlayerVarLadderUpdate", ePlayerVarLadderUpdate));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildDonate", ePlayerVarGuildDonate));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildWorship", ePlayerVarGuildWorship));
+		mapStr2Val.insert(make_pair("ePlayerVarLadderChallenge", ePlayerVarLadderChallenge));
+		mapStr2Val.insert(make_pair("ePlayerVarChallegeAward", ePlayerVarChallegeAward));
+		mapStr2Val.insert(make_pair("ePlayerVarAdoreCount", ePlayerVarAdoreCount));
+		mapStr2Val.insert(make_pair("ePlayerVarTripodShanfeng", ePlayerVarTripodShanfeng));
+		mapStr2Val.insert(make_pair("ePlayerVarTripodHelp", ePlayerVarTripodHelp));
+		mapStr2Val.insert(make_pair("ePlayerVarArenaChallengeFreeFlush", ePlayerVarArenaChallengeFreeFlush));
+		mapStr2Val.insert(make_pair("ePlayerNoticeUpdateMark", ePlayerNoticeUpdateMark));
+		mapStr2Val.insert(make_pair("ePlayerSysDialogMark", ePlayerSysDialogMark));
+		mapStr2Val.insert(make_pair("ePlayerQQCoinLevel", ePlayerQQCoinLevel));
+		mapStr2Val.insert(make_pair("ePlayerAnswer", ePlayerAnswer));
+		mapStr2Val.insert(make_pair("ePlayerAnswerScoreAndTime", ePlayerAnswerScoreAndTime));
+		mapStr2Val.insert(make_pair("ePlayerTeamPos1Cache", ePlayerTeamPos1Cache));
+		mapStr2Val.insert(make_pair("ePlayerTeamPos2Cache", ePlayerTeamPos2Cache));
+		mapStr2Val.insert(make_pair("ePlayerTeamPos3Cache", ePlayerTeamPos3Cache));
+		mapStr2Val.insert(make_pair("ePlayerVarDayRechargeCenter", ePlayerVarDayRechargeCenter));
+		mapStr2Val.insert(make_pair("ePlayerVarDragonBall_TodayCount", ePlayerVarDragonBall_TodayCount));
+		mapStr2Val.insert(make_pair("ePlayerVarDragonBall_AllCount", ePlayerVarDragonBall_AllCount));
+		mapStr2Val.insert(make_pair("ePlayerShipRobTimes", ePlayerShipRobTimes));
+		mapStr2Val.insert(make_pair("ePlayerShipDefenseTimes", ePlayerShipDefenseTimes));
+		mapStr2Val.insert(make_pair("ePlayerShipOpenTimes", ePlayerShipOpenTimes));
+		mapStr2Val.insert(make_pair("ePlayerShipReFluseTimes", ePlayerShipReFluseTimes));
+		mapStr2Val.insert(make_pair("ePlayerBuyOpenShipTimesToday", ePlayerBuyOpenShipTimesToday));
+		mapStr2Val.insert(make_pair("ePlayerBuyRoBShipTimesToday", ePlayerBuyRoBShipTimesToday));
+		mapStr2Val.insert(make_pair("ePlayerBuyReflushShipTimesToday", ePlayerBuyReflushShipTimesToday));
+		mapStr2Val.insert(make_pair("ePlayerFreezShipTimer", ePlayerFreezShipTimer));
+		mapStr2Val.insert(make_pair("ePlayerInvites", ePlayerInvites));
+		mapStr2Val.insert(make_pair("ePlayerVarXiheHelpCount", ePlayerVarXiheHelpCount));
+		mapStr2Val.insert(make_pair("ePlayerVarFruit", ePlayerVarFruit));
+		mapStr2Val.insert(make_pair("ePlayerVarDayPackage", ePlayerVarDayPackage));
+		mapStr2Val.insert(make_pair("ePlayerVarMonsterPackage", ePlayerVarMonsterPackage));
+		mapStr2Val.insert(make_pair("ePlayerVarTotalScore", ePlayerVarTotalScore));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyLadderTimesToday", ePlayerVarBuyLadderTimesToday));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildExchangedItemToday", ePlayerVarGuildExchangedItemToday));
+		mapStr2Val.insert(make_pair("ePlayerVarSevenConsumeGold", ePlayerVarSevenConsumeGold));
+		mapStr2Val.insert(make_pair("ePlayerVarSevenConsumeAwardInfo", ePlayerVarSevenConsumeAwardInfo));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildWorshipTypeBegin", ePlayerVarGuildWorshipTypeBegin));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildWorshipType2", ePlayerVarGuildWorshipType2));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildWorshipType3", ePlayerVarGuildWorshipType3));
+		mapStr2Val.insert(make_pair("ePlayerVarGuildWorshipTypeEnd", ePlayerVarGuildWorshipTypeEnd));
+		mapStr2Val.insert(make_pair("ePlayerMinLadderRank", ePlayerMinLadderRank));
+		mapStr2Val.insert(make_pair("ePlayerQQCoinExchangeCount", ePlayerQQCoinExchangeCount));
+		mapStr2Val.insert(make_pair("ePlayerQQCoinExchangeValue", ePlayerQQCoinExchangeValue));
+		mapStr2Val.insert(make_pair("ePlayerVarRecharge", ePlayerVarRecharge));
+		mapStr2Val.insert(make_pair("ePlayerVarConsume", ePlayerVarConsume));
+		mapStr2Val.insert(make_pair("ePlayerVarFirstRechrgeStatus", ePlayerVarFirstRechrgeStatus));
+		mapStr2Val.insert(make_pair("ePlayerVarDayEvent", ePlayerVarDayEvent));
+		mapStr2Val.insert(make_pair("ePlayerFlushGroupTask", ePlayerFlushGroupTask));
+		mapStr2Val.insert(make_pair("ePlayerFlushYaMenTask", ePlayerFlushYaMenTask));
+		mapStr2Val.insert(make_pair("ePlayerFinishGroupTask", ePlayerFinishGroupTask));
+		mapStr2Val.insert(make_pair("ePlayerFinishYaMenTask", ePlayerFinishYaMenTask));
+		mapStr2Val.insert(make_pair("ePlayerGetGroupPExp", ePlayerGetGroupPExp));
+		mapStr2Val.insert(make_pair("ePlayerActivity", ePlayerActivity));
+		mapStr2Val.insert(make_pair("ePlayerActivityTask", ePlayerActivityTask));
+		mapStr2Val.insert(make_pair("ePlayerActivityAward", ePlayerActivityAward));
+		mapStr2Val.insert(make_pair("ePlayerVIPEndTime", ePlayerVIPEndTime));
+		mapStr2Val.insert(make_pair("ePlayerVIPGrowthValue", ePlayerVIPGrowthValue));
+		mapStr2Val.insert(make_pair("ePlayerVIPType", ePlayerVIPType));
+		mapStr2Val.insert(make_pair("ePlayerVIPDayTime", ePlayerVIPDayTime));
+		mapStr2Val.insert(make_pair("ePlayerVIPGetDayPack", ePlayerVIPGetDayPack));
+		mapStr2Val.insert(make_pair("ePlayerVIPUsedGold", ePlayerVIPUsedGold));
+		mapStr2Val.insert(make_pair("ePlayerVarIndulgeTime", ePlayerVarIndulgeTime));
+		mapStr2Val.insert(make_pair("ePlayerVarSittingTime", ePlayerVarSittingTime));
+		mapStr2Val.insert(make_pair("ePlayerVarTaskMark", ePlayerVarTaskMark));
+		mapStr2Val.insert(make_pair("ePlayerVarMaxAction", ePlayerVarMaxAction));
+		mapStr2Val.insert(make_pair("ePlayerVarActionRegain1", ePlayerVarActionRegain1));
+		mapStr2Val.insert(make_pair("ePlayerVarActionRegain2", ePlayerVarActionRegain2));
+		mapStr2Val.insert(make_pair("ePlayerVarActionAdd", ePlayerVarActionAdd));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyActionCnt", ePlayerVarBuyActionCnt));
+		mapStr2Val.insert(make_pair("ePlayerVarActionBuffer", ePlayerVarActionBuffer));
+		mapStr2Val.insert(make_pair("ePlayerGetYaMenPExp", ePlayerGetYaMenPExp));
+		mapStr2Val.insert(make_pair("ePlayerBuyGroupTask", ePlayerBuyGroupTask));
+		mapStr2Val.insert(make_pair("ePlayerBuyYaMenTask", ePlayerBuyYaMenTask));
+		mapStr2Val.insert(make_pair("eDemonTowerAtkMonsterCd", eDemonTowerAtkMonsterCd));
+		mapStr2Val.insert(make_pair("eTeamDgnAward", eTeamDgnAward));
+		mapStr2Val.insert(make_pair("ePlayerYDDayBag", ePlayerYDDayBag));
+		mapStr2Val.insert(make_pair("ePlayerYDNewBag", ePlayerYDNewBag));
+		mapStr2Val.insert(make_pair("ePlayerYDYearBag", ePlayerYDYearBag));
+		mapStr2Val.insert(make_pair("ePlayerYDLuxuryBag", ePlayerYDLuxuryBag));
+		mapStr2Val.insert(make_pair("ePlayerYDGrowBag", ePlayerYDGrowBag));
+		mapStr2Val.insert(make_pair("ePlayerYDHorseBag", ePlayerYDHorseBag));
+		mapStr2Val.insert(make_pair("ePlayerOnLineTime", ePlayerOnLineTime));
+		mapStr2Val.insert(make_pair("ePlayerGetInvite", ePlayerGetInvite));
+		mapStr2Val.insert(make_pair("ePlayerVIPGetLevelAward", ePlayerVIPGetLevelAward));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos1", ePlayerMallDiscountPos1));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos2", ePlayerMallDiscountPos2));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos3", ePlayerMallDiscountPos3));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountRecharge", ePlayerMallDiscountRecharge));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountConsume", ePlayerMallDiscountConsume));
+		mapStr2Val.insert(make_pair("ePlayerMallDayLimitFresh", ePlayerMallDayLimitFresh));
+		mapStr2Val.insert(make_pair("ePlayerSign", ePlayerSign));
+		mapStr2Val.insert(make_pair("ePlayerLoginPkg", ePlayerLoginPkg));
+		mapStr2Val.insert(make_pair("ePlayerLeaveLHB", ePlayerLeaveLHB));
+		mapStr2Val.insert(make_pair("ePlayerLHBSkill1", ePlayerLHBSkill1));
+		mapStr2Val.insert(make_pair("ePlayerLHBSkill2", ePlayerLHBSkill2));
+		mapStr2Val.insert(make_pair("ePlayerLHBSkill3", ePlayerLHBSkill3));
+		mapStr2Val.insert(make_pair("ePlayerLHBLoginTime", ePlayerLHBLoginTime));
+		mapStr2Val.insert(make_pair("ePlayerDujieFailTimes", ePlayerDujieFailTimes));
+		mapStr2Val.insert(make_pair("ePlayerDujieCount", ePlayerDujieCount));
+		mapStr2Val.insert(make_pair("ePlayerVarMonthCardEndTime", ePlayerVarMonthCardEndTime));
+		mapStr2Val.insert(make_pair("ePlayerVarMonthCardGetTime", ePlayerVarMonthCardGetTime));
+		mapStr2Val.insert(make_pair("ePlayerVarMonthCardOverNotice", ePlayerVarMonthCardOverNotice));
+		mapStr2Val.insert(make_pair("ePlayerVarLoginDays", ePlayerVarLoginDays));
+		mapStr2Val.insert(make_pair("ePlayerVarSecondRechrgeStatus", ePlayerVarSecondRechrgeStatus));
+		mapStr2Val.insert(make_pair("ePlayerVarSecondRechargeValue", ePlayerVarSecondRechargeValue));
+		mapStr2Val.insert(make_pair("ePlayerVarCuiTiCount", ePlayerVarCuiTiCount));
+		mapStr2Val.insert(make_pair("ePlayerVarZhanQi", ePlayerVarZhanQi));
+		mapStr2Val.insert(make_pair("ePlayerVarRechargeToday", ePlayerVarRechargeToday));
+		mapStr2Val.insert(make_pair("ePlayerVarGetRechargeAward", ePlayerVarGetRechargeAward));
+		mapStr2Val.insert(make_pair("ePlayerVarShengLingBuyLife", ePlayerVarShengLingBuyLife));
+		mapStr2Val.insert(make_pair("ePlayerVarShengLingBuyEnter", ePlayerVarShengLingBuyEnter));
+		mapStr2Val.insert(make_pair("ePlayerVarShengLingUseEnter", ePlayerVarShengLingUseEnter));
+		mapStr2Val.insert(make_pair("ePlayerVarUseControlDice", ePlayerVarUseControlDice));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyControlDice", ePlayerVarBuyControlDice));
+		mapStr2Val.insert(make_pair("ePlayerVarUseTurnDice", ePlayerVarUseTurnDice));
+		mapStr2Val.insert(make_pair("ePlayerVarBuyTurnDice", ePlayerVarBuyTurnDice));
+		mapStr2Val.insert(make_pair("ePlayerVarMotuScore", ePlayerVarMotuScore));
+		mapStr2Val.insert(make_pair("ePlayerVarMotuStep", ePlayerVarMotuStep));
+		mapStr2Val.insert(make_pair("ePlayerVarMotuPrizeState", ePlayerVarMotuPrizeState));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerLevel", ePlayerVarPlayerLevel));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerGridIndex", ePlayerVarPlayerGridIndex));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerPreGridIndex", ePlayerVarPlayerPreGridIndex));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerPreLevel", ePlayerVarPlayerPreLevel));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerDir", ePlayerVarPlayerDir));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerBuyEnterTimes", ePlayerVarPlayerBuyEnterTimes));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerBuyTurnDiceTimes", ePlayerVarPlayerBuyTurnDiceTimes));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerBuyControlDiceTimes", ePlayerVarPlayerBuyControlDiceTimes));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayerBuyLifeTimes", ePlayerVarPlayerBuyLifeTimes));
+		mapStr2Val.insert(make_pair("ePlayerVarShengLingUseLife", ePlayerVarShengLingUseLife));
+		mapStr2Val.insert(make_pair("ePlayerVarControlDiceSended", ePlayerVarControlDiceSended));
+		mapStr2Val.insert(make_pair("ePlayerVarCheckContinue", ePlayerVarCheckContinue));
+		mapStr2Val.insert(make_pair("ePlayerVarPlayDiceEffect", ePlayerVarPlayDiceEffect));
+		mapStr2Val.insert(make_pair("ePlayerVarFenbaoyan", ePlayerVarFenbaoyan));
+		mapStr2Val.insert(make_pair("ePlayerVarFirstEnterShengLing", ePlayerVarFirstEnterShengLing));
+		mapStr2Val.insert(make_pair("ePlayerZeroDay", ePlayerZeroDay));
+		mapStr2Val.insert(make_pair("ePlayerTHKillNum", ePlayerTHKillNum));
+		mapStr2Val.insert(make_pair("ePlayerTHCond", ePlayerTHCond));
+		mapStr2Val.insert(make_pair("ePlayerTGSL", ePlayerTGSL));
+		mapStr2Val.insert(make_pair("ePlayerBJGX", ePlayerBJGX));
+		mapStr2Val.insert(make_pair("ePlayerTLHZ", ePlayerTLHZ));
+		mapStr2Val.insert(make_pair("ePlayerShushanweiwei", ePlayerShushanweiwei));
+		mapStr2Val.insert(make_pair("ePlayerShushanweixin", ePlayerShushanweixin));
+		mapStr2Val.insert(make_pair("ePlayerShushanweibo", ePlayerShushanweibo));
+		mapStr2Val.insert(make_pair("ePlayerVarDayRechargeGame", ePlayerVarDayRechargeGame));
+		mapStr2Val.insert(make_pair("ePlayerVarShushanFoundInfo", ePlayerVarShushanFoundInfo));
+		mapStr2Val.insert(make_pair("ePlayerVarShushanFoundLoginDays", ePlayerVarShushanFoundLoginDays));
+		mapStr2Val.insert(make_pair("ePlayerCircleTaskStar", ePlayerCircleTaskStar));
+		mapStr2Val.insert(make_pair("ePlayerCircleTaskNum", ePlayerCircleTaskNum));
+		mapStr2Val.insert(make_pair("ePlayerVarChongZhi", ePlayerVarChongZhi));
+		mapStr2Val.insert(make_pair("ePlayerTaskMarket", ePlayerTaskMarket));
+		mapStr2Val.insert(make_pair("ePlayerlixianDgnBuyTimes", ePlayerlixianDgnBuyTimes));
+		mapStr2Val.insert(make_pair("ePlayerlixianDgnBuyTimesToday", ePlayerlixianDgnBuyTimesToday));
+		mapStr2Val.insert(make_pair("ePlayerlixianDgnPassToday", ePlayerlixianDgnPassToday));
+		mapStr2Val.insert(make_pair("ePlayerWeiboNum", ePlayerWeiboNum));
+		mapStr2Val.insert(make_pair("ePlayerWeixinNum", ePlayerWeixinNum));
+		mapStr2Val.insert(make_pair("ePlayerGEMEntryNum", ePlayerGEMEntryNum));
+		mapStr2Val.insert(make_pair("ePlayerGEMMissionStatus", ePlayerGEMMissionStatus));
+		mapStr2Val.insert(make_pair("ePlayerGEMBuyEntryNum", ePlayerGEMBuyEntryNum));
+		mapStr2Val.insert(make_pair("ePlayerQQAlarm", ePlayerQQAlarm));
+		mapStr2Val.insert(make_pair("ePlayerDrawCount", ePlayerDrawCount));
+		mapStr2Val.insert(make_pair("ePlayerMoneyTreeCount", ePlayerMoneyTreeCount));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysA", ePlayerRegisterSevenDaysA));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysB", ePlayerRegisterSevenDaysB));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysC", ePlayerRegisterSevenDaysC));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysD", ePlayerRegisterSevenDaysD));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysE", ePlayerRegisterSevenDaysE));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysF", ePlayerRegisterSevenDaysF));
+		mapStr2Val.insert(make_pair("ePlayerRegisterSevenDaysG", ePlayerRegisterSevenDaysG));
+		mapStr2Val.insert(make_pair("ePlayerCurDayBuyMark", ePlayerCurDayBuyMark));
+		mapStr2Val.insert(make_pair("ePlayerFighterBuyMark", ePlayerFighterBuyMark));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos1Mark", ePlayerMallDiscountPos1Mark));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos2Mark", ePlayerMallDiscountPos2Mark));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos3Mark", ePlayerMallDiscountPos3Mark));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos1Recharge", ePlayerMallDiscountPos1Recharge));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos2Recharge", ePlayerMallDiscountPos2Recharge));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos3Recharge", ePlayerMallDiscountPos3Recharge));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos1Consume", ePlayerMallDiscountPos1Consume));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos2Consume", ePlayerMallDiscountPos2Consume));
+		mapStr2Val.insert(make_pair("ePlayerMallDiscountPos3Consume", ePlayerMallDiscountPos3Consume));
+		mapStr2Val.insert(make_pair("ePlayerVarMax", ePlayerVarMax));
+	}
+	auto it = mapStr2Val.find(pszEnumStr);
+	if(it == mapStr2Val.end())
+	{
+		LOG_CRI << "Unrecognized enum string: " << pszEnumStr;
+		return false;
+	}
+	e = it->second;
+	return true;
+}
+
+#endif //PROT_USE_XML
+
+#ifdef PROT_USE_XML
+
+const char* EnumValToStr(ESystemVar e)
+{
+	switch(e)
+	{
+	case eSystemVarNone:
+		return "eSystemVarNone";
+	case eSystemVarArena:
+		return "eSystemVarArena";
+	case eSystemVarGuildStatue:
+		return "eSystemVarGuildStatue";
+	case eSystemVarGuildBattleAward:
+		return "eSystemVarGuildBattleAward";
+	case eSystemVarDemonTowerMaxTop:
+		return "eSystemVarDemonTowerMaxTop";
+	case eSystemVarQQCoinConsumeValue:
+		return "eSystemVarQQCoinConsumeValue";
+	case eSystemVarQQCoinMaxValue:
+		return "eSystemVarQQCoinMaxValue";
+	case eSystemVarQQCoinActTime:
+		return "eSystemVarQQCoinActTime";
+	case eSystemVarAnswer:
+		return "eSystemVarAnswer";
+	case eSystemVarAnswerTopicID:
+		return "eSystemVarAnswerTopicID";
+	case eSystemVarZeroTime:
+		return "eSystemVarZeroTime";
+	case eSystemVarOpenServerActivity:
+		return "eSystemVarOpenServerActivity";
+	case eSystemVar_WorldBossActBeginTime:
+		return "eSystemVar_WorldBossActBeginTime";
+	case eSystemVar_WorldBossActEndTime:
+		return "eSystemVar_WorldBossActEndTime";
+	case eSystemVar_LangHuanBlessActBeginTime:
+		return "eSystemVar_LangHuanBlessActBeginTime";
+	case eSystemVar_LangHuanBlessActEndTime:
+		return "eSystemVar_LangHuanBlessActEndTime";
+	case eSystemVar_GodChest:
+		return "eSystemVar_GodChest";
+	case eSystemVar_DragonBallActPeriod:
+		return "eSystemVar_DragonBallActPeriod";
+	case eSystemVar_SevenConsumeActBeginTime:
+		return "eSystemVar_SevenConsumeActBeginTime";
+	case eSystemVar_SevenConsumeActEndTime:
+		return "eSystemVar_SevenConsumeActEndTime";
+	case eSystemVar_DragonBallActBeginTime:
+		return "eSystemVar_DragonBallActBeginTime";
+	case eSystemVar_DragonBallActEndTime:
+		return "eSystemVar_DragonBallActEndTime";
+	case eSystemVar_NewGuildBattleGate1HP:
+		return "eSystemVar_NewGuildBattleGate1HP";
+	case eSystemVar_NewGuildBattleGate2HP:
+		return "eSystemVar_NewGuildBattleGate2HP";
+	case eSystemVar_NewGuildBattleGate3HP:
+		return "eSystemVar_NewGuildBattleGate3HP";
+	case eSystemVar_NewGuildBattleGate1Attack:
+		return "eSystemVar_NewGuildBattleGate1Attack";
+	case eSystemVar_NewGuildBattleGate2Attack:
+		return "eSystemVar_NewGuildBattleGate2Attack";
+	case eSystemVar_NewGuildBattleGate3Attack:
+		return "eSystemVar_NewGuildBattleGate3Attack";
+	case eSystemVarMax:
+		return "eSystemVarMax";
+	default:
+		return NULL;
+	}
+}
+
+bool EnumStrToVal(const char* pszEnumStr, ESystemVar& e)
+{
+	if(pszEnumStr == NULL)
+	{
+		LOG_CRI << "pszEnumStr is NULL!";
+		return false;
+	}
+	static map<string, ESystemVar> mapStr2Val;
+	if(mapStr2Val.empty())
+	{
+		mapStr2Val.insert(make_pair("eSystemVarNone", eSystemVarNone));
+		mapStr2Val.insert(make_pair("eSystemVarArena", eSystemVarArena));
+		mapStr2Val.insert(make_pair("eSystemVarGuildStatue", eSystemVarGuildStatue));
+		mapStr2Val.insert(make_pair("eSystemVarGuildBattleAward", eSystemVarGuildBattleAward));
+		mapStr2Val.insert(make_pair("eSystemVarDemonTowerMaxTop", eSystemVarDemonTowerMaxTop));
+		mapStr2Val.insert(make_pair("eSystemVarQQCoinConsumeValue", eSystemVarQQCoinConsumeValue));
+		mapStr2Val.insert(make_pair("eSystemVarQQCoinMaxValue", eSystemVarQQCoinMaxValue));
+		mapStr2Val.insert(make_pair("eSystemVarQQCoinActTime", eSystemVarQQCoinActTime));
+		mapStr2Val.insert(make_pair("eSystemVarAnswer", eSystemVarAnswer));
+		mapStr2Val.insert(make_pair("eSystemVarAnswerTopicID", eSystemVarAnswerTopicID));
+		mapStr2Val.insert(make_pair("eSystemVarZeroTime", eSystemVarZeroTime));
+		mapStr2Val.insert(make_pair("eSystemVarOpenServerActivity", eSystemVarOpenServerActivity));
+		mapStr2Val.insert(make_pair("eSystemVar_WorldBossActBeginTime", eSystemVar_WorldBossActBeginTime));
+		mapStr2Val.insert(make_pair("eSystemVar_WorldBossActEndTime", eSystemVar_WorldBossActEndTime));
+		mapStr2Val.insert(make_pair("eSystemVar_LangHuanBlessActBeginTime", eSystemVar_LangHuanBlessActBeginTime));
+		mapStr2Val.insert(make_pair("eSystemVar_LangHuanBlessActEndTime", eSystemVar_LangHuanBlessActEndTime));
+		mapStr2Val.insert(make_pair("eSystemVar_GodChest", eSystemVar_GodChest));
+		mapStr2Val.insert(make_pair("eSystemVar_DragonBallActPeriod", eSystemVar_DragonBallActPeriod));
+		mapStr2Val.insert(make_pair("eSystemVar_SevenConsumeActBeginTime", eSystemVar_SevenConsumeActBeginTime));
+		mapStr2Val.insert(make_pair("eSystemVar_SevenConsumeActEndTime", eSystemVar_SevenConsumeActEndTime));
+		mapStr2Val.insert(make_pair("eSystemVar_DragonBallActBeginTime", eSystemVar_DragonBallActBeginTime));
+		mapStr2Val.insert(make_pair("eSystemVar_DragonBallActEndTime", eSystemVar_DragonBallActEndTime));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate1HP", eSystemVar_NewGuildBattleGate1HP));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate2HP", eSystemVar_NewGuildBattleGate2HP));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate3HP", eSystemVar_NewGuildBattleGate3HP));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate1Attack", eSystemVar_NewGuildBattleGate1Attack));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate2Attack", eSystemVar_NewGuildBattleGate2Attack));
+		mapStr2Val.insert(make_pair("eSystemVar_NewGuildBattleGate3Attack", eSystemVar_NewGuildBattleGate3Attack));
+		mapStr2Val.insert(make_pair("eSystemVarMax", eSystemVarMax));
+	}
+	auto it = mapStr2Val.find(pszEnumStr);
+	if(it == mapStr2Val.end())
+	{
+		LOG_CRI << "Unrecognized enum string: " << pszEnumStr;
+		return false;
+	}
+	e = it->second;
+	return true;
+}
+
+#endif //PROT_USE_XML
+
+} //namespace NVarDefine

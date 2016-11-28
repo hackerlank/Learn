@@ -1,0 +1,35 @@
+/************************************************************************
+//  工具自动生成的Flash客户端协议代码(接收函数参数事件类型)
+//  File Name:    REvt_MidnightNotify.as
+//  Purpose:      协议:成就相关协议, 函数:零点通知
+//  Copyright (c) 2010-2020 上海恺英网络科技有限公司, All rights reserved.
+*************************************************************************/
+
+package net.protocol.achievementProt
+{
+	import flash.events.Event;
+
+	/**
+	 * 函数MidnightNotify[零点通知]的接收事件
+	 */
+	public final class REvt_MidnightNotify extends Event
+	{
+		public static const DATA_RECEIVE:String = "AchievementProt_MidnightNotify";
+		public static const DATA_ERROR:String = "AchievementProt_MidnightNotify_Error";
+
+
+		public function REvt_MidnightNotify(type:String, bubbles:Boolean = false, cancelable:Boolean = false)
+		{
+			super(type, bubbles, cancelable);
+		}
+
+		/**
+		 * 转换为XML
+		 */
+		public function toXML():XML
+		{
+			var topXml:XML = <REvt_MidnightNotify/>;
+			return topXml;
+		}
+	}
+}
