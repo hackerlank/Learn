@@ -1,0 +1,95 @@
+1 LoginProt
+2 Login2CenterComm
+3 RoleEnterGameProt
+4 Game2DBComm
+5 MapProt
+6 Gate2CenterComm
+7 Gate2GameComm
+8 Gate2DBComm
+9 DBProt
+10 RoleInfoDefine 
+11 RoleEvent
+12 Game2CenterComm
+13 GameSvrBasic
+14 NpcProt
+15 TaskProt
+16 GuildProt
+17 PropInfo
+18 ItemProt
+19 MailProt
+20 FighterProt
+21 BattleGS
+22 Formation
+23 ChatProt
+24 FriendProt
+25 BossProt
+26 ArenaGS
+27 MallProt
+28 GlobalChatProt
+29 ServerCommon
+30
+31 Center2DBComm
+32~40
+42~49
+50 LogEvent 
+51 GroupTask
+52 YaMenTask
+53 Activity
+54 Title
+55 Sitting
+56 TeamGS
+57 Game2CenterTeam
+58 CompareBattlePoint
+59 DungeonProt
+60 GatherProt
+61 LogDataDefine
+62 VarDefine
+63 TripodProt
+64 DBData
+65 VIPProt
+66 ShushanBattleProt
+67 GameSvrComm
+68
+69 DayActProt
+70 DemonTower
+71 DemonTowerGS
+72 MiscProt
+73 Game2CenterDemonTower
+74 Horse
+75 AchievementProt
+76 GuildBattle
+77 Game2CenterGuildBattle
+78 CollectionProt
+79 LangHuanBlessProt
+80 RankProt
+81 Game2CenterRank
+82 ViewInfo 
+83 Sign
+84 Ship
+85 TreasureHuntProt
+86 GuardEMeiProt
+90 PHPProt(注：只用于和PHP通信) 
+91 CoinProt(货币协议：888礼券）
+92 LoginPkgProt
+93 ShushanweiweiProt
+94 MiscCenterProt(CenterServer 不好归类的小协议)
+95 AnswerProt
+96 GodMonsterProt
+97 ActivityIDProt
+98 ShengLingProt
+
+101 ExchangeProt
+121 LevelPrize
+125 DayTarget   7日目标
+130 BattleArray 破阵
+131 Beauty 美女
+132 FightFormation  新阵型协议
+133 BeautyLogGS  美女log
+134 InviteGS     邀请好友功能
+140 QQSpaceGiftProt   空间礼物
+199 WonderActivityProt
+200 YelloDiamondProt
+255 Example
+256 Event
+258 ProtoCommon
+259 Version
