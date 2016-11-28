@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Id="1" ItemId="148" Name="攻击强化丹（小）" Type="1" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="2" ItemId="149" Name="防御强化丹（小）" Type="1" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="3" ItemId="150" Name="身法强化丹（小）" Type="1" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="4" ItemId="154" Name="攻击强化丹（大）" Type="1" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="5" ItemId="155" Name="防御强化丹（大）" Type="1" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="6" ItemId="156" Name="身法强化丹（大）" Type="1" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="7" ItemId="10000" Name="玄门无形剑气" Type="1" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+	<Row Id="8" ItemId="10003" Name="兜率真敕" Type="1" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+	<Row Id="9" ItemId="148" Name="攻击强化丹（小）" Type="2" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="10" ItemId="149" Name="防御强化丹（小）" Type="2" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="11" ItemId="150" Name="身法强化丹（小）" Type="2" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="12" ItemId="154" Name="攻击强化丹（大）" Type="2" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="13" ItemId="155" Name="防御强化丹（大）" Type="2" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="14" ItemId="156" Name="身法强化丹（大）" Type="2" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="15" ItemId="10001" Name="地阙金章" Type="2" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+	<Row Id="16" ItemId="10004" Name="诸天挪移大法" Type="2" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+	<Row Id="17" ItemId="148" Name="攻击强化丹（小）" Type="3" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="18" ItemId="149" Name="防御强化丹（小）" Type="3" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="19" ItemId="150" Name="身法强化丹（小）" Type="3" MoneyType="29" MoneyPrice="10" StoreNum="999" />
+	<Row Id="20" ItemId="154" Name="攻击强化丹（大）" Type="3" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="21" ItemId="155" Name="防御强化丹（大）" Type="3" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="22" ItemId="156" Name="身法强化丹（大）" Type="3" MoneyType="29" MoneyPrice="40" StoreNum="999" />
+	<Row Id="23" ItemId="10002" Name="内景元宗" Type="3" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+	<Row Id="24" ItemId="10005" Name="五雷天心正法" Type="3" MoneyType="29" MoneyPrice="50" StoreNum="500" />
+</Table>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row type="32" typepara="1" moduleName="DUNGEON_GROUP" format="通关<a event="{0}"><u><font color='#32fb18'>单人副本</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="2" moduleName="dungeonLobby" format="通关<a event="{0}"><u><font color='#32fb18'>多人副本</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="3" moduleName="equipments|0" format="<a event="{0}"><u><font color='#32fb18'>强化装备</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="4" moduleName="equipments|1" format="对一件<a event="{0}"><u><font color='#32fb18'>装备</font></u></a>进行铸造1次({1}/{2})" />
+	<Row type="32" typepara="5" moduleName="EveryDay" format="参加一场击杀<a event="{0}"><u><font color='#32fb18'>世界BOSS</font></u></a>的战斗({1}/{2})" />
+	<Row type="32" typepara="6" moduleName="clan_list" format="加入或创建一个<a event="{0}"><u><font color='#32fb18'>帮派</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="7" moduleName="RECRUIT_HERO" format="<a event="{0}"><u><font color='#32fb18'>招募散仙</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="8" moduleName="DUNGEON_GROUP|0" format="进行<a event="{0}"><u><font color='#32fb18'>扫荡副本</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="9" moduleName="hero|1" format="升阶你的<a event="{0}"><u><font color='#32fb18'>散仙</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="10" moduleName="clan" format="捐献获得<a event="{0}"><u><font color='#32fb18'>公会贡献</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="11" moduleName="clan" format="学习<a event="{0}"><u><font color='#32fb18'>公会技能</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="12" moduleName="SKILL" format="<a event="{0}"><u><font color='#32fb18'>升级任意主角技能至</font></u></a>{3}级({1}/{2})" />
+	<Row type="32" typepara="13" moduleName="FAVORITE" format="<a event="{0}"><u><font color='#32fb18'>收藏游戏</font></u></a>到电脑上{3}次({1}/{2})" />
+	<Row type="32" typepara="14" moduleName="role" format="进行<a event="{0}"><u><font color='#32fb18'>装备解封</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="15" moduleName="SKILL" format="<a event="{0}"><u><font color='#32fb18'>获得技能</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="16" moduleName="trump" format="<a event="{0}"><u><font color='#32fb18'>激活法宝</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="17" moduleName="relation" format="<a event="{0}"><u><font color='#32fb18'>邀请好友</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="18" moduleName="PET_PANEL|0" format="<a event="{0}"><u><font color='#32fb18'>激活阵型</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="19" moduleName="HORSE|0" format="<a event="{0}"><u><font color='#32fb18'>激活并骑乘飞剑</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="20" moduleName="HORSE|0" format="<a event="{0}"><u><font color='#32fb18'>坐骑升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="21" moduleName="PET_PANEL|1" format="<a event="{0}"><u><font color='#32fb18'>阵灵激活</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="22" moduleName="PET_PANEL|1" format="<a event="{0}"><u><font color='#32fb18'>阵灵升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="23" moduleName="PET_PANEL|0" format="<a event="{0}"><u><font color='#32fb18'>散仙出战</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="24" moduleName="hero|1" format="<a event="{0}"><u><font color='#32fb18'>散仙淬体</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="25" moduleName="" format="<a event="{0}"><u><font color='#32fb18'>散仙法宝</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="26" moduleName="hero|2" format="<a event="{0}"><u><font color='#32fb18'>散仙技能</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="27" moduleName="trump" format="<a event="{0}"><u><font color='#32fb18'>法宝祭炼</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="28" moduleName="VITALITYPANEL" format="<a event="{0}"><u><font color='#32fb18'>当日活跃度达到</font></u></a>{3}({1}/{2})" />
+	<Row type="32" typepara="29" moduleName="masterTask" format="<a event="{0}"><u><font color='#32fb18'>完成师门任务</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="30" moduleName="companyTask" format="<a event="{0}"><u><font color='#32fb18'>完成衙门任务</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="31" moduleName="DUJIE" format="<a event="{0}"><u><font color='#32fb18'>成功渡劫</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="32" moduleName="homeSystem" format="<a event="{0}"><u><font color='#32fb18'>仙府祈火</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="33" moduleName="monsterCage" format="<a event="{0}"><u><font color='#32fb18'>兽魂升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="34" moduleName="hero|2" format="<a event="{0}"><u><font color='#32fb18'>散仙技能升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="35" moduleName="train" format="<a event="{0}"><u><font color='#32fb18'>历练</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="36" moduleName="ARENA_LADDER" format="<a event="{0}"><u><font color='#32fb18'>斗剑</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="37" moduleName="monsterCage" format="<a event="{0}"><u><font color='#32fb18'>锁妖塔挑战至</font></u></a>{3}层({1}/{2})" />
+	<Row type="32" typepara="38" moduleName="hero|0" format="<a event="{0}"><u><font color='#32fb18'>散仙升级到</font></u></a>{3}级({1}/{2})" />
+	<Row type="32" typepara="39" moduleName="hero|5" format="<a event="{0}"><u><font color='#32fb18'>激活散仙组合并培养</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="40" moduleName="SEARCHMAP" format="<a event="{0}"><u><font color='#32fb18'>成功完成寻宝</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="41" moduleName="BEAUTY_SELF" format="<a event="{0}"><u><font color='#32fb18'>结识仙女使其出战</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="42" moduleName="PROTECTEMEI_SELECTVIEW" format="<a event="{0}"><u><font color='#32fb18'>成功完成锁仙台</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="43" moduleName="hero|4" format="<a event="{0}"><u><font color='#32fb18'>激活散仙心法</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="44" moduleName="FORMATION_BLOW" format="<a event="{0}"><u><font color='#32fb18'>成功破去阵眼</font></u></a>{3}次({1}/{3})" />
+	<Row type="32" typepara="45" moduleName="SHIP" format="<a event="{0}"><u><font color='#32fb18'>开始行船</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="46" moduleName="hero|2" format="<a event="{0}"><u><font color='#32fb18'>散仙装备强化</font></u></a>总数到达{3}次({1}/{2})" />
+	<Row type="32" typepara="47" moduleName="trump" format="<a event="{0}"><u><font color='#32fb18'>法宝祭炼</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="48" moduleName="hero|1" format="<a event="{0}"><u><font color='#32fb18'>散仙渡劫</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="49" moduleName="equipments|0" format="<a event="{0}"><u><font color='#32fb18'>强化</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="50" moduleName="BEAUTY_LOTTERY" format="<a event="{0}"><u><font color='#32fb18'>游历</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="51" moduleName="hero|0" format="<a event="{0}"><u><font color='#32fb18'>散仙淬体</font></u></a>每一项都达到({1}/{2})" />
+	<Row type="32" typepara="52" moduleName="hero|3" format="<a event="{0}"><u><font color='#32fb18'>" />
+	<Row type="32" typepara="53" moduleName="PET_PANEL|1" format="<a event="{0}"><u><font color='#32fb18'>阵灵升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="54" moduleName="HORSE|0" format="<a event="{0}"><u><font color='#32fb18'>坐骑升级</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="55" moduleName="hero|5" format="<a event="{0}"><u><font color='#32fb18'>激活散仙组合</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="56" moduleName="PET_PANEL" format="<a event="{0}"><u><font color='#32fb18'>特定散仙上阵</font></u></a>{3}次({1}/{2})" />
+	<Row type="32" typepara="57" moduleName="moneyTree" format="使用<a event="{0}"><u><font color='#32fb18'>摇钱树</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="58" moduleName="BEAUTY_SELF" format="增加<a event="{0}"><u><font color='#32fb18'>亲密度</font></u></a>({1}/{2})" />
+	<Row type="32" typepara="59" moduleName="hero|4" format="进行<a event="{0}"><u><font color='#32fb18'>宝石镶嵌</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="60" moduleName="hero|4" format="进行<a event="{0}"><u><font color='#32fb18'>宝石合成</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="61" moduleName="MI_JING_VIEW" format="进行<a event="{0}"><u><font color='#32fb18'>秘境夺宝</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="62" moduleName="monsterCage" format="<a event="{0}"><u><font color='#32fb18'>兽魂破军升级</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="63" moduleName="DAFUWEN_REG_VIEW" format="<a event="{0}"><u><font color='#32fb18'>参加圣陵</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="64" moduleName="NEW_TRUMP" format="<a event="{0}"><u><font color='#32fb18'>装备任意被动法宝</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="65" moduleName="NEW_TRUMP|1" format="<a event="{0}"><u><font color='#32fb18'>强化任意被动法宝</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="66" moduleName="NEW_TRUMP|2" format="<a event="{0}"><u><font color='#32fb18'>洗炼任意被动法宝</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="67" moduleName="NEW_TRUMP|3" format="<a event="{0}"><u><font color='#32fb18'>分解任意被动法宝</font></u></a>1次({1}/{2})" />
+	<Row type="32" typepara="68" moduleName="citta" format="<a event="{0}"><u><font color='#32fb18'>佩戴任意一种天书</font></u></a>1次({1}/{2})" />
+	<Row type="1" typepara="1" moduleName="" format="击败<font color="#32fb18"><u>{0}</u></font>({1}/1)" />
+	<Row type="2" typepara="1" moduleName="VITALITYPANEL" format="提升到<font color="#32fb18"><u>{0}</u></font>级({1}/{2})" />
+	<Row type="4" typepara="1" moduleName="" format="收集<font color="#32fb18"><u>{0}</u></font>个({1}/{2})" />
+	<Row type="8" typepara="1" moduleName="" format="采集<font color="#32fb18"><u>{0}</u></font>{1}个({2}/{3})" />
+	<Row type="16" typepara="1" moduleName="" format="探索<font color= "#32fb18"><u>{0}</u></font>" />
+	<Row type="128" typepara="1" moduleName="" format="与<font color="#32fb18"><u>{0}</u></font>进行对话({1}/1)" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+	<Row type="0" typepara="0" moduleName="" format="" />
+</Table>

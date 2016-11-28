@@ -1,0 +1,57 @@
+﻿// ******************************************************************************************************/
+// 这个是工具自动生成的表代码，这个里面的任何更改在下次生成之后会变得无效，请注意！<UTF-8 With BOM>
+// 文件名：     SAchievementLevelCFG.h
+// Copyright(c) 2012-2100 上海恺英网络科技有限公司，All rights reserved.
+// ******************************************************************************************************/
+
+
+#ifndef _CACHIEVEMENTLEVELLOADER_H
+#define _CACHIEVEMENTLEVELLOADER_H
+
+#include <string>
+#include <vector>
+#include "Platform.h"
+
+using namespace std;
+
+//struct definition for the excel table
+struct SAchievementLevelCFG
+{
+	/**
+	成就等级
+	**/
+	UINT16	_ID;
+
+	/**
+	需要成就点
+	**/
+	UINT16	_Point;
+
+	/**
+	奖励类型
+	**/
+	UINT16	_AwardType;
+
+	/**
+	奖励参数
+	**/
+	UINT16	_AwardPara;
+
+	/**
+	累计属性奖励ID
+	**/
+	UINT16	_PropAward;
+}; // SAchievementLevelCFG define end
+
+//data loader for the excel table
+class CAchievementLevelLoader
+{
+public:
+	std::vector<SAchievementLevelCFG*> _vecData;
+
+	~CAchievementLevelLoader();
+	bool LoadData(const std::string& strPath);
+	void ClearData();
+};
+#endif
+

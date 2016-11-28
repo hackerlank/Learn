@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row wID="1" wMessageID="217" byPriority="1" byResponeType="0" wGroupID="4" wGroupType="1" byOfflineEnable="1" description="您有{0}封新邮件，离线保留，被覆盖" />
+	<Row wID="2" wMessageID="201" byPriority="1" byResponeType="0" wGroupID="2" wGroupType="1" byOfflineEnable="0" description="好友邀请，离线不保留，被覆盖" />
+	<Row wID="3" wMessageID="202" byPriority="2" byResponeType="0" wGroupID="3" wGroupType="1" byOfflineEnable="0" description="{0}发送的聊天信息，离线不保留，被覆盖" />
+	<Row wID="4" wMessageID="218" byPriority="2" byResponeType="0" wGroupID="0" wGroupType="0" byOfflineEnable="0" description="帮派邀请，离线不保留，不被覆盖" />
+	<Row wID="5" wMessageID="216" byPriority="3" byResponeType="0" wGroupID="0" wGroupType="0" byOfflineEnable="1" description="弹劾帮主，离线保留，不被覆盖" />
+	<Row wID="6" wMessageID="362" byPriority="2" byResponeType="0" wGroupID="5" wGroupType="2" byOfflineEnable="1" description="您已完成打坐修炼，获得{0}经验值" />
+	<Row wID="7" wMessageID="368" byPriority="1" byResponeType="0" wGroupID="2" wGroupType="1" byOfflineEnable="0" description="{0}同意了你的好友请求，离线不保留，被覆盖" />
+	<Row wID="8" wMessageID="369" byPriority="1" byResponeType="0" wGroupID="2" wGroupType="1" byOfflineEnable="0" description="{0}拒绝了你的好友请求，离线不保留，被覆盖" />
+	<Row wID="9" wMessageID="375" byPriority="1" byResponeType="0" wGroupID="6" wGroupType="1" byOfflineEnable="1" description="您在锁妖塔的镇守位被玩家{0}抢夺，离线保留，被覆盖" />
+	<Row wID="10" wMessageID="2084" byPriority="1" byResponeType="0" wGroupID="6" wGroupType="1" byOfflineEnable="1" description="{0}邀请你护送他的的{1}，要出手相助吗？" />
+	<Row wID="11" wMessageID="2226" byPriority="1" byResponeType="0" wGroupID="6" wGroupType="1" byOfflineEnable="1" description="{0}打劫了你的{1}，是否要前往查看准备抢回？" />
+	<Row wID="12" wMessageID="2227" byPriority="1" byResponeType="0" wGroupID="6" wGroupType="1" byOfflineEnable="1" description="{0}打劫了你护送的{1}，是否要前往查看准备抢回？" />
+	<Row wID="13" wMessageID="2234" byPriority="1" byResponeType="0" wGroupID="7" wGroupType="1" byOfflineEnable="1" description="经过1天的风云争夺，您的历练段位从{0}组进入{1}组，请进入历练领取对应奖励！" />
+	<Row wID="14" wMessageID="2235" byPriority="1" byResponeType="0" wGroupID="8" wGroupType="1" byOfflineEnable="1" description="您在斗剑中被击败，排名降到了{0}名！" />
+	<Row wID="15" wMessageID="2242" byPriority="1" byResponeType="0" wGroupID="7" wGroupType="1" byOfflineEnable="1" description="经过1天的风云争夺，您成功保级，当前的段位是{0}组，请进入历练领取对应奖励！" />
+	<Row wID="16" wMessageID="2455" byPriority="2" byResponeType="0" wGroupID="9" wGroupType="1" byOfflineEnable="1" description="您有最新的更新公告未查看" />
+</Table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Type="0" Page="1" PageName="10-30级" Include="13|3" startLevel="10" EndLevel="30" />
+	<Row ID="2" Type="0" Page="2" PageName="30-40级" Include="13|3|4" startLevel="31" EndLevel="41" />
+	<Row ID="3" Type="0" Page="3" PageName="40-50级" Include="13|16|12|5" startLevel="42" EndLevel="50" />
+	<Row ID="4" Type="0" Page="4" PageName="50-60级" Include="13|16|12|5|10" startLevel="51" EndLevel="60" />
+	<Row ID="5" Type="0" Page="5" PageName="60-70级" Include="13|16|12|5|10|8" startLevel="61" EndLevel="70" />
+	<Row ID="6" Type="0" Page="6" PageName="70-100级" Include="13|16|12|5|10|8" startLevel="71" EndLevel="100" />
+	<Row ID="7" Type="0" Page="7" PageName="100-150级" Include="13|16|12|5|10|8" startLevel="101" EndLevel="150" />
+	<Row ID="8" Type="0" Page="8" PageName="140-150级" Include="13|16|12|5|10|8" startLevel="141" EndLevel="150" />
+	<Row ID="9" Type="1" Page="1" PageName="获得经验" Include="228|229|230|225|226|227" startLevel="1" EndLevel="70" />
+	<Row ID="10" Type="1" Page="2" PageName="获得银币" Include="224|219|207|213|214|220|228|229" startLevel="1" EndLevel="70" />
+	<Row ID="11" Type="1" Page="3" PageName="获得渡劫符" Include="228|229|213|214|215" startLevel="1" EndLevel="70" />
+	<Row ID="12" Type="1" Page="4" PageName="获得宝石" Include="231|209" startLevel="1" EndLevel="70" />
+</Table>

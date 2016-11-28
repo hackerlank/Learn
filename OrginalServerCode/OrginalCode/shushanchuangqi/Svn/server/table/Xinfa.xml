@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1300" Name="玄门无形剑气" Type="1" Color="5" Limit="0" Effect="1300" NeedItem="10000,1" Description="峨眉派剑诀的最高境界，取太清道祖“有无相生”之意，剑气可在有形与无形之间转换，极大地增加攻击能力" Remark="攻击" />
+	<Row ID="1301" Name="地阙金章" Type="1" Color="5" Limit="0" Effect="1301" NeedItem="10001,1" Description="紫云宫秘藏道书，乃是旁门修炼的无上妙法，可极大地增加防御能力" Remark="防御" />
+	<Row ID="1302" Name="内景元宗" Type="1" Color="5" Limit="0" Effect="1302" NeedItem="10002,1" Description="绿毛山人刘根所留，描述道家吐纳参修的密旨妙谛，可极大地增加生命" Remark="生命" />
+	<Row ID="1303" Name="兜率真敕" Type="1" Color="5" Limit="0" Effect="1500" NeedItem="10003,1" Description="长眉真人所留仙术，历代峨眉掌门秘传，可极大地增加命中" Remark="命中值" />
+	<Row ID="1304" Name="诸天挪移大法" Type="1" Color="5" Limit="0" Effect="1401" NeedItem="10004,1" Description="玄门秘法，短距离内闪转腾挪随心如意，可极大地增加闪避" Remark="闪避值" />
+	<Row ID="1305" Name="五雷天心正法" Type="1" Color="5" Limit="0" Effect="1402" NeedItem="10005,1" Description="道家无上雷法，专克邪魔外道，可极大地增加暴击" Remark="暴击值" />
+	<Row ID="1306" Name="合沙奇书" Type="1" Color="5" Limit="0" Effect="1400" NeedItem="10006,1" Description="前辈仙人合沙道长所遗仙术，内藏五行真气变化玄机，可极大地增加法术防御" Remark="法术防御" />
+	<Row ID="1307" Name="心光遁法" Type="1" Color="5" Limit="0" Effect="1303" NeedItem="10007,1" Description="佛门第一遁法，心到身到，念到即至，可极大地增加身法" Remark="身法" />
+	<Row ID="1308" Name="熊经鸟伸图" Type="1" Color="5" Limit="0" Effect="1403" NeedItem="10008,1" Description="道家修身养气的功法，越练到深处越见威力，可极大地增加稳固" Remark="稳固值" />
+	<Row ID="1309" Name="血神经" Type="1" Color="5" Limit="0" Effect="1404" NeedItem="10009,1" Description="魔教至高法典，可练成血影神光，无视任何防御，极大地增加穿透" Remark="穿透值" />
+	<Row ID="1310" Name="十二都天神煞" Type="1" Color="5" Limit="0" Effect="1304" NeedItem="10010,1" Description="魔道秘法，威力绝大，施展一回便要减寿一纪，可极大地增加反击" Remark="反击值" />
+	<Row ID="1311" Name="金刚大藏真言" Type="1" Color="5" Limit="0" Effect="1305" NeedItem="10011,1" Description="佛门真言秘法，具有改天换地的伟力，可极大地增加压制" Remark="压制值" />
+</Table>

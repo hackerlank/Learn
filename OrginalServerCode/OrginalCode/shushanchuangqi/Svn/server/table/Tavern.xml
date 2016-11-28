@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row TemplateId="1" Name="醉仙客栈" Condition="0" TavernLevel="2" TavernPIC="1" Hero1="100" Hero1Zoom="1.300000" Hero1GetConId="400" Hero2="102" Hero2Zoom="1.300000" Hero2GetConId="401" Hero3="117" Hero3Zoom="1.280000" Hero3GetConId="402" Hero4="106" Hero4Zoom="1.200000" Hero4GetConId="403" />
+	<Row TemplateId="2" Name="同福客栈" Condition="40" TavernLevel="2" TavernPIC="1" Hero1="103" Hero1Zoom="1.040000" Hero1GetConId="404" Hero2="104" Hero2Zoom="1.200000" Hero2GetConId="405" Hero3="101" Hero3Zoom="1.300000" Hero3GetConId="406" Hero4="112" Hero4Zoom="1.200000" Hero4GetConId="407" />
+	<Row TemplateId="3" Name="龙门客栈" Condition="60" TavernLevel="3" TavernPIC="1" Hero1="111" Hero1Zoom="1.300000" Hero1GetConId="408" Hero2="118" Hero2Zoom="1.300000" Hero2GetConId="409" Hero3="115" Hero3Zoom="1.200000" Hero3GetConId="410" Hero4="113" Hero4Zoom="1.300000" Hero4GetConId="411" />
+	<Row TemplateId="4" Name="飞剑客栈" Condition="80" TavernLevel="3" TavernPIC="1" Hero1="108" Hero1Zoom="1.150000" Hero1GetConId="412" Hero2="110" Hero2Zoom="1.083333" Hero2GetConId="413" Hero3="116" Hero3Zoom="1.000000" Hero3GetConId="414" Hero4="114" Hero4Zoom="1.080000" Hero4GetConId="415" />
+</Table>

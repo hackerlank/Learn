@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Num="1001" Type="1" Tip="每完成5次师门任务后，再跟着为师我清修一次，才是练功的基本啊" Descripition="打开界面最先出现" />
+	<Row Num="1002" Type="1" Tip="每完成一个师门任务，就可以增加1师门经验" Descripition="随机出现" />
+	<Row Num="1003" Type="1" Tip="你现在的师门等级是：{0}，师门等级越高，清修的效果越好" Descripition="随机出现，{0}为黄色字体" />
+	<Row Num="1004" Type="1" Tip="徒儿真是勤快，勤练功才能进步" Descripition="随机出现" />
+	<Row Num="1005" Type="1" Tip="门派任务要好好做啊，这样在师弟师妹面前才够帅" Descripition="随机出现" />
+	<Row Num="1006" Type="1" Tip="升级御剑等级，刷新任务品质，皆可提升任务奖励" Descripition="随机出现" />
+	<Row Num="2001" Type="2" Tip="每完成5次衙门任务后，就可以获得一次侠义奖励" Descripition="打开界面最先出现" />
+	<Row Num="2002" Type="2" Tip="每完成一个衙门任务，就可以增加1衙门经验" Descripition="随机出现" />
+	<Row Num="2003" Type="2" Tip="你现在的衙门等级是：{0}，衙门等级越高，侠义宝箱越好" Descripition="随机出现，{0}为黄色字体" />
+	<Row Num="2004" Type="2" Tip="血魔死后，贼匪四起，民不聊生，江湖的秩序正需要侠士的扶持" Descripition="随机出现" />
+	<Row Num="2005" Type="2" Tip="修真既要出得了世，也要入得了世，缺一不可" Descripition="随机出现" />
+	<Row Num="2006" Type="2" Tip="升级御剑等级，刷新任务品质，皆可提升任务奖励" Descripition="随机出现" />
+</Table>

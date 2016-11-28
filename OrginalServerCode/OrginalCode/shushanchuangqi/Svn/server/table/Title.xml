@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Type="1" Name="初出茅庐的" Desc="完成第1章主线任务" RequireID="2001" Assets="1" PropID="9000" Time="0" />
+	<Row ID="2" Type="1" Name="下山的" Desc="完成第2章主线任务" RequireID="2002" Assets="2" PropID="9000" Time="0" />
+	<Row ID="3" Type="1" Name="修仙的" Desc="完成第3章主线任务" RequireID="2003" Assets="3" PropID="9000" Time="0" />
+	<Row ID="4" Type="1" Name="坚定的" Desc="完成第4章主线任务" RequireID="2004" Assets="4" PropID="9000" Time="0" />
+	<Row ID="5" Type="1" Name="高冷的" Desc="完成第5章主线任务" RequireID="2005" Assets="5" PropID="9000" Time="0" />
+	<Row ID="6" Type="1" Name="守护者" Desc="完成第6章主线任务" RequireID="2006" Assets="6" PropID="9000" Time="0" />
+	<Row ID="7" Type="1" Name="穿越者" Desc="完成第7章主线任务" RequireID="2201" Assets="7" PropID="9000" Time="0" />
+	<Row ID="8" Type="1" Name="逆转乾坤的" Desc="完成第8章主线任务" RequireID="2202" Assets="8" PropID="9000" Time="0" />
+	<Row ID="9" Type="1" Name="寻宝者" Desc="完成第9章主线任务" RequireID="2203" Assets="9" PropID="9000" Time="0" />
+	<Row ID="10" Type="1" Name="寻仙的" Desc="完成第10章主线任务" RequireID="2204" Assets="10" PropID="9000" Time="0" />
+	<Row ID="11" Type="1" Name="踏上神域的" Desc="完成第11章主线任务" RequireID="2205" Assets="11" PropID="9000" Time="0" />
+	<Row ID="12" Type="1" Name="钟楼怪人" Desc="完成第12章主线任务" RequireID="2206" Assets="12" PropID="9000" Time="0" />
+	<Row ID="13" Type="1" Name="传奇的" Desc="完成第13章主线任务" RequireID="2207" Assets="13" PropID="9000" Time="0" />
+	<Row ID="14" Type="1" Name="未卜先知的" Desc="完成第14章主线任务" RequireID="2208" Assets="14" PropID="9000" Time="0" />
+	<Row ID="1001" Type="2" Name="蜀山神将" Desc="等级达到100级" RequireID="2048" Assets="1001" PropID="9015" Time="0" />
+	<Row ID="1002" Type="2" Name="初窥门径" Desc="任意散仙渡劫到元婴期" RequireID="2053" Assets="1002" PropID="9016" Time="0" />
+	<Row ID="1003" Type="2" Name="锁妖镇魔" Desc="通关锁妖塔90层" RequireID="2016" Assets="1003" PropID="9017" Time="0" />
+	<Row ID="1004" Type="2" Name="帮战先锋" Desc="帮战中获得10连杀" RequireID="2118" Assets="1004" PropID="9018" Time="0" />
+	<Row ID="1005" Type="2" Name="连杀王" Desc="蜀山论剑中获得连杀王" RequireID="2109" Assets="1005" PropID="9019" Time="0" />
+	<Row ID="1006" Type="2" Name="荣誉王" Desc="蜀山论剑中获得荣誉王" RequireID="2108" Assets="1006" PropID="9020" Time="0" />
+	<Row ID="1008" Type="2" Name="妖尸谷辰" Desc="击杀妖尸谷辰" RequireID="2132" Assets="1008" PropID="9022" Time="0" />
+	<Row ID="1009" Type="2" Name="绿袍老祖" Desc="击杀绿袍老祖" RequireID="2131" Assets="1009" PropID="9023" Time="0" />
+	<Row ID="1010" Type="2" Name="骑乘高手" Desc="获得青鸾" RequireID="2082" Assets="1010" PropID="9024" Time="0" />
+	<Row ID="2001" Type="3" Name="御剑尊者" Desc="开通御剑" RequireID="2134" Assets="2001" PropID="9025" Time="0" />
+	<Row ID="2002" Type="3" Name="天下第一" Desc="开服七日谁将问鼎至尊活动第一" RequireID="0" Assets="2002" PropID="9026" Time="0" />
+	<Row ID="2003" Type="3" Name="战力之王" Desc="开服七日谁是战力之王活动第一" RequireID="0" Assets="2003" PropID="9027" Time="0" />
+	<Row ID="2004" Type="3" Name="修仙达人" Desc="开服七日谁是修仙之王活动第一" RequireID="0" Assets="2004" PropID="9028" Time="0" />
+	<Row ID="2005" Type="3" Name="炼宝大师" Desc="开服七日谁将手持至宝活动第一" RequireID="0" Assets="2005" PropID="9029" Time="0" />
+	<Row ID="2006" Type="3" Name="无双至尊" Desc="开服七日谁是战斗大师活动第一" RequireID="0" Assets="2006" PropID="9030" Time="0" />
+</Table>

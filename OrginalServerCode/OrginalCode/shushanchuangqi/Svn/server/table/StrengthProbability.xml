@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="21" Level="1" Color="2" Probability1="10000" Probability2="10000" Protect2="2" />
+	<Row ID="22" Level="2" Color="2" Probability1="5000" Probability2="5000" Protect2="2" />
+	<Row ID="23" Level="3" Color="2" Probability1="2500" Probability2="2500" Protect2="2" />
+	<Row ID="24" Level="4" Color="2" Probability1="1000" Probability2="1000" Protect2="2" />
+	<Row ID="25" Level="5" Color="2" Probability1="1" Probability2="800" Protect2="2" />
+	<Row ID="26" Level="6" Color="2" Probability1="1" Probability2="400" Protect2="2" />
+	<Row ID="27" Level="7" Color="2" Probability1="1" Probability2="200" Protect2="2" />
+	<Row ID="28" Level="8" Color="2" Probability1="1" Probability2="60" Protect2="2" />
+	<Row ID="29" Level="9" Color="2" Probability1="1" Probability2="1" Protect2="2" />
+	<Row ID="31" Level="1" Color="3" Probability1="10000" Probability2="10000" Protect2="2" />
+	<Row ID="32" Level="2" Color="3" Probability1="4000" Probability2="4000" Protect2="2" />
+	<Row ID="33" Level="3" Color="3" Probability1="2000" Probability2="2000" Protect2="2" />
+	<Row ID="34" Level="4" Color="3" Probability1="800" Probability2="800" Protect2="2" />
+	<Row ID="35" Level="5" Color="3" Probability1="1" Probability2="400" Protect2="2" />
+	<Row ID="36" Level="6" Color="3" Probability1="1" Probability2="200" Protect2="2" />
+	<Row ID="37" Level="7" Color="3" Probability1="1" Probability2="100" Protect2="2" />
+	<Row ID="38" Level="8" Color="3" Probability1="1" Probability2="30" Protect2="2" />
+	<Row ID="39" Level="9" Color="3" Probability1="1" Probability2="1" Protect2="2" />
+	<Row ID="41" Level="1" Color="4" Probability1="10000" Probability2="10000" Protect2="2" />
+	<Row ID="42" Level="2" Color="4" Probability1="3000" Probability2="3000" Protect2="2" />
+	<Row ID="43" Level="3" Color="4" Probability1="1500" Probability2="1500" Protect2="2" />
+	<Row ID="44" Level="4" Color="4" Probability1="600" Probability2="600" Protect2="2" />
+	<Row ID="45" Level="5" Color="4" Probability1="1" Probability2="400" Protect2="2" />
+	<Row ID="46" Level="6" Color="4" Probability1="1" Probability2="200" Protect2="2" />
+	<Row ID="47" Level="7" Color="4" Probability1="1" Probability2="100" Protect2="2" />
+	<Row ID="48" Level="8" Color="4" Probability1="1" Probability2="30" Protect2="2" />
+	<Row ID="49" Level="9" Color="4" Probability1="1" Probability2="1" Protect2="2" />
+	<Row ID="51" Level="1" Color="5" Probability1="10000" Probability2="10000" Protect2="2" />
+	<Row ID="52" Level="2" Color="5" Probability1="2000" Probability2="2000" Protect2="2" />
+	<Row ID="53" Level="3" Color="5" Probability1="1000" Probability2="1000" Protect2="2" />
+	<Row ID="54" Level="4" Color="5" Probability1="400" Probability2="400" Protect2="2" />
+	<Row ID="55" Level="5" Color="5" Probability1="1" Probability2="300" Protect2="2" />
+	<Row ID="56" Level="6" Color="5" Probability1="1" Probability2="200" Protect2="2" />
+	<Row ID="57" Level="7" Color="5" Probability1="1" Probability2="100" Protect2="2" />
+	<Row ID="58" Level="8" Color="5" Probability1="1" Probability2="30" Protect2="2" />
+	<Row ID="59" Level="9" Color="5" Probability1="1" Probability2="1" Protect2="2" />
+</Table>

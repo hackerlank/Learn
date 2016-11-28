@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="九疑鼎" Icon="2" Model="50000" BornFires="1|2|3|4|5|6|7|8|9|10" GetCondId="0" />
+	<Row ID="2" Name="神农鼎" Icon="3" Model="60000" BornFires="1|2|3|4|5|6|7|8|9|10" GetCondId="6201" />
+	<Row ID="3" Name="药王鼎" Icon="4" Model="4464" BornFires="1|2|3|4|5|6|7|8|9|10" GetCondId="6202" />
+</Table>

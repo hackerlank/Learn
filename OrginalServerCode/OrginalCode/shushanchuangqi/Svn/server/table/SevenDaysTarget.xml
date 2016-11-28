@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Day="1" EventID="40007" Award="2,2000|56,2" />
+	<Row ID="2" Day="1" EventID="40006" Award="2,2000|56,2" />
+	<Row ID="3" Day="1" EventID="40001" Award="2,2000|56,2" />
+	<Row ID="4" Day="1" EventID="40002" Award="2,2000|56,2" />
+	<Row ID="5" Day="1" EventID="40006;40007;40001;40002" Award="2,20000|56,6|10912,2" />
+	<Row ID="6" Day="2" EventID="40011" Award="2,4000|56,4" />
+	<Row ID="7" Day="2" EventID="40027" Award="2,4000|56,4" />
+	<Row ID="8" Day="2" EventID="40008" Award="2,4000|56,4" />
+	<Row ID="9" Day="2" EventID="40005" Award="2,4000|56,4" />
+	<Row ID="10" Day="2" EventID="40011;40027;40008;40005" Award="2,40000|56,12|201,2" />
+	<Row ID="11" Day="3" EventID="40016" Award="2,6000|56,6" />
+	<Row ID="12" Day="3" EventID="40004" Award="2,6000|56,6" />
+	<Row ID="13" Day="3" EventID="40013" Award="2,6000|56,6" />
+	<Row ID="14" Day="3" EventID="40009" Award="2,6000|56,6" />
+	<Row ID="15" Day="3" EventID="40016;40004;40013;40009" Award="2,60000|56,18|204,2" />
+	<Row ID="16" Day="4" EventID="40020" Award="2,8000|56,8" />
+	<Row ID="17" Day="4" EventID="40015" Award="2,8000|56,8" />
+	<Row ID="18" Day="4" EventID="40018" Award="2,8000|56,8" />
+	<Row ID="19" Day="4" EventID="40019" Award="2,8000|56,8" />
+	<Row ID="20" Day="4" EventID="40020;40015;40018;40019" Award="2,80000|56,24|10912,4" />
+	<Row ID="21" Day="5" EventID="40000" Award="2,10000|56,10" />
+	<Row ID="22" Day="5" EventID="40012" Award="2,10000|56,10" />
+	<Row ID="23" Day="5" EventID="40021" Award="2,10000|56,10" />
+	<Row ID="24" Day="5" EventID="40010" Award="2,10000|56,10" />
+	<Row ID="25" Day="5" EventID="40000;40012;40021;40010" Award="2,100000|56,30|201,4" />
+	<Row ID="26" Day="6" EventID="40023" Award="2,12000|56,12" />
+	<Row ID="27" Day="6" EventID="40022" Award="2,12000|56,12" />
+	<Row ID="28" Day="6" EventID="40024" Award="2,12000|56,12" />
+	<Row ID="29" Day="6" EventID="40003" Award="2,12000|56,12" />
+	<Row ID="30" Day="6" EventID="40023;40022;40024;40003" Award="2,120000|56,36|204,4" />
+	<Row ID="31" Day="7" EventID="40025" Award="2,14000|56,14" />
+	<Row ID="32" Day="7" EventID="40026" Award="2,14000|56,14" />
+	<Row ID="33" Day="7" EventID="40014" Award="2,14000|56,14" />
+	<Row ID="34" Day="7" EventID="40017" Award="2,14000|56,14" />
+	<Row ID="35" Day="7" EventID="40025;40026;40014;40017" Award="2,140000|10912,5|201,5|204,5" />
+</Table>

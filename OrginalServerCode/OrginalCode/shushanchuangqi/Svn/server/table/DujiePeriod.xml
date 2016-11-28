@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row PeriodId="1" DujieLevel="11" PeriodName="筑基期1星" NameColor="2" Info="s1,解锁第一主动技能" />
+	<Row PeriodId="2" DujieLevel="31" PeriodName="元婴期1星" NameColor="3" Info="s2,解锁第二主动技能" />
+	<Row PeriodId="3" DujieLevel="51" PeriodName="分神期1星" NameColor="4" Info="s3,解锁第三主动技能|400,商城开放宝石购买（主角到分神期）" />
+	<Row PeriodId="4" DujieLevel="61" PeriodName="合体期1星" NameColor="4" Info="f206,解锁第二被动法宝位" />
+	<Row PeriodId="5" DujieLevel="71" PeriodName="大乘期1星" NameColor="5" Info="t1,解锁第一天赋技能" />
+	<Row PeriodId="6" DujieLevel="81" PeriodName="真仙期1星" NameColor="5" Info="t2,解锁第二天赋技能" />
+</Table>

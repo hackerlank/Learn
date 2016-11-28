@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row RankTop="0" RankBottom="1" PrizeType="1" BossID="20000" BossName="世界Boss第1名奖励" Resource1Type="2" ResourceValue1="500000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="56,200|1104,7" />
+	<Row RankTop="1" RankBottom="3" PrizeType="1" BossID="20000" BossName="世界Boss第2名奖励" Resource1Type="2" ResourceValue1="200000" Resource2Type="0" ResourceValue2="0" GivenExp="50000" GivenItem="56,100|1104,4" />
+	<Row RankTop="3" RankBottom="10" PrizeType="1" BossID="20000" BossName="世界Boss前10名奖励" Resource1Type="2" ResourceValue1="100000" Resource2Type="0" ResourceValue2="0" GivenExp="20000" GivenItem="56,50|1104,2" />
+	<Row RankTop="0" RankBottom="1" PrizeType="2" BossID="20000" BossName="世界Boss伤害1%奖励" Resource1Type="2" ResourceValue1="10000" Resource2Type="0" ResourceValue2="0" GivenExp="1000" GivenItem="56,10" />
+	<Row RankTop="1" RankBottom="2" PrizeType="2" BossID="20000" BossName="世界Boss伤害2%奖励" Resource1Type="2" ResourceValue1="20000" Resource2Type="0" ResourceValue2="0" GivenExp="2000" GivenItem="56,20" />
+	<Row RankTop="2" RankBottom="3" PrizeType="2" BossID="20000" BossName="世界Boss伤害3%奖励" Resource1Type="2" ResourceValue1="30000" Resource2Type="0" ResourceValue2="0" GivenExp="3000" GivenItem="56,30" />
+	<Row RankTop="0" RankBottom="1" PrizeType="3" BossID="20000" BossName="世界Boss随机奖励" Resource1Type="2" ResourceValue1="88888" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,100|1104,1" />
+	<Row RankTop="0" RankBottom="1" PrizeType="4" BossID="20000" BossName="世界Boss参与奖白" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="1" RankBottom="2" PrizeType="4" BossID="20000" BossName="世界Boss参与奖绿" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="2" RankBottom="3" PrizeType="4" BossID="20000" BossName="世界Boss参与奖蓝" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="3" RankBottom="4" PrizeType="4" BossID="20000" BossName="世界Boss参与奖紫" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="4" RankBottom="5" PrizeType="4" BossID="20000" BossName="世界Boss参与奖橙" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="0" RankBottom="1" PrizeType="5" BossID="20000" BossName="世界Boss击杀奖励" Resource1Type="2" ResourceValue1="500000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="" />
+	<Row RankTop="0" RankBottom="1" PrizeType="6" BossID="20000" BossName="世界Boss伤害奖励" Resource1Type="2" ResourceValue1="100000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="" />
+	<Row RankTop="0" RankBottom="1" PrizeType="1" BossID="20001" BossName="世界Boss第1名奖励" Resource1Type="2" ResourceValue1="500000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="56,200|1105,7" />
+	<Row RankTop="1" RankBottom="3" PrizeType="1" BossID="20001" BossName="世界Boss第2名奖励" Resource1Type="2" ResourceValue1="200000" Resource2Type="0" ResourceValue2="0" GivenExp="50000" GivenItem="56,100|1105,4" />
+	<Row RankTop="3" RankBottom="10" PrizeType="1" BossID="20001" BossName="世界Boss前10名奖励" Resource1Type="2" ResourceValue1="100000" Resource2Type="0" ResourceValue2="0" GivenExp="20000" GivenItem="56,50|1105,2" />
+	<Row RankTop="0" RankBottom="1" PrizeType="2" BossID="20001" BossName="世界Boss伤害1%奖励" Resource1Type="2" ResourceValue1="10000" Resource2Type="0" ResourceValue2="0" GivenExp="1000" GivenItem="56,10" />
+	<Row RankTop="1" RankBottom="2" PrizeType="2" BossID="20001" BossName="世界Boss伤害2%奖励" Resource1Type="2" ResourceValue1="20000" Resource2Type="0" ResourceValue2="0" GivenExp="2000" GivenItem="56,20" />
+	<Row RankTop="2" RankBottom="3" PrizeType="2" BossID="20001" BossName="世界Boss伤害3%奖励" Resource1Type="2" ResourceValue1="30000" Resource2Type="0" ResourceValue2="0" GivenExp="3000" GivenItem="56,30" />
+	<Row RankTop="0" RankBottom="1" PrizeType="3" BossID="20001" BossName="世界Boss随机奖励" Resource1Type="2" ResourceValue1="88888" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,100|1105,1" />
+	<Row RankTop="0" RankBottom="1" PrizeType="4" BossID="20001" BossName="世界Boss参与奖白" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="1" RankBottom="2" PrizeType="4" BossID="20001" BossName="世界Boss参与奖绿" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="2" RankBottom="3" PrizeType="4" BossID="20001" BossName="世界Boss参与奖蓝" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="3" RankBottom="4" PrizeType="4" BossID="20001" BossName="世界Boss参与奖紫" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="4" RankBottom="5" PrizeType="4" BossID="20001" BossName="世界Boss参与奖橙" Resource1Type="0" ResourceValue1="0" Resource2Type="0" ResourceValue2="0" GivenExp="0" GivenItem="56,50|178,1" />
+	<Row RankTop="0" RankBottom="1" PrizeType="5" BossID="20001" BossName="世界Boss击杀奖励" Resource1Type="2" ResourceValue1="500000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="" />
+	<Row RankTop="0" RankBottom="1" PrizeType="6" BossID="20001" BossName="世界Boss伤害奖励" Resource1Type="2" ResourceValue1="100000" Resource2Type="0" ResourceValue2="0" GivenExp="100000" GivenItem="" />
+</Table>

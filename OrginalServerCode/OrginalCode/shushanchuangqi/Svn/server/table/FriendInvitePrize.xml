@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" MainId="1" Type="1" SendInviteCnt="1" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="2" MainId="1" Type="1" SendInviteCnt="2" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="3" MainId="1" Type="1" SendInviteCnt="3" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="4" MainId="1" Type="1" SendInviteCnt="4" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="5" MainId="1" Type="1" SendInviteCnt="5" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="6" MainId="1" Type="1" SendInviteCnt="6" FriendLevel="0" VipLevel="0" BuyGold="0" GoodFriendCnt="0" Prize="2,1000|57,1" />
+	<Row ID="7" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="1" Prize="2,1000|57,1" />
+	<Row ID="8" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="3" Prize="2,2000|57,2" />
+	<Row ID="9" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="10" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="10" Prize="2,4000|57,4" />
+	<Row ID="11" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="20" Prize="2,5000|57,5" />
+	<Row ID="12" MainId="2" Type="2" SendInviteCnt="0" FriendLevel="1" VipLevel="0" BuyGold="0" GoodFriendCnt="30" Prize="2,6000|57,6" />
+	<Row ID="13" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="40" VipLevel="0" BuyGold="0" GoodFriendCnt="1" Prize="2,1000|57,1" />
+	<Row ID="14" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="40" VipLevel="0" BuyGold="0" GoodFriendCnt="3" Prize="2,2000|57,2" />
+	<Row ID="15" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="40" VipLevel="0" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="16" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="40" VipLevel="0" BuyGold="0" GoodFriendCnt="10" Prize="2,4000|57,4" />
+	<Row ID="17" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="55" VipLevel="0" BuyGold="0" GoodFriendCnt="1" Prize="2,1000|57,1" />
+	<Row ID="18" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="55" VipLevel="0" BuyGold="0" GoodFriendCnt="3" Prize="2,2000|57,2" />
+	<Row ID="19" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="55" VipLevel="0" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="20" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="55" VipLevel="0" BuyGold="0" GoodFriendCnt="10" Prize="2,4000|57,4" />
+	<Row ID="21" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="70" VipLevel="0" BuyGold="0" GoodFriendCnt="1" Prize="2,1000|57,1" />
+	<Row ID="22" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="70" VipLevel="0" BuyGold="0" GoodFriendCnt="3" Prize="2,2000|57,2" />
+	<Row ID="23" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="70" VipLevel="0" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="24" MainId="3" Type="3" SendInviteCnt="0" FriendLevel="70" VipLevel="0" BuyGold="0" GoodFriendCnt="10" Prize="2,4000|57,4" />
+	<Row ID="25" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="1" BuyGold="0" GoodFriendCnt="1" Prize="2,1000|57,1" />
+	<Row ID="26" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="1" BuyGold="0" GoodFriendCnt="3" Prize="2,2000|57,2" />
+	<Row ID="27" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="1" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="28" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="1" BuyGold="0" GoodFriendCnt="10" Prize="2,4000|57,4" />
+	<Row ID="29" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="2" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="30" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="3" BuyGold="0" GoodFriendCnt="5" Prize="2,3000|57,3" />
+	<Row ID="31" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="4" BuyGold="0" GoodFriendCnt="5" Prize="2,4000|57,4" />
+	<Row ID="32" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="5" BuyGold="0" GoodFriendCnt="4" Prize="2,4000|57,4" />
+	<Row ID="33" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="6" BuyGold="0" GoodFriendCnt="4" Prize="2,5000|57,5" />
+	<Row ID="34" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="7" BuyGold="0" GoodFriendCnt="4" Prize="2,5000|57,5" />
+	<Row ID="35" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="8" BuyGold="0" GoodFriendCnt="3" Prize="2,6000|57,6" />
+	<Row ID="36" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="9" BuyGold="0" GoodFriendCnt="3" Prize="2,6000|57,6" />
+	<Row ID="37" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="10" BuyGold="0" GoodFriendCnt="3" Prize="2,7000|57,7" />
+	<Row ID="38" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="11" BuyGold="0" GoodFriendCnt="2" Prize="2,7000|57,7" />
+	<Row ID="39" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="12" BuyGold="0" GoodFriendCnt="2" Prize="2,8000|57,8" />
+	<Row ID="40" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="13" BuyGold="0" GoodFriendCnt="2" Prize="2,8000|57,8" />
+	<Row ID="41" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="14" BuyGold="0" GoodFriendCnt="1" Prize="2,9000|57,9" />
+	<Row ID="42" MainId="4" Type="4" SendInviteCnt="0" FriendLevel="0" VipLevel="15" BuyGold="0" GoodFriendCnt="1" Prize="2,10000|57,10" />
+</Table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row RankTop="0" RankBottom="1" PrizeType="1" GivenItem="2,100000|178,1" />
+	<Row RankTop="1" RankBottom="2" PrizeType="1" GivenItem="2,80000|178,1" />
+	<Row RankTop="2" RankBottom="3" PrizeType="1" GivenItem="2,50000|178,1" />
+	<Row RankTop="3" RankBottom="10" PrizeType="1" GivenItem="2,20000|178,1" />
+	<Row RankTop="10" RankBottom="10000" PrizeType="1" GivenItem="2,10000|178,1" />
+	<Row RankTop="0" RankBottom="1" PrizeType="2" GivenItem="2,50000" />
+</Table>

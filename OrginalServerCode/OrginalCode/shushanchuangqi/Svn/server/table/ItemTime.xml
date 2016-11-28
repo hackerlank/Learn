@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" StartType="0" TipType="1" Disposal="1" DueType="0" RemTime="99999" ExpireTime="2015-5-20 16:40:00" />
+	<Row ID="2" StartType="0" TipType="0" Disposal="0" DueType="1" RemTime="30000" ExpireTime="2014-7-7 00:00:01" />
+	<Row ID="3" StartType="0" TipType="0" Disposal="1" DueType="0" RemTime="1" ExpireTime="2014-7-30 00:00:01" />
+</Table>

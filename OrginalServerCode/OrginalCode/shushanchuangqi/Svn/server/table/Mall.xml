@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Id="1" ItemId="56" Name="渡劫符（10个）" ItemNum="10" Type="1" MoneyType="1" Price="1" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="2" ItemId="10912" Name="玫瑰" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="3" ItemId="201" Name="五行真金" ItemNum="1" Type="1" MoneyType="1" Price="15" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="4" ItemId="204" Name="坐骑进阶丹" ItemNum="1" Type="1" MoneyType="1" Price="20" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="5" ItemId="290" Name="太乙真金" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="6" ItemId="291" Name="太乙精金" ItemNum="1" Type="1" MoneyType="1" Price="80" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="7" ItemId="292" Name="洗炼符" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="8" ItemId="293" Name="洗炼保护符" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="10" ItemId="8803" Name="3级攻击宝石" ItemNum="1" Type="9" MoneyType="1" Price="14" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="11" ItemId="8823" Name="3级防御宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="12" ItemId="8843" Name="3级生命宝石" ItemNum="1" Type="9" MoneyType="1" Price="14" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="13" ItemId="8863" Name="3级身法宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="14" ItemId="8883" Name="3级命中宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="15" ItemId="8903" Name="3级闪避宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="16" ItemId="8923" Name="3级暴击宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="17" ItemId="8943" Name="3级反击宝石" ItemNum="1" Type="9" MoneyType="1" Price="12" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="31" ItemId="600" Name="一阶时装武器" ItemNum="1" Type="1" MoneyType="1" Price="998" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="32" ItemId="602" Name="二阶时装武器" ItemNum="1" Type="1" MoneyType="1" Price="1998" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="33" ItemId="210" Name="聚魂阵加速符" ItemNum="1" Type="1" MoneyType="1" Price="20" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="34" ItemId="211" Name="元神仙露" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="35" ItemId="8805" Name="5级攻击宝石" ItemNum="1" Type="9" MoneyType="1" Price="120" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="36" ItemId="8825" Name="5级防御宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="37" ItemId="8845" Name="5级生命宝石" ItemNum="1" Type="9" MoneyType="1" Price="120" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="38" ItemId="8865" Name="5级身法宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="39" ItemId="8885" Name="5级命中宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="40" ItemId="8905" Name="5级闪避宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="41" ItemId="8925" Name="5级暴击宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="42" ItemId="8945" Name="5级反击宝石" ItemNum="1" Type="9" MoneyType="1" Price="100" VIP="0" Icon="0" DayCntLimit="" AvailableCon="25000" />
+	<Row Id="42" ItemId="319" Name="炼化石" ItemNum="1" Type="1" MoneyType="1" Price="10" VIP="0" Icon="0" DayCntLimit="" AvailableCon="0" />
+	<Row Id="400" ItemId="56" Name="渡劫符（10个）" ItemNum="10" Type="6" MoneyType="3" Price="1" VIP="0" Icon="0" DayCntLimit="0,10|1,10|2,10|3,20|4,20|5,20|6,20|7,20|8,20|9,20|10,20|11,20|12,20|13,20|14,20|15,20" AvailableCon="0" />
+	<Row Id="401" ItemId="10912" Name="玫瑰" ItemNum="1" Type="6" MoneyType="3" Price="10" VIP="0" Icon="0" DayCntLimit="0,4|1,4|2,4|3,4|4,4|5,4|6,4|7,4|8,5|9,5|10,5|11,5|12,5|13,5|14,5|15,5" AvailableCon="0" />
+	<Row Id="402" ItemId="201" Name="五行真金" ItemNum="1" Type="6" MoneyType="3" Price="15" VIP="0" Icon="0" DayCntLimit="0,2|1,4|2,4|3,4|4,4|5,4|6,4|7,4|8,6|9,6|10,6|11,6|12,6|13,6|14,6|15,6" AvailableCon="0" />
+	<Row Id="403" ItemId="204" Name="坐骑进阶丹" ItemNum="1" Type="6" MoneyType="3" Price="20" VIP="0" Icon="0" DayCntLimit="0,2|1,2|2,2|3,2|4,2|5,2|6,2|7,2|8,6|9,6|10,6|11,6|12,6|13,6|14,6|15,6" AvailableCon="0" />
+</Table>

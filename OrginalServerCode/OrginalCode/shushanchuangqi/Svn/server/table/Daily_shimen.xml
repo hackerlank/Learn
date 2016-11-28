@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Level="0" Cost="0" Retrun="1000" Title="1" Task="0" Descripition="" Exp="0" />
+	<Row Level="1" Cost="25" Retrun="1500" Title="2" Task="700" Descripition="" Exp="1" />
+	<Row Level="2" Cost="75" Retrun="2000" Title="3" Task="700" Descripition="" Exp="2" />
+	<Row Level="3" Cost="150" Retrun="2500" Title="4" Task="700" Descripition="" Exp="3" />
+	<Row Level="4" Cost="250" Retrun="3000" Title="5" Task="700" Descripition="" Exp="4" />
+	<Row Level="5" Cost="500" Retrun="3500" Title="6" Task="700" Descripition="" Exp="5" />
+	<Row Level="6" Cost="1000" Retrun="4000" Title="7" Task="700" Descripition="" Exp="6" />
+	<Row Level="7" Cost="1750" Retrun="4500" Title="8" Task="700" Descripition="" Exp="7" />
+	<Row Level="8" Cost="2500" Retrun="5000" Title="9" Task="700" Descripition="" Exp="8" />
+	<Row Level="9" Cost="3500" Retrun="6000" Title="10" Task="700" Descripition="" Exp="9" />
+	<Row Level="10" Cost="4500" Retrun="7000" Title="11" Task="700" Descripition="" Exp="10" />
+	<Row Level="11" Cost="9000" Retrun="8000" Title="12" Task="700" Descripition="" Exp="11" />
+	<Row Level="12" Cost="18000" Retrun="9000" Title="13" Task="700" Descripition="" Exp="12" />
+	<Row Level="13" Cost="36000" Retrun="10000" Title="14" Task="700" Descripition="" Exp="13" />
+</Table>

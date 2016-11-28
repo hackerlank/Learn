@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" SignIn="1" Award="2,5000|56,5" />
+	<Row ID="2" SignIn="2" Award="2,10000|56,10" />
+	<Row ID="3" SignIn="5" Award="2,20000|56,20|201,2" />
+	<Row ID="4" SignIn="10" Award="2,30000|56,30|201,3" />
+	<Row ID="5" SignIn="17" Award="2,50000|56,50|201,5|10912,5" />
+	<Row ID="6" SignIn="26" Award="2,100000|56,100|201,10|10912,10|52,100" />
+</Table>

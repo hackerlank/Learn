@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row LevelId="1" Name="玉露河" NamePic="1" RequiredLevel="30" PreLevel="0" RewardReview="282,1|10980,1" FinishReward="2,10560|10980,5" MaxNum="3" />
+	<Row LevelId="2" Name="金风崖" NamePic="2" RequiredLevel="40" PreLevel="1" RewardReview="282,1|283,1|10980,1" FinishReward="2,12960|10980,5" MaxNum="15" />
+	<Row LevelId="3" Name="巫山台" NamePic="3" RequiredLevel="50" PreLevel="2" RewardReview="282,1|283,1|10981,1" FinishReward="2,15360|10981,5" MaxNum="15" />
+	<Row LevelId="4" Name="紫云峰" NamePic="4" RequiredLevel="60" PreLevel="3" RewardReview="283,1|10981,1" FinishReward="2,17760|10981,5" MaxNum="15" />
+	<Row LevelId="5" Name="寒月宫" NamePic="5" RequiredLevel="70" PreLevel="4" RewardReview="283,1|284,1|10983,1" FinishReward="2,18960|10983,5" MaxNum="15" />
+	<Row LevelId="6" Name="飞升殿" NamePic="6" RequiredLevel="80" PreLevel="5" RewardReview="283,1|284,1|10983,1" FinishReward="2,21360|10983,5" MaxNum="15" />
+	<Row LevelId="7" Name="兰若寺" NamePic="7" RequiredLevel="90" PreLevel="6" RewardReview="284,1|10985,1" FinishReward="2,23760|10985,5" MaxNum="15" />
+	<Row LevelId="8" Name="天王殿" NamePic="8" RequiredLevel="100" PreLevel="7" RewardReview="284,1|285,1|10985,1" FinishReward="2,26160|10985,5" MaxNum="15" />
+</Table>

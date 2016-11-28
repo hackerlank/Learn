@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Days="7" NeedGold="98" Desc="御剑乐享特权，有效期7天。" Promotion="0" Give="1" />
+	<Row ID="2" Days="30" NeedGold="298" Desc="御剑畅玩特权，有效期30天。" Promotion="50" Give="1" />
+	<Row ID="3" Days="180" NeedGold="898" Desc="御剑至尊特权，有效期180天。" Promotion="400" Give="1" />
+</Table>

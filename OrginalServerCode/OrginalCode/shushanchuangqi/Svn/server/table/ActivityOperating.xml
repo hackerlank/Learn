@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Stye="1" TotalType="2" Name="冲级赢大礼" SortOn="1" Client_Type="501" Type="701" ConfigID="1" Time1="" Time2="" Time3="999" Time4="999" Desc="活动期间等级达到对应等级可以领取相应的礼包" IconUrl="3" />
+	<Row ID="2" Stye="1" TotalType="1" Name="谁将问鼎至尊" SortOn="2" Client_Type="1" Type="709" ConfigID="2" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时等级排行达到指定排名即可获得奖励。（活动结束后通过邮件发放）" IconUrl="11" />
+	<Row ID="3" Stye="1" TotalType="1" Name="谁是战力之王" SortOn="3" Client_Type="1" Type="702" ConfigID="3" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时战力排行达到指定排名即可获得奖励。（活动结束后通过邮件发放）" IconUrl="4" />
+	<Row ID="4" Stye="1" TotalType="1" Name="谁是修仙之王" SortOn="4" Client_Type="1" Type="711" ConfigID="4" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时散仙战力排名前10的玩家即可获得对应的奖励（活动结束后通过邮件发放）" IconUrl="13" />
+	<Row ID="5" Stye="1" TotalType="1" Name="谁将手执至宝" SortOn="5" Client_Type="1" Type="717" ConfigID="5" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时法宝战力排名前10的玩家即可获得对应的奖励（活动结束后通过邮件发放）" IconUrl="25" />
+	<Row ID="6" Stye="1" TotalType="1" Name="谁是战斗大师" SortOn="6" Client_Type="1" Type="712" ConfigID="6" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时斗剑天梯排名前10的玩家即可获得对应的奖励（活动结束后通过邮件发放）" IconUrl="14" />
+	<Row ID="7" Stye="1" TotalType="1" Name="谁是最佳团队" SortOn="7" Client_Type="1" Type="713" ConfigID="7" Time1="" Time2="" Time3="7" Time4="2" Desc="活动结束时帮派等级排名前10的玩家即可获得对应的奖励（活动结束后通过邮件发放）" IconUrl="15" />
+	<Row ID="8" Stye="1" TotalType="1" Name="等级冲冲冲" SortOn="8" Client_Type="101" Type="703" ConfigID="8" Time1="" Time2="" Time3="6" Time4="1" Desc="活动期间全服达到指定等级的玩家数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="5" />
+	<Row ID="9" Stye="1" TotalType="1" Name="等级冲冲冲" SortOn="8" Client_Type="101" Type="703" ConfigID="9" Time1="" Time2="7" Time3="6" Time4="1" Desc="活动期间全服达到指定等级的玩家数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="17" />
+	<Row ID="10" Stye="1" TotalType="1" Name="等级冲冲冲" SortOn="8" Client_Type="101" Type="703" ConfigID="10" Time1="" Time2="14" Time3="7" Time4="1" Desc="活动期间全服达到指定等级的玩家数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="18" />
+	<Row ID="11" Stye="1" TotalType="1" Name="等级冲冲冲" SortOn="8" Client_Type="101" Type="703" ConfigID="11" Time1="" Time2="22" Time3="7" Time4="1" Desc="活动期间全服达到指定等级的玩家数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="19" />
+	<Row ID="12" Stye="1" TotalType="1" Name="坐骑大收集" SortOn="9" Client_Type="101" Type="704" ConfigID="12" Time1="" Time2="" Time3="29" Time4="1" Desc="活动期间全服激活坐骑的玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="6" />
+	<Row ID="13" Stye="1" TotalType="1" Name="散仙大收集" SortOn="10" Client_Type="101" Type="706" ConfigID="13" Time1="" Time2="" Time3="6" Time4="1" Desc="活动期间全服招募指定散仙玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="8" />
+	<Row ID="14" Stye="1" TotalType="1" Name="散仙大收集" SortOn="10" Client_Type="101" Type="706" ConfigID="14" Time1="" Time2="7" Time3="6" Time4="1" Desc="活动期间全服招募指定散仙玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="21" />
+	<Row ID="15" Stye="1" TotalType="1" Name="散仙大收集" SortOn="10" Client_Type="101" Type="706" ConfigID="15" Time1="" Time2="14" Time3="7" Time4="1" Desc="活动期间全服招募指定散仙玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="22" />
+	<Row ID="16" Stye="1" TotalType="1" Name="散仙大收集" SortOn="10" Client_Type="101" Type="706" ConfigID="16" Time1="" Time2="22" Time3="7" Time4="1" Desc="活动期间全服招募指定散仙玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="23" />
+	<Row ID="17" Stye="1" TotalType="1" Name="法宝大收集" SortOn="11" Client_Type="101" Type="708" ConfigID="17" Time1="" Time2="" Time3="29" Time4="1" Desc="活动期间全服收集指定法宝玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="10" />
+	<Row ID="18" Stye="1" TotalType="1" Name="美女大收集" SortOn="12" Client_Type="101" Type="716" ConfigID="18" Time1="" Time2="" Time3="29" Time4="1" Desc="活动期间全服激活指定仙女玩家达到指定数量，则全服所有玩家都可领取一份对应的奖励。" IconUrl="24" />
+	<Row ID="19" Stye="2" TotalType="2" Name="QQ闹钟" SortOn="13" Client_Type="102" Type="714" ConfigID="19" Time1="2014.12.17.0.0" Time2="2014.12.17.0.1" Time3="2024.12.30.23.59" Time4="2025.1.1.23.59" Desc="在蜀山的世界里，每天都有奖励丰厚的精彩活动。如果各位剑侠担心错过时间而不能参加的话，只要点击下面的按钮安装“QQ闹钟”。哪怕没有登录游戏，也可以在QQ上收到活动开始的提醒哦。神马打BOSS、帮战、论剑，统统一网打尽，一个都不放过！
+ps：成功安装QQ提醒后，别忘了领取礼包奖励哦~！" IconUrl="16" />
+	<Row ID="20" Stye="1" TotalType="1" Name="汇灵盏" SortOn="0" Client_Type="102" Type="715" ConfigID="19" Time1="" Time2="" Time3="30" Time4="1" Desc="" IconUrl="87" />
+	<Row ID="21" Stye="1" TotalType="1" Name="7日折扣豪礼" SortOn="0" Client_Type="102" Type="719" ConfigID="19" Time1="" Time2="" Time3="7" Time4="" Desc="" IconUrl="94" />
+</Table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Move="1" Attack="0" StandbySpeed="200" ChaseSpeed="0" FightRadius="0.000000" AtkDistance="0.000000" MoveRadius="10.000000" SightRadius="0,0" />
+	<Row ID="2" Move="1" Attack="1" StandbySpeed="200" ChaseSpeed="600" FightRadius="15.000000" AtkDistance="2.000000" MoveRadius="2.000000" SightRadius="0,6" />
+	<Row ID="3" Move="0" Attack="1" StandbySpeed="0" ChaseSpeed="0" FightRadius="0.000000" AtkDistance="6.000000" MoveRadius="0.000000" SightRadius="0,10" />
+	<Row ID="4" Move="2" Attack="0" StandbySpeed="200" ChaseSpeed="600" FightRadius="1.000000" AtkDistance="1.000000" MoveRadius="10.000000" SightRadius="0,0" />
+	<Row ID="5" Move="2" Attack="1" StandbySpeed="150" ChaseSpeed="700" FightRadius="20.000000" AtkDistance="1.000000" MoveRadius="20.000000" SightRadius="60,6" />
+	<Row ID="6" Move="2" Attack="1" StandbySpeed="150" ChaseSpeed="700" FightRadius="20.000000" AtkDistance="1.000000" MoveRadius="20.000000" SightRadius="60,8" />
+	<Row ID="7" Move="0" Attack="0" StandbySpeed="0" ChaseSpeed="0" FightRadius="0.000000" AtkDistance="2.000000" MoveRadius="0.000000" SightRadius="0,4" />
+	<Row ID="8" Move="0" Attack="0" StandbySpeed="0" ChaseSpeed="0" FightRadius="0.000000" AtkDistance="4.000000" MoveRadius="0.000000" SightRadius="0,4" />
+	<Row ID="10" Move="1" Attack="1" StandbySpeed="200" ChaseSpeed="600" FightRadius="10.000000" AtkDistance="2.000000" MoveRadius="2.000000" SightRadius="0,6" />
+	<Row ID="11" Move="1" Attack="1" StandbySpeed="200" ChaseSpeed="1000" FightRadius="30.000000" AtkDistance="4.000000" MoveRadius="1.000000" SightRadius="0,11" />
+</Table>

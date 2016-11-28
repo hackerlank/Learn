@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Level="1" Name="普通丹炉" Outputincrease="0" Yuanqireduce="0" Silvercost="0" Couponcost="0" Goldcost="0" />
+	<Row Level="2" Name="赤铜丹炉" Outputincrease="5" Yuanqireduce="5" Silvercost="1000" Couponcost="0" Goldcost="0" />
+	<Row Level="3" Name="乾坤丹炉" Outputincrease="10" Yuanqireduce="10" Silvercost="0" Couponcost="0" Goldcost="100" />
+	<Row Level="4" Name="混沌丹炉" Outputincrease="15" Yuanqireduce="15" Silvercost="0" Couponcost="0" Goldcost="200" />
+</Table>

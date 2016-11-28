@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Id="1" BgDay="2" EndDay="4" Type="2" Quality="0" Term="10" Award="2;2000000" Random1="8810;1|8830;1|8850;1|8870;1|8890;1|8910;1|8930;1|8950;1" Link="96" />
+	<Row Id="2" BgDay="2" EndDay="4" Type="2" Quality="0" Term="6" Award="2;50000" Random1="8806;1|8826;1|8846;1|8866;1|8886;1|8906;1|8926;1|8946;1" Link="96" />
+	<Row Id="3" BgDay="2" EndDay="4" Type="2" Quality="0" Term="7" Award="2;200000" Random1="8807;1|8827;1|8847;1|8867;1|8887;1|8907;1|8927;1|8947;1" Link="96" />
+	<Row Id="4" BgDay="2" EndDay="4" Type="2" Quality="0" Term="8" Award="2;500000" Random1="8808;1|8828;1|8848;1|8868;1|8888;1|8908;1|8928;1|8948;1" Link="96" />
+	<Row Id="5" BgDay="2" EndDay="4" Type="2" Quality="0" Term="9" Award="2;1000000" Random1="8809;1|8829;1|8849;1|8869;1|8889;1|8909;1|8929;1|8949;1" Link="96" />
+	<Row Id="6" BgDay="5" EndDay="7" Type="1" Quality="5" Term="9" Award="291;40|293;8|2;600000" Random1="" Link="4" />
+	<Row Id="7" BgDay="5" EndDay="7" Type="1" Quality="3" Term="5" Award="291;3|56;100|2;60000" Random1="" Link="4" />
+	<Row Id="8" BgDay="5" EndDay="7" Type="1" Quality="3" Term="6" Award="291;5|56;200|2;80000" Random1="" Link="4" />
+	<Row Id="9" BgDay="5" EndDay="7" Type="1" Quality="3" Term="7" Award="291;8|56;300|2;100000" Random1="" Link="4" />
+	<Row Id="10" BgDay="5" EndDay="7" Type="1" Quality="3" Term="8" Award="291;15|56;400|2;300000" Random1="" Link="4" />
+	<Row Id="11" BgDay="5" EndDay="7" Type="1" Quality="3" Term="9" Award="291;35|56;500|2;500000" Random1="" Link="4" />
+	<Row Id="12" BgDay="5" EndDay="7" Type="1" Quality="4" Term="5" Award="291;4|292;1|2;80000" Random1="" Link="4" />
+	<Row Id="13" BgDay="5" EndDay="7" Type="1" Quality="4" Term="6" Award="291;5|292;2|2;100000" Random1="" Link="4" />
+	<Row Id="14" BgDay="5" EndDay="7" Type="1" Quality="4" Term="7" Award="291;9|292;3|2;120000" Random1="" Link="4" />
+	<Row Id="15" BgDay="5" EndDay="7" Type="1" Quality="4" Term="8" Award="291;15|292;5|2;300000" Random1="" Link="4" />
+	<Row Id="16" BgDay="5" EndDay="7" Type="1" Quality="4" Term="9" Award="291;35|292;7|2;500000" Random1="" Link="4" />
+	<Row Id="17" BgDay="5" EndDay="7" Type="1" Quality="5" Term="5" Award="291;6|293;1|2;100000" Random1="" Link="4" />
+	<Row Id="18" BgDay="5" EndDay="7" Type="1" Quality="5" Term="6" Award="291;8|293;2|2;130000" Random1="" Link="4" />
+	<Row Id="19" BgDay="5" EndDay="7" Type="1" Quality="5" Term="7" Award="291;11|293;3|2;160000" Random1="" Link="4" />
+	<Row Id="20" BgDay="5" EndDay="7" Type="1" Quality="5" Term="8" Award="291;17|293;5|2;350000" Random1="" Link="4" />
+</Table>

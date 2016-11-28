@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="都天烈火阵" RequiredLevel="30" MonsterTeam="23,1|24,123,1|23,1|23,1|23,1|23,1|23,1|23,3" Reward="500" />
+	<Row ID="2" Name="八门金锁阵" RequiredLevel="35" MonsterTeam="23,1|24,123,1|23,1|23,1|23,1|23,1|23,1|23,3" Reward="500" />
+	<Row ID="3" Name="七绝锁云阵" RequiredLevel="40" MonsterTeam="23,1|24,123,1|23,1|23,1|23,1|23,1|23,1|23,3" Reward="500" />
+	<Row ID="4" Name="九宫八卦阵" RequiredLevel="45" MonsterTeam="23,1|24,123,1|23,1|23,1|23,1|23,1|23,1|23,3" Reward="500" />
+	<Row ID="5" Name="两仪微尘阵" RequiredLevel="50" MonsterTeam="23,1|24,123,1|23,1|23,1|23,1|23,1|23,1|23,3" Reward="500" />
+</Table>

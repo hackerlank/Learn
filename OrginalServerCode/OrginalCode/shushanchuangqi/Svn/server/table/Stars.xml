@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row PrizeId="1" RequiredStars="9" Awards="3,5|56,6" />
+	<Row PrizeId="2" RequiredStars="18" Awards="3,5|56,9" />
+	<Row PrizeId="3" RequiredStars="27" Awards="3,10|56,12" />
+	<Row PrizeId="4" RequiredStars="36" Awards="3,10|56,15" />
+	<Row PrizeId="5" RequiredStars="45" Awards="3,15|56,18" />
+	<Row PrizeId="6" RequiredStars="54" Awards="3,15|56,21" />
+	<Row PrizeId="7" RequiredStars="63" Awards="3,20|56,24" />
+	<Row PrizeId="8" RequiredStars="72" Awards="3,20|56,27" />
+	<Row PrizeId="9" RequiredStars="81" Awards="3,30|56,30" />
+	<Row PrizeId="10" RequiredStars="90" Awards="3,30|56,33" />
+	<Row PrizeId="11" RequiredStars="99" Awards="3,50|56,36" />
+	<Row PrizeId="12" RequiredStars="108" Awards="3,50|56,39" />
+	<Row PrizeId="13" RequiredStars="117" Awards="3,80|56,42" />
+	<Row PrizeId="14" RequiredStars="126" Awards="3,80|56,45" />
+	<Row PrizeId="15" RequiredStars="135" Awards="3,120|56,48" />
+	<Row PrizeId="16" RequiredStars="144" Awards="3,120|56,51" />
+	<Row PrizeId="17" RequiredStars="153" Awards="3,160|56,54" />
+	<Row PrizeId="18" RequiredStars="162" Awards="3,160|56,57" />
+	<Row PrizeId="19" RequiredStars="171" Awards="3,200|56,60" />
+	<Row PrizeId="20" RequiredStars="180" Awards="3,200|56,63" />
+	<Row PrizeId="21" RequiredStars="189" Awards="3,240|56,66" />
+</Table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" DayScore="50" Desc="成长礼包" Content="200,1|2,1000|9,500" />
+	<Row ID="2" DayScore="100" Desc="初级礼包" Content="200,1|101,5|241,1" />
+	<Row ID="3" DayScore="300" Desc="中级礼包" Content="200,1|101,6|242,3" />
+	<Row ID="4" DayScore="700" Desc="高级礼包" Content="200,1|101,7|242,5" />
+	<Row ID="5" DayScore="2500" Desc="中级大奖" Content="200,1|101,8|243,3" />
+</Table>

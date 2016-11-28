@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Level="1" Exp="1500" OriginExp="1500" Award="" Tower="2" LingBuyLimit="100" />
+	<Row Level="2" Exp="4500" OriginExp="3000" Award="" Tower="3" LingBuyLimit="150" />
+	<Row Level="3" Exp="9000" OriginExp="4500" Award="" Tower="4" LingBuyLimit="200" />
+	<Row Level="4" Exp="15000" OriginExp="6000" Award="" Tower="5" LingBuyLimit="250" />
+	<Row Level="5" Exp="22500" OriginExp="7500" Award="" Tower="6" LingBuyLimit="300" />
+	<Row Level="6" Exp="31500" OriginExp="9000" Award="" Tower="7" LingBuyLimit="350" />
+	<Row Level="7" Exp="42000" OriginExp="10500" Award="" Tower="8" LingBuyLimit="400" />
+	<Row Level="8" Exp="54000" OriginExp="12000" Award="" Tower="9" LingBuyLimit="450" />
+	<Row Level="9" Exp="67500" OriginExp="13500" Award="" Tower="10" LingBuyLimit="500" />
+</Table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="干柴烈火" Position="1" LimitTimes="0" Color="3" VigorMax="120000" StoveExp="10" LevelC="0" RequiredItem="" RewardItem="213,1" />
+	<Row ID="2" Name="海心明火" Position="2" LimitTimes="0" Color="4" VigorMax="720000" StoveExp="10" LevelC="0" RequiredItem="" RewardItem="214,1" />
+	<Row ID="3" Name="青莲业火" Position="3" LimitTimes="0" Color="2" VigorMax="360000" StoveExp="2" LevelC="1" RequiredItem="213,1" RewardItem="2,10000" />
+	<Row ID="4" Name="妖莲心火" Position="4" LimitTimes="0" Color="3" VigorMax="1440000" StoveExp="4" LevelC="1" RequiredItem="1702,1|213,2|214,2" RewardItem="2,50000" />
+	<Row ID="5" Name="太阳真火" Position="5" LimitTimes="0" Color="4" VigorMax="2880000" StoveExp="8" LevelC="1" RequiredItem="1703,1|214,3|215,3" RewardItem="2,100000" />
+	<Row ID="6" Name="金刚明火" Position="6" LimitTimes="0" Color="5" VigorMax="4320000" StoveExp="16" LevelC="1" RequiredItem="1704,1|215,4|216,4" RewardItem="2,150000" />
+	<Row ID="7" Name="无名业火" Position="7" LimitTimes="0" Color="2" VigorMax="360000" StoveExp="2" LevelC="1" RequiredItem="213,1" RewardItem="9,1000" />
+	<Row ID="8" Name="湖心焰" Position="8" LimitTimes="0" Color="3" VigorMax="1440000" StoveExp="4" LevelC="1" RequiredItem="1706,1|213,2|214,2" RewardItem="9,5000" />
+	<Row ID="9" Name="三昧真火" Position="9" LimitTimes="0" Color="4" VigorMax="2880000" StoveExp="8" LevelC="1" RequiredItem="1707,1|214,3|215,3" RewardItem="9,10000" />
+	<Row ID="10" Name="乾天业火" Position="10" LimitTimes="0" Color="5" VigorMax="4320000" StoveExp="16" LevelC="1" RequiredItem="1708,1|215,4|216,4" RewardItem="9,15000" />
+	<Row ID="11" Name="暗炉业火" Position="11" LimitTimes="0" Color="5" VigorMax="180000" StoveExp="10" LevelC="0" RequiredItem="201,10|213,1" RewardItem="202,1" />
+	<Row ID="12" Name="万兽灵火" Position="12" LimitTimes="0" Color="5" VigorMax="180000" StoveExp="10" LevelC="0" RequiredItem="321,10|213,1" RewardItem="322,1" />
+	<Row ID="13" Name="轮回业火" Position="13" LimitTimes="0" Color="5" VigorMax="180000" StoveExp="10" LevelC="0" RequiredItem="206,10|213,1" RewardItem="207,1" />
+	<Row ID="14" Name="龙凤业火" Position="14" LimitTimes="0" Color="5" VigorMax="180000" StoveExp="10" LevelC="0" RequiredItem="204,10|213,1" RewardItem="205,1" />
+	<Row ID="15" Name="风雷怒火" Position="15" LimitTimes="0" Color="5" VigorMax="180000" StoveExp="10" LevelC="0" RequiredItem="312,10|213,1" RewardItem="313,1" />
+</Table>

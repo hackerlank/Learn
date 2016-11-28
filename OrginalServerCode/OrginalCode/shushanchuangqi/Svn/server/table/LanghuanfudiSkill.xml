@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="问道" UseTimes="5" Distance="2" CoolDown="10" MapId="3002" MeTalk="天地不仁，以万物为刍狗何解？" OtherTalk="天地有仁心，滋生了万物" />
+	<Row ID="2" Name="论道" UseTimes="5" Distance="2" CoolDown="10" MapId="3002" MeTalk="道可道，非常道，仙友觉得呢？" OtherTalk="仙友所言极是" />
+	<Row ID="3" Name="开小差" UseTimes="5" Distance="2" CoolDown="10" MapId="3002" MeTalk="求道之路岂能如此无趣" OtherTalk="谁用东西砸我？" />
+</Table>
