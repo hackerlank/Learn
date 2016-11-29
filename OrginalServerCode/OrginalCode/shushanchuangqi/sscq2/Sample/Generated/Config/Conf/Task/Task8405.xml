@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="8405" name="他山之石" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="8404" name="神崖鬼侍"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1505"  name="卢妪">
+       <Chat  index="1">
+            <PCSpeak>这白象峰与前几处大为不同，虽然并不能直接看出，但佛门印记处处可见。</PCSpeak>
+            <NPCSpeak>他山之石可以攻玉，无论你修道还是学佛，世间万理，大都同源。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13954"/>
+    <Item type="5" value="508211"/>
+   </General>
+ </Award>
+</Task>

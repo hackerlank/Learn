@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" TalentType="1" GroupID="1" Level="1" CondID="1" SkillID="11" Name="天赋1" Description="天赋技能测试1" Icon="" />
+	<Row ID="2" TalentType="1" GroupID="1" Level="1" CondID="2" SkillID="12" Name="天赋2" Description="天赋技能测试2" Icon="" />
+	<Row ID="3" TalentType="2" GroupID="2" Level="1" CondID="3" SkillID="0" Name="天赋3" Description="天赋技能测试3" Icon="" />
+	<Row ID="4" TalentType="2" GroupID="3" Level="1" CondID="4" SkillID="0" Name="天赋4" Description="天赋技能测试4" Icon="" />
+	<Row ID="5" TalentType="2" GroupID="4" Level="1" CondID="1" SkillID="0" Name="天赋5" Description="天赋技能测试5" Icon="" />
+	<Row ID="6" TalentType="1" GroupID="5" Level="11" CondID="2" SkillID="0" Name="天赋6" Description="天赋技能测试6" Icon="" />
+	<Row ID="7" TalentType="1" GroupID="5" Level="11" CondID="3" SkillID="0" Name="天赋7" Description="天赋技能测试7" Icon="" />
+	<Row ID="8" TalentType="2" GroupID="5" Level="11" CondID="4" SkillID="0" Name="天赋8" Description="天赋技能测试8" Icon="" />
+	<Row ID="9" TalentType="2" GroupID="5" Level="11" CondID="4" SkillID="13" Name="天赋9" Description="天赋技能测试9" Icon="" />
+	<Row ID="10" TalentType="2" GroupID="6" Level="11" CondID="4" SkillID="14" Name="天赋10" Description="天赋技能测试10" Icon="" />
+	<Row ID="11" TalentType="1" GroupID="5" Level="21" CondID="2" SkillID="0" Name="天赋11" Description="天赋技能测试11" Icon="" />
+	<Row ID="12" TalentType="1" GroupID="5" Level="21" CondID="3" SkillID="0" Name="天赋12" Description="天赋技能测试12" Icon="" />
+	<Row ID="13" TalentType="2" GroupID="5" Level="21" CondID="4" SkillID="0" Name="天赋13" Description="天赋技能测试13" Icon="" />
+	<Row ID="14" TalentType="2" GroupID="5" Level="21" CondID="4" SkillID="13" Name="天赋14" Description="天赋技能测试14" Icon="" />
+	<Row ID="15" TalentType="2" GroupID="6" Level="21" CondID="4" SkillID="14" Name="天赋15" Description="天赋技能测试15" Icon="" />
+	<Row ID="16" TalentType="1" GroupID="5" Level="31" CondID="2" SkillID="0" Name="天赋16" Description="天赋技能测试16" Icon="" />
+	<Row ID="17" TalentType="1" GroupID="5" Level="31" CondID="3" SkillID="0" Name="天赋17" Description="天赋技能测试17" Icon="" />
+	<Row ID="18" TalentType="2" GroupID="5" Level="31" CondID="4" SkillID="0" Name="天赋18" Description="天赋技能测试18" Icon="" />
+	<Row ID="19" TalentType="2" GroupID="5" Level="31" CondID="4" SkillID="13" Name="天赋19" Description="天赋技能测试19" Icon="" />
+	<Row ID="20" TalentType="2" GroupID="6" Level="31" CondID="4" SkillID="14" Name="天赋20" Description="天赋技能测试20" Icon="" />
+</Table>

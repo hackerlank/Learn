@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row PrizeType="1001" Name="单次银币抽奖" Cost="200000" DropID="0" RandomDropID="2102" Count="1" />
+	<Row PrizeType="1002" Name="单次仙石抽奖" Cost="300" DropID="0" RandomDropID="2100" Count="1" />
+	<Row PrizeType="1003" Name="单次爱心抽奖" Cost="1" DropID="0" RandomDropID="2100" Count="1" />
+	<Row PrizeType="1004" Name="单次仙石免费抽奖" Cost="0" DropID="0" RandomDropID="2103" Count="1" />
+	<Row PrizeType="2001" Name="10次银币抽奖" Cost="1800000" DropID="0" RandomDropID="2102" Count="10" />
+	<Row PrizeType="2002" Name="10次仙石抽奖" Cost="2700" DropID="2101" RandomDropID="2100" Count="9" />
+	<Row PrizeType="2003" Name="10次爱心抽奖" Cost="9" DropID="2101" RandomDropID="2100" Count="9" />
+</Table>

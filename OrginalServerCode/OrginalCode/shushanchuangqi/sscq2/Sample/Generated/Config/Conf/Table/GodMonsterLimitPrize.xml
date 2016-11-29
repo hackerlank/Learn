@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" CurPrice="49" Discount="0.400000" OrigPrice="125" Desc="炼器优惠礼包" Cond="2" Num="20" Devote="100" Content="200,1|2,1000|9,500" />
+	<Row ID="2" CurPrice="70" Discount="0.700000" OrigPrice="100" Desc="炼器优惠礼包" Cond="2" Num="15" Devote="100" Content="200,1|2,1000|9,500" />
+	<Row ID="3" CurPrice="100" Discount="0.300000" OrigPrice="350" Desc="技能进阶礼包" Cond="3" Num="10" Devote="200" Content="200,1|101,5|241,1" />
+	<Row ID="4" CurPrice="150" Discount="0.600000" OrigPrice="250" Desc="技能进阶礼包" Cond="3" Num="10" Devote="200" Content="200,1|101,5|241,1" />
+	<Row ID="5" CurPrice="100" Discount="0.500000" OrigPrice="200" Desc="阵灵优惠礼包" Cond="4" Num="10" Devote="300" Content="200,1|101,6|242,3" />
+	<Row ID="6" CurPrice="105" Discount="0.700000" OrigPrice="150" Desc="阵灵优惠礼包" Cond="4" Num="10" Devote="300" Content="200,1|101,6|242,3" />
+	<Row ID="7" CurPrice="175" Discount="0.700000" OrigPrice="250" Desc="坐骑进阶礼包" Cond="5" Num="10" Devote="400" Content="200,1|101,7|242,5" />
+	<Row ID="8" CurPrice="175" Discount="0.500000" OrigPrice="350" Desc="坐骑进阶礼包" Cond="5" Num="10" Devote="400" Content="200,1|101,7|242,5" />
+	<Row ID="9" CurPrice="1100" Discount="1.000000" OrigPrice="5999" Desc="散仙渡劫礼包" Cond="6" Num="5" Devote="500" Content="200,1|101,10|243,5" />
+	<Row ID="10" CurPrice="999" Discount="1.000000" OrigPrice="5999" Desc="散仙渡劫礼包" Cond="6" Num="1" Devote="500" Content="200,1|101,10|243,5" />
+</Table>

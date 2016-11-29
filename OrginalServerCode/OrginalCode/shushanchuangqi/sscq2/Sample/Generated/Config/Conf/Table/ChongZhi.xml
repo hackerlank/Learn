@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Id="1" Name="10仙石" Amount="10" Icon1="10" Gift="3,10" Icon2="" Tips="首次充值额外赠送10礼券" ItemID="41" />
+	<Row Id="2" Name="100仙石" Amount="100" Icon1="100" Gift="3,100" Icon2="" Tips="首次充值额外赠送100礼券" ItemID="42" />
+	<Row Id="3" Name="300仙石" Amount="300" Icon1="300" Gift="3,300" Icon2="" Tips="首次充值额外赠送300礼券" ItemID="43" />
+	<Row Id="4" Name="500仙石" Amount="500" Icon1="500" Gift="3,500" Icon2="" Tips="首次充值额外赠送500礼券" ItemID="44" />
+	<Row Id="5" Name="1000仙石" Amount="1000" Icon1="1000" Gift="3,1000" Icon2="" Tips="首次充值额外赠送1000礼券" ItemID="45" />
+	<Row Id="6" Name="3000仙石" Amount="3000" Icon1="3000" Gift="3,3000" Icon2="" Tips="首次充值额外赠送3000礼券" ItemID="46" />
+	<Row Id="10" Name="月卡" Amount="150" Icon1="9999" Gift="0" Icon2="" Tips="购买月卡" ItemID="302" />
+</Table>

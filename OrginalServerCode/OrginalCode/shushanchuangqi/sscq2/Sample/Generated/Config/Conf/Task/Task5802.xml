@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5802" name="最后阵眼" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5801" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1401"  name="亓南公">
+       <Chat  index="1">
+            <PCSpeak>如今只剩下唯一一处阵眼未破。</PCSpeak>
+            <NPCSpeak>峨眉后来有人，也足够我们欣慰。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="10969"/>
+    <Item type="5" value="214164"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="10"  content="128" >
+       <Basic id="14111" name="师尊青睐" level="66" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="跑环" Charge="0" Nexttask="0" giveUp="1" linklevel="0" repeat="429497295" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="4" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+  <Limit/>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1046"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>师叔找我何事？</PCSpeak>
+            <NPCSpeak>听闻你今日同魔门战绩颇丰，师叔要赏赐你一些东西，收下吧。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+  <Award/>
+</Task>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1001" TypeID="1" Level="1" Name="生命之魂" NeedLevel="1" NeedMoneyType="17" NeedMoneyValue="10" Attrib="7,10" />
+	<Row ID="1002" TypeID="1" Level="2" Name="生命之魂" NeedLevel="1" NeedMoneyType="17" NeedMoneyValue="20" Attrib="7,20" />
+	<Row ID="1003" TypeID="1" Level="3" Name="生命之魂" NeedLevel="1" NeedMoneyType="17" NeedMoneyValue="30" Attrib="7,30" />
+	<Row ID="1004" TypeID="1" Level="4" Name="生命之魂" NeedLevel="1" NeedMoneyType="17" NeedMoneyValue="40" Attrib="7,40" />
+	<Row ID="1005" TypeID="1" Level="5" Name="生命之魂" NeedLevel="1" NeedMoneyType="17" NeedMoneyValue="50" Attrib="7,50" />
+	<Row ID="2001" TypeID="2" Level="1" Name="攻击之魂" NeedLevel="1" NeedMoneyType="18" NeedMoneyValue="10" Attrib="1,10|2,10" />
+	<Row ID="2002" TypeID="2" Level="2" Name="攻击之魂" NeedLevel="1" NeedMoneyType="18" NeedMoneyValue="20" Attrib="1,20|2,20" />
+	<Row ID="2003" TypeID="2" Level="3" Name="攻击之魂" NeedLevel="1" NeedMoneyType="18" NeedMoneyValue="30" Attrib="1,30|2,30" />
+	<Row ID="2004" TypeID="2" Level="4" Name="攻击之魂" NeedLevel="1" NeedMoneyType="18" NeedMoneyValue="40" Attrib="1,40|2,40" />
+	<Row ID="2005" TypeID="2" Level="5" Name="攻击之魂" NeedLevel="1" NeedMoneyType="18" NeedMoneyValue="50" Attrib="1,50|2,50" />
+	<Row ID="3001" TypeID="3" Level="1" Name="暴击之魂" NeedLevel="1" NeedMoneyType="19" NeedMoneyValue="10" Attrib="13,10" />
+	<Row ID="3002" TypeID="3" Level="2" Name="暴击之魂" NeedLevel="1" NeedMoneyType="19" NeedMoneyValue="20" Attrib="13,20" />
+	<Row ID="3003" TypeID="3" Level="3" Name="暴击之魂" NeedLevel="1" NeedMoneyType="19" NeedMoneyValue="30" Attrib="13,30" />
+	<Row ID="3004" TypeID="3" Level="4" Name="暴击之魂" NeedLevel="1" NeedMoneyType="19" NeedMoneyValue="40" Attrib="13,40" />
+	<Row ID="3005" TypeID="3" Level="5" Name="暴击之魂" NeedLevel="1" NeedMoneyType="19" NeedMoneyValue="50" Attrib="13,50" />
+	<Row ID="4001" TypeID="4" Level="1" Name="破击之魂" NeedLevel="1" NeedMoneyType="20" NeedMoneyValue="10" Attrib="19,10" />
+	<Row ID="4002" TypeID="4" Level="2" Name="破击之魂" NeedLevel="1" NeedMoneyType="20" NeedMoneyValue="20" Attrib="19,20" />
+	<Row ID="4003" TypeID="4" Level="3" Name="破击之魂" NeedLevel="1" NeedMoneyType="20" NeedMoneyValue="30" Attrib="19,30" />
+	<Row ID="4004" TypeID="4" Level="4" Name="破击之魂" NeedLevel="1" NeedMoneyType="20" NeedMoneyValue="40" Attrib="19,40" />
+	<Row ID="4005" TypeID="4" Level="5" Name="破击之魂" NeedLevel="1" NeedMoneyType="20" NeedMoneyValue="50" Attrib="19,50" />
+	<Row ID="5001" TypeID="5" Level="1" Name="身法之魂" NeedLevel="1" NeedMoneyType="21" NeedMoneyValue="10" Attrib="8,10" />
+	<Row ID="5002" TypeID="5" Level="2" Name="身法之魂" NeedLevel="1" NeedMoneyType="21" NeedMoneyValue="20" Attrib="8,20" />
+	<Row ID="5003" TypeID="5" Level="3" Name="身法之魂" NeedLevel="1" NeedMoneyType="21" NeedMoneyValue="30" Attrib="8,30" />
+	<Row ID="5004" TypeID="5" Level="4" Name="身法之魂" NeedLevel="1" NeedMoneyType="21" NeedMoneyValue="40" Attrib="8,40" />
+	<Row ID="5005" TypeID="5" Level="5" Name="身法之魂" NeedLevel="1" NeedMoneyType="21" NeedMoneyValue="50" Attrib="8,50" />
+	<Row ID="6001" TypeID="6" Level="1" Name="防御之魂" NeedLevel="1" NeedMoneyType="22" NeedMoneyValue="10" Attrib="3,10|4,10" />
+	<Row ID="6002" TypeID="6" Level="2" Name="防御之魂" NeedLevel="1" NeedMoneyType="22" NeedMoneyValue="20" Attrib="3,20|4,20" />
+	<Row ID="6003" TypeID="6" Level="3" Name="防御之魂" NeedLevel="1" NeedMoneyType="22" NeedMoneyValue="30" Attrib="3,30|4,30" />
+	<Row ID="6004" TypeID="6" Level="4" Name="防御之魂" NeedLevel="1" NeedMoneyType="22" NeedMoneyValue="40" Attrib="3,40|4,40" />
+	<Row ID="6005" TypeID="6" Level="5" Name="防御之魂" NeedLevel="1" NeedMoneyType="22" NeedMoneyValue="50" Attrib="3,50|4,50" />
+	<Row ID="7001" TypeID="7" Level="1" Name="压制之魂" NeedLevel="1" NeedMoneyType="23" NeedMoneyValue="10" Attrib="23,10" />
+	<Row ID="7002" TypeID="7" Level="2" Name="压制之魂" NeedLevel="1" NeedMoneyType="23" NeedMoneyValue="20" Attrib="23,20" />
+	<Row ID="7003" TypeID="7" Level="3" Name="压制之魂" NeedLevel="1" NeedMoneyType="23" NeedMoneyValue="30" Attrib="23,30" />
+	<Row ID="7004" TypeID="7" Level="4" Name="压制之魂" NeedLevel="1" NeedMoneyType="23" NeedMoneyValue="40" Attrib="23,40" />
+	<Row ID="7005" TypeID="7" Level="5" Name="压制之魂" NeedLevel="1" NeedMoneyType="23" NeedMoneyValue="50" Attrib="23,50" />
+	<Row ID="8001" TypeID="8" Level="1" Name="稳固之魂" NeedLevel="1" NeedMoneyType="24" NeedMoneyValue="10" Attrib="15,10" />
+	<Row ID="8002" TypeID="8" Level="2" Name="稳固之魂" NeedLevel="1" NeedMoneyType="24" NeedMoneyValue="20" Attrib="15,20" />
+	<Row ID="8003" TypeID="8" Level="3" Name="稳固之魂" NeedLevel="1" NeedMoneyType="24" NeedMoneyValue="30" Attrib="15,30" />
+	<Row ID="8004" TypeID="8" Level="4" Name="稳固之魂" NeedLevel="1" NeedMoneyType="24" NeedMoneyValue="40" Attrib="15,40" />
+	<Row ID="8005" TypeID="8" Level="5" Name="稳固之魂" NeedLevel="1" NeedMoneyType="24" NeedMoneyValue="50" Attrib="15,50" />
+</Table>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="9502" name="关键所在" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9501" name="强者渐出"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1501"  name="钱康">
+       <Chat  index="1">
+            <PCSpeak>我先前认为金光洞必定与金钟岛有着丝丝联系。但实地中并无特别发现。</PCSpeak>
+            <NPCSpeak>以平常之法，自然无可知晓。但我确定已经猜出关键所在。只看最后一个去处，是否是烈火魔阵。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14974"/>
+    <Item type="5" value="669828"/>
+   </General>
+ </Award>
+</Task>

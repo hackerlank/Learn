@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" EffectType="1" BuffID="41" EffectIcon="1" Name="天将神力" Effect="6000" Description="守卫峨眉下场战斗攻击+20%" />
+	<Row ID="2" EffectType="1" BuffID="42" EffectIcon="2" Name="无霜之卫" Effect="6001" Description="守卫峨眉下场战斗防御+20%" />
+	<Row ID="3" EffectType="2" BuffID="0" EffectIcon="3" Name="生命之泉" Effect="2000" Description="恢复阵上散仙2000点血量（死亡的散仙不会回复）" />
+	<Row ID="4" EffectType="3" BuffID="0" EffectIcon="4" Name="生命之泉" Effect="2000" Description="恢复阵上散仙20%血量（死亡的散仙不会回复）" />
+	<Row ID="5" EffectType="4" BuffID="0" EffectIcon="5" Name="灵气满满" Effect="100" Description="恢复阵上所有散仙100点灵气（死亡的散仙不会回复）" />
+</Table>

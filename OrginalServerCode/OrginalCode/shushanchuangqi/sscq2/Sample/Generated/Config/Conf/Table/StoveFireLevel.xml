@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Level="1" Name="凡品" Color="3" Appear="5000" LowLine="0" MaxLine="0" />
+	<Row Level="2" Name="上品" Color="3" Appear="7400" LowLine="16" MaxLine="12000" />
+	<Row Level="3" Name="极品" Color="4" Appear="8400" LowLine="224" MaxLine="14000" />
+	<Row Level="4" Name="王品" Color="4" Appear="9100" LowLine="176" MaxLine="16000" />
+	<Row Level="5" Name="帝品" Color="4" Appear="9600" LowLine="128" MaxLine="18000" />
+	<Row Level="6" Name="神品" Color="5" Appear="9900" LowLine="80" MaxLine="20000" />
+	<Row Level="7" Name="圣品" Color="5" Appear="10000" LowLine="32" MaxLine="25000" />
+</Table>

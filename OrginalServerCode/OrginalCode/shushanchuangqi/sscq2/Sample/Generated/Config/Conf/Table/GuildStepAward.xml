@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row AwardLevel="1" GuildStep="1" Award="178,12|29,2400|1206,50" />
+	<Row AwardLevel="2" GuildStep="2" Award="178,10|29,2000|1206,30" />
+	<Row AwardLevel="3" GuildStep="3" Award="178,9|29,1800|1206,25" />
+	<Row AwardLevel="4" GuildStep="4" Award="178,8|29,1600|1206,20" />
+	<Row AwardLevel="5" GuildStep="5" Award="178,7|29,1400|1206,15" />
+	<Row AwardLevel="6" GuildStep="6" Award="178,6|29,1200|1206,10" />
+	<Row AwardLevel="7" GuildStep="7" Award="178,5|29,1000|1206,10" />
+	<Row AwardLevel="8" GuildStep="8" Award="178,4|29,800|1206,10" />
+	<Row AwardLevel="9" GuildStep="9;16" Award="178,3|29,600|1206,10" />
+	<Row AwardLevel="10" GuildStep="17;32" Award="178,2|29,400|1206,10" />
+	<Row AwardLevel="11" GuildStep="" Award="178,1|29,200|1206,10" />
+</Table>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="7903" name="轻而易举" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="7902" name="五之去三"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1501"  name="钱康">
+       <Chat  index="1">
+            <PCSpeak>多谢前辈指点，若要找到这些前仙遗境也不是那么容易之事。</PCSpeak>
+            <NPCSpeak>若是无名之派，或散弱之帮，寻到这些踪迹是难于登天。但于我不夜城，不过是举手之劳。前方的平天洞并不平安。莫要莽撞。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13459"/>
+    <Item type="5" value="406101"/>
+   </General>
+ </Award>
+</Task>

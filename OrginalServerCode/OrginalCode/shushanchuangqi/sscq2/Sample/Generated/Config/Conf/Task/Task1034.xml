@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1034" name="事有转机" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="809" name="玄门阵法"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>虽然幸遇仙子，我乃峨眉被逐之身，峨眉既破，众仙也不知所踪…</PCSpeak>
+            <NPCSpeak>此事我倒有计较，此处不远，昆仑派仅存之人玄者天宗之暂栖洞府。如能请他出山，说不定能与峨眉掌教求情使你归宗。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1461"/>
+    <Item type="5" value="4817"/>
+   </General>
+ </Award>
+</Task>

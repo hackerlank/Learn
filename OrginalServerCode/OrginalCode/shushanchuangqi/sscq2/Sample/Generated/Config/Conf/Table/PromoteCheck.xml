@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Type="0" Name="角色" CheckPoint="1" NotSatisfied="提升等级将会增加战斗力" Meet="略" Guide="DUNGEON_GROUP" ButtonName="提升" Icon="1" unMeet="[升级]推荐打副本升级" />
+	<Row ID="2" Type="1" Name="技能" CheckPoint="2" NotSatisfied="升级技能将极大的提升战斗力" Meet="略" Guide="SKILL" ButtonName="提升" Icon="2" unMeet="[技能]推荐升级主将技能" />
+	<Row ID="3" Type="2" Name="装备强化" CheckPoint="9" NotSatisfied="时装幻化或炼化将极大的提升战斗力" Meet="略" Guide="FASHION" ButtonName="提升" Icon="3" unMeet="[幻化]推荐激活时装" />
+	<Row ID="4" Type="2" Name="装备强化" CheckPoint="3" NotSatisfied="强化装备可极大提升战斗力" Meet="略" Guide="equipments" ButtonName="提升" Icon="3" unMeet="[强化]推荐强化装备" />
+	<Row ID="5" Type="3" Name="法宝激活" CheckPoint="4" NotSatisfied="尚未激活法宝[{0}]" Meet="已激活法宝[{0}]" Guide="trump" ButtonName="提升" Icon="4" unMeet="[法宝]推荐激活法宝{0}" />
+	<Row ID="6" Type="4" Name="散仙上阵" CheckPoint="5" NotSatisfied="当前阵形最大可上阵{0}个散仙，你已上阵{1}个" Meet="散仙已上阵" Guide="PET_PANEL" ButtonName="上阵" Icon="1" unMeet="[上阵]当前有可上阵的散仙" />
+	<Row ID="7" Type="4" Name="散仙招募" CheckPoint="6" NotSatisfied="尚未招募橙色散仙[{0}]" Meet="你已招募了强力散仙{0}" Guide="hero" ButtonName="招募" Icon="2" unMeet="[招募]推荐招募{0}" />
+	<Row ID="8" Type="4" Name="散仙淬体" CheckPoint="7" NotSatisfied="散仙{0}的淬体还有提升空间" Meet="当前散仙淬体已达到最高级" Guide="hero|2" ButtonName="淬体" Icon="3" unMeet="[淬体]推荐散仙{0}淬体" />
+	<Row ID="9" Type="4" Name="散仙技能" CheckPoint="8" NotSatisfied="散仙{0}的技能等级还有提升空间" Meet="当前散仙技能已达到最高级" Guide="hero|3" ButtonName="提升" Icon="4" unMeet="[技能]推荐升级{0}技能" />
+</Table>

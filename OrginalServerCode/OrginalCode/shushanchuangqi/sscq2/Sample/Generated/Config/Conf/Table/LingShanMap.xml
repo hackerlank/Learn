@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Type="1" Adj="2|6|5" />
+	<Row ID="2" Type="1" Adj="1|6|7|3" />
+	<Row ID="3" Type="1" Adj="2|7|8|4" />
+	<Row ID="4" Type="1" Adj="3|8|9" />
+	<Row ID="5" Type="1" Adj="1|6|11|10" />
+	<Row ID="6" Type="1" Adj="1|2|5|7|11|12" />
+	<Row ID="7" Type="1" Adj="2|3|6|8|12|13" />
+	<Row ID="8" Type="1" Adj="3|4|7|9|13|14" />
+	<Row ID="9" Type="1" Adj="4|8|14|15" />
+	<Row ID="10" Type="1" Adj="5|11|16|17" />
+	<Row ID="11" Type="1" Adj="5|6|10|12|17|18" />
+	<Row ID="12" Type="1" Adj="6|7|11|13|18|19" />
+	<Row ID="13" Type="1" Adj="7|8|12|14|19|20" />
+	<Row ID="14" Type="1" Adj="8|9|13|15|20|21" />
+	<Row ID="15" Type="1" Adj="9|14|21|22" />
+	<Row ID="16" Type="1" Adj="10|17|23" />
+	<Row ID="17" Type="1" Adj="10|11|16|18|23|24" />
+	<Row ID="18" Type="1" Adj="11|12|17|19|24|25" />
+	<Row ID="19" Type="1" Adj="12|13|18|20|25|26" />
+	<Row ID="20" Type="1" Adj="13|14|19|21|26|27" />
+	<Row ID="21" Type="1" Adj="14|15|20|22|27|28" />
+	<Row ID="22" Type="1" Adj="15|21|28" />
+	<Row ID="23" Type="1" Adj="16|17|24|29" />
+	<Row ID="24" Type="1" Adj="17|18|23|25|29|30" />
+	<Row ID="25" Type="1" Adj="18|19|24|26|30|31" />
+	<Row ID="26" Type="1" Adj="19|20|25|27|31|32" />
+	<Row ID="27" Type="1" Adj="20|21|26|28|32|33" />
+	<Row ID="28" Type="1" Adj="21|22|27|33" />
+	<Row ID="29" Type="1" Adj="23|24|30|34" />
+	<Row ID="30" Type="1" Adj="24|25|29|31|34|35" />
+	<Row ID="31" Type="1" Adj="25|26|30|32|35|36" />
+	<Row ID="32" Type="1" Adj="26|27|31|33|36|37" />
+	<Row ID="33" Type="1" Adj="27|28|32|37" />
+	<Row ID="34" Type="1" Adj="29|30|35" />
+	<Row ID="35" Type="1" Adj="30|31|34|36" />
+	<Row ID="36" Type="1" Adj="31|32|35|37" />
+	<Row ID="37" Type="1" Adj="32|33|36" />
+</Table>

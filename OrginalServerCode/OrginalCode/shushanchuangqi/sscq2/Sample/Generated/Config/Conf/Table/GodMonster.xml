@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" FieldDown="0" FieldUp="999" Desc="神兽元胎" Content="200,1|2,1000|9,500" />
+	<Row ID="2" FieldDown="1000" FieldUp="5999" Desc="幼年期神兽" Content="200,1|101,5|241,1" />
+	<Row ID="3" FieldDown="6000" FieldUp="15999" Desc="成长期神兽" Content="200,1|101,6|242,3" />
+	<Row ID="4" FieldDown="16000" FieldUp="29999" Desc="青年期神兽" Content="200,1|101,7|242,5" />
+	<Row ID="5" FieldDown="30000" FieldUp="45999" Desc="亚圣兽期" Content="200,1|101,8|243,3" />
+	<Row ID="6" FieldDown="46000" FieldUp="23568" Desc="天元神兽" Content="200,1|101,10|243,5" />
+</Table>

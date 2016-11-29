@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Born>
+  <CampList>
+    <Camp ID="1" Map="10101" X="26" Y="18"/>
+    <Camp ID="2" Map="10201" X="26" Y="18"/>
+    <Camp ID="3" Map="10301" X="26" Y="18"/>
+  </CampList>
+  <ItemList>
+	<Item ID="6006" Count="1" Quality="0" Job="0"/>
+  </ItemList>
+  <SkillList>
+    <Skill ID="11001" Job="1"/>
+    <Skill ID="12001" Job="2"/>
+    <Skill ID="13001" Job="3"/>
+    <Skill ID="14001" Job="4"/>
+  </SkillList>
+</Born>

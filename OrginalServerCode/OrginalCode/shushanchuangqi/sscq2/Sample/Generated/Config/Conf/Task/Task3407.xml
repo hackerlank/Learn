@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3407" name="宝地传说" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3406" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1082"  name="火无害">
+       <Chat  index="1">
+            <PCSpeak>莫非和我峨眉一门众仙落到此处无关？</PCSpeak>
+            <NPCSpeak>哈哈哈…笑煞我也！这里本是天宫被嫡仙侍落难之地，若有缘能结识她们，定可对你大…有帮助。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4956"/>
+    <Item type="5" value="122629"/>
+   </General>
+  <MustItem>
+    <Item id="10980" name="0" count="1" jobname="0" job="0"/>
+   </MustItem>
+ </Award>
+</Task>

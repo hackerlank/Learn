@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3614" name="神兽神威" level="0" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="主线" Charge="0" Nexttask="3801" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 把坐骑火麒麟升阶1次 </Desc>
+    <Purpose> 把[a event="{0}"][u][font color='#32fb18']飞剑升阶[/font][/u][/a]1次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3613" name="坐下神骑"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="20"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5927"/>
+    <Item type="5" value="204079"/>
+   </General>
+  <MustItem>
+   </MustItem>
+ </Award>
+</Task>

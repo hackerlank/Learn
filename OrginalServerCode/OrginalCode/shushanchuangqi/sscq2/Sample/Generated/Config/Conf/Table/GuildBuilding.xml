@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Level="1" Cost="500000" Val="30" />
+	<Row ID="1" Level="2" Cost="1000000" Val="31" />
+	<Row ID="1" Level="3" Cost="1500000" Val="32" />
+	<Row ID="1" Level="4" Cost="2000000" Val="33" />
+	<Row ID="1" Level="5" Cost="2500000" Val="34" />
+	<Row ID="1" Level="6" Cost="3000000" Val="35" />
+	<Row ID="1" Level="7" Cost="3500000" Val="36" />
+	<Row ID="1" Level="8" Cost="4000000" Val="37" />
+	<Row ID="1" Level="9" Cost="4500000" Val="38" />
+	<Row ID="1" Level="10" Cost="5000000" Val="39" />
+	<Row ID="2" Level="1" Cost="500000" Val="100000000" />
+	<Row ID="2" Level="2" Cost="1000000" Val="200000000" />
+	<Row ID="2" Level="3" Cost="1500000" Val="300000000" />
+	<Row ID="2" Level="4" Cost="2000000" Val="400000000" />
+	<Row ID="2" Level="5" Cost="2500000" Val="500000000" />
+	<Row ID="2" Level="6" Cost="3000000" Val="600000000" />
+	<Row ID="2" Level="7" Cost="3500000" Val="700000000" />
+	<Row ID="2" Level="8" Cost="4000000" Val="800000000" />
+	<Row ID="2" Level="9" Cost="4500000" Val="900000000" />
+	<Row ID="2" Level="10" Cost="5000000" Val="1000000000" />
+	<Row ID="3" Level="1" Cost="500000" Val="3" />
+	<Row ID="3" Level="2" Cost="1000000" Val="6" />
+	<Row ID="3" Level="3" Cost="1500000" Val="9" />
+	<Row ID="3" Level="4" Cost="2000000" Val="12" />
+	<Row ID="3" Level="5" Cost="2500000" Val="15" />
+	<Row ID="3" Level="6" Cost="3000000" Val="18" />
+	<Row ID="3" Level="7" Cost="3500000" Val="21" />
+	<Row ID="3" Level="8" Cost="4000000" Val="24" />
+	<Row ID="3" Level="9" Cost="4500000" Val="27" />
+	<Row ID="3" Level="10" Cost="5000000" Val="30" />
+</Table>

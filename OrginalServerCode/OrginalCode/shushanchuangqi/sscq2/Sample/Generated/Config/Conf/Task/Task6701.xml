@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="2" >
+       <Basic id="6701" name="重要关口" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="6702" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 完成活跃度或支线任务将等级提升到[font color="#32fb18"][u]{0}[/u][/font]级({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6607" name="境界之槛"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+     <Grow>
+      <Item type="1" value="67"/>
+   </Grow >
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="12289"/>
+    <Item type="5" value="325201"/>
+   </General>
+ </Award>
+</Task>

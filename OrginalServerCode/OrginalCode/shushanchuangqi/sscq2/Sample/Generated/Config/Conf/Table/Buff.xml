@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="攻击强化" Desc="本次蜀山论剑，攻击增加30%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="4100;3" UseTime="3" Time="300" TotalTime="300" Icon="1" MapID="" Show="1" IsSame="" />
+	<Row ID="2" Name="防御强化" Desc="本次蜀山论剑，防御增加30%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="4101;5" UseTime="5" Time="300" TotalTime="300" Icon="2" MapID="" Show="1" IsSame="" />
+	<Row ID="3" Name="战斗冷却" Desc="战斗冷却中……" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="attack" MapID="" Show="1" IsSame="" />
+	<Row ID="4" Name="剑气充盈" Desc="你感到全身充满了力量，获得了额外体力" DescTime="额外获得体力：{time}" BattleType="0" EffectType="2" Param1="" UseTime="60" Time="0" TotalTime="0" Icon="4" MapID="" Show="1" IsSame="" />
+	<Row ID="5" Name="副本战败" Desc="你被击败了！" DescTime="当前剩余：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="2400" TotalTime="60" Icon="5" MapID="" Show="1" IsSame="" />
+	<Row ID="6" Name="冷却时间" Desc="5分钟后才可再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="7" Name="攻击鼓舞" Desc="本次帮派战，攻击增加10%" DescTime="" BattleType="0" EffectType="1" Param1="4100;1" UseTime="0" Time="0" TotalTime="0" Icon="1" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="8" Name="防御鼓舞" Desc="本次帮派战，防御增加10%" DescTime="" BattleType="0" EffectType="1" Param1="4101;1" UseTime="0" Time="0" TotalTime="0" Icon="2" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="9" Name="身法鼓舞" Desc="本次帮派战，身法增加10%" DescTime="" BattleType="0" EffectType="1" Param1="4102;1" UseTime="0" Time="0" TotalTime="0" Icon="9" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="10" Name="银币加持" Desc="世界Boss银币加持，伤害增加{0}%" DescTime="本次世界Boss生效" BattleType="4" EffectType="1" Param1="4001;10" UseTime="0" Time="0" TotalTime="0" Icon="10" MapID="10" Show="1" IsSame="" />
+	<Row ID="11" Name="仙石加持" Desc="世界Boss仙石加持，伤害增加{0}%" DescTime="本次世界Boss生效" BattleType="4" EffectType="1" Param1="4021;10" UseTime="0" Time="0" TotalTime="0" Icon="11" MapID="10" Show="1" IsSame="" />
+	<Row ID="12" Name="沉思" Desc="正在沉思，其他道友切莫打扰" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="2" TotalTime="2" Icon="attack" MapID="3002" Show="1" IsSame="" />
+	<Row ID="13" Name="帮派战逃逸" Desc="你刚刚离开帮派战，5分钟内无法再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="14" Name="论剑逃逸" Desc="你刚刚离开蜀山论剑，5分钟内无法再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="15" Name="世界Boss战败" Desc="你被世界boss击败了！" DescTime="当前剩余：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="5" MapID="" Show="0" IsSame="" />
+	<Row ID="16" Name="生命鼓舞" Desc="本次帮派战，生命值上限增加20%" DescTime="" BattleType="0" EffectType="1" Param1="4103;1" UseTime="0" Time="0" TotalTime="0" Icon="16" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="18" Name="分身强度衰减" Desc="你的元神分身在锁妖塔镇守时会不停地削弱" DescTime="" BattleType="0" EffectType="1" Param1="4200;99" UseTime="0" Time="0" TotalTime="0" Icon="attack" MapID="" Show="0" IsSame="" />
+	<Row ID="19" Name="锁妖塔战败" Desc="你在锁妖塔中战败了！" DescTime="当前剩余：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="120" TotalTime="120" Icon="5" MapID="" Show="1" IsSame="" />
+	<Row ID="20" Name="黄钻尊享特权" Desc="购买仙石8折优惠，领取黄钻新手礼包，领取黄钻每日礼包，领取黄钻升级礼包" DescTime="黄钻期间永久有效" BattleType="0" EffectType="0" Param1="" UseTime="0" Time="0" TotalTime="0" Icon="20" MapID="" Show="1" IsSame="" />
+	<Row ID="21" Name="琅环福地逃逸" Desc="你刚刚离开琅环福地，5分钟内无法再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="300" TotalTime="300" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="22" Name="山门战逃逸" Desc="你刚刚离开帮派战，1分钟内无法再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="60" TotalTime="60" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="23" Name="洞府战逃逸" Desc="你刚刚离开帮派战，2分钟内无法再次进入" DescTime="剩余时间：{time}" BattleType="0" EffectType="2" Param1="" UseTime="0" Time="120" TotalTime="120" Icon="13" MapID="" Show="1" IsSame="" />
+	<Row ID="30" Name="特殊增强丹（攻击小）" Desc="全体出战散仙攻击增加5%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1055;1" UseTime="0" Time="7200" TotalTime="86400" Icon="1" MapID="" Show="0" IsSame="33;36" />
+	<Row ID="31" Name="特殊增强丹（防御小）" Desc="全体出战散仙防御增加5%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1056;1" UseTime="0" Time="7200" TotalTime="86400" Icon="2" MapID="" Show="0" IsSame="34;37" />
+	<Row ID="32" Name="特殊增强丹（身法小）" Desc="全体出战散仙身法增加5%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1057;1" UseTime="0" Time="7200" TotalTime="86400" Icon="9" MapID="" Show="0" IsSame="35;38" />
+	<Row ID="33" Name="特殊增强丹（攻击中）" Desc="全体出战散仙攻击增加8%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1058;1" UseTime="0" Time="7200" TotalTime="86400" Icon="1" MapID="" Show="0" IsSame="30;36" />
+	<Row ID="34" Name="特殊增强丹（防御中）" Desc="全体出战散仙防御增加8%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1059;1" UseTime="0" Time="7200" TotalTime="86400" Icon="2" MapID="" Show="0" IsSame="31;37" />
+	<Row ID="35" Name="特殊增强丹（身法中）" Desc="全体出战散仙身法增加8%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1060;1" UseTime="0" Time="7200" TotalTime="86400" Icon="9" MapID="" Show="0" IsSame="32;38" />
+	<Row ID="36" Name="特殊增强丹（攻击大）" Desc="全体出战散仙攻击增加10%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1061;1" UseTime="0" Time="7200" TotalTime="86400" Icon="1" MapID="" Show="0" IsSame="30;33" />
+	<Row ID="37" Name="特殊增强丹（防御大）" Desc="全体出战散仙防御增加10%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1062;1" UseTime="0" Time="7200" TotalTime="86400" Icon="2" MapID="" Show="0" IsSame="31;34" />
+	<Row ID="38" Name="特殊增强丹（身法大）" Desc="全体出战散仙身法增加10%" DescTime="剩余时间：{time}" BattleType="0" EffectType="1" Param1="1063;1" UseTime="0" Time="7200" TotalTime="86400" Icon="9" MapID="" Show="0" IsSame="32;35" />
+	<Row ID="39" Name="寻宝攻击加成" Desc="全体出战散仙攻击增加{0}%" DescTime="当日有效" BattleType="7" EffectType="1" Param1="1055;1" UseTime="0" Time="7200" TotalTime="86400" Icon="1" MapID="" Show="0" IsSame="33;36" />
+	<Row ID="41" Name="天将神力" Desc="全体出战散仙攻击增加20%" DescTime="下波守卫峨眉怪物有效" BattleType="0" EffectType="1" Param1="6000;1" UseTime="0" Time="7200" TotalTime="0" Icon="1" MapID="" Show="0" IsSame="" />
+	<Row ID="42" Name="无霜之卫" Desc="全体出战散仙防御增加20%" DescTime="下波守卫峨眉怪物有效" BattleType="0" EffectType="1" Param1="6001;1" UseTime="0" Time="7200" TotalTime="0" Icon="2" MapID="" Show="0" IsSame="" />
+	<Row ID="43" Name="守卫峨眉身法加成" Desc="全体出战散仙身法增加10%" DescTime="下波守卫峨眉怪物有效" BattleType="0" EffectType="1" Param1="1057;1" UseTime="0" Time="7200" TotalTime="0" Icon="9" MapID="" Show="0" IsSame="" />
+	<Row ID="44" Name="守卫峨眉防御加成" Desc="全体出战散仙攻击增加20%" DescTime="下波守卫峨眉怪物有效" BattleType="0" EffectType="1" Param1="1058;1" UseTime="0" Time="7200" TotalTime="0" Icon="1" MapID="" Show="0" IsSame="" />
+	<Row ID="45" Name="守卫峨眉身法加成" Desc="全体出战散仙防御增加20%" DescTime="下波守卫峨眉怪物有效" BattleType="0" EffectType="1" Param1="1059;1" UseTime="0" Time="7200" TotalTime="0" Icon="2" MapID="" Show="0" IsSame="" />
+	<Row ID="50" Name="银币加持" Desc="帮派战银币加持，攻击、防御增加{0}%" DescTime="本轮帮派战" BattleType="0" EffectType="1" Param1="4104;10" UseTime="0" Time="0" TotalTime="0" Icon="1" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="51" Name="仙石加持" Desc="帮派战仙石加持，攻击、防御增加{0}%" DescTime="本轮帮派战" BattleType="0" EffectType="1" Param1="4105;10" UseTime="0" Time="0" TotalTime="0" Icon="1" MapID="2004;2005;2006;2007;2008;2009" Show="1" IsSame="" />
+	<Row ID="100" Name="守卫峨眉终结" Desc="" DescTime="" BattleType="0" EffectType="0" Param1="" UseTime="0" Time="0" TotalTime="0" Icon="" MapID="" Show="0" IsSame="" />
+	<Row ID="101" Name="御剑特权试用" Desc="免费开放如下特权给您试用，如果好用还请续费支持我们。 <br/>一：世界BOSS自动战斗<br/>二：副本通关经验加成12%<br/>三：直接跳过战斗<br/>四：斗剑战败免CD" DescTime="剩余时间：{time}" BattleType="0" EffectType="3" Param1="" UseTime="0" Time="3600" TotalTime="0" Icon="vip" MapID="" Show="0" IsSame="" />
+</Table>

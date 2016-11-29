@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1007" name="前尘旧梦" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1006" name="伏魔仙剑"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1046"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>前尘旧梦，从何开始，去往何处？修道也好，学佛也罢，世间沉浮，如何解脱？</PCSpeak>
+            <NPCSpeak>可喜可贺，在修道之中有此领悟，想必是境界更上了一层。这时去找我们峨眉的李英琼师妹，方是安全之策。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="100"/>
+    <Item type="5" value="57"/>
+   </General>
+ </Award>
+</Task>

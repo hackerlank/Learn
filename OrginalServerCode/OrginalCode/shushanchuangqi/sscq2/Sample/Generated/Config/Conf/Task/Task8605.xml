@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="8605" name="金钟迷失" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="8604" name="破阵之计"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1501"  name="钱康">
+       <Chat  index="1">
+            <PCSpeak>晚辈多受城主恩惠，不知城主有何难事，在下或可出些微薄之力。</PCSpeak>
+            <NPCSpeak>我城与金钟岛世代交好，近期却失去金钟岛消息，听闻玄冥界中惊现岛主尸身，不得不去一探究竟。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14149"/>
+    <Item type="5" value="511639"/>
+   </General>
+ </Award>
+</Task>

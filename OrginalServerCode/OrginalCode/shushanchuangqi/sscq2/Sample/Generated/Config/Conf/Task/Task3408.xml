@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3408" name="天宫仙侍" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3409" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3407" name="天宫仙侍"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="41"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4996"/>
+    <Item type="5" value="123565"/>
+   </General>
+  <MustItem>
+   </MustItem>
+ </Award>
+</Task>

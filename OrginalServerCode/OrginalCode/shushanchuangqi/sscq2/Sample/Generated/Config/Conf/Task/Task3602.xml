@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3602" name="凌门雪鸿" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3655" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 招募散仙[font color="#32fb18"][u]凌雪鸿[/u][/font]({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3654" name="好心施救"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="7"  value="1"  param="117,117,117,117"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5358"/>
+    <Item type="5" value="186907"/>
+   </General>
+ </Award>
+</Task>

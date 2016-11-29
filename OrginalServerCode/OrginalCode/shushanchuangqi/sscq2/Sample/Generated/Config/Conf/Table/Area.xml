@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row areaId="1" areaName="触发区域测试a" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="1" IsDel="0" Asset="" Disappear="" />
+	<Row areaId="2" areaName="终点区域测试b" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="1" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="3" areaName="采集1" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="0" Asset="" Disappear="" />
+	<Row areaId="4" areaName="采集物测试2" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="5" areaName="古剑" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="6" areaName="枯木封印" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="7" areaName="灵玉天鞍·鞭" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="8" areaName="神锤封印" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="9" areaName="昆仑大阵" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="10" areaName="昆仑大阵" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="11" areaName="灵玉天鞍·缰" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="12" areaName="灵玉天鞍·鞍" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="0" IsDel="1" Asset="" Disappear="" />
+	<Row areaId="13" areaName="主线落石测试" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="1" IsDel="0" Asset="" Disappear="" />
+	<Row areaId="14" areaName="主线落火测试" AssetType="0" AssetParam1="0" AssetAdjust="1.000000" AssetShadow="1.000000" IsSafe="1" IsDel="0" Asset="" Disappear="" />
+</Table>

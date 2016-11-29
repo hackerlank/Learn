@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Level="1" Experience="0" Activaterecipe="1,2,3,4,5" Outputincrease="0" Yuanqireduce="0" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="2" Experience="100" Activaterecipe="6,7,8" Outputincrease="5" Yuanqireduce="0" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="3" Experience="500" Activaterecipe="12,14,18" Outputincrease="5" Yuanqireduce="5" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="4" Experience="1000" Activaterecipe="" Outputincrease="10" Yuanqireduce="5" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="5" Experience="2000" Activaterecipe="" Outputincrease="10" Yuanqireduce="10" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="6" Experience="5000" Activaterecipe="" Outputincrease="15" Yuanqireduce="10" Lifeincrease="200" Expincrease="2" Attackincrease="500" Armorincrease="500" />
+	<Row Level="7" Experience="10000" Activaterecipe="" Outputincrease="15" Yuanqireduce="15" Lifeincrease="200" Expincrease="4" Attackincrease="500" Armorincrease="500" />
+	<Row Level="8" Experience="50000" Activaterecipe="" Outputincrease="20" Yuanqireduce="20" Lifeincrease="500" Expincrease="8" Attackincrease="2000" Armorincrease="2000" />
+	<Row Level="9" Experience="100000" Activaterecipe="" Outputincrease="30" Yuanqireduce="30" Lifeincrease="1000" Expincrease="12" Attackincrease="4000" Armorincrease="4000" />
+	<Row Level="10" Experience="200000" Activaterecipe="99100" Outputincrease="50" Yuanqireduce="50" Lifeincrease="5000" Expincrease="20" Attackincrease="10000" Armorincrease="10000" />
+</Table>

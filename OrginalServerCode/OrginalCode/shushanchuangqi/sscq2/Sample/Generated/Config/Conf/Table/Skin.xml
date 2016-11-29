@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="111" Job="1" Sex="1" SkinId="1" Name="儒男1套" Appendix="0" />
+	<Row ID="112" Job="1" Sex="1" SkinId="2" Name="儒男2套" Appendix="13" />
+	<Row ID="113" Job="1" Sex="1" SkinId="3" Name="儒男3套" Appendix="14" />
+	<Row ID="114" Job="1" Sex="1" SkinId="4" Name="儒男4套" Appendix="0" />
+	<Row ID="121" Job="1" Sex="2" SkinId="1" Name="儒女1套" Appendix="0" />
+	<Row ID="122" Job="1" Sex="2" SkinId="2" Name="儒女2套" Appendix="15" />
+	<Row ID="123" Job="1" Sex="2" SkinId="3" Name="儒女3套" Appendix="16" />
+	<Row ID="124" Job="1" Sex="2" SkinId="4" Name="儒女4套" Appendix="3" />
+	<Row ID="211" Job="2" Sex="1" SkinId="1" Name="释男1套" Appendix="0" />
+	<Row ID="212" Job="2" Sex="1" SkinId="2" Name="释男2套" Appendix="5" />
+	<Row ID="213" Job="2" Sex="1" SkinId="3" Name="释男3套" Appendix="6" />
+	<Row ID="214" Job="2" Sex="1" SkinId="4" Name="释男4套" Appendix="0" />
+	<Row ID="221" Job="2" Sex="2" SkinId="1" Name="释女1套" Appendix="0" />
+	<Row ID="222" Job="2" Sex="2" SkinId="2" Name="释女2套" Appendix="7" />
+	<Row ID="223" Job="2" Sex="2" SkinId="3" Name="释女3套" Appendix="8" />
+	<Row ID="224" Job="2" Sex="2" SkinId="4" Name="释女4套" Appendix="0" />
+	<Row ID="311" Job="3" Sex="1" SkinId="1" Name="道男1套" Appendix="0" />
+	<Row ID="312" Job="3" Sex="1" SkinId="2" Name="道男2套" Appendix="1" />
+	<Row ID="313" Job="3" Sex="1" SkinId="3" Name="道男3套" Appendix="2" />
+	<Row ID="314" Job="3" Sex="1" SkinId="4" Name="道男4套" Appendix="0" />
+	<Row ID="321" Job="3" Sex="2" SkinId="1" Name="道女1套" Appendix="0" />
+	<Row ID="322" Job="3" Sex="2" SkinId="2" Name="道女2套" Appendix="3" />
+	<Row ID="323" Job="3" Sex="2" SkinId="3" Name="道女3套" Appendix="4" />
+	<Row ID="324" Job="3" Sex="2" SkinId="4" Name="道女4套" Appendix="0" />
+	<Row ID="411" Job="4" Sex="1" SkinId="1" Name="墨男1套" Appendix="0" />
+	<Row ID="412" Job="4" Sex="1" SkinId="2" Name="墨男2套" Appendix="9" />
+	<Row ID="413" Job="4" Sex="1" SkinId="3" Name="墨男3套" Appendix="10" />
+	<Row ID="414" Job="4" Sex="1" SkinId="4" Name="墨男4套" Appendix="0" />
+	<Row ID="421" Job="4" Sex="2" SkinId="1" Name="墨女1套" Appendix="0" />
+	<Row ID="422" Job="4" Sex="2" SkinId="2" Name="墨女2套" Appendix="11" />
+	<Row ID="423" Job="4" Sex="2" SkinId="3" Name="墨女3套" Appendix="12" />
+	<Row ID="424" Job="4" Sex="2" SkinId="4" Name="墨女4套" Appendix="0" />
+</Table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row PlayerLevel="1" Type="1" BasicType="1" BasicPercent="10000" BasicValue1="5" BasicValue2="10" UnexpectedType="2" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="0" />
+	<Row PlayerLevel="40" Type="1" BasicType="1" BasicPercent="10000" BasicValue1="5" BasicValue2="10" UnexpectedType="2" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="0" />
+	<Row PlayerLevel="60" Type="1" BasicType="2" BasicPercent="10000" BasicValue1="5" BasicValue2="10" UnexpectedType="3" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="0" />
+	<Row PlayerLevel="80" Type="1" BasicType="3" BasicPercent="10000" BasicValue1="5" BasicValue2="10" UnexpectedType="3" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="0" />
+	<Row PlayerLevel="1" Type="2" BasicType="1" BasicPercent="10000" BasicValue1="30" BasicValue2="60" UnexpectedType="2" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="20" />
+	<Row PlayerLevel="40" Type="2" BasicType="2" BasicPercent="10000" BasicValue1="5" BasicValue2="10" UnexpectedType="3" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="20" />
+	<Row PlayerLevel="60" Type="2" BasicType="3" BasicPercent="10000" BasicValue1="10" BasicValue2="20" UnexpectedType="3" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="20" />
+	<Row PlayerLevel="80" Type="2" BasicType="3" BasicPercent="10000" BasicValue1="20" BasicValue2="40" UnexpectedType="3" UnexpectedValue1="5" UnexpectedValue2="10" DrawSilverPrice="100000" DrawGoldPrice="20" />
+</Table>

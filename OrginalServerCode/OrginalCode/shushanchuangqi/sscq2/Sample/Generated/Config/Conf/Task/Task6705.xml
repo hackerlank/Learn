@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6705" name="迟人之先" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6704" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1403"  name="周轻云">
+       <Chat  index="1">
+            <PCSpeak>以前听言，这凝碧崖老龟乃玄武血脉，又兼修炼万年有余，绝不是我此时实力轻易对付。为何如此结果？</PCSpeak>
+            <NPCSpeak>听你讲来，似乎这老龟不惜献出自己内丹用到别处。这水性内丹是控制火种必备之物，看来我们还是去晚一步。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="12349"/>
+    <Item type="5" value="312417"/>
+   </General>
+ </Award>
+</Task>

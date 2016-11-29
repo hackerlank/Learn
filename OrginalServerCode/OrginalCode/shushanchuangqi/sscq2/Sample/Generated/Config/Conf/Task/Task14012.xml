@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="10"  content="128" >
+       <Basic id="14012" name="贡嘎故事" level="31" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="跑环" Charge="0" Nexttask="0" giveUp="1" linklevel="0" repeat="429497295" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="4" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+  <Limit/>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1057"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>前辈，可否赐教贡嘎镇的来历？</PCSpeak>
+            <NPCSpeak>贡嘎镇位于血穴之边，乃藏民之地，所以笃信佛法。为避洪水，整个镇在六十年前迁移到了佛像之上。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+  <Award/>
+</Task>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="9903" name="避世之因" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9902" name="五之去三"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1501"  name="钱康">
+       <Chat  index="1">
+            <PCSpeak>不知是谁竟然攻击金钟岛。</PCSpeak>
+            <NPCSpeak>那金钟岛虽然避世，却实力相当不俗，被迫使出如此大阵，想必是受到重创。你可再去黑水殿，那便与解开迷阵，只有一步遥。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="15379"/>
+    <Item type="5" value="771142"/>
+   </General>
+ </Award>
+</Task>

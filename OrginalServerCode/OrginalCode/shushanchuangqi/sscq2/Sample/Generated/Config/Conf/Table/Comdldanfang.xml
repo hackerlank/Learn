@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Type="1" Name="银币丹（短）" Yuanqi="10000" Output="2,1000" Ingredient="22,2|21,4" />
+	<Row ID="2" Type="1" Name="银币丹（中）" Yuanqi="20000" Output="2,1800" Ingredient="22,2|21,5" />
+	<Row ID="499" Type="1" Name="银币丹（长）" Yuanqi="14464" Output="2,7000" Ingredient="22,2|21,6" />
+	<Row ID="500" Type="2" Name="修为丹（短）" Yuanqi="10000" Output="9,20000" Ingredient="22,2|21,7" />
+	<Row ID="999" Type="2" Name="修为丹（长）" Yuanqi="14464" Output="9,15000" Ingredient="22,2|21,8" />
+	<Row ID="1000" Type="3" Name="经验丹（短）" Yuanqi="10000" Output="5,100000" Ingredient="22,2|21,10" />
+	<Row ID="1001" Type="3" Name="经验丹（中）" Yuanqi="20000" Output="5,180000" Ingredient="22,2|21,11" />
+	<Row ID="1499" Type="3" Name="经验丹（长）" Yuanqi="14464" Output="5,750000" Ingredient="22,2|21,12" />
+	<Row ID="1500" Type="4" Name="精魄丹（短）" Yuanqi="10000" Output="7,500" Ingredient="22,2|21,13" />
+	<Row ID="1999" Type="4" Name="龙魂丹（短）" Yuanqi="10000" Output="8,500" Ingredient="22,2|21,9" />
+</Table>

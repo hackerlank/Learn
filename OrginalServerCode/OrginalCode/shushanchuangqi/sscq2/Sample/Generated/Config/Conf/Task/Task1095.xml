@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1095" name="一线剑仙" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1094" name="术有专攻"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1075"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>我感觉离所求境界，只差一步而已。</PCSpeak>
+            <NPCSpeak>事有凑巧，有一凶恶怪物，为祸一方，如果你能成功挑战，想必便可一步踏入一线剑仙行列。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3747"/>
+    <Item type="5" value="94841"/>
+   </General>
+ </Award>
+</Task>

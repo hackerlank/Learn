@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1049" name="峨眉故友" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1048" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>既然玄天宗向昆仑镇急驰而来，想必能在这里拦截住他，问个明白。</PCSpeak>
+            <NPCSpeak>即便见到，也莫要莽撞，好生问个清楚才是。玄天宗正道之中赞誉颇佳，想不会公然入魔才是。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="2216"/>
+    <Item type="5" value="12723"/>
+   </General>
+ </Award>
+</Task>

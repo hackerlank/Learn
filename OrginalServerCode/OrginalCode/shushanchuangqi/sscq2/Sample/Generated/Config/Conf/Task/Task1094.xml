@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="1094" name="招式升华" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="500" Nexttask="1095" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']谢琳的无双技能升级[/font][/u][/a]到2级({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1093" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="52"  value="1"  param="100,195,2"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4633"/>
+    <Item type="5" value="93902"/>
+   </General>
+ </Award>
+</Task>

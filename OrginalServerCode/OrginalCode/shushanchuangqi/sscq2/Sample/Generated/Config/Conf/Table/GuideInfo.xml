@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" TaskId="0" GuideStep="2" GuideInfo="对话状态下，点击任意地方都可使对话进行下去哦。" NpcIcon="wantong" />
+	<Row ID="2" TaskId="0" GuideStep="1" GuideInfo="点击任务超链接，可以帮你自动寻路，打怪等等。不知去哪儿就点它！" NpcIcon="wantong" />
+	<Row ID="3" TaskId="0" GuideStep="1" GuideInfo="点这个按钮可以打开技能界面哦。" NpcIcon="wantong" />
+	<Row ID="4" TaskId="0" GuideStep="2" GuideInfo="点击这个小剑，才能把技能装备上。就可以在战斗中自动施放了哦。" NpcIcon="wantong" />
+	<Row ID="5" TaskId="0" GuideStep="1" GuideInfo="这个按钮可以打开法宝界面。有新法宝了哟！" NpcIcon="wantong" />
+	<Row ID="6" TaskId="0" GuideStep="2" GuideInfo="攒够足够的法宝碎片就能激活！试试看！" NpcIcon="wantong" />
+	<Row ID="7" TaskId="0" GuideStep="3" GuideInfo="法宝激活后，还要出战才有效哦。" NpcIcon="wantong" />
+	<Row ID="8" TaskId="0" GuideStep="2" GuideInfo="每打过一个副本，就会有巨大奖励！" NpcIcon="wantong" />
+	<Row ID="9" TaskId="0" GuideStep="1" GuideInfo="点击这里就能解封你的装备。这下实力大增了！" NpcIcon="wantong" />
+	<Row ID="10" TaskId="0" GuideStep="1" GuideInfo="这个按钮可以查看散仙界面。" NpcIcon="wantong" />
+	<Row ID="11" TaskId="0" GuideStep="2" GuideInfo="满足条件后就能激活散仙啦！" NpcIcon="wantong" />
+	<Row ID="12" TaskId="0" GuideStep="1" GuideInfo="这里就能打开坐骑界面，拉风的坐骑就要来了！" NpcIcon="wantong" />
+	<Row ID="13" TaskId="0" GuideStep="2" GuideInfo="满足条件后就能激活坐骑了！" NpcIcon="wantong" />
+	<Row ID="14" TaskId="0" GuideStep="3" GuideInfo="坐骑要点击骑乘才有效，立刻坐上你的新坐骑试试看吧！" NpcIcon="wantong" />
+	<Row ID="15" TaskId="0" GuideStep="1" GuideInfo="这里能打开阵灵界面。快快点击吧！" NpcIcon="wantong" />
+	<Row ID="16" TaskId="0" GuideStep="2" GuideInfo="点击激活就可以使用阵型了！" NpcIcon="wantong" />
+	<Row ID="17" TaskId="0" GuideStep="1" GuideInfo="打开这里能打开炼器界面，这里能全面提升你的装备，任性地点击吧！" NpcIcon="wantong" />
+	<Row ID="18" TaskId="0" GuideStep="2" GuideInfo="点击激活才能使你的阵灵活起来哟。" NpcIcon="wantong" />
+	<Row ID="19" TaskId="0" GuideStep="3" GuideInfo="点击出战吧！让你的阵灵一起上阵！" NpcIcon="wantong" />
+	<Row ID="20" TaskId="0" GuideStep="1" GuideInfo="打开这里能打开炼器界面，这里能全面提升你的装备，任性地点击吧！" NpcIcon="wantong" />
+	<Row ID="21" TaskId="0" GuideStep="2" GuideInfo="选中一件装备。" NpcIcon="wantong" />
+	<Row ID="22" TaskId="0" GuideStep="3" GuideInfo="点击强化按键就可以。还可以一键强化哟。" NpcIcon="wantong" />
+	<Row ID="23" TaskId="0" GuideStep="2" GuideInfo="点击这里能换成淬体页面。可以使你的散仙更强！" NpcIcon="wantong" />
+	<Row ID="24" TaskId="0" GuideStep="3" GuideInfo="点击这里，就能淬体你的散仙了。" NpcIcon="wantong" />
+</Table>

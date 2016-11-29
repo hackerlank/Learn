@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="8805" name="先天机巧" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="8804" name="功力再涨"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1504"  name="朱鸾">
+       <Chat  index="1">
+            <PCSpeak>水晶宫位置占先天之巧，果然有了一些金钟岛之真影，只不过在下功力尚浅，只能请朱姐姐亲去一次。</PCSpeak>
+            <NPCSpeak>也罢，少不得要亲去一趟，方知原委。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14374"/>
+    <Item type="5" value="565096"/>
+   </General>
+ </Award>
+</Task>

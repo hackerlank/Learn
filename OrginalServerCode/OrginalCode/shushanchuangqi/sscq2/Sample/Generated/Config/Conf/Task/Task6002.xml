@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6002" name="势力平衡" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6001" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1404"  name="癞姑">
+       <Chat  index="1">
+            <PCSpeak>每年的霜华盛世我也略有耳闻，想必前辈也是同样目的？</PCSpeak>
+            <NPCSpeak>老身虽然不如你们峨眉宝贝花样百出，但也看不上那陷空所施舍。只不过至宝出世，必然会带来势力平衡变化。特别是现下灵气枯竭。不成想却被困在此处。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11614"/>
+    <Item type="5" value="272786"/>
+   </General>
+ </Award>
+</Task>

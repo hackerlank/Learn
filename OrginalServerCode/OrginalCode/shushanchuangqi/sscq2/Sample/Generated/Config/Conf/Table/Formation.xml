@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="三清四御阵" Position="1,4,5,3,6" Unlock="323" AttrIdx_1="9200" />
+	<Row ID="2" Name="八荒六合阵" Position="0,3,4,7,8" Unlock="336" AttrIdx_1="9201" />
+	<Row ID="3" Name="七绝锁云阵" Position="1,2,4,6,7" Unlock="324" AttrIdx_1="9202" />
+	<Row ID="4" Name="四象元灵阵" Position="1,2,3,5,6" Unlock="325" AttrIdx_1="9203" />
+	<Row ID="5" Name="赤炎金光阵" Position="1,3,5,7,8" Unlock="344" AttrIdx_1="9204" />
+	<Row ID="6" Name="奇门遁甲阵" Position="1,3,5,6,8" Unlock="326" AttrIdx_1="9205" />
+	<Row ID="7" Name="天罡地煞阵" Position="2,3,4,5,6" Unlock="327" AttrIdx_1="9206" />
+	<Row ID="8" Name="都天烈火阵" Position="1,3,4,5,7" Unlock="328" AttrIdx_1="9207" />
+	<Row ID="9" Name="金刚伏魔阵" Position="0,2,3,4,8" Unlock="329" AttrIdx_1="9208" />
+	<Row ID="10" Name="颠倒八卦阵" Position="0,1,5,6,7" Unlock="330" AttrIdx_1="9209" />
+	<Row ID="11" Name="须弥九宫阵" Position="0,2,4,5,6" Unlock="331" AttrIdx_1="9210" />
+	<Row ID="12" Name="北斗七星阵" Position="1,2,3,7,8" Unlock="332" AttrIdx_1="9211" />
+	<Row ID="13" Name="紫微太极阵" Position="0,2,3,5,7" Unlock="333" AttrIdx_1="9212" />
+	<Row ID="14" Name="五行灭绝阵" Position="0,2,4,7,8" Unlock="334" AttrIdx_1="9213" />
+	<Row ID="15" Name="两仪微尘阵" Position="0,2,4,6,8" Unlock="335" AttrIdx_1="9214" />
+	<Row ID="255" Name="出生阵型" Position="4,1,7" Unlock="0" AttrIdx_1="0" />
+</Table>

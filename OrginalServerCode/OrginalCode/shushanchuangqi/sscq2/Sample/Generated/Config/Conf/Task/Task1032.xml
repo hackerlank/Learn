@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1032" name="妙仙灵法" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1031" name="招至麾下"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>多蒙仙子不弃我落魄之境。从此以后我们便一起抗魔修道，游历天下！</PCSpeak>
+            <NPCSpeak>我门有一门法，如果两人并肩作战须按着一定成法顺势而立，依天地之法，引洪荒之力，方能战胜强大对手。不妨一试。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1360"/>
+    <Item type="5" value="5472"/>
+   </General>
+ </Award>
+</Task>

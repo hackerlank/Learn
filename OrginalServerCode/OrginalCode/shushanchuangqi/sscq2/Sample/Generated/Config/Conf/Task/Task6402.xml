@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6402" name="相生相关" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6401" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1404"  name="癞姑">
+       <Chat  index="1">
+            <PCSpeak>适才乙休前辈说此次灵气断绝未必与此处火种有关。</PCSpeak>
+            <NPCSpeak>依理来说，那火种不但不应该失去灵气，反而是灵气充沛源源不断才是。但是禁锢其稳固的阵法却未必。一切要等修补完毕方可细细研究。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11989"/>
+    <Item type="5" value="306063"/>
+   </General>
+ </Award>
+</Task>

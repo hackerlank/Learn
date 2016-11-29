@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Degree="0" Award="10" Gradation="0" Tip="完成一次2连杀" />
+	<Row ID="2" Degree="0" Award="10" Gradation="0" Tip="终结一次2连杀" />
+	<Row ID="3" Degree="0" Award="10" Gradation="0" Tip="胜利场次达到3" />
+	<Row ID="4" Degree="0" Award="10" Gradation="0" Tip="荣誉徽章达到2级" />
+	<Row ID="5" Degree="0" Award="10" Gradation="0" Tip="击败一位战力高于自己的对手" />
+	<Row ID="6" Degree="0" Award="10" Gradation="0" Tip="击败一位生命高于自己的对手" />
+	<Row ID="7" Degree="0" Award="15" Gradation="1" Tip="使用一次霸气技能：金刚不坏" />
+	<Row ID="8" Degree="0" Award="15" Gradation="1" Tip="使用一次怒气技能：破军" />
+	<Row ID="9" Degree="0" Award="20" Gradation="1" Tip="使用一次霸气技能：心意如铁" />
+	<Row ID="10" Degree="0" Award="20" Gradation="1" Tip="使用一次怒气技能：狂暴" />
+	<Row ID="11" Degree="0" Award="20" Gradation="1" Tip="使用一次霸气技能：神行百变" />
+	<Row ID="12" Degree="0" Award="20" Gradation="1" Tip="使用一次怒气技能：黯灭" />
+	<Row ID="13" Degree="0" Award="25" Gradation="1" Tip="使用一次霸气技能：春风化雨" />
+	<Row ID="14" Degree="0" Award="25" Gradation="1" Tip="使用一次怒气技能：天怒" />
+	<Row ID="15" Degree="1" Award="30" Gradation="0" Tip="完成一次3连杀" />
+	<Row ID="16" Degree="1" Award="30" Gradation="0" Tip="终结一次3以上的连杀" />
+	<Row ID="17" Degree="1" Award="30" Gradation="0" Tip="胜利场次达到10" />
+	<Row ID="18" Degree="1" Award="30" Gradation="0" Tip="荣誉徽章达到4级" />
+	<Row ID="19" Degree="1" Award="50" Gradation="0" Tip="完成一次4连杀" />
+	<Row ID="20" Degree="1" Award="50" Gradation="0" Tip="终结一次4以上的连杀" />
+	<Row ID="21" Degree="1" Award="50" Gradation="0" Tip="胜利场次达到15" />
+	<Row ID="22" Degree="1" Award="50" Gradation="0" Tip="荣誉徽章达到6级" />
+	<Row ID="23" Degree="2" Award="80" Gradation="0" Tip="完成一次6连杀" />
+	<Row ID="24" Degree="2" Award="80" Gradation="0" Tip="胜利场次达到20" />
+	<Row ID="25" Degree="2" Award="80" Gradation="0" Tip="荣誉徽章达到8级" />
+	<Row ID="26" Degree="2" Award="100" Gradation="0" Tip="完成一次10连杀" />
+	<Row ID="27" Degree="2" Award="100" Gradation="0" Tip="胜利场次达到25" />
+	<Row ID="28" Degree="2" Award="100" Gradation="0" Tip="荣誉徽章达到9级" />
+</Table>

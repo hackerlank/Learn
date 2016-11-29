@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Tips="屏蔽字组合A" Type="3" DefaultData="仙石，商" />
+	<Row ID="2" Tips="屏蔽字组合B" Type="3" DefaultData="交易，人" />
+	<Row ID="3" Tips="黄钻开启比例" Type="1" DefaultData="" />
+	<Row ID="4" Tips="精彩活动开启比例" Type="1" DefaultData="" />
+	<Row ID="5" Tips="邀请好友开启比例" Type="1" DefaultData="" />
+	<Row ID="6" Tips="充值礼包开启比例" Type="1" DefaultData="1" />
+	<Row ID="7" Tips="七星龙珠开启比例" Type="1" DefaultData="" />
+</Table>

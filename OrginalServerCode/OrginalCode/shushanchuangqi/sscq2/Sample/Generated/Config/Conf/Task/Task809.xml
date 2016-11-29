@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="809" name="渡劫神力" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="500" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 使谢琳[a event="{0}"][u][font color='#32fb18']渡劫[/font][/u][/a]到炼气期7星({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1033" name="事有转机"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="48"  value="1"  param="100,7"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1461"/>
+    <Item type="5" value="4817"/>
+   </General>
+ </Award>
+</Task>

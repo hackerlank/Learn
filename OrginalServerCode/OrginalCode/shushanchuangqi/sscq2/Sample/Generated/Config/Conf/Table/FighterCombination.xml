@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="火盾无害" Icon="1" Hero="100,102" Effect="1" Skill="900" GetCond="100" Color="4" Limit="0" />
+	<Row ID="2" Name="紫狐黄鸟" Icon="2" Hero="107,109" Effect="2" Skill="908" GetCond="101" Color="4" Limit="0" />
+	<Row ID="3" Name="邪道双煞" Icon="3" Hero="111,118" Effect="3" Skill="904" GetCond="102" Color="4" Limit="0" />
+	<Row ID="4" Name="赤杵无情" Icon="4" Hero="103,104" Effect="4" Skill="912" GetCond="103" Color="4" Limit="0" />
+	<Row ID="5" Name="神君雪落" Icon="5" Hero="117,106" Effect="5" Skill="916" GetCond="104" Color="4" Limit="0" />
+	<Row ID="6" Name="输光光" Icon="6" Hero="101,112" Effect="6" Skill="920" GetCond="105" Color="4" Limit="0" />
+	<Row ID="7" Name="拍拍大圣" Icon="7" Hero="116,114" Effect="7" Skill="924" GetCond="106" Color="4" Limit="0" />
+	<Row ID="8" Name="不是人" Icon="8" Hero="108,110" Effect="8" Skill="928" GetCond="107" Color="4" Limit="0" />
+	<Row ID="9" Name="蜀山双姝" Icon="9" Hero="105,119" Effect="9" Skill="932" GetCond="108" Color="4" Limit="0" />
+	<Row ID="10" Name="雄尸雌鬼" Icon="10" Hero="113,115" Effect="10" Skill="936" GetCond="109" Color="4" Limit="0" />
+</Table>

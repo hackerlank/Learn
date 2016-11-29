@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="9602" name="相助到底" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9601" name="强者无境"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1505"  name="卢妪">
+       <Chat  index="1">
+            <PCSpeak>前辈何事找我？</PCSpeak>
+            <NPCSpeak>你最近倒是行色匆忙，想必那金钟岛一事让你颇为头痛。不过我听说那岛主已经有了办法。既然你相助于他，定要帮助到底。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="15079"/>
+    <Item type="5" value="691530"/>
+   </General>
+ </Award>
+</Task>

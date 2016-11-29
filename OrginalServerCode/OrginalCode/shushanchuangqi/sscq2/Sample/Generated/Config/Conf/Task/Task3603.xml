@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3603" name="相辅相成" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3604" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 使凌雪鸿在阵形中[a event="{0}"][u][font color='#32fb18']上阵[/font][/u][/a]{3}次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3655" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="56"  value="1"  param="117"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5439"/>
+    <Item type="5" value="93784"/>
+   </General>
+ </Award>
+</Task>

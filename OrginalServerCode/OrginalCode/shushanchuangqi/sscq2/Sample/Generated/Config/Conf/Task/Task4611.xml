@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="4611" name="洗筋洗髓" level="0" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4610" name="修仙练宝"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="66"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8500"/>
+    <Item type="5" value="120000"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" FieldDown="1" FieldUp="2" Desc="第一名" Content="200,1|2,1000|9,500" />
+	<Row ID="2" FieldDown="2" FieldUp="3" Desc="第二名" Content="200,1|101,5|241,1" />
+	<Row ID="3" FieldDown="3" FieldUp="4" Desc="第三名" Content="200,1|101,6|242,3" />
+	<Row ID="4" FieldDown="4" FieldUp="5" Desc="第四名" Content="200,1|101,7|242,5" />
+	<Row ID="5" FieldDown="5" FieldUp="6" Desc="第五名" Content="200,1|101,7|243,3" />
+	<Row ID="6" FieldDown="6" FieldUp="7" Desc="第六名" Content="200,1|101,7|243,3" />
+	<Row ID="7" FieldDown="7" FieldUp="8" Desc="第七名" Content="200,1|101,7|243,3" />
+</Table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Day="1" Price="235" Discount="50" Agio="3" Reward="56,1000|2,500000|10912,3|201,3|204,3" />
+	<Row Day="2" Price="360" Discount="120" Agio="3" Reward="290,25|2,700000|56,500|10912,2|204,2" />
+	<Row Day="3" Price="285" Discount="80" Agio="3" Reward="292,15|2,600000|10912,3|201,3|204,3" />
+	<Row Day="4" Price="380" Discount="140" Agio="3" Reward="293,30|2,800000|56,300|201,2|204,2" />
+	<Row Day="5" Price="900" Discount="150" Agio="3" Reward="291,10|2,900000|56,300|10912,2|201,2" />
+	<Row Day="6" Price="450" Discount="170" Agio="3" Reward="292,35|2,1000000|56,300|10912,2|204,2" />
+	<Row Day="7" Price="550" Discount="200" Agio="3" Reward="56,3500|2,1000000|10912,10|201,5|204,3" />
+</Table>

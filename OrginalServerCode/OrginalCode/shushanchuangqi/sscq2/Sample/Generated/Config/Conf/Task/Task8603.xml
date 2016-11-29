@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="8603" name="代行教诲" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="8602" name="外派霜华"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1025"  name="齐掌教">
+       <Chat  index="1">
+            <PCSpeak>弟子近期在卢妪前辈处修行，获益良多。</PCSpeak>
+            <NPCSpeak>那卢妪不仅成名早，而且经历颇丰，如果她继续留你身边。暂且在她身边相助也不失为修炼办法。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14119"/>
+    <Item type="5" value="509567"/>
+   </General>
+ </Award>
+</Task>

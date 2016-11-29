@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5812" name="相互猜测" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5811" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1404"  name="癞姑">
+       <Chat  index="1">
+            <PCSpeak>回报前辈，乙休前辈并未明示，只派我去往昆仑的困龙池。</PCSpeak>
+            <NPCSpeak>困龙池？难道被魔功更高的魔物占领了？难怪如此。你速回乙休老贼处，看看他接下来是否派你去玄冰谷，一试便知。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11329"/>
+    <Item type="5" value="240258"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5813" name="玄冰寒谷" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5812" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1402"  name="乙休">
+       <Chat  index="1">
+            <PCSpeak>既然去除了困龙池中的魔怪，不知对前辈破解失踪之迷可有帮助？</PCSpeak>
+            <NPCSpeak>你小子做的不错，虽然峨眉手段为我不屑，但是不得不说独具慧眼，所招弟子皆有潜力。不如，你就再跑一趟，去玄冰谷除掉我心头一害。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11344"/>
+    <Item type="5" value="242196"/>
+   </General>
+ </Award>
+</Task>

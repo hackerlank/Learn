@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row wResistId="1" strName="阻挡物测试1" AssetType="0" AssetParam1="0" Asset="E01_chufa_luoshi.awp" Disappear="" />
+	<Row wResistId="2" strName="阻挡物测试2" AssetType="0" AssetParam1="0" Asset="E02_chufa_mohuoqiu.awp" Disappear="" />
+	<Row wResistId="3" strName="石块" AssetType="0" AssetParam1="1" Asset="" Disappear="" />
+	<Row wResistId="4" strName="水晶" AssetType="0" AssetParam1="2" Asset="" Disappear="" />
+	<Row wResistId="5" strName="阻挡物测试5" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="6" strName="阻挡物测试6" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="7" strName="阻挡物测试7" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="8" strName="阻挡物测试8" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="9" strName="阻挡物测试9" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="10" strName="阻挡物测试10" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="11" strName="阻挡物测试11" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="12" strName="阻挡物测试12" AssetType="0" AssetParam1="0" Asset="" Disappear="" />
+	<Row wResistId="13" strName="主线落石测试" AssetType="0" AssetParam1="0" Asset="" Disappear="E01_chufa_luoshi.awp" />
+	<Row wResistId="14" strName="主线落火" AssetType="0" AssetParam1="0" Asset="" Disappear="E02_chufa_mohuoqiu.awp" />
+</Table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row cid="1" Daytime="1" Fanl="100" Cost="100" Desc="一星龙珠" Award="2,300000|56,1000|51,100|8803,2" />
+	<Row cid="1" Daytime="2" Fanl="100" Cost="100" Desc="二星龙珠" Award="2,300000|290,10|51,100|8823,2" />
+	<Row cid="1" Daytime="3" Fanl="100" Cost="100" Desc="三星龙珠" Award="2,300000|8805,1|51,100|8843,2" />
+	<Row cid="1" Daytime="4" Fanl="100" Cost="100" Desc="四星龙珠" Award="2,300000|293,10|51,100|8863,2" />
+	<Row cid="1" Daytime="5" Fanl="100" Cost="100" Desc="五星龙珠" Award="2,300000|292,10|51,100|8883,2" />
+	<Row cid="1" Daytime="6" Fanl="100" Cost="100" Desc="六星龙珠" Award="2,300000|8865,1|51,100|3,40" />
+	<Row cid="1" Daytime="7" Fanl="100" Cost="100" Desc="七星龙珠" Award="2,300000|56,1000|51,100|3,50" />
+	<Row cid="1" Daytime="8" Fanl="100" Cost="0" Desc="七星连珠" Award="2,2000000|291,10|52,100|8805,1" />
+</Table>

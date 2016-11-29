@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" FieldDown="1" FieldUp="2" Desc="第一名" Content="200,1|2,1000|9,500" />
+	<Row ID="2" FieldDown="2" FieldUp="3" Desc="第二名" Content="200,1|101,5|241,1" />
+	<Row ID="3" FieldDown="3" FieldUp="4" Desc="第三名" Content="200,1|101,6|242,3" />
+</Table>

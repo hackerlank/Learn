@@ -1,0 +1,1 @@
+ALTER TABLE `tblroleequiptrumpdata` ADD COLUMN `qwRoleID` BIGINT(20) UNSIGNED NOT NULL COMMENT '玩家ID'  AFTER `qwOwnerID` ;

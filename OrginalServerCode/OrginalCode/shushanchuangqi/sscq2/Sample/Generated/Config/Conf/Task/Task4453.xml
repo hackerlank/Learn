@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="4453" name="激活神灯" level="45" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 激活并使玉心灯出战 </Desc>
+    <Purpose> 激活并使[a][u][font color='#32fb18']玉心灯[/font][/u][/a]出战({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4452" name="越炼越强"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="16"  value="1"  param="5200,5200,5200,5200"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8617"/>
+    <Item type="5" value="114335"/>
+   </General>
+ </Award>
+</Task>

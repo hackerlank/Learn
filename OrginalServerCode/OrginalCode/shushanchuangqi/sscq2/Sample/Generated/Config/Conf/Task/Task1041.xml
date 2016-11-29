@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1041" name="追上昆仑" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1040" name="渡劫神力"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>突破之后，更是对修道有了全新理解。唉…若非遇到你，不知我会沦落到哪里。</PCSpeak>
+            <NPCSpeak>虽然玄天宗未在洞府内寻到，但我们跟着那个妖物的踪迹追上昆仑，说不定也有机会。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1814"/>
+    <Item type="5" value="11561"/>
+   </General>
+ </Award>
+</Task>

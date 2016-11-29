@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--跨服服务器配置-->
+<Config>
+  <!--定义服务器组所用的物理机-->
+  <HostList>
+    <Host>
+      <!--默认物理机 name="default",也可以不写-->
+      <!--以下为本物理机对外的地址列表
+      type为0表示对外的统一URL地址
+      type不为0，一般用于双线服务器，比如1为本机在电信的地址，2为在网通的地址。在LoginServer接收到客户端的连接后，
+      判断是从哪个地址进来的，然后再把GateServer的相应地址发给客户端
+      -->
+      <Address type="0" ip="s2.app100722230.qqopenapp.com"/>
+      <Address type="1" ip="127.0.0.1"/>
+      <Address type="2" ip="192.168.88.123"/>
+    </Host>
+    <Host name="new">
+      <!--另一台物理机，名称为new-->
+      <Address type="2" ip="192.168.88.118"/>
+    </Host>
+  </HostList>
+  <!--定义服务器组
+    group表示服务器组号(区号)
+    portbase表示服务器的起始监听端口号(后面写的数字都在这个基础上加)
+  -->
+  <ServerGroup group="0" portbase="15000" key="12345678">
+    <!--定义组内的服务器,可能的服务器有：
+      GameServer 游戏服务器，根据负载情况可以有多个
+      LogServer 日志服务器，只能有一个
+    -->
+    <GameServer     idx="1" listen="31" console="true"/>
+    <!--GameServer     idx="2" listen="32" console="true" host="default"/-->
+    <LogServer   	idx="1" listen="70" db="log"/>
+  </ServerGroup>
+  <!--定义服务器之间的连接情况-->
+  <Connect>
+    <GateServer>
+      <GameServer/>
+    </GateServer>
+    <CenterServer>
+      <GameServer/>
+    </CenterServer>
+    <GameServer>
+      <LogServer/>
+    </GameServer>
+    <DBServer>
+      <GameServer/>
+    </DBServer>
+  </Connect>
+  <!--定义服务器用到的数据库-->
+  <DatabaseList>
+    <!--定义一个数据库：name为引用名，ip为MySQL服务器的地址，port为端口，db为MySQL服务器中数据库的名称，user为帐号，passwd为密码-->
+    <!--linux为Linux下的数据库脚本目录，windows为Windows平台下的数据库脚本目录，init为数据库初始化脚本，once为一次更新后只执行一次的脚本，用于更新数据库-->
+    <Database name="log" ip="127.0.0.1" port="3306" db="LogDB" user="root" passwd="admin" linux="Config/LogDB" windows="E:\Config\LogDB\" init="new.sh" once="once.sh"/>
+  </DatabaseList>
+  <!--定义服务器日志记录的位置
+    linux为在Linux上记录的路径
+    windows为在Windows上记录的路径
+    console表示是否同时在控制台中打印服务器日志
+  -->
+  <Log linux="../Log" windows="E:\CrossLog" console="true"/>
+  <!--定义游戏日志记录的位置
+    linux为在Linux上记录的路径
+    windows为在Windows上记录的路径
+    db表示是否同时在数据库中记录游戏日志
+  -->
+  <GameLog linux="../GameLog" windows="E:\CrossGameLog" db="true"/>
+  <!--Linux上进程间通信使用的管道位置-->
+  <Pipe path="../fifo"/>
+  <!--GM权限是否对全部玩家开放-->
+  <GM open="true"/>
+  <!--玩家角色出生位置
+    dgn表示出生的副本编号，idx表示出生的GameServer编号
+  -->
+  <Born dgn="0" idx="1"/>
+  <!--玩家数据的版本号-->
+  <UserData version="0"/>
+  <!--数据中心配置-->
+  <PlatForm name="kingnet" id="1"/>
+</Config>

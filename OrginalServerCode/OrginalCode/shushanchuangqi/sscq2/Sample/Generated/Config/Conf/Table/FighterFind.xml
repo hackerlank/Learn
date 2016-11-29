@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="100" Scene="1" GoldRandom="100.000000" CouponRandom="10.000000" SilverRandom="0.000000" FighterProp="" PriceItem="1750,1" />
+	<Row ID="101" Scene="1" GoldRandom="450.000000" CouponRandom="200.000000" SilverRandom="110.000000" FighterProp="" PriceItem="113,1" />
+	<Row ID="102" Scene="1" GoldRandom="450.000000" CouponRandom="200.000000" SilverRandom="110.000000" FighterProp="" PriceItem="113,1" />
+	<Row ID="103" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="100,1" PriceItem="" />
+	<Row ID="104" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="101,1" PriceItem="" />
+	<Row ID="105" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="102,1" PriceItem="" />
+	<Row ID="106" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="107" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="108" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="110,1" />
+	<Row ID="109" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="110" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="111" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="110,1" />
+	<Row ID="112" Scene="1" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="113" Scene="1" GoldRandom="800.000000" CouponRandom="580.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="114" Scene="1" GoldRandom="200.000000" CouponRandom="10.000000" SilverRandom="1.000000" FighterProp="" PriceItem="110,1" />
+	<Row ID="200" Scene="2" GoldRandom="100.000000" CouponRandom="10.000000" SilverRandom="0.000000" FighterProp="" PriceItem="1750,1" />
+	<Row ID="201" Scene="2" GoldRandom="450.000000" CouponRandom="200.000000" SilverRandom="110.000000" FighterProp="" PriceItem="113,1" />
+	<Row ID="202" Scene="2" GoldRandom="450.000000" CouponRandom="200.000000" SilverRandom="110.000000" FighterProp="" PriceItem="113,1" />
+	<Row ID="203" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="200,1" PriceItem="" />
+	<Row ID="204" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="201,1" PriceItem="" />
+	<Row ID="205" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="202,1" PriceItem="" />
+	<Row ID="206" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="207" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="208" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="110,1" />
+	<Row ID="209" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="210" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="211" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="110,1" />
+	<Row ID="212" Scene="2" GoldRandom="800.000000" CouponRandom="900.000000" SilverRandom="889.000000" FighterProp="" PriceItem="108,1" />
+	<Row ID="213" Scene="2" GoldRandom="800.000000" CouponRandom="580.000000" SilverRandom="889.000000" FighterProp="" PriceItem="109,1" />
+	<Row ID="214" Scene="2" GoldRandom="200.000000" CouponRandom="10.000000" SilverRandom="1.000000" FighterProp="" PriceItem="110,1" />
+</Table>

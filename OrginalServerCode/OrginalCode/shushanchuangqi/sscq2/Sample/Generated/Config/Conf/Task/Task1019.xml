@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1019" name="五台掌门" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1018" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1072"  name="尊胜大师">
+       <Chat  index="1">
+            <PCSpeak>近日听闻各大仙山灵气枯竭，不知大师是否知道原因。</PCSpeak>
+            <NPCSpeak>唉，天下仙山灵脉大有枯竭之势，我五台一派虽有先人仙阵保固，却也未能逃出此次劫数。</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>那可如何是好？不知峨眉是否有此危险？</PCSpeak>
+            <NPCSpeak>听闻齐掌教有一秘法保持仙山灵气，但是…我佛慈悲！不可说，不可说。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="706"/>
+    <Item type="5" value="551"/>
+   </General>
+ </Award>
+</Task>

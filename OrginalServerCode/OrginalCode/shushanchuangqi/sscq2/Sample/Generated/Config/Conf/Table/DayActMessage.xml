@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" ActType="1" DayActId="1" WeekDay="0" Moth="0" MothDay="0" AppearTime="10:20" BeginTime="10:30" EndTime="11:00" Icon="35" />
+	<Row ID="3" ActType="5" DayActId="3" WeekDay="0" Moth="0" MothDay="0" AppearTime="11:25" BeginTime="11:30" EndTime="15:30" Icon="33" />
+	<Row ID="4" ActType="6" DayActId="4" WeekDay="0" Moth="0" MothDay="0" AppearTime="18:55" BeginTime="19:00" EndTime="20:00" Icon="13" />
+	<Row ID="9" ActType="1" DayActId="9" WeekDay="0" Moth="0" MothDay="0" AppearTime="15:40" BeginTime="15:45" EndTime="16:15" Icon="39" />
+	<Row ID="10" ActType="5" DayActId="10" WeekDay="0" Moth="0" MothDay="0" AppearTime="17:55" BeginTime="18:00" EndTime="21:30" Icon="33" />
+	<Row ID="12" ActType="4" DayActId="12" WeekDay="0" Moth="0" MothDay="0" AppearTime="11:55" BeginTime="12:00" EndTime="12:30" Icon="23" />
+	<Row ID="13" ActType="9" DayActId="13" WeekDay="4" Moth="0" MothDay="0" AppearTime="20:25" BeginTime="20:30" EndTime="21:15" Icon="84" />
+	<Row ID="14" ActType="7" DayActId="14" WeekDay="0" Moth="0" MothDay="0" AppearTime="13:25" BeginTime="13:30" EndTime="13:41" Icon="74" />
+	<Row ID="16" ActType="9" DayActId="16" WeekDay="6" Moth="0" MothDay="0" AppearTime="20:25" BeginTime="20:30" EndTime="21:15" Icon="84" />
+	<Row ID="17" ActType="8" DayActId="17" WeekDay="0" Moth="0" MothDay="0" AppearTime="13:55" BeginTime="14:00" EndTime="14:30" Icon="82" />
+	<Row ID="18" ActType="8" DayActId="18" WeekDay="0" Moth="0" MothDay="0" AppearTime="19:50" BeginTime="20:00" EndTime="20:30" Icon="82" />
+	<Row ID="21" ActType="10" DayActId="21" WeekDay="0" Moth="0" MothDay="0" AppearTime="10:55" BeginTime="11:00" EndTime="11:15" Icon="86" />
+	<Row ID="22" ActType="10" DayActId="22" WeekDay="0" Moth="0" MothDay="0" AppearTime="16:10" BeginTime="16:15" EndTime="16:30" Icon="86" />
+	<Row ID="23" ActType="3" DayActId="23" WeekDay="1" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="24" ActType="3" DayActId="24" WeekDay="2" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="25" ActType="3" DayActId="25" WeekDay="3" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="26" ActType="3" DayActId="26" WeekDay="5" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="27" ActType="3" DayActId="27" WeekDay="7" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="28" ActType="3" DayActId="28" WeekDay="4" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="29" ActType="3" DayActId="29" WeekDay="6" Moth="0" MothDay="0" AppearTime="20:20" BeginTime="20:40" EndTime="21:25" Icon="18" />
+	<Row ID="30" ActType="6" DayActId="30" WeekDay="0" Moth="0" MothDay="0" AppearTime="14:40" BeginTime="14:45" EndTime="15:30" Icon="13" />
+	<Row ID="31" ActType="11" DayActId="31" WeekDay="0" Moth="0" MothDay="0" AppearTime="11:15" BeginTime="11:15" EndTime="12:00" Icon="69" />
+	<Row ID="32" ActType="9" DayActId="32" WeekDay="1" Moth="0" MothDay="0" AppearTime="20:25" BeginTime="20:30" EndTime="21:15" Icon="84" />
+	<Row ID="33" ActType="11" DayActId="33" WeekDay="0" Moth="0" MothDay="0" AppearTime="18:15" BeginTime="18:15" EndTime="19:00" Icon="69" />
+</Table>

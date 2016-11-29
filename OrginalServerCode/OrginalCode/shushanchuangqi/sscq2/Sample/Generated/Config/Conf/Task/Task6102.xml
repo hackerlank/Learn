@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6102" name="继续周旋" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6101" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1401"  name="亓南公">
+       <Chat  index="1">
+            <PCSpeak>不知师伯找我何事？弟子无能，还未曾从乙休前辈那里找来线索。</PCSpeak>
+            <NPCSpeak>无妨，一般人莫说问出答案，就连话都未必能说上。你继续与那老怪周旋便是。只是别被他掳去作了弟子就是。哈哈。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11704"/>
+    <Item type="5" value="284232"/>
+   </General>
+ </Award>
+</Task>

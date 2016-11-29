@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1067" name="神奇之能" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1066" name="渡劫神力"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1030"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>从天册仙女到地府怨灵，无一不想来此地修行，只要一天之功便可抵过数月辛苦。不知此地是否有此神奇之能。</PCSpeak>
+            <NPCSpeak>不错，此处虽灵，却有迷雾困扰，不知多少欲来偷仙之人迷失其中。林中更有怪物凶悍，凶不可挡。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3072"/>
+    <Item type="5" value="23627"/>
+   </General>
+ </Award>
+</Task>

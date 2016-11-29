@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="攻击鼓舞" Desc="攻击力增加10%" BuffID="7" PriceType="1" Price="5" />
+	<Row ID="2" Name="防御鼓舞" Desc="防御力增加10%" BuffID="8" PriceType="1" Price="5" />
+	<Row ID="3" Name="身法鼓舞" Desc="身法增加10%" BuffID="9" PriceType="1" Price="5" />
+	<Row ID="4" Name="生命鼓舞" Desc="生命值增加20%" BuffID="16" PriceType="1" Price="5" />
+	<Row ID="5" Name="银币鼓舞" Desc="攻击、防御增加10%" BuffID="50" PriceType="2" Price="5" />
+	<Row ID="6" Name="仙石鼓舞" Desc="攻击、防御增加10%" BuffID="51" PriceType="1;3" Price="10000" />
+</Table>

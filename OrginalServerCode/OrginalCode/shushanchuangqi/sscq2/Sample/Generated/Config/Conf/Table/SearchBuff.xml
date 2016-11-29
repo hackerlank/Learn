@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" BuffID="39" Name="天罡神力" Effect="1055" DailyTimes="10" BuffCD="300" Description="使用后今日寻宝场景中，攻击+5%，最多累加10次" />
+	<Row ID="2" BuffID="2" Name="乾坤一掷" Effect="3000" DailyTimes="10" BuffCD="600" Description="使用后可直接对BOSS造成一次伤害，最多使用10次" />
+	<Row ID="3" BuffID="3" Name="偷梁换柱" Effect="5200" DailyTimes="5" BuffCD="900" Description="使用后可直接偷取当前BOSS身上的一件宝物，最多偷取5次" />
+</Table>

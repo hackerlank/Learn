@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="4452" name="玉心神灯" level="45" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5001" name="更高山峰"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1023"  name="苦行头陀">
+       <Chat  index="1">
+            <PCSpeak>大师找我何事？如此匆忙？</PCSpeak>
+            <NPCSpeak>玉心灯乃我峨眉至宝之一，现今你实力已足，可以驾驭伏魔。定要悉心修炼，不负其盛名方是。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8569"/>
+    <Item type="5" value="112491"/>
+   </General>
+ </Award>
+</Task>

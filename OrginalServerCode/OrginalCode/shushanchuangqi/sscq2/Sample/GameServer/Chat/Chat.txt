@@ -1,0 +1,27 @@
+﻿----------------------------------------------------------------
+[GlobalChat] Sequence:
+
+<1>
+UserA                      UserB                 CenterServer
+ ┃                         ┃                        ┃
+ ┃━━━━━━━━━━GlobalChat━━━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━ChatInfoNotify ━━┃
+ ┃                         ┃                        ┃
+ ┃<━━━━━━━━━ChatInfoNotify━━━━━━━━━┃
+ ┃                         ┃                        ┃
+
+
+
+ ----------------------------------------------------------------
+[Chat] Sequence:
+
+<1>
+UserA                      UserB                  GameServer
+ ┃                         ┃                        ┃
+ ┃━━━━━━━━━━━━Chat━━━━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━ChatInfoNotify ━━┃
+ ┃                         ┃                        ┃
+ ┃<━━━━━━━━━ChatInfoNotify━━━━━━━━━┃
+ ┃                         ┃                        ┃

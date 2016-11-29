@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3612" name="进阶之丹" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3613" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 打开[a event="{0}"][u][font color='#32fb18']兑换商城[/font][/u][/a]兑换一个坐骑进阶丹。({1}/{2}) </Purpose>
+    <Fail> EXCHANGE_MALL </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3611" name="兑换宝物"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="50"  value="1"  param="204,1"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5854"/>
+    <Item type="5" value="100389"/>
+   </General>
+ </Award>
+</Task>

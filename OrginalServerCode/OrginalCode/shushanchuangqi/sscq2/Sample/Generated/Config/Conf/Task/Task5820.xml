@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5820" name="霜华真身" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5819" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1402"  name="乙休">
+       <Chat  index="1">
+            <PCSpeak>晚辈已依前辈之言重新清理了困龙池之怪，不知现在可否解此处之迷？</PCSpeak>
+            <NPCSpeak>所谓霜华宫乃是陷空老祖用功力所幻化之行宫，他常年在极深地底修行，每年这时候便现世，与弟子交接俗事。你问那癞姑，我所言可虚？</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11479"/>
+    <Item type="5" value="261253"/>
+   </General>
+ </Award>
+</Task>

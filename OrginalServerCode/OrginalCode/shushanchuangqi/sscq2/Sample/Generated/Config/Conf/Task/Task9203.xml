@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="9203" name="介意之地" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9202" name="地底迷雾"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1504"  name="朱鸾">
+       <Chat  index="1">
+            <PCSpeak>朱师姐再与他们“详细谈话”后，不知又有何收获。</PCSpeak>
+            <NPCSpeak>大多数都是胡言乱语，不过我一直对其中的一个地方，唤作香雪海，有些介意。你方便之时代我一看。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14719"/>
+    <Item type="5" value="617363"/>
+   </General>
+ </Award>
+</Task>

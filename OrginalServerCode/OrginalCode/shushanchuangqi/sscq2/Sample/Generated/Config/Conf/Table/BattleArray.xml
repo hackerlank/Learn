@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="太阴奇门阵" Image="1" NamePic="1" MapId="6101" RequiredLevel="0" PreID="0" PassPrize="5,10000|10000,1|1210,36" Des="破阵提示：本组怪物法防偏高，建议上阵物理攻击散仙；调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="2" Name="天魔玄阴阵" Image="2" NamePic="2" MapId="6102" RequiredLevel="0" PreID="1" PassPrize="5,15000|10001,1|1209,36" Des="破阵提示：本组怪物生命偏高，建议上阵高攻击散仙；调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="3" Name="须弥九宫阵" Image="3" NamePic="3" MapId="6103" RequiredLevel="0" PreID="2" PassPrize="5,20000|10002,1|1207,20" Des="破阵提示：本组怪物攻击偏高，建议提高队伍防御属性调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="4" Name="都天魔煞阵" Image="4" NamePic="4" MapId="6104" RequiredLevel="0" PreID="3" PassPrize="5,25000|10003,1|1203,20" Des="破阵提示：本组怪物闪避偏高，建议提高队伍命中属性；调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="5" Name="天地三才阵" Image="5" NamePic="5" MapId="6105" RequiredLevel="0" PreID="4" PassPrize="5,30000|10004,1|1201,20" Des="破阵提示：本组怪物反击偏高，建议上阵高防御或恢复型散仙；调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="6" Name="卧龙八卦阵" Image="6" NamePic="6" MapId="6106" RequiredLevel="0" PreID="5" PassPrize="5,35000|10005,1|1202,20" Des="破阵提示：本组怪物生命偏高，建议上阵高攻击散仙；调整阵型位置，注意怪物范围攻击。" />
+	<Row ID="7" Name="两仪微尘阵" Image="7" NamePic="7" MapId="6107" RequiredLevel="0" PreID="6" PassPrize="5,40000|10000,1|1208,20" Des="破阵提示：本组怪物暴击偏高，建议提高队伍综合属性，速战速决；调整阵型位置，注意怪物范围攻击。" />
+</Table>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="4262" name="兽魂之秘" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4207" name="兽魂强大"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1022"  name="李英琼">
+       <Chat  index="1">
+            <PCSpeak>这锁妖塔中似乎有种隐含的力量，在破塔之后汇聚过来。</PCSpeak>
+            <NPCSpeak>此乃兽魂，是此塔所炼化之纯正力量。如果好好加以培养，对你大有帮助。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="7417"/>
+    <Item type="5" value="132956"/>
+   </General>
+  <MustItem>
+    <Item id="19" name="0" count="500" jobname="1" job="0"/>
+   </MustItem>
+ </Award>
+</Task>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1030" name="奇仙相助" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1029" name="渡劫神力"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>幸亏这位仙子相救，若非遇到，我必定此劫难逃。</PCSpeak>
+            <NPCSpeak>都是修仙之人，繁文缛节能免则免。既有缘救了你，少不得助你到底。你可在聚仙楼找到我。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1260"/>
+    <Item type="5" value="2025"/>
+   </General>
+ </Award>
+</Task>

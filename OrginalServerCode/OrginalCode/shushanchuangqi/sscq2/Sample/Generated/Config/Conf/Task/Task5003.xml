@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5003" name="被困已久" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5002" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1403"  name="周轻云">
+       <Chat  index="1">
+            <PCSpeak>这里发生什么，为何久久不曾传消息回峨眉？掌教特来派我查探。</PCSpeak>
+            <NPCSpeak>咦？你是怎么进来的？我们一行来到此处，却被突然怪力所封，出入不得。速去亓南公处，也许你能解此困境。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="9577"/>
+    <Item type="5" value="152177"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3613" name="坐下神骑" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3612" name="慈云再现"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1057"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>我座下麒麟实为神品，只是感觉仍有进一步的空间，我应该如何提升？莫让灵兽毁于我手才是。</PCSpeak>
+            <NPCSpeak>每个座骑都可各自修炼，当升到极致，便是仙宫天马也可媲美。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5886"/>
+    <Item type="5" value="101049"/>
+   </General>
+  <MustItem>
+    <Item id="204" name="0" count="1" jobname="0" job="0"/>
+   </MustItem>
+ </Award>
+</Task>

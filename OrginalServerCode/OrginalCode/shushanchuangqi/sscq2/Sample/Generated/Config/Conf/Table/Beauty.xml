@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="织女" CondID="510" Color="2" NPCID="5500" Model2D="1" AppearLevel="1" EffectAppear="M_meinv_zhinv_ruchang_ilde.ies" EffectDisappear="M_meinv_zhinv_chuchang_ilde.ies" />
+	<Row ID="2" Name="紫霞仙子" CondID="517" Color="5" NPCID="5507" Model2D="8" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="3" Name="巫山神女" CondID="511" Color="3" NPCID="5503" Model2D="2" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="4" Name="嫦娥" CondID="512" Color="4" NPCID="5501" Model2D="3" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="5" Name="小龙女" CondID="513" Color="5" NPCID="5504" Model2D="4" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="6" Name="聂小倩" CondID="514" Color="5" NPCID="5505" Model2D="5" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="7" Name="孤月" CondID="515" Color="5" NPCID="5508" Model2D="6" AppearLevel="1" EffectAppear="" EffectDisappear="" />
+	<Row ID="8" Name="精卫" CondID="516" Color="5" NPCID="5502" Model2D="7" AppearLevel="200" EffectAppear="" EffectDisappear="" />
+	<Row ID="9" Name="白娘子" CondID="518" Color="5" NPCID="5506" Model2D="9" AppearLevel="200" EffectAppear="" EffectDisappear="" />
+</Table>

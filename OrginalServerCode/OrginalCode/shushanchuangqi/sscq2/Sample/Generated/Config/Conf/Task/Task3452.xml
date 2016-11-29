@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3452" name="神女仙灵" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3410" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1082"  name="火无害">
+       <Chat  index="1">
+            <PCSpeak>也许是被囚禁已久，我感觉她们并并轻易愿与人接近。</PCSpeak>
+            <NPCSpeak>这需要时间来慢慢来与她们共同进退，时间一长，便会变得更加亲密。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5117"/>
+    <Item type="5" value="126373"/>
+   </General>
+  <MustItem>
+   </MustItem>
+ </Award>
+</Task>

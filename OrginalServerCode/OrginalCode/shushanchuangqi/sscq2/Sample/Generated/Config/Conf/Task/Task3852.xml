@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="3852" name="强力神装" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']强化主角装备[/font][/u][/a]总数到达24次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3652" name="力战血魔"/>
+          <Item id="3806" name="1"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="46"  value="1"  param="0,24"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="6343"/>
+    <Item type="5" value="207357"/>
+   </General>
+ </Award>
+</Task>

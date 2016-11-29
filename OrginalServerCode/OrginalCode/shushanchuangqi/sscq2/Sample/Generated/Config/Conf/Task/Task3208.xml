@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3208" name="日常修道" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3207" name="不破不立"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1057"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>最近峨眉大乱，我一时无暇修炼。</PCSpeak>
+            <NPCSpeak>无妨，这世间有许多事务都等待你去参与。特别是作为峨眉弟子，更有许多同门与你一起问道杀魔。这也算是修炼的一种办法。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4674"/>
+    <Item type="5" value="156589"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3005" name="连携相通" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3004" name="越炼越强"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1059"  name="白谷逸">
+       <Chat  index="1">
+            <PCSpeak>在我麾下的散仙之中，有些已经有了十足的默契。</PCSpeak>
+            <NPCSpeak>哈哈，这真是天助于你。散仙之间的配合乃天地间威力最强的力量之一，如果有机缘得到它时，务必好好提升才是。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4110"/>
+    <Item type="5" value="82857"/>
+   </General>
+ </Award>
+</Task>

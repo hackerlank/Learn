@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5905" name="霜华盛况" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5904" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1402"  name="乙休">
+       <Chat  index="1">
+            <PCSpeak>前辈果然是高人，每次达成前辈要求都必须竭尽全力。</PCSpeak>
+            <NPCSpeak>以你的实力，这些魔怪尚不能致命。那陷空老祖每年现世之时，都有大批宝物随之现世。因此每年都有大批修仙者聚集于此。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11569"/>
+    <Item type="5" value="272951"/>
+   </General>
+ </Award>
+</Task>

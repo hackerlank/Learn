@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Content="57,1" Condition="0" Title="抽奖券" Msg="工作辛苦有木有？不如一起打怪兽！送你一份小礼物，希望与你并肩作战！" img="1" />
+	<Row ID="2" Content="56,5" Condition="20" Title="渡劫符" Msg="辛苦的工作的同时也要偶尔休闲一下，送一份小礼物你，和我一起来放松放松吧~" img="2" />
+	<Row ID="3" Content="201,1" Condition="40" Title="五行真金" Msg="偶正在这里辛苦的奋斗着，和你一起分享偶滴成果~赶快领取礼物吧~" img="3" />
+	<Row ID="4" Content="204,1" Condition="50" Title="坐骑进阶丹" Msg="发现一个特别有意思的应用，现在正式推荐给你，快点击领取礼物，我那里等着你！" img="4" />
+	<Row ID="5" Content="3,5" Condition="60" Title="礼券" Msg="辛苦的工作的同时也要偶尔休闲一下，送一份小礼物你，和我一起来放松放松吧~" img="5" />
+	<Row ID="6" Content="12,5" Condition="70" Title="体力" Msg="辛苦的工作的同时也要偶尔休闲一下，送一份小礼物你，和我一起来放松放松吧~" img="6" />
+</Table>

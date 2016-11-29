@@ -1,0 +1,9 @@
+export PROT=~/ao3s2_client/SSCQ2Proto
+export CFGLOAD=~/doc-sscq2/策划/配置文件/Generated/server/code
+export CFGTABL=~/doc-sscq2/策划/配置文件/Generated/server/table
+export MAP=~/ao3s2_client/服务器资源文件/Map
+export MISC=~/ao3s2_client/服务器资源文件/Misc
+export PROTDST=~/sscq2/Sample/Generated/ProtoGen
+export TASK=~/ao3s2_client/服务器资源文件/Task
+export SCRIPTS=~/ao3s2_client/Scripts
+export ROBOTDST=~/sscq2/Tools/Robot/Protocol

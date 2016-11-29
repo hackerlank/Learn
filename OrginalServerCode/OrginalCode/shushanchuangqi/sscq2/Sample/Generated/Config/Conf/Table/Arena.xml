@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" Name="黑铁" byKeepLevelDays="2" dwKeepLevelLoot="0" dwLevelLoot="6" byAwardNum="0" strAwardLoot="" wVictorFame="10" wFailFame="5" wVictorScore="10" wFailScore="5" strExtraScore="2,4,6,8" byLevelUpRate="80" byLevelDwonRate="0" />
+	<Row id="2" Name="青铜" byKeepLevelDays="2" dwKeepLevelLoot="0" dwLevelLoot="7" byAwardNum="0" strAwardLoot="" wVictorFame="12" wFailFame="6" wVictorScore="10" wFailScore="5" strExtraScore="2,4,6" byLevelUpRate="50" byLevelDwonRate="20" />
+	<Row id="3" Name="白银" byKeepLevelDays="2" dwKeepLevelLoot="0" dwLevelLoot="8" byAwardNum="0" strAwardLoot="" wVictorFame="14" wFailFame="7" wVictorScore="10" wFailScore="5" strExtraScore="2,4" byLevelUpRate="20" byLevelDwonRate="50" />
+	<Row id="4" Name="黄金" byKeepLevelDays="2" dwKeepLevelLoot="0" dwLevelLoot="9" byAwardNum="0" strAwardLoot="" wVictorFame="16" wFailFame="8" wVictorScore="10" wFailScore="5" strExtraScore="2" byLevelUpRate="14" byLevelDwonRate="70" />
+	<Row id="5" Name="钻石" byKeepLevelDays="2" dwKeepLevelLoot="0" dwLevelLoot="10" byAwardNum="10" strAwardLoot="11,12,13,14,15,16,17,18,19,20" wVictorFame="18" wFailFame="9" wVictorScore="10" wFailScore="5" strExtraScore="" byLevelUpRate="0" byLevelDwonRate="60" />
+</Table>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="9251" name="新的境界" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 使主角[a event="{0}"][u][font color='#32fb18']渡劫[/font][/u][/a]到真仙期2星({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9151" name="精巧阵眼"/>
+          <Item id="9205" name="1"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="48"  value="1"  param="0,82"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14764"/>
+    <Item type="5" value="624223"/>
+   </General>
+ </Award>
+</Task>

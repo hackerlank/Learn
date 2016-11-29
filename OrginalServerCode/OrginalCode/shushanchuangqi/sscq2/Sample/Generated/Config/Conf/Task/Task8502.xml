@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="8502" name="修为暗增" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="8501" name="强者渐出"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1505"  name="卢妪">
+       <Chat  index="1">
+            <PCSpeak>自从随着前辈在世间遍访前仙遗迹，并不知觉，但无论是修为还是功力，已经增长巨大。不知应该如何谢过。</PCSpeak>
+            <NPCSpeak>不必谢我，这种修炼方法，不是人人可行。但事有始终，还有一处，若要完整修炼，下面那处，必须去得。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13999"/>
+    <Item type="5" value="529346"/>
+   </General>
+ </Award>
+</Task>

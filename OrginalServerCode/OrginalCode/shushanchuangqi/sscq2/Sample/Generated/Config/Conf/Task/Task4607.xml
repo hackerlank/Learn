@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="4607" name="神宝感应" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4606" name="圣陵探密"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1062"  name="朱梅">
+       <Chat  index="1">
+            <PCSpeak>师叔我适才刚刚从那圣陵归来，收获颇丰。</PCSpeak>
+            <NPCSpeak>那里本是盛产宝物之地，如果你仙缘高盛，自然已经得到了神妙法宝，只剩下用心修炼之罢了。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="9241"/>
+    <Item type="5" value="138308"/>
+   </General>
+  <MustItem>
+    <Item id="11021" name="0" count="1" jobname="0" job="0"/>
+   </MustItem>
+ </Award>
+</Task>

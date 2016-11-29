@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="4460" name="切磋小试" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4459" name="同门指点"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1058"  name="齐金蝉">
+       <Chat  index="1">
+            <PCSpeak>师弟除了宝藏天书，还有何悟道之法？ </PCSpeak>
+            <NPCSpeak>其实修道并无特别捷径之法，不过我常常与诸路道友切磋比试，得了不少实战之力。你也可以一试。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8262"/>
+    <Item type="5" value="99345"/>
+   </General>
+ </Award>
+</Task>

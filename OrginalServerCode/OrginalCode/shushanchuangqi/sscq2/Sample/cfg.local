@@ -1,0 +1,9 @@
+PROT=~/sscq2Master3/Svn/SSCQ2Proto
+CFGLOAD=~/sscq2Master3/Svn/server/code
+CFGTABL=~/sscq2Master3/Svn/server/table
+MAP=~/sscq2Master3/Svn/服务器资源文件/Map
+MISC=~/sscq2Master3/Svn/服务器资源文件/Misc
+export PROTDST=~/sscq2Master3/sscq2/Sample/Generated/ProtoGen
+TASK=~/sscq2Master3/Svn/服务器资源文件/Task
+SCRIPTS=~/sscq2Master3/Svn/Scripts
+ROBOTDST=~/sscq2Master3/sscq2/Tools/Robot/Protocol

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="4459" name="同门指点" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4458" name="佩带天书"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1022"  name="李英琼">
+       <Chat  index="1">
+            <PCSpeak>多谢师姐的指点，若非你和师弟指点，如此秘法，无论如何也不能悟出。</PCSpeak>
+            <NPCSpeak>金蝉那小子还有更多花样，你不妨再问他一问。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8250"/>
+    <Item type="5" value="98944"/>
+   </General>
+ </Award>
+</Task>

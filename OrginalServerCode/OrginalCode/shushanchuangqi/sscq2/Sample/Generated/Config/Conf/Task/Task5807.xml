@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5807" name="神道癞姑" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5806" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1404"  name="癞姑">
+       <Chat  index="1">
+            <PCSpeak>晚辈乃峨眉门下，受亓南公之命，查探霜华宫异像，不知前辈可有线索？</PCSpeak>
+            <NPCSpeak>哼，那老贼。与我齐被困此处许久也不肯来问，却遣小辈来讨无趣。霜华宫一事，少不得还是要问另一怪叟乙休才是。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11239"/>
+    <Item type="5" value="228633"/>
+   </General>
+ </Award>
+</Task>

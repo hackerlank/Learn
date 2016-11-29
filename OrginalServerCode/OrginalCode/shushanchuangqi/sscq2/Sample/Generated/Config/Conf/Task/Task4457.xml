@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="4457" name="天书机缘" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4456" name="上古流传"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1022"  name="李英琼">
+       <Chat  index="1">
+            <PCSpeak>不知师姐可曾听说过天书一事。</PCSpeak>
+            <NPCSpeak>嗯，你和齐师弟倒是有福，随意便可得到天书。如若得到，必得装备于身。于你方有益处。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8224"/>
+    <Item type="5" value="98342"/>
+   </General>
+ </Award>
+</Task>

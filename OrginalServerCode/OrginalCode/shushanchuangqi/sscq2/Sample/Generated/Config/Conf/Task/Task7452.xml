@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="1" >
+       <Basic id="7452" name="半步天阶" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail>  </Fail>
+    <Finish>  </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="7504" name="地脉麒麟"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="2433" name="魔军" count="1" fake="0" strParam="209"/>
+    </Kill>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13084"/>
+    <Item type="5" value="385771"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="漱石栖云洞" Level="40" Map="4" Boss="16" MonsterGroup="1091;1092;1093;1094;1095;1096;1097;1098" Money="20000" Pexp="40000" ClearTime="1200" TimeAward="10002" FinishCost="10" FinishAward="2000" />
+	<Row ID="2" Name="云灵山" Level="60" Map="19" Boss="52" MonsterGroup="1099;1100;1101;1102;1103;1104;1105;1106" Money="30000" Pexp="60000" ClearTime="1200" TimeAward="10005" FinishCost="10" FinishAward="2000" />
+	<Row ID="3" Name="慈云寺" Level="70" Map="1" Boss="42" MonsterGroup="1107;1108;1109;1110;1111;1112;1113;1114" Money="40000" Pexp="80000" ClearTime="1200" TimeAward="10008" FinishCost="10" FinishAward="2000" />
+	<Row ID="4" Name="紫金泷" Level="80" Map="2" Boss="36" MonsterGroup="1115;1116;1117;1118;1119;1120;1121;1122" Money="50000" Pexp="100000" ClearTime="1200" TimeAward="10011" FinishCost="10" FinishAward="2000" />
+	<Row ID="5" Name="黄山五云步" Level="90" Map="5" Boss="44" MonsterGroup="1123;1124;1125;1126;1127;1128;1129;1130" Money="60000" Pexp="120000" ClearTime="1200" TimeAward="10014" FinishCost="10" FinishAward="2000" />
+	<Row ID="6" Name="莽苍山" Level="100" Map="301" Boss="40" MonsterGroup="1131;1132;1133;1134;1135;1136;1137;1138" Money="70000" Pexp="140000" ClearTime="1200" TimeAward="10017" FinishCost="10" FinishAward="2000" />
+	<Row ID="7" Name="青螺魔宫" Level="110" Map="21" Boss="32" MonsterGroup="1139;1140;1141;1142;1143;1144;1145;1146" Money="80000" Pexp="160000" ClearTime="1200" TimeAward="10020" FinishCost="10" FinishAward="2000" />
+	<Row ID="8" Name="星宿海" Level="120" Map="2" Boss="75" MonsterGroup="1147;1148;1149;1150;1151;1152;1153;1154" Money="90000" Pexp="180000" ClearTime="1200" TimeAward="10023" FinishCost="10" FinishAward="2000" />
+</Table>

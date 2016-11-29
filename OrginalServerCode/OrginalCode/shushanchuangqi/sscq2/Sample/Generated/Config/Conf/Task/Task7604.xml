@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="7604" name="不夜秘城" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="7603" name="被困已久"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1024"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>师叔，久未相见，不知一切可好？</PCSpeak>
+            <NPCSpeak>你渐渐地从初出茅庐，变得大任可堪。使我有时光交错之错觉。是时候让你踏上寻仙之路。去不夜城中找卢妪前辈。她会指教你。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13174"/>
+    <Item type="5" value="350554"/>
+   </General>
+ </Award>
+</Task>

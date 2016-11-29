@@ -1,0 +1,65 @@
+﻿----------------------------------------------------------------
+[FriendQuery] Sequence:
+
+<1>
+UserA                   CenterServer
+ ┃                         ┃
+ ┃                         ┃
+ ┃                         ┃
+ ┃                         ┃
+ ┃                         ┃
+ ┃                         ┃
+
+----------------------------------------------------------------
+[AddFriend] Sequence:
+
+<1>
+UserA                      UserB                 CenterServer
+ ┃                         ┃                        ┃
+ ┣━━━━━━━━━━AddFriendReq━━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━━AskAddFriend ━━┫
+ ┃                         ┃                        ┃
+ ┃                         ┣━━━AnswerAddFriend━>┃
+ ┃                         ┃                        ┃
+ ┃<━━━━━━━━━AddFriendAck━━━━━━━━━━┫
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━━AddFriendAck ━━┫
+ ┃                         ┃                        ┃
+
+----------------------------------------------------------------      
+[RemoveFriend] Sequence:
+
+<2>
+UserA                      UserB                 CenterServer
+ ┃                         ┃                        ┃
+ ┣━━━━━━━━━RemoveFriendReq ━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃<━━━━━━━━RemoveFriendAck ━━━━━━━━━┫
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━RemoveFriendAck━━┃
+ ┃                         ┃                        ┃
+
+ ----------------------------------------------------------------
+ [Whisper] Sequence:
+
+<1>
+UserA                      UserB                 CenterServer
+ ┃                         ┃                        ┃
+ ┣━━━━━━━━━━━Whisper ━━━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃                         ┃                 Cannt Whisper UserB
+ ┃                         ┃                        ┃
+ ┃<━━━━━━━━WhisperFailNotify ━━━━━━━━┫
+ ┃                         ┃                        ┃
+ ┃                         ┃                        ┃
+
+<2>
+UserA                      UserB                 CenterServer
+ ┃                         ┃                        ┃
+ ┣━━━━━━━━━━━Whisper ━━━━━━━━━━>┃
+ ┃                         ┃                        ┃
+ ┃                         ┃                        ┃
+ ┃                         ┃<━━WhisperNotify2 ━━┫
+ ┃                         ┃                        ┃
+ ┃                         ┃                        ┃

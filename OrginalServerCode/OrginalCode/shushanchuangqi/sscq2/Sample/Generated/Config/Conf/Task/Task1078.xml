@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1078" name="佛门座下" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1077" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1034"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>虽然林地和这寒潭相近相临，但是却差别如此之大。</PCSpeak>
+            <NPCSpeak>并且听说这里有实力强大之魔兽，若非不得已，不要轻易踏入此地，一旦惹怒栖息之兽后果难以想象。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3626"/>
+    <Item type="5" value="51085"/>
+   </General>
+ </Award>
+</Task>

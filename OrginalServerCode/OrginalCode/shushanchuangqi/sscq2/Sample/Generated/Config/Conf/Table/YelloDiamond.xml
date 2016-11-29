@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="11" BagType="3" Level="1" Pack="2,10000|56,10|10915,1" PackEx="" />
+	<Row ID="21" BagType="4" Level="1" Pack="2,500000|56,50|10912,18|201,18|204,18" PackEx="" />
+	<Row ID="31" BagType="6" Level="1" Pack="112,11|113,1" PackEx="" />
+	<Row ID="41" BagType="1" Level="1" Pack="2,2000|56,2" PackEx="" />
+	<Row ID="42" BagType="1" Level="2" Pack="2,4000|56,4" PackEx="" />
+	<Row ID="43" BagType="1" Level="3" Pack="2,6000|56,6" PackEx="" />
+	<Row ID="44" BagType="1" Level="4" Pack="2,8000|56,8" PackEx="" />
+	<Row ID="45" BagType="1" Level="5" Pack="2,10000|56,10" PackEx="" />
+	<Row ID="46" BagType="1" Level="6" Pack="2,12000|56,12" PackEx="" />
+	<Row ID="47" BagType="1" Level="7" Pack="2,14000|56,14|10912,2" PackEx="" />
+	<Row ID="48" BagType="1" Level="8" Pack="2,16000|56,16|10912,4" PackEx="" />
+	<Row ID="1" BagType="2" Level="1" Pack="2,10000|56,10|10912,1" PackEx="" />
+	<Row ID="101" BagType="5" Level="10" Pack="2,1000|56,2|10912,1" PackEx="2,1000|56,2|10912,1|204,1" />
+	<Row ID="102" BagType="5" Level="20" Pack="2,2000|56,4|10912,2" PackEx="2,2000|56,4|10912,2|204,2" />
+	<Row ID="103" BagType="5" Level="30" Pack="2,3000|56,6|10912,3" PackEx="2,3000|56,6|10912,3|204,3" />
+	<Row ID="104" BagType="5" Level="40" Pack="2,4000|56,8|10912,4" PackEx="2,4000|56,8|10912,4|204,4" />
+	<Row ID="105" BagType="5" Level="50" Pack="2,5000|56,10|10912,5" PackEx="2,5000|56,10|10912,5|204,5" />
+	<Row ID="106" BagType="5" Level="60" Pack="2,6000|56,12|10912,6" PackEx="2,6000|56,12|10912,6|204,6" />
+	<Row ID="107" BagType="5" Level="70" Pack="2,7000|56,14|10912,7" PackEx="2,7000|56,14|10912,7|204,7" />
+</Table>

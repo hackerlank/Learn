@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="1" >
+       <Basic id="1081" name="决定之战" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="808" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1080" name="渡劫神力"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="34" name="魔军" count="1" fake="0" strParam="9"/>
+    </Kill>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3777"/>
+    <Item type="5" value="53001"/>
+   </General>
+ </Award>
+</Task>

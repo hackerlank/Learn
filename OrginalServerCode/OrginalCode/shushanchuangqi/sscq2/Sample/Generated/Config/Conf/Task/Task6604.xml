@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6604" name="觊觎之眼" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6603" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1403"  name="周轻云">
+       <Chat  index="1">
+            <PCSpeak>师姐我刚从掌教那里回来，命我继续在此地看守地底禁制，保持其正常运转。</PCSpeak>
+            <NPCSpeak>此阵若不受外力打扰，再运转万年也无碍。只怕。。。</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>师姐的意思是，有人觊觎此阵所护的地核火种？此事不是只有我们几人知晓？</PCSpeak>
+            <NPCSpeak>哈哈，有大能者众多，岂能不知此等大事。亓南公早已经等你商量此事。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="12214"/>
+    <Item type="5" value="319927"/>
+   </General>
+ </Award>
+</Task>

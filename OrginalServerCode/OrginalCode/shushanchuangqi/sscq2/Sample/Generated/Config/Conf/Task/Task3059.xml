@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="3059" name="收藏为王" level="0" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="支线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> [font color="#32fb18"][u]收藏游戏[/u][/font]至电脑桌面({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1097" name="精进不止"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="13"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="100000"/>
+    <Item type="5" value="170223"/>
+    <Item type="3" value="100"/>
+   </General>
+ </Award>
+</Task>

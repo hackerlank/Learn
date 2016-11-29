@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3002" name="恩师开恩" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1098" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1025"  name="齐掌教">
+       <Chat  index="1">
+            <PCSpeak>弟子违反师命，愿意承担任何责罚！</PCSpeak>
+            <NPCSpeak>既然如此，听说你在偶然之中收服了火无害。这火无害乃地火成精，若不完全收服，以后必有大害。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3948"/>
+    <Item type="5" value="79844"/>
+    <Item type="51" value="20"/>
+   </General>
+ </Award>
+</Task>

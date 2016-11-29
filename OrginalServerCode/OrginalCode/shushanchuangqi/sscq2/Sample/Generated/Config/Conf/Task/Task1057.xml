@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="1057" name="提升灵器" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="1058" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']强化主角装备[/font][/u][/a]总数到达1次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1056" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="46"  value="1"  param="0,1"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="2569"/>
+    <Item type="5" value="17790"/>
+   </General>
+ </Award>
+</Task>
