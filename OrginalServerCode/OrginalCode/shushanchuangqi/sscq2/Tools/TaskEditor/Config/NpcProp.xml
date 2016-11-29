@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1001" Level="5" Name="老渔翁" Title="" Type="1" BarrierID="0" Script="NPC1001.lua" FreePatrolDistance="0" Speed="0" Icon="1001" ModelScale="1.000000" MapResID="laoyuweng" IfHide="0" />
+	<Row ID="1002" Level="10" Name="灵威叟" Title="" Type="1" BarrierID="0" Script="NPC1001.lua" FreePatrolDistance="0" Speed="0" Icon="1001" ModelScale="1.000000" MapResID="lingweisou" IfHide="0" />
+	<Row ID="1003" Level="20" Name="沙红燕" Title="" Type="1" BarrierID="0" Script="NPC1001.lua" FreePatrolDistance="0" Speed="0" Icon="1001" ModelScale="1.000000" MapResID="shahongyan" IfHide="0" />
+	<Row ID="1004" Level="30" Name="郑元规" Title="" Type="1" BarrierID="0" Script="NPC1001.lua" FreePatrolDistance="0" Speed="0" Icon="1001" ModelScale="1.000000" MapResID="zhengyuangui" IfHide="0" />
+	<Row ID="1005" Level="5" Name="段雷" Title="" Type="1" BarrierID="0" Script="NPC1001.lua" FreePatrolDistance="0" Speed="0" Icon="1001" ModelScale="1.000000" MapResID="zhengyuangui" IfHide="0" />
+</Table>

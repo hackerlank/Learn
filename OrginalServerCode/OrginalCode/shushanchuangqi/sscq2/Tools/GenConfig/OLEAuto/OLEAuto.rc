@@ -1,0 +1,338 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 422, 275
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Excel Files Input(可以拖放文件到对话框)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,254,50,14,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Cancel",IDCANCEL,352,254,50,14,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "添加目录:",IDC_STATIC,18,17,40,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_DIR_PATH,65,15,260,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "浏览...",IDC_BUTTON_VIEW_DIR,331,15,55,14
+    LTEXT           "添加文件:",IDC_STATIC,19,53,40,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_FILE_PATH,65,51,259,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "浏览...",IDC_BUTTON_VIEWFILE,331,50,55,14
+    LTEXT           "提示:",IDC_STATIC,24,75,20,8
+    LISTBOX         IDC_LIST_NOTICE,24,86,361,159,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "导出",IDC_BUTTON_VIEW_DIR2,331,33,55,14,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    PUSHBUTTON      "导出",IDC_BUTTON_VIEWFILE2,124,250,173,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\OLEAuto.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\OLEAuto.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About OLEAuto"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "OLEAuto Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_OLEAUTO_DIALOG DIALOGEX 0, 0, 230, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OLEAuto"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,170,98,50,16
+    PUSHBUTTON      "MSWord",IDC_BUTTON1,14,18,146,18
+    PUSHBUTTON      "Internet Explorer",IDC_BUTTON11,14,76,146,18
+    PUSHBUTTON      "Scripting Dictionary",IDC_BUTTON12,14,97,146,18
+    PUSHBUTTON      "MSExcel",IDC_BUTTON2,14,38,146,18
+    GROUPBOX        "MS Office",IDC_STATIC,7,7,157,54
+    GROUPBOX        "Other samples",IDC_STATIC,7,65,157,54
+    CTEXT           "This is a demo application to demonstrate MS Office OLE automation. It cannot be used as is for any other purpose.",IDC_STATIC,170,18,48,75,0,WS_EX_STATICEDGE
+END
+
+IDD_WORD_DIALOG DIALOGEX 0, 0, 214, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Backspace",IDC_BUTTON9,7,7,85,14,WS_DISABLED
+    PUSHBUTTON      "Delete",IDC_BUTTON10,7,24,85,14,WS_DISABLED
+    CONTROL         "Selection",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_DISABLED | WS_TABSTOP,7,42,85,14
+    PUSHBUTTON      "Add below text as comment",IDC_BUTTON12,7,57,199,16,WS_DISABLED
+    EDITTEXT        IDC_EDIT1,21,74,170,34,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_DISABLED | WS_VSCROLL
+    PUSHBUTTON      "Add above text to the document",IDC_BUTTON4,7,109,199,16,WS_DISABLED
+    PUSHBUTTON      "Insert Picture",IDC_BUTTON11,7,126,199,16,WS_DISABLED
+    PUSHBUTTON      "Set selection text font",IDC_BUTTON21,7,144,199,16,WS_DISABLED
+    PUSHBUTTON      "Open Document",IDC_BUTTON1,7,161,99,16
+    PUSHBUTTON      "New Document",IDC_BUTTON22,107,161,99,16
+    PUSHBUTTON      "Close document",IDC_BUTTON2,7,178,99,16,WS_DISABLED
+    PUSHBUTTON      "Close all documents",IDC_BUTTON3,107,178,99,16,WS_DISABLED
+    PUSHBUTTON      "Close",IDOK,7,195,200,14
+    PUSHBUTTON      "UP",IDC_BUTTON5,133,11,34,14,WS_DISABLED
+    PUSHBUTTON      "Left",IDC_BUTTON6,95,24,40,14,BS_NOTIFY | WS_DISABLED
+    PUSHBUTTON      "Right",IDC_BUTTON7,167,24,40,14,WS_DISABLED
+    PUSHBUTTON      "Down",IDC_BUTTON8,133,38,34,14,WS_DISABLED
+    LTEXT           "",IDC_SPELLINDICATOR,192,74,13,34,SS_SUNKEN
+    CONTROL         "",IDC_GRINDICATOR,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | WS_GROUP,7,74,13,34
+END
+
+IDD_EXCEL_DIALOG DIALOGEX 0, 0, 101, 235
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,7,214,87,14
+    PUSHBUTTON      "New XL File",IDC_BUTTON1,7,7,87,14
+    GROUPBOX        "Protection",IDC_STATIC,7,173,87,40
+    PUSHBUTTON      "Protect",IDC_BUTTON2,12,182,75,13
+    PUSHBUTTON      "Unprotect",IDC_BUTTON3,12,197,75,13
+    PUSHBUTTON      "Up",IDC_BUTTON13,38,55,27,13
+    PUSHBUTTON      "Down",IDC_BUTTON14,38,68,27,13
+    PUSHBUTTON      "Left",IDC_BUTTON15,10,68,27,13
+    PUSHBUTTON      "Right",IDC_BUTTON16,65,68,27,13
+    PUSHBUTTON      "SetFont",IDC_BUTTON7,7,157,87,14
+    PUSHBUTTON      "Set BG Color",IDC_BUTTON8,7,142,87,14
+    PUSHBUTTON      "Set Border",IDC_BUTTON17,7,128,87,14
+    PUSHBUTTON      "Merge Cells",IDC_BUTTON18,7,113,87,14
+    PUSHBUTTON      "Add Chart",IDC_BUTTON19,7,97,87,14
+    PUSHBUTTON      "Set ActiveCell Text",IDC_BUTTON20,7,82,87,14
+    PUSHBUTTON      "Open XL File",IDC_BUTTON12,7,23,87,14
+    PUSHBUTTON      "SaveAs",IDC_BUTTON21,7,39,87,14
+END
+
+IDD_XLRANGE DIALOGEX 0, 0, 114, 46
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Enter XL Range"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,25,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,57,25,50,14
+    EDITTEXT        IDC_EDIT1,7,7,99,17,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "OLEAuto.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "OLEAuto.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_OLEAUTO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_WORD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_EXCEL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_XLRANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 107
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About OLEAuto..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\OLEAuto.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

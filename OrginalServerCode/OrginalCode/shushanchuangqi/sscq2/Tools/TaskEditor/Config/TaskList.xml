@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Lv="1" Process="杀怪" Acquire="系统" NPC="无" Pre="无" Disc="调查最近的诡异事件，佣兵法师加入获得武器、杀死堕落的哥布林" Monster="" Difficulty="1" Exp="" Money="" Item="" Other="" />
+	<Row Lv="4" Process="杀怪" Acquire="系统" NPC="无" Pre="1" Disc="击败发狂的卫兵，佣兵牧师加入、得到新手礼包" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="5" Process="boss战" Acquire="系统" NPC="无" Pre="2" Disc="到达领地，击败围城的深渊恶鬼，得到领地，新手引导城镇建设" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="6" Process="杀怪" Acquire="系统" NPC="无" Pre="3" Disc="清除野外游荡的魔物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="6" Process="探索" Acquire="系统" NPC="无" Pre="10101" Disc="找到治安官提姆，询问魔物泛滥的事情" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="6" Process="对话" Acquire="系统" NPC="无" Pre="10102" Disc="提姆发现附近有一个奇怪的地点，希望玩家探索" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="7" Process="探索" Acquire="系统" NPC="无" Pre="10103" Disc="前往提姆发现的遗迹" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="7" Process="发展" Acquire="系统" NPC="无" Pre="10104" Disc="进入主城系统引导玩家招募佣兵" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="8" Process="探索" Acquire="系统" NPC="无" Pre="10105" Disc="通过和提姆沟通了解到，附近有个山洞口 （到达副本1入口）" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="8" Process="杀怪" Acquire="系统" NPC="无" Pre="10106" Disc="洞穴口有魔物守护着东门口，我们必须消灭它们" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="10" Process="发展" Acquire="系统" NPC="无" Pre="10181" Disc="开启铁匠铺功能，任务指引使用" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="10" Process="PVP" Acquire="系统" NPC="无" Pre="10108" Disc="任务指引在竞技场进行一次单人竞技，" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="11" Process="宝藏" Acquire="系统" NPC="无" Pre="10109" Disc="指引前往第2个宝藏位置。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="11" Process="杀怪" Acquire="系统" NPC="无" Pre="10110" Disc="在路中发现一只独眼巨人他挡在路中袭击每一位路过的商旅" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="13" Process="对话" Acquire="系统" NPC="无" Pre="10187" Disc="战后受伤，前往丽迪亚处治愈，丽迪亚表示佣兵需要魔纹构装来强化" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="13" Process="采集" Acquire="系统" NPC="无" Pre="10112" Disc="村庄里到处都是伤员，帮助牧师采集草药救助伤员" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="13" Process="对话" Acquire="系统" NPC="无" Pre="10113" Disc="为了加强装备需要去一次矿洞，但是得到报告矿洞已经被魔物占领" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="14" Process="杀怪" Acquire="系统" NPC="无" Pre="10114" Disc="发现矿洞里全是魔物，为了能安全采矿必须消灭这些魔物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="14" Process="杀怪" Acquire="系统" NPC="无" Pre="10115" Disc="经过调查后，消灭矿洞主之一的黑熊" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="15" Process="对话" Acquire="系统" NPC="无" Pre="10116" Disc="升级图书馆科技" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="15" Process="收集" Acquire="系统" NPC="无" Pre="10117" Disc="猎杀3野狼并收集3个狼心，引出狼人" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="16" Process="杀怪" Acquire="系统" NPC="无" Pre="10118" Disc="找到了第2个矿洞主狼人，并消灭狼人" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="16" Process="杀怪" Acquire="系统" NPC="无" Pre="10119" Disc="先消灭了半人马的周围的小喽啰，之后遭遇半人马报复性的袭击" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="17" Process="探索" Acquire="系统" NPC="无" Pre="10120" Disc="半人马西撒逃脱，回去通风报信了，我们必须追上去" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="17" Process="行为" Acquire="系统" NPC="无" Pre="10121" Disc="领主任务介绍 引导玩家接取领主任务" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="17" Process="对话" Acquire="系统" NPC="无" Pre="10122" Disc="在路上遇见一名见习骑士，询问半人马的下路" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="18" Process="对话" Acquire="系统" NPC="无" Pre="10183" Disc="似乎弓箭手有十分重要的事情要找我们，我们必须去找弓箭手。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="18" Process="杀怪" Acquire="系统" NPC="无" Pre="10124" Disc="从弓箭手那里了解到，这里的主干道被蜘蛛占领，我们需要消灭这些蜘蛛" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="18" Process="对话" Acquire="系统" NPC="无" Pre="10125" Disc="蜘蛛被德鲁伊植入了魔化水晶，一定要消灭德鲁伊" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="20" Process="杀怪" Acquire="系统" NPC="无" Pre="10186" Disc="指引玩家进行一次多分副本的介绍并且参与多人副本。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="9" Process="杀怪" Acquire="系统" NPC="无" Pre="10107" Disc="单人副本普通模式消灭洞窟内的灰熊 （通关副本1普通）" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="12" Process="探索" Acquire="系统" NPC="无" Pre="10111" Disc="进入副本后发现 浮空城中遗留下来记录历史的水晶球（副本1困难通关）" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="18" Process="杀怪" Acquire="系统" NPC="无" Pre="10123" Disc="终于在一个洞窟内追上了半人马并将它消灭（单人副本2普通模式通关）" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="19" Process="探索" Acquire="系统" NPC="无" Pre="10126" Disc="根据腺体中的水晶推断，德鲁伊就在半人马的巢穴中" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="19" Process="杀怪" Acquire="系统" NPC="无" Pre="10184" Disc="必须消灭德鲁伊，消灭后恶魔出现" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="20" Process="采集" Acquire="系统" NPC="无" Pre="10184" Disc="在半人马巢穴中找到被恶魔能力污染的水晶，水晶能量可以开启洗练，转化和分解" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="12" Process="杀怪" Acquire="系统" NPC="无" Pre="10182" Disc="查看水晶后得知这些魔物的来历必须消灭这些魔物（进入副本后便接到任务）" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="12" Process="对话" Acquire="系统" NPC="无" Pre="10182" Disc="根据指引加入或者创建一个公会" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="14" Process="采集" Acquire="系统" NPC="无" Pre="10115" Disc="系统引导采集矿石" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="15" Process="建设" Acquire="系统" NPC="无" Pre="10116" Disc="升级图书馆科技2" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="16" Process="对话" Acquire="系统" NPC="无" Pre="10119" Disc="引导玩家 镶嵌宝石" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="16" Process="收集、采集" Acquire="系统" NPC="无" Pre="10119" Disc="击杀魔化狗头人收集3个皮毛，并在矿洞中采集3个植物样本  和3个矿石样本" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="17" Process="行为" Acquire="系统" NPC="无" Pre="10121" Disc="升阶佣兵" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="17" Process="收集" Acquire="系统" NPC="无" Pre="10123" Disc="见习骑士请求，希望能帮他找回丢失的武器" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="18" Process="采集" Acquire="系统" NPC="无" Pre="10124" Disc="蜘蛛大多发狂，局势无法控制，需要蜘蛛腺体研究一下什么问题" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="19" Process="对话" Acquire="系统" NPC="无" Pre="10186" Disc="任务引导洗练" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="19" Process="对话" Acquire="系统" NPC="无" Pre="40109" Disc="任务引导分解" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="19" Process="对话" Acquire="系统" NPC="无" Pre="40110" Disc="任务引导转化" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="20" Process="对话" Acquire="系统" NPC="无" Pre="10127" Disc="指导玩家合成宝石" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="20" Process="杀怪" Acquire="无" NPC="无" Pre="10185" Disc="跟着恶魔的足迹来到了沙漠地带，但是被一群元素魔物阻拦" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="21" Process="对话" Acquire="无" NPC="无" Pre="10201" Disc="矮人告诉我们，他们被魔物袭击了，并且很多同伴都被魔化了" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="21" Process="收集" Acquire="无" NPC="无" Pre="10202" Disc="矮人如同生命般的采矿工具被抢了，恳求我们帮忙抢夺回来" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="21" Process="杀怪" Acquire="无" NPC="无" Pre="10203" Disc="继续寻找恶魔的踪迹但是出现一群梦魇，似乎想要阻挡我们继续前进" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="22" Process="探索" Acquire="无" NPC="无" Pre="10204" Disc="突然感觉很困，但是紧接着我们就来到了一个陌生的地方" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="22" Process="杀怪" Acquire="无" NPC="无" Pre="10281" Disc="一名幻术师告诉我们被困梦境，只有消灭地狱三头犬我们才能脱困。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="23" Process="对话" Acquire="无" NPC="无" Pre="10282" Disc="幻术师十分感谢我们将他也从梦境中解救出来" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="23" Process="采集" Acquire="无" NPC="无" Pre="10205" Disc="幻术师告诉我们他有办法知道到底是谁创造了这个梦境但是需要材料" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="23" Process="对话" Acquire="无" NPC="无" Pre="10206" Disc="幻术师告诉我们，原来这个梦境是一只巨大的梦魇制造的" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="24" Process="探索" Acquire="无" NPC="无" Pre="10207" Disc="为了消灭这个梦境，我们必须再次进入梦境深处" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="24" Process="杀怪" Acquire="无" NPC="无" Pre="10283" Disc="得知巨大的梦魇是恶魔的坐骑，我们必须将其消灭。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="24" Process="对话" Acquire="无" NPC="无" Pre="10284" Disc="幻术师告诉我们梦魇被消灭后，梦境已经完全被解除了。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="25" Process="对话" Acquire="无" NPC="无" Pre="10208" Disc="来到沙漠中唯一的水域突然一个学徒告诉我们水已经被污染喝了后会变成魔物。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="25" Process="收集" Acquire="无" NPC="无" Pre="10209" Disc="学徒希望我们调查一下鱼人这可以的生物，并收集些鱼人的鳃" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="25" Process="对话" Acquire="无" NPC="无" Pre="10210" Disc="学徒使用炼金术调查了鳃后发现这些鱼人原先只是一些普通的鱼但是被魔化了" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="26" Process="探索" Acquire="无" NPC="无" Pre="10211" Disc="为了防止更多的生物被感染，我们必须进入水域找出源头" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="26" Process="杀怪" Acquire="无" NPC="无" Pre="10285" Disc="突然在水域入口有2个怪物，自称娜迦族，便直接向我们攻击" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="26" Process="杀怪" Acquire="无" NPC="无" Pre="10286" Disc="娜迦女妖质疑我们竟敢侵犯他们神圣的领地，并且杀害他们的族人" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="27" Process="对话" Acquire="无" NPC="无" Pre="10287" Disc="在水域中碰到一种名为娜迦的种族询问学徒关于娜迦的来历" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="27" Process="采集" Acquire="无" NPC="无" Pre="10212" Disc="为了制作解开污染水源的药剂需要生在张仙人掌上的碧莹花" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="27" Process="对话" Acquire="无" NPC="无" Pre="10213" Disc="制作解药还需要熟石矿，所以我们只能去找驻扎在矮人氏族那的剑士帮忙" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="28" Process="收集" Acquire="无" NPC="无" Pre="10214" Disc="没想到那些矮人都已经魔化了，没办法只有击败他们才能得到熟石矿。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="28" Process="对话" Acquire="无" NPC="无" Pre="10215" Disc="将熟石矿交给学徒后学徒制作出的解药让我们送给剑士来解救那些矮人" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="28" Process="对话" Acquire="无" NPC="无" Pre="10216" Disc="剑士说必须要将那矮人打晕后我们才能喂他吃解药。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="29" Process="探索" Acquire="无" NPC="无" Pre="10217" Disc="从剑士口中得知，恶魔在沙漠水域的更深处。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="29" Process="杀怪" Acquire="无" NPC="无" Pre="10288" Disc="击败精英梦魇，从梦魇口中探知到恶魔的下落。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="29" Process="杀怪" Acquire="无" NPC="无" Pre="10289" Disc="终于追上了恶魔，并和恶魔战斗，但是虽然战胜了没有消灭恶魔" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="30" Process="对话" Acquire="无" NPC="无" Pre="10290" Disc="幻术师告诉我们，世界即将面临毁灭性的危机。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="30" Process="对话" Acquire="无" NPC="无" Pre="10218" Disc="剑士告诉我们必须去寻找关闭深渊之门的办法以及寻找更多的盟友。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="30" Process="杀怪" Acquire="无" NPC="无" Pre="10219" Disc="那些岩石元素阻挡了我们的去路，我们要扫清这些邪恶的生物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="30" Process="探索" Acquire="无" NPC="无" Pre="10220" Disc="为了寻找盟友以及关闭深渊之门，我们需要去下一个目的地。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10203" Disc="为了回报我们帮他夺回工具矮人将魔纹构装合成的技术教给了我们" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10282" Disc="参加一次多人竞技" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="无" NPC="无" Pre="10281" Disc="突然出现很多魔像，必须收集魔像的零件，来停止这些魔像" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="采集" Acquire="无" NPC="无" Pre="10282" Disc="应为领地内资源十分短缺所以我们需要采集一些矿石运回城内。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10206" Disc="介绍诅咒之塔功能" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="收集" Acquire="无" NPC="无" Pre="10283" Disc="幻术师希望我们能帮他收集一些比蒙巨兽的皮毛用来研究比蒙这种魔物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10210" Disc="看到学徒在对那些鱼人的鳃使用炼金术，并且和我们介绍了一下炼金术的功能" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="无" NPC="无" Pre="10285" Disc="学徒希望我们进入水域深处后再收集一些鱼人的鱼鳞。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10213" Disc="我们战斗的技能需要加强，使用符石头能帮助我们提升战斗技能" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="无" NPC="无" Pre="10288" Disc="围全是娜迦召唤出的蛇形魔物，必须将这些魔物消灭" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10218" Disc="应对这即将到来的灾难，我们需要加入一个家族一起来对抗这些魔物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="行为" Acquire="无" NPC="无" Pre="10219" Disc="面对越来越强大的敌人，佣兵们建议我招募一个扈从" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="33" Process="探索" Acquire="系统" NPC="无" Pre="10305" Disc="我们进入了巨龙骸骨的脊椎内，这里空间十分大，同样的可能魔物也很多" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="33" Process="对话" Acquire="系统" NPC="无" Pre="10381" Disc="我们看见一个人一动不动可能是中了法术，他连忙和我们说快逃" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="34" Process="杀怪" Acquire="系统" NPC="无" Pre="10382" Disc="一个眼魔突然攻向我们，成功消灭它后，将那人也一同拯救了下来。" Monster="眼魔" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="35" Process="探索" Acquire="系统" NPC="无" Pre="10307" Disc="主教发觉 龙骨内有一股能量波动很强，希望我们进入龙骨深处查看一下" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="35" Process="杀怪" Acquire="系统" NPC="无" Pre="10384" Disc="一只被控制的狮鹫我们将它救醒后，他送了一把时空之匙给了我们。" Monster="虚无幻像" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="36" Process="探索" Acquire="系统" NPC="无" Pre="10309" Disc="我们通过狮鹫给我们的时空之匙成功启动了传送法阵并将我们带到另一个地方" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="37" Process="杀怪" Acquire="系统" NPC="无" Pre="10386" Disc="在我们面前的是一个自称为水元素王者的巨型元素体。" Monster="水元素王者" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="38" Process="探索" Acquire="系统" NPC="无" Pre="10312" Disc="我们带着能量晶核前往亚空间深处" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="39" Process="杀怪" Acquire="系统" NPC="无" Pre="10388" Disc="从风元素的皇者口中我们了解到正是这些能量晶核促使这些元素变成了魔物。" Monster="风元素之皇" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="30" Process="杀怪" Acquire="系统" NPC="无" Pre="10221" Disc="我们刚到雪域，便发现有人在战斗，马上出手相助" Monster="水元素" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="31" Process="采集" Acquire="系统" NPC="无" Pre="10301" Disc="皇家卫士告诉我们，西面有他们丢下的御寒物资，可以全部送给我们。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="31" Process="杀怪" Acquire="系统" NPC="无" Pre="10302" Disc="狮鹫幻像出现劝告我们离开，但是我们必须找到失散的人员，只能击败它" Monster="狮鹫幻像" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="32" Process="对话" Acquire="系统" NPC="无" Pre="10303" Disc="我们在路上遇见了皇家射手，他正潜伏着准备寻找机会突围魔物。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="32" Process="杀怪" Acquire="系统" NPC="无" Pre="10304" Disc="这些翼龙似乎不会自动离开，我们只能出手去消灭这些翼手龙。" Monster="翼手龙" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="34" Process="采集" Acquire="系统" NPC="无" Pre="10383" Disc="主教十分感谢我们拯救了他，并讲做了个临时营地，希望我们去收集些木头。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="34" Process="杀怪" Acquire="系统" NPC="无" Pre="10306" Disc="周围有很多狼，对营地威胁十分大，主教希望我们将这些白狼驱逐出去。" Monster="白狼" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="36" Process="对话" Acquire="系统" NPC="无" Pre="10385" Disc="经过和主教讨论，我们决定去一次传送法阵前往亚空间" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="36" Process="收集" Acquire="系统" NPC="无" Pre="10308" Disc="法阵旁有三只石像鬼，要启动法阵需要石像鬼体内控制水晶的能量" Monster="石像鬼" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="37" Process="对话" Acquire="系统" NPC="无" Pre="10387" Disc="水元素王者体内的晶核似乎对什么产生了共鸣，一直闪烁不定" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="38" Process="杀怪" Acquire="系统" NPC="无" Pre="10310" Disc="着核晶共鸣的反映，遇到一群冰元素，他们似乎想要抢夺我们手中的晶核" Monster="风元素 、精英冰元素" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="38" Process="对话" Acquire="系统" NPC="无" Pre="10311" Disc="晶核水晶和元素水滴发生融合成为了能量晶核，并且对亚空间再次共鸣" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="39" Process="杀怪" Acquire="系统" NPC="无" Pre="10389" Disc="我们看到远处似乎有一处狼烟，赶过去后看见一名巫师被一群白熊围着" Monster="白熊" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="40" Process="对话" Acquire="系统" NPC="无" Pre="10313" Disc="我们向巫师指明了临时营地的方向，而巫师告诉我们前方的绿龙堵住了道路。" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="40" Process="杀怪" Acquire="系统" NPC="无" Pre="10314" Disc="我们将绿龙击败了，并提议将黄金龙骸骨和绿龙一同送往亚空间免受打扰" Monster="绿龙" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="40" Process="探索" Acquire="系统" NPC="无" Pre="10315" Disc="我们要找到传说之城让它再次浮空，集结军团消灭那些邪恶的生物" Monster="" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="系统" NPC="无" Pre="10381" Disc="巨龙脊椎内有很多骷髅，他们在吸收骸骨内巨龙残存的能量" Monster="骷髅射手" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="系统" NPC="无" Pre="10384" Disc="翼龙将巢穴建造在巨龙脊椎内，我们只有将翼龙清除我们才能继续前进" Monster="急躁的翼龙" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="系统" NPC="无" Pre="10386" Disc="我们发现前方有些类似人类的生物，但是靠近后却突然向我们攻击过来。" Monster="影未人骑士" Difficulty="" Exp="" Money="" Item="" Other="" />
+	<Row Lv="" Process="杀怪" Acquire="系统" NPC="无" Pre="10388" Disc="为了能顺利前进我们需要将所有阻挡在我们面前的魔物全部清除" Monster="骷髅卫士" Difficulty="" Exp="" Money="" Item="" Other="" />
+</Table>

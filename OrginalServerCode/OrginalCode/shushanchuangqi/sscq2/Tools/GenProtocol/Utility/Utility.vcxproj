@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A63BA6C-FFEE-47D3-8392-6A22E721C4CB}</ProjectGuid>
+    <RootNamespace>Utility</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ThirdParty\openssl\include;..\..\..\ThirdParty\zlib-1.2.8;..\..\..\ThirdParty\boost_1_54_0;..\..\..\Core\SvrLib;..\..\..\Core\Network;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__GENPROTOCOL;__COMPILER_MSVC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ThirdParty\zlib-1.2.8;..\..\..\ThirdParty\openssl\include;..\..\..\ThirdParty\boost_1_54_0;..\..\..\Core\Network;..\..\..\Core\SvrLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-D__COMPILER_MSVC -DWINDOWS %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>__GENPROTOCOL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\ThirdParty\openssl\include;..\..\..\ThirdParty\zlib-1.2.8;..\..\..\ThirdParty\boost_1_54_0;..\..\..\Core\SvrLib;..\..\..\Core\Network;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__GENPROTOCOL;__COMPILER_MSVC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Core\Utility\Archive.h" />
+    <ClInclude Include="..\..\..\Core\Utility\BatchFunc.h" />
+    <ClInclude Include="..\..\..\Core\Utility\BufferBase.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Directory.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Encode.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Enumerator.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Event.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Lock.h" />
+    <ClInclude Include="..\..\..\Core\Utility\LockFree.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Log.h" />
+    <ClInclude Include="..\..\..\Core\Utility\LoopBuffer.h" />
+    <ClInclude Include="..\..\..\Core\Utility\NameCheck.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Noncopyable.h" />
+    <ClInclude Include="..\..\..\Core\Utility\ObjPool.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Platform.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Property.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Random.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Singleton.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Spliter.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Thread.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Tokenizer.h" />
+    <ClInclude Include="..\..\..\Core\Utility\TypeTraits.h" />
+    <ClInclude Include="..\..\..\Core\Utility\UnorderedContainer.h" />
+    <ClInclude Include="..\..\..\Core\Utility\UtilFunc.h" />
+    <ClInclude Include="..\..\..\Core\Utility\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Core\Utility\BatchFunc.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Directory.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Encode.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Event.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Log.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\LoopBuffer.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\NameCheck.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Random.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\UtilFunc.cpp" />
+    <ClCompile Include="..\..\..\Core\Utility\Utils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

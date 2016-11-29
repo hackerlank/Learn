@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="峨眉" ReliveMap="1" ReliveX="40.000000" ReliveY="25.000000" CityID_1="1" WarID_1="11" CityID_2="1" WarID_2="12" MapID="1" EnterX="10.000000" EnterY="10.000000" />
+	<Row ID="2" Name="昆仑" ReliveMap="1" ReliveX="40.000000" ReliveY="25.000000" CityID_1="1" WarID_1="21" CityID_2="1" WarID_2="22" MapID="1" EnterX="10.000000" EnterY="10.000000" />
+	<Row ID="3" Name="中立" ReliveMap="1" ReliveX="40.000000" ReliveY="25.000000" CityID_1="1" WarID_1="31" CityID_2="1" WarID_2="32" MapID="1" EnterX="10.000000" EnterY="10.000000" />
+</Table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" Name="小强" Color="" Desc="全部科技提升到5级" Time="0" ChatShow="1" AllHero="1" />
+	<Row ID="2" Name="老兵" Color="" Desc="战斗力提升到2000" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="18" Name="公会领袖" Color="" Desc="公会会长自动获得" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="19" Name="副会长" Color="" Desc="公会副会长自动获得" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="20" Name="官员" Color="" Desc="公会官员自动获得" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="21" Name="族长" Color="" Desc="家族族长自动获得" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="22" Name="元老" Color="" Desc="家族元老自动获得" Time="0" ChatShow="0" AllHero="0" />
+	<Row ID="23" Name="屠魔勇士" Color="" Desc="给予世界BOSS最后一击时获得" Time="0" ChatShow="0" AllHero="0" />
+</Table>

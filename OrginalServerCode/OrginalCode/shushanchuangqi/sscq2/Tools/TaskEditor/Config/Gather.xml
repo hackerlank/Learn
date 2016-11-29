@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row wGatherId="1" byType="1" strName="采集物测试" strCost="2,1,1;" wGatherTimer="20" wGatherNum="3" byEmptyPack="1" dwDropId="1" byIsTask="0" />
+	<Row wGatherId="2" byType="1" strName="采集五任务测试" strCost="2,1,1;" wGatherTimer="20" wGatherNum="2" byEmptyPack="1" dwDropId="1" byIsTask="1" />
+</Table>
