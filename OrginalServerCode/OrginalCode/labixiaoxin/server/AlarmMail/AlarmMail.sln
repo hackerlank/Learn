@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlarmMail", "AlarmMail\AlarmMail.vcproj", "{B71500C0-1B06-4090-905D-164EF5D63A55}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib", "lib\lib.vcproj", "{5D55DEFF-E27A-4DA0-86B6-096ED045F16A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B71500C0-1B06-4090-905D-164EF5D63A55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B71500C0-1B06-4090-905D-164EF5D63A55}.Debug|Win32.Build.0 = Debug|Win32
+		{B71500C0-1B06-4090-905D-164EF5D63A55}.Release|Win32.ActiveCfg = Release|Win32
+		{B71500C0-1B06-4090-905D-164EF5D63A55}.Release|Win32.Build.0 = Release|Win32
+		{5D55DEFF-E27A-4DA0-86B6-096ED045F16A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D55DEFF-E27A-4DA0-86B6-096ED045F16A}.Debug|Win32.Build.0 = Debug|Win32
+		{5D55DEFF-E27A-4DA0-86B6-096ED045F16A}.Release|Win32.ActiveCfg = Release|Win32
+		{5D55DEFF-E27A-4DA0-86B6-096ED045F16A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

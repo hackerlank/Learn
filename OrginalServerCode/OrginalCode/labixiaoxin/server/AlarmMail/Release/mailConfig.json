@@ -1,0 +1,8 @@
+{
+   "FROMaddress":"xie1xiao1jun@163.com",//发送者
+   "FROPassword":"",//密码
+   "TOaddress":["346944475@qq.com"],//接收者
+   "Subject":"server error",//邮件标题
+   "Message":"lbxx server crashes",//邮件内容
+   "server":"smtp.163.com",//发送邮件服务器
+}
