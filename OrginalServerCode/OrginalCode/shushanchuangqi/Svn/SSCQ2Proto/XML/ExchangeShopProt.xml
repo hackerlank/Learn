@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ExchangeShopProt" id="101" proxy="GameServer" comment="兑换商店">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EExchangeShop" comment="兑换商店错误码">
+            <Member name="eExchangeShop_Sucess" comment="成功"/>
+            <Member name="eExchangeShop_CfgLimit" comment="没有该兑换商品"/>
+            <Member name="eExchangeShop_MoneyLimit" comment="钱不够"/>
+            <Member name="eExchangeShop_CondLimit" comment="购买条件不满足"/>
+            <Member name="eExchangeShop_CountLimit" comment="购买数量限制"/>
+            <Member name="eExchangeShop_ErrorItemID" comment="物品配置找不到"/>
+            <Member name="eExchangeShop_ErrorPack" comment="背包满无法添加物品"/>
+        </Enum>
+        <Struct name="ExchangeInfo" vec="TVecExchangeInfo" comment="已兑换信息列表">
+            <Member type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Member type="UINT32" name="dwExchangeID" comment="兑换ID"/>
+            <Member type="UINT32" name="dwCount" comment="已兑换次数"/>
+            <Member type="UINT32" name="dwFinishTime" comment="兑换时间"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="ExchangeItem" ret="true" comment="兑换物品">
+            <Param type="UINT32" name="dwExchangeID" comment="兑换id"/>
+            <Param type="UINT32" name="dwCount" comment="兑换数量"/>
+            <RetParam type="UINT32" name="dwRet" comment="结果"/>
+        </Func>
+        <Func name="ExchangeItemList" ret="true" comment="已兑换列表">
+            <RetParam type="TVecExchangeInfo" name="vecExchangeInfo" comment="已兑换列表"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ExchangeItemUpdate"  comment="已兑换信息更新">
+            <Param type="ExchangeInfo" name="oExchangeInfo" comment="更新已兑换信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

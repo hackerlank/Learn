@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DBProt" id="9" comment="数据库查询协议">
+  <TypeDef>
+    <Enum name="EParamType" global="both" comment="查询参数的类型">
+      <Member name="eTypeINT8" value="1" comment="INT8类型"/>
+      <Member name="eTypeUINT8" comment="UINT8类型"/>
+      <Member name="eTypeINT16" comment="INT16类型"/>
+      <Member name="eTypeUINT16" comment="UINT16类型"/>
+      <Member name="eTypeINT32" comment="INT32类型"/>
+      <Member name="eTypeUINT32" comment="UINT32类型"/>
+      <Member name="eTypeINT64" comment="INT64类型"/>
+      <Member name="eTypeUINT64" comment="UINT64类型"/>
+      <Member name="eTypeFloat" comment="float类型"/>
+      <Member name="eTypeDouble" comment="double类型"/>
+      <Member name="eTypeString" comment="string类型"/>
+      <Member name="eTypeBlob" comment="Blob类型"/>
+      <Member name="eTypeDateTime" comment="DateTime类型"/>
+      <Member name="eTypeDate" comment="Date类型"/>
+      <Member name="eTypeTime" comment="Time类型"/>
+    </Enum>
+    <Enum name="EQueryType" comment="查询的类型">
+        <Member name="eQueryNormal" comment="普通的查询"/>
+        <Member name="eQuerySave0" comment="保存玩家数据的查询"/>
+        <Member name="eQuerySave1" comment="保存玩家数据的查询"/>
+        <Member name="eQuerySave2" comment="保存玩家数据的查询"/>
+        <Member name="eQuerySave3" comment="保存玩家数据的查询"/>
+        <Member name="eQuerySaveMax" comment="保存玩家数据的查询最大"/>
+        <Member name="eQueryMail" comment="邮件相关的查询"/>
+        <Member name="eQueryArena" comment="斗剑相关查询"/>
+        <Member name="eQueryGuild" comment="帮派相关查询" />
+        <Member name="eQueryRank" comment="排行榜相关查询" />
+        <Member name="eQueryRecharge" comment="充值相关查询" />
+        <Member name="eQueryEnd" comment="结束"/>
+    </Enum>
+    <Struct name="SParam" vec="TVecParam" comment="查询的参数">
+      <Member type="EParamType" name="eType" comment="类型"/>
+      <Member type="string" name="strVal" comment="序列化后的值"/>
+    </Struct>
+    <Struct name="SQuery" comment="查询">
+      <Member type="string" name="strQuery" comment="查询字符串"/>
+      <Member type="TVecParam" name="vecParam" comment="参数列表"/>
+      <Member type="bool" name="bHasResult" comment="是否有结果集"/>
+    </Struct>
+    <Struct name="SRes" vec="TVecRes" comment="查询的一个属性的结果">
+      <Member type="string" name="strVal" comment="序列化后的值"/>
+    </Struct>
+    <Struct name="SRow" vec="TVecRow" comment="查询的一行结果集">
+      <Member type="TVecRes" name="vecRes" operator="true" comment="属性结果的列表"/>
+    </Struct>
+    <Struct name="STable" vec="TVecTable" comment="查询的多行结果组成的一张表">
+      <Member type="UINT8" name="byIndex" comment="结果表对应查询中SQL语句的索引(从0开始)"/>
+      <Member type="bool" name="bMore" comment="是否有更多的结果"/>
+      <Member type="TVecRow" name="vecRow" operator="true" comment="所有行结果的列表"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="QueryReq" comment="查询请求">
+      <Param type="UINT32" name="dwTransID" comment="事务的ID"/>
+      <Param type="EQueryType" name="eQueryType" comment="查询类型"/>
+      <Param type="SQuery" name="query" comment="查询"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+    <Func name="ResultRet" comment="无结果集的返回">
+      <Param type="UINT32" name="dwTransID" comment="事务的ID"/>
+      <Param type="INT8" name="byRet" comment="返回结果：0为成功，1为语法错误，2为参数错误，3为其它错误"/>
+      <Param type="UINT32" name="dwAffectRow" comment="影响的行数"/>
+    </Func>
+    <Func name="ResultDataRet" comment="有结果集的返回">
+      <Param type="UINT32" name="dwTransID" comment="事务的ID"/>
+      <Param type="INT8" name="byRet" comment="返回结果：0为成功，1为语法错误，2为参数错误，3为其它错误"/>
+      <Param type="TVecTable" name="vecTable" comment="返回的结果表集"/>
+      <Param type="UINT8" name="byCount" comment="结果表数量"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

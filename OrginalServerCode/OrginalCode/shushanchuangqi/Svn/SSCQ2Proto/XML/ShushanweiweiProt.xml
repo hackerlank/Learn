@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ShushanweiweiProt" id="93" proxy="GameServer" comment="蜀山微微协议">
+    <Refer>
+	</Refer>
+	   <TypeDef>
+	   <Enum name="EPkgResult" comment="操作结果">
+		    <Member name="ePackError" comment="错误"/>  
+			<Member name="ePackGain" comment="已经领取"/> 
+			<Member name="ePackFull" comment="背包已满"/> 
+			<Member name="ePackSuccess" comment="成功"/>
+        </Enum>
+        <Enum name="EPkgType" comment="领奖类型">
+		    <Member name="eWeibo"  value="0"  comment="微博"/>  
+			<Member name="eWeixin" value="1"  comment="微信"/> 
+			<Member name="eMax"   comment="最大值"/> 
+        </Enum>
+	    <Struct name="SPrizeInfo" vec="TVecPrizeInfo" comment="奖励信息">   
+            <Member type="EPkgType" name="eType" comment="奖励类型"/>
+			<Member type="UINT32" name="dwCount" comment="当前人数"/>
+            <Member type="bool" name="bListen" comment="微博是否收听"/>
+            <Member type="bool" name="bResult" comment="个人奖励是否领取"/>
+            <Member type="UINT16" name="wResult" comment="全服奖励领取结果"/>
+        </Struct>
+		</TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="TakePrize"  ret="true" comment="获取礼包">
+		    <Param type="EPkgType" name="eType" comment="活动类型"/>
+			<Param type="UINT16" name="wIndex" comment="领奖类型：0表示个人奖励，1..16位 表示领取全服第几个奖励"/>
+		    <Param type="string" name="strCDK" comment="CDK"/>
+            <RetParam type="EPkgType" name="eRetType" comment="活动类型返回"/>
+			<RetParam type="UINT16" name="wRetIndex" comment="领奖类型返回：0表示个人奖励，1..16 表示领取全服第几个奖励"/>
+            <RetParam type="EPkgResult" name="eRet" comment="操作结果返回"/>
+        </Func>
+        <Func name="GetPrizeInfo"  ret="false" comment="获得玩家奖励信息">
+        </Func>
+        <Func name="ListenWeibo" ret="true" comment="收听微博">
+            <RetParam type="EPkgResult" name="eRet" comment="操作结果返回"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SyncPrizeInfo" comment="同步玩家奖励信息">
+            <Param type="TVecPrizeInfo" name="vecResult" comment="奖励结果"/>
+        </Func>
+    </FuncS2C>
+</Protocol>
+										
+   
+	    										
+
+

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="BattleGS" id="21" proxy="GameServer" comment="战斗通信协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EBStatusType" comment="被动状态枚举">
+            <Member name="EBStatusType_Evade" comment="闪避"/>
+            <Member name="EBStatusType_Resist" comment="抵抗"/>
+            <Member name="EBStatusType_Immu" comment="免疫"/>
+            <Member name="EBStatusType_Block" comment="格挡" />
+        </Enum>
+        <Enum name="EBStateBuffType" byte="2" comment="State效果枚举">
+            <Member name="EBFBuffTypeNone"           value = "0"              comment="无状态"/>
+            <Member name="EBFBuffTypeMin"            value = "0"              comment="出手时状态枚举最小值"/>
+            <Member name="EBFBuffTypeStun"           value = "1"              comment="眩晕"/>
+            <Member name="EBFBuffTypeConfuse"        value = "2"              comment="混乱"/>
+            <Member name="EBFBuffTypeCover"          value = "3"              comment="掩护"/>
+            <Member name="EBFBuffTypeEShock"         value = "4"              comment="电击"/>
+            <Member name="EBFBuffTypeBlock"          value = "5"              comment="格挡"/>
+            <Member name="EBFBuffTypeInvincible"     value = "6"              comment="无敌"/>
+            <Member name="EBFBuffTypeShield"         value = "7"              comment="护盾"/>
+            <Member name="EBFBuffTypePierce"         value = "8"              comment="破甲"/>
+            <Member name="EBFBuffTypeBleed"          value = "9"              comment="流血"/>
+            <Member name="EBFBuffTypeForget"         value = "10"             comment="沉默"/>
+            <Member name="EBFBuffTypeFreeze"         value = "11"             comment="冻结"/>
+            <Member name="EBFBuffTypeBurned"         value = "12"             comment="点燃"/>
+            <Member name="EBFBuffTypeAtkAdd"         value = "13"             comment="攻击提升"/>
+            <Member name="EBFBuffTypeAtkSub"         value = "14"             comment="攻击下降"/>
+            <Member name="EBFBuffTypeRedAdd"         value = "15"             comment="免伤提升"/>
+            <Member name="EBFBuffTypeRedSub"         value = "16"             comment="免伤下降"/>
+            <Member name="EBFBuffTypeStoned"         value = "17"             comment="石化"/>
+            <Member name="EBFBuffTypePoison"         value = "18"             comment="中毒"/>
+            <Member name="EBFBuffTypeHide"           value = "19"             comment="影遁"/>
+            <Member name="EBFBuffTypeBronze"         value = "20"             comment="铜人"/>
+            <Member name="EBFBuffTypeKingkong"       value = "21"             comment="金刚"/>
+            <Member name="EBFBuffTypeDmgReduce"      value = "22"             comment="伤害减少"/>
+            <Member name="EBFBuffTypeDmgAdd"         value = "23"             comment="伤害提升"/>
+            <Member name="EBFBuffTypeCongest"        value = "24"             comment="蓄力"/>
+            <Member name="EBFBuffTypeReflect"        value = "25"             comment="反弹状态"/>
+            <Member name="EBFBuffTypeHitDown"        value = "26"             comment="命中降低"/>
+            <Member name="EBFBuffTypeClone"          value = "27"             comment="分身" />
+            <Member name="EBFBuffTypeSealed"         value = "28"             comment="封印"/>
+            <Member name="EBFBuffTypeBeDmgReudce"    value = "29"             comment="伤害减免" />
+            <Member name="EBFBuffTypeBlind"          value = "30"             comment="致盲" />
+            <Member name="EBFBuffTypeSmoke"          value = "31"             comment="烟幕" />
+            <Member name="EBFBuffTypeGuard"          value = "32"             comment="护卫" />
+            <Member name="EBFBuffTypeKindKing"       value = "33"             comment="仁王" />
+            <Member name="EBFBuffTypeBlunt"          value = "34"             comment="麻痹" />
+            <Member name="EBFBuffTypeIceBlade"       value = "35"             comment="冰刃" />
+            <Member name="EBFBuffTypeThunderBlade"   value = "36"             comment="雷刃" />
+            <Member name="EBFBuffTypeFireBlade"      value = "37"             comment="炎刃" />
+            <Member name="EBFBuffTypeSnowSoul"       value = "38"             comment="雪魂" />
+            <Member name="EBFBuffTypeHaloRed"        value = "39"             comment="光环红" />
+            <Member name="EBFBuffTypeHaloBlue"       value = "40"             comment="光环蓝" />
+            <Member name="EBFBuffTypeDrogenSting"    value = "41"             comment="龙刺" />
+            <Member name="EBFBuffTypeDmgShare"       value = "42"             comment="伤害分担" />
+            <Member name="EBFBuffTypeAttrAdd"        value = "43"             comment="属性增益" />
+            <Member name="EBFBuffTypeAttrSub"        value = "44"             comment="属性减益" />
+            <Member name="EBFBuffTypeActAtkAdd"      value = "45"             comment="行动后攻击增加" />
+            <Member name="EBFBuffTypeActDefAdd"      value = "46"             comment="行动后防御增加" />
+            <Member name="EBFBuffTypeMax"                                     comment="状态最大值" />
+        </Enum>                                               
+        <Enum name="EBSubHPType"  comment="扣血伤害类型（物理/法术）" >
+            <Member name="EBSubHPPhy" comment="物理"/>
+            <Member name="EBSubHPMgc" comment="法术"/>
+        </Enum>
+        <Enum name="EBModifyHPType" comment="修改血的类型">
+            <Member name="EBMODIFYHP_NORMAL" value = "0" comment="普通"/>
+            <Member name="EBMODIFYHP_CRITICAL" comment="暴击"/>
+        </Enum>
+        <Enum name="EBSheildAbsorbType" comment="被动状态枚举">
+            <Member name="EBSheildAbsorbPhysic" value="1"  comment="吸收物理伤害"/>
+            <Member name="EBSheildAbsorbMagic" comment="吸收法术伤害"/>
+            <Member name="EBSheildAbsorbDamage" comment="吸收伤害"/>
+        </Enum> 
+        <Enum name="ECombineType" comment="连携槽增长方式">
+            <Member name="eCTNone" value="0"    comment="无效方式" />
+            <Member name="eCTCritical"          comment="暴击" />
+            <Member name="eCTBlock"             comment="格挡" />
+            <Member name="eCTEvade"             comment="闪避" />
+            <Member name="eCTCounter"           comment="反击" />
+            <Member name="eCTPeerless"          comment="无双" />
+            <Member name="eCTMax"               comment="最大" />
+        </Enum>
+        <Enum name="ECombineSlotOPType" comment="连携槽操作">
+            <Member name="eCSOPTLock"       comment="关闭连携槽" />
+            <Member name="eCSOPTUnLock"     comment="开启连携槽" />
+        </Enum>
+        <Enum name="EBattleResult" comment="战斗结果">
+            <Member name="EBResultNone"        value="0"  comment="无"/>
+            <Member name="EBResultAttackWin"              comment="攻击方胜利"/>
+            <Member name="EBResultDefenseWin"             comment="防守方胜利"/>
+            <Member name="EBResultTie"                    comment="平局（最后血量都相同，可能为0）"/>
+        </Enum>
+        <Enum name="EBattleType" comment="战斗模式：PVP/PVE">
+            <Member name="EBTINVALID"       value = "1"  comment="PVE(攻击怪物)"/>
+            <Member name="EBTMonster"       value = "2"  comment="PVE(攻击怪物)"/>
+            <Member name="EBTPlayer"        value = "3"  comment="PVP(攻击玩家)"/>
+            <Member name="EBWorldBoss"      value = "4"  comment="世界boss战"/>
+            <Member name="EBArena"          value = "5"  comment="竞技场"/>
+            <Member name="EBDemonTower"     value = "6"  comment="锁妖塔"/>
+            <Member name="ETreasureHunt"    value = "7"  comment="寻宝"/>
+            <Member name="EGuardEMei"       value = "8"  comment="守卫峨嵋"/>
+            <Member name="EBShip"           value = "9"  comment="运船"/>
+            <Member name="EBShushan"        value = "10" comment="论剑"/>
+            <Member name="EBLingshan"       value = "11" comment="灵山寻宝"/>
+            <Member name="EBattleEnd"                 comment="结束标志"/>
+        </Enum>
+        <Struct name="SEquipShowInfo" vec="TVecEquipShowInfo" comment="发给前端用的显示外形的装备信息">
+            <Member type="UINT16" name="wEquipID" comment="装备TypeID"/>
+            <Member type="UINT8" name="byStrengthenLevel" comment="强化等级"/>
+            <Member type="UINT8" name="byPos" comment="装备位置"/>
+        </Struct>
+        <Struct name="STitleAppear" vec="TVecTitleAppear" comment="装备的头衔外观">
+            <Member type="UINT8" name="byPos" comment="装备位置"/>
+            <Member type="UINT16" name="wID" comment="头衔ID"/>
+        </Struct>
+        <Struct name="SBattleBuffInfo" vec="TVecBattleBuffInfo" comment="战斗外的Buff信息">
+            <Member type="UINT16"       name="wBuffID"        comment="Buff种类" />
+            <Member type="TVecUINT32"   name="vecBuffData"    comment="Buff数值"/>
+            <Member type="UINT32"       name="dwBuffCount"    comment="Buff叠加层数"/>
+            <Member type="UINT32"       name="dwBuffTime"     comment="Buff失效时间"/>
+        </Struct>
+        <Struct name="SFeatureBase" vec="TVecFeatureBase" comment="外观信息">
+            <Member type="TVecUINT16" name="vecBuffID" comment="BUffID信息" />
+            <SubStruct name="SMonsterFeature" vec="TVecMonsterFeature" comment="怪物">
+                <Member type="UINT16" name="wMonsterID" comment="配置表里面的英雄ID，根据ID可以取到怪物外观资源"/>
+            </SubStruct>
+            <SubStruct name="SPlayerFeature" vec="TVecPlayerFeature" comment="玩家">
+                <Member type="string"                   name="strName"          comment="玩家姓名" />
+                <Member type="ProtoCommon::ECareerType" name="eJob"             comment="职业"/>
+                <Member type="ProtoCommon::ESexType"    name="eSex"             comment="性别"/>
+                <Member type="TVecEquipShowInfo"        name="vEquip"           comment="装备"/>
+                <Member type="TVecTitleAppear"          name="vecTitle"         comment="头衔"/>
+                <Member type="string"                   name="strGuildName"     comment="帮派名称" />
+                <Member type="UINT8"                    name="byQuality"        comment="品质" />
+                <Member type="UINT8"                    name="byDujieLevel"     comment="散仙渡劫等级"/>
+                <Member type="UINT8"                    name="byVIPLevel"       comment="VIP等级" />
+            </SubStruct>
+            <SubStruct name="SHeroFeature" vec="TVecHeroFeature" comment="散仙">
+                <Member type="UINT16"   name="wHeroID"      comment="散仙类型"/>
+                <Member type="UINT8"    name="byQuality"    comment="品质" />
+                <Member type="UINT8"    name="byDujieLevel" comment="散仙渡劫等级"/>
+            </SubStruct>
+            <SubStruct name="SFormationFeature" vec="TVecFormationFeature" comment="阵灵">
+                <Member type="UINT16" name="wFormationID" comment="阵灵配置表ID，同monster"/>
+            </SubStruct>
+            <SubStruct name="SFieldFeature" comment="场景" >
+                <Member type="UINT16" name="wSceneID" comment="场景ID"/>
+            </SubStruct>
+            <SubStruct name="SBeautyFeature" comment="美女" >
+                <Member type="UINT16" name="wBeautyID" comment="美女ID"/>
+            </SubStruct>
+            <SubStruct name="SPlayerFeatureWithBuff" vec="TVecPlayerFeatureWithBuff" comment="带Buff的玩家信息">
+                <Member type="string"                   name="strName"          comment="玩家姓名" />
+                <Member type="ProtoCommon::ECareerType" name="eJob"             comment="职业"/>
+                <Member type="ProtoCommon::ESexType"    name="eSex"             comment="性别"/>
+                <Member type="TVecEquipShowInfo"        name="vEquip"           comment="装备"/>
+                <Member type="TVecTitleAppear"          name="vecTitle"         comment="头衔"/>
+                <Member type="string"                   name="strGuildName"     comment="帮派名称" />
+                <Member type="UINT8"                    name="byQuality"        comment="品质" />
+                <Member type="UINT8"                    name="byDujieLevel"     comment="散仙渡劫等级"/>
+                <Member type="UINT8"                    name="byVIPLevel"       comment="VIP等级" />
+                <Member type="TVecBattleBuffInfo"       name="vecBuffInfo"          comment="战斗外的Buff信息" />
+            </SubStruct>
+            <SubStruct name="SMonsterFeatureWithBuff" vec="TVecMonsterFeatureWithBuff" comment="带Buff的怪物信息">
+                <Member type="UINT16" name="wMonsterID" comment="配置表里面的英雄ID，根据ID可以取到怪物外观资源"/>
+                <Member type="TVecBattleBuffInfo"   name="vecBuffInfo"          comment="战斗外的Buff信息" />
+            </SubStruct>
+        </Struct>
+        <Struct name="SBattleFightSkillInfo" vec="TVecFightSkillInfo" comment="参与战斗的技能信息">
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <Member type="UINT32" name="dwSymboleID" comment="符文ID"/>
+        </Struct>
+        <Struct name="STeamSkillInfo" vec="TVecTeamSkillInfo" comment="队伍技能">
+            <Member type="UINT8" name="byIndex" comment="队伍技能唯一编号" />
+            <Member type="UINT8" name="byTeamID" comment="队伍ID" />
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Struct>
+        <Struct name="SBattleFighterInfo" vec="TVecFighterInfo" comment="战斗者信息">
+            <Member type="UINT64"                       name="qwInstID"      comment="将唯一ID"/>
+            <Member type="UINT16"                       name="wFighterID"    comment="将类型ID"/>
+            <Member type="INT32"                        name="iPos"          comment="将位置"/>
+            <Member type="UINT8"                        name="byTeamID"      comment="所属队伍ID"/>
+            <Member type="UINT8"                        name="byLevel"       comment="等级"/>
+            <Member type="string"                       name="strName"       comment="将名字"/>
+            <Member type="ProtoCommon::ESexType"        name="eSex"          comment="将性别" />
+            <Member type="ProtoCommon::ECareerType"     name="eCareer"       comment="将职业" />
+            <Member type="UINT32"                       name="dwHpMax"       comment="最大血量"/>
+            <Member type="UINT32"                       name="dwHp"          comment="当前血量"/>
+            <Member type="UINT32"                       name="dwAura"        comment="当前灵气"/>
+            <Member type="UINT32"                       name="dwAuraMax"     comment="最大灵气"/>
+            <Member type="ProtoCommon::TVecFtAttrMod"   name="oAttrVec"      comment="最终属性"/>
+            <Member type="TVecFightSkillInfo"           name="vActiveSkill"  comment="装备的主动技能"/>
+            <Member type="TVecFightSkillInfo"           name="vPassiveSkill" comment="被动技能"/>
+            <Member type="SBattleFightSkillInfo"        name="oPeerLees"     comment="无双技能"/>
+            <Member type="SBattleFightSkillInfo"        name="oPeerLeesEx"   comment="变身后无双技能"/>
+            <Member type="SFeatureBase"                 name="pFeature"      comment="外观信息" />
+        </Struct>
+        <Struct name="SBattleFighter" vec="TVecBattleFighter" comment="Fighter信息">
+            <Member type="UINT8" name="byFighterID" comment="战场开始之后分配的唯一ID，groupID*5*5+pos"/>
+            <Member type="SBattleFighterInfo" name="oFgtInfo" comment="FighterInfo"/>
+        </Struct>
+        <Struct name="SBattleGroup" vec="TVecBattleGroup" comment="战斗小队">
+            <Member type="UINT8"                name="byGroupID"            comment="组ID"/>
+            <Member type="UINT64"               name="qwCreatrueID"         comment="玩家ID，地图上跑的时候用的那个ID，怪物为0"/>
+            <Member type="UINT64"               name="qwLeaderID"           comment="队伍主将ID"/>
+            <Member type="UINT16"               name="wLevel"               comment="队伍等级"/>
+            <Member type="TVecBattleFighter"    name="vFighters"            comment="队伍里面的所有fighter"/>
+            <Member type="TVecTeamSkillInfo"    name="vecCombineSkillInfo"  comment="队伍中的连携技能" />
+            <Member type="SFeatureBase"         name="pMainFeature"         comment="主将外观信息(用于显示头像用)" />
+            <Member type="UINT32"               name="dwBattlePoint"        comment="战斗力" />
+        </Struct>
+        <Struct name="SEffectBase" vec="TVecEffects" comment="战斗基础效果类型">
+            <Member type="TVecUINT8" name="vecFighterID" comment="表现这个效果的fighter(255表示为场景)"/>
+            <SubStruct name="SEffectDecHP" vec="TVecDecHP" comment="扣血">
+                <Member type="UINT32"           name="dwSkillID"    comment="扣血对应ID" />
+                <Member type="EBSubHPType"      name="eSubHPType"   comment="扣血伤害类型（物理/法术）" />
+                <Member type="EBModifyHPType"   name="eHPType"      comment="扣血类型"/>
+                <Member type="UINT32"           name="dwDecHP"      comment="扣掉的血"/>
+            </SubStruct>
+            <SubStruct name="SEffectAddStatus" vec="TVecAddStatus" comment="一个UINT32参数的效果">
+                <Member type="EBStatusType" name="eStatus" comment="状态类型"/>
+            </SubStruct>
+            <SubStruct name="SEffectAddHP" vec="TVecAddHP" comment="加血">
+                <Member type="UINT32"           name="dwSkillID"    comment="加血对应ID" />
+                <Member type="EBModifyHPType" name="eHPType" comment="加血类型"/>
+                <Member type="UINT32" name="dwAddHP" comment="增加的血量"/>
+            </SubStruct>
+            <SubStruct name="SEffectRelive" vec="TVecRelive" comment="重生">
+                <Member type="UINT8"  name="byGroupID"  comment="组编号"/>
+                <Member type="UINT8"  name="bySide"     comment="方向编号"/>
+                <Member type="UINT8"  name="byPos"      comment="位置编号"/>
+                <Member type="UINT16" name="wFighterID" comment="散仙ID" />
+                <Member type="UINT32" name="dwHpMax"    comment="最大血量"/>
+                <Member type="UINT32" name="dwHp"       comment="当前血量"/>
+                <Member type="UINT32" name="dwAura"     comment="当前灵气"/>
+                <Member type="UINT32" name="dwAuraMax"  comment="最大灵气"/>
+            </SubStruct>
+            <SubStruct name="SEffectCounter" vec="TVecCounter" comment="反击">
+                <Member type="EBSubHPType"  name="eSubHPType" comment="扣血伤害类型（物理/法术）" />
+                <Member type="EBModifyHPType" name="eHPType" comment="扣血类型"/>
+                <Member type="UINT32" name="dwDecHP" comment="反击的伤害量"/>
+            </SubStruct>
+            <SubStruct name="SEffectStateBuffAdd" vec="TVecStateBuffAdd" comment="加状态Buff">
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个buff的唯一ID"/>
+                <Member type="EBStateBuffType" name="eStateBuffType" comment="状态枚举"/>
+                <Member type="UINT32" name="dwSkillID" comment="该Buff的技能来源" />
+                <Member type="UINT32" name="dwBaseSkillID" comment="初始技能ID（SkillBase表的ID）" />
+                <Member type="UINT8"  name="byLast"    comment="持续时间" />
+                <Member type="INT32"  name="dwValue"   comment="该Buff的效果值"/>
+            </SubStruct>
+            <SubStruct name="SEffectStateBuffEffect" vec="TVecStateBuffEffect" comment="状态Buff生效">
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个Buff的唯一ID"/>
+            </SubStruct>
+            <SubStruct name="SEffectStateBuffDec" vec="TVecStateBuffDec" comment="减状态Buff">
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个Buff的唯一ID"/>
+            </SubStruct>
+            <SubStruct name="SEffectStateBuffLast" vec="TVecStateBuffLast" comment="Buff持续时间">
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个Buff的唯一ID"/>
+                <Member type="UINT8"  name="byLast"    comment="持续时间" />
+            </SubStruct>
+            <SubStruct name="SEffectAttrBuffAdd" vec="TVecAttrBuffAdd" comment="加修改人物属性buff">
+                <Member type="ProtoCommon::EFighterAttr" name="eBuffType" comment="修改的属性枚举"/>
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个buff的唯一ID"/>
+                <Member type="UINT32" name="dwSkillID" comment="该Buff的技能来源" />
+                <Member type="UINT8"  name="byLast"    comment="持续时间" />
+                <Member type="INT32"  name="dwValue"   comment="该Buff的效果值"/>
+            </SubStruct>
+            <SubStruct name="SEffectAttrBuffDec" vec="TVecAttrBuffDec" comment="减修改人物属性buff">
+                <Member type="UINT32" name="dwBuffKey" comment="查找这个buff的唯一ID"/>
+            </SubStruct>
+            <SubStruct name="SEffectDied" vec="TVecDied" comment="我死了">
+                <Member type="UINT32" name="dwSkillID" comment="死亡时动画技能ID" />
+            </SubStruct>
+            <SubStruct name="SEffectShieldAbsorb" vec="TVecShieldAbsorb" comment="盾牌吸收伤害">
+                <Member type="EBSheildAbsorbType" name="eType" comment="吸收类型"/>
+                <Member type="UINT32" name="dwHP" comment="吸收的数值"/>
+            </SubStruct>
+            <SubStruct name="SEffectTriggerExecute" vec="TVecTriggerExecute" comment="被动触发执行">
+                <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+            </SubStruct>
+            <SubStruct name="SEffectSycHP" vec="TVecSycHP" comment="同步血量和血上限">
+                <Member type="UINT32" name="dwHP" comment="当前血量"/>
+                <Member type="UINT32" name="dwHPMax" comment="当前血上限"/>
+            </SubStruct>
+            <SubStruct name="SEffectSycAura" vec="TVecSycAura" comment="同步灵气">
+                <Member type="INT32" name="iAura" comment="当前怒气值"/>
+            </SubStruct>
+            <SubStruct name="SEffectSycCombine" vec="TVecSycCombine" comment="同步连携值">
+                <Member type="INT32" name="iCombine" comment="当前连携值"/>
+                <Member type="TVecUINT8" name="vecSycType" comment="更改方式（见ECombineType）)" />
+            </SubStruct>
+            <SubStruct name="SEffectCombineSlot" vec="TVecCombineSlot" comment="连携槽相关操作效果" >
+                <Member type="ECombineSlotOPType" name="eType" comment="操作方式"/>
+            </SubStruct>
+            <SubStruct name="SEffectBrokenShield" vec="TVecBrokenShield" comment="破盾效果">
+                <Member type="INT32" name="iPoint" comment="盾牌耐久扣减值"/>
+            </SubStruct>
+            <SubStruct name="SEffectSummon"     vec="TVecSummon"    comment="召唤效果" >
+                <Member type="UINT8"  name="byGroupID"  comment="组编号"/>
+                <Member type="UINT8"  name="bySide"     comment="方向编号"/>
+                <Member type="UINT8"  name="byPos"      comment="位置编号"/>
+                <Member type="UINT16" name="wFighterID" comment="散仙ID" />
+                <Member type="UINT32" name="dwHpMax"    comment="最大血量"/>
+                <Member type="UINT32" name="dwHp"       comment="当前血量"/>
+                <Member type="UINT32" name="dwAura"     comment="当前灵气"/>
+                <Member type="UINT32" name="dwAuraMax"  comment="最大灵气"/>
+            </SubStruct>
+            <SubStruct name="SEffectDialog"     vec="TVecDialog"    comment="对话效果">
+                <Member type="UINT32"   name="dwID"     comment="对话ID" />
+            </SubStruct>
+            <SubStruct name="SEffectTransform"     vec="TVecTransform"    comment="变身效果">
+                <Member type="UINT16"   name="wFeatureID"     comment="模型ID" />
+            </SubStruct>
+            <SubStruct name="SEffectPartBroken"    vec="TVecPartBorken" comment="部位破坏" >
+                <Member type="UINT16"   name="wPartID"     comment="部位ID" />
+            </SubStruct>
+            <SubStruct name="SEffectBuffAction" vec="TVecBuffAction" comment="被动技能出手动作">
+                <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+            </SubStruct>
+        </Struct>
+        <Struct name="SBattleTargetPos" vec="TVecBattleTargetPos" comment="目标位置，由组ID和位置唯一能找到坐标">
+            <Member type="UINT8" name="byGroupID" comment="组ID"/>
+            <Member type="UINT8" name="byPos" comment="位置ID"/>
+        </Struct>
+        <Struct name="SBattleProgress" vec="TVecBattleProgress" comment="某个fighter一次出手">
+            <Member type="TVecUINT8" name="vecCasterIndex" comment="主犯(255代表入场技能或者场景技能"/>
+            <Member type="TVecEffects" name="vEffectsBefore" comment="主犯施法前的效果列表"/>
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <Member type="TVecUINT8" name="vTargetID" comment="所有目标ID"/>
+            <Member type="TVecUINT8" name="vTargetIDEx" comment="波及目标ID" />
+            <Member type="TVecBattleTargetPos" name="vTargetPos" comment="技能主执行覆盖区域位置"/>
+			<Member type="TVecEffects" name="vSkillEffects" comment="技能效果列表"/>
+            <Member type="TVecEffects" name="vEffectsAfter" comment="主犯施法后效果列表"/>
+        </Struct>
+        <Struct name="SBattleRound" vec="TVecBattleRound" comment="一个回合（所有队伍都出手一次）">
+            <Member type="UINT32" name="dwRounds" comment="当前回合数" />
+            <Member type="TVecBattleProgress" name="vTargets" comment="其它人出手"/>
+        </Struct>
+        <Struct name="SBattleReport" comment="战报">
+            <Member type="UINT64" name="qwBattleID" comment="战报ID"/>
+            <Member type="UINT64" name="qwNextBattleID" comment="next战报ID"/>
+            <Member type="UINT16" name="wSceneID" comment="战斗场景ID"/>
+            <Member type="UINT8" name="by1Vs1" comment="0:普通一打多，1：普通一打一，2：boss一打多， 3：boss一打一"/>
+            <Member type="EBattleType" name="eType" comment="战斗模式：PVP/PVE" />
+            <Member type="TVecBattleGroup" name="vAGroups" comment="A队伍里的所有小组"/>
+            <Member type="TVecBattleGroup" name="vBGroups" comment="B队伍里的所有小组"/>
+            <Member type="TVecBattleFighter" name="vSummons" comment="战斗中可能召唤的散仙" />
+            <Member type="TVecBattleRound" name="vRound" comment="所有的出手回合"/>
+            <Member type="UINT8" name="byAWaves" comment="A队剩余波数"/>
+            <Member type="UINT8" name="byBWaves" comment="B队剩余波数"/>
+            <Member type="EBattleResult" name="eResult" comment="战斗结果"/>
+            <Member type="ItemProt::TVecItemGenInfo" name="vecItem" comment="获得物品"/> 
+            <Member type="ItemProt::TVecResource" name="vecResSource" comment="获得资源"/>	
+        </Struct>
+        <Struct name="NewSBattleReport" comment="战报">
+            <Member type="UINT64" name="qwHash" comment="新版本战报校验字段(应该始终为0xFFFFFFFF)" />
+            <SubStruct name="NewSBattleReportV1" comment="版本1战报" >
+                <Member type="UINT64" name="qwBattleID" comment="战报ID"/>
+                <Member type="UINT64" name="qwNextBattleID" comment="next战报ID"/>
+                <Member type="UINT16" name="wSceneID" comment="战斗场景ID"/>
+                <Member type="UINT8" name="by1Vs1" comment="0:普通一打多，1：普通一打一，2：boss一打多， 3：boss一打一"/>
+                <Member type="EBattleType" name="eType" comment="战斗模式：PVP/PVE" />
+                <Member type="TVecBattleGroup" name="vAGroups" comment="A队伍里的所有小组"/>
+                <Member type="TVecBattleGroup" name="vBGroups" comment="B队伍里的所有小组"/>
+                <Member type="TVecBattleFighter" name="vSummons" comment="战斗中可能召唤的散仙" />
+                <Member type="TVecBattleRound" name="vRound" comment="所有的出手回合"/>
+                <Member type="UINT8" name="byAWaves" comment="A队剩余波数"/>
+                <Member type="UINT8" name="byBWaves" comment="B队剩余波数"/>
+                <Member type="EBattleResult" name="eResult" comment="战斗结果"/>
+                <Member type="ItemProt::TVecItemGenInfo" name="vecItem" comment="获得物品"/> 
+                <Member type="ItemProt::TVecResource" name="vecResSource" comment="获得资源"/>	
+            </SubStruct>
+        </Struct>
+        <Enum name="EBattleReqResult" desc="true" comment="战斗请求结果">
+            <Member name="EBattleReq_Suc" value="1" comment="成功"/>
+            <Member name="EBattleReq_CoolDown" value="2" comment="您还处在战斗冷却中"/>
+            <Member name="EBattleReq_Protect" value="3" comment="对方在战斗保护中"/>
+            <Member name="EBattleReq_GuardFirst" value="4" comment="请先去击杀护卫"/>
+            <Member name="EBattleReq_DieCD" value="5" comment="死亡冷却中"/>
+            <Member name="EBattleReq_FieldCoolDown" value="6" comment="野外战斗冷却中"/>
+            <Member name="EBattleReq_Level" value="7" comment="等级不够"/>
+            <Member name="EBattleReq_Other" value="8" comment="未知错误"/>
+        </Enum>
+        <Enum name="EReportReqResult" desc="true" comment="战报请求结果">
+            <Member name="EReportReq_Suc" value="1" comment="成功"/>
+            <Member name="EReportReq_NonExistent" value="2" comment="请求的战报不存在"/>
+            <Member name="EReportReq_Other" value="4" comment="未知错误"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="BattleReq" comment="请求战斗">
+            <Param type="UINT64" name="qwDefenseID" comment="防守ID"/>
+        </Func>
+        <Func name="BattleReportReq" comment="请求战报">
+            <Param type="UINT64" name="qwReportID" comment="请求战报ID"/>
+            <Param type="UINT64" name="qwMasterID" comment="视角角色ID"/>
+        </Func>
+        <Func name="FinishBattleReport" comment="战报阅读完成">
+            <Param type="UINT64" name="qwReportID" comment="请求战报ID"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="BattleAck" ackmsg ="eResult"  comment="战斗请求结果">
+            <Param type="EBattleReqResult" name="eResult" comment="返回结果"/>
+        </Func>
+        <Func name="BattleReportAck" ackmsg ="eResult" comment="请求战报结果">
+            <Param type="EReportReqResult" name="eResult" comment="战报请求结果"/>
+        </Func>
+        <Func name="BattleReportData" comment="战报">
+            <Param type="ByteArray" name="strBattleReport" comment="战报"/>
+            <Param type="UINT64" name="qwMasterID" comment="视角角色ID"/>
+            <Param type="UINT16" name="wFighterID" comment="主将ID"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="FightFormation" id="132" proxy="GameServer" comment="新阵型相关协议">
+    <Refer>
+        <Protocol name="RoleInfoDefine"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EFightFormationResult" comment="新阵型相关协议">
+            <Member name="eFightFormationResult_Succes"  value="0" comment="操作成功" />
+            <Member name="eFightFormationResult_Fail"  value="1" comment="设置错误" />
+        </Enum>
+        <Struct name="SBattlePosInfo" vec="TVecBattlePosInfo" comment="阵型信息">
+            <Member type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Member type="INT8" name="byPos" comment="位置"/>
+        </Struct>
+        <Struct name="FightFormationInfo" vec="TVecFightFormationInfo" comment="战斗阵型信息">
+            <Member type="UINT16" name ="wFormationID" comment="当前阵形ID"/>
+            <Member type="TVecBattlePosInfo" name="vecBattlePosInfo" comment="位置"/>
+        </Struct>
+        <Struct name="FightHeroInfo" vec="TVecFightHeroInfo" comment="战斗散仙信息">
+            <Member type="UINT64" name ="qwInstID" comment="散仙InstID"/>
+            <Member type="UINT32" name="dwHP" comment="当前生命值"/>
+            <Member type="UINT32" name="dwMaxHP" comment="最大生命值（可能用到）"/>
+            <Member type="UINT32" name="dwAura" comment="灵气值"/>
+            <Member type="UINT32" name="dwMaxAura" comment="最大灵气值"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetFightFormation" ret="true" comment="取得阵形信息">
+            <Param type="UINT16" name="wBattleType" comment="战斗类型 EBattleType"/>
+            <RetParam type="FightFormationInfo" name ="oFightFormation" comment="战斗阵形信息"/>
+        </Func>
+        <Func name="SetFightFormation" ret="true" comment="设置阵形信息">
+            <Param type="UINT16" name="wBattleType" comment="战斗类型"/>
+            <Param type="FightFormationInfo" name ="oFightFormation" comment="阵形ID"/>
+            <RetParam type="EFightFormationResult" name ="eRet" comment="操作结果"/>
+        </Func>
+        <Func name="GetFightHeroInfo" ret="true" comment="战斗散仙信息">
+            <Param type="UINT16" name="wBattleType" comment="战斗类型 EBattleType"/>
+            <RetParam type="TVecFightHeroInfo" name ="vecFightHeroInfo" comment="战斗阵形信息"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>
+

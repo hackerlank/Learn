@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="MoneyTreeProt" id="88" proxy="GameServer" comment="摇钱树协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EMoneyTreeResult" comment="操作结果">
+            <Member name="Succeed" comment="成功"/>
+            <Member name="Error" comment="失败"/>
+        </Enum>
+    </TypeDef>
+	
+    <FuncC2S client="ActionScript">
+        <Func name="GetMoneyTreeInfo" ret="true" comment="请求摇钱树信息">
+            <RetParam type="UINT16" name="todayUseCount" comment="今日使用次数"/>
+        </Func>
+		<Func name="GetMoney" ret="true" comment="请求摇钱">
+            <RetParam type="UINT16" name="todayUseCount" comment="今日使用次数"/>
+        </Func>
+    </FuncC2S>
+	
+    <FuncS2C>
+
+    </FuncS2C>
+	
+</Protocol>

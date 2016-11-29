@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="VIPProt" id="65" proxy = "GameServer" comment="VIP特权相关协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EVIPResult" comment="VIP特权操作结果" >
+            <Member name="eVIP_Succeed"   comment="成功" />
+            <Member name="eVIP_LackMoney" comment="金钱不够" />
+            <Member name="eVIP_HasGetAward" comment="已领取过礼包" />
+            <Member name="eVIP_Expired" comment="VIP特权已过期" />
+            <Member name="eVIP_UnFriend" comment="对方不是你的好友并且不是你的帮派成员" />
+            <Member name="eVIP_LevelErr" comment="VIP特权等级不足" />
+            <Member name="eVIP_OtherErr"  comment="其他错误" />
+        </Enum>
+
+        <Struct name="SVIPData" vec="TVecVIPData" comment ="开启VIP特权数据结构">
+            <!--Member type="UINT8" name="byType" comment="开启的VIP特权类型(也可表明是否开启过VIP)"/>
+            <Member type="UINT32" name="dwGrowthValue" comment="VIP特权成长值"/>
+            <Member type="UINT32" name="dwEndTime" comment="VIP特权结束时间"/-->
+            <Member type="UINT32" name="dwMonthCardEndTime" comment="月卡结束时间"/>
+            <Member type="UINT32" name="dwDayPack" comment="VIP特权每日礼包领取状态"/>
+            <Member type="UINT32" name="dwLvlAward" comment="VIP特权等级奖励领取状态"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+        <Func name="GetVIPInfo" comment="请求个人VIP特权信息">
+        </Func>
+        <Func name="OpenSelfVIP" ret= "true" comment="请求个人VIP特权">
+            <Param type="UINT8" name="byType" comment="VIP特权类型"/>
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+        </Func>
+        <Func name="OpenOtherVIP" ret= "true" comment="请求开启好友VIP特权">
+            <Param type="UINT8" name="byType" comment="VIP特权类型"/>
+            <Param type="UINT64" name="qwRoleID" comment="好友玩家ID"/>
+            <Param type="UINT64" name="qwRoleID2" comment="好友玩家ID(匹配验证)"/>
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+            <RetParam type="UINT64" name="qwRoleID" comment="好友玩家ID"/>
+        </Func>
+        <Func name="OpenSelfMonthCard" ret= "true" comment="请求开启个人月卡">
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+        </Func>
+        <Func name="OpenOtherMonthCard" ret= "true" comment="请求开启好友月卡">
+            <Param type="UINT64" name="qwRoleID" comment="好友玩家ID"/>
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+            <RetParam type="UINT64" name="qwRoleID" comment="好友玩家ID"/>
+        </Func>
+        <Func name="GetDayPackAward" ret= "true" comment="领取VIP特权每日礼包">
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+            <RetParam type="UINT32" name="dwDayPack" comment="VIP特权每日礼包领取状态(低15位,按位取)"/>
+        </Func>
+        <Func name="GetVIPLevelAward" ret= "true" comment="领取VIP特权等级奖励">
+            <Param type="UINT8" name="byLevel" comment="VIP等级"/>
+            <RetParam type="EVIPResult" name="eResult" comment="操作结果"/>
+            <RetParam type="UINT32" name="dwLvlAward" comment="VIP等级奖励领取状态(低15位,按位取)"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SelfVIPInfo" comment="个人VIP特权信息">
+            <Param type="SVIPData" name="stVIPData" comment="VIP特权信息"/>
+        </Func>
+        <Func name="UpdateMonthCardOverdue" comment="月卡过期通知消息">
+            <Param type="UINT8" name="byVal" comment="0未过期 >0已过期"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

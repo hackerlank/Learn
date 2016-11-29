@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="LangHuanBlessProt" id="79" proxy="GameServer" comment="中午挂机活动">
+    <Refer>
+	</Refer>
+	   <TypeDef>
+	   <Enum name="ELHBResult" comment="操作结果">
+		    <Member name="eLHBResult_none" comment="无此技能"/>
+            <Member name="eLHBResult_empty" comment="次数用完"/>
+            <Member name="eLHBResult_inCD" comment="技能CD中"/>
+            <Member name="eLHBResult_hasBuff" comment="身上有Buff"/>
+			<Member name="eLHBResult_success" comment="操作成功"/>
+			<Member name="eLHBResult_CMapError" comment="创建地图失败"/>
+			<Member name="eLHBResult_enterMapError" comment="进入地图失败"/>
+			<Member name="eLHBResult_otherError" comment="其他错误"/>
+			<Member name="eLHBResult_lowLevel" comment="玩家等级不够"/>
+			<Member name="eLHBResult_notBegin" comment="活动未开始"/>
+			<Member name="eLHBResult_end" comment="玩家已经结束"/>
+			<Member name="eLHBResult_wait5min" comment="玩家逃跑需要等待5分钟"/>
+       </Enum>
+      <Enum name="ELHBState" comment="活动状态">
+		    <Member name="eLHBState_none" comment="无状态"/>
+            <Member name="eLHBState_alarm" comment="警告"/>
+            <Member name="eLHBState_ready" comment="报名开始"/>
+            <Member name="eLHBState_begin" comment="活动开始"/>
+            <Member name="eLHBState_end" comment="活动结束"/>
+      </Enum>
+
+        <Enum name="ELHBSkillType" comment="技能类型">
+		    <Member name="eLHBSkillType_eNone" comment="无技能"/>
+            <Member name="eLHBSkillType_eAskTaoism" comment="问道技能"/>
+            <Member name="eLHBSkillType_eTalkTaoism" comment="论道技能"/>
+            <Member name="eLHBSkillType_eWander" comment="开小差技能"/>
+            <Member name="eLHBSkillType_eSit" comment="打坐技能"/>
+            <Member name="eLHBSkillType_max" comment="技能最大值"/>
+        </Enum>
+	    <Struct name="SLHBSkillInfo" vec="TVecLHBSkillInfo" comment="技能信息">
+            <Member type="ELHBSkillType" name="eLHBSkillType" comment="技能类型"/>
+            <Member type="UINT8" name="byCD" comment="技能CD"/>
+            <Member type="UINT32" name="wScore" comment="修为值"/>
+            <Member type="UINT8" name="byTimes" comment="使用次数"/>
+        </Struct>
+        <Struct name="SLHBTotalInfo" comment="总的信息">
+            <Member type="ELHBState" name="byState" comment="活动状态"/>
+            <Member type="UINT32" name="dwTime" comment="玩家持续时间"/>
+            <Member type="UINT32" name="dwXiuwei" comment="获得的修为值"/>
+            <Member type="UINT32" name="dwExp" comment="获得的经验值"/>
+            <Member type="TVecLHBSkillInfo" name="vecLHBSkillInfo" comment="技能使用信息"/>
+        </Struct>
+      </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+	    <Func name="EnterMap"  ret="true" comment="进入LangHuanBless地图">
+            <RetParam type="ELHBResult" name="eLHBResult" comment="结果"/>
+        </Func>
+	    <Func name="SelectSkill"  ret="true" comment="选择问道">
+	        <Param type="UINT64" name="qwPlayerID" comment="被选择的玩家"/>
+			<Param type="ELHBSkillType" name="eLHBSkillType" comment="技能类型"/>
+			<RetParam type="ELHBSkillType" name="eRetLHBSkillType" comment="返回使用技能"/>
+            <RetParam type="ELHBResult" name="eLHBResult" comment="结果"/>
+        </Func>
+        <Func name="GetScore"  ret="true" comment="获得的修为值">
+		    <RetParam type="UINT32" name="wScore" comment="修为值"/>
+        </Func>
+        <Func name="GetSustainTime"  ret="true" comment="获得游戏中持续时间">
+		    <RetParam type="UINT32" name="dwTime" comment="时间值"/>
+        </Func>
+        
+        <Func name="GetTotalInfo"  ret="true" comment="获得玩家所有信息">
+		    <RetParam type="SLHBTotalInfo" name="sTotalInfo" comment="时间值"/>
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+
+        <Func name="GetSkillInfo"  ret="true"  comment="获得技能使用信息">
+            <RetParam type="TVecLHBSkillInfo" name="vecLHBSkillInfo" comment="技能使用信息"/>
+            <RetParam type="ELHBResult" name="eLHBResult" comment="结果"/>
+        </Func>
+        <Func name="LeaveMap"  ret="true"  comment="离开LangHuanBless地图">
+            <RetParam type="ELHBResult" name="eLHBResult" comment="结果"/>
+        </Func>
+		
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="EnrollNotify"  comment="挂机活动报名开始">
+           <Param type="UINT32" name="dwEnrollTime" comment="开始时间"/>
+        </Func>
+
+		<Func name="BeginNotify" comment="挂机活动开始">
+           <Param type="UINT32" name="dwBeginTime" comment="开始时间"/>
+        </Func>
+
+		<Func name="PrizeNotify" comment="发送经验值和修为值">
+            <Param type="UINT32" name="dwXiuwei" comment="修为值"/>
+            <Param type="UINT32" name="dwExp" comment="经验值"/>
+        </Func>
+        <Func name="TotalInfo" comment="发送玩家在副本中的信息">
+		   <Param type="UINT64" name="qwPlayerID" comment="玩家ID"/>
+		   <Param type="SLHBTotalInfo" name="sTotalInfo" comment="玩家信息"/>
+        </Func>
+		<Func name="SkillInfo" comment="发送技能信息">
+		   <Param type="UINT64" name="qwAtkPlayerID" comment="攻击者"/>
+           <Param type="UINT64" name="qwDfePlayerID" comment="被攻击者"/>
+		   <Param type="ELHBSkillType" name="eLHBSkillType" comment="使用的技能ID"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

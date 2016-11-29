@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="EquipTrumpProt" id="30" proxy="GameServer" comment="道具相关协议">
+    <Refer>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EEquipTrumpResult" comment="装备法宝操作结果">
+            <Member name="eETRSuccess"          comment="成功"/>
+            <Member name="eETRFailed"           comment="失败"/>
+            <Member name="eETRNotExist"         comment="不存在"/>
+            <Member name="eETRInOthers"         comment="在其他人身上"/>
+            <Member name="eETRSlotFull"         comment="槽位已满"/>
+            <Member name="eETRSlotLock"         comment="槽位未开启"/>
+            <Member name="eETRSlotConflict"     comment="法宝冲突"/>
+            <Member name="eETRMax"              comment="最大值"/>
+        </Enum>
+        <Enum name="EEquipTrumpIntensifyResult" comment="装备法宝强化结果">
+            <Member name="eETIRSuccess" value="0"   comment="装备法宝强化成功"/>
+            <Member name="eETIRFailed"              comment="未知错误"/>
+            <Member name="eETIRCrit"                comment="装备法宝强化成功并暴击"/>
+            <Member name="eETIRMaxErr"              comment="已达最大强化等级"/>
+            <Member name="eETIRSilverErr"           comment="强化时银币不足"/>
+            <Member name="eETIRItemErr"             comment="强化时物品不足"/>
+            <Member name="eETIRCFGErr"              comment="强化配置错误"/>
+            <Member name="eETIRTypeErr"             comment="强化参数错误"/>
+            <Member name="eETIRRandomFailErr"       comment="强化失败"/>
+        </Enum>
+        <Enum name="EEquipTrumpMergeResult" comment="装备法宝合成结果">
+            <Member name="eETMRSuccess"          comment="成功"/>
+            <Member name="eETMRFailed"           comment="失败"/>
+            <Member name="eETMRLackOfMaterial"   comment="材料不足"/>
+            <Member name="eETMRLackOfSilver"     comment="银币不足"/>
+            <Member name="eETMRPackFull"         comment="背包已满"/>
+            <Member name="eETMRMax"              comment="最大值"/>
+        </Enum>
+        <Enum name="EEquipTrumpBreakResult" comment="装备法宝分解结果">
+            <Member name="eETBRSuccess"          comment="成功"/>
+            <Member name="eETBRFailed"           comment="失败"/>
+            <Member name="eETBRPackFull"         comment="背包已满"/>
+            <Member name="eETBREquiped"          comment="仍在装备中"/>
+            <Member name="eETBRMax"              comment="最大值"/>
+        </Enum>
+        <Enum name="EEquipTrumpShuffleResult"   comment="装备法宝洗炼结果">
+            <Member name="eETSRSuccess" value="0"   comment="装备法宝洗炼成功"/>
+            <Member name="eETSRFailed"              comment="装备法宝洗炼失败"/>
+            <Member name="eETSRLevelErr"            comment="装备法宝洗炼时玩家等级不足"/>
+            <Member name="eETSRSilverErr"           comment="洗炼时银币不足"/>
+            <Member name="eETSRMaterialErr"         comment="洗炼时材料不足"/>
+        </Enum>
+        <Enum name="EEquipTrumpType" comment="能装备法宝的道具类型">
+            <Member name="eETTNone"     value="0" comment="无"/>
+            <Member name="eETTInnate"       comment="先天法宝"/>
+            <Member name="eETTPassive"      comment="被动法宝"/>
+            <Member name="eETTHalo"         comment="光环法宝"/>
+            <Member name="eETTTransform"    comment="变身法宝"/>
+            <Member name="eETTEnd"          comment="结束"/>
+        </Enum>
+        <Enum name="EEquipTrumpSlotType" signed="true" comment="装备法宝位类型">
+            <Member name="eETSTNone" value="0"  comment="无"/>
+            <Member name="eETSTInnate"      comment="先天法宝"/>
+            <Member name="eETSTPassive"     comment="被动"/>
+            <Member name="eETSTHalo"        comment="光环"/>
+            <Member name="eETSTTransform"   comment="变身"/>
+            <Member name="eETSTMax"         comment="结束"/>
+        </Enum>
+        <Enum name="ETIntensifyType" signed="true" comment="装备法宝强化类型">
+            <Member name="eETIntensify_None" value="0"  comment="无"/>
+            <Member name="eETIntensify_NormalGold"      comment="太乙真金"/>
+            <Member name="eETIntensify_GodGold"         comment="太乙精金"/>
+            <Member name="eETIntensify_MAX"             comment="结束"/>
+        </Enum>
+        <Struct name="SMaxShuffleInfo" vec="TVecMaxShuffleInfo" comment="最大洗练属性" >
+            <Member type="UINT32" name="dwType"          comment="洗炼类型"/>
+            <Member type="UINT32" name="dwValue"         comment="洗炼数值"/>
+        </Struct>
+        <Struct name="SXiLianProb" vec="TVecXiLianProb" comment="洗练区间属性" >
+            <Member type="UINT32" name="dwMinRate"           comment="洗炼最小概率"/>
+            <Member type="UINT32" name="dwMaxRate"           comment="洗炼最大概率"/>
+            <Member type="UINT32" name="dwRateValue"         comment="洗炼权值空间"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetAllEquipTrump" ret="true" comment="获得所有装备法宝">
+            <Param    type="UINT64"         name="qwOwnerID"        comment="散仙唯一ID（0表示获取所有散仙法宝）"/>
+            <RetParam type="ItemProt::TVecEquipTrump" name="vecEquipTrump"    comment="当前装备法宝的列表"/>
+        </Func>
+        <Func name="Wear" ret="true" comment="请求穿上装备法宝">
+            <Param      type="UINT64"            name="qwOwnerID"    comment="散仙唯一ID"/>
+            <Param      type="UINT64"            name="qwInstID"     comment="装备法宝唯一ID"/>
+            <RetParam   type="EEquipTrumpResult" name="eResult"      comment="穿上装备法宝的结果"/>
+        </Func>
+        <Func name="WearOneKey" ret="true" comment="请求一键穿上装备法宝">
+            <Param      type="UINT64"            name="qwOwnerID"    comment="散仙唯一ID"/>
+            <RetParam   type="EEquipTrumpResult" name="eResult"      comment="穿上装备法宝的结果"/>
+        </Func>
+        <Func name="TakeOff" ret="true" comment="请求脱下装备法宝">
+            <Param type="UINT64"                name="qwInstID"     comment="装备法宝唯一ID"/>
+            <Param type="INT16"                 name="wIndex"       comment="-1：右击脱下；其他：包裹的位置"/>
+            <RetParam type="EEquipTrumpResult" name="eResult" comment="脱下装备法宝的结果"/>
+        </Func>
+        <Func name="Swap" ret="true" comment="交换法宝">
+            <Param type="UINT64"                name="qwOwnerID" comment="散仙唯一ID"/>
+            <Param type="UINT64"                name="qwInstID"     comment="装备法宝唯一ID"/>
+            <Param type="INT16"                 name="wIndex"       comment="-1：右击脱下；其他：包裹的位置"/>
+            <RetParam type="EEquipTrumpResult"  name="eResult" comment="换位置的结果"/>
+        </Func>
+        <Func name="MergeEquipTrump" ret="true" comment="请求合成装备法宝">
+            <Param type="UINT16" name="wItemID" comment="制作装备法宝模版ID" />
+            <Param type="UINT16" name="wCount"  comment="数量" />
+            <RetParam type="EEquipTrumpMergeResult" name="eResult" comment="结果" />
+            <RetParam type="ItemProt::TVecItem" name="vecItem" comment="新增的道具"/>
+        </Func>
+        <Func name="BreakEquipTrump" ret="true" comment="请求分解装备法宝">
+            <Param type="TVecUINT64"  name="vecInstID" comment="物品唯一ID" />
+            <RetParam type="EEquipTrumpBreakResult"    name="eResult" comment="结果" />
+            <RetParam type="ItemProt::TVecItemGenInfo" name="vecItem" comment="分解产生的道具" />
+        </Func>
+        <Func name="Intensify" ret="true" comment="装备法宝强化">
+            <Param type="UINT64"                name="qwInstID"     comment="装备法宝唯一ID"/>
+            <Param type="ETIntensifyType"       name="eType"        comment="强化类型"/>
+            <RetParam type="bool" name="bSucess"                    comment="成功/失败"/>
+            <RetParam type="EEquipTrumpIntensifyResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="IntensifyOneKey" ret="true" comment="装备法宝一键强化">
+            <Param type="UINT64"                name="qwInstID"     comment="装备法宝唯一ID"/>
+            <Param type="ETIntensifyType"       name="eType"        comment="强化类型"/>
+            <RetParam type="bool" name="bSucess"                    comment="成功/失败"/>
+            <RetParam type="UINT32" name="dwIntensifyCount"         comment="强化次数（包括成功"/>
+            <RetParam type="EEquipTrumpIntensifyResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="ShuffleResult" ret="true" comment="装备法宝洗炼">
+            <Param type="UINT64"                name="qwInstID"      comment="装备法宝唯一ID"/>
+            <Param type="UINT32"                name="dwLock"        comment="锁定属性（按位锁定 0x110 锁定2，3位）"/>
+            <RetParam type="EEquipTrumpShuffleResult"   name="eResult"  comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="EquipTrumpNotify" comment="当前玩家角色的装备法宝通知">
+            <Param type="UINT64"                name="qwOwnerID"        comment="散仙唯一ID"/>
+            <Param type="EEquipTrumpSlotType"   name="eSlotType"        comment="装备法宝位类型"/>
+            <Param type="ItemProt::TVecEquipTrump"        name="vecEquipTrump"    comment="当前装备法宝的列表"/>
+        </Func>
+        <!--
+        <Func name="EquipTrumpAddNotify" comment="玩家角色穿装备法宝通知">
+            <Param type="EStoreType" name="eStoreType" comment="装备法宝对象类型"/>
+            <Param type="UINT64" name="qwOwnerID" comment="散仙唯一ID"/>
+            <Param type="SEquipTrump" name="sInfo" comment="角色穿上装备法宝"/>
+        </Func>
+        <Func name="EquipTrumpDelNotify" comment="玩家角色脱下装备法宝通知">
+            <Param type="EStoreType" name="eStoreType" comment="装备法宝对象类型"/>
+            <Param type="UINT64" name="qwOwnerID" comment="散仙唯一ID"/>
+            <Param type="UINT64" name="qwInstID" comment="脱掉装备法宝的实例ID列表"/>
+        </Func>
+        -->
+    </FuncS2C>
+</Protocol>

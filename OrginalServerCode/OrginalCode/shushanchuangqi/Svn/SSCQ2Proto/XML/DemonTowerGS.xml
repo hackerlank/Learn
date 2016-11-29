@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DemonTowerGS" id="71" proxy = "CenterServer" comment="锁妖塔">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+   </Refer>
+  <TypeDef>
+    <Enum name="EDemonTower" desc="true" comment="镇妖塔">
+      <Member name="eDemonTower_Sucess" value="0" comment="成功"/>
+      <Member name="eDemonTower_Error" value="1" comment="锁妖塔错误码"/> 
+      <Member name="eDemonTower_NotPass" value="2" comment="未通关层数，不能进入"/> 
+      <Member name="eDemonTower_NotInTower" value="3" comment="不在镇妖塔中"/>
+      <Member name="eDemonTower_Invalid_CFG" value="4" comment="配置不存在"/>
+      <Member name="eDemonTower_Invalid_FloorID" value="5" comment="层数错误"/>
+      <Member name="eDemonTower_Invalid_Positoin" value="6" comment="镇守位置错误"/>
+      <Member name="eDemonTower_Not_Empty_Positoin" comment="非空镇守位置"/>
+      <Member name="eDemonTower_Empty_Positoin"  comment="空位置没有玩家镇守"/>
+      <Member name="eDemonTower_Empty_Prize"  comment="无奖励或奖励已经领取"/>
+      <Member name="eDemonTower_Invalid_PrizeType"  comment="错误的领奖类型"/>
+      <Member name="eDemonTower_Invalid_UserID"  comment="玩家不在线"/>
+      <Member name="eDemonTower_FightCD"  comment="镇守位处在战斗状态中"/>
+      <Member name="eDemonTower_LackMoney"  comment="钻石不足"/>
+    </Enum>
+    <Enum name="EDemonTowerDB" desc="true" comment="数据更新类型">
+      <Member name="eDemonTowerDB_Add" value="1" comment="添加"/>
+      <Member name="eDemonTowerDB_Update" value="2" comment="更新"/>
+      <Member name="eDemonTowerDB_Delete" value="3" comment="删除"/>      
+   </Enum>
+    
+    <Enum name="EDemonTowerPrize" desc="true" comment="领取奖励">      
+      <Member name="eDemonTower_Prize_Fail"  value="1"  comment="镇守失败奖励"/> 
+      <Member name="eDemonTower_Prize_Day"  comment="镇守1天收益奖励"/>
+      <Member name="eDemonTower_Prize_Seal"  comment="封印每天奖励(改成gmeserver领取)"/>
+    </Enum>
+    
+    <Struct name="MoneyInfo" vec="TVecMoneyInfo" comment="钱币列表">
+        <Member type="UINT32" name="dwMoneyType" comment="钱币类型"/>
+        <Member type="UINT32" name="dwMoneyValue" comment="钱数"/> 
+    </Struct>
+    
+    
+    <Struct name="SDemonFloorPlayer" vec="TVecDemonFloorPlayer" comment="镇守层的玩家信息">
+      <Member type="UINT32" name="dwFloorID" comment="当前所在塔层"/>
+      <Member type="UINT64" name="qwUserID" comment="uid"/>
+      <Member type="string" name="strRoleName" comment="角色名"/>
+      <Member type="UINT8"  name="bySex" comment="性别"/>
+      <Member type="UINT16" name="byLevel" comment="等级"/>
+      <Member type="UINT32" name="dwPower" comment="战斗力"/>
+      <Member type="UINT32" name="dwGuardStartTime" comment="镇守开始时间"/>
+      <Member type="UINT32" name="dwGuardReduceRate" comment="减弱比例(百分比1为%1)"/>
+      <Member type="TVecMoneyInfo" name="vecSoulPrize" comment="当前获得魄奖励"/>
+    </Struct>
+    
+     <Struct name="SDemonFloorPage"  comment="镇守榜分页信息">
+       <Member type="UINT16" name="wCurPage" comment="当前页码"/>
+       <Member type="UINT16" name="wMaxPage" comment="最大页码"/>
+       <Member type="TVecDemonFloorPlayer" name="vecDemonFloorPlayer" comment="分页信息"/>
+    </Struct>
+    
+    <Struct name="SDemonTowerPlayer" vec="TVecDemonTowerPlayer" comment="镇守的玩家信息列表">
+      <Member type="UINT64" name="qwUserID" comment="uid"/>
+      <Member type="UINT64" name="qwRoleID" comment="角色id"/>
+      <Member type="string" name="strRoleName" comment="角色名"/>
+      <Member type="UINT8"  name="bySex" comment="性别"/>
+      <Member type="UINT16" name="byLevel" comment="等级"/>
+      <Member type="UINT32" name="dwFloorID" comment="当前所在塔层"/>
+      <Member type="UINT32" name="dwGuardFloorID" comment="镇守塔层"/>
+      <Member type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+      <Member type="UINT32" name="dwGuardStartTime" comment="镇守开始时间"/>
+      <Member type="UINT32" name="dwGuardEndTime" comment="镇守结束时间"/>
+      <Member type="UINT32" name="dwGuardNextPrizeTime" comment="下次奖励时间"/>
+      <Member type="UINT32" name="dwGuardNextReduceRateTime" comment="下次减弱时间"/>
+      <Member type="UINT32" name="dwGuardGatherSpeed" comment="聚魂速度"/>
+      <Member type="UINT32" name="dwGuardGatherSpeedEndTimer" comment="加速时间"/>
+      <Member type="UINT32" name="dwGuardReduceRate" comment="元神灵力(百分比1为1%)"/>
+      <Member type="UINT32" name="dwGuardNextAttackTime" comment="镇守可以攻击的时间"/>
+      <Member type="UINT32" name="dwPower" comment="战斗力"/>
+      <Member type="UINT32" name="dwBuyTime" comment="购买cd(服务器用)"/>
+      <Member type="TVecMoneyInfo" name="vecGatherSoulPrize" comment="当前聚集的魄奖励"/>
+      <Member type="TVecMoneyInfo" name="vecFailSoulPrize" comment="失败后的魄奖励"/> 
+      <Member type="TVecMoneyInfo" name="vecDaySoulPrize" comment="7点结算的魄奖励"/>
+      <Member type="UINT32" name="dwTotalTime" comment="镇守时间(服务器用)"/>
+      <Member type="UINT32" name="dwFailFloorID" comment="失败镇守塔层"/>
+      <Member type="UINT32" name="dwFailPos" comment="失败镇守位置"/>
+      <Member type="UINT8"  name="byColor" comment="角色颜色"/>
+    </Struct>
+ 
+    <Struct name="GuardInfo" vec="TVecGuardInfo" comment="镇守的玩家信息列表">
+      <Member type="UINT64" name="qwUserID" comment="uid"/>
+      <Member type="UINT64" name="qwRoleID" comment="角色id"/>
+      <Member type="UINT32" name="dwGuardPos" comment="封印位置"/>
+      <Member type="UINT32" name="dwLastFightCD" comment="战斗cd 1s"/>
+      <Member type="SDemonFloorPlayer" name="oDemonFloorPlayer" comment="玩家信息"/>
+    </Struct>
+    <Struct name="SDemonTowerKillMonster" vec="TVecDemonTowerKillMonster" comment="通关信息">
+      <Member type="UINT64" name="qwUserID" comment="账号id"/>
+      <Member type="string" name="strName" comment="名字"/>
+      <Member type="UINT8"  name="byColor" comment="角色颜色"/>
+      <Member type="UINT8"  name="bySex" comment="性别"/>
+      <Member type="UINT8"  name="byCareer" comment="职业"/>
+      <Member type="UINT8"  name="byLevel" comment="等级"/>
+      <Member type="UINT32" name="dwRounds" comment="通关回合数"/>
+      <Member type="UINT32" name="dwBattlePoint" comment="战斗力"/>
+      <Member type="UINT64" name="qwReportID" comment="战报"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    
+    <Func name="EnterDemonTower" ret="true" comment="进入锁妖塔">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="LeaveDemonTower" ret="true" comment="离开锁妖塔">
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="SealMonster" ret="true" comment="封印怪物(挑战?)">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="GuardAtk" ret="true" comment="镇守锁妖塔">
+      <Param type="UINT32" name="dwFloorID" comment="层数 0表示放弃镇守位置"/>
+      <Param type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="AtkPlayer" ret="true" comment="抢夺镇守位置">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="TakePrize" ret="true" comment="领取奖励">  
+       <Param type="EDemonTowerPrize" name="ePrizeType" comment="奖励类型"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func> 
+
+    <Func name="GetTopList" ret="true" comment="获取镇守榜">  
+       <Param type="UINT16" name="wPage" comment="页码 1开始"/>
+       <Param type="UINT16" name="wPageItemCount" comment="每页显示数目 默认5"/>
+       <RetParam type="SDemonFloorPage" name="oDemonFloorPage" comment="分页信息"/>
+    </Func>
+    
+    <Func name="GetDemonTowerInfo" ret="true" comment="获取本人镇妖塔相关信息">  
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功 1-失败（非错误，没有进过镇妖塔）"/>
+      <RetParam type="SDemonTowerPlayer" name="oDemonTowerPlayer" comment="玩家镇守信息"/>
+    </Func>
+    <Func name="GetGuardInfo" ret="true" comment="获取镇守信息信息">  
+      <Param type="UINT32" name="dwFloorID" comment="镇守层"/>
+      <RetParam type="TVecGuardInfo" name="vecGuardInfo" comment="镇守信息信息"/>
+    </Func>
+    <Func name="Restore"  comment="恢复元神">  
+      <Param type="UINT32" name="dwCount" comment="物品数量"/>
+    </Func>
+    <Func name="AddSpeed"  comment="增加聚魂速度">  
+      <Param type="UINT32" name="dwCount" comment="物品数量"/>
+    </Func>
+    <Func name="GetPlayerInfo" ret="true"  comment="获取玩家镇守信息">  
+      <Param type="UINT64" name="qwUserID" comment="账号ID"/>
+      <RetParam type="UINT8" name="bRet" comment="0 成功 1玩家不存在"/>
+      <RetParam type="SDemonFloorPlayer" name="oDemonFloorPlayer" comment="玩家镇守信息"/>
+    </Func>
+    <Func name="ClearFightCd" ret="true"  comment="清除pvp战斗cd">  
+      <RetParam type="UINT8" name="bRet" comment="0成功 其他失败"/>
+    </Func>
+    
+    <Func name="GetPassInfo" ret="true"  comment="获取过关信息">  
+      <Param type="UINT16" name="wFloorID" comment="通关层"/>
+      <RetParam type="TVecDemonTowerKillMonster" name="vecMinRound" comment="最快通关"/>
+      <RetParam type="TVecDemonTowerKillMonster" name="vecMinBattlePoint" comment="最小战斗力通关"/>
+    </Func>
+  </FuncC2S>
+  
+  <FuncS2C>
+    <Func name="GuardInfoNotify" comment="锁妖塔镇守信息">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="TVecGuardInfo" name="vecGuardInfo" comment="镇守玩家信息"/>
+    </Func>
+    <Func name="GuardInfoChangeNotify" comment="锁妖塔镇守信息更新">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="UINT32" name="dwPos" comment="镇守玩家信息"/>
+      <Param type="UINT64" name="qwUserID" comment="玩家ID 0 表示该位置放弃镇守"/>
+      <Param type="GuardInfo" name="oGuardInfo" comment="镇守信息"/>
+    </Func>
+    <Func name="PassDemonTowerNotify"  comment="锁妖塔过关通知">
+      <Param type="UINT32" name="dwFloorID" comment="锁妖塔过关层数"/>  
+    </Func>
+    <Func name="DemonTowerAtkCDNotify"  comment="锁妖塔镇守攻击cd">
+      <Param type="UINT32" name="dwGuardNextAttackTime" comment="锁妖塔可攻击最早时间"/>
+    </Func>
+    <Func name="DemonTowerPlayerNotify"  comment="镇妖塔玩家信息">
+      <Param type="SDemonTowerPlayer" name="oDemonTowerPlayerInfo" comment="镇妖塔玩家信息"/>
+    </Func>
+    <Func name="DemonTowerErrorNotify"  comment="镇妖塔错误信息">
+      <Param type="UINT32" name="dwError" comment="错误码"/>
+    </Func>
+    <Func name="GuardSucessNotify"  comment="镇守锁妖塔通知">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+    </Func>
+    
+    <Func name="DemonTowerResetNotify"  comment="19点重置奖励通知">
+        <Param type="UINT32" name="dwFloorID" comment="层数"/>
+        <Param type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+        <Param type="TVecMoneyInfo" name="vecSoulPrize" comment="获得的魄奖励"/>
+    </Func>
+    <Func name="DemonTowerBeAttackNotify"  comment="镇妖塔被抢通知">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="UINT32" name="dwPos" comment="位置"/>
+      <Param type="UINT64" name="qwAtkUserID" comment="抢夺人的Id"/>
+      <Param type="string" name="strRole" comment="抢夺人的名字"/>
+      <Param type="TVecMoneyInfo" name="vecFailSoulPrize" comment="失败后的魄奖励"/> 
+    </Func>
+    <Func name="EnterDemonTowerNotify"  comment="玩家切层通知">
+        <Param type="UINT32" name="dwCurFloorID" comment="当前进入的层数"/>
+    </Func>
+    <Func name="PrizeNotify"  comment="镇妖塔分身崩溃通知">
+      <Param type="EDemonTowerPrize" name="eDemonTowerPrize" comment="魄奖励类型"/>
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <Param type="UINT32" name="dwGuardPos" comment="镇守位置"/>
+      <Param type="TVecMoneyInfo" name="vecPrize" comment="魄奖励"/> 
+    </Func>
+    <Func name="PassInfoNotify"   comment="过关信息">  
+      <Param type="UINT16" name="wFloorID" comment="通关层"/>
+      <Param type="TVecDemonTowerKillMonster" name="vecMinRound" comment="最快通关"/>
+      <Param type="TVecDemonTowerKillMonster" name="vecMinBattlePoint" comment="最小战斗力通关"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

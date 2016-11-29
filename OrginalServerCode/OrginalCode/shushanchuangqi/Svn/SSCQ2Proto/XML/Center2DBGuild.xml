@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="Center2DBGuild" id="32" comment="CenterServer到DBServer有关帮派的通信协议">
+    <Refer>
+        <Protocol name="GuildProt"/>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Struct name="SGSWorshipInfo" vec="TVecGSWorshipInfo" comment="帮派神像供奉人数信息" >
+            <Member type="UINT64"       name="qwGuildID"      comment="帮派ID" />
+            <Member type="UINT8"        name="byWorshipCount" comment="供奉人数" />
+            <Member type="TVecUINT64"   name="vecMemberID"    comment="帮派成员ID" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="GuildDataUpdate" ret="false" comment="帮派数据更新">
+            <Param type ="UINT64" name="qwGuildID" comment="帮派ID"/>
+            <Param type ="GuildProt::EGuildDataType" name="eDataType" comment="更新数据类型"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <Func name="GuildPubDataUpdate" ret="false" comment="帮派公共信息更新">
+            <Param type ="UINT64" name="qwGuildID" comment="帮派ID"/>
+            <Param type ="GuildProt::EGuildPubDataType" name="eDataType" comment="更新数据类型"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <!---帮派相关-->
+        <Func name="GetGuildPubInfo"    comment="获取帮派公共信息（启动预加载调用）">
+        </Func>
+        <Func name="GetAllGuildInfo"    comment="获取所有帮派信息">
+        </Func>
+        <Func name="GuildLogin"         comment="帮派登录（通常是涉及到有关帮派的操作需要加载登录）" >
+            <Param type="UINT64"                    name="qwGuildID" comment="帮派ID" />
+        </Func>
+        <Func name="GuildUserLogin"     comment="玩家登录，拉取可能存在的帮派信息" >
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID"/>
+        </Func>
+        <Func name="GuildStatueReward" comment="帮派神像奖励结算">
+        </Func>
+        <!---帮派相关结束-->
+        <Func name="GetAllGuildXihe"   comment="请求所有羲和神车信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="UpdateGuildXihe"   comment="更新玩家羲和神车信息">
+            <Param type="GuildProt::SGuildXihe" name="oGuildXihe" comment="玩家羲和神车的数据"/>
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+        </Func>
+        <Func name="GetAllGuildExchangedItem"   comment="获取帮派战兑换物品">
+        </Func>
+        <Func name="UpdateGuildExchangedItem"   comment="更新帮派战兑换物品信息">
+            <Param type="GuildProt::SGuildExchangedItem" name="sGuildExchangedItem" comment="帮派战兑换物品信息"/>
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="GuildPubInfoNotify" comment="帮派公共信息加载返回" >
+            <Param type="UINT32" name="dwCurSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "GuildProt::TVecPubGuildAllInfo" name="vecPubGuildAllInfo" comment="更新信息"/>
+        </Func>
+        <Func name="AllGuildLoginNotify" comment="帮派">
+            <Param type="UINT32" name="dwCurSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type="GuildProt::TVecDBGuildAllInfo"  name="vecData"     comment="帮派具体数据" />
+        </Func>
+        <Func name="GuildLoginNotify" comment="帮派">
+            <Param type="UINT64"                    name="qwGuildID" comment="帮派ID" />
+            <Param type="GuildProt::SDBGuildAllInfo"  name="sData"     comment="帮派具体数据" />
+        </Func>
+        <Func name="GuildUserLoginNotify" comment="帮派用户登录返回" >
+            <Param type="UINT64"                name="qwRoleID"         comment="玩家ID"/>
+            <Param type="GuildProt::TVecDBGuildUserInfo"     name="vecGuildUserInfo" comment="用户信息，数量为0表示完全没有在或者加入过帮派" />
+        </Func>
+        <Func name="SendAllGuildStatueWorshipCount"   comment="返回请求帮派供奉人数">
+            <Param type= "TVecGSWorshipInfo" name = "vecGSWorshiInfo" comment="供奉人数信息"/>
+        </Func>
+        <Func name="SendAllGuildXihe"   comment="返回所有羲和神车信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "GuildProt::TVecGuildXihe" name = "vecSendData" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllGuildExchangedItem" comment="所有帮派兑换物品加载返回" >
+            <Param type= "GuildProt::TVecGuildExchangedItem" name="vecGuildExchangedItem" comment="派兑换物品信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="BattleArray" id="130" proxy="GameServer" comment="破阵">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+     <Protocol name="ItemProt"/>
+   </Refer>
+  <TypeDef>
+    <Enum name="EBattleArrayStatus" comment="阵状态">
+        <Member name="eBattleArrayStatus_Init" comment="初始状态"/>
+        <Member name="eBattleArrayStatus_End" comment="已破阵"/>
+        <Member name="eBattleArrayStatus_TakePrized" comment="已领奖"/>
+    </Enum>
+    <Enum name="EBattleArrayRet" comment="破阵操作结果">
+        <Member name="eBattleArrayRet_Sucess" comment="成功"/>
+        <Member name="eBattleArrayRet_LevelLimit" comment="等级不够"/>
+        <Member name="eBattleArrayRet_PreID" comment="前置阵未破"/>
+        <Member name="eBattleArrayRet_PosLimit" comment="阵位只能一次"/>
+        <Member name="eBattleArrayRet_AttackLimit" comment="攻击次数限制"/>
+        <Member name="eBattleArrayRet_TotalAttackLimit" comment="总攻击次数一次"/>
+        <Member name="eBattleArrayRet_ErrorCFG" comment="配置错误"/>
+        <Member name="eBattleArrayRet_PreLevel" comment="阵图未解锁"/>
+        <Member name="eBattleArrayRet_NoPass" comment="未破阵图"/>
+        <Member name="eBattleArrayRet_TakePrized" comment="已经领过奖励"/>
+        <Member name="eBattleArrayRet_PackError" comment="背包格子不够"/>
+        <Member name="eBattleArrayRet_MoneyError" comment="钻石不够"/>
+        <Member name="eBattleArrayRet_MaxBuyCnt" comment="超过最大购买次数"/>
+        <Member name="eBattleArrayRet_AttackCd" comment="攻击cd"/>
+    </Enum>
+    <Enum name="EBattleArrayGain" comment="获的物品的类型">
+        <Member name="eBattleArrayGain_Attack" comment="攻击阵图"/>
+        <Member name="eBattleArrayGain_Sweep" comment="扫荡(自动破阵)"/>
+    </Enum>
+    <Struct name="SBattleArray" vec="TVecBattleArray" comment="阵信息">
+        <Member type="UINT16" name="wBattleArrayID" comment="阵id"/>
+        <Member type="UINT32" name="dwBattleArrayLevelID" comment="破阵进度(阵图id)"/>
+        <Member type="EBattleArrayStatus" name="eBattleArrayStatus" comment="阵状态"/>
+    </Struct>
+    <Struct name="SBattleArrayAttackCnt" vec="TVecBattleArrayAttackCnt" comment="攻击阵图信息">
+        <Member type="UINT32" name="dwBattleArrayLevelID" comment="阵图id"/>
+        <Member type="UINT16" name="wCount" comment="次数"/>
+        <Member type="UINT16" name="wMinTurn" comment="最小回合数"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    <Func name="GetBattleArray" ret="true"  comment="获取阵信息">
+        <RetParam type="TVecBattleArray" name="vecBattleArray" comment="阵信息列表"/>
+        <RetParam type="TVecBattleArrayAttackCnt" name="vecBattleArrayAttackCnt" comment="攻击阵图信息"/>
+        <RetParam type="UINT32" name="dwBuyCnt" comment="可用的次数"/>
+        <RetParam type="UINT32" name="dwDayBuyCnt" comment="当天购买次数"/>
+        <RetParam type="UINT32" name="dwFailCd" comment="战败cd"/>
+    </Func>
+    <Func name="AttackBattleArray" ret="true"  comment="攻击阵图">
+        <Param type="UINT32" name="dwBattleArrayLevelID" comment="阵图id"/>
+        <RetParam type="EBattleArrayRet" name="eBattleArrayRet" comment="操作结果"/>
+        <RetParam type="UINT32" name="dwFailCd" comment="战败cd"/>
+    </Func>
+    <Func name="SweepBattleArray" ret="true"  comment="扫荡阵图">
+        <Param type="UINT32" name="dwBattleArrayLevelID" comment="阵图id"/>
+        <RetParam type="EBattleArrayRet" name="eBattleArrayRet" comment="操作结果"/>
+    </Func>
+    <Func name="BattleArrayTakePrize" ret="true"  comment="领取通关奖励">
+        <Param type="UINT16" name="wBattleArrayID" comment="阵id"/>
+        <RetParam type="EBattleArrayRet" name="eBattleArrayRet" comment="操作结果"/>
+    </Func>
+    <Func name="GetBuyAtkCountPrice" ret="true"  comment="获取当前购买价格">
+        <Param type="UINT32" name="dwCount" comment="购买次数"/>
+        <RetParam type="UINT32" name="dwPrice" comment="价格"/>
+        <RetParam type="UINT32" name="dwBuyCount" comment="当天已购买次数"/>
+    </Func>
+    <Func name="BuyAtkCount" ret="true"  comment="购买攻击阵图次数">
+        <Param type="UINT32" name="dwCount" comment="购买次数"/>
+        <RetParam type="EBattleArrayRet" name="eRet" comment="结果"/>
+        <RetParam type="UINT32" name="dwBuyCount" comment="已购买次数"/>
+        <RetParam type="UINT32" name="dwDayBuyCnt" comment="当天购买次数"/>
+    </Func>
+ </FuncC2S>
+  <FuncS2C>
+    <Func name="BattleArrayNotify"  comment="阵信息更新">
+      <Param type="SBattleArray" name="oBattleArray" comment="阵信息"/>
+    </Func>
+    <Func name="SBattleArrayAttackCntNotify"  comment="攻击阵图信息">
+      <Param type="SBattleArrayAttackCnt" name="oBattleArrayAttackCnt" comment="攻击阵图信息"/>
+    </Func>
+    <Func name="TotleAttackCntNotify"  comment="总攻击次数">
+      <Param type="UINT32" name="dwAttackCnt" comment="总攻击次数"/>
+      <Param type="UINT32" name="dwBuyCnt" comment="剩余购买数"/>
+    </Func>
+    <Func name="GainNotify"  comment="获得物品通知">
+      <Param type="EBattleArrayGain" name="eBattleArrayGain" comment="类型"/>
+      <Param type="ItemProt::TVecItemGenInfo" name="vecItemGenInfo" comment="物品"/>
+    </Func>
+    <Func name="GetBattleArrayNotify"  comment="全部阵信息">
+        <Param type="TVecBattleArray" name="vecBattleArray" comment="阵信息列表"/>
+        <Param type="TVecBattleArrayAttackCnt" name="vecBattleArrayAttackCnt" comment="攻击阵图信息"/>
+        <Param type="UINT32" name="dwBuyCnt" comment="可用的次数"/>
+        <Param type="UINT32" name="dwDayBuyCnt" comment="当天购买次数"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

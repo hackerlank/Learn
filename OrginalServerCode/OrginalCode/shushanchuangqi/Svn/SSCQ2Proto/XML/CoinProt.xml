@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="CoinProt" id="91" proxy="GameServer" comment="888礼券协议">
+    <Refer>
+		<Protocol name="ProtoCommon"/>
+	</Refer>
+	   <TypeDef>
+        <Enum name="EResultInCoinProt" comment="操作结果">
+		    <Member name="eCoinError" comment="错误"/>  
+			<Member name="eCoinGain" comment="已经领取"/> 
+			<Member name="eCoinSuccess" comment="成功"/>
+        </Enum>
+		</TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetCoinPacket"  ret="true" comment="获取礼包">
+		    <Param type="ProtoCommon::EMoneyType" name="eType" comment="礼包类型"/>
+			<Param type="UINT32" name="dwMoney" comment="数量"/>
+            <RetParam type="EResultInCoinProt" name="eResult" comment="操作结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>
+										
+   
+	    										
+
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ViewInfoProt" id="82" proxy="GameServer" comment="查看信息协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="RoleInfoDefine"/>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Struct name="SBattleFighterData" vec="TVecBattleFighterData" comment="出战散仙信息">
+            <Member type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Member type="UINT16" name="wFighterID" comment="散仙模版"/>
+            <Member type="UINT8" name="byFighterLevel" comment="散仙等级"/>
+            <Member type="UINT8" name="byTemplateID" comment="渡劫模版Id"/>
+            <Member type="UINT8" name="byLevel" comment="渡劫等级"/>
+        </Struct>
+        <Struct name="SDujieData" vec="TVecDujieData" comment="渡劫信息">
+            <Member type="UINT8" name="byTemplateID" comment="渡劫模版Id"/>
+            <Member type="UINT8" name="byLevel" comment="渡劫等级"/>
+        </Struct>
+        <Struct name="SCTData" comment="淬体（装备）信息">
+            <Member type="UINT8" name="byLianPi" comment="炼皮"/>
+            <Member type="UINT8" name="byTongJin" comment="通筋"/>
+            <Member type="UINT8" name="byQiangJi" comment="强肌"/>
+            <Member type="UINT8" name="byDuanGu" comment="锻骨"/>
+            <Member type="UINT8" name="byHuoLuo" comment="活络"/>
+            <Member type="UINT8" name="byXiSui" comment="洗髓"/>
+        </Struct>
+        <Struct name="SCittaData" vec="TVecCittaData" comment="心法数据">
+            <Member type="UINT32" name="dwCittaID" comment="心法ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+        </Struct>
+        <Struct name="SRareTrumpData" vec="TVecRareTrumpData" comment="稀有的法宝信息">
+            <Member type="UINT16" name="wItemID" comment="法宝模板"/>	
+            <Member type="UINT8" name="byTrumpLvl" comment="法宝等级"/>
+            <Member type="UINT8" name="bySelected" comment="是否出战"/>
+        </Struct>
+        <Struct name="SHorseData" vec="TVecHorseData" comment="坐骑信息">
+            <Member type="UINT32" name="dwHorseID" comment="坐骑id"/>
+            <Member type="UINT8" name="byHorseLvl" comment="坐骑等级"/>
+            <Member type="UINT8" name ="bySelected" comment="0-不跟随 1-跟随"/>
+        </Struct>
+        <Struct name="SBeautyData"  comment="出战美女信息">
+            <Member type="UINT16" name ="wBeautyID" comment="美女ID"/>
+            <Member type="UINT8" name ="byLevel" comment="美女等级"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="vecAttr" comment="美女属性"/>
+        </Struct>
+        <Struct name="SFashionData" vec="TVecFashionData" comment="时装信息">
+            <Member type="UINT16" name="wItemID" comment="时装模板"/>	
+            <Member type="UINT8" name="byFashionLvl" comment="时装等级"/>
+            <Member type="UINT8" name="bySelected" comment="是否选中"/>
+        </Struct>
+        <Struct name="SCollectionData" vec="TVecCollectionData" comment="收集信息">
+            <Member type="UINT8" name="byCollectionLevel" comment="收藏等级"/>
+            <Member type="UINT32" name="dwAP" comment="收藏点"/>
+        </Struct>
+        <Struct name="STitleData" vec="TVecTitleData" comment="称号信息">
+            <Member type= "UINT16" name ="wTitleID" comment ="称号ID"/>
+            <Member type="UINT8" name="bySelected" comment="是否选中"/>
+        </Struct>
+        <Struct name="SGuildSkillData" vec="TVecGuildSkillData" comment="帮派技能信息">
+            <Member type="UINT32" name="dwGuildSkillID" comment="技能id"/>
+            <Member type="UINT8" name="byGuildSkillLvl" comment="技能等级"/>
+        </Struct>
+        <Struct name="SGuildData" vec="TVecGuildData" comment="帮派信息">
+            <Member type="string" name="strName" comment="帮派名称" />
+            <Member type="UINT8" name="byGuildLvl" comment="帮派等级" />
+            <Member type="TVecGuildSkillData" name="vecGuildSkill" comment="帮派技能"/>
+        </Struct>
+        <Struct name="SSkillData" vec="TVecSkillData" comment="参与战斗的技能信息">
+            <Member type="UINT32" name="dwSkillID" comment="技能id"/>
+            <Member type="UINT8" name="bySkillLvl" comment="技能等级"/>
+            <Member type="UINT8" name="bySkillQuality" comment="技能品质"/>
+        </Struct>
+        <Struct name="SBeastSoulData" comment="兽魂">
+            <Member type="RoleInfoDefine::TVecBeastSoulInfo" name="vecBeasSoulInfo" comment="兽魂"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="vecAttr" comment="兽魂属性"/>
+        </Struct>
+        <Struct name="SCombData" vec="TVecCombData" comment="组合">
+            <Member type="UINT8" name="byGroupID" comment="组合ID"/>
+            <Member type="UINT8" name="byLevel" comment="组合等级"/>
+            <Member type="UINT8" name="bySelected" comment="是否出战"/>
+        </Struct>
+        <Struct name="SRoleData" desc="true" comment="主角信息">
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="职业"/>
+            <Member type="UINT8" name="byLevel" comment="玩家等级"/>
+            <Member type="UINT32" name="dwBTPoint" comment="战斗力"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="vecAttr" comment="总属性"/>
+            
+            <Member type="TVecBattleFighterData" name="vecBattleFighter" comment="出战的散仙"/>
+            <Member type="SDujieData" name="sDujie" comment="渡劫"/>
+            <Member type="SCTData" name="sCuiTi" comment="淬体(装备)"/>
+            <Member type="TVecUINT32" name="vecBaoshi" comment="宝石"/>
+            <Member type="TVecCittaData" name="vecCitta" comment="心法"/>
+            <Member type="ItemProt::TVecEquipTrump" name="vecTrump" comment="法宝"/>
+            <Member type="TVecRareTrumpData" name="vecRareTrump" comment="稀有(被动）法宝"/>
+            <Member type="SBeautyData" name="sBeauty" comment="美女"/>
+            <Member type="SBeastSoulData" name="sBeastSoul" comment="魂魄"/>
+            <Member type="TVecCombData" name="vecComb" comment="组合"/>
+            <Member type="TVecSkillData" name="vecSkill" comment="技能"/>
+            <Member type="TVecHorseData" name="vecHorse" comment="坐骑"/>
+            <Member type="TVecFashionData" name="vecFashion" comment="已激活的时装"/>
+            <Member type="TVecTitleData" name="vecTitle" comment="已激活的称号"/>
+            <Member type="TVecGuildData" name="vecGuild" comment="帮派"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="vecTianBookAttr" comment="天书属性"/>
+        </Struct>
+        <Struct name="SFighterData" desc="true" comment="散仙信息">
+            <Member type="UINT16" name="wFighterID" comment="散仙模版"/>
+            <Member type="UINT8" name="byLevel" comment="散仙等级"/>
+            <Member type="UINT32" name="dwBTPoint" comment="战斗力"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="vecAttr" comment="将属性"/>
+            
+            <Member type="SDujieData" name="sDujie" comment="渡劫"/>
+            <Member type="TVecSkillData" name="vecSkill" comment="技能"/>
+            <Member type="SCTData" name="sCuiTi" comment="淬体"/>
+            <Member type="TVecUINT32" name="vecBaoshi" comment="宝石"/>
+            <Member type="TVecCittaData" name="vecCitta" comment="心法"/>
+            <Member type="ItemProt::TVecEquipTrump" name="vecTrump" comment="法宝"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetRoleInfo" ret="true" comment="获取对方主角信息">
+            <Param type="string" name="strReceiveName" comment="对方玩家名字"/>
+            <RetParam type="SRoleData" name="RoleData"  comment="对方主角信息"/>
+        </Func>
+        <Func name="GetFighterInfo" ret="true" comment="获取散仙信息">
+            <Param type="string" name="strReceiveName" comment="对方玩家名字"/>
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <RetParam type="SFighterData" name="FighterData" comment="对方散仙信息"/>
+        </Func>
+    </FuncC2S>
+</Protocol>

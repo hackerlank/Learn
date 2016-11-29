@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterDemonTower" id="73" comment="GameServer到CenterServer关于镇妖塔的通信协议">
+    <Refer>
+      <Protocol name="DemonTower"/>
+    </Refer>
+    <TypeDef>
+        <Struct name="SDemonTowerEnterPlayer"  comment="进入镇妖塔玩家信息">
+            <Member type="UINT64" name= "qwUserID" comment="账号Id"/>
+            <Member type="UINT64" name= "qwRoleID" comment="角色Id"/>
+            <Member type="string" name= "strName" comment="角色名"/>
+            <Member type="UINT32" name= "dwFloorID" comment="楼层"/>
+            <Member type="UINT8"  name= "bySex" comment="性别"/>
+            <Member type="UINT16" name= "byLevel" comment="等级"/>
+            <Member type="UINT32" name= "dwCareer" comment="职业"/>
+            <Member type="UINT32" name= "dwPower" comment="战斗力"/>
+        </Struct>
+        <Struct name="SDemonTowerPassPlayer"  comment="镇妖塔玩家击败怪物信息">
+            <Member type="UINT32" name= "dwCurFloorID" comment="当前楼层"/>
+            <Member type="UINT64" name= "qwUserID" comment="账号Id"/>
+            <Member type="UINT32" name= "dwPower" comment="战斗力"/>
+            <Member type="UINT16" name= "wTurns" comment="回合数"/>
+            <Member type="UINT64" name= "qwReportID" comment="战报id"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="OnEnterDemonTower"  comment="玩家进入镇妖塔">
+            <Param type="SDemonTowerEnterPlayer" name="oDemonTowerEnterPlayer"  comment="进入镇妖塔玩家信息"/>              
+        </Func>
+        <Func name="OnLeaveDemonTower"  comment="玩家离开镇妖塔">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+        </Func>
+        <Func name="OnPassDemonTower"  comment="镇妖塔过关">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+            <Param type="UINT16" name="wFloorID"  comment="过关层数"/>
+            <Param type="UINT16" name="wMonsterColor"  comment="怪物颜色"/>
+            <Param type="string" name="strMonsterName"  comment="封印怪物"/>
+        </Func>
+        <Func name="OnKillMonster"  comment="击败锁妖塔怪物">
+            <Param type="SDemonTowerPassPlayer" name="oDemonTowerPassPlayer"  comment="镇妖塔玩家击败怪物信息"/>
+        </Func>
+        <Func name="OnPlayerReset"  comment="19点重置事件">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+        </Func>
+        <Func name="OnPlayerEnterNextFloor"  comment="玩家进入下一层">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+        </Func>
+        <Func name="PlayerEnterFloorRequest"  comment="玩家进入请求">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+            <Param type="UINT32" name="dwFloorID"  comment="层数"/>
+        </Func>
+        <Func name="GetAttackedLayerInfo"  ret="true" comment="获取玩家被攻击信息列表">
+            <Param type="UINT64" name="qwUserID"  comment="玩家账号"/>
+            <Param type="DemonTower::TVecDemonToweAttackedInfo" name="oAttackedList"  comment="被攻击列表"/>
+            <RetParam type="UINT64" name="qwUserID"  comment="玩家账号"/>
+            <RetParam type="DemonTower::TVecDemonToweAttackedInfo" name="oAttackedList"  comment="被攻击列表"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="EnterDemonTower"  comment="玩家请求进入镇妖塔">
+            <Param type="UINT64" name="qwUserID"  comment="帐号ID"/>
+            <Param type="UINT32" name="dwFloorID"  comment="层数"/>
+        </Func>
+        <Func name="LeaveDemonTower"  comment="玩家请求离开镇妖塔">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+        </Func>
+        <Func name="TakeDailyPrize" ret="true" comment="获取每日魂值奖励">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+        </Func>
+        <Func name="Attacked"  comment="被攻击信息">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="DemonTower::SDemonToweAttackedInfo" name="oAttacker"  comment="被攻击信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

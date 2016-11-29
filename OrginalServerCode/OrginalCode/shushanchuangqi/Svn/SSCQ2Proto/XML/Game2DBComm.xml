@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2DBComm" id="4" comment="GameServer到DBServer的通信协议">
+    <Refer>
+        <Protocol name="ServerCommon"/>
+        <Protocol name="RoleInfoDefine"/>
+        <Protocol name="MallProt"/>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="ShengLingProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ESaveType" comment="保存请求的类型">
+            <Member name="eSaveNone" comment="无"/>
+            <Member name="eSaveAway" comment="暂时离开"/>
+            <Member name="eSaveOff" comment="下线离开"/>
+            <Member name="eSaveJump" comment="跳线"/>
+            <Member name="eSaveKick" comment="被踢"/>
+            <Member name="eSaveExcept" comment="异常"/>
+            <Member name="eSaveData" comment="定时保存"/>
+            <Member name="eSaveToCross" comment="跳到跨服服务器"/>
+            <Member name="eSaveFromCross" comment="从跨服服务器跳回"/>
+        </Enum>
+        <Enum name="EEnterType" comment="进入GameServer的类型">
+            <Member name="eEnterNone" comment="无"/>
+            <Member name="eEnterLogin" comment="正常上线"/>
+            <Member name="eEnterJump" comment="跳线"/>
+            <Member name="eEnterToCross" comment="跳到跨服服务器"/>
+            <Member name="eEnterFromCross" comment="从跨服服务器跳回"/>
+        </Enum>
+        <Struct name="SWBossDBInfo" vec="TVecWBossDBInfo" comment="EDataType:eTypeWorldBossInfo">
+            <Member type="UINT16" name="wBossID" comment="BOSSID"/>
+            <Member type="UINT32" name="dwLast" comment="次被击杀所用时长，单位秒"/>
+            <Member type="UINT32" name="dwHP" comment="上次最大血量"/>
+            <Member type="UINT32" name="dwAtk" comment="上次物理攻击力"/>
+            <Member type="UINT32" name="dwMAtk" comment="上次魔法攻击力"/>
+            <Member type="UINT32" name="dwLastEndTime" comment="上次结束时间"/>
+        </Struct>
+        <Struct name="SDBGuildNewBattleHistoryInfo" vec="TVecDBGuildNewBattleHistoryInfo"   comment="数据库加载的新帮派战历史信息" >
+            <Member type="UINT8"    name="byMountainType"    comment="灵山类型" />
+            <Member type="UINT64"   name="qwGuildID"         comment="当前占领帮派ID" />
+            <Member type="string"   name="strGuildName"      comment="当前占领帮派名称" />
+            <Member type="string"   name="strGuildOwnerName" comment="当前占领帮派帮主名称" />
+            <Member type="UINT32"   name="dwTime"            comment="占领时间" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="KeepAlive" comment="心跳">
+        </Func>
+        <Func name="GetStatus" ret="true" comment="DBServer状态请求">
+        </Func>
+        <Func name="UpdateRecharge" ret="false" comment="更新玩家充值仙石信息">
+            <Param type="RoleInfoDefine::SRecharge" name="oRecharge" comment="充值仙石的数据"/>
+        </Func>
+        <Func name="RoleDataUpdate" ret="false" comment="一行数据更新">
+            <Param type ="UINT64" name="qwRoleId" comment="角色Id"/>
+            <Param type ="RoleInfoDefine::EDataType" name="eDataType" comment="更新数据块"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <Func name="SaveUserDataReq" ret="true" comment="请求保存账号数据">
+            <Param type="UINT64" name="qwUsrID" keep="true" comment="账号ID"/>
+            <Param type="ESaveType" name="eSaveType" keep="true" comment="保存类型"/>
+            <Param type="ProtoCommon::TVecPlatformParam" name="vecPlatformParam" comment="平台参数列表"/>
+        </Func>
+        <Func name="SaveOffLineDgnInfo" ret="true" comment="副本结束时候，玩家不在gameserver的数据保存">
+            <Param type="UINT64" name="qwUsrID" keep="true" comment="账号ID"/>
+            <Param type="UINT32" name="dwDgnType" keep="true" comment="副本类型"/>
+            <Param type="UINT8" name="byIsFail" comment="0:表示成功保存，1：表示失败保存"/>
+        </Func>
+        <Func name="LoadOffLineUserData" ret ="true"  comment="加载离线玩家数据">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <RetParam type="UINT8" name="byRet" comment="0表示成功"/>
+            <RetParam type="RoleInfoDefine::RoleDataInfo" name ="RoleData" comment ="玩家数据"/>
+        </Func>
+        <Func name="LoadWorldBossInfo" ret ="true"  comment="加载世界BOSS信息请求">
+            <RetParam type="TVecWBossDBInfo" name ="vecWorldBossInfo" comment ="世界BOSS信息"/>
+        </Func>
+        <Func name="SaveWorldBossInfo" ret ="false"  comment="存储世界BOSS信息">
+            <Param type="SWBossDBInfo" name="sWorldBossInfo" comment="世界BOSS信息"/>
+        </Func>
+        <Func name="GetUserIDFromName" ret = "true" comment="根据名字获取ID请求">
+            <Param type="string" name="strName" comment="主角色名称"/>
+            <RetParam type="UINT64" name="qwUsrID" comment="用户ID"/>
+        </Func>
+        <Func name="GetBattleReport" ret="true" comment="获得玩家战报信息">
+            <Param type ="UINT64" name="qwRoleID" comment="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::EBattleReportType" name ="eBattleType" comment ="战斗类型"/>
+            <Param type ="RoleInfoDefine::EBattleActionType" name ="eAction"  comment ="战斗的发起"/>
+            <RetParam type ="RoleInfoDefine::TVecBattleRePort" name="vecReport" comment="返回的数据"/> 
+        </Func>
+        <Func name="AddBattleReport" ret="true" comment="增加玩家战报信息">
+            <Param type ="UINT64" name="qwRoleID" commenta  ="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::SBattleRePort" name ="sReport" comment ="战斗数据"/>
+            <Param type ="UINT8" name ="byNum"  comment ="超过byNum，返回删除的旧的战报,0表示不删除"/>
+            <RetParam type ="TVecUINT64" name="vecBattleID" comment="删除的战报"/> 
+        </Func>
+        <Func name="AddOffLineEvent"  comment="增加离线事件">
+            <Param type ="TVecUINT64" name="vecRoleID" commenta  ="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::SEventOffLine" name ="sEventData" comment ="事件类型"/>
+        </Func>
+        <Func name="DelOffLineEvent"  comment="删除离线事件">
+            <Param type ="UINT64" name="qwRoleID" commenta  ="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::TVecEventOffLine" name ="vecEventType" comment ="事件类型"/>
+        </Func>
+        <Func name="LoadMallDiscount" ret ="true"  comment="加载商城限购信息">
+            <RetParam type="MallProt::TVecDiscount" name="vecDisItems" comment="限购道具信息"/>
+        </Func>
+        <Func name="UpdateMallDiscount" ret = "false" comment="更新商城限购">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="MallProt::TVecDiscount" name="vecDisItems" comment="限购道具"/>
+        </Func>
+        <Func name="GetNewGuildBattleHistory" ret="false" comment="获取新帮派战历史">
+        </Func>
+        <Func name="AddNewGuildBattleHistory" ret="false" comment="新增新帮派战历史">
+            <Param type="TVecDBGuildNewBattleHistoryInfo"   name="vecInfo"      comment="更新信息"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UserPackageProxy" comment="帐号协议代理发送请求">
+            <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Param type="UINT32" name="dwGateID" comment="所在网关服务器ID"/>
+            <Param type="TVecString" name="vecPackage" comment="协议包列表"/>
+        </Func>
+        <Func name="UserLoginNtf" ret= "false" comment="DB向GameSever推送角色信息/">
+            <Param type="EEnterType" name="eEnterType" comment="进入的类型"/>
+            <Param type="ProtoCommon::TVecPlatformParam" name="vecPlatformParam" comment="平台参数列表"/>
+            <Param type="TVecString" name="vecEnterString" comment="平台相关参数" />
+            <Param type="UINT32"  name ="dwGateId" comment ="网关Id"/> 
+            <Param type="UINT64" name ="qwUserId" comment ="用户Id"/>
+            <Param type="RoleInfoDefine::RoleDataInfo" name ="RoleData" comment ="玩家数据"/>
+        </Func>
+        <Func name="UserReEnterNotify" comment="账号重新进入通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="UINT32" name="dwGateID" comment="所在网关服务器ID"/>
+            <Param type="ProtoCommon::TVecPlatformParam" name="vecPlatformParam" comment="平台参数列表"/>
+            <Param type="TVecString" name="vecEnterString" comment="平台相关参数" />
+        </Func>
+        <Func name="UserLogoutNtf" comment="账号退出DBServer通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="ServerCommon::ELeaveType" name="eLeaveType" comment="下线类型"/>
+            </Func>
+         <Func name="NewOffEventNotice" comment="离线事件通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="RoleInfoDefine::SEventOffLine" name ="sEventData" comment ="事件类型"/>
+        </Func>
+        <Func name="NewGuildBattleHistoryNotify" comment="新帮派战历史记录获取返回">
+            <Param type="UINT32"                            name="dwCurSize"    comment="已发送条数"/>
+            <Param type="UINT32"                            name="dwTotalSize"  comment="总条数"/>
+            <Param type="TVecDBGuildNewBattleHistoryInfo"   name="vecInfo"      comment="更新信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

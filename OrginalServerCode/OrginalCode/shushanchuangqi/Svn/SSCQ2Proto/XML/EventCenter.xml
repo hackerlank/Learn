@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="EventCenter" id="256"  comment="游戏事件枚举">
+    <TypeDef>
+        <Enum name="EventType" byte="2" desc= "true" comment="事件类型枚举">
+            <Member name="eEventType_PlayerLogin"           value = "1"              comment="登录【玩家登录游戏时】参数：1"/>
+            <Member name="eEventType_GetResource"           value = "2"              comment="货币【玩家得到货币】参数：货币类型,得到数量，当前剩余值"/>
+            <Member name="eEventType_SpendResource"           value = "3"              comment="货币【玩家消耗货币】参数：货币类型，消耗数量，当前剩余值"/>
+            <Member name="eEventType_PackExpand"           value = "100"              comment="背包【成功扩展背包后】参数：累计扩展背包格数"/>
+            <Member name="eEventType_PackItemSold"           value = "101"              comment="背包【出售物品成功后】参数：出售物品数量"/>
+            <Member name="eEventType_PackArrange"           value = "102"              comment="背包【整理背包后】参数：整理背包次数"/>
+            <Member name="eEventType_AchievementLevelUp"           value = "201"              comment="成就【成就等级升级后】参数：成就等级"/>
+            <Member name="eEventType_AchievementGet"           value = "202"              comment="成就【成就达成时】参数：成就Id"/>
+            <Member name="eEventType_PlayerLevelChanging"           value = "301"              comment="主角【主角等级发生变化】参数：主角等级"/>
+            <Member name="eEventType_DungeonEnter"           value = "401"              comment="副本【进入副本】参数：副本id"/>
+            <Member name="eEventType_DungeonFinish"           value = "402"              comment="副本【通关副本】参数：副本id，副本星级，战斗力，出战散仙id（副本id;副本星级;战斗力;出战散仙id,出战散仙id...）"/>
+            <Member name="eEventType_DungeonLeave"           value = "403"              comment="副本【离开副本】参数：副本id，副本星级分别状态，装备阵灵id，出战散仙id，装备法宝id，战斗力"/>
+            <Member name="eEventType_DungeonAutoFight"           value = "404"              comment="副本【副本扫荡】参数：副本id"/>
+            <Member name="eEventType_DungeonStarGet"           value = "405"              comment="副本【通关获得星级时】参数：获得星级数"/>
+            <Member name="eEventType_DungeonBattleWin"           value = "406"              comment="副本【副本中战斗胜利】参数：1"/>
+            <Member name="eEventType_DungeonFinishAndAuto"           value = "407"              comment="副本【通关或扫荡副本后】参数：1"/>
+            <Member name="eEventType_DungeonStar"           value = "408"              comment="副本【单人副本完成】参数：副本id,评价星级"/>
+            <Member name="eEventType_DungeonFinishType"           value = "409"              comment="副本【副本通关或扫荡后】参数：副本类型,通关次数"/>
+            <Member name="eEventType_DungeonVsMonster"           value = "410"              comment="副本【打怪物】参数：GroupID,胜负,string 玩家参数"/>
+            <Member name="eEventType_DungeonFightMonster"           value = "411"              comment="副本【副本打怪物】参数：副本id,怪物id,玩家战斗力,胜负"/>
+            <Member name="eEventType_DivisionFinish"           value = "501"              comment="师门【完成师门任务】参数：今日完成次数，师门任务品质"/>
+            <Member name="eEventType_DivisionRefresh"           value = "502"              comment="师门【刷新师门任务】参数：免费刷新师门任务次数"/>
+            <Member name="eEventType_DivisionRefreshGet"           value = "503"              comment="师门【刷新得到师门任务】参数：刷到的任务品质"/>
+            <Member name="eEventType_DivisionBuying"           value = "504"              comment="师门【购买师门任务】参数：购买师门任务次数"/>
+            <Member name="eEventType_DivisionLevelUp"           value = "505"              comment="师门【师门等级升级】参数：师门等级"/>
+            <Member name="eEventType_DivisionPrizeGet"           value = "506"              comment="师门【领取清修奖励后】参数：1"/>
+            <Member name="eEventType_GovernmentTaskFinish"           value = "601"              comment="衙门【完成衙门任务】参数：完成次数，品质"/>
+            <Member name="eEventType_GovernmentTaskRefresh"           value = "602"              comment="衙门【刷新衙门任务】参数：刷新衙门任务次数"/>
+            <Member name="eEventType_GovernmentTaskRefreshGet"           value = "603"              comment="衙门【刷新得到衙门任务】参数：刷到的任务品质"/>
+            <Member name="eEventType_GovernmentTaskBuying"           value = "604"              comment="衙门【购买衙门任务】参数：购买衙门任务次数"/>
+            <Member name="eEventType_GovernmentTaskLevelUp"           value = "605"              comment="衙门【衙门等级升级】参数：衙门等级"/>
+            <Member name="eEventType_GovernmentTaskPrizeGet"           value = "606"              comment="衙门【领取侠义奖励】参数：1"/>
+            <Member name="eEventType_GuildCreation"           value = "701"              comment="帮派【成功创建帮派】参数：帮派id"/>
+            <Member name="eEventType_GuildJoining"           value = "702"              comment="帮派【成功加入帮派（含创建）】参数：帮派id，帮派等级"/>
+            <Member name="eEventType_GuildDismiss"           value = "703"              comment="帮派【成功解散帮派】参数：帮派id"/>
+            <Member name="eEventType_GuildQuit"           value = "704"              comment="帮派【成功退出帮派】参数：帮派id"/>
+            <Member name="eEventType_GuildSetQQ"           value = "705"              comment="帮派【成功设置Q群】参数：帮派id，帮派Q群号码"/>
+            <Member name="eEventType_GuildAccuse"           value = "706"              comment="帮派【成功弹劾】参数：帮派id"/>
+            <Member name="eEventType_GuildLevel"           value = "707"              comment="帮派【帮派升级至x级】参数：帮派等级  string 帮派id，"/>
+            <Member name="eEventType_GuildDonate"           value = "708"              comment="帮派【帮派捐献】参数：帮派当前资金，捐献银币数，获得贡献数，捐献银币数 string 帮派id"/>
+            <Member name="eEventType_GuildBuildingUpgrade"           value = "709"              comment="帮派【帮派建筑升级】参数：帮派id，建筑id，建筑等级"/>
+            <Member name="eEventType_GuildOblation"           value = "710"              comment="帮派【帮派供奉】参数：帮派id，供奉类型，当前供奉人数"/>
+            <Member name="eEventType_GuildOblationSelf"           value = "713"              comment="帮派【自身帮派供奉】参数：供奉类型，累计次数"/>
+            <Member name="eEventType_GuildShopBought"           value = "711"              comment="帮派【在帮派商店购买】参数：购买物品id，消耗帮贡"/>
+            <Member name="eEventType_GuildSkillUpgrade"           value = "712"              comment="帮派【帮派技能升级】参数：帮派技能id，０（占位），所有帮派技能等级"/>
+            <Member name="eEventType_RankFightingPowerChanging"           value = "801"              comment="排行榜【队伍战力排名发生改变、登录时】参数：战力排行值"/>
+            <Member name="eEventType_RankPetChanging"           value = "802"              comment="排行榜【阵灵排名发生改变、登录时】参数：阵灵排行值"/>
+            <Member name="eEventType_RankFighterChanging"           value = "803"              comment="排行榜【散仙战力排名发生改变、登录时】参数：散仙战力排行值"/>
+            <Member name="eEventType_RankTrumpChanging"           value = "804"              comment="排行榜【法宝战力排名发生变化、登录时】参数：法宝战力排行值"/>
+            <Member name="eEventType_PlayerProstrate"           value = "805"              comment="排行榜【进行崇拜】参数：今日崇拜次数"/>
+            <Member name="eEventType_ReceiveProstrate"           value = "806"              comment="排行榜【受到崇拜、登录时】参数：今日受崇拜次数"/>
+            <Member name="eEventType_ExperienceChallenge"           value = "901"              comment="历练【历练发起挑战】参数：今日历练挑战次数"/>
+            <Member name="eEventType_ExperienceSectionChanging"           value = "902"              comment="历练【历练段位发生改变、登录时】参数：段位id"/>
+            <Member name="eEventType_ExperienceRefresh"           value = "903"              comment="历练【历练刷新】参数：历练刷新次数"/>
+            <Member name="eEventType_ExperienceTimesBought"           value = "904"              comment="历练【历练购买次数】参数：购买历练次数"/>
+            <Member name="eEventType_ExperienceGetVictory"           value = "905"              comment="历练【历练获得胜利】参数：1"/>
+            <Member name="eEventType_ExperienceGetPrize"           value = "906"              comment="历练【玩家领取历练奖励】参数：奖励类型"/>
+            <Member name="eEventType_ExperienceLevelChange"              value = "907"              comment="历练等级发生变化【历练结算】参数： 初始段位，现在段位"/>
+            <Member name="eEventType_ArenaRankChanging"           value = "1001"              comment="斗剑【斗剑排名发生变化、登录时】参数：斗剑最高排名"/>
+            <Member name="eEventType_ArenaChallenge"           value = "1002"              comment="斗剑【斗剑发起挑战】参数：今日斗剑次数"/>
+            <Member name="eEventType_ArenaGetVictory"           value = "1003"              comment="斗剑【斗剑胜利】参数：1"/>
+            <Member name="eEventType_ArenaCancelRankBridge"           value = "1004"              comment="斗剑【玩家点击取消跨度】参数：1"/>
+            <Member name="eEventType_ArenaGetPrize"           value = "1005"              comment="斗剑【玩家领取斗剑奖励】参数：奖励类型"/>
+            <Member name="eEventType_ArenaRankDwon"           value = "1006"              comment="斗剑【玩家斗剑名次下降】参数：当前名次"/>
+            <Member name="eEventType_ArenaRank"           value = "1007"              comment="斗剑【玩家斗剑】参数：今日斗剑次数,当前排名"/>
+            <Member name="eEventType_ArenaBestRank"           value = "1008"              comment="斗剑【历史最高排名发生变化】参数：今日斗剑次数,当前排名"/>
+            <Member name="eEventType_TeamBattleVictory"           value = "1101"              comment="组队副本【玩家通关组队副本】参数：组队副本id，通关类型（普通，协助），今日对应通关次数"/>
+            <Member name="eEventType_DemonTowerBattle"           value = "1201"              comment="锁妖塔【进行锁妖塔战斗】参数：1"/>
+            <Member name="eEventType_DemonTowerHighestChanging"           value = "1202"              comment="锁妖塔【玩家锁妖塔最高层数发生变化】参数：锁妖塔最高层数"/>
+            <Member name="eEventType_DemonTowerDefendSuccess"           value = "1203"              comment="锁妖塔【玩家成功镇守锁妖塔】参数：镇守时间，魂魄id，获得数"/>
+            <Member name="eEventType_DemonTowerRobSuccess"           value = "1204"              comment="锁妖塔【玩家成功抢夺锁妖塔】参数：获得奖励id，获得数"/>
+            <Member name="eEventType_DemonTowerGetPrize"           value = "1205"              comment="锁妖塔【领取锁妖塔奖励、登录时】参数：1"/>
+            <Member name="eEventType_DemonTowerRob"           value = "1206"              comment="锁妖塔【玩家进行抢夺】参数：1"/>
+            <Member name="eEventType_DemonTowerClearPVECD"           value = "1207"              comment="锁妖塔【玩家清除打怪CD】参数：1"/>
+            <Member name="eEventType_DemonTowerClearPVPCD"           value = "1208"              comment="锁妖塔【玩家清除抢人CD】参数：1"/>
+            <Member name="eEventType_HolyLandJoin"           value = "1301"              comment="琅嬛福地【参加琅环福地】参数：1"/>
+            <Member name="eEventType_HolyLandQuit"           value = "1302"              comment="琅嬛福地【结束琅环福地】参数：参加时间"/>
+            <Member name="eEventType_HolyLandUseItem"           value = "1303"              comment="琅嬛福地【完成琅环福地物件交互】参数：交互技能id"/>
+            <Member name="eEventType_WorldBossEnter"           value = "1401"              comment="世界BOSS【进入世界Boss活动】参数：Bossid"/>
+            <Member name="eEventType_WorldBossKill"           value = "1402"              comment="世界BOSS【击杀世界Boss】参数：Bossid"/>
+            <Member name="eEventType_WorldBossInspire"        value = "1403"              comment="世界BOSS【在世界Boss进行鼓舞】参数：鼓舞类型，当前鼓舞次数"/>
+            <Member name="eEventType_WorldBossAttack"         value = "1404"              comment="世界BOSS【攻击世界Boss】参数"/>
+            <Member name="eEventType_WorldBossAttackRightNow"         value = "1405"              comment="世界BOSS立即战斗【世界Boss立即战斗】参数1"/>
+            <Member name="eEventType_WorldBossBuyLive"         value = "1406"              comment="世界BOSS买活【世界Boss买活】参数1"/>
+            <Member name="eEventType_ShushanBattleJoin"           value = "1501"              comment="蜀山论剑【参加蜀山论剑】参数：1"/>
+            <Member name="eEventType_ShushanBattleQuit"           value = "1502"              comment="蜀山论剑【离开蜀山论剑】参数：参加时间(暂时不做)"/>
+            <Member name="eEventType_ShushanBattleVictory"           value = "1503"              comment="蜀山论剑【蜀山论剑获胜】参数：获胜次数，使用霸气、怒气技能id（多个）"/>
+            <Member name="eEventType_ShushanBattleSkillUsing"           value = "1504"              comment="蜀山论剑【蜀山论剑使用技能】参数：技能id"/>
+            <Member name="eEventType_ShushanBattleTaskFinish"           value = "1505"              comment="蜀山论剑【蜀山论剑完成任务】参数：今日完成次数，任务id"/>
+            <Member name="eEventType_ShushanBattleWinStreak"           value = "1506"              comment="蜀山论剑【蜀山论剑胜利时】参数：当前连杀次数"/>
+            <Member name="eEventType_ShushanBattleBadgeUpgrade"           value = "1507"              comment="蜀山论剑【蜀山论剑徽章等级提升】参数：当前徽章等级"/>
+            <Member name="eEventType_ShushanBattleGetPrize"           value = "1508"              comment="蜀山论剑【蜀山论剑发奖励时】参数：奖励类型(1普通，2连杀，3荣誉王)"/>
+            <Member name="eEventType_GuildBattleSignUp"           value = "1601"              comment="帮派战【帮派战报名】参数：帮派id（所有帮派id都是string类型不在参数列表）"/>
+            <Member name="eEventType_GuildBattleOneRoundEnd"           value = "1602"              comment="帮派战【帮派战一轮结束】参数：帮派id，积分，对战帮派id，对战帮派积分，我的获胜场次"/>
+            <Member name="eEventType_GuildBattleEnd"           value = "1603"              comment="帮派战【帮派战结束】参数：帮派id，参与时间"/>
+            <Member name="eEventType_GuildBattleInspire"           value = "1604"              comment="帮派战【在帮派战中进行鼓舞】参数：鼓舞类型"/>
+            <Member name="eEventType_GuildBattleWeekendEnd"           value = "1605"              comment="帮派战【帮派战周结束】参数：我的帮派排名"/>
+            <Member name="eEventType_GuildBattleWin"          value = "1606"              comment="帮派战【帮派战胜利】"/>
+            <Member name="eEventType_GuildBattleComboKill"          value = "1607"              comment="灵山争夺战【灵山争夺战连杀】参数：连杀次数"/>
+            <Member name="eEventType_GuildBattleJoin"          value = "1608"              comment="灵山争夺战【参加帮派战】参数：连杀次数"/>
+            <Member name="eEventType_FightingPowerChanging"           value = "1701"              comment="战斗力【进入战斗时】参数：队伍战力"/>
+            <Member name="eEventType_FightingPowerChangingPlayer"           value = "1702"              comment="战斗力【进入战斗时】参数：主角战力"/>
+            <Member name="eEventType_FightingPowerChangingAnyFigher"           value = "1703"              comment="战斗力【进入战斗】参数：出战散仙战力（4个）"/>
+            <Member name="eEventType_FriendAdding"           value = "1801"              comment="好友【成功添加好友后】参数：好友数量"/>
+            <Member name="eEventType_FriendRecommendUsing"           value = "1802"              comment="好友【使用好友推荐后】参数：1"/>
+            <Member name="eEventType_FriendSignatureChangings"           value = "1803"              comment="好友【修改个性签名成功】参数：1"/>
+            <Member name="eEventType_VipLevelChanging"           value = "1901"              comment="vip【Vip等级发生变化】参数：Vip等级"/>
+            <Member name="eEventType_VipRechargeSuccess"           value = "1902"              comment="vip【玩家成功充值】参数：仙石数量"/>
+            <Member name="eEventType_VipConsumptionSuccess"           value = "1903"              comment="vip【玩家成功消费】参数：仙石数量"/>
+            <Member name="eEventType_VipGetPrize"           value = "1904"              comment="vip【玩家领取vip礼包】参数：礼包类型"/>
+            <Member name="eEventType_VipGetPrizeMore"           value = "1905"              comment="vip【玩家领取vip礼包】参数：礼包类型1每日 2是一次性礼包，礼包等级"/>
+            <Member name="eEventType_ActiveValueGetPrize"           value = "2001"              comment="活跃度【玩家领取活跃宝箱】参数：宝箱id，今日打开宝箱状态"/>
+            <Member name="eEventType_ActivePointGet"           value = "2002"              comment="活跃度【获得活跃度】参数：活跃度值"/>
+            <Member name="eEventType_FightingPowerComparing"           value = "2101"              comment="变强【玩家进行战力对比】参数：对比方式"/>
+            <Member name="eEventType_MallBought"           value = "2201"              comment="商城【在商城进行购买】参数：商城类型，道具id，消耗数量，货币类型"/>
+            <Member name="eEventType_MallBoughtMomey"           value = "2202"              comment="商城【在商城进行购买】参数：道具id，货币类型,货币数量"/>
+            <Member name="eEventType_ExChangingMallBought"           value = "2301"              comment="兑换【完成兑换】参数：兑换次数，兑换类型，消耗数量，消耗类型"/>
+            <Member name="eEventType_SettingsChanging"           value = "2401"              comment="设置【设置变更】参数：设置类型（设置面板，屏蔽）"/>
+            <Member name="eEventType_SettingsFastShield"           value = "2402"              comment="设置【使用快速屏蔽】参数：1"/>
+            <Member name="eEventType_SettingsFullScreen"           value = "2403"              comment="设置【使用全屏20分钟】参数：1"/>
+            <Member name="eEventType_WorldMapMoving"           value = "2501"              comment="世界地图【进行世界地图传送】参数：1"/>
+            <Member name="eEventType_MailReading"           value = "2601"              comment="邮件【邮件查看】参数：1"/>
+            <Member name="eEventType_MailReceiving"           value = "2602"              comment="邮件【邮件接收附件】参数：1"/>
+            <Member name="eEventType_SkillLearning"           value = "2701"              comment="技能【技能学习】参数：技能id"/>
+            <Member name="eEventType_SkillEquiping"           value = "2702"              comment="技能【技能装备】参数：当前装备的技能id"/>
+            <Member name="eEventType_SkillUpgrade"           value = "2703"              comment="技能【技能升级】参数：技能id，所有已学习技能等级"/>
+            <Member name="eEventType_EquipmentStrengthening"           value = "2801"              comment="装备【完成装备强化】参数：装备类型，装备等级"/>
+            <Member name="eEventType_EquipmentForging"           value = "2802"              comment="装备【完成装备铸造】参数：装备类型，装备等级"/>
+            <Member name="eEventType_TrumpActive"           value = "2901"              comment="法宝【激活法宝】参数：法宝id"/>
+            <Member name="eEventType_TrumpEquiping"           value = "2902"              comment="法宝【装备法宝】参数：所有装备的法宝id"/>
+            <Member name="eEventType_TrumpForging"           value = "2903"              comment="法宝【完成法宝祭炼】参数：法宝id，祭炼次数，祭炼等级，其他所有拥有法宝的祭炼等级"/>
+            <Member name="eEventType_FighterEnlisted"           value = "3001"              comment="散仙【招募散仙】参数：散仙id，当前已招募散仙数，招募散仙状态（散仙id;当前已招募散仙数;招募散仙id,招募散仙id...）"/>
+            <Member name="eEventType_FighterLevelUp"           value = "3002"              comment="散仙【散仙升级】参数：散仙id，散仙等级，所有已招募散仙等级"/>
+            <Member name="eEventType_FighterCuiTi"           value = "3003"              comment="散仙【散仙淬体】参数：散仙id，淬体类型，该散仙所有淬体类型的等级"/>
+            <Member name="eEventType_FighterSkillUpgrade"           value = "3004"              comment="散仙【散仙技能升级】参数：散仙id，散仙技能id，该散仙所有技能等级"/>
+            <Member name="eEventType_FighterSkillExchange"           value = "3005"              comment="散仙【散仙技能顺序调整】参数：散仙id，散仙技能顺序"/>
+            <Member name="eEventType_FighterLearningRecipe"           value = "3006"              comment="散仙【散仙学习心法】参数：散仙id，心法id，散仙当前已学习心法数"/>
+            <Member name="eEventType_FighterRecipeUpgrade"           value = "3007"              comment="散仙【散仙升级心法】参数：散仙id，心法id，该散仙所有心法等级"/>
+            <Member name="eEventType_FormationActive"           value = "3008"              comment="散仙【激活阵型】参数：阵型id，当前已激活阵型数"/>
+            <Member name="eEventType_FormationChange"           value = "3009"              comment="散仙【阵型调整】参数：所有出战散仙的id"/>
+            <Member name="eEventType_PetActive"           value = "3010"              comment="散仙【激活阵灵】参数：阵灵id，当前已激活阵灵数"/>
+            <Member name="eEventType_PetGetFighting"           value = "3011"              comment="散仙【出战阵灵】参数：阵灵id"/>
+            <Member name="eEventType_FighterBatterPoint"           value = "3012"              comment="散仙【出战时战斗力】参数：散仙id，战斗力"/>
+            <Member name="eEventType_FighterCollected"           value = "3013"              comment="散仙【招募指定品质散仙数量】参数：color,数量"/>
+			<Member name="eEventType_FighterStarCollected"           value = "3014"              comment="散仙【招募指定星级散仙数量】参数：星级,数量"/>
+			<Member name="eEventType_FighterInBattle"           value = "3015"              comment="散仙【上阵散仙数量-含主角】参数：数量"/>
+            <Member name="eEventType_FormationChangeMore"           value = "3016"              comment="散仙【阵型详细调整】参数：所有出战散仙的id，位置id"/>
+            <Member name="eEventType_FighterCombinationUnlock"           value = "3017"              comment="散仙【激活组合】参数：组合id"/>
+            <Member name="eEventType_PetUpgrade"           value = "3101"              comment="阵灵【阵灵培养成功】参数：阵灵id，阵灵等级,所有已激活阵灵阶数"/>
+            <Member name="eEventType_BeastSoulActive"           value = "3102"              comment="阵灵【兽魂激活】参数：兽魂id"/>
+            <Member name="eEventType_BeastUpgrade"           value = "3103"              comment="阵灵【兽魂升级】参数：兽魂类型，等级,阶位,所有兽魂类型等级,阶位"/>
+            <Member name="eEventType_BeastSoulGet"           value = "3104"              comment="兽魂【获得兽魂】参数：兽魂id，值"/>
+            <Member name="eEventType_HorseActive"           value = "3201"              comment="坐骑【激活坐骑】参数：坐骑id，当前已激活坐骑数"/>
+            <Member name="eEventType_HorseGetUsed"           value = "3202"              comment="坐骑【出战坐骑】参数：坐骑id"/>
+            <Member name="eEventType_HorseUpgrade"           value = "3203"              comment="坐骑【坐骑进阶成功】参数：坐骑id，坐骑阶数，其他所有已激活坐骑阶数"/>
+            <Member name="eEventType_PlayerLearningRecipe"           value = "3301"              comment="主角心法【主角学习心法】参数：心法id，主角当前已学习心法数"/>
+            <Member name="eEventType_PlayerEquipingRecipe"           value = "3302"              comment="主角心法【主角装备心法】参数：心法id，主角当前所有装备心法id"/>
+            <Member name="eEventType_PlayerRecipeUpgrade"           value = "3303"              comment="主角心法【主角心法升级】参数：心法id，所有已学习心法等级"/>
+            <Member name="eEventType_PlayerDujieSuccess"           value = "3401"              comment="渡劫【主角或散仙渡劫成功】参数：单位id，渡劫等级，所有已招募散仙渡劫等级（渡劫散仙id;渡劫等级;散仙id,散仙等级$散仙id,散仙等级...）"/>
+            <Member name="eEventType_OnlineTime"           value = "3501"              comment="在线【每在线1分钟时】参数：1"/>
+            <Member name="eEventType_FaionActive"           value = "3601"              comment="时装【激活时装】参数：时装id，当前已激活时装数"/>
+            <Member name="eEventType_FaionGetUsed"           value = "3602"              comment="时装【装备时装】参数：时装id"/>
+            <Member name="eEventType_FaionUpgrade"           value = "3603"              comment="时装【时装炼化成功】参数：时装id，所有已激活时装阶数"/>
+            <Member name="eEventType_StoveFireLearning"           value = "3701"              comment="九疑鼎【学会配方】参数：配方Id，配方可使用次数"/>
+            <Member name="eEventType_StoveFireFinish"           value = "3702"              comment="九疑鼎【完成炼取】参数：配方Id，已领取次数，配方可使用次数"/>
+            <Member name="eEventType_StoveUpgrade"           value = "3703"              comment="九疑鼎【九疑鼎培养成功】参数：九疑鼎Id，该九疑鼎阶数，所有九疑鼎阶数"/>
+            <Member name="eEventType_StovePlayerHelp"           value = "3704"              comment="九疑鼎【进行九疑鼎协助】参数：1"/>
+            <Member name="eEventType_StoveFighterHelp"           value = "3705"              comment="九疑鼎【进行散仙协助】参数：1"/>
+            <Member name="eEventType_StoveBellow"           value = "3706"              comment="九疑鼎【进行九疑鼎煽火】参数：1"/>
+            <Member name="eEventType_StoveComingIn"           value = "3707"              comment="九疑鼎【成功入鼎】参数：入鼎道具Id，入鼎道具数量"/>
+            <Member name="eEventType_StoveFireStarting"           value = "3708"              comment="九疑鼎【祈火成功】参数：配方Id，火种品质，配方可使用次数"/>
+            <Member name="eEventType_NewPlayerTask"           value = "3801"              comment="任务【新手引导】参数任务Id"/>
+            <Member name="eEventType_NewPlayerClient"           value = "3901"              comment="任务【新手引导】参数 任务步骤string"/>
+            <Member name="eEventType_CircleTaskFinish"           value = "3921"              comment="环任务【完成环任务】参数：次数"/>
+            <Member name="eEventType_CircleTaskStarUp"           value = "3922"              comment="环任务【环任务升星】参数：星级, 升星次数"/>
+            <Member name="eEventType_TravelFinish"           value = "3941"              comment="游历【完成游历】参数： 游历类型，游历次数"/>
+            <Member name="eEventType_GuardEmeiFinish"           value = "3946"              comment="锁仙台【完成锁仙台】参数： 关卡Id"/>
+            <Member name="eEventType_GuardEmeiFinishMore"           value = "3947"              comment="锁仙台战力【完成锁仙台】参数： 关卡Id,玩家战斗力"/>
+            <Member name="eEventType_QQAlarmClock"           value = "3949"              comment="QQ闹钟【开启QQ闹钟】参数： 结果（1-开启成功 2-开启失败）"/>
+            <Member name="eEventType_BeautyUnlock"           value = "3950"              comment="仙女【解锁仙女】参数： 仙女Id"/>
+            <Member name="eEventType_BeautyUnlockNum"           value = "3951"              comment="仙女【解锁仙女数量】参数： 总数"/>
+            <Member name="eEventType_BeautyHug"           value = "3952"              comment="仙女【完成缠绵】参数： 缠绵次数"/>
+            <Member name="eEventType_BeautySend"           value = "3953"              comment="仙女【完成赠送】参数： 完成赠送仙女数量"/>
+            <Member name="eEventType_BeautySendAppreciate"           value = "3954"              comment="仙女喜好品赠送【完成赠送】参数： 非喜欢礼物增加值，喜欢礼物增加值log"/>
+            <Member name="eEventType_BeautyLevelUp"           value = "3955"              comment="仙女升级【仙女升级】参数： 美女id，美女等级"/>
+            <Member name="eEventType_BattleArraySuccess"           value = "3961"              comment="破阵【成功破阵或完成扫荡】参数： 阵位Id，次数"/>
+            <Member name="eEventType_BattleArraySuccessInfo"           value = "3962"              comment="破阵【成功破阵】参数： 阵位Id，战斗力"/>
+            <Member name="eEventType_TreasureUseBuff"           value = "3965"              comment="寻宝【寻宝使用Buff】参数： BuffId，次数"/>
+            <Member name="eEventType_TreasureSuccess"           value = "3966"              comment="寻宝【寻宝成功次数】参数： 关卡Id，次数"/>
+            <Member name="eEventType_XinfaLearn"           value = "3910"              comment="心法【心法习得】参数： 心法id"/>
+            <Member name="eEventType_XinfaLevelUp"         value = "3911"              comment="心法【心法升级】参数： 心法id,占位，等级"/>
+            <Member name="eEventType_BoatFinish"           value = "4001"              comment="元江金船【完成运船】参数： 品质，次数"/>
+            <Member name="eEventType_BoatRefresh"          value = "4002"              comment="元江金船【刷新得到船】参数： 品质，次数"/>
+            <Member name="eEventType_BoatRob"              value = "4003"              comment="元江金船【打劫】参数： 结果（胜败 1-失败 2-胜利），次数"/>
+            <Member name="eEventType_BoatProtect"              value = "4004"              comment="元江金船【护送】参数：次数"/>
+            <Member name="eEventType_BoatBegin"              value = "4005"              comment="元江金船【开始运船】参数：1"/>
+            <Member name="eEventType_BoatGet"              value = "4006"              comment="元江金船【获得宝船】参数：1"/>
+            <Member name="eEventType_MoneyTree"              value = "4010"              comment="摇钱树【摇钱】参数： 次数"/>
+            <Member name="eEventType_LingMountainSeize"              value = "4020"              comment="灵山争夺战【占领】参数： 灵山（峨嵋-1，昆仑-2，黄山-3），占领次数"/>
+            <Member name="eEventType_LingMountainJoin"              value = "4021"              comment="灵山争夺战【参加】参数： 灵山（峨嵋-1，昆仑-2，黄山-3），参加次数"/>	
+            <Member name="eEventType_LingMountainConquer"              value = "4022"              comment="灵山争夺战【攻破山门】参数： 灵山（峨嵋-1，昆仑-2，黄山-3）,所用时间"/>
+            <Member name="eEventType_LingMountainWin"              value = "4023"              comment="灵山争夺战【有帮派资源达到3000】参数： 内城（峨嵋洞-1，昆仑洞-2，黄山洞-3）,所用时间"/>
+            <Member name="eEventType_GemsGet"              value = "4031"              comment="宝石【得到宝石】参数： 宝石类型，宝石等级"/>
+            <Member name="eEventType_GemsSuit"              value = "4032"              comment="宝石【全身宝石等级】参数：散仙id，宝石等级,全身宝石等级（第三列）"/>
+            <Member name="eEventType_GemsCompose"              value = "4033"              comment="宝石【宝石合成】参数：1"/>
+            <Member name="eEventType_MysteryTreasureJoin"              value = "4040"              comment="秘境寻宝【参加秘境寻宝】参数： 1"/>
+            <Member name="eEventType_MysteryTreasureBox"              value = "4041"              comment="秘境寻宝【获得秘境宝箱】参数： 1"/>
+            <Member name="eEventType_MysteryTreasureWin"              value = "4042"              comment="秘境寻宝【和夺宝者战斗】参数：是否战胜，是宝匣持有者（1为是）"/>
+            <Member name="eEventType_MysteryTreasureMove"              value = "4043"              comment="秘境寻宝【秘境寻宝中移动】参数：轮数"/>
+            <Member name="eEventType_MysteryTreasureAliveTime"              value = "4044"              comment="秘境寻宝【秘境寻宝中失败】参数：存活回合数"/>
+            <Member name="eEventType_MysteryTreasureReport"              value = "4045"              comment="秘境寻宝【秘境寻宝中结束】参数：获得宝箱数量，机缘值，存活回合数"/>
+            <Member name="eEventType_QuestionJoin"              value = "4050"              comment="天问【参加天问】参数：1"/>
+            <Member name="eEventType_QuestionUseSkill"              value = "4051"              comment="天问【天问中使用技能】参数：技能Id"/>
+            <Member name="eEventType_QuestionScore"              value = "4052"              comment="天问【天问结束】参数：玩家积分"/>
+            <Member name="eEventType_SkyTreasureJoin"              value = "4055"              comment="天赐宝藏【参加天赐宝藏】参数：1"/>
+            <Member name="eEventType_SkyTreasureGet"              value = "4056"              comment="天赐宝藏【获得天赐宝藏】参数：宝箱Id"/>
+            <Member name="eEventType_PlayerDraw"              value = "4060"              comment="求签【进行求签】参数：求签类型1银币2高级"/>
+            <Member name="eEventType_GetEnergy"              value = "4066"              comment="仙气充盈【领取仙气充盈】参数：1"/>
+            <Member name="eEventType_CheckIn"              value = "4070"              comment="签到【进行签到】参数：本月已签到次数"/>
+            <Member name="eEventType_CheckInAdd"              value = "4071"              comment="签到【进行补签】参数：1"/>
+            <Member name="eEventType_CheckInGetPrize"              value = "4072"              comment="签到【领取签到奖励】参数：奖励Id"/>
+            <Member name="eEventType_MonthCard"              value = "4076"              comment="月卡【购买月卡】参数：1"/>
+            <Member name="eEventType_MonthCardSend"              value = "4077"              comment="月卡【给他人赠送月卡】参数：1"/>
+            <Member name="eEventType_14DaysGift"              value = "4081"              comment="14天礼包【领取14天礼包】参数：礼包Id"/>
+            <Member name="eEventType_YellowDiamondNum"              value = "4086"              comment="黄钻玩家人数【创角成功】参数：1"/>
+            <Member name="eEventType_YellowDiamondGift"              value = "4087"              comment="黄钻礼包【领取黄钻礼包】参数：礼包Id"/>
+            <Member name="eEventType_SitDownTime"              value = "4091"              comment="上次打坐时间【完成打坐】参数：上次打坐时间"/>
+            <Member name="eEventType_UsePromote"              value = "4096"              comment="使用变强功能【从变强界面打开其他界面】参数：1"/>
+            <Member name="eEventType_QQAlarmGift"              value = "5001"              comment="QQ提醒礼包【领取QQ提醒礼包】参数：1"/>
+            <Member name="eEventType_WeiBoGift"              value = "5006"              comment="微博礼包【领取微博礼包】参数：礼包Id"/>
+            <Member name="eEventType_WeChatGift"              value = "5007"              comment="微信礼包【领取微信礼包】参数：礼包Id"/>
+            <Member name="eEventType_FriendInviteGift"              value = "5011"              comment="邀请好友【领取邀请好友礼包】参数：礼包Id"/>
+			<Member name="eEventType_XiHeTruck"              value = "5012"              comment="羲和神车帮助别人的次数【每当帮助别人完成装箱】 参数：1"/>	
+			<Member name="eEventType_TrumpGet"              value = "4101"              comment="新法宝【法宝、法宝碎片获得】参数：法宝、碎片id"/>
+            <Member name="eEventType_TrumpEquip"              value = "4102"              comment="新法宝【法宝装备】参数：法宝id、散仙id，身上所有法宝id"/>
+            <Member name="eEventType_TrumpToStrongSucess"              value = "4103"              comment="新法宝【法宝强化成功】参数：强化等级、强化石id、法宝id"/>
+			<Member name="eEventType_TrumpToStrongFaild"              value = "4104"              comment="新法宝【法宝强化失败】参数：强化等级、强化石id、法宝id"/>
+            <Member name="eEventType_TrumpPu"              value = "4105"              comment="新法宝【法宝洗炼】参数：保护个数、法宝id"/>
+            <Member name="eEventType_TrumpDes"              value = "4106"              comment="新法宝【法宝分解】参数：法宝id、强化等级"/>
+            <Member name="eEventType_ItemUpgrade"              value = "4201"              comment="合成【合成】参数：合成id"/>
+            <Member name="eEventType_ShenglingPlay"              value = "4301"              comment="圣陵【掷骰子】参数：触发格子类型，格子id、当前层"/>
+            <Member name="eEventType_ShenglingControl"              value = "4302"              comment="圣陵【遥控骰子】参数：触发格子类型，格子id、当前层"/>
+            <Member name="eEventType_ShenglingReturn"              value = "4303"              comment="圣陵【转向】参数：格子id，当前层"/>
+            <Member name="eEventType_ShenglingThreeGameOver"              value = "4304"              comment="圣陵【三消游戏结束】参数：玩家积分"/>
+            <Member name="eEventType_ShenglingPuzzOver"              value = "4305"              comment="圣陵【拼图游戏结束】参数：拼图是否完成"/>
+            <Member name="eEventType_Max"                    comment="最大值"/>
+        </Enum>                                               
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+</Protocol>

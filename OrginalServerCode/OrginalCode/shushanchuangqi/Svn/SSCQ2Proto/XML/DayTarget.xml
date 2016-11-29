@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DayTarget" id="125" proxy="GameServer" comment="七日目标活动">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EDayTargetRet" comment="错误码">
+            <Member name="eDayTargetRet_Sucess" value="0" comment="成功"/>
+            <Member name="eDayTargetRet_NotFinish"  comment="任务未完成"/>
+            <Member name="eDayTargetRet_DayLimit" comment="未到领奖天数"/>
+            <Member name="eDayTargetRet_TakePrized" comment="已经领过奖励"/>
+            <Member name="eDayTargetRet_CFGError" comment="基础配置错误"/>
+            <Member name="eDayTargetRet_PackFull" comment="背包空间不足"/>
+        </Enum>
+        <Enum name="EDayTargeTasktStatus" comment="任务状态">
+            <Member name="eDayTargetTaskStatus_Init" value="0" comment="任务未完成"/>
+            <Member name="eDayTargetTaskStatus_Finish"  comment="任务完成"/>
+            <Member name="eDayTargetTaskStatus_TakePrized"  comment="任务已领奖"/>
+        </Enum>
+        <Struct name="SDayTargetTask" vec="TVecDayTargetTask" comment="任务信息列表">
+            <Member type="UINT16" name="wTaskID" comment="任务ID"/>
+            <Member type="EDayTargeTasktStatus" name="eTaskStatus" comment="任务状态"/>
+            <Member type="UINT32" name="dwParam" comment="进度"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetTaskList" ret="true" comment="获取任务列表">
+            <RetParam type="TVecDayTargetTask" name="vecDayTargetTask" comment="任务列表"/>
+        </Func>
+        <Func name="TakePrize" ret="true" comment="领取奖励">
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>
+            <RetParam type="EDayTargetRet" name="eRet" comment="领奖结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UpdateTaskList" comment="任务信息更新">
+            <Param type="SDayTargetTask" name="oDayTargetTask" comment="任务信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterTeam" id="57" comment="GameServer到CenterServer关于Team的通信协议">
+    <Refer>
+        <Protocol name="TeamGS"/>
+        <Protocol name="BattleGS"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EPlayerTeam" comment="请求结果" >
+            <Member name="EPlayerEnterTeam"            comment="玩家进入队伍" />
+            <Member name="EPlayerLeaveTeam"            comment="玩家离开队伍" />
+        </Enum>
+        <Struct name="BattleReport" vec = "TVecBattleReport" comment ="一个战报">
+            <Member type ="UINT64" name ="qwBattleID" comment ="战报ID"/>
+            <Member type ="string" name ="strBattle" comment ="战报"/>
+            <Member type ="UINT16" name ="wMonsterGroup" comment ="怪物组"/>
+            <Member type ="UINT8" name ="bySuc" comment ="是否胜利"/>
+        </Struct>
+        <Struct name="TeamReport" vec = "TVecTeamReport" comment ="一场战斗结果">
+            <Member type ="TVecBattleReport" name ="vecReport" comment ="战报序列"/>
+            <Member type ="UINT8" name ="bySuc" comment ="是否胜利"/>
+            <Member type ="UINT16" name ="wTurns" comment ="总回合数"/>
+            <Member type ="UINT64" name ="qwLeaderID" comment ="队长ID"/>
+            <Member type ="UINT64" name ="qwLeaderFighter" comment ="队长主将"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="SynTeamFighter"  comment="同步队伍成员">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>  
+            <Param type ="TeamGS::TVecTeamFighter" name ="vecFighter" comment="战斗对象"/>
+        </Func>
+        <Func name="SynTeamAddBeauty"  comment="同步增加美女,如果原来有美女，替换">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>  
+            <Param type ="TeamGS::TVecTeamFighter" name ="vecFighter" comment="战斗对象"/>
+        </Func>
+        <Func name="SynTeamDelBeauty"  comment="同步删除美女">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>  
+        </Func>
+        <Func name="SynRewardRate"  comment="同步奖励系数">
+            <Param type="UINT32" name="dwRewardRate" comment="奖励系数万分比" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="CanEnterCreateTeam" ret="true" comment="玩家请求加入，创建队伍">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="UINT8" name="byHeroNum"  comment="0,不需要将，>0，需要主将，散仙数量：byHeroNum，美女"/>
+            <Param type="UINT16" name="wDgnType"  comment="副本模板"/>
+            <RetParam type="TeamGS::ETEAMResult" name="eResult"  comment="操作结果"/>
+            <RetParam type="TeamGS::TVecTeamFighter" name="vecFighter"  comment="获取战斗对象"/>
+        </Func>
+        <Func name="SynTeam"  comment="玩家加入/离开队伍信息同步">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="EPlayerTeam" name="eStatus" comment="玩家操作"/>
+        </Func>
+        <Func name="GetFighterFeatureByInsID" ret="true" comment="根据实例拉取将外观">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="UINT64" name="qwFighterID"  comment="将ID"/>
+            <RetParam type="TeamGS::CommonFighter" name="stFighter"  comment="获取战斗对象"/>
+        </Func>
+        <Func name="GetPlayerBattleInfo" ret = "true" comment="获取玩家战斗信息">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="UINT8"     name="byPlayerPos" comment="玩家所在的队伍位置" />
+            <Param type="TVecUINT64" name="vecFigther" comment="散仙唯一ID"/>
+            <Param type="TVecUINT8" name="vecPos" comment="玩家序列位置"/>
+            <Param type="UINT8" name="byNeedBeauty" comment="0,不需要美女，1需要美女"/>
+            <Param type="UINT16" name="wDgnType" comment="副本类型"/>
+            <RetParam type="TeamGS::ETEAMResult" name="eResult"  comment="操作结果"/>
+            <RetParam type="BattleGS::TVecBattleFighter" name="vecFighter" comment="战斗对象"/>
+        </Func>
+        <Func name="StartBattle" ret="true" comment="请求发起战斗">
+            <Param type="UINT64" name="qwUsrID"  comment="队长ID"/>
+            <Param type="UINT16" name ="wDgnType" comment="副本类型"/>
+            <Param type="BattleGS::TVecBattleFighter" name="vecFighter" comment="其他服战斗对象"/>
+            <RetParam type="TeamReport" name ="stTeamReport" comment ="通告战斗结果"/>
+        </Func>
+        <Func name="NoticeTeamReport"  comment="通告战斗结果">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="UINT16" name ="wDgnType" comment="副本类型"/>
+            <Param type="TeamReport" name ="stTeamReport" comment="副本类型"/>
+            <Param type="UINT32" name="dwRewardRate" comment="奖励系数" />
+        </Func>
+    </FuncS2C>
+</Protocol>

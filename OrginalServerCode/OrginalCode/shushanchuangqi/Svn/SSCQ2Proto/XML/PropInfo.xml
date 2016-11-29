@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="PropInfo" id="17" proxy="GameServer" comment="属性相关协议">
+    <TypeDef>
+        <Enum name="EPropClass" comment="变更对象类型">
+            <Member name="eClassRole" comment="角色"/>
+            <Member name="eClassFighter" comment="将"/>
+            <Member name="eClassEquip" comment="装备"/>
+            <Member name="eClassORole" comment="其他角色"/>
+        </Enum>
+        <Enum name="EPropType"  byte="2" comment="属性的类型">
+            <Member name="ePropNone" value="0" comment="无"/>
+            <!-- 角色独有属性 -->
+            <Member name="ePropGold             " value="1"     comment="仙石"/>
+            <Member name="ePropSilver           " value="2"     comment="银币"/>
+            <Member name="ePropCoupon           " value="3"     comment="礼券"/>
+            <Member name="eProppGiftCoin        " value="4"     comment="金券"/>
+            <Member name="ePropExpTemp          " value="5"     comment="经验(占位)"/>
+            <Member name="ePropPrestige         " value="6"     comment="声望"/>
+            <Member name="ePropSoul             " value="7"     comment="魂魄"/>
+            <Member name="ePropHonor            " value="8"     comment="荣誉"/>
+            <Member name="ePropPExp             " value="9"     comment="修为"/>
+            <Member name="ePropSigil            " value="10"    comment="符印"/>
+            <Member name="ePropCentsY           " value="11"    comment="仙元"/>
+            <Member name="ePropAction           " value="12"    comment="体力"/>
+            <Member name="ePropSop              " value="13"    comment="阅历"/>
+            <Member name="ePropTaoism           " value="14"    comment="道术"/>
+            <Member name="ePropPoten            " value="15"    comment="渡劫点数"/>
+            <Member name="ePropReiki            " value="16"    comment="副本星级"/>
+            <Member name="ePropHFP              " value="17"    comment="寻仙积分"/>
+            <Member name="ePropDemonSoul        " value="18"    comment="锁妖塔魂值"/>
+            <Member name="ePropSoulAttack       " value="19"    comment="攻击之魂"/>
+            <Member name="ePropSoulHp           " value="20"    comment="生命之魂"/>
+            <Member name="ePropSoulCritical     " value="21"    comment="暴击之魂"/>
+            <Member name="ePropSoulCounter      " value="22"    comment="反击之魂"/>
+            <Member name="ePropSoulSpeed        " value="23"    comment="身法之魂"/>
+            <Member name="ePropSoulDefence      " value="24"    comment="防御之魂"/>
+            <Member name="ePropSoulHit          " value="25"    comment="命中之魂"/>
+            <Member name="ePropSoulDodge        " value="26"    comment="闪避之魂"/>
+            <Member name="ePropAchievementAP    " value="27"    comment="成就点"/>
+            <Member name="ePropCollectAP        " value="28"    comment="收藏点"/>
+            <Member name="ePropGuildContrib     " value="29"    comment="帮派贡献"/>
+            <Member name="ePropStampHuang       " value="30"    comment="黄阶除魔印"/>
+            <Member name="ePropStampXuan        " value="31"    comment="玄阶除魔印"/>
+            <Member name="ePropStampDi          " value="32"    comment="地阶除魔印"/>
+            <Member name="ePropStampTian        " value="33"    comment="天阶除魔印"/>
+            <Member name="ePropStampXing        " value="34"    comment="星阶除魔印"/>
+            <Member name="ePropStampYue         " value="35"    comment="月阶除魔印"/>
+            <Member name="ePropStampDi2         " value="36"    comment="帝阶除魔印"/>
+            <Member name="ePropStampXian        " value="37"    comment="仙阶除魔印"/>
+            <Member name="ePropStampSheng       " value="38"    comment="圣阶除魔印"/>
+            <Member name="ePropStampFo          " value="39"    comment="佛阶除魔印"/>
+            <Member name="ePropLoveHeart        " value="40"    comment="爱心"/>
+            <Member name="ePropBlueFairyFate    " value="51"    comment="蓝色仙缘" />
+            <Member name="ePropPurpleFairyFate  " value="52"    comment="紫色仙缘" />
+            <Member name="ePropOrangeFairyFate  " value="53"    comment="橙色仙缘" />
+            <Member name="ePropDuJieFu          " value="56"    comment="渡劫符" />
+            <Member name="ePropLuckyCoupon      " value="57"    comment="抽奖券" />
+            <Member name="ePropMoneyEnd         " value="100"   comment="钱币属性结束标志"/>
+
+            <Member name="ePropCommon"        value="200"     comment="普通定义"/>
+            <Member name="ePropTotalRecharge    "  value="201"  comment="总充值数"/>
+            <Member name="ePropBTPoint          "  value="202"  comment="战斗力"/>
+
+            <!-- 将独有属性 -->
+            <Member name="ePropHero"        value="300"     comment="将定义"/>
+            <Member name="ePropPos              " value="301" comment="将在阵型中的位置"/>
+            <Member name="ePropTroopPos         " value="302" comment="将在队伍中的位置"/>
+            <Member name="ePropPotential        " value="303" comment="潜力"/>
+            <Member name="ePropCapacity         " value="304" comment="资质"/>
+            <Member name="ePropLevel            " value="305" comment="等级"/>
+            <Member name="ePropLucky            " value="306" comment="机缘值"/>
+            <Member name="ePropExp              " value="307" comment="经验 -- UINT64"/>
+            <Member name="ePropLianPi           " value="308" comment="炼皮"/>
+            <Member name="ePropTongJin          " value="309" comment="通筋"/>
+            <Member name="ePropQiangJi          " value="310" comment="强肌"/>
+            <Member name="ePropDuanGu           " value="311" comment="锻骨"/>
+
+            <Member name="ePropMax" comment="属性枚举最大值"/>
+        </Enum>
+        <Enum name="EPropResult" comment="属性操作的结果">
+            <Member name="ePropSucceed" comment="无"/>
+            <Member name="ePropGoldErr" comment="仙石不够"/>
+            <Member name="ePropSilverErr" comment="银币不够"/>
+            <Member name="ePropCouponErr" comment="礼券不够"/>
+            <Member name="ePropOtherErr" comment="其它错误"/>
+        </Enum>
+        <Enum name="EExchangeResult" comment="兑换结果" >
+            <Member name="eExchangeResultSuccess"   value="0"   comment="兑换成功"/>
+            <Member name="eExchangeResultFailed"                comment="兑换失败"/>
+            <Member name="eExchangeResultLack"                  comment="兑换数量不足"/>
+            <Member name="eExchangeResultLimit"                 comment="兑换已达上限"/>
+            <Member name="eExchangeResultMax"                   comment="兑换结果最大值"/>
+        </Enum>
+        <Struct name="SPropValue" vec="TVecPropValue" comment="属性信息">
+            <Member type="EPropType" name="ePropType" comment="属性类型"/>
+            <Member type="UINT32" name="value" comment="属性值，需要根据类型来转换"/>
+        </Struct>
+        <Struct name="SPropQWValue" vec="TVecPropQWValue" comment="属性信息">
+            <Member type="EPropType" name="ePropType" comment="属性类型"/>
+            <Member type="UINT64" name="value" comment="属性值，需要根据类型来转换"/>
+        </Struct>
+        <Struct name="SPropValExt" vec="TVecPropValExt" comment="扩展属性信息">
+            <Member type="EPropType" name="ePropType" comment="属性类型"/>
+            <Member type="float" name="value" comment="属性值，需要根据类型来转换"/>
+            <Member type="INT32" name="ext" comment="扩展值，不同用途作不同的解释"/>
+        </Struct>
+        <Struct name="SPropQWValExt" vec="TVecPropQWValExt" comment="扩展属性信息">
+            <Member type="EPropType" name="ePropType" comment="属性类型"/>
+            <Member type="UINT64" name="value" comment="属性值，需要根据类型来转换"/>
+            <Member type="INT32" name="ext" comment="扩展值，不同用途作不同的解释"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="MoneyExchange" ret="true" comment="货币兑换" >
+            <Param  type="EPropType" name="eSrcProp"    comment="源货币" />
+            <Param  type="EPropType" name="eDestProp"   comment="目标货币" />
+            <Param  type="UINT32"    name="dwCount"     comment="数量" />
+            <RetParam type="EExchangeResult"  name="eResult"    comment="兑换结果" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="PropListNotify" comment="属性列表通知(改变后通知)">
+            <Param type="UINT64" name="qwInstID" comment="变更对象ID"/>
+            <Param type="EPropClass" name="eClass" comment="变更对象类型"/>
+            <Param type="TVecPropValue" name="vecPropValue" comment="属性列表"/>
+        </Func>
+        <Func name="PropNotify" comment="属性列表通知(改变后通知)">
+            <Param type="UINT64" name="qwInstID" comment="变更对象ID"/>
+            <Param type="EPropClass" name="eClass" comment="变更对象类型"/>
+            <Param type="TVecPropValue" name="vecPropValue" comment="属性列表"/>
+            <Param type="bool" name="bType" comment="是否飘字"/>
+        </Func>
+        <Func name="PropExtListNotify" comment="扩展属性列表通知(改变后通知)">
+            <Param type="UINT64" name="qwInstID" comment="变更对象ID"/>
+            <Param type="EPropClass" name="eClass" comment="变更对象类型"/>
+            <Param type="TVecPropValExt" name="vecPropValExt" comment="扩展属性列表"/>
+        </Func>
+        <Func name="PropQWListNotify" comment="属性列表通知(改变后通知)">
+            <Param type="UINT64" name="qwInstID" comment="变更对象ID"/>
+            <Param type="EPropClass" name="eClass" comment="变更对象类型"/>
+            <Param type="TVecPropQWValue" name="vecPropValue" comment="属性列表"/>
+        </Func>
+        <Func name="PropQWExtListNotify" comment="扩展属性列表通知(改变后通知)">
+            <Param type="UINT64" name="qwInstID" comment="变更对象ID"/>
+            <Param type="EPropClass" name="eClass" comment="变更对象类型"/>
+            <Param type="TVecPropQWValExt" name="vecPropValExt" comment="扩展属性列表"/>
+        </Func>
+        <Func name="NameChangeNotify" comment="Creature的名字改变通知">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="string" name="strName" comment="新名字"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

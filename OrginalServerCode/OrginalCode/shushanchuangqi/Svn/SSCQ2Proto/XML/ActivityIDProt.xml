@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ActivityIDProt" id="97" proxy="CenterServer" comment="活动ID统一管理">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EActivityID" byte="4" comment="活动ID">
+		    <Member name="eActivityID_None" value = "0"   comment="无"/>
+            <Member name="eQQCoinActivity"  value = "1"   comment="汇灵盏"/>
+            <Member name="eOpenActActivity" value = "2"   comment="七日七天购买礼包"/>
+            <Member name="eSevenConsumeAct" value = "3"   comment="七日消费活动"/>
+            <Member name="eDragonBallAct"   value = "4"   comment="七龙珠活动"/>
+			<Member name="eActivityID_Max"  comment="无"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

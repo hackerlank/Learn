@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Gate2DBComm" id="8" comment="GateServer到DBServer的通信协议">
+  <Refer>
+    <Protocol name="ServerCommon"/>
+  </Refer>
+  <TypeDef>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="KeepAlive" comment="心跳">
+    </Func>
+   <Func name="UserLogoutNtf" comment="玩家下线通知">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="ServerCommon::ELeaveType" name="eLeaveType" comment="下线类型"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+      <Func name="KickUserOffLine" comment="踢玩家下线">
+          <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+          <Param type="ServerCommon::ELeaveType" name="eLeaveType" comment="下线类型"/>
+      </Func>
+  </FuncS2C>
+</Protocol>

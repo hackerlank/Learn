@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="RoleEnterGameProt" id="3" peek="true" proxy="DBServer" comment="角色信息相关操作协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EEnterResult" desc="true" comment="登录结果">
+            <Member name="eEnterSucceed" comment="成功"/>
+            <Member name="eRoleNoExist" comment="角色未创建"/>
+            <Member name="eEnterAlready" comment="已经在游戏中"/>
+            <Member name="eEnterDataErr" comment="角色数据错误"/>
+            <Member name="eEnterStateErr" comment="状态错误"/>
+            <Member name="eEnterFreezErr" comment="帐号被封"/>
+            <Member name="eEnterOtherErr" comment="其它错误"/>
+        </Enum>
+        <Enum name="ECreateRoleResult" desc="true" comment="角色操作的结果">
+            <Member name="eRoleSucceed" comment="成功"/>
+            <Member name="eRoleExist" comment="角色已存在"/>
+            <Member name="eRoleNameExist" comment="角色名已存在"/>
+            <Member name="eRoleNameInvalid" comment="角色名称有非法字符"/>
+            <Member name="eRoleNameTooLong" comment="角色名过长"/>
+            <Member name="eRoleNameTooShort" comment="角色名过短"/>
+            <Member name="eRoleStateErr" comment="状态错误"/>
+            <Member name="eRoleJobErr" comment="职业错误"/>
+            <Member name="eRoleSexErr" comment="性别错误"/>
+            <Member name="eRoleOtherErr" comment="其它错误"/>
+        </Enum>
+        <Struct name="PlayerBaseData" desc ="true" comment="查询基础消息">
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>       
+            <Member type="UINT8" name="byLevel" comment="玩家等级"/>
+            <Member type="UINT64" name="qwExp" comment="玩家经验值" />
+            <Member type="UINT16" name="wBagMax" comment="背包容量"/>
+            <Member type="UINT16" name="wDepotMax" comment="仓库容量"/>        
+            <Member type="UINT8" name="byNation" comment="国家"/>
+            <Member type="UINT32" name ="dwGold" comment= "仙石"/>
+            <Member type="UINT32" name ="dwSilver" comment= "银币"/>
+            <Member type="UINT32" name ="dwCoupon" comment="礼券"/>
+            <Member type="UINT32" name ="dwSoul" comment="魂魄"/>
+            <Member type="UINT32" name ="dwPrestige" comment="声望"/>
+            <Member type="UINT32" name ="dwHonor" comment="荣誉"/>
+            <Member type="UINT32" name ="dwPExp" comment="修为"/>
+            <Member type="UINT32" name ="dwSigil" comment="符印"/>
+            <Member type="UINT32" name ="dwCentsY" comment="仙元"/>
+            <Member type="UINT32" name ="dwAction" comment="体力"/>
+            <Member type="UINT32" name ="dwSop" comment="阅历"/>
+            <Member type="UINT32" name ="dwPoten" comment="潜能"/>
+            <Member type="UINT32" name ="dwReiki" comment="灵力"/>
+            <Member type="UINT32" name ="dwDemonSoul" comment="锁妖塔魂值"/>
+            <Member type="UINT32" name ="dwSoulAttack" comment="攻击之魂"/>
+            <Member type="UINT32" name ="dwSoulHp" comment="生命之魂"/>
+            <Member type="UINT32" name ="dwSoulCritical" comment="暴击之魂"/>
+            <Member type="UINT32" name ="dwSoulCounter" comment="反击之魂"/>
+            <Member type="UINT32" name ="dwSoulSpeed" comment="身法之魂"/>
+            <Member type="UINT32" name ="dwSoulDefence" comment="防御之魂"/>
+            <Member type="UINT32" name ="dwSoulHit" comment="命中之魂"/>
+            <Member type="UINT32" name ="dwSoulDodge" comment="闪避之魂"/>             
+            <Member type="UINT32" name ="dwStampHuang" comment="黄阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampXuan" comment="玄阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampDi" comment="地阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampTian" comment="天阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampXing" comment="星阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampYue" comment="月阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampDi2" comment="帝阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampXian" comment="仙阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampSheng" comment="圣阶除魔印"/>             
+            <Member type="UINT32" name ="dwStampFo" comment="佛阶除魔印"/>             
+            <Member type="UINT32" name ="dwBTPoint" comment="战斗力"/>
+
+            <Member type="UINT32" name="dwBlueFairyFate" comment="蓝色仙缘"/>
+            <Member type="UINT32" name="dwPurpleFairyFate" comment="紫色仙缘"/>
+            <Member type="UINT32" name="dwOrangeFairyFate" comment="橙色仙缘"/>
+
+
+            <Member type="UINT32" name ="dwTotalRecharge" comment="总充值数"/>
+            <Member type="TVecUINT16" name = "vecOwnTitle" comment="拥有称号"/>
+            <Member type="TVecUINT16" name = "vecEquipTitle" comment="装备称号"/>
+            <Member type="string" name ="strGuide" comment="新手引导信息"/>
+            <Member type="UINT8" name ="byWallow" comment="防沉迷"/>
+            <Member type="TVecUINT16" name = "vecIconAppear" comment="Icon开启"/>
+            <Member type="TVecUINT16" name = "vecIconDel" comment="Icon关闭"/>
+            <Member type="UINT32" name="dwDemonTowerFloorID" comment="通关镇妖塔层数"/>
+            <Member type="UINT32" name="dwDemonTowerPrizeFloorID" comment="镇妖塔领奖层数"/>
+            <Member type="UINT32" name="dwCreateTime" comment="玩家创角时间"/>
+
+        </Struct>
+        <Struct name="RoleEnterGameData" desc = "true" comment="查询角色消息">
+            <Member type="UINT8"   name="byIsUser" comment="0表示不存在"/>
+            <Member type="PlayerBaseData" name="sBaseInfo" comment="基础信息"/>
+        </Struct> 
+        <Struct name="SCreateRoleInfo" vec="TVecCreateRoleInfo" comment="角色信息">
+            <Member type="string" name="strName" comment="角色名"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="string" name ="strInviteRoleID"  comment ="好友邀请id"/>
+            <Member type="string" name ="strIP"  comment ="创角时ip"/>
+        </Struct>
+        <Struct name="SEnterParam" vec="TVecEnterParam"  comment="角色信息">
+            <Member type="ProtoCommon::EPtType" name ="byPtType" comment ="平台类型"/>
+			<Member type="ProtoCommon::EQQPtType" name ="byQQPtType" comment ="QQ平台类型"/>
+            <Member type="UINT8" name ="byQQPtLv" comment ="QQ平台类型等级"/>
+            <Member type="UINT8" name ="byQQPtYearType" comment ="是否年费"/>
+            <Member type="UINT8" name ="byQQPtLuxuryType" comment ="是否豪华"/>
+            <Member type="string" name ="customPar1" comment ="广告主来源"/>
+            <Member type="string" name ="customPar2"  comment ="广告次来源"/>
+            <Member type="string" name ="strOpenId"  comment ="openID"/>
+			<Member type="string" name ="strOpenKey"  comment ="openKey"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="EnterGameReq" comment="请求进入游戏">
+            <Param type="SEnterParam" name="stEnterParam" comment="信息"/>
+        </Func>
+        <Func name="CreateRoleReq" comment="创建角色请求">
+            <Param type="SCreateRoleInfo" name="stCreateInfo" comment="创角信息"/>
+        </Func>
+        <Func name="PlayerRamdomNameReq"  comment="玩家请求推荐名字">
+            <Param type="UINT8" name ="byIsMale" comment ="非0表示男性"/>
+        </Func>
+        <Func name="GetUserInfo"  comment = "角色信息查询">
+        </Func>   
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="EnterGameAck" ackmsg ="eEnterResult" comment="请求进入游戏应答">
+            <Param type="EEnterResult" name="eEnterResult" comment="登陆结果"/>
+            <Param  type="UINT32"       name="dwNowTimer"   comment="目前服务器的时间"/>
+        </Func>
+        <Func name="CreateRoleAck" ackmsg ="eCreateRoleResult" comment="创建角色应答">
+            <Param type="ECreateRoleResult" name="eCreateRoleResult" comment="创建结果"/>
+        </Func>
+        <Func name="PlayerRamdomNameAck"  comment="玩家请求推荐名字返回">
+            <Param type="string" name ="strName" comment ="空表示没有得到"/>
+        </Func>
+        <Func name="GetUserInfoAck" comment="角色查询返回">
+            <Param type="RoleEnterGameData" name="stRoleEnterInfo" comment="进入信息"/>
+        </Func>
+    </FuncS2C> 
+</Protocol>

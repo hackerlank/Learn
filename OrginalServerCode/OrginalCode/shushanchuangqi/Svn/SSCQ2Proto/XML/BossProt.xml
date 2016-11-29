@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="BossProt" id="25" proxy="GameServer" comment="BOSS相关协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EBossBuyType" comment="购买加持类型">
+            <Member name="eGold" comment="金币购买"/>
+            <Member name="eSliver" comment="银币购买"/>
+        </Enum>
+        <Enum name="EWorldBossPrize" comment="boss奖励类型">
+            <Member name="eWorldBossPrizeTop" value="1" comment="排名奖励"/>
+            <Member name="eWorldBossPrizeDamage" comment="伤害奖励"/>
+            <Member name="eWorldBossPrizeRandom" comment="幸运奖励"/>
+            <Member name="eWorldBossPrizeNPC" comment="参与奖励"/>
+            <Member name="eWorldBossPrizeKillBoss" comment="击杀世界boss奖励"/>
+            <Member name="eWorldBossPrizeBossHP" comment="伤害boss百分比血量奖励"/>
+        </Enum>
+        <Struct name="SPlayerInfo" vec="TVecPlayerInfo" comment="排行帮信息">
+            <Member type="UINT32" name="dwNo" comment="名次"/>
+            <Member type="UINT64" name="qwUserID" comment="uid"/>
+            <Member type="string" name="strUserName" comment="玩家名字"/>
+            <Member type="UINT32" name="dwDamageHP" comment="伤害的总血量"/>
+            <Member type="UINT32" name="dwBossMaxHP" comment="Boss的总血量"/>
+        </Struct>
+        
+        <Struct name="SPrizeMoneyInfo" vec="TVecPrizeMoneyInfo" comment="货币列表">
+            <Member type="UINT32" name="dwMoneyType" comment="货币类型"/>
+            <Member type="UINT32" name="dwMoneyValue" comment="货币值"/>
+        </Struct>
+        <Struct name="SPrizeIteminfo" vec="TVecPrizeItemInfo" comment="货币列表">
+            <Member type="UINT32" name="dwItemID" comment="物品id"/>
+            <Member type="UINT32" name="dwItemCount" comment="物品数量"/>
+        </Struct>
+        <Struct name="SPlayerPrize" vec="TVecPlayerPrize" comment="排行帮信息">
+            <Member type="UINT8" name="dwPrizeType" comment="奖励类型"/>
+            <Member type="TVecPrizeMoneyInfo" name="vecPrizeMoneyInfo" comment="货币奖励"/>
+            <Member type="TVecPrizeItemInfo" name="vecPrizeItemInfo" comment="物品奖励"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="WBAlive" ret="true" comment="世界BOSS中复活">
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+        <Func name="WBStrength" ret="true" comment="加持">
+            <Param type="EBossBuyType" name="eBuyType" comment="购买类型"/>
+            <RetParam type="UINT32" name="dwSilverBufferCnt" comment="银币加持次数"/>
+            <RetParam type="UINT32" name="dwGoldBufferCnt" comment="金币加持次数"/>
+            <RetParam type="UINT32" name="dwSilverBufferCdTime" comment="银币加持cd"/>
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+        <Func name="WBAttack" ret="true" comment="直接攻击boss">
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+        <Func name="GetTopList"  comment="获取排行榜信息">
+        </Func>
+        <Func name="GetSelfInfo"  comment="获取玩家自己的排行榜信息">
+        </Func>
+        <Func name="GetBossInfo"  comment="获取boss信息">
+        </Func>
+        <Func name="EnterMap"  ret="true" comment="进入boss地图">
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+        <Func name="LeaveMap"  ret="true"  comment="离开boss地图">
+            <RetParam type="bool" name="bRet" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="BossInfoNotify" comment="世界BOSS信息通知">
+            <Param type="UINT32" name="dwBoosID" comment="bossID"/>
+            <Param type="UINT32" name="dwCurHP" comment="当前血量"/>
+            <Param type="UINT32" name="dwMaxHP" comment="最大血量"/>
+            <Param type="UINT32" name="dwPlayerCnt" comment="当前地图人数"/>
+        </Func>
+        <Func name="TopListNotify" comment="排行榜通知">
+            <Param type="TVecPlayerInfo" name="vecTopList" comment="排行榜列表"/>
+        </Func>
+        <Func name="SelfInfoNotify" comment="个人信息通知">
+            <Param type="SPlayerInfo" name="oSelfInfo" comment="玩家信息"/>
+            <Param type="UINT32" name="dwBeginTime" comment="开始时间"/>
+            <Param type="UINT32" name="dwEndTime" comment="结束时间"/>
+            <Param type="UINT32" name="dwReliveTime" comment="复活时间"/>
+            <Param type="UINT32" name="dwSilverBufferCdTime" comment="银币加持cd"/>
+            <Param type="UINT32" name="dwSilverBufferCnt" comment="银币加持次数"/>
+            <Param type="UINT32" name="dwGoldBufferCnt" comment="金币加持次数"/>
+            <Param type="UINT32" name="dwGoldAttackCnt" comment="直接攻击次数"/>
+        </Func>
+        <Func name="AtkInfoNotify" comment="伤害boss信息">
+            <Param type="UINT32" name="dwDamage" comment="本次伤害"/>
+            <Param type="UINT32" name="dwExp" comment="本次活动经验值"/>
+            <Param type="UINT32" name="dwTotalDamage" comment="总伤害"/>
+            <Param type="UINT32" name="dwBossMaxHp" comment="boss最大血量"/>
+        </Func>
+        <Func name="NoChangeNotify" comment="玩家名次变化通知">
+            <Param type="UINT32" name="dwNo" comment="玩家名次"/>
+        </Func>
+        <Func name="PrizeNotify" comment="玩家奖励获取通知">
+            <Param type="TVecPlayerPrize" name="vecPlayerPrize" comment="玩家奖励列表"/>
+        </Func>
+        <Func name="ReliveTimeNotify" comment="玩家复活时间通知">
+            <Param type="UINT32" name="dwReliveTime" comment="复活时间"/>
+        </Func>
+        <Func name="EndNotify" comment="活动结束通知">
+            <Param type="UINT32" name="dwLeaveTime" comment="离开时间"/>
+        </Func>
+        <Func name="AttackCountNotify" comment="玩家直接攻击次数">
+            <Param type="UINT16" name="dwAttackCount" comment="玩家直接攻击次数"/>
+        </Func>
+        <Func name="GainPrizeNotify" comment="结算通知">
+            <Param type="UINT32" name="dwNo" comment="玩家名次"/>
+            <Param type="UINT32" name="dwExp" comment="总共获得经验"/>
+            <Param type="bool" name="bKillBoss" comment="是否击杀boss"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

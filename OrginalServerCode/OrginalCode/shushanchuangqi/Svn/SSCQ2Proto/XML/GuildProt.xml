@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GuildProt" id="16" proxy="CenterServer" comment="帮派相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EGuildDataType" desc="true" comment="帮派数据类型">
+            <Member name="eGDTBaseInfo"         comment="帮派基本数据" />
+            <Member name="eGDTUser"             comment="帮派成员信息" />
+            <Member name="eGDTApplyInfo"        comment="帮派申请列表信息" />
+            <Member name="eGDTAuthority"        comment="帮派职位可选权限" />
+            <Member name="eGDTBuilding"         comment="帮派建筑"  />
+            <Member name="eGDTStatue"           comment="帮派神像"  />
+            <Member name="eGDTLog"              comment="帮派日志"  />
+            <Member name="eGDTLSSBLog"          comment="帮派灵山商店购买日志"  />
+            <Member name="eGDTMax"              comment="最大值"/>
+            <!-- 这下面的是不存数据库单独表的数据类型 -->
+            <Member name="eGDTTech"             comment="帮派科技" />
+        </Enum>
+        <Enum name="EGuildPubDataType" desc="true" comment="公共帮派数据类型" >
+            <Member name="eGPDTListInfo"         comment="帮派列表信息" />
+            <Member name="eGPDTBattleInfo"       comment="帮派战相关数据" />
+            <Member name="eGPDTMax"              comment="帮派信息最大值" />
+        </Enum>
+        <Enum name="EGuildResult" comment="帮派操作返回结果" >
+            <Member name="eGuildSuccess"  value="0" comment="操作成功" />
+            <Member name="eGuildFailed"             comment="操作失败" />
+            <Member name="eGuildNotExisted"         comment="不存在帮派" />
+            <Member name="eGuildExisted"            comment="存在帮派" />
+            <Member name="eGuildLoading"            comment="加载中" />
+            <Member name="eGuildTryAgain"           comment="没加载到（已经开始加载了）稍等一会再试"/>
+            <Member name="eGuildLackOfMoney"        comment="帮贡不足" />
+        </Enum>
+        <Enum name="EGuildInfoResult" comment="获取帮派信息返回结果">
+            <Member name="eGuildInofSuccess"    value="0" comment="操作成功" />
+            <Member name="eGuildInofFailed"               comment="操作失败" />
+            <Member name="eGuildInofNoGuild"              comment="没有帮派" />
+        </Enum>
+        <Enum name="ECreateResult" comment="创建帮派返回结果" >
+            <Member name="eGCreateSuccess"  value="0" comment="操作成功" />
+            <Member name="eGCreateFailed"             comment="操作失败" />
+            <Member name="eGCreateInGuild"            comment="已经在帮派中" />
+            <Member name="eGCreateLackOfGold"         comment="银币不足" />
+            <Member name="eGCreateLackOfLevel"        comment="等级不足" />
+            <Member name="eGCreateNameTooShort"       comment="名称太短" />
+            <Member name="eGCreateNameTooLong"        comment="名称太长" />
+            <Member name="eGCreateNameInvalid"        comment="名称非法" />
+            <Member name="eGCreateNameExisted"        comment="名称存在" />
+            <Member name="eGCreateExisted"            comment="帮派存在" />
+            <Member name="eGCreateLackOfVIP"          comment="御剑等级不足" />
+        </Enum>
+        <Enum name="EQuitResult" comment="退出帮派返回结果">
+            <Member name="eGQuitSuccess"  value="0" comment="操作成功"/>
+            <Member name="eGQuitFailed"             comment="操作失败" />
+            <Member name="eGQuitNoGuild"            comment="不在帮派中" />
+            <Member name="eGQuitOwnerQuit"          comment="帮主不能退出帮派"/>
+            <Member name="eGQuitGuildBattle"        comment="帮派战期间无法执行此操作"/>
+        </Enum>
+        <Enum name="EApplyResult" comment="申请帮派返回结果">
+            <Member name="eGApplySuccess"  value="0" comment="操作成功"/>
+            <Member name="eGApplyFailed"             comment="操作失败" />
+            <Member name="eGApplyGuildFull"          comment="帮派成员已满" />
+            <Member name="eGApplyOtherGuild"         comment="已加入其他帮派" />
+            <Member name="eGApplyInGuild"            comment="已在帮派中" />
+            <Member name="eGApplyListFull"           comment="申请列表已满" />
+            <Member name="eGApplyNoAuthority"        comment="权限不足" />
+            <Member name="eGApplyNoGuild"            comment="没有帮派" />
+            <Member name="eGApplyNoUser"             comment="不存在的用户" />
+            <Member name="eGApplyNotOnline"          comment="玩家不在线" />
+            <Member name="eGApplyAlreadyApplyed"     comment="您已经发送过该申请" />
+            <Member name="eGApplyLevelLow"           comment="等级过低" />
+            <Member name="eGApplyNoSelf"             comment="不能邀请自己" />
+            <Member name="eGApplyGuildBattle"        comment="帮派战期间无法执行此操作" />
+        </Enum>
+        <Enum name="EEditInfoResult" comment="编辑公告返回结果">
+            <Member name="eGEditInfoSuccess"  value="0" comment="操作成功"/>
+            <Member name="eGEditInfoFailed"             comment="操作失败" />
+            <Member name="eGEditInfoNotInGuild"         comment="不在帮派中" />
+            <Member name="eGEditInfoNoAuthority"        comment="权限不足" />
+            <Member name="eGEditInfoTooLong"            comment="信息过长" />
+        </Enum>
+        <Enum name="ESetAuthorityResult" comment="设置权限返回结果" >
+            <Member name="eGSetAuthoritySuccess" value="0"  comment="操作成功" />
+            <Member name="eGSetAuthorityFailed"             comment="操作失败" />
+            <Member name="eGSetAuthorityNotInGuild"         comment="不在帮派中" />
+            <Member name="eGSetAuthorityNoAuthority"        comment="权限不足" />
+            <Member name="eGSetAuthorityTooHigh"            comment="只能提升至比自己低的职位" />
+            <Member name="eGSetAuthorityNoSelfRank"         comment="不能改变自身权限" />
+        </Enum>
+        <Enum name="EMemberOperateType" comment="帮派成员操作类型" >
+            <Member name="eGMOpTypeNone" value="0"     comment="无效操作"/>
+            <Member name="eGMOpTypeUp"                 comment="提升职位"/>
+            <Member name="eGMOpTypeKick"               comment="踢出帮派"/>
+            <Member name="eGMOpTypeGiveOwner"          comment="移交帮主"/>
+            <Member name="eGMOpTypeDown"               comment="降低职位"/>
+            <Member name="eGMOpTypeFire"               comment="免除职位"/>
+            <Member name="eGMOpTypeMax"                comment="最大操作"/>
+        </Enum>
+        <Enum name="EMemberOperateResult" comment="帮派成员操作返回结果" >
+            <Member name="eGMOpResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGMOpResultFailed"                comment="操作失败"/>
+            <Member name="eGMOpResultSelf"                  comment="不能对自己操作"/>
+            <Member name="eGMOpResultNotInGuild"            comment="不在帮派中" />
+            <Member name="eGMOpResultNoAuthority"           comment="权限不足" />
+            <Member name="eGMOpResultTooHigh"               comment="只能提升至比自己低的职位" />
+            <Member name="eGMOpResultTooLow"                comment="目标成员职位过低" />
+            <Member name="eGMOpResultTooMany"               comment="目标职位成员数过多" />
+            <Member name="eGMOpResultHaveImpeach"           comment="弹劾发起者无法踢出" />
+            <Member name="eGMOpResultGuildBattle"           comment="帮派战期间无法执行此操作" />
+        </Enum>
+        <Enum name="EImpeachResult" comment="弹劾操作返回结果">
+            <Member name="eGImpeachResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGImpeachResultFailed"                comment="操作失败"/>
+            <Member name="eGImpeachResultSelf"                  comment="不能对自己操作"/>
+            <Member name="eGImpeachResultNotInGuild"            comment="不在帮派中" />
+            <Member name="eGImpeachResultWrongGuild"            comment="不是该帮派" />
+            <Member name="eGImpeachResultNoAuthority"           comment="权限不足" />
+            <Member name="eGImpeachResultHasLaunched"           comment="已经存在弹劾" />
+            <Member name="eGImpeachResultHasReplyed"            comment="已经回应" />
+            <Member name="eGImpeachResultLackOfGold"            comment="仙石不足" />
+        </Enum>
+        <Enum name="EMemberRank" comment="帮派职位" >
+            <Member name="eMemberNone"  value="0"   comment="无效职位"/>
+            <Member name="eMemberNormal"            comment="成员" />
+            <Member name="eMemberElite"             comment="精英" />
+            <Member name="eMemberElder"             comment="长老" />
+            <Member name="eMemberViceOwner"         comment="副帮主" />
+            <Member name="eMemberOwner"             comment="帮主" />
+            <Member name="eMemberMax"               comment="最高职位"/>
+        </Enum>
+        <Enum name="EBuildingType" comment="帮派建筑类型" >
+            <Member name="eBuildingNone"  value="0"   comment="无效建筑"/>
+            <Member name="eBuildingOracle"            comment="神谕塔" />
+            <Member name="eBuildingDepot"             comment="仓库" />
+            <Member name="eBuildingSword"             comment="剑阁" />
+            <Member name="eBuildingStore"             comment="商店" />
+            <Member name="eBuildingBlood"             comment="血池" />
+            <Member name="eBuildingMax"               comment="最高建筑"/>
+        </Enum>
+        <Enum name="EBuildingResult"    comment="帮派建筑操作返回结果" >
+            <Member name="eGBuildingResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGBuildingResultFailed"                comment="操作失败"/>
+            <Member name="eGBuildingResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eGBuildingResultLackofSilver"          comment="银币不足"/>
+            <Member name="eGBuildingResultLevelMax"              comment="已经是最大等级"/>
+            <Member name="eGBuildingResultNoAuthority"           comment="权限不足" />
+            <Member name="eGBuildingResultGuildLevelTooLow"      comment="帮派等级过低" />
+            <Member name="eGBuildingResultOracleLevelTooLow"     comment="神谕塔等级过低" />
+        </Enum>
+        <Enum name="ETechType" comment="帮派建筑类型" >
+            <Member name="eTechNone"  value="0"   comment="无效科技"/>
+            <Member name="eTechAttack"            comment="攻击之魂" />
+            <Member name="eTechPhyDef"            comment="物防之魂" />
+            <Member name="eTechMgcDef"            comment="魔防之魂" />
+            <Member name="eTechHP"                comment="生命之魂" />
+            <Member name="eTechSpeed"             comment="身法之魂" />
+            <Member name="eTechHit"               comment="命中之魂" />
+            <Member name="eTechDodge"             comment="闪避之魂" />
+            <Member name="eTechCritial"           comment="暴击之魂" />
+            <Member name="eTechAntiCritial"       comment="稳固之魂" />
+            <Member name="eTechPierce"            comment="穿透之魂" />
+            <Member name="eTechCounter"           comment="反击之魂" />
+            <Member name="eTechResist"            comment="压制之魂" />
+            <Member name="eTechMax"               comment="最高科技"/>
+        </Enum>
+        <Enum name="ETechResult"    comment="帮派科技操作返回结果" >
+            <Member name="eGTResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGTResultFailed"                comment="操作失败"/>
+            <Member name="eGTResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eGTResultLackofSilver"          comment="帮贡不足"/>
+            <Member name="eGTResultLevelMax"              comment="已经是最大等级"/>
+            <Member name="eGTResultNoAuthority"           comment="权限不足" />
+            <Member name="eGTResultBuildingLevelTooLow"   comment="帮派建筑等级过低" />
+            <Member name="eGTResultUserLevelTooLow"       comment="玩家等级过低" />
+        </Enum>
+        <Enum name="EDonateResult"    comment="帮派捐献操作返回结果" >
+            <Member name="eGDResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGDResultFailed"                comment="操作失败"/>
+            <Member name="eGDResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eGDResultLackofSilver"          comment="银币不足"/>
+            <Member name="eGDResultNoAuthority"           comment="权限不足" />
+            <Member name="eGDResultFull"                  comment="每日捐献已满" />
+            <Member name="eGDResultDepotFull"             comment="仓库已满" />
+        </Enum>
+        <Enum name="EWorshipResult"    comment="帮派捐献操作返回结果" >
+            <Member name="eGWResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGWResultFailed"                comment="操作失败"/>
+            <Member name="eGWResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eGWResultLackofSilver"          comment="银币不足"/>
+            <Member name="eGWResultNoAuthority"           comment="权限不足" />
+            <Member name="eGWResultLevelTooLow"           comment="帮派等级过低" />
+        </Enum>
+        <Enum name="ELogType" comment="日志类型">
+            <Member name="eLogNone" value="0"       comment="无效日志类型"/>
+            <Member name="eLogMember"               comment="成员日志" />
+            <Member name="eLogDonate"               comment="捐献日志" />
+            <Member name="eLogBuilding"             comment="建筑日志" />
+            <Member name="eLogStatue"               comment="神像日志" />
+            <Member name="eLogMax"                  comment="日志类型最大值" />
+        </Enum>
+        <Enum name="EWorshipType"    comment="捐献类型" >
+            <Member name="eWorshipNone" value="0"       comment="无效供奉类型"/>
+            <Member name="eWorshipFlower"               comment="鲜花供奉" />
+            <Member name="eWorshipRedFruit"             comment="朱果供奉" />
+            <Member name="eWorshipPeach"                comment="蟠桃供奉" />
+            <Member name="eWorshipMax"                  comment="供奉类型最大值" />
+        </Enum>
+
+        <Enum name="EStatueResult"    comment="帮派神像操作返回结果" >
+            <Member name="eGSResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eGSResultFailed"                comment="操作失败"/>
+            <Member name="eGSResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eGSResultLackofSilver"          comment="银币不足"/>
+            <Member name="eGSResultLackofGold"            comment="仙石不足"/>
+            <Member name="eGSResultLevelMax"              comment="已经是最大等级"/>
+            <Member name="eGSResultNoAuthority"           comment="权限不足" />
+            <Member name="eGSResultBuildingLevelTooLow"   comment="帮派建筑等级过低" />
+            <Member name="eGSResultWorshiped"             comment="本日已经供奉过" />
+            <Member name="eGSResultTooFast"               comment="操作过快" />
+            <Member name="eGSResultNotToday"              comment="进入当日无法操作" />
+        </Enum>
+        <Struct name="SGuildInfoBase" vec="TVecSGuildInfoBase" comment="帮派信息基本类">
+            <Member type="UINT64"       name="qwGuildID"        comment="帮派唯一ID" />
+            <SubStruct name="SGuildBaseInfo" vec="TVecSGuildBaseInfo" comment="帮派基本信息">
+                <Member type="string"       name="strName"          comment="帮派名称" />
+                <Member type="UINT64"       name="qwOwnerID"        comment="帮主角色ID" />
+                <Member type="string"       name="strOwnerName"     comment="帮主名称" />
+                <Member type="string"       name="strInfo"          comment="帮派公告" />
+                <Member type="UINT64"       name="qwQQGroupID"      comment="帮派Q群群号" />
+                <Member type="UINT16"       name="wUserCount"       comment="成员数量" />
+                <Member type="UINT16"       name="wMaxUserCount"    comment="最大成员数量" />
+                <Member type="UINT32"       name="dwMoney"          comment="帮派资金" />
+                <Member type="EMemberRank"  name="eSelfRank"        comment="本人职位" />
+                <Member type="UINT32"       name="dwContribution"   comment="本人贡献值" />
+                <Member type="UINT32"       name="dwRemainDonate"   comment="剩余捐献额" />
+                <Member type="UINT16"       name="wPlayerFighterID" comment="帮主ID" />
+                <Member type="UINT8"        name="byQuality"        comment="帮主品质" />
+                <Member type="UINT32"       name="dwScore"          comment="天元神兽积分" />
+                <Member type="UINT32"       name="dwCount"          comment="帮派所有成员兑换物品数量" />
+                <Member type="string"       name="strLingShan"      comment="占领灵山" />
+            </SubStruct>
+            <SubStruct name="SGuildUserInfo" vec="TVecGuildUserInfo" comment="帮派成员信息" >
+                <Member type="UINT64"       name="qwRoleID"         comment="玩家ID" />
+                <Member type="string"       name="strName"          comment="玩家姓名" />
+                <Member type="UINT16"       name="wLevel"           comment="玩家等级" />
+                <Member type="UINT32"       name="dwContribution"   comment="贡献值" />
+                <Member type="UINT32"       name="dwLastOnlineTime" comment="最后在线时间" />
+                <Member type="UINT32"       name="dwJoinTime"       comment="入帮时间" />
+                <Member type="EMemberRank"  name="eMemberRank"      comment="帮派职位" />
+                <Member type="EMemberRank"  name="eMemberLastRank"      comment="帮派上一次职位" />
+                <Member type="UINT32"       name="dwAuthority"      comment="帮派权限" />
+                <Member type="UINT8"        name="byVIPLevel"       comment="御剑等级" />
+                <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+            </SubStruct>
+            <SubStruct name="SGuildApplyInfo" vec="TVecGuildApplyInfo" comment="帮派申请列表信息" >
+                <Member type="UINT64"       name="qwRoleID"         comment="玩家ID" />
+                <Member type="string"       name="strName"          comment="玩家姓名" />
+                <Member type="UINT16"       name="wLevel"           comment="玩家等级" />
+                <Member type="UINT32"       name="dwBattlePoint"    comment="玩家战斗力" />
+            </SubStruct>
+            <SubStruct  name="SGuildBuildingInfo" vec="TVecGuildBuildingInfo"   comment="帮派建筑信息">
+                <Member type="EBuildingType"  name="eBuildingType"      comment="帮派建筑类型" />
+                <Member type="UINT16"         name="wLevel"             comment="帮派建筑等级" />
+            </SubStruct>
+            <SubStruct name="SGuildAuthorityInfo"  vec="TVecGuildAuthorityInfo" comment="帮派可选权限信息">
+                <Member type="EMemberRank"  name="eMemberRank"      comment="帮派职位 " />
+                <Member type="UINT32"       name="dwAuthority"      comment="可选权限 0x01:指挥帮战 0x02:升级建筑 0x04:开启血池 0x08:指挥末日之战 0x10:创建遗迹攻击小队"/>
+            </SubStruct>
+            <SubStruct name="SGuildTechInfo" vec="TVecGuildTechInfo" comment="帮派科技" >
+                <Member type="ETechType"    name="eType"     comment="科技类型" />
+                <Member type="UINT16"       name="wLevel"    comment="科技等级" />
+            </SubStruct>
+            <SubStruct name="SGuildLogInfo" vec="TVecGuildLogInfo" comment="日志" >
+                <Member type="UINT64"       name="qwInstID"     comment="唯一流水ID" />
+                <Member type="ELogType"     name="eType"        comment="日志类型" />
+                <Member type="UINT16"       name="wMsgID"       comment="消息ID"/>
+                <Member type="TVecINT64"    name="vecParam"     comment="整型变量" />
+                <Member type="TVecString"   name="vecString"    comment="字符串型变量" />
+                <Member type="UINT32"       name="dwTime"       comment="日志时间"/>
+            </SubStruct>
+            <SubStruct name="SGuildStatueInfo" vec="TVecGuildStatueInfo" comment="帮派神像" >
+                <Member type="UINT16"           name="wLevel"         comment="神像等级" />
+                <Member type="UINT32"           name="dwExp"          comment="神像经验值" />
+                <Member type="TVecGuildLogInfo" name="vecLogInfo"     comment="神像日志" />
+                <Member type="UINT8"            name="byWorshipCount" comment="供奉人数" />
+                <!-- Member type="EWorshipType"     name="eWorshipType"   comment="当前供奉" /-->
+                <Member type="UINT8"            name="byWorshipBit"   comment="当前供奉（第N位表示第N种供奉类型）" />
+                <Member type="UINT32"           name="dwTime"          comment="操作时间" />
+            </SubStruct>
+        </Struct>
+        <Struct name="SDBGuildUserInfo" vec="TVecDBGuildUserInfo" comment="数据库加载用帮派玩家数据" >
+            <Member type="SGuildUserInfo"       name="sBaseInfo"        comment="帮派用户基本信息" />
+            <Member type="TVecGuildTechInfo"    name="vecTechInfo"      comment="帮派科技信息" />
+            <Member type="UINT32"               name="dwBattleScore"    comment="帮派战积分" />
+            <Member type="UINT16"               name="wPlayerFighterID" comment="主将ID" />
+            <Member type="UINT8"                name="byQuality"        comment="主将品质" />
+        </Struct>
+        <Struct name="SGuildAllInfo" vec="TVecGuildAllInfo" comment="帮派完整信息">
+            <Member type="SGuildBaseInfo"           name="sBaseInfo"        comment="基本信息" />
+            <Member type="TVecGuildUserInfo"        name="vecMemberInfo"    comment="帮派成员信息" />
+            <Member type="TVecGuildApplyInfo"       name="vecApplyInfo"     comment="帮派申请信息" />
+            <Member type="TVecGuildBuildingInfo"    name="vecBuildingInfo"  comment="帮派建筑信息" />
+            <Member type="TVecGuildAuthorityInfo"   name="vecAuthority"     comment="帮派可选权限信息" />
+            <Member type="TVecGuildTechInfo"        name="vecTech"          comment="帮派科技信息" />
+            <Member type="SGuildStatueInfo"         name="sStatueInfo"      comment="帮派神像信息" />
+            <Member type="TVecGuildLogInfo"         name="vecLogInfo"       comment="帮派日志信息" />
+        </Struct>
+        <Struct name="SDBGuildAllInfo" vec="TVecDBGuildAllInfo" comment="帮派完整信息(数据库传来的内部协议)">
+            <Member type="SGuildBaseInfo"           name="sBaseInfo"        comment="基本信息" />
+            <Member type="TVecDBGuildUserInfo"      name="vecMemberInfo"    comment="帮派成员信息" />
+            <Member type="TVecGuildApplyInfo"       name="vecApplyInfo"     comment="帮派申请信息" />
+            <Member type="TVecGuildBuildingInfo"    name="vecBuildingInfo"  comment="帮派建筑信息" />
+            <Member type="TVecGuildAuthorityInfo"   name="vecAuthority"     comment="帮派可选权限信息" />
+            <Member type="SGuildStatueInfo"         name="sStatueInfo"      comment="帮派神像信息" />
+            <Member type="TVecGuildLogInfo"         name="vecLogInfo"       comment="帮派日志信息" />
+            <Member type="TVecGuildLogInfo"         name="vecLingShanShopBuyLogInfo"       comment="帮派灵山商店购买日志信息" />
+        </Struct>
+        <Struct name="SGuildListInfo" vec="TVecGuildListInfo" comment="帮派列表信息" >
+            <Member type="UINT64"   name="qwGuildID"        comment="帮派唯一ID" />
+            <Member type="string"   name="strName"          comment="帮派名称" />
+            <Member type="string"   name="strInfo"          comment="帮派公告" />
+            <Member type="UINT64"   name="qwOwnerID"        comment="帮主ID"   />
+            <Member type="string"   name="strOwnerName"     comment="帮主名称" />
+            <Member type="UINT8"    name="byLevel"          comment="帮派等级" />
+            <Member type="UINT16"   name="wUserCount"       comment="成员数量" />
+            <Member type="UINT16"   name="wMaxUserCount"    comment="最大成员数量" />
+        </Struct>
+        <Struct name="SDBGuildBattleInfo" vec="TVecDBGuildBattleInfo" comment="数据库加载用帮派玩家数据" >
+            <Member type="UINT64"   name="qwGuildID"        comment="帮派唯一ID" />
+            <Member type="UINT32"   name="dwScore"          comment="帮派战积分" />
+        </Struct>
+        <Struct name="SGetGuildInfoBase" commont="获取帮派信息返回结果" >
+            <SubStruct name="SOtherGuildListInfo" vec="TVecOtherGuildListInfo" comment="没有帮派返回的其他帮派列表信息">
+                <Member type="UINT32"             name="dwMaxGuildCount"  comment="最大帮派" />
+                <Member type="UINT32"             name="dwCurGuildCount"  comment="当前帮派索引" />
+                <Member type="TVecGuildListInfo"  name="vecGuildListInfo" comment="帮派列表信息" />
+                <Member type="TVecUINT64"         name="vecApplyGuildID"  comment="已申请列表帮派ID" />
+            </SubStruct>
+            <SubStruct name="SSelfGuildInfo" comment="存在帮派的本帮信息">
+                <Member type="SGuildAllInfo" name="sAllInfo" comment="帮派完整信息" />
+            </SubStruct>
+        </Struct>
+        <Struct name="SPubGuildAllInfo" vec="TVecPubGuildAllInfo" comment="帮派公共数据（用于服务端读取加载常驻内存的基础数据）">
+            <Member type="SGuildListInfo"       name="sGuildListInfo"   comment="帮派列表数据"/>
+            <Member type="SDBGuildBattleInfo"   name="sGuildBattleInfo" comment="帮派战数据" />
+        </Struct>
+
+        <Enum name="EGuildXiheResult"    comment="羲和神车操作返回结果" >
+            <Member name="eXiheResultSuccess" value="0"     comment="操作成功"/>
+            <Member name="eXiheResultFailed"                comment="操作失败"/>
+            <Member name="eXiheResultNoGuild"               comment="不存在帮派"/>
+            <Member name="eXiheResultUnfinish"              comment="货物未装满"/>
+            <Member name="eXiheResultFinish"                comment="货物已装箱"/>
+            <Member name="eXiheResultHasRequest"            comment="货物已请求帮助"/>
+            <Member name="eXiheResultNotRequest"            comment="货物未请求帮助"/>
+            <Member name="eXiheResultNotTruck"              comment="不存在这个货物"/>
+            <Member name="eXiheResultNotItem"               comment="道具不足不能装货"/>
+            <Member name="eXiheResultNotGold"               comment="仙石不足不能装货"/>
+            <Member name="eXiheResultNoSameGuild"           comment="不是同一帮派"/>
+            <Member name="eXiheResultForHelpNumMax"         comment="此次任务请求帮助次数已达上限"/>
+            <Member name="eXiheResultNotRequestLimit"       comment="已装货物未达到4个不能请求帮助"/>
+        </Enum>
+        <Enum name="EXiheStage"    comment="羲和神车任务阶段" >
+            <Member name="eXiheStageShipGoods"   value="0"     comment="装货阶段"/>
+            <Member name="eXiheStageTaskCool"    value="1"     comment="冷却阶段"/>
+            <Member name="eXiheStageWaitAcess"   value="2"     comment="等待玩家接取任务"/>
+        </Enum>
+        <Enum name="EXiheTaskStatus"    comment="羲和神车任务完成状态" >
+            <Member name="eXiheTaskUnfinish"    value="0"     comment="未完成装货也未请求帮助"/>
+            <Member name="eXiheTaskRequest"     value="1"     comment="未完成装货已请求帮助"/>
+            <Member name="eXiheTaskFinishURe"   value="2"     comment="未请求帮助但已完成装货"/>
+            <Member name="eXiheTaskFinishRe"    value="3"     comment="已请求帮助但已完成装货"/>
+        </Enum>
+        <Struct name="STruckInfo" vec="TVecTruckInfo" comment="羲和神车的货号信息">
+            <Member type="UINT8"       name="byTruckID"   comment="货号id"/>
+            <Member type="UINT8"       name="byStatus"    comment="EXiheTaskStatus货号状态(0未完成装货 1已请求帮助 2已完成装货)"/>
+            <Member type="UINT8"       name="byPos"       comment="货物顺序索引(0~7)" />
+            <Member type="string"      name="strName"     comment="status为3时,完成装货的玩家名字(注:自己完成为空,不存储)" />
+            <Member type="UINT8"       name="byColor"     comment="帮助者玩家颜色" />
+        </Struct>
+        <Struct name="SGuildXihe" vec="TVecGuildXihe" comment="玩家羲和神车信息">
+            <Member type="UINT64"           name="qwRoleID"     comment="玩家ID" />
+            <Member type="TVecTruckInfo"    name="vecTruckInfo" comment="货号信息"/>
+            <Member type="UINT8"            name="byStage"      comment="EXiheStage当前阶段(0装货阶段 1任务冷却阶段 2等待玩家接取任务)"/>
+            <Member type="UINT32"           name="dwEndTime"    comment="当前阶段的结束时间"/>
+            <Member type="UINT8"            name="byRequest"    comment="已请求帮助的次数"/>
+        </Struct>
+        <Struct name="SXiheRequest" vec="TVecXiheRequest" comment="羲和神车的请求帮助信息">
+            <Member type="UINT64"            name="qwRoleID"     comment="玩家ID" />
+            <Member type="string"            name="strName"      comment="请求玩家的名字" />
+            <Member type="UINT8"             name="byReqColor"   comment="请求玩家的名字颜色" />
+            <Member type="UINT8"             name="byPos"        comment="货物顺序索引(0~7)" />
+            <Member type="UINT8"             name="byTruckID"    comment="货号ID" />
+            <Member type="UINT8"             name="bystatus"     comment="状态" />
+            <Member type="string"            name="strHelpName"      comment="帮助玩家的名字" />
+            <Member type="UINT8"             name="byHelpColor"      comment="帮助者名字颜色" /> 
+        </Struct>
+        <Struct name="SGuildExchangedItem" vec="TVecGuildExchangedItem" comment="帮派兑换物品">
+            <Member type="UINT64"   name="qwGuildID"        comment="帮派唯一ID" />
+            <Member type="UINT32" name="dwExchangeID" comment="兑换ID"/>
+            <Member type="UINT32" name="dwCount" comment="兑换数量"/>
+        </Struct>
+        <Enum name="EGuildExchangeRet" comment="帮派兑换错误码">
+            <Member name="eGuildExchange_Failed" comment="失败"/>
+            <Member name="eGuildExchange_Sucess" comment="成功"/>
+            <Member name="eGuildExchange_ErrorPack" comment="背包满无法添加物品"/>
+            <Member name="eGuildExchange_MoneyLimit" comment="钱币不够"/>
+            <Member name="eGuildExchange_CondLimitA" comment="商品剩余数量为0"/>
+            <Member name="eGuildExchange_CondLimitB" comment="帮派成员每天购买次数达到上限"/>
+            <Member name="eGuildExchange_CondLimitC" comment="帮派所有成员每天购买次数达到上限"/>
+            <Member name="eGuildExchange_NoLingShan" comment="要占领该据点才可兑换"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetGuildInfo" ret="true" comment="获取帮派面板信息">
+            <RetParam type="SGetGuildInfoBase" name="sGuildInfoBase" comment="返回结果" />
+        </Func>
+        <Func name="GetGuildList" ret="true" comment="获得帮派列表">
+            <Param    type="UINT32"                 name="dwIndex"          comment="帮派索引" />
+            <Param    type="UINT32"                 name="dwCount"          comment="帮派个数" />
+            <RetParam type="EGuildResult"           name="eResult"          comment="返回结果" />
+            <RetParam type="SOtherGuildListInfo"    name="sListInfo"        comment="帮派列表信息"/>
+            <!--
+            <RetParam type="UINT32"             name="dwMaxGuildCount"  comment="最大帮派" />
+            <RetParam type="UINT32"             name="dwCurGuildCount"  comment="当前帮派索引" />
+            <RetParam type="TVecGuildListInfo"  name="vecGuildListInfo" comment="帮派列表信息" />
+            <RetParam type="TVecUINT64"         name="vecApplyGuildID"  comment="已申请列表帮派ID" />
+            -->
+        </Func>
+        <Func name="GetGuildApplyInfo" ret="true" comment="获取帮派申请列表信息" >
+            <RetParam   type="EGuildResult"         name="eResult"          comment="返回结果" />
+            <RetParam   type="TVecGuildApplyInfo"   name="vecApplyInfo"    comment="申请列表" />
+        </Func>
+        <Func name="CreateGuild" ret="true" comment="创建帮派">
+            <Param    type="string"             name="strName"      comment="帮派名称" />
+            <RetParam type="ECreateResult"      name="eResult"      comment="创建结果" />
+            <RetParam type="TVecGuildAllInfo"   name="vecGuildInfo" comment="帮派信息(大小为0或者1)" />
+        </Func>
+        <Func name="ApplyGuild" ret="true" comment="申请加入帮派">
+            <Param      type="UINT64"         name="qwGuildID"    comment="帮派ID" />
+            <RetParam   type="EApplyResult"   name="eResult" comment="申请列表信息" />
+        </Func>
+        <Func name="AgreeApply" ret="true" comment="通过加入申请" >
+            <Param      type="UINT64"       name="qwRoleID"     comment="申请者ID" />
+            <RetParam   type="EApplyResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="AgreeApplyAll" ret="true" comment="全部同意" >
+            <RetParam   type="EApplyResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="RejectApply" ret="true" comment="拒绝加入申请" >
+            <Param      type="UINT64"       name="qwRoleID"     comment="申请者ID" />
+            <RetParam   type="EApplyResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="RejectApplyAll" ret="true" comment="全部拒绝" >
+            <RetParam   type="EApplyResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="InviteApply" ret="true" comment="邀请加入" >
+            <Param      type="string"         name="strName"        comment="被邀请者名字" />
+            <RetParam   type="EApplyResult"   name="eResult"        comment="返回结果" />
+        </Func>
+        <Func name="GetGuildApplyList" ret="true" comment="获得已申请帮派列表" >
+            <RetParam type="EApplyResult"           name="eResult"          comment="返回结果" />
+            <RetParam type="TVecGuildListInfo"      name="vecGuildListInfo" comment="帮派列表信息" />
+        </Func>
+        <Func name="CancelApply" ret="true" comment="撤销帮派申请" >
+            <Param      type="UINT64"         name="qwGuildID"    comment="帮派ID" />
+            <RetParam type="EApplyResult"           name="eResult"          comment="返回结果" />
+        </Func>
+        <Func name="InviteReply" ret="true" comment="邀请回应">
+            <Param      type="UINT64"       name="qwGuildID"    comment="帮派ID" />
+            <Param      type="bool"         name="bAgree"       comment="同意/拒绝" />
+            <RetParam   type="EApplyResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="QuitGuild" ret="true" comment="退出帮派" >
+            <RetParam   type="EQuitResult"   name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="SetAuthority" ret="true" comment="设置权限" >
+            <Param      type="EMemberRank"          name="eRank"        comment="职位" />
+            <Param      type="UINT32"               name="dwAuthority"  comment="可选权限" />
+            <RetParam   type="ESetAuthorityResult"  name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="EditInfo" ret="true" comment="编辑公告" >
+            <Param      type="string"               name="strInfo"      comment="公告信息" />
+            <RetParam   type="EEditInfoResult"      name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="MemberOperate" ret="true"  comment="帮派成员操作">
+            <Param      type="UINT64"                    name="qwRoleID"     comment="被设置者ID" />
+            <Param      type="EMemberOperateType"        name="eOpType"      comment="操作类型" />
+            <RetParam   type="EMemberOperateResult"      name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="ImpeachReply"   ret="true"    comment="弹劾回应" >
+            <Param      type="UINT64"       name="qwGuildID"    comment="帮派ID" />
+            <Param      type="bool"         name="bAgree"       comment="同意/拒绝" />
+            <RetParam   type="EImpeachResult" name="eResult"    comment="返回结果" />
+        </Func>
+        <Func name="LaunchImpeach"  ret="true" comment="发起弹劾" >
+            <RetParam   type="EImpeachResult"   name="eResult" comment="弹劾结果" />
+        </Func>
+        <Func name="SearchGuildByName" ret="true" comment="搜索帮派" >
+            <Param    type="string"                 name="strName"          comment="帮派名称" />
+            <RetParam   type="EGuildResult"         name="eResult"          comment="返回结果" />
+            <RetParam   type="TVecGuildListInfo"    name="vecGuildListInfo" comment="帮派列表信息" />
+        </Func>
+        <Func name="SearchGuildByOwnerName" ret="true" comment="根据帮主搜索帮派" >
+            <Param      type="string"               name="strOwnerName"     comment="帮主名称" />
+            <RetParam   type="EGuildResult"         name="eResult"          comment="返回结果" />
+            <RetParam   type="TVecGuildListInfo"    name="vecGuildListInfo" comment="帮派列表信息" />
+        </Func>
+        <Func name="SearchGuildByBothName" ret="true" comment="根据帮主搜索帮派" >
+            <Param      type="string"               name="strName"          comment="帮派名称" />
+            <Param      type="string"               name="strOwnerName"     comment="帮主名称" />
+            <RetParam   type="EGuildResult"         name="eResult"          comment="返回结果" />
+            <RetParam   type="TVecGuildListInfo"    name="vecGuildListInfo" comment="帮派列表信息" />
+        </Func>
+        <Func name="UpgradeBuilding" ret="true" comment="提升帮派建筑等级" >
+            <Param      type="EBuildingType"    name="eBuildingType"    comment="帮派建筑类型" />
+            <RetParam   type="EBuildingResult"  name="eResult"          comment="返回结果" />
+        </Func>
+        <Func name="UpgradeTech" ret="true" comment="提升帮派科技等级" >
+            <Param      type="ETechType"    name="eType"   comment="帮派科技类型" />
+            <RetParam   type="ETechResult"  name="eResult" comment="返回结果" />
+        </Func>
+        <Func name="Donate" ret="true" comment="帮派捐献" >
+            <Param      type="UINT32"        name="dwMoney" comment="捐献数量" />
+            <RetParam   type="EDonateResult" name="eResult" comment="返回结果" />
+        </Func>
+        <Func name="Worship"  ret="true" comment="帮派供奉" >
+            <Param      type="EWorshipType"     name="eType"    comment="供奉类型" />
+            <RetParam   type="EStatueResult"    name="eResult"  comment="返回结果" />
+        </Func>
+        <Func name="Muster" ret="true" comment="募集帮众">
+            <RetParam type="EGuildResult"           name="eResult"          comment="返回结果" />
+        </Func>
+        <Func name="GetXiheInfo" comment="获取玩家的羲和神车信息">
+            <Param  type="UINT64"  name="qwUserID"  comment="玩家ID(可为自己ID也可为帮派成员ID)" />
+        </Func>
+        <Func name="AcceptXiheTask" comment="玩家接受羲和神车任务">
+        </Func>
+        <Func name="GetXiheRequestInfo" ret="true" comment="获取自己帮派成员的羲和神车请求帮助列表">
+            <RetParam type="TVecXiheRequest"      name="vecXiheRequest"     comment="玩家羲和神车请求帮助的信息" />
+        </Func>
+        <Func name="ShipGoods" ret="true" comment="羲和神车装货">
+            <Param type="UINT8"                 name="byType"       comment="0:用道具装货 1:用仙石装货" />
+            <Param type="UINT8"                 name="byPos"        comment="货物顺序索引(0~7)" />
+            <RetParam type="EGuildXiheResult"   name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="DeliveryGoods" ret="true" comment="羲和神车发货">
+            <RetParam type="EGuildXiheResult"     name="eResult"        comment="返回结果" />
+        </Func>
+        <Func name="RequestForHelp" ret="true" comment="羲和神车请求帮助装货">
+            <Param type="UINT8"                 name="byPos"        comment="货物顺序索引(0~7)" />
+            <RetParam type="EGuildXiheResult"   name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="HelpShipGoods" ret="true" comment="羲和神车帮众成员帮助装货">
+            <Param type="UINT8"                 name="byType"       comment="0:用道具装货 1:用仙石装货" />
+            <Param type="UINT64"                name="qwOtherID"    comment="玩家ID" />
+            <Param type="UINT8"                 name="byPos"        comment="货物顺序索引(0~7)" />
+            <RetParam type="EGuildXiheResult"   name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="ReqGuildExchangedItemInfo" ret="true" comment="请求帮派兑换物品信息">
+            <RetParam type="TVecUINT8" name= "vecLingShanType" comment="灵山类型"/>
+            <RetParam type="TVecGuildExchangedItem"   name="vecGuildExchangedItem"      comment="兑换物品信息" />
+            <RetParam type="UINT32"   name="dwGUildAllMemberExchangedItemNum"      comment="帮派所有成员兑换物品总数量" />
+            <RetParam type="UINT32"   name="dwPlayerExchangedItemNum"      comment="玩家兑换物品总数量" />
+            <RetParam type="EMemberRank"   name="eMemberLastRank"      comment="玩家上一次帮派职位" />
+        </Func>
+        <Func name="ReqGuildExchangeItem" ret="true" comment="请求帮派兑换物品">
+            <Param type="UINT32" name="dwExchangeID" comment="兑换id"/>
+            <Param type="UINT32" name="dwCount" comment="兑换数量"/>
+            <RetParam type="EGuildExchangeRet" name="eResult" comment="返回结果"/>
+        </Func>
+        <Func name="ReqGuildExchangeItemLogInfo" ret="true" comment="请求帮派兑换物品日志信息">
+            <RetParam type="TVecGuildLogInfo" name="vecGuildLogInfo" comment="兑换物品日志信息"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="GuildCreateNotify"  comment="帮派创建结果通知" >
+            <Param type="ECreateResult"      name="eResult"      comment="创建结果" />
+            <Param type="TVecGuildAllInfo"   name="vecGuildInfo" comment="帮派信息(大小为0或者1)" />
+        </Func>
+        <Func name="GuildInfoNotify"    comment="帮派信息更新" >
+            <Param type="EGuildDataType"     name="eDataType"        comment="帮派信息类型" />
+            <Param type="TVecSGuildInfoBase" name="vecGuildInfoBase" comment="帮派信息" />
+        </Func>
+        <Func name="GuildListInfoNotify" comment="帮派列表信息">
+            <Param type="UINT32"             name="dwMaxGuildCount"  comment="最大帮派" />
+            <Param type="UINT32"             name="dwCurGuildCount"  comment="当前帮派索引" />
+            <Param type="TVecGuildListInfo"  name="vecGuildListInfo" comment="帮派列表信息" />
+        </Func>
+        <Func name="GuildApplyPassedNotify" comment="帮派申请通过通知">
+            <Param type="SGuildAllInfo"   name="sGuildAllInfo" comment="帮派信息" />
+        </Func>
+        <Func name="GuildApplyRejectNotify" comment="帮派申请拒绝通知">
+            <Param type="UINT64"   name="qwGuildID" comment="帮派ID" />
+        </Func>
+        <Func name="GuildKickNotify" comment="帮派被踢出通知">
+            <Param type="UINT64"       name="qwGuildID"     comment="帮派ID" />
+            <Param type="string"       name="strName"       comment="帮派名称"/>
+            <Param type="string"       name="strKickName"   comment="踢人者姓名" />
+        </Func>
+
+        <Func name="GuildInviteNotify"  comment="玩家被邀请进入帮派通知">
+            <Param type="UINT64"       name="qwGuildID"             comment="帮派ID" />
+            <Param type="string"       name="strGuildName"          comment="帮派名称" />
+            <Param type="string"       name="strInviterName"        comment="邀请者名称" />
+        </Func>
+        <Func name="GuildImpeachNotify"     comment="帮派弹劾通知" >
+            <Param type="UINT64"       name="qwGuildID"             comment="帮派ID" />
+            <Param type="string"       name="strLauncherName"      comment="发起者姓名" />
+            <Param type="string"       name="strOwnerName"         comment="帮主姓名"  />
+        </Func>
+        <Func name="GuildImpeachSucceedNotify"     comment="帮派弹劾取消通知" >
+        </Func>
+        <Func name="GuildImpeachFailedNotify"     comment="帮派弹劾取消通知" >
+        </Func>
+        <Func name="GuildImpeachCancelNotify"     comment="帮派弹劾取消通知" >
+        </Func>
+        <Func name="UpdateGuildXiheInfo"     comment="更新玩家羲和神车信息" >
+            <Param type="SGuildXihe"        name="sGuildXihe"     comment="玩家羲和神车信息" />
+        </Func>
+        <Func name="GuildXiheHelpNotify"     comment="更新玩家羲和神车帮助信息" >
+            <Param type="UINT8"             name="byType"           comment="0增加请求帮助信息 1删除帮助列表的信息 2删除请求帮助信息添加XX帮助信息" />
+            <Param type="SXiheRequest"      name="sXiheRequest"     comment="玩家羲和神车请求帮助的信息" />
+        </Func>
+        <Func name="GuildExchangedItemNotify"    comment="帮派兑换物品更新" >
+            <Param type="TVecGuildExchangedItem"    name="vecGuildExchangedItem"                    comment="兑换物品信息" />
+            <Param type="UINT32"                    name="dwGUildAllMemberExchangedItemNum"         comment="帮派所有成员兑换物品总数量" />
+            <Param type="UINT32"                    name="dwPlayerExchangedItemNum"                 comment="玩家兑换物品总数量" />
+        </Func>
+        <Func name="GuildExchangedItemBeginNotify"     comment="帮派战兑换物品开始" >
+            <Param type="TVecUINT8" name= "vecLingShanType" comment="灵山类型"/>
+        </Func>
+        <Func name="GuildExchangeItemLogNotify"   comment="帮派兑换物品日志更新">
+            <Param type="SGuildLogInfo" name="sGuildLogInfo" comment="兑换物品日志信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

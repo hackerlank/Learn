@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="RegisterSevenDaysProt" id="89" proxy="GameServer" comment="注册七天目标协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="ERegisterSevenDaysResult" comment="操作结果">
+            <Member name="eSucceed" comment="成功"/>
+            <Member name="eFailed" comment="失败"/>
+        </Enum>
+        <Enum name="EBuyStatus" comment="购买状态">
+            <Member name="eNoBuy" comment="不能购买"/>
+            <Member name="eCanBuy" comment="能够购买"/>
+            <Member name="eAlreadyBuy" comment="已经购买"/>
+        </Enum>
+    </TypeDef>
+	
+    <FuncC2S client="ActionScript">
+        <Func name="GetCurTargetInfo" ret="true" comment="请求当天目标信息">
+            <RetParam type="UINT32" name="dwDayID" comment="第几天"/>
+            <RetParam type="UINT64" name="qwTargetInfo" comment="目标信息(注：每2位代表一个目标奖励的状态0：不能领取；1：能够领取；2：已领取)"/>
+        </Func>
+		<Func name="GetTargetInfoByDayID" ret="true" comment="通过dwDayID获取目标信息">
+            <Param type="UINT32" name="dwDayID" comment="第几天"/>
+            <RetParam type="UINT64" name="qwTargetInfo" comment="目标信息(注：每2位代表一个目标奖励的状态0：不能领取；1：能够领取；2：已领取)"/>
+        </Func>
+		<Func name="GetAward" ret="true" comment="获取奖励">
+            <Param type="UINT32" name="dwDayID" comment="第几天"/>
+            <Param type="UINT8" name="byTargetID" comment="目标ID"/>
+            <RetParam type="ERegisterSevenDaysResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetCurBuyInfo" ret="true" comment="请求当天购买信息">
+            <RetParam type="UINT32" name="dwDayID" comment="第几天"/>
+            <RetParam type="EBuyStatus" name="eBuyStatus" comment="购买状态"/>
+        </Func>
+        <Func name="ReqBuy" ret="true" comment="请求购买">
+            <RetParam type="ERegisterSevenDaysResult" name="eResult" comment="结果"/>
+        </Func>
+    </FuncC2S>
+	
+    <FuncS2C>
+
+    </FuncS2C>
+	
+</Protocol>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="FriendProt" id="24" proxy="CenterServer" comment="好友相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EFriendResult" comment="好友相关的结果">
+            <Member name="eFriendSuccess" comment="成功"/>
+            <Member name="eFriendFailed" comment="失败"/>
+            <Member name="eFriendDuplicateErr" comment="已经存在"/>
+            <Member name="eFriendOtherDuplicateErr" comment="已存在于目标的好友列表"/>
+            <Member name="eFriendMaxNumErr" comment="好友达到上限"/>
+            <Member name="eFriendOtherMaxNumErr" comment="对方好友达到上限"/>
+            <Member name="eFriendOfflineErr" comment="对方不在线"/>
+            <Member name="eFriendRefuseErr" comment="对方拒绝"/>
+            <Member name="eFriendNotExistErr" comment="目标不存在"/>
+            <Member name="eFriendGroupIDErr" comment="分组ID错误"/>
+            <Member name="eFriendOnBlackList" comment="对方已在你的黑名单中"/>
+            <Member name="eFriendOnTarBlackList" comment="对方已把你拉入黑名单"/>
+            <Member name="eFriendSign" comment="修改签名成功"/>
+            <Member name="eFriendSignLenErr" comment="签名过长"/>
+            <Member name="eFriendMood" comment="修改表情成功"/>
+            <Member name="eFriendOtherErr" comment="其他错误"/>
+        </Enum>
+        <Enum name="EFriendGroupType" desc="true" comment="好友组别">
+            <Member name="eGroupNone" comment="无"/>
+            <Member name="eCloseFriend" comment="亲密好友"/>
+            <Member name="eCommonFriend" comment="普通好友"/>
+            <Member name="eBlackFriend" comment="黑名单"/>
+            <Member name="eGroupEnd" comment="结尾"/>
+        </Enum>
+        <Struct name="SFriendDBInfo" vec="TVecFriendDBInfo" comment="好友条目">
+            <Member type="UINT8" name="byGroup" comment="分组ID"/>
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="string" name="strName" comment="名字 XXX: 如果主将改名需要修改此处"/>
+            <Member type="UINT16" name="wFighterID" comment="主将ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT16" name="wMood" comment="心情表情"/>
+            <Member type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+            <Member type="string" name="strSign" comment="签名"/>
+            <Member type="UINT8" name="byColor" comment="好友颜色"/>
+        </Struct>
+        <Struct name="SFriendEntry" ptr="true" vec="TVecFriendEntry" comment="好友条目">
+            <Member type="EFriendGroupType" name="eGroupType" comment="分组ID"/>
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="string" name="strName" comment="名字 XXX: 如果主将改名需要修改此处"/>
+            <Member type="UINT16" name="wFighterID" comment="主将ID"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+            <Member type="UINT8" name="byColor" comment="好友颜色"/>
+            <Member type="UINT16" name="wMood" comment="心情表情"/>
+            <Member type="string" name="strSign" comment="签名"/>
+            <Member type="UINT32" name="dwTotalRecharge" comment="总充值"/>
+            <Member type="bool" name="bOnlineStatus" comment="在线状态"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+        </Struct>
+        <Struct name="SFriend" comment="好友">
+            <Member type="UINT16" name="wMood" comment="我的心情表情"/>
+            <Member type="string" name="strSign" comment="我的签名"/>
+            <Member type="TVecFriendEntry" name="vecFriendEntry" comment="好友列表"/>
+        </Struct>
+        <Struct name="SreferFriend" vec="TVecReferFriend" comment="推荐好友">
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT16" name="wHeroID" comment="主将ID"/>
+            <Member type="string" name="strName" comment="用户名称"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="AddFriendReq1" comment="增加好友/黑名单请求">
+            <Param type="EFriendGroupType" name="eGroupType" comment="组别"/>
+            <Param type="TVecUINT64" name="vecUserID" comment="玩家ID"/>
+            <Param type="UINT8" name="byNeedRet" comment="0-不需要返回消息 1-需要返回消息"/>
+        </Func>
+        <Func name="AddFriendReq2" comment="增加好友/黑名单请求">
+            <Param type="EFriendGroupType" name="eGroupType" comment="组别"/>
+            <Param type="string" name="strName" comment="用户名"/>
+            <Param type="UINT8" name="byNeedRet" comment="0-不需要返回消息 1-需要返回消息"/>
+        </Func>
+        <Func name="AnswerAddFriend" comment="回答增加好友">
+            <Param type="bool" name="bAgree" comment="是否同意"/>
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+        </Func>
+        <Func name="RemoveFriendReq" comment="删除好友/黑名单">
+            <Param type="TVecUINT64" name="vecUserID" comment="玩家ID"/>
+        </Func>
+        <Func name="MoveFriend" ret="true" comment="移动好友">
+            <Param type="UINT64" name="qwUserID" keep="true" comment="帐号ID"/>
+            <Param type="EFriendGroupType" name="eGroupType" keep="true" comment="分组ID"/>
+            <RetParam type="EFriendResult" name="eResult" comment="移动好友的结果"/>
+        </Func>
+        <Func name="Whisper" comment="私聊">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+        </Func>
+        <Func name="FindUserIDNameReq" comment="查询玩家">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="string" name="strRoleName" comment="主角色名"/>
+        </Func>
+        <Func name="FindReferFriendReq" ret="true" comment="获取推荐好友">
+            <RetParam type="TVecReferFriend" name="vecReferFriend" comment="推荐好友"/>
+        </Func>
+        <Func name="GetFriendInfo" comment="取得所有好友信息">
+        </Func>
+        <Func name="SetSign" ret="true" comment="修改签名">
+            <Param type="string" name="strSign" comment="签名文字：最多不超过255个字符"/>
+            <RetParam type="EFriendResult" name="eResult" comment="修改签名结果"/>
+        </Func>
+        <Func name="SetMood" ret="true" comment="设置心情表情">
+            <Param type="UINT16" name="wMood" comment="心情表情"/>
+            <RetParam type="EFriendResult" name="eResult" comment="修改心情表情结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="AskAddFriend" comment="询问增加好友">
+            <Param type="string" name="strRoleName" comment="角色名字"/>
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT16" name="wFighterID" comment="主将ID"/>
+            <Param type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Param type="UINT8" name="byLevel" comment="等级"/>
+        </Func>
+        <Func name="AddFriendAck" comment="增加好友/黑名单回应">
+            <Param type="EFriendResult" name="eResult" comment="增加好友的结果"/>
+            <Param type="string" name="strName" comment="名字 XXX: 如果主将改名需要修改此处"/>
+            <Param type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+        </Func>
+        <Func name="AddFriendAckEx" comment="增加好友/黑名单回应Ex">
+            <Param type="SFriendEntry" name="rFriendEntry" comment="增加的好友"/>
+        </Func>
+        <Func name="RemoveFriendAck" comment="删除好友/黑名单回应">
+            <Param type="EFriendResult" name="eResult" comment="删除好友的结果"/>
+            <Param type="UINT64" name="qwUserID" comment="删除的好友帐号ID"/>
+        </Func>
+        <Func name="WhisperFailNotify" comment="私聊失败通知">
+            <Param type="EFriendResult" name="eResult" comment="私聊通知的结果，成功不通知"/>
+        </Func>
+        <Func name="WhisperSuccessNotify" comment="私聊成功通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="string" name="strBaseInfo" comment="聊天基本信息"/>
+        </Func>
+        <Func name="FriendInfoNotify" comment="好友信息通知">
+            <Param type="SFriend" name="rFriend" comment="好友信息"/>
+        </Func>
+        <Func name="OnlineStatusNotify" comment="状态通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="bool" name="bOnlineStatus" comment="在线状态"/>
+        </Func>
+        <Func name="LevelChangeNotify" comment="等级变化通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT8" name="byLevel" comment="当前等级"/>
+        </Func>
+        <Func name="VIPChangeNotify" comment="VIP变化通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT8" name="byLevel" comment="当前等级"/>
+        </Func>
+        <Func name="ColorChangeNotify" comment="品质变化通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT8" name="byColor" comment="当前品质"/>
+        </Func>
+        <Func name="YellowDiamondNotify" comment="QQ黄钻好友通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT8" name="byLevel" comment="等级"/>
+            <Param type="bool" name="bYearlyPay" comment="是否年费黄钻"/>
+        </Func>
+        <Func name="SignChangeNotify" comment="签名改变通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="string" name="strSign" comment="签名"/>
+        </Func>
+        <Func name="MoodChangeNotify" comment="签名改变通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT16" name="wMood" comment="心情表情"/>
+        </Func>
+        <Func name="VIPLevelChangeNotify" comment="签名改变通知">
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+        </Func>
+        <Func name="FindUserIDNameAck" comment="角色查询">
+            <Param type="EFriendResult" name="eResult" comment="查询返回"/>
+            <Param type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Param type="string" name="strRoleName" comment="主角色名"/>
+            <Param type="UINT16" name="wHeroID" comment="主将ID"/>
+            <Param type="UINT8" name="byLevel" comment="用户等级"/>
+            <Param type="bool" name="bOnlineStatus" comment="在线状态"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DungeonProt" id="59" proxy="GameServer" comment="副本相关协议">
+    <Refer>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EDungeonResult" desc ="true"  comment="副本结果">
+            <Member name="eDungeonSuccess" comment="成功"/>
+            <Member name="eDungeonSweepingErr" comment="正在扫荡中"/>
+            <Member name="eDungeonPowerErr" comment="体力不足"/>
+            <Member name="eDungeonNotSweepingErr" comment="不在扫荡中"/>
+            <Member name="eDungeonSweepingSpeedUpErr" comment="扫荡加速中"/>
+            <Member name="eDungeonTypeNotExist" comment="此副本类型不存在"/>
+            <Member name="eDungeonInDgn" comment="你在副本中"/>
+            <Member name="eDungeonLowLevel" comment="你等级不够"/>
+            <Member name="eDungeonCreateErrType" comment="副本类型不正确，不可以创建副本"/>
+            <Member name="eDungeonPreDgnNotFinish" comment="前置副本未完成"/>
+            <Member name="eDungeonPackEmptyMin" comment="包裹空格子不足"/>
+            <Member name="eDungeonOutDgn" comment="你不在副本中"/>
+            <Member name="eDungeonInsNotExist" comment="副本不存在"/>
+            <Member name="eDungeonNotFinish" comment="副本未完成"/>
+            <Member name="eDungeonBusy" comment="玩家忙"/>
+            <Member name="eDungeonNotSweeping" comment="不在扫荡状态"/>
+            <Member name="eSpeedUpItemLimit"  comment="加速道具不足"/>
+            <Member name="eDungeonTimesLimit"  comment="进入次数不足"/>
+            <Member name="eDungeonTimesLimitForHero"  comment="英雄本进入次数不足"/>
+            <Member name="eDungeonTimesLimitForLiXian"  comment="历险本进入次数不足"/>
+            <Member name="eDungeonVipBuyHero"  comment="购买英雄副本vip等级不足"/>
+            <Member name="eDungeonVipBuyLiXian"  comment="购买历险副本vip等级不足"/>
+            <Member name="eDungeonNOGold"  comment="仙石不足"/>
+            <Member name="eDungeonOtherErr" comment="未知错误"/>
+        </Enum>
+        <Enum name="EDgnType" desc ="true"  comment="副本类型">
+            <Member name="eNoneDgn" comment="无定义"/>
+            <Member name=" ePlayerDgn" comment="单人副本"/>
+            <Member name=" eGatherDgn" comment="采集副本"/>
+            <Member name=" eTeamDgn" comment="组队副本"/>
+            <Member name=" eDemonTowerDgn" comment="镇妖塔副本"/>
+        </Enum>
+        <Enum name="EDgnSubType" desc ="true"  comment="副本次类型">
+            <Member name="eSubCommon" comment="普通"/>
+            <Member name="eSubHero" comment="英雄副本"/>
+            <Member name="eSubHistory" comment="史诗副本"/>
+            <Member name="eSubLiXian" comment="历险副本"/>
+        </Enum>
+
+        <Enum name ="EDgnCondStatus" desc ="true" comment ="条件状态">
+            <Member name ="eCondRun" comment ="未达成"/>
+            <Member name ="eCondSuc" comment ="已达成"/>
+            <Member name ="eCondFal" comment ="已失败"/>
+        </Enum>
+        <Enum name ="ELogicType" desc ="true" comment ="副本评价">
+            <Member name = "eLogicNone" comment ="无评价"/>
+            <Member name ="eLogicOrderMonster" comment ="按顺序杀怪"/>
+        </Enum>
+        <Struct name ="DgnSucCond" vec ="TVecSucCond" comment ="副本条件">
+            <Member type="UINT16" name ="wCondId" comment ="条件ID"/>
+            <Member type="EDgnCondStatus" name ="eStatus" comment ="0,未达成，1表示已达成，2表示已失败"/>
+            <SubStruct name ="SucMonster" vec ="TVecSucMonster" comment ="杀怪条件">
+                <Member type="UINT16" name = "wMonsterGroup" comment ="怪物组ID"/>
+                <Member type="UINT8"  name ="byTotalNum"  comment="怪物总数"/>
+                <Member type="UINT8"  name ="byCurNum"   comment="当前数量"/>
+            </SubStruct>
+            <SubStruct name ="SucGather" vec ="TVecSucGather" comment ="采集条件">
+                <Member type="UINT16" name = "wGather" comment ="采集ID"/>
+                <Member type="UINT8"  name ="byTotalNum"  comment="采集总数"/>
+                <Member type="UINT8"  name ="byCurNum"   comment="当前数量"/>
+            </SubStruct>
+            <SubStruct name ="SucTurns" vec ="TVecSucTurns" comment ="回合数判定">
+                <Member type="UINT8"  name ="byTotalTurns"  comment="总回合数"/>
+                <Member type="UINT8"  name ="byCurTurns"   comment="当前回合数"/>
+            </SubStruct>
+            <SubStruct name ="SucInTimer" vec ="TVecSucInTimer" comment ="时间判定">
+                <Member type="UINT32"  name ="dwTotalTimer"  comment="总计时间"/>
+                <Member type="UINT32"  name ="dwBeginTimer"   comment="起始时间"/>
+            </SubStruct>
+            <SubStruct name ="SucMonsterInTimer" vec ="TVecSucMonsterInTimer" comment ="定时杀怪">
+                <Member type="UINT32"  name ="dwTotalTimer"  comment="总计时间"/>
+                <Member type="UINT32"  name ="dwBeginTimer"   comment="起始时间"/>
+                <Member type="UINT16" name = "wMonsterGroup" comment ="怪物组ID"/>
+                <Member type="UINT8"  name ="byTotalNum"  comment="怪物总数"/>
+                <Member type="UINT8"  name ="byCurNum"   comment="当前数量"/>
+            </SubStruct>
+            <SubStruct name ="SucGatherInTimer" vec ="TVecSucGatherInTimer" comment ="定时采集">
+                <Member type="UINT32"  name ="dwTotalTimer"  comment="总计时间"/>
+                <Member type="UINT32"  name ="dwBeginTimer"   comment="起始时间"/>
+                <Member type="UINT16" name = "wGather" comment ="采集ID"/>
+                <Member type="UINT8"  name ="byTotalNum"  comment="采集总数"/>
+                <Member type="UINT8"  name ="byCurNum"   comment="当前数量"/>
+            </SubStruct>
+            <SubStruct name ="SucFightWithMonsterMinTimes" vec ="TVecSucFightWithMonsterMinTimes" comment ="尽量不和怪物发生战斗">
+                <Member type="UINT16"  name ="wGroup"  comment="怪物"/>
+                <Member type="UINT8"  name ="byTotalTimes"   comment="总战斗次数"/>
+                <Member type="UINT8" name = "byCurTimes" comment ="当前战斗次数"/>
+            </SubStruct>
+            <SubStruct name ="SucArriveArea" vec ="TVecSucArriveArea" comment ="到达某个区域">
+                <Member type="UINT16"  name ="wAreaID"  comment="区域ID"/>
+            </SubStruct>
+        </Struct>
+        <Struct name="MulCond" vec="TVecMulCond" comment="多重条件信息">
+            <Member type="TVecSucCond" name ="vecCond" comment="多重条件"/>
+        </Struct>
+        <Struct name="DgnStar" vec="TVecDgnStar" comment="副本星级信息">
+            <Member type="UINT16" name ="wDgnId" comment="副本ID"/>
+            <Member type="UINT8" name ="byStar" comment="星级"/>
+            <Member type="UINT32" name ="dwFinishTimesToday" comment="今日完成次数"/>
+            <Member type="UINT32" name ="dwBuyTimesToday" comment="今日购买次数"/>
+            <Member type="UINT32" name ="dwBuyTimes" comment="购买的总次数"/>
+            <Member type="UINT32" name ="dwCompleteTimes" comment ="总通关次数"/>
+        </Struct>
+        <Struct name="DgnLiXian" vec="TVecDgnLiXian" comment="历险副本信息">
+            <Member type="UINT32" name ="dwFinishTimesToday" comment="今日完成次数"/>
+            <Member type="UINT32" name ="dwBuyTimesToday" comment="今日购买次数"/>
+            <Member type="UINT32" name ="dwBuyTimes" comment="购买的总次数"/>
+        </Struct>
+        <Struct name="SSweepInfo" vec="TVecSweepInfo" comment="扫荡信息">
+            <Member type="UINT64" name ="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name ="wCurDgnID" comment="当前扫荡副本"/>
+            <Member type="UINT16" name ="wCurCount" comment="当前剩余扫荡次数"/>
+            <Member type="UINT32" name ="dwReserverTime" comment="下次扫荡剩余时间"/>
+            <Member type="UINT32" name ="dwSaveTime" comment="保存时间"/>
+            <Member type="UINT16" name ="wOptions" comment="扫荡类型"/>
+            <Member type="UINT16" name ="wCount" comment="扫荡需求次数"/>
+            <Member type="string" name ="strVecDgn" comment="未开始扫荡副本"/>
+        </Struct>
+        <Struct name="SSweepItem" vec="TVecSweepItem" comment="扫荡日志信息">
+            <Member type="UINT16" name ="wTurn" comment="当前扫荡轮数"/>
+            <Member type="ItemProt::TVecItemGenInfo" name ="vecItemGenInfo" comment="获得物品"/>
+            <Member type="ItemProt::TVecResource" name ="vecResource" comment="获得资源"/>
+        </Struct>
+        <Struct name="SGetSweepInfo"  vec="TVecGetSweepInfo"  comment="客户段获取的扫荡信息">
+            <Member type="UINT16" name = "wDgnId" comment ="扫荡副本实例"/>
+            <Member type="UINT32" name ="dwReserverTimer" comment ="剩余时间"/>
+            <Member type="UINT16" name ="wCount" comment ="剩余次数"/>
+            <Member type="UINT16" name ="wMaxCount" comment ="总的扫荡次数"/>
+            <Member type="TVecSweepItem" name ="vecSweepItem" comment ="扫荡日志"/>
+        </Struct>
+        <Struct name="TeamAwardRecord" vec = "TVecTeamAwardRecord" comment ="组队副本领奖记录">
+            <Member type ="UINT16" name ="wDgnType" comment ="副本模板"/>
+            <Member type ="UINT8" name ="byAwardTimes" comment ="今日领奖次数"/>
+        </Struct>
+        <Struct name="TeamAwardAllRecord" vec = "TVecTeamAwardAllRecord" comment ="组队副本总领奖记录">
+            <Member  type ="UINT8" name ="byAwardTimesToday" comment ="今日领奖次数"/>
+            <Member type ="TVecTeamAwardRecord" name ="vecDgn" comment ="每个副本领奖次数"/>
+        </Struct>
+
+
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="Sweeping" ret="true"  comment="扫荡">
+            <Param type="UINT16" name="wDgnID" keep="true" comment="副本ID"/>
+            <Param type="UINT16" name="wCount" keep="true" comment="次数"/>
+            <Param type="UINT8" name="byOptions" comment="选项, 1位为gold，2位为key,采集相关"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="扫荡结果"/>
+            <RetParam type="UINT32" name="dwSweepEndTime" comment="扫荡结束时间"/>
+        </Func>
+        <Func name="SweepingSpeedUp" ret="true"  comment="加速扫荡">
+            <Param type="UINT8" name="byOptions" comment="0为使用仙石"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="加速扫荡结果"/>
+        </Func>
+        <Func name="CancelSweeping" ret="true"  comment="取消扫荡">
+            <RetParam type="EDungeonResult" name="eResult" comment="取消扫荡结果"/>
+        </Func>
+        <Func name="EnterPlayerDungeon"  ret="true" ecomment="进入单人副本">
+            <Param type="UINT16" name="wDgnID" comment="副本ID"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>
+        <Func name="LeavePlayerDungeon" ret= "true" comment="离开单人副本">
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>
+        <Func name="NotifyAcceptDgnAward" ret = "true" comment="客户端确认领奖">
+            <Param type="UINT64" name="qwDgnID" comment="副本唯一实例ID"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>
+        <Func name="GetAllDgnInfo" ret = "true" comment="查询副本星级">
+            <RetParam type="DgnLiXian" name="sLiXian" comment="历险副本信息"/>
+            <RetParam type="TVecDgnStar" name="vecStar" comment="副本星级"/>
+
+        </Func>
+        <Func name="GetDgnSweepingInfo" ret = "true" comment="客户端查询扫荡信息">
+            <RetParam type="SGetSweepInfo" name = "oGetSweepInfo" comment ="扫荡信息"/>
+        </Func>
+        <Func name="GetDgnProcessAndStar"  comment="查询副本进度和星级">
+        </Func>
+        <Func name="ReliveInDgn"  comment="副本中玩家复活">
+        </Func>
+        <Func name="GetTeamInfo"  comment="获取组队副本信息">
+        </Func>
+        <Func name="BuyHeroDgnTimes" ret= "true" comment="购买英雄副本次数">
+            <Param type="UINT16" name="wDgnID" comment="副本ID"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>
+        <Func name="BuyLiXianDgnTimes" ret= "true" comment="购买历险副本次数">
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>
+
+        <Func name="GetDgnStarAwardInfo" ret= "true" comment="查询副本星级领奖状态">
+            <RetParam type="TVecUINT16" name="vecAward" comment="副本星级已领奖ID"/>
+        </Func>
+        <Func name="GetDgnStarAward" ret= "true" comment="领取副本星级奖励">
+            <Param type="UINT16" name="wStarID" comment="领奖ID"/>
+            <RetParam type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+            <RetParam type="TVecUINT16" name="vecAward" comment="副本星级已领奖ID"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SweepingUpdateNotify" comment="扫荡更新通知">
+            <Param type="ItemProt::TVecItemGenInfo" name="vecItem" comment="获得物品"/> 
+            <Param type="ItemProt::TVecResource" name="vecResSource" comment="获得资源"/>	
+            <Param type="UINT16" name="wCurrCount" comment="当前次数"/>
+            <Param type="UINT32" name="dwSweepEndTime" comment="扫荡结束时间"/>
+        </Func>
+        <Func name="SweepingEndNotify" comment="扫荡结束通知">
+            <Param type="EDungeonResult" name="eResult" comment="服务器返回结果"/>
+        </Func>        
+        <Func name="DungeonMapIdxNotify" comment="副本地图怪物采集物索引通知">
+            <Param type="TVecUINT8" name="vecIdx" comment="索引ID"/>
+        </Func>    
+        <Func name="NotifyDgnAward" comment="通知通关副本领奖">
+            <Param type="UINT64" name="qwDgnId" comment="副本唯一实例"/>
+            <Param type="UINT16" name="wDgnType" comment="副本类型"/>
+            <Param type="UINT64" name="qwLastBattleID" comment="最后战报"/>
+            <Param type="UINT8" name="byStar" comment="战斗评级"/>
+            <Param type="ItemProt::TVecItemGenInfo" name="vecItem" comment="获得物品"/> 
+            <Param type="ItemProt::TVecResource" name="vecResSource" comment="获得资源"/>	
+        </Func>
+        <Func name="NotifyDgnProcess" comment="通告副本进程">
+            <Param type="UINT16" name="wDgnType" comment="副本类型"/>
+            <Param type="TVecMulCond" name="vecProcess" comment="副本进度"/>
+        </Func>
+        <Func name="NotifyDgnStar" comment="通告副本星级">
+            <Param type="UINT16" name="wDgnType" comment="副本类型"/>
+            <Param type="TVecMulCond" name="vecStar" comment="副本星级"/>
+        </Func>
+        <Func name="SynTeamAwardRecord"  comment="同步领奖记录">
+            <Param type="TeamAwardAllRecord" name="stAward"  comment="同步数据"/>  
+        </Func>
+        <Func name="TeamBattleResult" comment="队伍战斗结果">
+            <Param type="UINT16" name="DgnType" comment="副本类型"/>
+            <Param type="UINT8" name="bySuc" comment="0,失败，1成功"/>
+        </Func>
+        <Func name="UpdateLiXian" comment="更新历险副本信息">
+            <Param type="DgnLiXian" name="sLiXian" comment="历险副本信息"/>
+        </Func>
+        <Func name="UpdateDgnInfo" comment="更新单个副本信息">
+            <Param type="DgnStar" name="sDgnStar" comment="副本信息"/>
+        </Func>
+        <Func name="UpdateDgnInfoForAll" comment="更新所有副本信息">
+            <Param type="DgnLiXian" name="sLiXian" comment="历险副本信息"/>
+            <Param type="TVecDgnStar" name="vecStar" comment="副本星级"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

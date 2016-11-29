@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="FighterProt" id="20" proxy="GameServer" comment="道具相关协议">
+    <Refer>
+        <Protocol name="PropInfo"/>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EFighterType" comment="将类型">
+            <Member name="eFighter" comment="将"/>
+            <Member name="eFighterPlayer" comment="主将"/>
+            <Member name="eFighterHero" comment="散仙"/>
+            <Member name="eFighterMonster" comment="怪"/>
+            <Member name="eFighterMax" comment="将类型结束"/>
+        </Enum>
+        <Enum name="ESkillResult" comment="技能操作结果">
+            <Member name="eSkillSucc" comment="成功"/>
+            <Member name="eSkillFailed" comment="失败"/>
+            <Member name="eSkillNotExist" comment="没有此技能"/>
+            <Member name="eSkillLevelMax" comment="已达最高等级"/>
+            <Member name="eSkillLevelErr" comment="玩家等级不足"/>
+            <Member name="eSkillNotUp" comment="未装备此技能"/>
+            <Member name="eSkillPExpErr" comment="修为不足"/>
+            <Member name="eSkillSopErr" comment="阅历不足"/>
+            <Member name="eSkillSigilErr" comment="符印不足"/>
+            <Member name="eSkillCentsYErr" comment="仙元不足"/>
+            <Member name="eSkillPotenErr" comment="潜力不足"/>
+            <Member name="eRuneNotExist" comment="符文不存在"/>
+            <Member name="eRuneLevelMax" comment="符文已达最高等级"/>
+            <Member name="eRuneLevelErr" comment="玩家等级不足"/>
+            <Member name="eAdvNotExist" comment="进阶不存在"/>
+            <Member name="eAdvLevelGTSkillLevelErr" comment="进阶等级大于技能等级"/>
+            <Member name="eItemNotEnough" comment="物品不足"/>
+        </Enum>
+        <Enum name="EDrawType" comment="求签类型">
+            <Member name="eDrawTypeNone"    value="0" comment="无效类型" />
+            <Member name="eDrawTypeNormal"            comment="普通求签(银币)" />
+            <Member name="eDrawTypeAdvance"           comment="高级求签(仙石)" />
+            <Member name="eDrawTypeMax"             comment="最大类型" />
+        </Enum>
+        <Enum name="EDrawRewardType" comment="求签类型">
+            <Member name="eDrawRewardTypeNone"    value="0" comment="无效类型" />
+            <Member name="eDrawRewardTypeBlue"              comment="蓝色仙缘" />
+            <Member name="eDrawRewardTypePurple"            comment="紫色仙缘" />
+            <Member name="eDrawRewardTypeOrange"            comment="橙色仙缘" />
+            <Member name="eDrawRewardTypeMax"               comment="最大类型" />
+        </Enum>
+        <Enum name="EDrawResult" comment="求签结果">
+            <Member name="eDrawResultSuccess" value="0" comment="求签成功" />
+            <Member name="eDrawResultFailed"            comment="求签失败" />
+            <Member name="eDrawResultLackOfCount"       comment="次数不足" />
+            <Member name="eDrawResultLackOfMoney"       comment="金钱不足" />
+            <Member name="eDrawResultMax"               comment="求签结果最大值" />
+        </Enum>
+        <Enum name="ERecruitResult" comment="招募返回">
+            <Member name="eRecruitSucc"             comment="成功"/>
+            <Member name="eRecruitFailed"           comment="失败"/>
+            <Member name="eRecruitAlready"          comment="已招募"/>
+            <Member name="eRecruitLackOfMoney"      comment="货币不足"/>
+            <Member name="eRecruitLevelLimited"     comment="等级不足"/>
+        </Enum>
+        <Enum name="ECuiTiType" comment="淬体">
+            <Member name="eCuiTiLianPi" comment="炼皮-武器"/>
+            <Member name="eCuiTiTongJin" comment="通筋-头盔"/>
+            <Member name="eCuiTiQiangJi" comment="强肌-戒指"/>
+            <Member name="eCuiTiDuanGu" comment="锻骨-衣服"/>
+            <Member name="eCuiTiHuoLuo" comment="活络-鞋子"/>
+            <Member name="eCuiTiXiSui" comment="洗髓-项链"/>
+            <Member name="eCuiTiMax" comment="淬体上限"/>
+        </Enum>
+        <Enum name="ECuiTiResult" comment="淬体">
+            <Member name="eCuiTiResultSucc" comment="成功"/>
+            <Member name="eCuiTiResultFailed" comment="失败"/>
+            <Member name="eCuiTiResultSilverErr" comment="银币不足"/>
+            <Member name="eCuiTiResultLvlMaxErr" comment="已达最高等级"/>
+            <Member name="eCuiTiResultPlayerLvlErr" comment="已达将最高等级"/>
+            <Member name="eCuiTiResultUnlock" comment="未解锁"/>
+        </Enum>
+        <Enum name="EShiftResult" comment="转移">
+            <Member name="eShiftSucc" comment="成功"/>
+            <Member name="eShiftFailed" comment="失败"/>
+            <Member name="eShiftGoldErr" comment="仙石不足"/>
+        </Enum>
+        <Enum name="ESyncLevelResult" comment="散仙等级同步">
+            <Member name="eSyncLevelSucc" comment="成功"/>
+            <Member name="eSyncLevelFailed" comment="失败"/>
+            <Member name="eSyncLevelAlready" comment="已是最高等级"/>
+            <Member name="eSyncLevelMoney" comment="同步等级所需银币不足"/>
+            <Member name="eSyncLevelMoneyMore" comment="同步等级成功但所需银币不足无法继续升级"/>
+        </Enum>
+        <Enum name="EDujieResult" comment="散仙渡劫">
+            <Member name="eDujieSucc" comment="成功"/>
+            <Member name="eDujieFailed" comment="失败"/>
+            <Member name="eDujieItemErr" comment="渡劫符不足"/>
+            <Member name="eDujieLevelMaxErr" comment="渡劫等级已是最高级"/>
+        </Enum>
+        <Enum name="EXinFaResult" comment="心法返回">
+            <Member name="eXinFaSucc" comment="成功"/>
+            <Member name="eXinFaFailed" comment="失败"/>
+        </Enum>
+        <Enum name="ECombinationResult" comment="散仙组合返回">
+            <Member name="eCombinationSucc" comment="成功"/>
+            <Member name="eCombinationFailed" comment="失败"/>
+            <Member name="eCombinationMaxLevel" comment="散仙组合已达最高等级"/>
+            <Member name="eCombinationHaved" comment="该散仙组合已激活"/>
+            <Member name="eCombinationNotHaved" comment="该散仙组合未激活"/>
+            <Member name="eCombinationFighterErr" comment="散仙未招募满"/>
+            <Member name="eCombinationItemErr" comment="道具不足"/>
+            <Member name="eCombinationMainLevelErr" comment="玩家主将等级不足"/>
+        </Enum>
+        <Enum name="EDismissResult" comment="散功返回">
+            <Member name="eDismissSucc" comment="成功"/>
+            <Member name="eDismissFailed" comment="失败"/>
+            <Member name="eNeedTakeOffStone" comment ="需要卸下宝石"/>
+        </Enum>
+        <Enum name="EFighterBuyResult" comment="购买散仙返回">
+            <Member name="eFighterBuySucc"             comment="成功"/>
+            <Member name="eFighterBuyFailed"           comment="失败"/>
+            <Member name="eFighterBuyAlready"          comment="已购买"/>
+            <Member name="eFighterBuyLackOfMoney"      comment="货币不足"/>
+        </Enum>
+        <Struct name="SFighterBuyInfo" vec="TVecFighterBuyInfo" comment="玩家购买散仙信息">
+            <Member type="UINT16" name="wFighterID" comment="将类型ID"/>
+            <Member type="UINT8" name="byFighterBuyStatus" comment="购买状态（0：未购买；1：已购买）"/>
+        </Struct>
+
+        <Struct name="SFighterCombination" vec="TVecFighterCombination" comment="玩家的散仙组合信息">
+            <Member type="UINT8" name="byGroupID" comment="散仙组合ID"/>
+            <Member type="UINT8" name="byGroupLvl" comment="散仙组合等级"/>
+            <Member type="UINT32" name="dwGroupExp" comment="散仙组合当前经验值"/>
+            <Member type="UINT8" name="byInLineUp" comment="是否出战在阵型(0未出战 1已出战)"/>
+            <Member type="UINT8" name="byInEMei" comment="是否出战在守卫峨眉(0未出战 1已出战)"/>
+        </Struct>
+        <Struct name="SFighterDBInfo" vec="TVecFighterDBInfo" comment="数据库同步到游戏服务器的将信息">
+            <Member type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Member type="UINT64" name="qwRoleID" comment="所属玩家ID"/>
+            <Member type="UINT16" name="wFighterID" comment="将类型ID"/>
+            <Member type="UINT8" name="byRecruited" comment="是否已招募"/>
+            <Member type="UINT8" name="byStar" comment="当前星级"/>
+            <Member type="INT32" name="iSlot" comment="将位置"/>
+            <Member type="INT32" name="iPos" comment="阵型中的位置"/>
+            <Member type="float" name="fPotential" comment="潜力"/>
+            <Member type="float" name="fCapacity" comment="资质"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT64" name="qwExp" comment="经验"/>
+            <Member type="UINT8" name="byLianPi" comment="炼皮"/>
+            <Member type="UINT8" name="byTongJin" comment="通筋"/>
+            <Member type="UINT8" name="byQiangJi" comment="强肌"/>
+            <Member type="UINT8" name="byDuanGu" comment="锻骨"/>
+            <Member type="UINT8" name="byHuoLuo" comment="活络"/>
+            <Member type="UINT8" name="byXiSui" comment="洗髓"/>
+            <Member type="UINT32" name="dwDujieExp" comment="散仙渡劫经验"/>
+            <Member type="UINT32" name="dwSpiritPower" comment="元神力"/>
+        </Struct>
+        <Struct name="SSkillDBInfo" vec="TVecSkillDBInfo" comment="数据库同步到游戏服务器的技能信息">
+            <Member type="UINT64" name="qwOwnerID" comment="将唯一ID"/>
+            <Member type="UINT32" name="dwUpSkill1" comment="使用中的技能1"/>
+            <Member type="UINT32" name="dwUpSkill2" comment="使用中的技能2"/>
+            <Member type="UINT32" name="dwUpSkill3" comment="使用中的技能3"/>
+            <Member type="UINT32" name="dwUpSkill4" comment="使用中的技能4"/>
+            <Member type="UINT32" name="dwUpSkill5" comment="使用中的技能5"/>
+            <Member type="UINT32" name="dwUpSkill6" comment="使用中的技能6"/>
+            <Member type="UINT32" name="dwSkill1" comment="技能1"/>
+            <Member type="UINT32" name="dwSkill2" comment="技能2"/>
+            <Member type="UINT32" name="dwSkill3" comment="技能3"/>
+            <Member type="UINT32" name="dwSkill4" comment="技能4"/>
+            <Member type="UINT32" name="dwSkill5" comment="技能5"/>
+            <Member type="UINT32" name="dwSkill6" comment="技能6"/>
+            <Member type="UINT32" name="dwSkill7" comment="技能7"/>
+            <Member type="UINT32" name="dwSkill8" comment="技能8"/>
+            <Member type="UINT32" name="dwSkill9" comment="技能9"/>
+            <Member type="UINT32" name="dwRune1" comment="符文1"/>
+            <Member type="UINT32" name="dwRune2" comment="符文2"/>
+            <Member type="UINT32" name="dwRune3" comment="符文3"/>
+            <Member type="UINT32" name="dwRune4" comment="符文4"/>
+            <Member type="UINT32" name="dwRune5" comment="符文5"/>
+            <Member type="UINT32" name="dwRune6" comment="符文6"/>
+            <Member type="UINT32" name="dwRune7" comment="符文7"/>
+            <Member type="UINT32" name="dwRune8" comment="符文8"/>
+            <Member type="UINT32" name="dwRune9" comment="符文9"/>
+            <Member type="UINT32" name="dwSkillAdv1" comment="技能进阶1"/>
+            <Member type="UINT32" name="dwSkillAdv2" comment="技能进阶2"/>
+            <Member type="UINT32" name="dwSkillAdv3" comment="技能进阶3"/>
+            <Member type="UINT32" name="dwSkillAdv4" comment="技能进阶4"/>
+            <Member type="UINT32" name="dwSkillAdv5" comment="技能进阶5"/>
+            <Member type="UINT32" name="dwSkillAdv6" comment="技能进阶6"/>
+            <Member type="UINT32" name="dwSkillAdv7" comment="技能进阶7"/>
+            <Member type="UINT32" name="dwSkillAdv8" comment="技能进阶8"/>
+            <Member type="UINT32" name="dwSkillAdv9" comment="技能进阶9"/>
+        </Struct>
+        <Struct name="SPassiveSkillDBInfo" vec="TVecPassiveSkillDBInfo" comment="数据库同步到游戏服务器的技能信息">
+            <Member type="UINT64" name="qwOwnerID"      comment="将唯一ID"/>
+            <Member type="UINT64" name="qwRoleID"       comment="玩家一ID"/>
+            <Member type="UINT32" name="dwSkillID"      comment="技能ID"/>
+            <Member type="UINT32" name="dwSkillQuality" comment="技能品质"/>
+            <Member type="UINT32" name="dwSkillLevel"   comment="技能等级"/>
+        </Struct>
+        <Struct name="SHeroFighterInTavernInfo" vec="TVecHeroFighterInTavernInfo"  comment="客栈散仙信息" >
+            <Member type="UINT16"  name="wID"              comment="散仙ID"/>
+            <Member type="bool"    name="bHired"           comment="是否已招募" />
+        </Struct>
+        <Struct name="STavernInfo" vec="TVecTavernInfo" comment="客栈信息">
+            <Member type="UINT16"                       name="wID"              comment="客栈ID"/>
+            <Member type="TVecHeroFighterInTavernInfo"  name="vecFighterInfo"   comment="客栈中散仙信息" />
+        </Struct>
+        <Struct name="SFighterBaseInfo" comment="战斗者除了外观之外的杂七杂八的基本信息">
+            <Member type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Member type="UINT16" name="wFighterID" comment="将类型ID"/>
+            <Member type="UINT8" name="byRecruited" comment="是否已招募"/>
+            <Member type="UINT8" name="byStar" comment="当前星级"/>
+            <Member type="INT32" name="iSlot" comment="将位置"/>
+            <Member type="INT32" name="iPos" comment="阵型中的位置"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT64" name="qwExp" comment="总经验"/>
+            <Member type="string" name="strName" comment="将名字"/>
+            <Member type="UINT32" name="dwHpMax" comment="最大血量"/>
+            <Member type="UINT32" name="dwHp" comment="当前血量"/>
+            <Member type="UINT32" name="dwAura" comment="当前灵气"/>
+            <Member type="UINT32" name="dwAuraMax" comment="最大灵气"/>
+            <Member type="UINT8" name="byLianPi" comment="炼皮"/>
+            <Member type="UINT8" name="byTongJin" comment="通筋"/>
+            <Member type="UINT8" name="byQiangJi" comment="强肌"/>
+            <Member type="UINT8" name="byDuanGu" comment="锻骨"/>
+            <Member type="UINT8" name="byHuoLuo" comment="活络"/>
+            <Member type="UINT8" name="byXiSui" comment="洗髓"/>
+            <Member type="UINT8" name="byDujieLevel" comment="散仙渡劫等级"/>
+            <Member type="UINT32" name="dwDujieExp" comment="散仙渡劫经验"/>
+            <Member type="UINT8" name="byQuality" comment="散仙品质(颜色)"/>
+            <Member type="UINT32" name="dwSpiritPower" comment="元神力"/>
+        </Struct>
+        <Struct name="SFightSkillInfo" vec="TVecFightSkillInfo" comment="参与战斗的技能信息">
+            <Member type="UINT8" name="byIdx" comment="技能槽idx"/>
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Struct>
+        <Struct name="SXinFaInfo" vec="TVecXinFaInfo" comment="心法信息">
+            <Member type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <Member type="UINT8" name="byXinFaLvl" comment="心法等级"/>
+            <Member type="INT32" name="iSlot" comment="心法槽 -1表示心法没装备"/>
+        </Struct>
+        <Struct name="SXinFaDBInfo" vec="TVecXinFaDBInfo" comment="数据库同步到游戏服务器的心法信息">
+            <Member type="UINT64" name="qwRoleID" comment="所属角色唯一ID"/>
+            <Member type="UINT64" name="qwOwnerID" comment="所属散仙ID"/>
+            <Member type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <Member type="UINT8" name="byXinFaLvl" comment="心法等级"/>
+            <Member type="INT32" name="iSlot" comment="心法槽 -1表示心法没装备"/>
+        </Struct>
+        <Struct name="SFighterInfo" vec="TVecFighterInfo" comment="战斗者信息">
+            <Member type="SFighterBaseInfo" name="oBaseInfo" comment="基本信息"/>
+            <Member type="ProtoCommon::TVecFtAttrMod" name="oAttrVec" comment="将属性"/>
+            <Member type="TVecFightSkillInfo" name="vActiveSkill" comment="装备的主动技能"/>
+            <Member type="TVecFightSkillInfo" name="vPassiveSkill" comment="被动技能"/>
+            <Member type="SFightSkillInfo" name="oPeerLees" comment="无双技能"/>
+            <Member type="TVecXinFaInfo" name="vecXinFa" comment="散仙已经学会的心法信息(注：供客户端计算属性百分比加成)"/>
+            <Member type="ItemProt::TVecItem" name="vecStoneItem" comment="宝石信息"/>
+            <Member type="ItemProt::TVecEquipTrump" name="vecEquipTrump" comment="装备法宝信息"/>
+        </Struct>
+        <Struct name="SFighterPos" vec="TVecFighterPos" comment="阵型位置信息">
+            <Member type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Member type="INT32" name="iPos" comment="将在阵型中的位置：-1表示下阵型"/>
+        </Struct>
+        <Struct name="SFighterSkill" vec="TVecFighterSkill" comment="散仙技能信息">
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="FighterSkillEquipTo" ret="true" comment="散仙装备主动技能">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <Param type="INT32" name="iSlot" comment="技能槽 -1表示卸下技能"/>
+            <RetParam type="ESkillResult" name="eResult" comment="结果"/>
+            <RetParam type="TVecFightSkillInfo" name="vActiveSkill" comment="装备的主动技能"/>
+        </Func>
+        <Func name="FighterSkillLevelUp" ret="true" comment="散仙技能升级">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <RetParam type="ESkillResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterPassiveSkillLevelUp" ret="true" comment="散仙被动技能升级">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <RetParam type="ESkillResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetTavernInfo" ret="true" comment="获取客栈信息" >
+            <RetParam type="UINT32"     name="dwDrawCount" comment="免费求签次数" />
+            <RetParam type="TVecTavernInfo" name="vecTavernInfo" comment="具体客栈信息" />
+        </Func>
+        <Func name="Draw" ret="true" comment="求签" >
+            <Param      type="EDrawType"                name="eType"        comment="求签类型" />
+            <RetParam   type="EDrawResult"              name="eResult"      comment="返回结果" />
+            <RetParam   type="ItemProt::TVecItemCount"  name="vecItemGet"   comment="求签获得物品" />
+        </Func>
+        <Func name="FighterRecruit" ret="true" comment="招募">
+            <Param type="UINT16" name="wFighterID" comment="将ID"/>
+            <RetParam type="ERecruitResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="CuiTiUpgrade" ret="true" comment="淬体升级">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="ECuiTiType" name="eCuiTiType" comment="淬体类型"/>
+            <Param type="UINT8" name="byTimes" comment="次数"/>
+            <RetParam type="ECuiTiResult" name="eResult" comment="结果"/>
+            <RetParam type="UINT8" name="byLevel" comment="当前淬体等级"/>
+        </Func>
+        <Func name="CuiTiAllUpgrade" ret="true" comment="散仙淬体全体(六种)升级一次">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <RetParam type="ECuiTiResult" name="eResult" comment="结果"/>
+            <RetParam type="TVecUINT8" name="vecLevel" comment="当前全体淬体等级(按炼皮/通筋/强肌/锻骨/活络/洗髓顺序)"/>
+        </Func>
+        <Func name="FighterShift" ret="true" comment="转移">
+            <Param type="UINT64" name="qwInstIDSrc" comment="将唯一ID"/>
+            <Param type="UINT64" name="qwInstIDDst" comment="将唯一ID"/>
+            <RetParam type="EShiftResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterSyncLevel" ret="true" comment="同步等级">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="UINT8" name="byGoalLvl" comment="同步的目标等级"/>
+            <RetParam type="ESyncLevelResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="UpgradeDujie" ret="true" comment="渡劫升级">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="UINT8"  name="byOneKey" comment="是否一键(是>0 否=0)"/>
+            <RetParam type="EDujieResult" name="eResult" comment="结果"/>
+            <RetParam type="UINT64" name="qwInstID" comment="将唯一ID"/>
+        </Func>
+        <Func name="ReqFighterXinFaInfo" ret="true" comment="请求散仙心法">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <RetParam type="TVecXinFaInfo" name="vecFighterXinFa" comment="散仙已经学会的心法信息"/>
+        </Func>
+        <Func name="FighterActiveXinFa" ret="true" comment="散仙学习心法">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <RetParam type="EXinFaResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterXinFaLevelUp" ret="true" comment="散仙心法升级">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <RetParam type="EXinFaResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterXinFaDisperse" ret="true" comment="散仙心法散功">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <RetParam type="EXinFaResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetAllFighterCombination" ret="true" comment="获取玩家的所有散仙组合">
+            <RetParam type="TVecFighterCombination" name="vecCombinationInfo" comment="玩家的散仙组合信息"/>
+        </Func>
+        <Func name="ActiveCombination" ret="true" comment="激活散仙组合">
+            <Param type="UINT8" name="byGroupID" comment="散仙组合ID"/>
+            <RetParam type="ECombinationResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="UpgradeCombination" ret="true" comment="升级散仙组合">
+            <Param type="UINT8" name="byGroupID" comment="散仙组合ID"/>
+            <Param type="UINT8" name="byOneKey" comment="是否一键(是>0 否=0)"/>
+            <RetParam type="SFighterCombination" name="oCombinationInfo" comment="当前升级的散仙组合信息"/>
+            <RetParam type="ECombinationResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="EquipToCombinationSkill" ret="true" comment="装备散仙组合技能(连携技)">
+            <Param type="UINT8" name="byGroupID" comment="散仙组合ID"/>
+            <Param type="UINT8" name="byType" comment="1出战在阵型 2出战在守卫峨眉"/>
+            <RetParam type="ECombinationResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterDismiss" ret="true" comment="散仙散功">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <RetParam type="EDismissResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetFighterBuyInfo" ret="true" comment="获取购买散仙信息">
+            <RetParam type="TVecFighterBuyInfo" name="vecFighterBuyInfo" comment="购买散仙信息"/>
+        </Func>
+        <Func name="FighterBuy" ret="true" comment="散仙购买">
+            <Param type="UINT16" name="wFighterID" comment="将ID"/>
+            <RetParam type="EFighterBuyResult" name="eResult" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SkillUpNotify" comment="装备技能返回">
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+            <Param type="INT32" name="iSlot" comment="技能槽 -1表示卸下技能"/>
+        </Func>
+        <Func name="SkillAddNotify" comment="增加新技能">
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Func>
+        <Func name="InstinctActiveNotify"  comment="散仙血脉激活">
+            <Param type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Param type="TVecUINT16" name="vecInstinctIDRandom" comment="血脉随机结果"/>
+            <Param type="TVecUINT16" name="vecInstinctIDRet" comment="血脉最终结果"/>
+        </Func>
+        <Func name="RecruitSuccNotify" comment="招募散仙成功的弹框通知">
+            <Param type="UINT16" name="wFighterID" comment="散仙ID"/>
+        </Func>
+        <Func name="FighterPosNotify" comment="阵型位置变更">
+            <Param type="TVecFighterPos" name="vecPos" comment="阵型位置"/>
+        </Func>
+        <Func name="UpdateDujieValue" comment="更新散仙的渡劫数据">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="UINT8" name ="byDujieLevel" comment="当前渡劫等级"/>
+            <Param type="UINT32" name="dwDujieExp" comment="当前渡劫经验"/>
+            <Param type="UINT32" name ="dwSpiritPower" comment="元神力"/>
+        </Func>
+        <Func name="XinFaNotify" comment="心法数据更新通知">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="UINT32" name="dwXinFaID" comment="心法ID"/>
+            <Param type="UINT8" name="byXinFaLvl" comment="心法等级"/>
+            <Param type="INT32" name="iSlot" comment="心法槽 -1表示心法没装备"/>
+        </Func>
+       <Func name="AddTalentSkillNotify" comment="散仙心法主卷等级满了添加一个天赋技能更新通知">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="UINT8" name="byIdx" comment="技能槽idx"/>
+            <Param type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Func>
+        <Func name="SkillListNotify" comment="散仙技能列表返回">
+            <Param type="UINT64" name="qwInstID" comment="将唯一ID"/>
+            <Param type="TVecFighterSkill" name="VecFighterSkill" comment="技能ID"/>
+        </Func>
+        <Func name="FighterCombinationNotify" comment="玩家的散仙组合列表返回">
+            <Param type="TVecFighterCombination" name="VecCombination" comment="散仙组合列表"/>
+        </Func>
+    </FuncS2C>
+</Protocol>
+

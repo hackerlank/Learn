@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="RoleEvent" id="11" proxy = "GameServer" comment="玩家在GameServer的消息处理"> 
+    <Refer>
+        <Protocol name="RoleInfoDefine"/>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="ItemProt"/>
+        <Protocol name="FighterProt"/>
+    </Refer>
+    <TypeDef>
+        <Struct name="SFighterSpecInfo" vec="TVecFighterSpecInfo" comment="面板散仙信息">
+            <Member type="ItemProt::TVecItem" name="oEquips" comment="散仙所有装备信息"/>
+            <Member type="FighterProt::SFighterInfo" name="oFighterInfo" comment="散仙基本信息"/>
+        </Struct>     
+        <Struct name="SRoleFighterStream" comment="散仙信息">
+            <Member type="SFighterSpecInfo" name="oMainFighter" comment="主散仙的信息"/>
+            <Member type="TVecFighterSpecInfo" name="oFighters" comment="所有散仙的信息"/>
+        </Struct>
+        <Struct name="SRoleStream" comment="面板散仙信息">
+            <Member type="SFighterSpecInfo" name="oMainFighter" comment="主散仙的信息"/>
+        </Struct>
+        <Enum name="ECritType" signed="true" comment="暴击类型">
+            <Member name="ePetCrit" comment="阵灵暴击"/>
+            <Member name="eHorseCrit" comment="坐骑暴击"/>
+            <Member name="eFashionCrit" comment="时装暴击"/>
+            <Member name="eTrumpCrit" comment="法宝暴击"/>
+            <Member name="eDujieCrit" comment="渡劫暴击"/>
+            <Member name="eMoneyTreeCrit" comment="摇钱树暴击"/>
+        </Enum>
+        <Enum name="ECritMultiple" signed="true" comment="暴击倍数">
+            <Member name="eTwoMultipleCrit" comment="2倍暴击"/>
+            <Member name="eFiveMultipleCrit" comment="5倍暴击"/>
+            <Member name="eTenMultipleCrit" comment="10倍暴击"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetRoleSpecInfo" ret="true" comment="获取角色面板信息">
+            <RetParam type="SRoleStream" name="stRoleStream" comment="角色信息"/>
+        </Func>
+        <Func name="GetFighters" ret="true" comment="取得散仙列表">
+            <RetParam type="TVecFighterSpecInfo" name="vecFighters" comment="散仙信息"/>
+        </Func>
+        <Func name="StoreGuide" ret="true" comment="存储新手引导信息">
+            <Param type="string" name="strGuide" comment="引导步骤信息"/>
+            <RetParam type="bool" name="bResult" comment="结果"/>
+        </Func>
+        <Func name="GetRoleBuffInfo" ret = "true" comment="获取角色Buff信息">
+            <RetParam type="ProtoCommon::TVecBuffInfo" name="vecBuffInfo" comment="玩家Buff信息" />
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="FighterInfoNotify" comment="散仙信息通知列表">
+            <Param type="TVecFighterSpecInfo" name="vecFighters" comment="散仙信息"/>
+        </Func>
+        <Func name="AddAppearIconNotify" comment="增加的AppearIcon通知">
+            <Param type="TVecUINT16" name="vecAppearIcon" comment="增加的Icon列表"/>
+        </Func>
+        <Func name="BuffNotify" comment="玩家Buff变化通知">
+            <Param type="ProtoCommon::EDataChange" name="eType" comment="更新类型，增加，删除，修改"/>
+            <Param type="ProtoCommon::TVecBuffInfo" name="vecBuffInfo" comment="玩家Buff信息" />
+        </Func>
+        <Func name="ChangeMapNotify" comment="准备切地图">
+            <Param type="UINT16" name="wMapId" comment="地图id，客户端准备资源 "/>
+            <Param type="UINT64" name="qwDgnId" comment="副本实例，非单人副本为0 "/>
+            <Param type="UINT16" name="wDgnType" comment="副本模板，单人副本为0 "/>
+        </Func>
+        <Func name="CritNotify" comment="暴击通知">
+            <Param type="ECritType" name="eCritType" comment="暴击类型"/>
+            <Param type="ECritMultiple" name="eCritMultiple" comment="暴击倍数"/>
+        </Func>
+        <Func name="DelAppearIconNotify" comment="删除AppearIcon通知">
+            <Param type="UINT16" name="wIconID" comment="删除的IconApear"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

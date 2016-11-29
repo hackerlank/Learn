@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="MailProt" id="19" proxy = "CenterServer"  comment="邮件CenterServer通讯协议">
+    <Refer> 
+	<Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EMailQueryType" comment="邮件状态">
+            <Member name="eQueryNew" value="0" comment="新邮件"/>
+            <Member name="eQueryReaded" value="1" comment="已读"/>
+            <Member name="eQueryTotal" value="2" comment="全部"/>
+            <Member name="eQueryPerson" value="3" comment="个人"/>
+            <Member name="eQuerysysTem" value="4" comment="系统"/>
+            <Member name="eQueryAttch" valuue="5" comment="附件"/>
+        </Enum>
+        <Enum name="EMailState" comment="邮件状态">
+            <Member name="eStateNew" value="0" comment="新邮件"/>
+            <Member name="eStateReaded" value="1" comment="已读"/>
+            <Member name="eStateDelete" value="2" comment="已删"/>
+        </Enum>
+        <Enum name="EMailErrorResult" comment="邮件状态">
+            <Member name="EMail_SendOk" value="1" comment="发送成功"/>
+            <Member name="EMail_SendFail" value="2" comment="发送失败"/>
+            <Member name="EMail_DeleteOk" value="3" comment="删除成功"/>
+            <Member name="EMail_DeleteFail" value="4" comment="删除失败"/>
+            <Member name="EMail_OverMaxCount" value="5" comment="超过最大上限"/>
+        </Enum>
+        <Enum name="EMailType" comment="邮件类型">
+            <Member name="EMAILTYPE_NORMAL" value="0" comment="普通邮件"/>
+            <Member name="EMAILTYPE_SYSTEM" value="1" comment="系统邮件"/>
+        </Enum>
+        <Enum name="EMailAttachType" comment="附件类型">
+            <Member name="ATTACH_ITEM" value="0" comment="有模板物品"/>
+            <Member name="ATTACH_INSTANCE" value="1" comment="有实例物品"/>
+            <Member name="ATTACH_MAX" value="255" comment="不当位处理，作为附件已经领取的特殊标记"/>
+        </Enum>
+         <Enum name="EMailDRawResult" desc="true" comment="附件提取结果">
+            <Member name="DRAW_SUC" value="0" comment="提取成功"/>
+            <Member name="PACK_FULL" value="1" comment="包裹满"/>
+        </Enum>
+        <Struct name="SysMailSendTxt"  vec="TVecSysMailSendTxt"  comment="系统邮件标题，及其内容">
+            <Member type="UINT32"  name="dwstrMsgID" comment="消息ID"/>
+            <Member type="TVecString" name ="vecParam" comment ="参数列表"/>
+        </Struct>
+        <Struct name="SMailSummary" vec="TVecMailList" comment="邮件摘要列表">
+            <Member type="UINT64" name="uMailID" comment="邮件ID"/>
+            <Member type="EMailType" name="eMailType" comment="邮件类型"/>
+            <Member type="EMailState" name="eMailState" comment="邮件状态"/>
+            <Member type="UINT32" name="uSendTime" comment="邮件发送时间"/>
+            <Member type="UINT8" name="byHasAttachment" comment="0:没有   1:有"/>
+            <Member type="string" name="strTitle" comment="邮件标题"/>
+            <Member type="string" name="strSendName" comment="发送者"/>
+        </Struct>
+        <Struct name="SMailItemInfo" vec="TVecMailItemInfo" comment="道具格式">
+		    <Member type="UINT64" name="qwInstID" comment="道具类型ID"/>
+            <Member type="UINT32" name="wItemID" comment="物品模板"/>
+            <Member type="ItemProt::EItemQuality" name="eItemQuelity" comment="物品品质"/>
+            <Member type="UINT32" name="wCount"  comment="道具数量"/>
+            <Member type="ItemProt::EBindType" name="eBindType"  comment="绑定类型"/>
+            <Member type="UINT8" name="byExpired"  comment="是否时效，>0 时效物品"/>
+            <Member type="UINT32" name="dwExpireTime"  comment="过期时间"/>
+            <Member type="UINT64" name="qwOPID" comment="操作ID"/>
+        </Struct>
+        <Struct name="SMailBaseAttachment" vec="TVecMailAttachment" comment="邮件附件">
+            <SubStruct name="SItemAttachment" comment="物品附件">
+                <Member type="TVecMailItemInfo" name="vecItemInfo" comment="物品"/>
+            </SubStruct>
+			<!---
+		    <SubStruct name="SShippingLog" comment="跑商日志">
+                <Member type="ShippingCT::TVecShipLog" name="vecLogs" comment="日志"/>
+            </SubStruct>			
+            -->
+            <SubStruct name="SItemBaseCT" comment="物品附件:具体物品对象">
+                <Member type="ItemProt::TVecItem" name="vecItems" comment="物品"/>
+            </SubStruct>
+        </Struct>
+        <Struct name="SMailDetail" vec="TVecMailDetail" comment="邮件详细信息">
+            <Member type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Member type="EMailState" name="eMailState" comment="邮件状态"/>
+            <Member type="UINT32" name="dwSendTime" comment="邮件发送时间"/>
+            <Member type="UINT8" name="byGeted" comment="255表示有附件，并且已经领取，其他为按位表示有附件的类型"/>
+            <Member type="EMailType" name="eMailType" comment="邮件类型"/>
+            <Member type="TVecMailAttachment" name="vecMailAttachment" comment="附件"/>
+            <Member type="string" name="strTitle" comment="邮件标题"/>
+            <Member type="string" name="strSendName" comment="发送者"/>
+            <Member type="string" name="strMessage" comment="信息"/>
+            <!--- <Member type="string" name="strAttachment" comment="附件：数据库用"/>-->
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="MailPageIDReq" comment="邮件ID请求">
+            <Param type="UINT32" name="uStartIndex" comment="请求开始序号"/>
+            <Param type="UINT32" name="uiMailNum" comment="请求邮件数量"/>
+            <Param type="EMailQueryType" name="eQueryType" comment="邮件类型"/>
+        </Func>
+        <Func name="MailSummaryListReq" comment="页邮件列表信息请求">
+            <Param type="TVecUINT64" name="vecMailIDList" comment="请求ID列表"/>
+        </Func>
+        <Func name="MailDetailReq" comment="单邮件信息请求">
+            <Param type="UINT64" name="uiMailID" comment="邮件ID"/>
+        </Func>
+        <Func name="SendMail" comment="发送邮件">
+            <Param type="string" name="strReceiveName" comment="接受者姓名"/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strMsg" comment="邮件内容"/>
+        </Func>
+        <Func name="DeleteMail" comment="删除邮件">
+            <Param type="TVecUINT64" name="vecMailIDList" comment="请求ID列表"/>
+        </Func>
+        <Func name="MailAttachmentGetReq" comment="收取附件">
+            <Param type="UINT64" name="qwMailID" comment="邮件ID"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="MailPageIDAck" comment="页邮件ID回答">
+            <Param type="TVecUINT64" name="vecMailIDList" comment="页面ID列表"/>
+            <Param type="UINT32" name="uStartIndex" comment="当前请求索引"/>
+            <Param type="UINT32" name="uMailTotalNum" comment="邮件总数量"/>
+            <Param type="EMailQueryType" name="eQueryType" comment="邮件类型"/>
+        </Func>
+        <Func name="MailSummaryListAck" comment="页邮件列表信息回答">
+            <Param type="TVecMailList" name="vecMailList" comment="邮件列表"/>
+        </Func>
+        <Func name="MailDetailAck" comment="页邮件列表信息回答">
+            <Param type="SMailDetail" name="rMailDetail" comment="邮件详细信息"/>
+        </Func>
+        <Func name="NewMailNotify" comment="新邮件通知">
+            <Param type="UINT8" name="byIsFrameNotify" comment="1:需要弹框显示 0:不需要弹框显示(邮件闪烁)"/>
+        </Func>
+        <Func name="MailSendResult" comment="邮件发送结果">
+            <Param type="EMailErrorResult" name="eErrorResult" comment="返回结果"/>
+        </Func>
+        <Func name="MailDeleteResult" comment="邮件发送结果">
+            <Param type="TVecUINT64" name="vecMailIDList" comment="请求ID列表"/>
+            <Param type="EMailErrorResult" name="eErrorResult" comment="返回结果"/>
+        </Func>
+        <Func name="MailAttachmentGetAck" AckMsg= "eReSult" comment="收取附件结果">
+            <Param type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Param type="EMailDRawResult" name="eReSult" comment="提取附件结果"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

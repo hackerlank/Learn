@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GuardEMeiProt" id="86" proxy="GameServer" comment="守卫峨眉协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EGEMOptResult" signed="true" comment="操作结果">
+            <Member name="eGEMOptResultFailed" comment="失败"/>
+            <Member name="eGEMOptResultSucc" comment="成功"/>
+        </Enum>
+        <Enum name="EGEMBattleType" signed="true" comment="战斗类型">
+            <Member name="eGEMBattleTypeA" comment="播放战报战斗"/>
+            <Member name="eGEMBattleTypeB" comment="不播放战报战斗"/>
+        </Enum>
+        <Enum name="EGEMBattleRet" signed="true" comment="战斗结果">
+            <Member name="eGEMBattleFailed" comment="战斗失败"/>
+            <Member name="eGEMBattleSucc" comment="战斗成功"/>
+        </Enum>
+        <Struct name="SGEMBattleFighterInfo" vec="TVecGEMBattleFighterInfo" comment="守卫峨眉参战散仙信息">
+            <Member type="UINT32" name="dwFighterID" comment="将模版ID"/>
+            <Member type="UINT8" name="byFighterLevel" comment="将等级"/>
+            <Member type="UINT8" name="byFighterColour" comment="将颜色"/>
+            <Member type="UINT32" name="dwFighterCurHP" comment="将当前血量"/>
+            <Member type="UINT32" name="dwFighterMaxHP" comment="将最大血量"/>
+            <Member type="UINT32" name="dwFighterCurAnima" comment="将当前灵气"/>
+            <Member type="UINT32" name="dwFighterMaxAnima" comment="将最大灵气"/>
+        </Struct>
+        <Struct name="SGEMAwardInfo" vec="TVecGEMAwardInfo" comment="守卫峨眉奖励信息">
+            <Member type="UINT16" name="wItemID" comment="物品ID"/>	
+            <Member type="UINT32" name="dwCount" comment="堆叠数"/>
+        </Struct>
+        <Struct name="SGEMBuffInfo" vec="TVecGEMBuffInfo" comment="守卫峨眉Buff信息">
+            <Member type="UINT32" name="dwBuffID" comment="BuffID"/>
+            <Member type="UINT32" name="dwBuffNum" comment="Buff数量"/>
+        </Struct>
+        <Struct name="SGEMPrepareBattleInfo" desc="true" comment="守卫峨眉准备战斗信息">
+            <Member type="UINT16" name="wCurProgress" comment="当前进度"/>
+            <Member type="UINT32" name="dwMonsterID" comment="怪物ID"/>
+            <Member type="UINT32" name="dwBattlePoint" comment="参战散仙战斗力"/>
+            <Member type="TVecGEMBuffInfo" name="vecGEMBuffInfo" comment="守卫峨眉Buff信息"/>
+            <Member type="TVecGEMBattleFighterInfo" name="vecGEMBattleFighterInfo" comment="守卫峨眉参战散仙信息"/>
+        </Struct>
+        <Struct name="SGEMMissionInfo" vec="TVecGEMMissionInfo" comment="守卫峨眉关卡信息">
+            <Member type="UINT16" name="wFreeEntryNumDay" comment="当日免费进入次数"/>
+            <Member type="UINT16" name="wBuyEntryNumDay" comment="当日购买进入次数"/>
+            <Member type="UINT16" name="wBuyEntryTotalNum" comment="购买进入总次数"/>
+            <Member type="UINT64" name="qwIsGuardSucc" comment="每一位表示守卫是否成功（注：0未成功；1成功）"/>
+            <Member type="UINT16" name="wCurMissionID" comment="正在进行的关卡ID（注：0表示没有）"/>
+            <Member type="UINT8" name="byGEMType" comment="正在进行的类型（注：0表示没有；1：守卫；2：扫荡）"/>
+            <Member type="UINT16" name="wCurProgress" comment="正在进行的关卡进度（注：0表示没有）"/>
+        </Struct>
+        <Struct name="SGEMDBInfo" vec="TVecGEMDBInfo" comment="守卫峨眉DB信息">
+            <Member type="UINT64" name="qwRoleID" comment="RoleID"/>	
+            <Member type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <Member type="UINT8" name="byGEMType" comment="正在进行的类型（注：0表示没有；1：守卫；2：扫荡）"/>
+            <Member type="UINT16" name="wCurProgress" comment="当前进度"/>
+            <Member type="UINT16" name="wGuardProgress" comment="守卫进度"/>
+            <Member type="UINT32" name="dwGuardMonsterGroupID" comment="怪物组ID"/>
+            <Member type="UINT32" name="dwSweepEndTime" comment="扫荡结束时间"/>
+            <Member type="string" name="strBuff" comment="守卫峨眉Buff"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="ReqGEMInfo" ret="true" comment="请求守卫峨眉信息">
+            <RetParam type="TVecGEMMissionInfo" name="vecGEMMissionInfo" comment="守卫峨眉关卡信息"/>
+        </Func>
+        <Func name="BuyGEMEntryNum" ret="true" comment="请求购买守卫峨眉进入次数">
+            <RetParam type="EGEMOptResult" name="eGEMOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqUseBuff" ret="true" comment="请求使用Buff">
+            <Param type="UINT32" name="dwBuffID"  comment="BuffID"/>
+            <RetParam type="TVecGEMBattleFighterInfo" name="vecGEMBattleFighterInfo" comment="守卫峨眉参战散仙信息"/>
+            <RetParam type="TVecGEMBuffInfo" name="vecGEMBuffInfo" comment="守卫峨眉Buff信息"/>
+        </Func>
+        <Func name="ReqResetGEM" ret="true" comment="请求重置关卡">
+            <Param type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <RetParam type="EGEMOptResult" name="eGEMOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqGEMPrepareBattleInfo" ret="true" comment="请求守卫峨眉准备战斗信息">
+            <Param type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <RetParam type="SGEMPrepareBattleInfo" name="sGEMPrepareBattleInfo"  comment="守卫峨眉准备战斗信息"/>
+        </Func>
+        <Func name="ReqGEMBattle" ret="true" comment="请求守卫峨眉战斗">
+            <Param type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <Param type="UINT32" name="dwBuffID"  comment="BuffID"/>
+            <Param type="EGEMBattleType" name="eGEMBattleType"  comment="战斗类型"/>
+            <RetParam type="EGEMBattleRet" name="eGEMBattleRet"  comment="战斗结果"/>
+            <RetParam type="SGEMPrepareBattleInfo" name="sGEMPrepareBattleInfo"  comment="守卫峨眉下一波准备战斗信息"/>
+        </Func>
+        <Func name="ReqSweepBegin" ret="true" comment="请求获取守卫峨眉扫荡开始">
+            <Param type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <RetParam type="EGEMOptResult" name="eGEMOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqSweepEnd" ret="true" comment="请求获取守卫峨眉扫荡结束(放弃扫荡)">
+            <Param type="UINT16" name="wMissionID" comment="关卡ID"/>
+            <RetParam type="UINT16" name="wCurProgress" comment="当前进度"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SweepInfoNotify" comment="扫荡信息通知">
+            <Param type="UINT16" name="wCurProgress" comment="当前进度"/>
+            <Param type="TVecGEMAwardInfo" name="vecGEMSAwardInfo" comment="守卫峨眉扫荡奖励信息"/>
+        </Func>
+        <Func name="MissionPassSuccNotify" comment="关卡通关成功通知">
+        </Func>
+        <Func name="MissionPassFailedtify" comment="关卡通关失败通知">
+        </Func>
+    </FuncS2C>
+</Protocol>

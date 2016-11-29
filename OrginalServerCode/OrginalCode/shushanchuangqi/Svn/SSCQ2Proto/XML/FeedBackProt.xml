@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="FeedBackProt" id="144" proxy="GameServer" comment="消费回馈">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EFeedBackRet" comment="消费回馈错误码">
+            <Member name="eFeedBackRet_Sucess" value="0" comment="成功"/>
+            <Member name="eFeedBackRet_MoneyLimit" comment="仙元不足"/>
+            <Member name="eFeedBackRet_TakeCntLimit" comment="领取次数限制"/>
+            <Member name="eFeedBackRet_IDError" comment="领奖id错误"/>
+            <Member name="eFeedBackRet_TimeError" comment="不在限购时间"/>
+            <Member name="eFeedBackRet_CFGError" comment="配置错误"/>
+            <Member name="eFeedBackRet_ParamError" comment="参数错误"/>
+            <Member name="eFeedBackRet_PackError" comment="背包空间不足"/>
+            <Member name="eFeedBackRet_ActiveTimeError" comment="不在活动时间内"/>
+            <Member name="eFeedBackRet_PrizeCntError" comment="领奖次数限制"/>
+        </Enum>
+        <Enum name="EFeedBackActType" comment="消费回馈类型">
+            <Member name="eFeedBackActType_Invalid" value="0" comment="无效"/>
+            <Member name="eFeedBackActType_EquipTrump" comment="法宝强化"/>
+            <Member name="eFeedBackActType_Stone" comment="宝石合成"/>
+        </Enum>
+        <Struct name="SFeedBackInfo" vec="TVecFeedBackInfo" comment="回馈信息">
+            <Member type="UINT32" name="dwActID" comment="活动id"/>
+            <Member type="UINT32" name="dwBeginTime" comment="开始时间"/>
+            <Member type="UINT32" name="dwEndTime" comment="结束时间"/>
+            <Member type="UINT32" name="dwTakePrizeMax" comment="可领奖次数"/>
+            <Member type="UINT32" name="dwTakePrizedCnt" comment="已领奖次数"/>
+        </Struct>
+        
+        <Struct name="SBuyDiscountInfo" vec="TVecSBuyDiscountInfo" comment="折扣限购信息">
+            <Member type="EFeedBackActType" name="eType" comment="消费回馈类型"/>
+            <Member type="UINT32" name="dwBuyCount" comment="已领购买次数"/>
+        </Struct>
+        
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetFeedBackList" ret="true"  comment="获取回馈列表">
+            <RetParam type="TVecFeedBackInfo" name="vecFeedBackInfo" comment="回馈信息列表"/>
+            <RetParam type="TVecSBuyDiscountInfo" name="vecSBuyDiscountInfo" comment="折扣限购信息"/>
+        </Func>
+        <Func name="BuyDisCountItem" ret="true" comment="购买折扣物品">
+            <Param type="UINT32" name="dwBuyID" comment="购买id"/>
+            <Param type="UINT32" name="dwCount" comment="购买id数量"/>
+            <RetParam type="EFeedBackRet" name="eRet" comment="结果"/>
+        </Func>
+         <Func name="TakeFeedBackPrize" ret="true" comment="领取奖励">
+            <Param type="UINT32" name="dwActID" comment="活动id"/>
+            <RetParam type="EFeedBackRet" name="eRet" comment="结果"/>
+            <RetParam type="UINT32" name="dwBuyCount" comment="已购买次数（购买成功后返回次数）"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="FeedBackInfoNotify" comment="回馈信息更新">
+            <Param type="SFeedBackInfo" name="oFeedBackInfo" comment="回馈信息"/>
+        </Func>
+        <Func name="FeedBackExpireNotify" comment="回馈活动过期">
+            <Param type="UINT32" name="dwActID" comment="活动id"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

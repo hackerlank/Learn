@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ActivityProt" id="53" proxy="GameServer" comment="活力任务协议">
+    <Refer>
+        <Protocol name="RoleInfoDefine"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EActivityResult" comment="任务的结果">
+            <Member name="eActivitySucceed" comment="成功"/>
+            <Member name="eActivityMin" comment="活力度不足"/>
+            <Member name="eActivityTotalMin" comment="累计活力值不足"/>
+            <Member name="eActivityPackNoSpace" comment="背包不足"/>
+            <Member name="eActivityHasGet" comment="奖励已领取"/>
+            <Member name="eActivityVip" comment="御剑等级不足"/>
+            <Member name="eActivityErrOther" comment="其它错误"/>
+            <Member name="eActivityNotFinish" comment="任务未完成"/>
+        </Enum>
+        <Struct name="SActivityAward" vec ="TVecActivityAward" comment ="每日已领活力奖励">
+            <Member type ="UINT8" name = "byId" comment = "奖励ID"/> 
+            <Member type ="UINT8" name = "byVIP" comment = "是否VIP"/> 
+        </Struct> 
+
+        <Struct name="SActivityInfoForClient" vec="TVecActivityInfo" comment="活力任务信息">
+            <Member type ="UINT32" name ="dwTotolActivity" comment = "累计活力值" />
+            <Member type=  "UINT16" name ="wActivity" comment="当前活力" />
+            <Member type="RoleInfoDefine::TVecActivityTaskInfo" name="vecActivityTask" comment="活力监测点"/>
+            <Member type="TVecActivityAward" name="vecActivityAward" comment="已领活力"/>
+        </Struct>
+        <Enum name="EShareStatus" desc="true" comment="成就完成进度">      
+            <Member name="eShareStatus_Init"  value="0"  comment="未完成"/> 
+            <Member name="eShareStatus_Finish"  comment="已完成"/>
+            <Member name="eShareStatus_TakePrize"  comment="已领奖"/>
+        </Enum>
+        <Struct name="SActivityShare" vec="TVecActivityShare" comment="活力分享列表">
+            <Member type="UINT32" name="dwActivityID" comment="活跃度ID"/>
+            <Member type="EShareStatus" name="eStatus" comment="分享状态"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetActivityPool" ret="true" comment="请求获得奖池">
+            <RetParam type="EActivityResult" name="eResult"  comment="操作结果"/>
+            <RetParam type="UINT32" name="dwTotolActivity" comment="活力总值"/>
+        </Func>
+        <Func name="GetActivityAward" ret="true" comment="请求活力奖励">
+            <Param type="SActivityAward" name="stActivityGet"  comment="奖励Id"/>
+            <RetParam type="EActivityResult" name="eResult"  comment="操作结果"/>
+            <RetParam type="SActivityAward" name="stActivityPost"  comment="奖励Id"/>
+        </Func>
+        <Func name="GetAllInfoActivity"  comment="获取活力任务详情">
+        </Func>
+        <Func name="GeShareList" ret="true" comment="获取成就分享信息">
+            <RetParam type="TVecActivityShare" name="vecActivityShare" comment="成就分享信息"/>
+        </Func>
+        <Func name="TakeSharePrize" ret="true" comment="获取成就分享奖励">
+            <Param type="UINT32" name="dwActivityID" comment="活跃度ID"/>
+            <RetParam type="EActivityResult" name="eRet" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ReturnAllInfoActivity"  comment="获取活力任务详情">
+            <Param  type ="SActivityInfoForClient" name = "stActivityInfo"  comment="活力任务详情"/>           
+        </Func>
+        <Func name="UpdateActivityTask"  comment="活力监测点更新">
+            <Param  type ="RoleInfoDefine::SActivityTaskInfo" name = "stActivityTask"  comment="活力监测点更新"/> 
+            <Param type="UINT32" name="dwTotolActivity" comment="活力总值"/>
+            <Param type="UINT16" name="wActivity" comment="今日活力值"/>
+        </Func>
+        <Func name="UpdateActivityTotal"  comment="活力总值更新">
+            <Param type="UINT32" name="dwTotolActivity" comment="活力总值"/>
+        </Func>
+        <Func name="ShareNotify" comment="成就分享通知">
+            <Param type="SActivityShare" name="oActivityShare" comment="成就分享信息"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

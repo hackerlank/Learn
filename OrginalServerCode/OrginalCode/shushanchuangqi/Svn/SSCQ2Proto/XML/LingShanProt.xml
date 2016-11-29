@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="LingShanProt" id="135" proxy="GameServer" comment="灵山（改名秘境）寻宝">
+    <Refer>       
+    </Refer>
+    <TypeDef>
+        <Enum name="ELingShanOP" comment="灵山操作结果">
+            <Member name="eLingShanOP_Sucess"   value="0"   comment="成功" />
+            <Member name="eLingShanOP_Fail"     value="1"   comment="失败"/>
+			<Member name="eLingShanOP_Cd"    value="2"   comment="cd" />
+			<Member name="eLingShanOP_ErrorPath"      value="3"   comment="目标点错误,没有路径" />
+			<Member name="eLingShanOP_NoMove"    value="4"   comment="目前状态无法移动" />
+            <Member name="eLingShanOP_NoOpen"           value="5"   comment="活动未开始" />
+            <Member name="eLingShanOP_NoReg"                  comment="未报名" />
+            <Member name="eLingShanOP_ErrorRoomId"            comment="错误的房间" />
+            <Member name="eLingShanOP_MoveCd"                 comment="移动cd限制" />
+            <Member name="eLingShanOP_MapCFG"                 comment="获取地图配置错误" />
+            <Member name="eLingShanOP_NotInRoom"              comment="不在比赛地图" />
+            <Member name="eLingShanOP_ErrorModelID"           comment="错误的模型ｉｄ" />
+            <Member name="eLingShanOP_ErrorCondID"            comment="开启条件不满足" />
+            <Member name="eLingShanOP_ActEnded"               comment="活动已结束" />
+            <Member name="eLingShanOP_ChatCD"                 comment="聊天ｃｄ" />
+            <Member name="eLingShanOP_End"  comment="" />
+        </Enum>
+        <Enum name="ELingShanStatus" comment="玩家状态">
+            <Member name="eLingShanStatus_Init" value="0" comment="未报名状态" />
+            <Member name="eLingShanStatus_Wait"  comment="排队状态" />
+            <Member name="eLingShanStatus_Move"  comment="可移动状态" />
+            <Member name="eLingShanStatus_PlayMovie"  comment="播放动画状态" />
+            <Member name="eLingShanStatus_End"  comment="活动结束状态" />
+        </Enum>
+        <Enum name="ELingShanObjType" comment="地图格子上单元类型（暂时不用）">
+            <Member name="eLingShanObjType_Invalid" value="0" comment="无效类型" />
+            <Member name="eLingShanObjType_Player"  comment="玩家" />
+            <Member name="eLingShanObjType_Box"  comment="物品(宝箱)" />
+            <Member name="eLingShanObjType_Monster"  comment="怪物" />
+            <Member name="eObjType_End"  comment="活动结束状态" />
+        </Enum>
+        <Enum name="ELingShanPrizeType" comment="玩家获取奖励类型">
+            <Member name="eLingShanPrizeType_Invalid" value="0" comment="无效类型" />
+            <Member name="eLingShanPrizeType_PickNormalBox"  comment="拣普通宝箱" />
+            <Member name="eLingShanPrizeType_PickGodBox"  comment="拣大宝箱" />
+            <Member name="eLingShanPrizeType_MoveByGodBox"  comment="带有大宝箱" />
+            <Member name="eLingShanPrizeType_Win"  comment="击败玩家" />
+            <Member name="eLingShanPrizeType_Fail"  comment="被击败" />
+            <Member name="eLingShanPrizeType_End"  comment="" />
+        </Enum>
+        <Enum name="ECollideType" comment="碰撞类型">
+            <Member name="eCollideType_Invalid" value="0" comment="无效数据" />
+            <Member name="eCollideType_Path" value="1" comment="路径碰撞" />
+            <Member name="eCollideType_Grid"  comment="格子碰撞" />
+        </Enum>
+        <Struct name="STakePrizeLog" vec="TVecTakePrizeLog" comment="玩家获取奖励记录">
+            <Member type="ELingShanPrizeType" name="eType" comment="奖励类型"/>
+            <Member type="UINT16" name="wTakeBoxCount" comment="获得宝箱数量"/>
+            <Member type="string" name="strFailName" comment="敌对玩家"/>
+            <Member type="UINT64" name="qwReportID" comment="战报id"/>
+            <Member type="float" name="fHPRate" comment="最终血量"/>
+            <Member type="UINT32" name="dwSuiYuan" comment="增加的随缘值"/>
+            <Member type="ECollideType" name="eCollideType" comment="碰撞类型"/>
+        </Struct>
+        <Struct name="SBoxInfo" vec="TVecBoxInfo" comment="地图箱子信息">
+            <Member type="UINT16" name="wPos" comment="当前所在地图位置"/>
+            <Member type="UINT16" name="dwModelID" comment="物品id"/>
+        </Struct>
+        <Struct name="SRoomPlayInfo" vec="TVecRoomPlayInfo" comment="比赛的玩家信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家id"/>
+            <Member type="UINT32" name="dwModelID" comment="模型id"/>
+            <Member type="UINT16" name="dwKillCnt" comment="击杀人数"/>
+            <Member type="bool" name="bGodBox" comment="是否带有大宝箱"/>
+            <Member type="UINT16" name="wPos" comment="当前所在地图位置"/>
+        </Struct>
+        <Struct name="SRoomMonsterInfo" vec="TVecRoomMonsterInfo" comment="地图的怪物信息">
+            <Member type="UINT32" name="dwMonsterID" comment="怪物组id"/>
+            <Member type="UINT16" name="dwKillCnt" comment="击杀人数"/>
+            <Member type="UINT16" name="wPos" comment="当前所在地图位置"/>
+        </Struct>
+        <Struct name="SPlayerMoveInfo" vec="TVecPlayerMoveInfo" comment="玩家移动信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家id"/>
+            <Member type="UINT16" name="wSrcPos" comment="当前位置"/>
+            <Member type="UINT16" name="wDstPos" comment="目标位置"/>
+        </Struct>
+        <Struct name="SPathCollideInfo" vec="TVecPathCollideInfo" comment="玩家路径碰撞信息">
+            <Member type="UINT16" name="wMinPos" comment="小编号位置"/>
+            <Member type="UINT16" name="wMaxtPos" comment="大编号位置"/>
+            <Member type="UINT64" name="qwWinPlayer" comment="胜利玩家"/>
+            <Member type="UINT32" name="dwWinKillCnt" comment="胜利击杀数目"/>
+            <Member type="UINT64" name="qwFailPlayer" comment="失败玩家"/>
+        </Struct>
+        <Struct name="SGridCollideInfo" vec="TVecGridCollideInfo" comment="玩家格子碰撞信息">
+            <Member type="UINT16" name="wPos" comment="碰撞位置"/>
+            <Member type="UINT64" name="qwWinPlayer" comment="胜利玩家"/>
+            <Member type="UINT32" name="dwWinKillCnt" comment="击杀数目"/>
+            <Member type="TVecUINT64" name="vecFailPlayer" comment="失败玩家列表"/>
+        </Struct>
+        <Struct name="SPlayerFighterLog" vec="TVecPlayerFighterLog" comment="玩家战斗信息（目前不需要战斗日志)">
+            <Member type="UINT64" name="qwEnemy" comment="战斗玩家"/>
+            <Member type="UINT64" name="qwReportID" comment="战斗日志"/>
+            <Member type="bool" name="bWin" comment="是否胜利"/>
+        </Struct>
+        <Struct name="SRoomInfo" vec="TVecRoomInfo" comment="房间信息">
+            <Member type="UINT16" name="wRoomID" comment="房间编号"/>
+            <Member type="UINT16" name="wPlayerCnt" comment="房间人数"/>
+        </Struct>
+        <Struct name="SPlayMovieInfo" vec="TVecPlayMovieInfo" comment="动画播放信息">            
+            <Member type="TVecPlayerMoveInfo" name="vecPlayerMoveInfo" comment="玩家移动路径"/>
+            <Member type="TVecPathCollideInfo" name="vecPathCollideInfo" comment="路径碰撞"/>
+            <Member type="TVecGridCollideInfo" name="vecGridCollideInfo" comment="格子碰撞"/>
+            <Member type="TVecRoomPlayInfo" name="vecRoomPlayInfo" comment="玩家信息"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        
+        <Func name="GetStatus"  comment="获取状态（回StatusNotify通知）">
+        </Func>
+        <Func name="Reg" ret="true" comment="活动报名">
+            <RetParam type="ELingShanOP" name="eRet" comment="报名结果"/>
+        </Func>
+        
+        <Func name="GetMatchInfo" ret="true" comment="当前棋盘状态">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="TVecBoxInfo" name="vecBoxInfo" comment="地图箱子信息"/>
+            <RetParam type="TVecRoomPlayInfo" name="vecRoomPlayInfo" comment="地图玩家信息"/>
+            <RetParam type="TVecRoomMonsterInfo" name="vecRoomMonsterInfo" comment="地图怪物信息"/>
+            <RetParam type="UINT16" name="wRoomID" comment="房间id"/>
+            <RetParam type="UINT32" name="dwFreshTurn" comment="至宝刷新剩余轮数"/>
+            <RetParam type="ELingShanStatus" name="eStatus" comment="当前状态"/>
+            <RetParam type="UINT32" name="dwParam" comment="排队状态－排队编号,移动状态－移动结束时间，播放状态－下一轮时间"/>
+            <RetParam type="UINT32" name="dwTime" comment="服务器时间戳"/>
+            <RetParam type="SPlayMovieInfo" name="oPlayMovieInfo" comment="动画播放信息"/>
+            <RetParam type="TVecTakePrizeLog" name="vecTakePrizeLog" comment="玩家奖励log列表"/>
+            <RetParam type="UINT32" name="dwTurn" comment="当前轮数"/>
+        </Func>
+        <Func name="GetMathSelInfo" ret="true" comment="获取自己的比赛信息">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="ELingShanStatus" name="eStatus" comment="当前状态"/>
+            <RetParam type="SRoomPlayInfo" name="oRoomPlayInfo" comment="玩家地图信息"/>
+            <RetParam type="float" name="fHPRate" comment="血量百分比"/>
+            <RetParam type="UINT16" name="dwBoxCnt" comment="宝箱数量"/>
+            <RetParam type="UINT32" name="dwSuiYuan" comment="随缘值"/>
+            <RetParam type="UINT32" name="dwRoomID" comment="房间号"/>
+            <RetParam type="UINT32" name="dwFreshTurn" comment="至宝刷新剩余轮数"/>
+            <RetParam type="UINT32" name="dwModelID" comment="模型id"/>
+        </Func>
+        <Func name="ChangeModel" ret="true" comment="更换模型信息">
+            <Param type="UINT32" name="dwModelID" comment="模型id"/>
+            <RetParam type="ELingShanOP" name="eRet" comment=""/>
+            <RetParam type="UINT32" name="dwModelID" comment="模型id"/>
+        </Func>
+        <Func name="MoveSelect" ret="true" comment="移动选择">
+            <Param type="UINT16" name="wPos" comment="位置"/>
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="UINT32" name="dwCdTime" comment="cd"/>
+        </Func>
+        <Func name="GetActInfo" ret="true" comment="获取活动信息">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="UINT32" name="dwBeginTime" comment="比赛开启时间"/>
+            <RetParam type="UINT32" name="dwEndTime" comment="比赛结束时间"/>
+        </Func>
+        <Func name="Chat" ret="true" comment="聊天">
+            <Param type="string" name="strChatMsg" comment="聊天内容"/>
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+        </Func>
+        <Func name="GetRoomList" ret="true" comment="获取房间信息">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="TVecRoomInfo" name="vecRoomInfo" comment="房间信息"/>
+        </Func>
+        <Func name="EnterVisitRoom" ret="true" comment="进入参观房间">
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+        </Func>
+        <Func name="LeaveVisitRoom" ret="true" comment="离开参观房间">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+        </Func>
+        <Func name="GetPlayMovieInfo" ret="true" comment="获取动画播放信息">
+            <RetParam type="ELingShanOP" name="eRet" comment="结果"/>
+            <RetParam type="SPlayMovieInfo" name="oPlayMovieInfo" comment="动画播放信息"/>
+            <RetParam type="TVecTakePrizeLog" name="vecTakePrizeLog" comment="玩家奖励log列表"/>
+            <RetParam type="UINT16" name="wRoomID" comment="房间id"/>
+            <RetParam type="UINT32" name="dwTurn" comment="当前轮数"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SelHPRateNotify"  comment="玩家个人血量通知">
+            <Param type="float" name="fHPRate" comment="血量百分比"/>
+        </Func>
+        <Func name="StatusNotify"  comment="玩家自己当前状态通知">
+            <Param type="ELingShanStatus" name="eRet" comment="当前状态"/>
+            <Param type="UINT32" name="dwParam" comment="排队状态－排队编号,移动状态－移动结束时间，播放状态－下一轮时间"/>
+            <Param type="UINT32" name="dwTime" comment="服务器时间戳"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="VisitRoomStatusNotify"  comment="观看房间当前状态通知">
+            <Param type="ELingShanStatus" name="eRet" comment="当前状态"/>
+            <Param type="UINT32" name="dwParam" comment="排队状态－排队编号,移动状态－移动结束时间，播放状态－下一轮时间"/>
+            <Param type="UINT32" name="dwTime" comment="服务器时间戳"/>
+        </Func>
+        <Func name="PlayerMoveNotify" comment="玩家移动结果通知">
+            <Param type="TVecPlayerMoveInfo" name="vecPlayerMoveInfo" comment="玩家移动路径"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="PathCollideNotify" comment="玩家路径碰撞结果通知">
+            <Param type="TVecPathCollideInfo" name="vecPathCollideInfo" comment="路径碰撞"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="GridCollideNotify" comment="玩家格子碰撞结果通知">
+            <Param type="TVecGridCollideInfo" name="vecGridCollideInfo" comment="格子碰撞"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="NewPlayerEnterNotify" comment="新玩家进入">
+            <Param type="TVecRoomPlayInfo" name="vecRoomPlayInfo" comment="玩家列表"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="NewTurnBeginNotify" comment="新一轮开始">
+            <Param type="bool" name="bFreshBox" comment="是否刷新宝箱"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+            <Param type="UINT32" name="dwFreshTurn" comment="至宝刷新剩余轮数"/>
+        </Func>
+        <Func name="PlayerChangeModelNotify" comment="模型修改">
+            <Param type="UINT64" name="qwRoleID" comment="玩家id"/>
+            <Param type="UINT32" name="dwModelID" comment="模型id"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="PlayerPrizeLogNotify" comment="玩家奖励log">
+            <Param type="TVecTakePrizeLog" name="vecTakePrizeLog" comment="玩家奖励log列表"/>
+        </Func>
+        <Func name="ChatNotify"  comment="聊天">
+            <Param type="UINT64" name="qwRoleID" comment="结果"/>
+            <Param type="string" name="strChatMsg" comment="聊天内容"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="PlayerUpdateNotify" comment="玩家数据更新">
+            <Param type="TVecRoomPlayInfo" name="vecRoomPlayInfo" comment="玩家列表"/>
+            <Param type="UINT16" name="wRoomID" comment="房间id"/>
+        </Func>
+        <Func name="KickViewNotify" comment="从观察者房间踢掉">
+            <Param type="UINT16" name="wRoomID" comment="进入的房间id"/>
+        </Func>
+        <Func name="KickPlayerNotify" comment="从房间离开">
+            <Param type="UINT64" name="qwRoleID" comment="进入的房间id"/>
+            <Param type="UINT16" name="wRoomID" comment="进入的房间id"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

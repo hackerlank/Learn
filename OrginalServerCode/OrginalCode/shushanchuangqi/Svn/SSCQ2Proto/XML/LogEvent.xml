@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="LogEvent" id="50" comment="日志协议">
+    <Refer> 
+        <Protocol name="LogDataDefine"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ELogType" comment="日志的类型">
+            <Member name="eLogNone" comment="无"/>
+            <Member name="eLogSystem" comment="系统日志"/>
+            <Member name="eLogItem" comment="道具日志"/>
+            <Member name="eLogMoney" comment="金钱日志"/>
+            <Member name="eLogLoginout" comment="登陆登出日志"/>
+            <Member name="eLogMall" comment="商城日志"/>
+            <Member name="eLogLevelUp" comment="升级日志"/>
+            <Member name="eLogRecruit" comment="招募日志"/>
+            <Member name="eLogProp" comment="属性日志"/>
+            <Member name="eLogSkill" comment="技能日志"/>
+            <Member name="eLogTask" comment="任务日志"/>
+            <Member name="eLogBattle" comment="战斗日志"/>
+            <Member name="eLogEquipReplace" comment="装备替换日志"/>
+            <Member name="eLogEquipOpeator"	 comment="装备操作日志"/>
+            <Member name="eLogAlchemy" comment="圣物操作日志"/>
+            <Member name="eLogDungeon" comment="副本日志"/>
+            <Member name="eLogActivity" comment="活动日志"/>
+            <Member name="eLogPVPRank" comment="PVP排行"/>
+            <Member name="eLogBuilding" comment="建筑日志"/>
+            <Member name="eLogGuild" comment="公会日志"/>
+            <Member name="eLogFamily" comment="家族日志"/>
+            <Member name="eLogVIP" comment="VIP日志"/>
+            <Member name="eLogUDPLog" comment="UDPLog日志"/>
+            <Member name="eLogMail" comment="邮件日志"/>
+            <Member name="eLogActive" comment="活跃度日志"/>
+            <Member name="eLogEnd"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="KeepAlive" comment="心跳">
+        </Func>
+        <Func name="WriteLogReq" comment="写日志请求">
+            <Param type="ELogType" name="eLogType" comment="日志类型"/>
+            <Param type="string" name="strLog" comment="日志信息"/>
+        </Func>
+        <Func name="WriteLogToDB" comment="写日志请求">
+            <Param type="LogDataDefine::TVecLogDataBase" name="vecLog" comment="日志数据"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

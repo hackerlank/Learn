@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Horse" id="74" proxy="GameServer" comment="坐骑">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+   </Refer>
+  <TypeDef>
+    <Struct name="SHorseDB" vec="TVecHorseDB" comment="坐骑数据库数据">
+        <Member type="UINT64" name="qwRoleID" comment="角色id"/>
+        <Member type="UINT64" name="qwUserID" comment="账号"/>
+        <Member type="UINT32" name="dwHorseID" comment="坐骑id"/>
+        <Member type="UINT32" name="dwHorseLevel" comment="坐骑等级"/>
+        <Member type="UINT32" name="dwPos" comment="坐骑位置1表示骑乘"/>
+        <Member type="UINT32" name="dwModelID" comment="坐骑模型id"/>
+        <Member type="UINT32" name="dwExp" comment="坐骑当前经验"/>
+        <Member type="UINT32" name="dwLock" comment="坐骑技能锁定"/>
+        <Member type="string" name="strModel" comment="坐骑外观列表"/>
+    </Struct>
+    <Struct name="SHorseInfo" vec="TVecHorseInfo" comment="坐骑信息">
+        <Member type="UINT32" name="dwHorseID" comment="坐骑id"/>
+        <Member type="UINT32" name="dwHorseLevel" comment="坐骑等阶"/>
+        <Member type="UINT32" name="dwExp" comment="坐骑当前经验"/>
+        <Member type="UINT32" name="dwPos" comment="骑乘状态"/>
+        <Member type="TVecUINT32" name="vecHorseID" comment="坐骑外观列表"/>
+    </Struct>
+    <Struct name="SAttrInfo" vec="TVecAttrInfo" comment="属性信息表">
+        <Member type="UINT32" name="dwAttrType" comment="属性类型id"/>
+        <Member type="float" name="fAttrValue" comment="属性值"/>
+    </Struct>
+    
+    <Enum name="EHorseStatus" comment="骑乘状态">
+        <Member name="eHorseStatusUnMount" comment="下马"/>
+        <Member name="eHorseStatusMounted" comment="上马"/>
+    </Enum>
+    <Enum name="EHorseOpType" comment="坐骑信息更新类型">
+        <Member name="eHorseOpType_Add" comment="添加坐骑"/>
+        <Member name="eHorseOpType_Update" comment="更新坐骑信息"/>
+    </Enum>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    <Func name="GetHorseList" comment="获取坐骑信息">
+    </Func>
+    <Func name="ActiveHorse" ret="true" comment="激活坐骑">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="UpgradeHorse" ret="true" comment="坐骑进阶">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID"/>
+      <Param type="bool" name="bAll" comment="是否一键进阶"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="SetHorseStatus" ret="true" comment="骑乘状态修改">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID"/>
+      <Param type="UINT32" name="eHorseStatus" comment="骑乘状态"/>
+      <RetParam type="bool" name="bRet" comment="结果"/>
+    </Func>
+   <Func name="GetHorseAttr" ret="true" comment="获取坐骑属性">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID id=0为所有坐骑属性"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    <Func name="UnLockHorseSkillAttr" ret="true" comment="解锁技能属性（暂时不用）">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID"/>
+      <Param type="UINT32" name="dwPos" comment="第几个技能属性 1开始"/>
+      <RetParam type="bool" name="bRet" comment="结果"/>
+    </Func>
+ </FuncC2S>
+  <FuncS2C>
+    <Func name="HorseNotifyList"  comment="坐骑信息">
+      <Param type="TVecHorseInfo" name="vecHorseInfo" comment="坐骑信息"/>
+    </Func>
+    <Func name="HorseInfoChangeNotifyList"  comment="坐骑信息更新">
+      <Param type="UINT32" name="dwHorseOpType" comment="更新类型"/>
+      <Param type="SHorseInfo" name="oHorseInfo" comment="坐骑信息更新"/>
+    </Func>
+    <Func name="HorseAttrNotify"  comment="坐骑属性信息">
+      <Param type="UINT32" name="dwHorseID" comment="坐骑ID"/>
+      <Param type="ProtoCommon::TVecFtAttrMod" name="vecAttrInfo" comment="坐骑属性信息表"/>
+    </Func>
+    <Func name="SpeedChangeNotify"  comment="玩家速度通知">
+      <Param type="UINT32" name="dwSpeed" comment="玩家速度"/>
+    </Func>
+    <Func name="HorseLookChangeNotify"  comment="坐骑外观改变">
+      <Param type="UINT64" name="qwRoleID" comment="角色Id"/>
+      <Param type="UINT32" name="dwHorseID" comment="坐骑模型"/>
+      <Param type="UINT32" name="dwHorseLevel" comment="坐骑等级"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="MapProt" id="5" proxy="GameServer" comment="地图相关功能的协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="BattleGS" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EMapResult" desc="true" comment="地图结果">
+            <Member name="eMapSuccess" comment="成功"/>
+            <Member name="eMapNotGhostErr" comment="没处于灵魂状态"/>
+            <Member name="eMapCoinErr" comment="仙石不足"/>
+            <Member name="eMapNotInDungeonErr" comment="不在副本"/>
+            <Member name="eMapOtherErr" comment="其他错误"/>
+        </Enum>
+        <Enum name="EMapParam"  comment="地图附加数据">
+            <Member name="eMapParamDemonFloorID" value="0" comment="镇妖塔层数"/>
+            <Member name="eMapParamEnd" value="3" comment="数组最大长度，上面索引不同功能可以重复"/>
+        </Enum>
+        <Enum name="EAppearState" global="server" comment="地图上生物的外观状态">
+            <Member name="eAppearNone" value="0" comment="无"/>
+            <Member name="eAppearFight" value="1" comment="战斗状态"/>
+            <Member name="eAppearGhost" value="2" comment="灵魂状态"/>
+            <Member name="eAppearDie" value="3" comment="死亡状态"/>
+        </Enum>
+        <Enum name="ESwitcherType" comment="传送阵开关类型">
+            <Member name="eSwitcherNone" comment="无"/>
+            <Member name="eSwitcherJump" comment="副本传送开关"/>
+            <Member name="eSwitcherCamp" comment="阵营选择开关"/>
+            <Member name="eSwitcherTower" comment="试练之塔传送开关"/>
+            <Member name="eSwitcherUpTower" comment="锁妖塔塔上传开关"/>
+            <Member name="eSwitcherDownTower" comment="锁妖塔下传开关"/>
+        </Enum>
+        <Enum name="ETreasureResult" comment="宝藏图操作结果">
+            <Member name="eTreasureSuccess" comment="成功"/>
+            <Member name="eTreasureFail" comment="失败"/>
+            <Member name="eTreasureNoItem" comment="没有藏宝图"/>
+            <Member name="eTreasureLackCoin" comment="仙石不足"/>
+            <Member name="eTreasureNoInArea" comment="没有在指定区域挖掘"/>
+            <Member name="eTreasureDropErr" comment="掉落物品错误"/>
+            <Member name="eTreasureDiamond" comment="钻石不足"/>
+            <Member name="eTreasureBuyInfoSuccess" comment="购买信息成功"/>
+        </Enum>
+        <Enum name="EMapOverLoad" comment="地图负载">
+            <Member name="eMapFree" comment="空闲"/>
+            <Member name="eMapBusy" comment="地图忙"/>
+            <Member name="eMapFull" comment="地图满"/>
+        </Enum>
+        <Struct name ="MapOverLoad" vec="TVecMapOverLoad" comment ="地图负载情况">
+            <Member type="UINT8" name ="byIndex" comment ="地图序号"/>
+            <Member type="EMapOverLoad" name ="eLoadState" comment ="负载状况"/>
+        </Struct>    
+        <Struct name="SPosition" vec="TVecPosition" comment="地图上物体的位置">
+            <Member type="float" name="fX" comment="X坐标"/>
+            <Member type="float" name="fY" comment="Y坐标"/>
+        </Struct>
+        <Struct name="SPlayerAppear" vec = "TVecPlayerAppear" comment="角色的外观">
+            <Member type="string" name="strName" comment="角色名"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT32" name="dwSpeed" comment="速度"/>
+            <Member type="BattleGS::SFeatureBase" name="pFeature" comment="外观信息"/>
+            <Member type="UINT32" name="dwHorseID" comment="坐骑"/>
+            <Member type="UINT32" name="dwHorseLevel" comment="坐骑等级"/>
+            <Member type="UINT16" name="wPetID" comment="阵灵ID"/>
+            <Member type="UINT8" name="byPetLevel" comment="阵灵等级"/>
+            <Member type="UINT16" name="wBeautyID" comment="美女ID"/>
+            <Member type="UINT8" name="byBeautyLevel" comment="美女等级"/>
+            <Member type="UINT8" name="bIsSitting" comment="是否打坐0,没有打坐，1单修，2双修"/>
+            <Member type="UINT64" name="qwOtherSitID" comment="双修玩家"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+        </Struct>
+        <Struct name="SMonsterAppear" comment="怪物的外观">
+            <Member type="UINT16" name="wMonsterID" comment="怪物ID"/>
+            <Member type="string" name="strName" comment="怪物名称"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT32" name="dwSpeed" comment="移动速度/200"/>
+            <Member type="UINT32" name="dwCurHP" comment="当前HP"/>
+            <Member type="UINT32" name="dwMaxHP" comment="最大HP"/>
+            <Member type="UINT8" name="byCamp" comment="阵营"/>
+            <Member type="UINT16" name ="wGroup" comment="所属的组"/>
+            <Member type="UINT8"  name ="bySight" comment ="视野"/>
+            <Member type="UINT8"  name ="bySightAngle" comment ="视野角度"/>
+            <Member type="UINT8"  name ="byFindEnemy"  comment ="0,无目标：1有目标"/>
+            <Member type="BattleGS::SFeatureBase" name="pFeature" comment="外观信息"/>
+        </Struct>
+        <Struct name="SNpcAppear" comment="NPC的外观">
+            <Member type="UINT16" name="wNpcID" comment="NPC类型ID"/>
+            <Member type="string" name="strName" comment="NPC名称"/>
+        </Struct>
+        <Struct name="SGatherAppear" comment="采集物的外观">
+            <Member type="UINT16" name="wGatherID" comment="采集物类型ID"/>
+            <Member type="UINT16" name="wTotalNum" comment="采集总次数,特别的为-1表示，采集无数次,以下两个字段始终为0"/>
+            <Member type="UINT16" name="wReserverNum" comment="采集剩余次数"/>
+            <Member type="UINT16" name="wGatheringNum" comment="正在采集的人次"/>
+        </Struct>
+        <Struct name="SSwitcherAppear" comment="传送阵开关的外观">
+            <Member type="UINT32" name="dwSwitcherID" comment="开关配置ID"/>
+            <Member type="ESwitcherType" name="eType" comment="开关类型"/>
+            <Member type="bool" name="bOpen" comment="开关状态"/>
+        </Struct>
+        <Struct name="SBlockerAppear" comment="阻挡物外观">
+            <Member type="UINT32" name="dwBlockerID" comment="阻挡物类型ID,表格数据"/>
+            <Member type="TVecPosition" name="vecPos" comment="阻挡物阻挡坐标点"/>
+        </Struct>
+        <Struct name="SAreaAppear" comment="区域外观">
+            <Member type="UINT16" name="wAreaID" comment="区域类型ID，表格数据"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="PlayerMoveReq" comment="角色移动请求">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <Param type="TVecPosition" name="vecPosition" comment="移动位置列表"/>
+        </Func>
+        <Func name="PlayerStopReq" comment="角色停止移动">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <Param type="SPosition" name="StopPos" comment="停止点"/>
+        </Func>
+
+        <Func name="GetPlayerAppear"  ret = "true" comment="获取玩家的外观信息">
+            <Param type="UINT64" name="qwUserID" comment="目标玩家ID"/>
+            <RetParam type="UINT8" name="byRet" comment="0 成功 1失败"/>
+            <RetParam type="SPlayerAppear" name="rPlayerAppear" comment="玩家的外观"/>
+        </Func>
+        <Func name="JumpMap"ret = "true" comment="请求跳地图">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <Param type="UINT8"  name="byIndex" comment ="地图序号,255表示任意地图"/>
+            <RetParam type="UINT8"  name="byRet" comment ="0成功"/>
+            <RetParam type="UINT16" name="wMapID" comment="地图ID"/>
+            <RetParam type="UINT8"  name="byIndex" comment ="地图序号,255表示任意地图"/>
+        </Func>
+        <Func name="GetMapOverLoad" ret = "true" comment="请求地图负载">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <RetParam type="UINT16" name="wMapID" comment="地图ID"/>
+            <RetParam type="TVecMapOverLoad" name="vecLoad" comment="地图ID"/>
+        </Func>
+
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UserEnterMapNtf" comment="通知玩家进入地图">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <Param type="UINT64" name="qwRoleID" comment="当前的角色ID"/>
+            <Param type="UINT8" name ="byIndex" comment ="地图序号,非主城返回255"/>
+            <Param type="UINT8" name ="byTotal" comment ="同Id地图总数,非主城返回0"/>
+            <Param type="SPosition" name="rPosition" comment="进入位置"/>
+            <Param type="float" name ="fDir" comment ="方向"/>
+        </Func>
+        <Func name ="NoticeNewMap" comment ="新地图产生，通知同地图玩家">
+            <Param type="TVecMapOverLoad" name="vecLoad" comment="地图负载"/>
+        </Func>
+        <Func name="RoleMapInfoNtf" comment="角色(非当前控制)地图信息通知">
+            <Param type="UINT64" name="qwRoleID" comment="角色的ID"/>
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+        </Func>
+        <Func name="PlayerMoveFail" comment="通知角色移动失败">
+            <Param type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Param type="SPosition" name="rLastPosition" comment="上一个位置"/>
+            <Param type="TVecPosition" name="vecPosition" comment="移动位置列表"/>
+        </Func>
+        <Func name="NotifyAppear" comment="通知自己的玩家角色出现">
+            <Param type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Param type="SPlayerAppear" name="rPlayerAppear" comment="玩家的外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="UINT32" name="dwAppearState" comment="当前状态(EAppearState按位或的结果)"/>
+        </Func>
+        <Func name="PlayerAppear" comment="通知别的玩家角色出现">
+            <Param type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Param type="SPlayerAppear" name="rPlayerAppear" comment="玩家的外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="UINT32" name="dwAppearState" comment="当前状态(EAppearState按位或的结果)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="NotifyCreatureMove" comment="通知Creature移动">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="TVecPosition" name="vecPosition" comment="移动位置列表"/>
+        </Func>
+        <Func name="NotifyCreatureJump" comment="通知Creature跳点">
+            <Param type="UINT64" name="qwCreatureID" comment="Creature ID"/>
+            <Param type="SPosition" name="rPosition" comment="跳点目的位置"/> 
+            <Param type="UINT16" name="wJumpId" comment="跳点ID"/>
+        </Func>
+        <Func name="NotifyCreatureState" comment="通知Creature当前状态">
+            <Param type="UINT64" name="qwCreatureID" comment="Creature ID"/>
+            <Param type="UINT32" name="dwAppearState" comment="当前状态(EAppearState按位或的结果)"/>
+        </Func>
+        <Func name="NotifyCreatureStop" comment="通知Creature停止">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="SPosition" name="rDestPosition" comment="最终位置"/>
+        </Func>
+        <Func name="CreatureDisappear" comment="通知地图上生物消失">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="bool" name="bDieFade" comment="true为死亡消失，false为移出视野"/>
+        </Func>
+        <Func name="NpcAppear" comment="通知NPC出现">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="SNpcAppear" name="rNpcAppear" comment="NPC外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="MonsterAppear" comment="通知怪物出现">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="SMonsterAppear" name="rMonsterAppear" comment="怪物外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="UINT32" name="dwAppearState" comment="当前状态(EAppearState按位或的结果)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="SwitcherAppear" comment="通知开关出现">
+            <Param type="UINT32" name="dwInstID" comment="唯一实例ID"/>
+            <Param type="SSwitcherAppear" name="rSwitcherAppear" comment="开关外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="SwitcherDisappear" comment="通知地图上开关消失">
+            <Param type="UINT32" name="dwInstID" comment="开关唯一ID"/>
+        </Func>
+        <Func name="NotifySwitcherState" comment="通知开关当前状态">
+            <Param type="UINT32" name="dwInstID" comment="开关唯一实例ID"/>
+            <Param type="bool" name="bOpen" comment="当前开关是否开启"/>
+        </Func>
+        <Func name="GatherAppear" comment="通知采集物出现">
+            <Param type="UINT32" name="dwGatherID" comment="生物ID"/>
+            <Param type="SGatherAppear" name="rGatherAppear" comment="采集物外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="GatherDisappear" comment="通知地图上采集物消失">
+            <Param type="UINT32" name="dwGatherID" comment="采集物ID"/>
+            <Param type="bool" name="bDieFade" comment="true为采集后消失，false为移出视野"/>
+        </Func>
+        <Func name="GatherChange" comment="通知地图上采集物改变">
+            <Param type="UINT32" name="dwGatherID" comment="采集物ID"/>
+            <Param type="SGatherAppear" name="rGatherAppear" comment="采集物外观"/>
+        </Func>
+        <Func name="BlockerAppear" comment="阻挡物出现">
+            <Param type="UINT32" name="dwInstID" comment="唯一ID"/>
+            <Param type="SBlockerAppear" name="rBlockerAppear" comment="阻挡物开关"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+            <Param type="float" name="fDir" comment="方向(弧度)"/>
+            <Param type="bool" name="bBorn" comment="true为出生，false为进入视野"/>
+        </Func>
+        <Func name="BlockerDisappear" comment="通知地图上阻挡物消失">
+            <Param type="UINT32" name="dwInstID" comment="阻挡物唯一ID"/>
+        </Func>
+        <Func name="MonsterChange" comment="通知怪物改变">
+            <Param type="UINT64" name="qwCreatureID" comment="生物ID"/>
+            <Param type="SMonsterAppear" name="rMonsterAppear" comment="怪物外观"/>
+        </Func>
+        <Func name="AreaAppear" comment="通知区域出现">
+            <Param type="UINT32" name="dwAreaID" comment="区域实例ID"/>
+            <Param type="SAreaAppear" name="rAreaAppear" comment="区域外观"/>
+            <Param type="SPosition" name="rPosition" comment="出现位置"/>
+        </Func>
+        <Func name="AreaDisappear" comment="通知地图上区域消失">
+            <Param type="UINT32" name="dwAreaID" comment="区域实例ID"/>
+        </Func>
+        <Func name="MonsterTargetChange" comment="怪物发现敌人">
+            <Param type="UINT64" name="qwMonsterID" comment="怪物ID"/>
+            <Param type="UINT64" name="qwTargetID" comment="目标ID"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

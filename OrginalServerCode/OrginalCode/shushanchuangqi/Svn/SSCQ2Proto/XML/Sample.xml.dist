@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Sample" id="101" comment="通信协议示例">
+  <Refer>
+    <Protocol name="Example"/>
+  </Refer>
+  <TypeDef>
+    <Enum name="ETest" desc="true" comment="枚举类型示例">
+      <Member name="eTest1" comment="枚举值1"/>
+      <Member name="eTest2" value="10" comment="枚举值2"/>
+      <Member name="eTest3" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ENewTest" desc="true" comment="枚举类型示例2">
+      <Member name="eNewTest1" value="0X0001"/>
+      <Member name="eNewTest2" value="0x0002" comment="枚举值2"/>
+      <Member name="eNewTest3" value="0x0004" comment="枚举值3"/>
+      <Member name="eNewTest4" comment="枚举值3"/>
+      <Member name="eNewTest5" value="0x0008" comment="枚举值3"/>
+      <Member name="eNewTest6" value="eTest3" comment="枚举值3"/>
+      <Member name="eNewTest7" comment="枚举值3"/>
+      <Member name="eNewTest8" comment="枚举值3"/>
+      <Member name="eNewTest9" value="eNewTest1" comment="枚举值3"/>
+      <Member name="eNewTest10" comment="枚举值3"/>
+      <Member name="eNewTest11" value="Example::eExTest1" comment="枚举值3"/>
+      <Member name="eNewTest12" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ETestUW" byte="2" desc="true" comment="枚举类型示例">
+      <Member name="eTestUW1" comment="枚举值1"/>
+      <Member name="eTestUW2" comment="枚举值2"/>
+      <Member name="eTestUW3" value="0xFFFF" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ETestUD" byte="4" desc="true" comment="枚举类型示例">
+      <Member name="eTestUD1" comment="枚举值1"/>
+      <Member name="eTestUD2" comment="枚举值2"/>
+      <Member name="eTestUD3" value="0xFFFFFFFF" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ETestSB" signed="true" desc="true" comment="枚举类型示例">
+      <Member name="eTestSB1" comment="枚举值1"/>
+      <Member name="eTestSB2" comment="枚举值2"/>
+      <Member name="eTestSB3" value="-128" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ETestSW" byte="2" signed="true" desc="true" comment="枚举类型示例">
+      <Member name="eTestSW1" comment="枚举值1"/>
+      <Member name="eTestSW2" comment="枚举值2"/>
+      <Member name="eTestSW3" value="-32768" comment="枚举值3"/>
+    </Enum>
+    <Enum name="ETestSD" byte="4" signed="true" desc="true" comment="枚举类型示例">
+      <Member name="eTestSD1" comment="枚举值1"/>
+      <Member name="eTestSD2" comment="枚举值2"/>
+      <Member name="eTestSD3" value="-10000000" comment="枚举值3"/>
+    </Enum>
+    <Struct name="STest" vec="TVecTest" comment="结构体类型示例">
+      <Member type="UINT16" name="byMember1" default="1" comment="成员1"/>
+      <Member type="INT64" name="qwMember2" comment="成员2"/>
+      <Member type="double" name="dMember3" comment="成员3"/>
+      <Member type="bool" name="bMember4" default="true" comment="成员4"/>
+      <Member type="string" name="member5" comment="成员5"/>
+      <Member type="Example::EExTest" name="member6" default="Example::eExTest3" comment="成员6"/>
+      <Member type="ByteArray" name="member7" comment="成员7"/>
+      <Member type="ENewTest" name="member8" default="eNewTest1" comment="成员8"/>
+    </Struct>
+    <Struct name="SBase" vec="TVecBase" comment="结构体父类型示例">
+      <Member type="STest" name="member1" comment="成员1"/>
+      <Member type="TVecTest" name="vecMember2" comment="成员2"/>
+      <SubStruct name="SDerived1" vec="TVecDerived1" comment="结构体子类型1示例">
+        <Member type="UINT16" name="byMember1" comment="成员1"/>
+        <Member type="INT64" name="qwMember2" comment="成员2"/>
+        <SubStruct name="SDescend3" vec="TVecDescend3" comment="结构体子类型3示例">
+          <Member type="SBase" name="base" comment="成员2"/>
+          <Member type="SDerived1" name="s" comment="成员2"/>
+          <Member type="TVecDerived1" name="vecDerive" comment="成员2"/>
+          <Member type="TVecBase" name="vecBase" comment="成员2"/>
+        </SubStruct>
+        <SubStruct name="SDescend4" vec="TVecDescend4" comment="结构体子类型4示例">
+          <Member type="UINT16" name="wMember1" comment="成员1"/>
+          <Member type="INT64" name="qwMember6" comment="成员2"/>
+          <Member type="TVecDescend3" name="vecDesc" comment="成员2"/>
+        </SubStruct>
+      </SubStruct>
+      <SubStruct name="SDerived2" vec="TVecDerived2" comment="结构体子类型2示例">
+        <Member type="double" name="dMember3" comment="成员3"/>
+        <Member type="bool" name="bMember4" comment="成员4"/>
+      </SubStruct>
+    </Struct>
+    <Struct name="SNest" vec="TVecNest" comment="结构体嵌套类型示例">
+      <Member type="STest" name="member1" comment="成员1"/>
+      <Member type="SBase" name="base" comment="父类"/>
+      <Member type="TVecBase" name="vecMember2" comment="成员2"/>
+      <Member type="TVecDerived1" name="vecMember3" comment="成员3"/>
+      <SubStruct name="SNest2" vec="TVecNest2" comment="结构体嵌套子类型2示例">
+        <Member type="UINT16" name="byMember4" comment="成员1"/>
+        <Member type="SDerived1" name="member5" comment="成员2"/>
+      </SubStruct>
+    </Struct>
+    <Struct name="SNewTest" vec="TVecNewTest" comment="结构体类型示例1">
+      <Member type="SBase" name="member1" comment="成员1"/>
+      <Member type="SDescend4" name="member2" comment="成员2"/>
+      <Member type="TVecNest" name="vecNest" comment="成员2"/>
+    </Struct>
+    <Struct name="SEnumTest" vec="TVecEnumTest" comment="结构体类型示例2">
+      <Member type="ETestUW" name="member1" comment="成员1"/>
+      <Member type="ETestUD" name="member2" comment="成员2"/>
+      <Member type="ETestSB" name="member3" comment="成员3"/>
+      <Member type="ETestSW" name="member4" comment="成员4"/>
+      <Member type="ETestSD" name="member5" comment="成员5"/>
+    </Struct>
+    <Struct name="SNewTest2" vec="TVecNewTest2" comment="结构体类型示例2">
+      <Member type="string" name="str" comment="成员1"/>
+      <Member type="TVecUINT64" name="vecNum" comment="成员2"/>
+      <Member type="TVecBase" name="vecBase" comment="成员3"/>
+      <Member type="TVecDescend4" name="vecDesc" comment="成员4"/>
+    </Struct>
+    <Struct name="SNewTest3" vec="TVecNewTest3" comment="结构体类型示例3">
+      <Member type="Example::SExDerived1" name="member1" comment="成员1"/>
+      <Member type="Example::TVecExBase" name="vecMember2" comment="成员2"/>
+      <Member type="SDescend4" name="member3" comment="成员3"/>
+      <Member type="Example::SExBase" name="member4" comment="成员4"/>
+    </Struct>
+    <Struct name="SNewTest4" vec="TVecNewTest4" comment="结构体类型示例3">
+      <Member type="SNewTest3" name="member1" comment="成员1"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript,PHP">
+    <Func name="SampleFunc1" comment="C->S示例函数1">
+      <Param type="INT8" name="byParam1" comment="8位有符号整数"/>
+      <Param type="INT16" name="wParam2" comment="16位有符号整数"/>
+      <Param type="INT32" name="dwParam3" comment="32位有符号整数"/>
+      <Param type="INT64" name="qwParam4" comment="64位有符号整数"/>
+      <Param type="UINT8" name="byParam5" comment="8位无符号整数"/>
+      <Param type="UINT16" name="wParam6" comment="16位无符号整数"/>
+      <Param type="UINT32" name="dwParam7" comment="32位无符号整数"/>
+      <Param type="UINT64" name="qwParam8" comment="64位无符号整数"/>
+      <Param type="bool" name="bParam" comment="布尔值"/>
+      <Param type="float" name="fParam" comment="单精度浮点数"/>
+      <Param type="double" name="dParam" comment="双精度浮点数"/>
+      <Param type="string" name="str" comment="字符串"/>
+      <Param type="ETest" name="eTest" comment="枚举值"/>
+      <Param type="STest" name="test" comment="结构体"/>
+      <Param type="SNest" name="nest" comment="嵌套结构体"/>
+      <Param type="TVecNest" name="vecNest" comment="嵌套结构体"/>
+      <Param type="Example::EExTest" name="member6" comment="成员6"/>
+    </Func>
+    <Func name="SampleFunc2" comment="C->S示例函数2">
+      <Param type="TVecUINT8" name="vecMember1" comment="8位无符号整数列表"/>
+      <Param type="TVecINT64" name="vecMember2" comment="64位有符号整数列表"/>
+      <Param type="TVecFloat" name="vecMember3" comment="单精度浮点数列表"/>
+      <Param type="TVecString" name="vecMember4" comment="字符串列表"/>
+      <Param type="ByteArray" name="member7" comment="成员7"/>
+      <Param type="TVecTest" name="vecTest" comment="结构体列表"/>
+      <Param type="SNewTest" name="newTest" comment="新测试结构体"/>
+      <Param type="SEnumTest" name="enumTest" comment="测试枚举结构体"/>
+      <Param type="TVecNewTest" name="vecNewTest" comment="新测试结构体列表"/>
+    </Func>
+    <Func name="SampleRetFunc2" ret="true" comment="C->S有返回值的示例函数">
+      <Param type="UINT8" name="byParam1" comment="参数1，不保存"/>
+      <Param type="UINT64" keep="true" name="qwParam2" comment="参数2，保存"/>
+      <LocParam type="STest" name="test" comment="结构体，本地保存"/>
+      <LocParam type="TVecTest" name="vecTest" comment="结构体列表，本地保存"/>
+      <RetParam type="TVecTest" name="vecTest" comment="结构体列表，返回值"/>
+      <RetParam type="string" name="strRet" comment="字符串，返回值"/>
+      <RetParam type="Example::EExTest" name="member6" comment="成员6"/>
+      <RetParam type="ByteArray" name="member7" comment="成员7"/>
+    </Func>
+    <Func name="DeriveFunc" comment="C->S继承结构示例函数">
+      <Param type="SBase" name="rBase" comment="父类"/>
+      <Param type="SDerived1" name="rDerived1" comment="子类1"/>
+      <Param type="SDescend3" name="rDerived3" comment="子类3"/>
+      <Param type="SNewTest3" name="rNewTest3" comment="结构体3"/>
+      <Param type="TVecBase" name="vecBase" comment="父类列表"/>
+      <Param type="TVecDerived2" name="vecDerived2" comment="子类列表2"/>
+      <Param type="TVecDescend3" name="vecDescend3" comment="子类列表3"/>
+      <Param type="Example::SExBase" name="exBase" comment="父类2"/>
+    </Func>
+    <Func name="DeriveRetFunc" ret="true" comment="C->S继承结构有返回示例函数">
+      <Param type="SBase" name="rBase" comment="父类"/>
+      <Param type="TVecBase" name="vecBase" comment="父类列表"/>
+      <RetParam type="SBase" name="rRetBase" comment="返回父类"/>
+      <RetParam type="TVecBase" name="vecRetBase" comment="返回父类列表"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+    <Func name="SampleFuncAck1" comment="S->C示例函数1">
+      <Param type="INT8" name="byParam1" comment="8位有符号整数"/>
+      <Param type="INT16" name="wParam2" comment="16位有符号整数"/>
+      <Param type="INT32" name="dwParam3" comment="32位有符号整数"/>
+      <Param type="INT64" name="qwParam4" comment="64位有符号整数"/>
+      <Param type="UINT8" name="byParam5" comment="8位无符号整数"/>
+      <Param type="UINT16" name="wParam6" comment="16位无符号整数"/>
+      <Param type="UINT32" name="dwParam7" comment="32位无符号整数"/>
+      <Param type="UINT64" name="qwParam8" comment="64位无符号整数"/>
+      <Param type="bool" name="bParam" comment="布尔值"/>
+      <Param type="float" name="fParam" comment="单精度浮点数"/>
+      <Param type="double" name="dParam" comment="双精度浮点数"/>
+      <Param type="string" name="str" comment="字符串"/>
+      <Param type="ETest" name="eTest" comment="枚举值"/>
+      <Param type="STest" name="test" comment="结构体"/>
+      <Param type="SNest" name="nest" comment="嵌套结构体"/>
+      <Param type="TVecNest" name="vecNest" comment="嵌套结构体"/>
+      <Param type="Example::EExTest" name="member6" comment="成员6"/>
+    </Func>
+    <Func name="SampleFuncAck2" comment="S->C示例函数2">
+      <Param type="TVecUINT8" name="vecMember1" comment="8位无符号整数列表"/>
+      <Param type="TVecINT64" name="vecMember2" comment="64位有符号整数列表"/>
+      <Param type="TVecFloat" name="vecMember3" comment="单精度浮点数列表"/>
+      <Param type="ByteArray" name="member7" comment="成员7"/>
+      <Param type="TVecString" name="vecMember4" comment="字符串列表"/>
+      <Param type="TVecTest" name="vecTest" comment="结构体列表"/>
+      <Param type="SNewTest" name="newTest" comment="新测试结构体"/>
+      <Param type="SEnumTest" name="enumTest" comment="测试枚举结构体"/>
+      <Param type="TVecNewTest" name="vecNewTest" comment="新测试结构体列表"/>
+    </Func>
+    <Func name="DeriveFuncAck" comment="S->C继承结构示例函数">
+      <Param type="SBase" name="rBase" comment="父类"/>
+      <Param type="SDerived1" name="rDerived1" comment="子类1"/>
+      <Param type="SDescend3" name="rDerived3" comment="子类3"/>
+      <Param type="SNewTest3" name="rNewTest3" comment="结构体3"/>
+      <Param type="TVecBase" name="vecBase" comment="父类列表"/>
+      <Param type="TVecDerived2" name="vecDerived2" comment="子类列表2"/>
+      <Param type="TVecDescend3" name="vecDescend3" comment="子类列表3"/>
+      <Param type="Example::SExBase" name="exBase" comment="父类2"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

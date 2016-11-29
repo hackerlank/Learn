@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DBData" id="64" comment="数据库序列化结构">
+  <Refer>
+  </Refer>
+  <!--注意：在游戏上线之后，以下的结构体和函数定义只能在末尾增加或删除变量，中间的变量不能修改！-->
+  <TypeDef>
+    <Struct name="SUserPropStream" comment="帐号基本数据">
+      <Member type="UINT32" name="dwGoldCoin" comment="仙石"/>
+      <Member type="UINT32" name="dwHonour" comment="荣誉"/>
+      <Member type="UINT8" name="byCamp" comment="阵营"/>
+      <Member type="UINT32" name="dwLastLeaveTime" comment="最后一次下线时间"/>
+    </Struct>
+    <Struct name="SBasePropStream" comment="角色基本数据(战斗相关)">
+      <Member type="UINT32" name="dwCurHP" comment="当前HP"/>
+      <Member type="UINT32" name="dwCurMP" comment="当前MP"/>
+      <Member type="UINT8" name="byElement" comment="元素属性"/>
+      <Member type="UINT16" name="wUseTitleID" comment="当前使用称号"/>
+      <Member type="UINT16" name="wUseHorseID" comment="当前骑乘坐骑"/>
+    </Struct>
+    <Struct name="SExtPropStream" comment="角色附加数据">
+      <Member type="UINT32" name="dwExp" comment="经验"/>
+      <Member type="UINT32" name="dwDgnInstID" comment="副本实例ID"/>
+      <Member type="UINT32" name="dwDgnCreateTime" comment="副本创建时间"/>
+      <Member type="UINT16" name="wPreDgnMapID" comment="进入副本之前的地图ID"/>
+      <Member type="float" name="fPreDgnX" comment="进入副本之前的X坐标"/>
+      <Member type="float" name="fPreDgnY" comment="进入副本之前的Y坐标"/>
+    </Struct>
+    <Struct name="SSlotPropStream" comment="各种槽（物品槽，心法槽）" >
+        <Member type="UINT64"   name="dwRoleID"       comment="角色ID" />
+        <Member type="UINT64"   name="dwOwnerID"      comment="拥有者实例ID" />
+        <Member type="UINT8"    name="byStoreType"    comment="槽类型"    />
+        <Member type="UINT16"   name="wSlotCount"     comment="当前槽的数量" />
+    </Struct>
+  </TypeDef>
+</Protocol>

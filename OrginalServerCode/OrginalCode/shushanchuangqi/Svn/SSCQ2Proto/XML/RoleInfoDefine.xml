@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name ="RoleInfoDefine" id ="10" comment="角色数据定义">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="ItemProt"/>
+        <Protocol name="FighterProt"/>
+        <Protocol name="TaskProt"/>
+        <Protocol name="FriendProt"/>
+        <Protocol name="ArenaGS"/>
+        <Protocol name="Horse"/>
+        <Protocol name="GroupTaskProt"/>
+        <Protocol name="YaMenTaskProt"/>
+        <Protocol name="AchievementProt"/>
+        <Protocol name="CollectionProt"/>
+        <Protocol name="DemonTower"/>
+        <Protocol name="ExchangeShopProt"/>
+        <Protocol name="DungeonProt"/>
+        <Protocol name="TripodProt"/>
+        <Protocol name="LevelPrize"/>
+        <Protocol name="TreasureHuntProt"/>
+        <Protocol name="GuardEMeiProt"/>
+        <Protocol name="Beauty"/>
+        <Protocol name="ShipProt"/>
+		<Protocol name="ShengLingProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EBattleReportType" desc="true" comment="战报类型">
+            <Member name="eTypeLadder" comment="天梯"/>
+        </Enum>
+        <Enum name="EBattleActionType" desc="true" comment="战报发起类型">
+            <Member name="eTypeAttack" comment="玩家进攻"/>
+            <Member name="eTypeDefense" comment="玩家防守"/>
+            <Member name="eTypeALL" comment="防守和进攻"/>
+        </Enum>
+        <Enum name="EBeastSoulType" comment="兽魂种类">
+            <Member name="eBeastSoulNone" value="0" comment="无加成"/>
+            <Member name="eBeastSoulAtttack"        comment="攻击之魂" />
+            <Member name="eBeastSoulHP"             comment="生命之魂" />
+            <Member name="eBeastSoulCritical"       comment="暴击之魂" />
+            <Member name="eBeastSoulCounter"        comment="反击之魂" />
+            <Member name="eBeastSoulSpeed"          comment="身法之魂" />
+            <Member name="eBeastSoulDefence"        comment="防御之魂" />
+            <Member name="eBeastSoulHit"            comment="命中之魂" />
+            <Member name="eBeastSoulDodge"          comment="闪避之魂" />
+            <Member name="eBeastSoulMax" comment="最大"/>
+        </Enum>
+        <Enum name="EDataType" desc="true" comment="数据类型">
+            <Member name="eTypeRoleBaseInfo" comment="玩家基本数据"/>
+            <Member name="eTypeItemInfo" comment="玩家物品数据"/>
+            <Member name="eTypePlayerDgn" comment="玩家副本数据"/>
+            <Member name="eTypeFighterInfo" comment="玩家将信息"/>
+            <Member name="eTypeTaskInfo" comment="玩家任务信息"/>
+            <Member name="eTypeSkillInfo" comment="技能信息"/>
+            <Member name="eTypePassiveSkillInfo" comment="被动技能信息"/>
+            <Member name="eTypeFriendInfo" comment="关系信息"/>
+            <Member name="eTypeVarInfo" comment="关系信息"/>
+            <Member name="eTypeCittaInfo" comment="玩家心法数据"/>
+            <Member name="eTypeSlotsInfo" comment="玩家/其他槽心法数据" />
+            <Member name="eTypeTrumpInfo" comment="法宝信息" />
+            <Member name="eTypeEquipTrumpInfo" comment="装备法宝信息" />
+            <Member name="eTypeEquipTrumpShuffleInfo" comment="装备法宝洗炼信息" />
+            <Member name="eTypeFormationInfo" comment="阵形信息" />
+            <Member name="eTypePetDataInfo" comment="阵灵信息" />
+            <Member name="eTypeRolePetInfo" comment="阵灵全局信息" />
+            <Member name="eTypeBeastSoulInfo" comment="兽魂信息" />
+            <Member name="eTypeTripodFireInfo" comment="九疑鼎的火种信息" />
+            <Member name="eTypeArena" comment="斗剑信息"/>
+            <Member name="eTypeBuffInfo" comment="Buff信息" />
+            <Member name="eTypeFashionInfo" comment="时装信息" />
+            <Member name="eTypeSoulSpaceInfo" comment="魄空间信息" />
+            <Member name="eTypeBubbleInfo"  comment="气泡信息" />
+            <Member name="eTypeHorseDBInfo" comment="坐骑信息" />
+            <Member name="eTypeGroupTask" comment="师门任务" />
+            <Member name="eTypeYaMenTask" comment="衙门任务" />
+            <Member name="eTypeActivityTask" comment="活跃度任务" />
+            <Member name="eTypeTitle" comment="称号" />
+            <Member name="eTypeAchievementInfo" comment="成就" />
+            <Member name="eTypeCollectionInfo" comment="收藏" />
+            <Member name="eTypeAttacked" comment="玩家被攻击信息" />
+            <Member name="eTypeExchangedItem" comment="玩家兑换商品信息" />
+            <Member name="eTypeSweep" comment="玩家扫荡信息" />
+            <Member name="eTypePendRes" comment="玩家暂存信息" />
+            <Member name="eTypeXinFaInfo" comment="心法信息" />
+            <Member name="eTypeLevelPrize" comment="心法信息" />
+            <Member name="eTypeYelloDiamond" comment="黄钻信息" />
+            <Member name="eTypeEventInfo" comment="事件信息" />
+            <Member name="eTypeBuyItemLimit" comment="商品数量限购信息" />
+            <Member name="eTypeDayTarget" comment="七日目标活动" />
+            <Member name="eTypeFighterComination" comment="玩家的散仙组合信息" />
+            <Member name="eTypeBattleArray" comment="破阵信息" />
+            <Member name="eTypeAutoStore" comment="动态存储信息"/>
+            <Member name="eTypeTH" comment="寻宝信息"/>
+            <Member name="eTypeBeauty" comment="美女系统"/>
+            <Member name="eTypeFightFormation" comment="新阵型系统"/>
+            <Member name="eTypeFightHero" comment="散仙数据"/>
+            <Member name="eTypeShip" comment="金船"/>
+            <Member name="eTypeGuardEMei" comment="守卫峨眉"/>
+            <Member name="eTypeGemstone" comment="宝石"/>
+			<Member name="eTypeShengLing" comment="圣陵信息"/>
+			<Member name="eTypeShengLingPrize" comment="圣陵奖励信息"/>
+
+            <Member name="eTypeMax"  comment="最大值"/>
+        </Enum>
+        <Struct name="RoleBaseInfo" vec="TVecRoleBaseInfo" comment="EDataType:eRoleBaseInfo">
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="UINT16" name="wMapID" comment="地图ID"/>
+            <Member type="float"  name="fX" comment="X坐标"/>
+            <Member type="float"  name="fY" comment="Y坐标"/>
+            <Member type="UINT64" name="qwDgnId" comment="副本实例ID"/>
+            <Member type="UINT16" name="dwDgnTypeID" comment="副本模版ID"/>
+            <Member type="UINT16" name="wDgnMapId" comment="副本地图ID"/>
+            <Member type="float"  name="fDgnfX" comment="副本X坐标"/>
+            <Member type="float"  name="fDgnfY" comment="副本Y坐标"/> 
+            <Member type="UINT16" name="wBagMax" comment="背包容量"/>
+            <Member type="UINT16" name="wDepotMax" comment="仓库容量"/> 
+            <Member type="UINT32" name="dwPendSilver" comment="延迟发放的银币"/> 
+            <Member type="UINT32" name="dwPendCoupon" comment="延迟发放的礼券"/> 
+            <Member type="UINT32" name="dwPendExp" comment="延迟发放的经验"/>
+            <Member type="UINT32" name="dwPendGold" comment="延迟发放的仙石"/>
+            <Member type="UINT32" name="dwDemonTowerFloorID" comment="通关镇妖塔层数"/>
+            <Member type="UINT32" name="dwDemonTowerPrizeFloorID" comment="镇妖塔层数"/>
+            <Member type="string" name="strGuide" comment="新手引导内容"/>
+            <Member type="string" name="szIcon" comment="功能开放标签"/>
+            <Member type="string" name="szIconDel" comment="功能关闭标签"/>
+            <Member type="string" name="szIconActive" comment="功能关闭标签"/>
+
+            <Member type="UINT32" name="dwPackNextUnlockTime" comment="背包下次解锁时间"/>
+            <Member type="UINT32" name ="dwActivity" comment="活跃值"/>
+            <Member type="UINT64" name = "qwSittingPlayer" comment ="一起双修的人"/>
+            <Member type="string" name = "szDgnStarAward" comment ="副本星级领奖"/>
+            <Member type="string" name = "strCreateIP" comment ="玩家创角时IP"/>
+            <Member type="string" name = "strLoginIP" comment ="玩家登录时IP"/>
+            <Member type="UINT32" name = "dwLuckyCoupon" comment ="幸运券"/>
+
+            <!---以下数据需要同步CenterServer --> 
+
+            <Member type="UINT8"  name="byLevel" comment="玩家等级"/>
+            <Member type="UINT64" name="qwExp"   comment="玩家经验值" />
+
+            <Member type="UINT8"  name="byNation" comment="国家"/>
+            <Member type="UINT8"  name="byGMLvl" comment="GM权限"/>
+            <Member type="UINT32" name="dwTotalRecharge"  comment="充值金额"/>
+            <Member type="UINT32" name="dwLoginTime" comment="上次登陆时间"/>
+            <Member type="UINT32" name="dwOfflineTime" comment="上次下线时间"/>
+            <Member type="UINT32" name="dwLockExpireTime" comment= "被封禁结束时间"/>
+            <Member type="UINT32" name="dwForbExpireTime" comment= "被禁言结束时间"/>
+            <Member type="UINT32" name="dwGold" comment= "充值仙石"/>
+            <Member type="UINT32" name="dwFreeGold" comment= "免费仙石"/>
+            <Member type="UINT32" name="dwSilver" comment= "银币"/>
+            <Member type="UINT32" name="dwCoupon" comment="礼券"/>
+            <Member type="UINT32" name="dwSoul" comment="魂魄"/>
+            <Member type="UINT32" name="dwPrestige" comment="声望"/>
+            <Member type="UINT32" name="dwHonor" comment="荣誉"/>
+            <Member type="UINT32" name="dwPExp" comment="修为"/>
+            <Member type="UINT32" name="dwAction" comment= "体力"/>
+            <Member type="UINT32" name="dwPoten" comment= "渡劫点数"/>
+			<Member type="UINT32" name="dwReiki" comment= "副本星级"/>
+            <Member type="UINT32" name="dwDemonSoul" comment= "锁妖塔魂值"/>
+            <Member type="UINT32" name="dwSoulAttack" comment= "攻击之魂"/>
+            <Member type="UINT32" name="dwSoulHp" comment= "生命之魂"/>
+            <Member type="UINT32" name="dwSoulCritical" comment= "暴击之魂"/>
+            <Member type="UINT32" name="dwSoulCounter" comment= "破击之魂"/>
+            <Member type="UINT32" name="dwSoulSpeed" comment= "身法之魂"/>
+            <Member type="UINT32" name="dwSoulDefence" comment= "防御之魂"/>
+            <Member type="UINT32" name="dwSoulHit" comment= "命中之魂"/>
+            <Member type="UINT32" name="dwSoulDodge" comment= "闪避之魂"/>
+            <Member type="UINT32" name="dwStampHuang" comment="黄阶除魔印"/>
+            <Member type="UINT32" name="dwStampXuan" comment="玄阶除魔印"/>
+            <Member type="UINT32" name="dwStampDi" comment="地阶除魔印"/>
+            <Member type="UINT32" name="dwStampTian" comment="天阶除魔印"/>
+            <Member type="UINT32" name="dwStampXing" comment="星阶除魔印"/>
+            <Member type="UINT32" name="dwStampYue" comment="月阶除魔印"/>
+            <Member type="UINT32" name="dwStampDi2" comment="帝阶除魔印"/>
+            <Member type="UINT32" name="dwStampXian" comment="仙阶除魔印"/>
+            <Member type="UINT32" name="dwStampSheng" comment="圣阶除魔印"/>
+            <Member type="UINT32" name="dwStampFo" comment="佛阶除魔印"/>
+            <Member type="UINT32" name="dwLoveHeart" comment="爱心"/>
+            <Member type="UINT32" name="dwBlueFairyFate" comment="蓝色仙缘"/>
+            <Member type="UINT32" name="dwPurpleFairyFate" comment="紫色仙缘"/>
+            <Member type="UINT32" name="dwOrangeFairyFate" comment="橙色仙缘"/>
+            <Member type="UINT32" name="dwDuJieFu" comment="散仙渡劫符数量"/>
+            <Member type="UINT32" name="dwBTPoint" comment= "战斗力"/>
+            <Member type="string" name="szOwnTitle" comment="拥有的称号"/>
+            <Member type="string" name="szEquipTitle" comment="装备的称号"/>
+            <Member type="UINT8" name="byDomain" comment="渠道"/>
+            <Member type="UINT8" name="byDomainLvl" comment="渠道等级"/>
+            <Member type="UINT8" name="byDisplayLvl" comment="显示等级"/>
+            <Member type="UINT8" name="byDomainYear" comment="年费"/>
+            <Member type="string" name="szOpenId" comment="szOpenId"/>
+            <Member type="string" name="szOpenKey" comment="szOpenKey"/>
+            <Member type="string" name="strSign" comment="签名"/>
+            <Member type="UINT16" name="wMood" comment="心情表情"/>
+            <Member type="UINT16" name="wAchievementLevel" comment= "成就等级"/>
+            <Member type="UINT32" name="dwAchievementAP" comment= "成就点"/>
+            <Member type="UINT16" name="wCollectLevel" comment= "收藏等级"/>
+            <Member type="UINT32" name="dwCollectAP" comment= "收藏点"/>
+            <Member type="UINT64" name ="qwInvitedID" comment="邀请"/>
+            <Member type="UINT8"  name ="byWallow" comment="防沉迷"/>
+            <Member type="UINT32"  name ="dwIndulgeKickTime" comment="防沉迷t人时间"/>
+            <Member type="UINT8"  name ="byYDLevel" comment="玩家QQ黄钻等级"/>
+            <Member type="UINT32" name="dwCreateTime" comment= "创角时间"/>
+            <Member type="UINT16" name="wLastSaveMapID" comment="保存地图ID"/>
+            <Member type="float" name="fLastSaveX" comment="保存X坐标"/>
+            <Member type="float" name="fLastSaveY" comment="保存Y坐标"/>
+
+            <!---同步CenterServer数据结束-->
+
+        </Struct>
+        <Struct name="RoleDgnInfo"  vec="TVecRoleDgnInfo" comment ="EDataType:eTypePlayerDgn：剧情副本，特定日期副本可以考虑删除">
+            <Member type="UINT32" name ="dwDgnType" comment="副本类型"/>
+            <!-- <Member type="EPlyerDGnState" name ="eDgnState" comment ="副本状态"/>-->
+            <Member type="UINT32" name ="dwLastEnterTimer" comment ="最近副本支付代价时间"/>
+            <Member type="UINT8" name ="byCost" comment ="副本支付代价,是否没有消费,0表示已经消费"/>
+            <Member type="UINT32" name ="dwEnterTimesAppend" comment ="额外增加的副本进入次数"/>
+            <Member type="UINT32" name ="dwAppendEndTimer" comment ="额外增加的副本进入次数的到期时间"/>
+            <Member type="UINT32" name ="dwEnterTimes" comment ="当前副本进入次数"/>
+            <Member type="UINT32" name ="dwLastCompleteTimer" comment ="最近副本通过时间"/>
+            <Member type="UINT32" name ="dwCompleteTimes" comment ="副本通过次数，通过就记录下"/>
+            <Member type="UINT16" name ="wMinTurns" comment ="通过的最少回合数"/>
+            <Member type="UINT32" name ="dwBuyTimer" comment ="最近购买的时间"/>
+            <Member type="UINT32" name ="dwBuyTimesToday" comment ="当天购买的次数"/>
+            <Member type="UINT32" name ="dwFinishTimesToday" comment ="今日完成副本次数"/>
+        </Struct>
+        <Struct name="RoleTaskInfo" vec="TVecRoleTaskInfo" comment ="任务存储结构" >
+            <Member type="UINT32" name="dwTaskId" comment="任务Id"/>
+            <Member type="TaskProt::ETaskState" name="eTaskState" comment="任务状态"/>
+            <Member type="UINT32" name="dwAcceptTimes" comment="接受任务次数"/>
+            <Member type="UINT32" name="dwLastAcceptTimer" comment ="最近任务接受时间"/>
+            <Member type="UINT32" name="dwFinishTimes" comment ="完成任务次数"/>
+            <Member type="UINT32" name="dwLastFinishTimer" comment ="最近完成任务时间"/>
+            <Member type="UINT8"  name="byProcessType1" comment="进度1的类型"/>
+            <Member type="UINT32"  name="dwProcessParam11" comment="进度1的第1个参数"/>
+            <Member type="UINT32"  name="dwProcessParam12"    comment="进度1的第2个参数"/>
+            <Member type="UINT8"   name="byProcessType2" comment="进度2的类型"/>
+            <Member type="UINT32"  name="dwProcessParam21" comment="进度2的第1个参数"/>
+            <Member type="UINT32"  name="dwProcessParam22"    comment="进度2的第2个参数"/>
+            <Member type="UINT8"   name="byProcessType3" comment="进度3的类型"/>
+            <Member type="UINT32"  name="dwProcessParam31" comment="进度3的第1个参数"/>
+            <Member type="UINT32"  name="dwProcessParam32"    comment="进度3的第2个参数"/>
+            <Member type="UINT32"  name="dwRepeatAcceptTimes"    comment="当前有效接任务次数"/>
+        </Struct>
+        <Struct name="SVarsDBInfo" vec="TVecVarsDBInfo" comment="玩家变量数据">
+            <Member type="UINT64" name ="qwRoleID" comment="玩家RoleId"/>
+            <Member type="UINT8" name ="byServerType" comment="服务器类型"/>
+            <Member type="UINT16" name ="wVar" comment="变量ID"/>
+            <Member type="UINT64" name ="qwValue" comment="变量值"/>
+            <Member type="UINT32" name ="dwExpired" comment="过期时间"/>
+        </Struct>
+        <Struct name="SGameVarsDBInfo" vec="TVecGameVarsDBInfo" comment="系统变量数据">
+            <Member type="UINT8" name ="byServerType" comment="服务器类型"/>
+            <Member type="UINT16" name ="wVar" comment="变量ID"/>
+            <Member type="UINT64" name ="qwValue" comment="变量值"/>
+            <Member type="UINT32" name ="dwExpired" comment="过期时间"/>
+        </Struct>
+        <Struct name="SRoleSlotsInfo" vec="TVecRoleSlotsInfo" comment="EDataType:eTypeSlotsInfo:玩家各种槽数据">
+            <Member type="UINT64"                   name ="qwRoleID"              comment="玩家RoleID"/>
+            <Member type="UINT64"                   name ="qwOwnerID"             comment="槽拥有者ID"/>
+            <Member type="ItemProt::EStoreType"     name ="eStoreType"            comment="槽类型" />
+            <Member type="UINT16"                   name ="wMaxSlot"              comment="槽允许的最大数量" />
+            <Member type="UINT16"                   name ="wMaxAvaliableSlot"     comment="槽当前的最大数量" />
+        </Struct>
+        <Struct name="SFormationInfo" vec="TVecFormationInfo" comment="阵型信息">
+            <Member type="UINT16" name ="wFormationID" comment="阵型ID"/>
+            <Member type="UINT8" name ="bySelected" comment="是否启用"/>
+        </Struct>
+        <Struct name="SPetDataInfo" vec="TVecPetDataInfo" comment="阵灵信息">
+            <Member type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <Member type="UINT8" name ="bySelected" comment="是否启用: 0-未启用 1-出战跟随 2-出战不跟随"/>
+            <Member type="UINT8" name ="byLevel" comment="阵灵等级"/>
+            <Member type="UINT32" name ="dwExp" comment="阵灵经验"/>
+        </Struct>
+        <Struct name="SRolePetInfo" vec="TVecRolePetInfo" comment="阵灵全局信息">
+            <Member type="UINT32" name ="dwExp" comment="阵灵经验"/>
+            <Member type="UINT8" name ="byLevel" comment="阵灵等级"/>
+            <Member type="UINT32" name ="dwSpirit" comment="阵灵灵力值"/>
+        </Struct>
+        <Struct name="SBeastSoulInfo" vec="TVecBeastSoulInfo" comment="兽魂信息">
+            <Member type="EBeastSoulType"   name="eType"      comment="兽魂类型" />
+            <Member type="UINT8"            name="byRank"     comment="兽魂星图等级"/>
+            <Member type="UINT8"            name="byLevel"    comment="兽魂星魂等级"/>
+        </Struct>
+        <Struct name="SSoulSpaceInfo" vec="TVecSoulSpaceInfo" comment="玩家魄空间信息">
+            <Member type="UINT64" name ="qwRoleID" comment="角色ID"/>
+            <Member type="UINT64" name ="dwSoulSpaceID" comment="魄空间ID"/>
+            <Member type="UINT64" name ="dwSoulSpaceLevel" comment="魄空间等级"/>
+        </Struct>
+        <Struct name="SRoleArenaInfo" vec="TVecRoleArenaInfo" comment="EDataType:eTypeArena:玩家斗剑信息"> 
+            <Member type="UINT32" name="dwLastAwardTimer"  comment="上次刷的那次奖励，记录系统计算时间"/>
+            <Member type="ArenaGS::TVecArenaAward" name="vecAwards" comment="奖励包状态"/>
+            <Member type="UINT32" name="dwCDTime"  comment="战斗冷却到期时间戳"/>
+            <Member type="UINT32" name="dwLadderCDTime"  comment="天梯战斗冷却到期时间戳"/>
+            <Member type="ArenaGS::TVecFlushFither" name="vecFlushFigter"  comment="最近刷的对手"/>
+        </Struct>
+        <Struct name="SBattleRePort" vec="TVecBattleRePort" comment="战报保存"> 
+            <Member type="UINT64" name="qwRoleID"   comment ="玩家ID"/>
+            <Member type="UINT64" name="qwBattleID"  comment="战报Id"/>
+            <Member type="UINT64" name="qwAttackID" comment= "对方ID"/>
+            <Member type="string" name="strAttackID"  comment="对方名字"/>
+            <Member type="EBattleActionType" name="eActionType" comment="玩家战斗方式"/>
+            <Member type="EBattleReportType"  name="eType"    comment ="战报类型"/>
+            <Member type="EBattleActionType" name="eSuc"      comment ="胜利方"/>
+            <Member type="UINT32" name="dwTime"      comment ="战报时间"/>
+            <Member type="UINT32" name="dwParam1"      comment ="参数1"/>
+            <Member type="UINT32" name="dwParam2"      comment ="参数2"/>
+            <Member type="UINT32" name="dwParam3"      comment ="参数3"/>
+            <Member type="UINT32" name="dwIndex"      comment ="类型流水"/>
+        </Struct>
+
+        <Struct name="SDBBubbleInfo" vec="TVecDBBubbleInfo" comment="气泡信息" >
+            <Member type="UINT64"       name="qwRoleID"     comment="角色ID" />
+            <Member type="UINT64"       name="qwTransID"    comment="唯一流水ID" />
+            <Member type="UINT16"       name="wMsgID"       comment="气泡ID" />
+            <Member type="UINT32"       name="dwTime"       comment="气泡时间" />
+            <Member type="TVecINT64"    name="vecParam"     comment="整型变量" />
+            <Member type="TVecString"   name="vecString"    comment="字符串型变量" />
+        </Struct>
+        <Struct name="SBubbleInfo" vec="TVecBubbleInfo" comment="气泡信息" >
+            <Member type="UINT16"       name="wMsgID"       comment="气泡ID" />
+            <Member type="UINT16"       name="wMessageID"   comment="消息ID" />
+            <Member type="UINT8"        name="byIndex"      comment="气泡位置" />
+            <Member type="UINT32"       name="dwTime"       comment="气泡时间" />
+            <Member type="TVecINT64"    name="vecParam"     comment="整型变量" />
+            <Member type="TVecString"   name="vecString"    comment="字符串型变量" />
+        </Struct>
+        <Struct name="SGroupTaskInfo" vec="TVecGroupTaskInfo" comment="师门任务" >
+            <Member type="UINT32"       name="dwRepute"       comment="声望" />
+            <Member type="UINT8"        name="byReputeLevel"      comment="声望等级" />
+            <Member type="UINT8"        name="byBuyTimes"        comment ="购买的师门任务数"/>
+            <Member type="UINT32"    name="dwFlushTask1"     comment="刷的任务" />
+            <Member type="GroupTaskProt::EGroupTaskState"   name="eState1"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask2"     comment="刷的任务" />
+            <Member type="GroupTaskProt::EGroupTaskState"   name="eState2"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask3"     comment="刷的任务" />
+            <Member type="GroupTaskProt::EGroupTaskState"   name="eState3"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask4"     comment="刷的任务" />
+            <Member type="GroupTaskProt::EGroupTaskState"   name="eState4"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask5"     comment="刷的任务" />
+            <Member type="GroupTaskProt::EGroupTaskState"   name="eState5"    comment="任务状态" />
+        </Struct>
+        <Struct name="SYaMenTaskInfo" vec="TVecYaMenTaskInfo" comment="衙门任务" >
+            <Member type="UINT32"       name="dwHoly"       comment="圣义值" />
+            <Member type="UINT8"        name="byHolyLevel"      comment="圣义等级" />
+            <Member type="UINT8"        name="byBuyTimes"        comment ="购买的衙门任务数"/>
+            <Member type="UINT32"    name="dwFlushTask1"     comment="刷的任务" />
+            <Member type="YaMenTaskProt::EYaMenTaskState"   name="eState1"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask2"     comment="刷的任务" />
+            <Member type="YaMenTaskProt::EYaMenTaskState"   name="eState2"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask3"     comment="刷的任务" />
+            <Member type="YaMenTaskProt::EYaMenTaskState"   name="eState3"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask4"     comment="刷的任务" />
+            <Member type="YaMenTaskProt::EYaMenTaskState"   name="eState4"    comment="任务状态" />
+            <Member type="UINT32"    name="dwFlushTask5"     comment="刷的任务" />
+            <Member type="YaMenTaskProt::EYaMenTaskState"   name="eState5"    comment="任务状态" />
+        </Struct>
+        <Struct name="SActivityTaskInfo" vec="TVecActivityTaskInfo" comment="活跃任务" >
+            <Member type="UINT16"       name="wId"       comment="活跃触发点ID" />
+            <Member type="UINT8"        name="byTimes"      comment="完成次数" />
+            <Member type="UINT8"        name="byIsSpecial"      comment="是否特别任务" />
+        </Struct>
+        <Struct name="STitle" vec="TVecTitle" comment="头衔" >
+            <Member type="UINT16"       name="wId"       comment="头衔ID" />
+            <Member type="UINT8"        name="byEquipPos"      comment="装备位,从1开始，0表示未装备" />
+            <Member type="UINT32"       name="dwValidTime"      comment="有效截止时间,0表示永久" />
+        </Struct>
+        <Struct name="SPendRes" vec="TVecPendRes" comment="暂存信息" >
+            <Member type="UINT8"       name="byResType"       comment="类型" />
+            <Member type="UINT32"       name="dwValue"      comment="数据" />
+            <Member type="UINT8"       name="bySource"      comment="暂存原因0,战斗，1副本" />
+            <Member type="UINT32"       name="dwParam"      comment="参数" />
+        </Struct>
+        <Struct name="SEventInfo" vec="TVecEventInfo" comment="事件信息">
+            <Member type="UINT64" name ="qwRoleID" comment="角色ID"/>
+            <Member type="UINT8" name ="byActClassID" comment="活动类型ID"/>
+            <Member type="UINT32" name ="dwEventInstID" comment="事件实例ID"/>
+            <Member type="UINT32" name ="dwApplyID" comment="具体活动ID"/>
+            <Member type="UINT16" name ="wEventStatus" comment="事件状态"/>
+            <Member type="UINT8" name ="bySave" comment="是否存数据库"/>
+            <Member type="UINT32" name ="dwParam1" comment="统计参数1"/>
+            <Member type="INT32" name  ="dwParam2" comment="统计参数2"/>
+            <Member type="UINT32" name  ="dwStartTime" comment="开始时间"/>
+            <Member type="UINT32" name  ="dwEndTime" comment="结束时间"/>
+            </Struct>
+        <Struct name="SEventOffLine" vec="TVecEventOffLine" comment="离线事件">
+            <Member type="UINT8" name ="byServerType" comment="服务器类型"/>
+            <Member type ="UINT32" name ="dwEventType" comment ="事件类型"/>
+            <Member type ="UINT32" name ="dwTime" comment ="发生时间"/>
+            <Member type ="string" name ="strParam1" comment ="TVecUINT32"/>
+            <Member type ="string" name ="strParam2" comment ="字符参数"/>
+        </Struct>
+        <Struct name="SBuyItemDBInfo" vec="TVecBuyItemDBInfo" comment="物品购买数量db信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT32" name="dwInstID" comment="实例ID"/>
+            <Member type="UINT32" name="dwCount" comment="物品数量"/>
+        </Struct>
+        <Struct name="SDayTargetDBInfo" vec="TVecDayTargetDBInfo" comment="7日目标活动信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wTaskID" comment="任务ID"/>
+            <Member type="UINT8" name="byStatus" comment="任务状态"/>
+            <Member type="UINT32" name="dwProcess" comment="任务进度"/>
+        </Struct>
+        <Struct name="SBattleArrayDBInfo" vec="TVecBattleArrayDBInfo" comment="破阵信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wBattleArrayID" comment="阵id"/>
+            <Member type="UINT32" name="dwBattleArrayLevelID" comment="进度(阵图id)"/>
+            <Member type="UINT8" name="byBattleArrayStatus" comment="状态"/>
+        </Struct>
+        <Struct name="SAutoStoreDBInfo" vec="TVecAutoStoreDBInfo" comment="动态存储信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wType" comment="大类"/>
+            <Member type="UINT32" name="dwClassID" comment="小类"/>
+            <Member type="UINT32" name="dwValue" comment="数值"/>
+        </Struct>
+        <Struct name="SFightFormationDBInfo" vec="TVecFightFormationDBInfo" comment="新阵型信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wBattleType" comment="战斗类型"/>
+            <Member type="UINT16" name="wFormationID" comment="当前阵形ID"/>
+            <Member type="string" name="strBattlePosInfo" comment="阵型信息"/>
+        </Struct>
+        <Struct name="SFightHeroDBInfo" vec="TVecFightHeroDBInfo" comment="战斗散仙数据">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wBattleType" comment="战斗类型"/>
+            <Member type="UINT64" name="qwInstID" comment="散仙instID"/>
+            <Member type="UINT32" name="dwHP" comment="当前生命值"/>
+            <Member type="UINT32" name="dwMaxHP" comment="最大生命值（可能用到）"/>
+            <Member type="UINT32" name="dwAura" comment="灵气值"/>
+            <Member type="UINT32" name="dwMaxAura" comment="灵气值"/>
+        </Struct>
+        <Struct name="RoleDataInfo" vec="TVecRoleDataInfo" comment="玩家整体数据">
+            <Member type="UINT64" name ="qwRoleId" comment="玩家RoleId"/>
+            <Member type="RoleBaseInfo" name="stBaseInfo" comment="玩家基本数据成员"/>
+            <Member type="FighterProt::TVecFighterDBInfo" name="vecFighterInfo" comment="将信息"/>      
+            <Member type="FighterProt::TVecSkillDBInfo" name="vecSkillInfo" comment="将技能信息"/>      
+            <Member type="FighterProt::TVecPassiveSkillDBInfo" name="vecPassiveSkillInfo" comment="将技能信息"/>      
+            <Member type="FighterProt::TVecFighterCombination" name="vecFighterCombination" comment="玩家的散仙组合信息"/>
+            <Member type="ItemProt::TVecItem" name="vecRoleItemInfo" comment="玩家物品成员"/>      
+            <Member type="FriendProt::TVecFriendDBInfo" name="vecFriendsInfo" comment="好友信息"/>      
+            <Member type="TVecRoleDgnInfo"  name ="vecRoleDgnInfo" comment="玩家副本信息"/>
+            <Member type="TVecRoleTaskInfo"  name ="vecRoleTaskInfo" comment="玩家任务信息"/>
+            <Member type="TVecVarsDBInfo"  name ="vecGameVars" comment="玩家身上Game上的变量任务信息"/>
+            <Member type="TVecRoleSlotsInfo" name="vecRoleSlotsInfo" comment="玩家身上的槽的信息" />
+            <Member type="TVecFormationInfo" name="vecFormationInfo" comment="玩家的阵形信息" />
+            <Member type="TVecPetDataInfo" name="vecPetDataInfo" comment="玩家的阵灵信息" />
+            <Member type="SRolePetInfo" name="oRolePetInfo" comment="玩家的阵形全局信息" />
+            <Member type="TVecBeastSoulInfo" name="vecBeastSoulInfo" comment="玩家的兽魂信息" />
+            <Member type="TripodProt::TVecFireInfo" name="vecFireInfo" comment="玩家九疑鼎的火种信息" />
+            <Member type="TVecRoleArenaInfo" name="vecArenaInfo" comment="玩家斗剑信息"/>
+            <Member type="ProtoCommon::TVecDBBuffInfo" name="vecDBBuffInfo" comment="玩家Buff信息" />
+            <Member type="TVecSoulSpaceInfo" name="vecSoulSpaceInfo" comment="玩家魄空间信息" />
+            <Member type="TVecDBBubbleInfo" name="vecBubbleInfo" comment="玩家气泡信息" />
+            <Member type="Horse::TVecHorseDB" name="vecHorseDB" comment="玩家魄坐骑信息" />
+            <Member type="SGroupTaskInfo" name="sGroupInfo" comment="师门任务信息" />
+            <Member type="SYaMenTaskInfo" name="sYaMenInfo" comment="衙门任务信息" />
+            <Member type="TVecActivityTaskInfo" name="vecActivityTask" comment="活跃度任务信息" />
+            <Member type="TVecTitle" name="vecTitle" comment="称号信息" />
+            <Member type="AchievementProt::TVecAchievementInfo" name="vecAchievementInfo" comment="成就信息" />
+            <Member type="CollectionProt::TVecCollectionInfo" name="vecCollectionInfo" comment="收藏信息" />
+            <Member type="DemonTower::TVecRoleAttaked" name="vecRoleAttaked" comment="玩家被攻击信息列表" />
+            <Member type="ExchangeShopProt::TVecExchangeInfo" name="vecExchangeInfo" comment="玩家兑换信息列表" />
+            <Member type="DungeonProt::TVecSweepInfo" name="vecSweepInfo" comment="玩家兑换信息列表" />
+            <Member type="TVecPendRes" name="vecPendRes" comment="玩家暂存资源列表"/>
+            <Member type="FighterProt::TVecXinFaDBInfo" name="vecXinFaDBInfo" comment="玩家心法信息" />
+            <Member type="LevelPrize::TVecPrize2DB" name="vecLevelPrize" comment="玩家条件奖励信息" />
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatformParam" comment="玩家平台信息" />
+            <Member type="TVecEventInfo" name="vecEventInfo" comment="事件信息" />
+            <Member type="TVecEventOffLine" name="vecEventOffLine" comment="离线事件" />
+            <Member type="TVecBuyItemDBInfo" name="vecBuyItemDBInfo" comment="商品购买数量" />
+            <Member type="TVecDayTargetDBInfo" name="vecDayTargetDBInfo" comment="7日目标活动信息" />
+            <Member type="TVecBattleArrayDBInfo" name="vecBattleArrayDBInfo" comment="破阵信息" />
+            <Member type="TVecAutoStoreDBInfo" name="vecAutoStoreDBInfo" comment="动态存储信息" />
+            <Member type="TreasureHuntProt::TVecTHDBInfo" name="vecTHDBInfo" comment="玩家寻宝信息" />
+            <Member type="Beauty::TVecBeauty" name="vecBeauty" comment="美女信息" />
+            <Member type="TVecFightFormationDBInfo" name="vecFightFormationDBInfo" comment="新阵型信息" />
+            <Member type="TVecFightHeroDBInfo" name="vecFightHeroDBInfo" comment="战斗散仙数据" />
+            <Member type="ShipProt::PlayerSelfShipData" name="sShipData" comment="自己运船信息" />
+            <Member type="ShipProt::TVecShipReport" name="vecShipReport" comment="战报信息" />
+            <Member type="GuardEMeiProt::TVecGEMDBInfo" name="vecGEMDBInfo" comment="玩家守卫峨眉信息" />
+            <Member type="ShengLingProt::TVecShengLingInfo2DB" name="vecShengLing" comment="玩家圣陵信息" />
+            <Member type="ShengLingProt::TVecShengLingPrize2DB" name="vecShengLingPrize" comment="玩家圣陵奖励" />
+            <!--Member type="TVecVarsDBInfo"  name ="vecCenterVars" comment="玩家算上Center上的任务信息"/-->
+        </Struct>
+        <Struct name="SRecharge" vec="TVecRecharge" comment="DB存储玩家充值仙石的结构体">
+            <Member type="string" name="strNo" comment="充值流水号"/>
+            <Member type="UINT64" name="qwRoleID" comment="用户ID"/>
+            <Member type="UINT16" name="wGoldID" comment="仙石包ID(41[10仙石],42[100仙石],43[300仙石],44[500仙石],45[1000仙石],46[3000仙石])"/>
+            <Member type="UINT32" name="dwCount" comment="充值的仙石包数量"/>
+            <Member type="UINT32" name="dwGold" comment="充值的仙石总数"/>
+            <Member type="UINT8" name="byStatus" comment="仙石是否到账(0-准备/不成功 1-成功,2-补单成功)"/>
+            <Member type="UINT32" name="dwHappenedTime" comment="充值时间"/>
+        </Struct>
+        <Struct name="SPrepaid" vec="TVecPrepaid" comment="DB存储玩家未创角预先充值仙石的结构体">
+            <Member type="UINT64" name="qwRoleID" comment="用户ID"/>
+            <Member type="UINT32" name="dwGold" comment="预先充值的仙石总数量"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+</Protocol>

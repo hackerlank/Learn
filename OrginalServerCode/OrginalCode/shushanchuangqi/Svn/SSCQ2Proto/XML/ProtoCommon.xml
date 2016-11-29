@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ProtoCommon" id="258" comment="各个协议、服务器之间通用结构存放文件">
+    <TypeDef>
+        <Enum name="ECareerType" comment="枚举类型示例">
+            <Member name="ECAREER_ALL" comment="所有职业"/>
+            <Member name="ECAREER_RU" comment="儒"/>
+            <Member name="ECAREER_SHI" comment="释"/>
+            <Member name="ECAREER_DAO" comment="道"/>
+            <Member name="ECAREER_MO" comment="墨"/>
+            <Member name="ECAREER_MAX" comment="最大值"/>
+        </Enum>
+        <Enum name="ESexType" comment ="性别">
+            <Member name="ESEX_ALL" comment ="所有性别"/>
+            <Member name="ESEX_MALE" commemt ="男性"/>
+            <Member name="ESEX_FEMALE" comment="女性"/>
+            <Member name="ESEX_MAX"    comment="最大值"/>
+        </Enum>
+        <Enum name="EColor" comment ="颜色">
+            <Member name="ECOLOR_BLACK" comment ="黑"/>
+            <Member name="ECOLOR_WHITE" commemt ="白"/>
+            <Member name="ECOLOR_GREEN" comment="绿"/>
+            <Member name="ECOLOR_BLUE"    comment="兰"/>
+            <Member name="ECOLOR_PURPLE"    comment="紫"/>
+            <Member name="ECOLOR_ORANGE"    comment="橙"/>
+        </Enum>
+        <Enum name="ECoinType" comment="货币类型">
+            <Member name="eCoinNone" comment="无"/>
+            <Member name="eGoldCoin" comment="仙石"/>
+            <Member name="eSilverCoin" comment="银币"/>
+            <Member name="eCouponCoin" comment="礼券"/>
+            <Member name="eHonourCoin" comment="荣誉"/>
+            <Member name="eCoinEnd" comment="结束"/>
+        </Enum>
+        <Struct name="SCoinValue" vec="TVecCoinValue" comment="货币信息">
+            <Member type="ECoinType" name="eCoinType" comment="货币类型"/>
+            <Member type="UINT32" name="dwValue" comment="值"/>
+        </Struct>
+        <!--VIP类型-->
+        <Enum name="EDataChange" desc="true" comment="数据变化类型">
+            <Member name="eOpNone"      comment="无变化"/>
+            <Member name="eOpAdd"       comment="数据增加"/>
+            <Member name="eOpDel"       comment="数据删除"/>
+            <Member name="eOpUpdate"    comment ="数据更新"/>
+            <Member name="eOpReplace"   comment="数据替换" />
+            <Member name="eOpAddIgnore" comment="数据仅新增"/>
+            <Member name="eOpMax"       comment ="最大值"/>
+        </Enum>
+        <Enum name="EMoneyType" desc="true" comment="货币类型">
+            <Member name="EMONEY_NONE"            value="0"   comment="无类型表示不消耗"/>
+            <Member name="EMONEY_GOLD"            value="1"   comment="仙石"/>
+            <Member name="EMONEY_SILVER"          value="2"   comment="银币"/>
+            <Member name="EMONEY_COUPON"          value="3"   comment="礼券"/>
+            <Member name="EMONEY_GIFTCOIN"        value="4"   comment="金券"/>
+            <Member name="EMONEY_EXP"             value="5"   comment="经验"/>
+            <Member name="EMONEY_PRESTIGE"        value="6"   comment="声望"/>
+            <Member name="EMONEY_SOUL"            value="7"   comment="魂魄"/>
+            <Member name="EMONEY_HONOR"           value="8"   comment="荣誉"/>
+            <Member name="EMONEY_PEXP"            value="9"   comment="修为"/>
+            <Member name="EMONEY_SIGIL"           value="10"  comment="符印"/>
+            <Member name="EMONEY_CENTSY"          value="11"  comment="仙元"/>
+            <Member name="EMONEY_ACTION"          value="12"  comment="体力"/>
+            <Member name="EMONEY_SOP"             value="13"  comment="阅历"/>
+            <Member name="EMONEY_TAOISM"          value="14"  comment="道术"/>
+            <Member name="EMONEY_POTEN"           value="15"  comment="渡劫点数"/>
+            <Member name="EMONEY_REIKI"           value="16"  comment="副本星级"/>
+            <Member name="EMONEY_HFP"             value="17"  comment="寻仙积分"/>
+            <Member name="EMONEY_DEMONSOUL"       value="18"  comment="封印点"/>
+            <Member name="EMONEY_SOULATTACK"      value="19"  comment="攻击之魂"/>
+            <Member name="EMONEY_SOULHP"          value="20"  comment="生命之魂"/>
+            <Member name="EMONEY_SOULCRITICAL"    value="21"  comment="暴击之魂"/>
+            <Member name="EMONEY_SOULCOUNTER"     value="22"  comment="反击之魂"/>
+            <Member name="EMONEY_SOULSPEED"       value="23"  comment="身法之魂"/>
+            <Member name="EMONEY_SOULDEFENCE"     value="24"  comment="防御之魂"/>
+            <Member name="EMONEY_SOULHIT"         value="25"  comment="命中之魂"/>
+            <Member name="EMONEY_SOULDODGE"       value="26"  comment="闪避之魂"/>
+            <Member name="EMONEY_ACHIEVEMENTAP"   value="27"  comment="成就点"/>
+            <Member name="EMONEY_COLLECTAP"       value="28"  comment="收藏点"/>
+            <Member name="EMONEY_GUILDCONTRIB"    value="29"  comment="帮派贡献"/>
+            <Member name="EMONEY_STAMPHUANG"      value="30"  comment="橙阶除魔印"/>
+            <Member name="EMONEY_STAMPXUAN"       value="31"  comment="蓝阶除魔印"/>
+            <Member name="EMONEY_STAMPDI"         value="32"  comment="绿阶除魔印"/>
+            <Member name="EMONEY_STAMPTIAN"       value="33"  comment="紫阶除魔印"/>
+            <Member name="EMONEY_STAMPXING"       value="34"  comment="星阶除魔印"/>
+            <Member name="EMONEY_STAMPYUE"        value="35"  comment="月阶除魔印"/>
+            <Member name="EMONEY_STAMPDI2"        value="36"  comment="帝阶除魔印"/>
+            <Member name="EMONEY_STAMPXIAN"       value="37"  comment="仙阶除魔印"/>
+            <Member name="EMONEY_STAMPSHENG"      value="38"  comment="圣阶除魔印"/>
+            <Member name="EMONEY_STAMPFO"         value="39"  comment="佛阶除魔印"/>
+            <Member name="EMONEY_LOVEHEART"       value="40"  comment="爱心"/>
+            <Member name="EMONEY_BLUEFAIRYFATE"   value="51"  comment="蓝色仙缘" />
+            <Member name="EMONEY_PURPLEFAIRYFATE" value="52"  comment="紫色仙缘" />
+            <Member name="EMONEY_ORANGEFAIRYFATE" value="53"  comment="橙色仙缘" />
+            <Member name="EMONEY_DUJIEFU"         value="56"  comment="渡劫符" />
+			<Member name="EMONEY_LUCKYCOUPON"     value="57"  comment="抽奖券" />
+            <Member name="EMONEY_END"             value="100" comment="货币类型上限标志"/>
+        </Enum>
+        <Enum name="EFighterAttr" comment="属性枚举">
+            <Member name="EFIGHTATTR_MIN" value="0" comment="属性枚举最小值"/>
+            <Member name="EFIGHTATTR_PHYATK           " value="1" comment="物理攻击"/>
+            <Member name="EFIGHTATTR_MGCATK           " value="2" comment="法术攻击"/>
+            <Member name="EFIGHTATTR_PHYDEF           " value="3" comment="物理防御"/>
+            <Member name="EFIGHTATTR_MGCDEF           " value="4" comment="法术防御"/>
+            <Member name="EFIGHTATTR_PHYRDC           " value="5" comment="物理免伤"/>
+            <Member name="EFIGHTATTR_MGCRDC           " value="6" comment="魔法免伤"/>
+            <Member name="EFIGHTATTR_MAXHP            " value="7" comment="最大生命"/>
+            <Member name="EFIGHTATTR_SPEED            " value="8" comment="身法"/>
+
+            <Member name="EFIGHTATTR_HIT              " value="9" comment="命中值"/>
+            <Member name="EFIGHTATTR_HITRATE          " value="10" comment="命中率"/>
+            <Member name="EFIGHTATTR_DODGE            " value="11" comment="闪避值"/>
+            <Member name="EFIGHTATTR_DODGERATE        " value="12" comment="闪避率"/>
+            <Member name="EFIGHTATTR_CRITICAL         " value="13" comment="暴击值"/>
+            <Member name="EFIGHTATTR_CRTRATE          " value="14" comment="暴击率"/>
+            <Member name="EFIGHTATTR_ANTICRITCAL      " value="15" comment="稳固值"/>
+            <Member name="EFIGHTATTR_ANTICRTRATE      " value="16" comment="稳固率"/>
+            <Member name="EFIGHTATTR_BLOCK            " value="17" comment="格挡值"/>
+            <Member name="EFIGHTATTR_BLOCKRATE		  " value="18" comment="格挡率"/>
+            <Member name="EFIGHTATTR_PIERCE           " value="19" comment="穿透值"/>
+            <Member name="EFIGHTATTR_PIERCERATE       " value="20" comment="穿透率"/>
+            <Member name="EFIGHTATTR_COUNTER          " value="21" comment="反击值"/>
+            <Member name="EFIGHTATTR_COUNTERRATE      " value="22" comment="反击率"/>
+            <Member name="EFIGHTATTR_RESIST           " value="23" comment="压制值"/>
+            <Member name="EFIGHTATTR_RESISTRATE       " value="24" comment="压制率"/>
+
+            <Member name="EFIGHTATTR_INITAURA         " value="25" comment="入场灵气"/>
+            <Member name="EFIGHTATTR_MAXAURA          " value="26" comment="最大灵气"/>
+            <Member name="EFIGHTATTR_CRIEXTRAADD      " value="27" comment="暴击伤害增加"/>
+            <Member name="EFIGHTATTR_CRIEXTRARDC      " value="28" comment="暴击伤害减免"/>
+
+            <Member name="EFIGHTATTR_METALATK         " value="29" comment="金攻"/>
+            <Member name="EFIGHTATTR_WOODATK          " value="30" comment="木攻"/>
+            <Member name="EFIGHTATTR_WATERATK         " value="31" comment="水攻"/>
+            <Member name="EFIGHTATTR_FIREATK          " value="32" comment="火攻"/>
+            <Member name="EFIGHTATTR_EARTHATK         " value="33" comment="土攻"/>
+
+            <Member name="EFIGHTATTR_METALDEF         " value="34" comment="金防"/>
+            <Member name="EFIGHTATTR_WOODDEF          " value="35" comment="木防"/>
+            <Member name="EFIGHTATTR_WATERDEF         " value="36" comment="水防"/>
+            <Member name="EFIGHTATTR_FIREDEF          " value="37" comment="火防"/>
+            <Member name="EFIGHTATTR_EARTHDEF         " value="38" comment="土防"/>
+
+            <Member name="EFIGHTATTR_PHYATK_PER       " value="39" comment="物理攻击%"/>
+            <Member name="EFIGHTATTR_MGCATK_PER       " value="40" comment="法术攻击%"/>
+            <Member name="EFIGHTATTR_PHYDEF_PER       " value="41" comment="物理防御%"/>
+            <Member name="EFIGHTATTR_MGCDEF_PER       " value="42" comment="法术防御%"/>
+            <Member name="EFIGHTATTR_MAXHP_PER        " value="43" comment="最大生命%"/>
+            <Member name="EFIGHTATTR_SPEED_PER        " value="44" comment="身法%"/>
+
+            <Member name="EFIGHTATTR_HIT_PER          " value="45" comment="命中值%"/>
+            <Member name="EFIGHTATTR_DODGE_PER        " value="46" comment="闪避值%"/>
+            <Member name="EFIGHTATTR_CRITICAL_PER     " value="47" comment="暴击值%"/>
+            <Member name="EFIGHTATTR_ANTICRITCAL_PER  " value="48" comment="稳固值%"/>
+            <Member name="EFIGHTATTR_BLOCK_PER        " value="49" comment="格挡值%"/>
+            <Member name="EFIGHTATTR_PIERCE_PER       " value="50" comment="穿透值%"/>
+            <Member name="EFIGHTATTR_COUNTER_PER      " value="51" comment="反击值%"/>
+            <Member name="EFIGHTATTR_RESIST_PER       " value="52" comment="压制值%"/>
+            <Member name="EFIGHTATTR_ANTIEFFECT       " value="53" comment="法术抵抗"/>
+            <Member name="EFIGHTATTR_COUTEREXTRAADD   " value="54" comment="反击伤害增加"/>
+            <Member name="EFIGHTATTR_COUTEREXTRARDC   " value="55" comment="反击伤害减免"/>
+
+            <Member name="EFIGHTATTR_MAX" comment="属性枚举最大值"/>
+        </Enum>     
+        <Struct name="SFtAttrMod" vec="TVecFtAttrMod" comment="属性变化结构">
+            <Member type="EFighterAttr"   name="_eAttr" comment="属性类型"/>
+            <Member type="float"          name="_fValue" comment="改变的值"/>
+        </Struct>
+        <Enum name="EAttrGroupType" comment="属性加成类型">
+            <Member name="eAttrGpMin"                   comment="属性加成" />
+            <!--主将属性加成-->
+            <Member name="eAttrGpPlayerBegin"           comment="主将属性加成开始---" />
+            <Member name="eAttrGpFashion"               comment="时装属性加成" />
+            <Member name="eAttrGpTitle"                 comment="称号属性加成" />
+            <Member name="eAttrGpCitta"                 comment="心法属性加成" />
+            <Member name="eAttrGpPlayerEnd"             comment="主将加成属性结束-----" />
+            <!--散仙属性加成-->
+            <Member name="eAttrGpHeroBegin"             comment="散仙加成属性开始" />
+            <Member name="eAttrGpEquipTrump"            comment="装备法宝属性加成" />
+            <Member name="eAttrGpGemstone"              comment="宝石属性加成" />
+            <Member name="eAttrGpHeroEnd"               comment="散仙加成属性结束" />
+            <!--全员属性-->
+            <Member name="eAttrGpHeroAndPlayerBegin"    comment="全员加成属性开始--" />
+            <Member name="eAttrGpTrumpActive"           comment="法宝激活属性加成" />
+            <Member name="eAttrGpTrumpExtra"            comment="法宝附加属性加成" />
+            <Member name="eAttrGpTrumpHalo"             comment="法宝光环属性加成" />
+            <Member name="eAttrGpHorse"                 comment="坐骑属性加成" />
+            <Member name="eAttrGpShushanBattle"         comment="蜀山论剑属性加成" />
+            <Member name="eAttrGpBag"                   comment="背包解锁的属性加成" />
+            <Member name="eAttrGpAchievement"           comment="成就属性加成" />
+            <Member name="eAttrGpCollection"            comment="收集属性加成" />
+            <Member name="eAttrGpFormation"             comment="阵形属性加成" />
+            <Member name="eAttrGpPet"                   comment="阵灵属性加成" />
+            <Member name="eAttrGpBeastSoul"             comment="兽魂" />
+            <Member name="eAttrGpGuildTech"             comment="帮派技能加成" />
+            <Member name="eAttrGpBuffer"                comment="外部buffer属性加成" />
+            <Member name="eAttrGpTripod"                comment="九疑鼎属性加成" />
+            <Member name="eAttrGpFighterCombination"    comment="散仙组合属性加成" />
+            <Member name="eAttrBeauty"                  comment="美女系统" />
+            <Member name="eAttrGpHeroAndPlayerEnd"      comment="全员加成属性结束--" />
+            <Member name="eAttrGpMax"                   comment="属性加成" />
+        </Enum>
+        <Struct name="SAttrGroup" vec="TVecAttrGroup" comment="属性加成" >
+            <Member type="EAttrGroupType" name="eType" comment="属性加成类型" />
+            <Member type="TVecFtAttrMod" name="vecFtAttrMod" comment="属性变化结构" />
+        </Struct>
+        <Enum name="AWARDTYPE" desc="true" comment="奖励类型">
+            <Member name="AWARDTYPE_TITLE"    value="1" comment="称号" />
+        </Enum>
+        <Enum name="EBuffType" desc="true" comment="Buff大类">
+            <Member name="eBTNone"    value="0" comment="无效Buff大类" />
+            <Member name="eBTUser"              comment="帐号相关Buff类型" />
+            <Member name="eBTPlayer"            comment="玩家自带Buff类型" />
+            <Member name="eBTMainFighter"       comment="主将相关Buff类型" />
+            <Member name="eBTFighter"           comment="散仙相关Buff类型" />
+            <Member name="eBTMonster"           comment="怪物相关Buff类型" />
+            <Member name="eBTNPC"               comment="NPC相关Buff类型" />
+            <Member name="eBTMax"               comment="Buff大类最大值" />
+        </Enum>
+        <Enum name="EBuffEffectType" desc="true" comment="Buff效果类型" >
+            <Member name="eBETNone"         comment="无效Buff效果类型" />
+            <Member name="eBETAttr"         comment="Buff属性加成" />
+            <Member name="eBETTimeCount"    comment="Buff持续时间同时持续次数" />
+            <Member name="eBETCount"        comment="Buff仅持续时间" />
+            <Member name="eBETMax"          comment="Buff效果最大值" />
+        </Enum>
+        <Enum name="EBuffState" desc="true" comment="Buff状态">
+            <Member name="eBSNone"    value="0" comment="无效Buff状态" />
+            <Member name="eBSActived"           comment="Buff生效" />
+            <Member name="eBSPaused"            comment="Buff暂停" />
+            <Member name="eBSOverdue"           comment="Buff过期" />
+            <Member name="eBSMax"               comment="Buff状态最大值" />
+        </Enum>
+        <Enum name="EBuffOpResult" desc="true" comment="Buff相关操作结果">
+            <Member name="eBORSuccess" value="0" comment="操作成功" />
+            <Member name="eBORFailed"            comment="操作失败" />
+            <Member name="eBORExisted"           comment="存在相同Buff" />
+            <Member name="eBORNotExisted"        comment="不存在该Buff" />
+            <Member name="eBOROverdue"           comment="已经过期的Buff" />
+            <Member name="eBORPaused"            comment="已经暂停的Buff" />
+        </Enum>
+        <Enum name="EAttacked" desc="true" comment="被攻击类型">
+            <Member name="eAttacked_None" value="0" comment="无" />
+            <Member name="eAttacked_Demontower"     comment="锁妖塔" />
+            <Member name="eAttacked_Max"            comment="类型上限" />
+        </Enum>
+		<Enum name="EQQPtType" desc="true" comment="QQ平台类型">
+			<Member name="eQQPtTypeNone"  comment="无"/>
+			<Member name="eQQPtTypeYellow" value="1" comment="黄钻平台"/>
+			<Member name="eQQPtTypeBlue" value="2" comment="蓝钻平台"/>
+			<Member name="eQQPtTypeRed" value="3" comment="红钻/VIP平台"/>
+			<Member name="eQQPtTypeMax"  comment="最大值"/>
+		</Enum>
+		<Enum name="EPtType" desc="true" comment="平台类型定义">
+			<Member name="ePtTypeNone"  comment="无"/>
+			<Member name="ePtTypeQQYellow" value="1" comment="QQ黄钻平台/Qzone"/>
+			<Member name="ePtTypeQQPengyou" value="2" comment="QQ朋友/校友/黄钻"/>
+			<Member name="ePtTypeQQWeibo" value="3" comment="QQ微博平台"/>
+			<Member name="ePtTypeQQPlus" value="4" comment="QQ/Q+平台"/>
+			<Member name="ePtTypeQQGame" value="5" comment="QQ蓝钻/游戏平台"/>
+			<Member name="ePtTypeQQ3366" value="6" comment="QQ蓝钻/3366平台/包子"/>
+			<Member name="ePtTypeQQKingxin" value="7" comment="QQ官网平台/QQ会员"/>
+			<Member name="ePtTypeKingxin" value="8" comment="恺英官网平台"/>
+			<Member name="ePtTypeMax"  comment="最大值"/>
+		</Enum>
+        <Struct name="SDBBuffInfo" vec="TVecDBBuffInfo" comment="Buff数据信息" >
+            <Member type="UINT64"          name="qwRoleID"        comment="对应玩家ID" />
+            <Member type="UINT64"          name="qwOwnerID"       comment="所属实例ID(Role/Fighter/..." />
+            <Member type="EBuffType"       name="eBuffType"       comment="Buff大类" />
+            <Member type="UINT16"          name="wBuffID"         comment="Buff种类" />
+            <Member type="EBuffEffectType" name="eBuffEffectType" comment="Buff效果类型" />
+            <Member type="EBuffState"      name="eBuffState"      comment="Buff当前状态" />
+            <Member type="TVecUINT32"      name="vecBuffParam"    comment="Buff效果参数" />
+            <Member type="UINT32"          name="dwBuffCount"     comment="Buff失效次数"/>
+            <Member type="UINT32"          name="dwBuffTime"      comment="Buff失效时间"/>
+            <Member type="TVecUINT32"      name="vecEffectMapID"  comment="地图ID限制，空表示任意地图"/>
+            <Member type="UINT8"          name="byBattleType"      comment="有效的战斗类型(不存数据库)"/>
+        </Struct>
+        <Struct name="SBuffInfo" vec="TVecBuffInfo" comment="Buff详细信息">
+            <Member type="UINT64"       name="qwRoleID"       comment="对应玩家ID" />
+            <Member type="UINT64"       name="qwOwnerID"      comment="所属实例ID(Role/Fighter/..." />
+            <Member type="UINT16"       name="wBuffID"        comment="Buff种类" />
+            <Member type="EBuffState"   name="eBuffState"     comment="Buff当前状态" />
+            <Member type="TVecUINT32"   name="vecBuffData"    comment="Buff数值"/>
+            <Member type="UINT32"       name="dwBuffCount"    comment="Buff叠加层数"/>
+            <Member type="UINT32"       name="dwBuffTime"     comment="Buff失效时间"/>
+        </Struct>
+        <Struct name="SMoneyCount" vec="TVecMoneyCount" comment="货币列表">
+            <Member type="EMoneyType"   name="eMoneyType" comment="货币类型"/>
+            <Member type="UINT32"       name="dwCount" comment="货币量"/>
+        </Struct>
+        <Enum name="EPlatformBitType" desc="true" comment="平台额外bit参数定义" >
+            <Member name="ePBBitSuper"      value="0" comment="豪华/超级" />
+            <Member name="ePBBitYearly"     value="1" comment="年费" />
+        </Enum>
+        <Struct name="SPlatformParam" vec="TVecPlatformParam" comment="平台相关参数">
+            <Member type="EPtType" name ="byPtType" comment="平台类型"/>
+			<Member type="EQQPtType" name ="byQQPtType" comment="QQ平台类型"/>
+            <Member type="UINT8" name="byQQPtLv" comment="QQ平台类型等级"/>
+            <Member type="UINT8" name="bySPType" comment="Bit位定义见EPlatformBitType" />
+        </Struct>
+        <Struct name="SActivityTime"  comment="Center2Game 活动时间同步">
+            <Member type="UINT32" name ="dwActID" comment="活动ID"/>
+            <Member type="UINT32" name ="dwAlarm" comment="公告"/>
+			<Member type="UINT32" name ="dwReady" comment="准备"/>
+            <Member type="UINT32" name="dwBegin" comment="开始"/>
+            <Member type="UINT32" name="dwEnd" comment="结束" />
+        </Struct>
+        <Struct name="SActivityOpt" vec="TVecActivityOpt" comment="活动中心数据库记录">
+            <Member type="UINT32" name ="dwActID"  comment="活动ID"/>
+            <Member type="UINT8" name ="byIndex"  comment="场次"/>
+            <Member type="string" name ="strName"  comment="活动名字"/>
+			<Member type="UINT32" name ="dwSync" comment="活动时间 同步"/>
+			<Member type="UINT32" name ="dwAlarm" comment="活动公告时间"/>
+			<Member type="UINT32" name ="dwReady" comment="活动准备时间"/>
+			<Member type="UINT32" name ="dwBegin" comment="活动开始时间"/>
+            <Member type="UINT32" name="dwEnd"    comment="活动结束时间"/>
+            <Member type="bool" name="bSync"    comment="是否同步Game"/>
+            <Member type="UINT32" name="dwOptTime"      comment="操作时间"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+</Protocol>

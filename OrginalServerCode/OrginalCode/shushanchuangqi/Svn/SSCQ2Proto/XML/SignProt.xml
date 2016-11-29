@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="SignProt" id="83" proxy="GameServer" comment="签到协议">
+    <TypeDef>
+        <Enum name="ESignResult" comment="请求的结果">
+            <Member name="eSignSucceed" comment="成功"/>
+            <Member name="eSignHasDone" comment="今日已签到"/>
+            <Member name="eSignResignDone"      comment ="补签日已签到"/>
+            <Member name="eSignResignErrDate"      comment ="补签日期错误"/>
+            <Member name="eSignResignOverTimes"      comment ="补签次数用完"/>
+            <Member name="eSignAwardHasGet"          comment ="该签到奖励已领"/>
+            <Member name="eSignAwardIdErr"           comment ="该签到奖励id不正确"/>
+            <Member name="eSignAwardLowDays"           comment ="该签到奖励的签到天数不足"/>
+            <Member name="eSignAwardPacketFull"           comment ="签到奖励包裹放不下"/>
+            <Member name="eSignVIP"           comment ="提醒开通御剑"/>
+            <Member name="eSignOther" comment="其它错误"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetSignInfo" ret="true" comment="请求签到信息">
+            <RetParam type="UINT32" name="dwSignData"  comment="按位计数，从右到左，一位表示1天，1表示该日已签到"/>
+            <RetParam type="UINT8"  name="byReSignTimes" comment ="该月补签天数"/>
+            <RetParam type="UINT32" name ="dwAward" comment ="签到奖励包获取状态"/>
+        </Func>
+        <Func name="DoSign" ret="true" comment="请求签到">
+            <RetParam type="ESignResult" name ="eResult" comment ="处理结果"/>
+            <RetParam type="UINT32" name="dwSignData"  comment="按位计数，从右到左，一位表示1天，1表示该日已签到"/>
+        </Func>
+        <Func name="DoReSign" ret="true" comment="请求补签">
+            <Param type="UINT8" name ="byDay" comment ="补签日期"/>
+            <RetParam type="ESignResult" name ="eResult" comment ="处理结果"/>
+            <RetParam type="UINT32" name="dwSignData"  comment="按位计数，从右到左，一位表示1天，1表示该日已签到"/>
+            <RetParam type="UINT8"  name="byReSignTimes" comment ="该月补签天数"/>
+        </Func>
+        <Func name="DoGetAward" ret="true" comment="请求领取奖励">
+            <Param type="UINT8" name ="byId" comment ="奖励ID"/>
+            <RetParam type="ESignResult" name ="eResult" comment ="处理结果"/>
+            <RetParam type="UINT32" name ="dwAward" comment ="签到奖励包获取状态"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

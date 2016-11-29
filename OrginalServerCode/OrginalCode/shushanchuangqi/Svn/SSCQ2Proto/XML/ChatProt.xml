@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ChatProt" id="23" proxy="GameServer" comment="聊天协议">
+    <Refer>
+        <!--Protocol name="ItemProt"/-->
+        <Protocol name="GlobalChatProt"/>
+        <Protocol name="RoleInfoDefine" />
+        <Protocol name="ProtoCommon" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EChatResult" global="server" comment="聊天结果提示">
+            <Member name="eChatSucceed" comment="成功"/>
+            <Member name="eChatNotExist" comment="展示道具不存在"/>
+            <Member name="eChatErrStore" comment="容器错误"/>
+            <Member name="eChatErrOther" comment="其他错误"/>
+        </Enum>
+        <Enum name="EBubbleResult" comment="气泡操作失败">
+            <Member name="eBRSuccess" comment="气泡操作成功" />
+            <Member name="eBRFailed"  comment="气泡操作失败" />
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="Chat" comment="聊天">
+            <Param type="GlobalChatProt::EChannelType" name="eChannelType" comment="通道类型"/>
+            <Param type="string" name="strInfo" comment="聊天信息"/>
+            <Param type="GlobalChatProt::TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+        </Func>
+        <!--
+        <Func name="ChatShowItem" ret="true" comment="聊天展示">
+            <Param type="ItemProt::EStoreType" name="eStoreType" keep="true" comment="容器类型"/>
+            <Param type="UINT64" name="qwRoleID" keep="true" comment="角色ID(0:自己)"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="道具ID"/>
+            <RetParam type="UINT32" name="dwShowID" comment="展示ID"/>
+            <RetParam type="EChatResult" name="eResult" comment="展示结果"/>
+        </Func>
+        -->
+        <Func name="BubbleGet" ret="true" comment="气泡信息获取" >
+            <RetParam type="RoleInfoDefine::TVecBubbleInfo"    name="vecBubbleInfo"    comment="气泡列表信息" />
+        </Func>
+        <Func name="BubbleRespond" ret="true" comment="气泡回应" >
+            <Param type="UINT16"            name="wIndex"       comment="气泡对应位置" />
+            <Param type="TVecINT64"         name="vecParam"     comment="整型变量" />
+            <Param type="TVecString"        name="vecString"    comment="字符串型变量" />
+            <RetParam type="EBubbleResult"  name="eResult"      comment="气泡操作返回结果" />
+        </Func>
+        <Func name="InviteSuc"  comment="邀请平台好友成功" >
+            <Param type="UINT64"            name="qwRoleID"       comment="被邀请人" />
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ChatInfoNotify" comment="聊天信息通知">
+            <Param type="GlobalChatProt::EChannelType" name="eChannelType" comment="通道类型"/>
+            <Param type="GlobalChatProt::SSenderInfo" name="rSenderInfo" comment="发送者信息"/>
+            <Param type="string" name="strInfo" comment="聊天信息"/>
+            <Param type="GlobalChatProt::TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+        </Func>
+        <Func name="SystemMsgNotify" comment="系统信息通知">
+            <Param type="GlobalChatProt::EChannelType" name="eChannelType" comment="通道类型"/>
+            <Param type="string" name="strInfo" comment="聊天信息"/>
+            <Param type="GlobalChatProt::EChannelSubType" name="eSubType" comment="额外信息"/>
+        </Func>
+        <Func name="SystemMsgIDNotify" comment="系统MsgID通知">
+            <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+        </Func>
+        <Func name="ElasticFrameNotify" comment="弹窗通知">
+            <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+        </Func>
+        <Func name="SystemFormatMsgIDNotify" comment="系统MsgID通知">
+            <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+            <Param type="TVecString" name="vecStr" comment="聊天信息参数"/>
+        </Func>
+        <Func name="BubbleNotify" comment="气泡提示信息">
+            <Param type="RoleInfoDefine::TVecBubbleInfo"    name="vecBubbleInfo"    comment="气泡列表信息" />
+        </Func>
+        <Func name="BubbleUpdate" comment="气泡提示信息更新">
+            <Param type ="ProtoCommon::EDataChange" name="eType" comment="更新类型，增加，删除，修改"/>
+            <Param type="RoleInfoDefine::SBubbleInfo" name="sBubbleInfo" comment="受影响的气泡信息" />
+        </Func>
+        <Func name="SystemFormatMsgIDNotifyWithShow" comment="系统MsgID通知">
+            <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+            <Param type="TVecString" name="vecStr" comment="聊天信息参数"/>
+            <Param type="GlobalChatProt::TVecShowInfo" name ="vecShow" comment ="炫耀信息"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="TreasureHuntProt" id="85" proxy="GameServer" comment="寻宝协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ETHOptResult" signed="true" comment="操作结果">
+            <Member name="eTHOptResultFailed" comment="失败"/>
+            <Member name="eTHOptResultSucc" comment="成功"/>
+            <Member name="eTHMaxKillNumDay" comment="今日已达到最大击杀次数"/>
+        </Enum>
+        <Enum name="ETHStatus" signed="true" comment="寻宝状态">
+            <Member name="eTHNone" comment="无"/>
+            <Member name="eTHProgress" comment="寻宝进行中"/>
+            <Member name="eTHWaitGetAward" comment="等待领取奖品"/>
+        </Enum>
+        <Enum name="ETHNotify" signed="true" comment="寻宝开始/结束通知">
+            <Member name="eTHBegin" comment="开始"/>
+            <Member name="eTHEnd" comment="结束"/>
+        </Enum>
+        <Enum name="ETHLogType" signed="true" comment="寻宝日志类型">
+            <Member name="eTHLogTypeA" comment="遇到怪物/BOSS (注：参数：NPCID)"/>
+            <Member name="eTHLogTypeB" comment="击败怪物 (注：参数：NPCID)"/>
+            <Member name="eTHLogTypeC" comment="获得银币 (注：参数：Silver)"/>
+            <Member name="eTHLogTypeD" comment="获得修为 (注：参数：Pexp)"/>
+            <Member name="eTHLogTypeE" comment="获得宝物 (注：参数：ItemNum)"/>
+            <Member name="eTHLogTypeF" comment="击败BOSS,造成XX伤害 (注：参数：BOSSID, HPValue)"/>
+            <Member name="eTHLogTypeG" comment="被BOSS击败,查看战报 (注：参数：BOSSID, HPValue, ReportID)"/>
+            <Member name="eTHLogTypeH" comment="使用BUFF (注：参数：BUFFID)"/>
+            <Member name="eTHLogTypeI" comment="对BOSS,造成XX伤害 (注：参数：BOSSID, HPValue)"/>
+            <Member name="eTHLogTypeJ" comment="获得心法残页数量 (注：参数：XFCYNum)"/>
+        </Enum>
+        <Struct name="STHBuffInfo" vec="TVecTHBuffInfo"  comment="寻宝buff信息">
+            <Member type="UINT8" name="byBuffID" comment="BuffID"/>
+            <Member type="UINT8" name="byBuffNum" comment="今日已使用Buff次数"/>
+            <Member type="UINT32" name="dwBuffCDTime" comment="Buff CD 时间"/>
+        </Struct>
+        <Struct name="STHBattleResult" desc="true" comment="战斗结果">
+            <Member type="UINT8" name="byCopyID" comment="副本ID"/>
+            <Member type="UINT32" name="dwTotalTimes" comment="寻宝时间"/>
+            <Member type="UINT32" name="dwCurBossHP" comment="当前BOSS血量"/>
+            <Member type="UINT32" name="dwCurSilverNUm" comment="当前掉落银币数量"/>
+            <Member type="UINT32" name="dwCurItemNum" comment="当前掉落物品数量"/>
+            <Member type="UINT32" name="dwCurXFCYNum" comment="当前掉落心法残页数量"/>
+        </Struct>
+        <Struct name="STHAwardInfo" vec="TVecTHAwardInfo" comment="寻宝奖励信息">
+            <Member type="UINT16" name="wItemID" comment="物品ID"/>	
+            <Member type="UINT32" name="dwCount" comment="堆叠数"/>
+        </Struct>
+        <Struct name="STHDBInfo" vec="TVecTHDBInfo" comment="寻宝DB信息">
+            <Member type="UINT64" name="qwRoleID" comment="RoleID"/>	
+            <Member type="UINT8" name="byCopyID" comment="副本ID"/>
+            <Member type="UINT8" name="byStatus" comment="寻宝状态（1：正在进行；2：结束，等待领取奖品）"/>
+            <Member type="UINT32" name="dwBossCurHP" comment="Boss当前血量"/>
+            <Member type="UINT32" name="dwLastTime" comment="攻打上一波怪时间"/>
+            <Member type="UINT32" name="dwTime" comment="寻宝累计时间"/>
+            <Member type="UINT32" name="dwNum" comment="寻宝累计波数"/>
+            <Member type="string" name="strAward" comment="寻宝奖励"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="ReqTHInfo" ret="true" comment="请求寻宝信息">
+            <RetParam type="UINT8" name="byCopyID"  comment="0:没有副本进行中；非0:正在进行该副本"/>
+            <RetParam type="ETHStatus" name="eTHStatus" comment="寻宝状态"/>
+            <RetParam type="UINT8" name="byKillNum"  comment="剩余击杀次数"/>
+			<RetParam type="UINT8" name="byCurrentID"  comment="当前通关到副本ID"/>
+        </Func>
+        <Func name="ReqTHBattlePrepareInfo" ret="true" comment="请求寻宝准备战斗信息(注：离线寻宝，重新登录游戏时请求此消息)">
+            <RetParam type="UINT8" name="byKillNum"  comment="剩余击杀次数"/>
+            <RetParam type="UINT32" name="dwCurBossHP" comment="当前BOSS血量"/>
+            <RetParam type="UINT32" name="dwTotalTimes" comment="寻宝时间"/>
+            <RetParam type="TVecTHAwardInfo" name="vecTHAwardInfo"  comment="寻宝奖励信息"/>
+            <RetParam type="TVecTHBuffInfo" name="vecTHBuffInfo" comment="Buff信息"/>
+        </Func>
+        <Func name="ReqTHStart" ret="true" comment="请求寻宝开始">
+            <Param type="UINT8" name="byCopyID"  comment="副本ID"/>
+            <RetParam type="ETHOptResult" name="eTHOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqTHQuickFinish" ret="true" comment="请求寻宝立即完成">
+            <RetParam type="ETHOptResult" name="eTHOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqTHGiveUp" ret="true" comment="请求放弃寻宝">
+            <RetParam type="ETHOptResult" name="eTHOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqUseBuff" ret="true" comment="请求使用Buff">
+            <Param type="UINT8" name="byBuffID"  comment="BuffID"/>
+            <RetParam type="ETHOptResult" name="eTHOptResult"  comment="操作结果"/>
+        </Func>
+        <Func name="ReqTHAwardInfo" ret="true" comment="请求寻宝奖励信息">
+            <RetParam type="UINT8" name="byCopyID"  comment="副本ID"/>
+            <RetParam type="TVecTHAwardInfo" name="vecTHAwardInfo"  comment="寻宝奖励信息"/>
+        </Func>
+        <Func name="GetTHAward" ret="true" comment="获取寻宝奖励">
+            <RetParam type="ETHOptResult" name="eTHOptResult"  comment="操作结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="THNotify" comment="寻宝开始/结束通知">
+            <Param type="ETHNotify" name="eTHNotify" comment="开始/结束"/>
+            <Param type="UINT8" name="byKillNum" comment="今日已击杀BOSS次数"/>
+            <Param type="TVecTHBuffInfo" name="vecTHBuffInfo" comment="Buff信息"/>
+        </Func>
+        <Func name="THBattleResultNotify" comment="战斗结果通知">
+            <Param type="STHBattleResult" name="sBattleResult" comment="战斗结果"/>
+        </Func>
+        <Func name="THLootNotify" comment="寻宝掉落通知">
+            <Param type="TVecTHAwardInfo" name="vecTHAwardInfo" comment="掉落"/>
+        </Func>
+        <Func name="THLogNotify" comment="日志通知">
+            <Param type="ETHLogType" name="eTHLogType" comment="寻宝日志类型"/>
+            <Param type="UINT32" name="dwParamA" comment="参数A"/>
+            <Param type="UINT32" name="dwParamB" comment="参数B(注：只对eTHLogTypeF\eTHLogTypeG类型有用,其他类型默认为0)"/>
+            <Param type="UINT64" name="dwParamC" comment="参数C(注：只对eTHLogTypeG类型有用,其他类型默认为0)"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="CollectionProt" id="78" proxy="GameServer" comment="收藏协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Struct name="SCollectionInfo" vec="TVecCollectionInfo" comment="EDataType:eTypeCollectionInfo">
+            <Member type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Member type="UINT16" name="wCollectionID" comment="收藏ID"/>
+            <Member type="UINT32" name="dwCount" comment="0是否完成"/>
+            <Member type="UINT32" name="dwProcess" comment="当前进度(持续型事件记录数据)"/>
+            <Member type="UINT32" name="dwFinishTime" comment="完成时间"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GeCollectionInfo" ret="true" comment="获取收藏信息">
+            <RetParam type="TVecCollectionInfo" name="vecCollectionInfo" comment="收藏榜信息"/>
+            <RetParam type="UINT16" name="wLevel" comment="收藏等级"/>
+            <RetParam type="UINT32" name="dwAP" comment="收藏点"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="APNotify" comment="收藏点通知">
+            <Param type="UINT32" name="dwAP" comment="收藏点"/>
+        </Func>
+        <Func name="CollectionLevelNotify" comment="收藏等级通知">
+            <Param type="UINT16" name="wLevel" comment="收藏等级"/>
+        </Func>
+        <Func name="CollectionInfoNotify" comment="收藏等级通知">
+            <Param type="SCollectionInfo" name="oCollectionInfo" comment="收藏信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

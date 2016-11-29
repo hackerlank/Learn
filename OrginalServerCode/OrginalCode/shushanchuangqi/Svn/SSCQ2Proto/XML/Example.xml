@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+通信协议定义
+id为协议编号，范围1至255
+proxy(可选)表示协议在网关服务器转发到的目的服务器(值为None, GameServer, CenterServer, DBServer)，None表示不需要网关转发，也可以不写
+-->
+<Protocol name="Example" id="255" proxy="None" comment="通信协议示例">
+  <!--引用别的协议中的类型定义，引用的类型使用方法：OtherProt::TypeName
+  <Refer>
+    <Protocol name="OtherProt1"/>
+    <Protocol name="OtherProt2"/>
+  </Refer>
+  -->
+  <TypeDef>
+    <!--枚举类型定义
+    signed(可选)为true，表示用有符号数来序列化，不写默认为无符号数
+    byte(可选)表示枚举变量的长度(值为1, 2, 4)，不写默认为1个字节
+    desc(可选)表示是否在服务器端生成获取注释的函数
+    -->
+    <Enum name="EExTest" signed="true" byte="2" desc="true" comment="枚举类型示例">
+      <Member name="eExTest1" comment="枚举值1"/>
+      <Member name="eExTest2" value="10" comment="枚举值2"/>
+      <Member name="eExTest3" value="0x7FFF" comment="枚举值3"/>
+    </Enum>
+    <!--结构体前置声明
+    只有父类才能被前置声明，并且只能作为指针使用
+    -->
+    <DeclStruct name="SExBase" vec="TVecExBase" comment="前置声明"/>
+    <Struct name="STest" comment="前置声明测试">
+      <Member type="SExBase" name="pBase" comment="父类指针"/>
+      <Member type="TVecExBase" name="vecBase" comment="父类指针列表"/>
+    </Struct>
+    <!--global为server,client,both, 不写默认为both，在两边都生成该struct-->
+    <Struct name="SServer" global="server" comment="只在服务器生成">
+      <Member type="UINT32" name="dwValue" comment="成员"/>
+    </Struct>
+    <Struct name="SClient" global="client" comment="只在客户端生成">
+      <Member type="UINT32" name="dwValue" comment="成员"/>
+    </Struct>
+    <!--ptr为true表示该结构体在C++代码中作为函数参数时，将按照智能指针的方式来传递-->
+    <Struct name="SPointer" ptr="true" comment="按智能指针传递的结构体">
+      <Member type="UINT32" name="dwValue" comment="成员"/>
+    </Struct>
+    <!--结构体类型定义
+    vec(可选)表示生成struct对应的vector的类型定义，类型名必须以TVec开始
+    SubStruct为Struct的子类，继承体系可以为多层
+    -->
+    <Struct name="SExBase" vec="TVecExBase" comment="结构体父类型示例">
+      <!--结构体成员变量定义
+      default(可选)表示在构造函数中的默认初始值
+      -->
+      <Member type="UINT32" name="member1" default="1" comment="成员1"/>
+      <Member type="TVecString" name="vecMember2" comment="成员2"/>
+      <SubStruct name="SExDerived1" vec="TVecExDerived1" comment="结构体子类型1示例">
+        <Member type="UINT16" name="byMember3" comment="成员3"/>
+        <Member type="INT64" name="qwMember4" comment="成员4"/>
+        <SubStruct name="SExDescend3" vec="TVecExDescend3" comment="结构体子类型3示例">
+          <Member type="SExBase" name="base" comment="成员5"/>
+          <Member type="SExDerived1" name="s" comment="成员6"/>
+          <Member type="TVecExDerived1" name="vecExDerive" comment="成员7"/>
+          <Member type="TVecExBase" name="vecExBase" comment="成员8"/>
+        </SubStruct>
+        <SubStruct name="SExDescend4" vec="TVecExDescend4" comment="结构体子类型4示例">
+          <Member type="UINT16" name="wMember5" comment="成员5"/>
+          <Member type="INT64" name="qwMember6" comment="成员6"/>
+          <Member type="TVecExDescend3" name="vecExDesc" comment="成员7"/>
+        </SubStruct>
+      </SubStruct>
+      <SubStruct name="SExDerived2" vec="TVecExDerived2" comment="结构体子类型2示例">
+        <Member type="double" name="dMember3" comment="成员3"/>
+        <Member type="bool" name="bMember4" comment="成员4"/>
+      </SubStruct>
+    </Struct>
+  </TypeDef>
+  <!--
+  Client到Server的函数定义，最多127个函数
+  client为有以下几个值：
+    CppClt => 表示Client为客户端C++
+    CppSvr => 表示Client为服务器C++
+    ActionScript => 表示Client为AS
+    PHP => 表示Client为PHP
+    需要多个值，用逗号分隔写出即可，但是其中CppClt和CppSvr不能共存
+  -->
+  <FuncC2S client="ActionScript,PHP">
+    <!--
+    普通通信函数示例
+    内建的基本类型名：
+      整形：INT8, UINT8, INT16, UINT16, INT32, UINT32, INT64, UINT64, bool
+      浮点型：float, double
+      字符串类型：
+          string => 前端类型为String，后端类型为std::string
+          ByteArray => 前端AS类型为ByteArray，后端的类型为std::string
+      Vector类型：
+          整形：TVecINT8, TVecUINT8, TVecINT16, TVecUINT16, TVecINT32, TVecUINT32, TVecINT64, TVecUINT64, TVecBool
+          浮点型：TVecFloat, TVecDouble
+          字符串类型：TVecString
+    -->
+    <Func name="SampleFunc1" comment="C->S示例函数1">
+      <Param type="INT8" name="byParam1" comment="8位有符号整数"/>
+      <Param type="INT16" name="wParam2" comment="16位有符号整数"/>
+      <Param type="INT32" name="dwParam3" comment="32位有符号整数"/>
+      <Param type="INT64" name="qwParam4" comment="64位有符号整数"/>
+      <Param type="UINT8" name="byParam5" comment="8位无符号整数"/>
+      <Param type="UINT16" name="wParam6" comment="16位无符号整数"/>
+      <Param type="UINT32" name="dwParam7" comment="32位无符号整数"/>
+      <Param type="UINT64" name="qwParam8" comment="64位无符号整数"/>
+      <Param type="bool" name="bParam9" comment="布尔值"/>
+      <Param type="float" name="fParam10" comment="单精度浮点数"/>
+      <Param type="double" name="dParam11" comment="双精度浮点数"/>
+      <Param type="string" name="strParam12" comment="字符串"/>
+      <Param type="ByteArray" name="strParam13" comment="AS字节数组"/>
+      <Param type="EExTest" name="eTest14" comment="枚举值"/>
+      <Param type="TVecExDescend4" name="vecExDesc15" comment="继承结构体列表"/>
+    </Func>
+    <!--
+    带返回值的通信函数示例
+    ret(可选)为true，表示有返回值
+    -->
+    <Func name="SampleRetFunc2" ret="true" comment="C->S有返回值的示例函数">
+      <Param type="UINT8" name="byParam1" comment="参数1，不保存"/>
+      <!--keep(可选)为true，表示此参数要在本地缓存，等返回后取出-->
+      <Param type="UINT64" keep="true" name="qwParam2" comment="参数2，保存"/>
+      <!--LocParam(可选)表示此参数只在本地缓存，不会发给对方，等返回后取出-->
+      <LocParam type="SExDerived2" name="derived" comment="结构体，本地保存"/>
+      <!--RetParam(可选)表示此参数为对方返回的结果，从回调接口返回-->
+      <RetParam type="TVecExDescend3" name="vecExDescend" comment="结构体列表，返回值"/>
+      <RetParam type="string" name="strRet" comment="字符串，返回值"/>
+    </Func>
+  </FuncC2S>
+  <!--
+  Server到Client的函数定义，最多127个函数
+  -->
+  <FuncS2C>
+    <!--
+    Server到Client的通信函数示例
+    pkg(可选)为true，表示生成额外的组包函数，只对参数组包，不包括协议编号和函数序号
+    -->
+    <Func name="SampleFuncAck1" pkg="true" comment="S->C示例函数1">
+      <Param type="INT8" name="byParam1" comment="8位有符号整数"/>
+      <Param type="INT16" name="wParam2" comment="16位有符号整数"/>
+      <Param type="INT32" name="dwParam3" comment="32位有符号整数"/>
+      <Param type="INT64" name="qwParam4" comment="64位有符号整数"/>
+      <Param type="UINT8" name="byParam5" comment="8位无符号整数"/>
+      <Param type="UINT16" name="wParam6" comment="16位无符号整数"/>
+      <Param type="UINT32" name="dwParam7" comment="32位无符号整数"/>
+      <Param type="UINT64" name="qwParam8" comment="64位无符号整数"/>
+      <Param type="bool" name="bParam9" comment="布尔值"/>
+      <Param type="float" name="fParam10" comment="单精度浮点数"/>
+      <Param type="double" name="dParam11" comment="双精度浮点数"/>
+      <Param type="string" name="strParam12" comment="字符串"/>
+      <Param type="ByteArray" name="strParam13" comment="AS字节数组"/>
+      <Param type="EExTest" name="eTest14" comment="枚举值"/>
+      <Param type="TVecExDescend4" name="vecExDesc15" comment="继承结构体列表"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

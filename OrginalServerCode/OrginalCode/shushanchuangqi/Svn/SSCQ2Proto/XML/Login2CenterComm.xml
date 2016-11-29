@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Login2CenterComm" id="2" comment="LoginServer到CenterServer的基本通信协议">
+  <TypeDef>
+    <Enum name="EReqResult" comment="登陆请求的结果">
+      <Member name="eReqSucceed" comment="登陆请求成功"/>
+      <Member name="eReqFull" comment="玩家数量达到上限"/>
+      <Member name="eReqOnline" comment="已有角色在线"/>
+      <Member name="eReqKickWait" comment="踢帐号等待"/>
+      <Member name="eReqLeaveWait" comment="下线等待"/>
+      <Member name="eReqTooFreqent" comment="请求太频繁"/>
+      <Member name="eReqNotInited" comment="服务器未完全启动"/>
+      <Member name="eReqOtherErr" comment="其它错误"/>
+    </Enum>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="KeepAlive" comment="心跳">
+    </Func>
+    <Func name="UserLoginReq" comment="玩家请求进入服务器">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="UINT32" name="dwSessionID" comment="会话ID"/>
+      <Param type="UINT8" name="byAddrType" comment="地址类型"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+    <Func name="UserLoginAck" comment="玩家请求进入服务器应答">
+      <Param type="EReqResult" name="eResult" comment="登陆请求的结果"/>
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="UINT32" name="dwSessionID" comment="会话ID"/>
+      <Param type="string" name="strGateAddr" comment="GateServer的地址"/>
+      <Param type="UINT16" name="wGatePort" comment="GateServer的端口"/>
+      <Param type="UINT32" name="dwCryptoCode" comment="登录验证码"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

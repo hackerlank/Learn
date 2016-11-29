@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GatherProt" id="60" proxy="GameServer" comment="采集协议">
+    <Refer>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EGatherResult" desc ="true"  comment="副本结果">
+            <Member name="eGatherSuccess" comment="成功"/>
+            <Member name="eGatherIn" comment="正在采集中"/>
+            <Member name="eGatherOut" comment="没有采集中"/>
+            <Member name="eGatherItemLimit" comment="采集所需物品不足"/>
+            <Member name="eGatherBusy" comment="玩家忙"/>
+            <Member name="eGatherPackEmptyMin" comment="采集空格子不足"/>
+            <Member name="eGatherVIP" comment="御剑等级不足"/>
+            <Member name="eGatherLevel" comment="等级不足"/>
+            <Member name="eGatherNotExist" comment ="采集物不存在"/>
+            <Member name="eGatherTooFar" comment ="采集物太远"/>
+            <Member name="eGatherNumLimit" comment ="采集物数量不足"/>
+            <Member name="eGatherTask" comment ="需要接相关任务才可以采集"/>
+            <Member name="eGatherCancel" comment ="采集中断"/>
+            <Member name="eGatherFinish" comment ="采集完成"/>
+            <Member name="eGatherLuaErr" comment ="Lua脚本拒绝"/>
+            <Member name="eGatherOtherErr" comment="未知错误"/>
+        </Enum>
+
+        <Enum name="EGatherConType" desc ="true"  comment="采集条件">
+            <Member name="eGCT_None" comment="无定义"/>
+            <Member name="eGCT_Level" comment="等级"/>
+            <Member name="eGCT_Item" comment="道具，包括仙石等"/>
+            <Member name="eGCT_VIP"  comment="VIP宝箱"/>
+            <Member name=" eGCT_End" comment="定义完毕"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GatherReq" ret="true"  comment="采集请求">
+            <Param type="UINT32" name="dwGatherId" keep="true" comment="采集ID"/>
+            <RetParam type="EGatherResult" name="eResult" comment="采集结果"/>
+            <RetParam type="UINT32" name="dwGatherTimer" comment="采集剩余时间"/>
+        </Func>
+        <Func name="CancelGather" ret="true"  comment="取消采集">
+            <RetParam type="EGatherResult" name="eResult" comment="取消采集结果"/>
+        </Func>
+        <Func name="GetGatherInfo" ret = "true" comment="客户端查询采集信息">
+            <RetParam type="UINT32" name = "dwGtatherId" comment = "采集实例"/>
+            <RetParam type="UINT32" name ="dwReserverTimer" comment ="剩余时间"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="GatherEndNotify" comment="采集结束通知">
+            <Param type="EGatherResult" name="eResult" comment="服务器返回结果"/>
+        </Func> 
+    </FuncS2C>
+</Protocol>

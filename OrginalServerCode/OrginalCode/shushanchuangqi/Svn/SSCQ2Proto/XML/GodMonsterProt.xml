@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GodMonsterProt" id="96" proxy="CenterServer" comment="天元神兽协议">
+    <Refer>
+       
+    </Refer>
+    <TypeDef>
+	    <Enum name="EMonsterResult" comment="操作结果" >
+            <Member name="EMonsterResult_suc"                comment="操作成功" />
+            <Member name="EMonsterResult_ful"                comment="背包满" />
+            <Member name="EMonsterResult_get"                comment="奖励已经领取" />
+			<Member name="EMonsterResult_not"                comment="无此奖励" />
+			<Member name="EMonsterResult_lack"               comment="仙石不足" />
+			<Member name="EMonsterResult_Level"              comment="等级不够" />
+            <Member name="EMonsterResult_Devote"             comment="贡献度不够" />
+            <Member name="EMonsterResult_guild"              comment="不在帮派" />
+            <Member name="EMonsterResult_Num"                comment="数量不足" />
+			<Member name="EMonsterResult_Err"                comment="操作失败" />
+        </Enum>
+	   <Enum name="EMonsterPeroid" comment="神兽阶段" >
+            <Member name="EMonsterPeroid_none"            comment="无" />
+            <Member name="EMonsterPeroid_1"               comment="神兽元胎" />
+			<Member name="EMonsterPeroid_2"               comment="神兽幼年期" />
+			<Member name="EMonsterPeroid_3"               comment="神兽成年期" />
+			<Member name="EMonsterPeroid_4"               comment="神兽青年期" />
+			<Member name="EMonsterPeroid_5"               comment="亚圣兽期" />
+			<Member name="EMonsterPeroid_6"               comment="天元神兽" />
+            <Member name="EMonsterPeroid_end"              comment="最大值"/>
+        </Enum>
+		<Enum name="EMonsterPrizeType" comment="奖励类型" >
+			<Member name="EMonsterPrize_Begin"                                    comment="礼包Begin" />
+            <Member name="EMonsterPrize_1"                                        comment="每日成长礼包" />
+            <Member name="EMonsterPrize_2"                                        comment="每日初级礼包" />
+            <Member name="EMonsterPrize_3"                                        comment="每日中级礼包" />
+			<Member name="EMonsterPrize_4"                                        comment="每日高级礼包" />
+			<Member name="EMonsterPrize_5"                                        comment="每日终极礼包" />
+			<Member name="EMonsterPrize_End"                                      comment="End" />
+        </Enum>
+		<Enum name="EMonsterRank" comment="排行榜" >
+            <Member name="EMonsterRank_none"                comment="无" />
+            <Member name="EMonsterRank_1"                   comment="个人榜" />
+            <Member name="EMonsterRank_2"                   comment="帮派榜" />
+			<Member name="EMonsterRank_end"                 comment="最大值" />
+        </Enum>
+		<Struct name="SMonsterRankInfo" vec="TVecMonsterRankInfo" comment="排行榜数据" >
+            <Member type="UINT32" name="dwRank" comment="排名" />
+			<Member type="string" name="strName" comment="名字" />
+            <Member type="UINT32" name="dwScore" comment="积分" />
+        </Struct>
+		<Struct name="SMonsterRank" vec="TVecMonsterRank" comment="排行榜" >
+            <Member type="EMonsterRank" name="eRank" comment="排名" />
+            <Member type="TVecMonsterRankInfo" name="vecRankInfo" comment="数据" />
+        </Struct>
+		<Struct name="SMonsterPrize" vec="TVecMonsterPrize" comment="排行榜" >
+            <Member type="EMonsterPrizeType" name="eType" comment="奖励类型" />
+            <Member type="UINT8" name="byType" comment="0表示条件未达到，1表示可以领取，2表示已经领取" />
+        </Struct>
+		<Struct name="SGuildUserDevote" vec="TVecGuildUserDevote" comment="帮派成员贡献" >
+            <Member type="UINT64" name="qwRoleID" comment="ID" />
+            <Member type="string" name="strName" comment="名字" />
+            <Member type="string" name="strLevel" comment="职务" />
+			<Member type="UINT32" name="dwScore" comment="积分" />
+        </Struct>
+		<Struct name="SLimitPrize" vec="TVecLimitPrize" comment="限购礼包" >
+            <Member type="UINT16" name="wPrizeID"  comment="礼品ID" />
+			<Member type="UINT16" name="wCurNum"      comment="已经购买数量" />
+			<Member type="UINT16" name="wMaxNum"      comment="最大值" />
+        </Struct> 
+        <Struct name="SyncInfoToClient"  comment="发送给客户端的数据" >
+            <Member type="EMonsterPeroid" name="ePeroid"  comment="神兽阶段" />
+			<Member type="UINT32"         name="dwPersonScore"  comment="个人总积分" />
+            <Member type="UINT32"         name="dwGuildScore"   comment="帮派总积分" />
+            <Member type="UINT32"         name="dwPersonDevote" comment="个人贡献值" />
+			<Member type="UINT32"         name="dwPersonRank"   comment="个人总排名" />
+			<Member type="UINT32"         name="dwGuildRank"    comment="帮派总排名" />
+			<Member type="UINT32"         name="dwFruit"           comment="朱果数量" />
+			<Member type="TVecMonsterPrize"       name="vecPrize"   comment="奖励数据" />
+			<Member type="TVecMonsterRank"        name="vecRank"    comment="排行榜数据" />
+			<Member type="TVecGuildUserDevote"    name="vecUser"    comment="成员贡献数据" />
+            <Member type="TVecLimitPrize"         name="vecLimitPrize"    comment="玩家限购礼包数据" />
+        </Struct> 
+		<Struct name="SGuildUser2DB" vec="TVecGuildUser2DB" comment="DB Operator" >
+            <Member type="UINT64" name="qwRoleID"  comment="名字" />
+            <Member type="UINT64" name="qwGuildID" comment="职务" />
+			<Member type="UINT32" name="dwFruit"   comment="朱果数量" />
+			<Member type="UINT32" name="dwScore"   comment="积分" />
+			<Member type="UINT32" name="dwTotalScore"   comment="总积分" />
+        </Struct> 
+		<Struct name="SLimitPrize2DB" vec="TVecLimitPrize2DB" comment="DB Operator" >
+            <Member type="UINT64" name="qwRoleID"  comment="玩家ID" />
+            <Member type="UINT16" name="wPrizeID"  comment="礼品ID" />
+			<Member type="UINT16" name="wNum"      comment="购买数量" />
+        </Struct> 
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+		<Func name="OnEnter" ret="true" comment="打开活动面板">
+		    <RetParam type="SyncInfoToClient" name="sInfo"   comment="客户端数据"/>
+        </Func>
+		<Func name="OnFeed"  ret="true" comment="喂养">
+		    <Param type="UINT8"               name="byType"  comment="0: 表示喂养一次，1: 表示一键喂养"/>
+			<RetParam type="EMonsterResult"   name="eResult" comment="操作结果"/>
+        </Func>
+		<Func name="TakePrize"  ret="true" comment="领奖">
+		    <Param type="EMonsterPrizeType" name="ePrizeType" comment="奖励类型"/>
+			<RetParam type="EMonsterResult" name="eResult"    comment="操作结果"/>
+        </Func>
+		<Func name="BuyPkg"  ret="true" comment="购买限购礼包">
+		    <Param type="UINT16" name="wIndex" comment="礼包ID"/>
+			<Param type="UINT8" name="byCount" comment="礼包数量"/>
+			<RetParam type="EMonsterResult"   name="eResult" comment="操作结果"/>
+        </Func>
+		<Func name="OnPraise"  comment="表扬">
+		    <Param type="UINT64" name="qwRoleID" comment="玩家"/>
+        </Func>
+		<Func name="OnUrge"  comment="督促">
+		    <Param type="UINT64" name="qwRoleID" comment="玩家"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+	   <Func name="SyncClientInfo"  comment="同步数据">
+		   <Param type="SyncInfoToClient" name="sInfo"   comment="客户端数据"/>
+       </Func>
+	   <Func name="OnBegin"  comment="活动开始">
+		   <Param type="UINT32"   name="dwTime" comment="时间"/>
+       </Func>
+	   <Func name="OnEnd"  comment="活动结束">
+		   <Param type="UINT32"   name="dwTime" comment="时间"/>
+       </Func>
+    </FuncS2C>
+</Protocol>

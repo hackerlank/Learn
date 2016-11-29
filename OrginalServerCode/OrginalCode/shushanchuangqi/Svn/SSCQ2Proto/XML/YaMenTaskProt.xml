@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="YaMenTaskProt" id="52" proxy="GameServer" comment="衙门任务协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EYaMenTaskResult" comment="任务的结果">
+            <Member name="eYaMenTaskSucceed" comment="成功"/>
+            <Member name="eYaMenTaskLowMoney" comment="钱不足"/>
+            <Member name="eBuyTimesUpLimit" comment="购买次数已达上限"/>
+            <Member name="eYaMenSaveTimesUpLimit" comment="总次数已达上限"/>
+            <Member name="eYaMenAwardPackFull" comment="包裹满"/>
+            <Member name="eYaMenTaskErrOther" comment="其它错误"/>
+        </Enum>
+        <Enum name="EYaMenStudyState" comment="清修的状态">
+            <Member name="eCanStudy" comment="可清修"/>
+            <Member name="eStudied" comment="已清修"/>
+            <Member name="eCanChallenge" comment = "可挑战"/>
+            <Member name="eChallenging" comment="正挑战"/>
+        </Enum>
+        <Enum name="EYaMenTaskState" comment="推任务的状态">
+            <Member name="eNone" comment="未接"/>
+            <Member name="eAccept" comment="已接"/>
+            <Member name="eFinish" comment = "已完成"/>
+            <Member name="eFal" comment="已失败"/>
+        </Enum>
+        <Struct name="SYaMenTask" vec ="TVecYaMenTask" comment ="挑战的任务状态">
+            <Member type ="UINT32" name ="dwTaskId" comment ="任务的ID"/>
+            <Member type ="EYaMenTaskState" name = "eYaMenTaskState" comment = "当前刷的任务信息"/> 
+        </Struct> 
+        <Struct name="SYaMenTaskInfoForClient" vec="TVecYaMenTaskInfo" comment="衙门任务信息">
+            <Member type="EYaMenStudyState" name="eStudyState" comment="清修状态"/>
+            <Member type="UINT32" name="dwYaMenRepute" comment="声望"/>
+            <Member type="UINT8" name="dwYaMenLevel" comment="声望等级"/>
+            <Member type="UINT8" name="byFinishTask" comment="今日完成的衙门任务数"/>
+            <Member type="UINT8" name="byAcceptTaskTimes"  comment="剩余可接任务数"/>
+            <Member type="UINT8" name="byBuyTimesToday"  comment="今日购买的任务数"/>
+            <Member type="UINT8" name="byVIPTaskTimes"  comment="购买的可接任务数"/>
+            <Member type="UINT8" name="byFlushTask" comment="今日刷新任务列表次数"/>
+            <Member type="UINT8" name="byStudyAward" comment="今日领取的清修次数"/>
+            <Member type= "TVecYaMenTask" name ="vecTask" comment ="推的任务列表"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <!--清修/晋级挑战-->
+        <Func name="YaMenTaskOp" ret="true" comment="请求操作">
+            <RetParam type="EYaMenTaskResult" name="eResult"  comment="操作结果"/>
+            <RetParam type="EYaMenStudyState" name="eState"  comment="当前清修状态"/>
+        </Func>
+        <Func name="FlushTask" ret="true" comment="刷新衙门任务列表">
+            <RetParam type="EYaMenTaskResult" name="eResult"  comment="操作结果"/>
+            <RetParam type= "TVecYaMenTask" name ="vecTask" comment ="推的任务列表"/>
+            <RetParam type="UINT8" name="byFlushTask" comment="今日刷新任务列表次数"/>
+        </Func>
+        <Func name="GetAllInfoTask"  comment="获取衙门任务详情">
+        </Func>
+        <Func name="BuyTaskTimes" ret="true"  comment="购买衙门任务">
+            <RetParam type="EYaMenTaskResult" name="eResult"  comment="操作结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ReturnAllInfoTask"  comment="获取衙门任务详情">
+            <Param    type ="SYaMenTaskInfoForClient" name = "stYaMenTaskInfo"  comment="衙门任务详情"/>           
+        </Func>
+        <Func name="UpdateYaMenTask"  comment="任务列表更新">
+            <Param  type ="SYaMenTask" name = "stTask"  comment="衙门任务详情"/>           
+        </Func>
+        <Func name="UpdateFinishTask"  comment="完成任务数更新">
+            <Param type="UINT8" name="byFinishTask" comment="今日完成的衙门任务数"/>
+            <Param type="UINT8" name="byAcceptTaskTimes"  comment="剩余可接任务数"/>
+            <Param type="UINT8" name="byVIPTaskTimes"  comment="购买的可接任务数"/>
+            <Param type="UINT8" name="byBuyTimesToday"  comment="今日购买的任务数"/>
+        </Func>
+        <Func name="UpdateStudyState"  comment="更新清修状态">
+            <Param type="EYaMenStudyState" name="eStudyState" comment="清修状态"/>
+        </Func>
+        <Func name="UpdateYaMenReputeLevel"  comment="更新声望等级">
+            <Param type="UINT8" name="dwYaMenLevel" comment="声望等级"/>
+        </Func>
+        <Func name="UpdateYaMenRepute"  comment="更新声望">
+            <Param type="UINT32" name="dwYaMenRepute" comment="声望"/>
+        </Func>
+        <Func name="UpdateStudyAward"  comment="更新今日清修领奖次数">
+            <Param type="UINT8"  name="byStudyAward" comment="今日领取的清修次数"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="TripodProt" id="63" proxy="CenterServer" comment="九疑鼎相关协议">
+    <Refer>
+        <Protocol name="ArenaGS"/>
+        <Protocol name="ItemProt"/>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ETripodType" comment="九疑鼎操作结果">
+            <Member name="eTripodSucc" comment="成功"/>
+            <Member name="eTripodFailed" comment="失败"/>
+            <Member name="eTripodCondIDErr" comment="激活条件不足"/>
+            <Member name="eTripodItemErr" comment="道具不足"/>
+            <Member name="eTripodNotFire" comment="未祈火"/>
+            <Member name="eTripodNoEnoughCnt" comment="剩余祈火次数不足"/>
+            <Member name="eTripodYuanqiNotFull" comment="元气值未满"/>
+            <Member name="eTripodYuanqiFull" comment="元气值已满"/>
+            <Member name="eTripodNotTime" comment="时间未到"/>
+            <Member name="eTripodShanfengFull" comment="扇风次数已满"/>
+            <Member name="eTripodHelpTimesFull" comment="协助次数已满"/>
+            <Member name="eTripodNotHelp" comment="不能协助"/>
+        </Enum>
+        <Enum name="ETripodLogType" comment="九疑鼎日志类型">
+            <Member name="eTripodLogNone" value="0"     comment="无效日志类型"/>
+            <Member name="eTripodLogHelp"               comment="成员日志" />
+            <Member name="eTripodLogMax"                comment="日志类型最大值" />
+        </Enum>
+        <Struct name="STripodInfo" vec="TVecTripodInfo" comment="玩家的九疑鼎数据">
+            <Member type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <Member type="UINT8" name ="byLevel" comment="九疑鼎等级"/>
+            <Member type="UINT32" name ="dwExp" comment="九疑鼎当前经验值"/>
+            <Member type="UINT16" name ="wFireID" comment="火种ID"/>
+            <Member type="UINT8" name ="byFireLvl" comment="火种等级(品质)"/>
+            <Member type="UINT32" name ="dwStartTime" comment="上一次结算时间"/>
+            <Member type="UINT32" name ="dwShanfengTime" comment="上一次扇风时间(为0未扇风)"/>
+            <Member type="UINT32" name ="dwSoul" comment="当前已结算的总元气值"/>
+            <Member type="UINT32" name="dwLine" comment="产物加成系数（万分比）" />
+        </Struct>
+        <Struct name="SFighterHelpInfo" vec="TVecFighterHelpInfo" comment="九疑鼎散仙协助">
+            <Member type="UINT16" name ="wFighterID" comment="散仙ID"/>
+            <Member type="UINT8" name ="byPos" comment="协助位置(0,1)"/>
+            <Member type="UINT8" name ="byColor" comment="散仙协助时的品质"/>
+            <Member type="UINT32" name ="dwStartTime" comment="开始协助的时间"/>
+        </Struct>
+        <Struct name="SPlayerHelpInfo" vec="TVecPlayerHelpInfo" comment="九疑鼎玩家协助">
+            <Member type="UINT64" name ="qwRoleID" comment="协助者(玩家)ID"/>
+            <Member type="UINT8" name ="byPos" comment="协助位置(0,1,2)"/>
+            <Member type="UINT8" name ="byLevel" comment="玩家协助时的等级"/>
+            <Member type="UINT32" name ="dwStartTime" comment="开始协助的时间"/>
+            <Member type="ArenaGS::SArenaFighter" name="stPlayer" comment="玩家的基础信息(外观)" />
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+        </Struct>
+        <Struct name="STripodHelp" vec="TVecTripodHelp" comment="九疑鼎的协助信息">
+            <Member type="UINT64" name ="qwRoleID" comment="九疑鼎的所属玩家的ID"/>
+            <Member type="TVecFighterHelpInfo" name ="vecFighterHelp" comment="散仙协助信息"/>
+            <Member type="TVecPlayerHelpInfo" name ="vecPlayerHelp" comment="玩家协助信息"/>
+        </Struct>
+        <Struct name="STripodLog" vec="TVecTripodLog" comment="九疑鼎历史日志" >
+            <Member type="UINT64"       name="qwRoleID"     comment="九疑鼎的所属玩家的ID"/>
+            <Member type="UINT16"       name="wMsgID"       comment="对应日志ID（详见Message）" />
+            <Member type="TVecINT64"    name="vecParam"     comment="整型变量" />
+            <Member type="TVecString"   name="vecString"    comment="字符串型变量" />
+            <Member type="UINT32"       name="dwTime"       comment="日志时间"/>
+        </Struct>
+        <Struct name="STripodData" vec="TVecTripodData" comment="玩家九疑鼎信息">
+            <!--Member type="string" name="strName" comment="九疑鼎所属玩家的名字"/>
+            <Member type="UINT16" name="wLevel"  comment="九疑鼎所属玩家的等级"/>
+            <Member type="BattleGS::SPlayerFeature" name ="stAppear" comment = "九疑鼎所属玩家的外观"/-->
+            <Member type="UINT64" name ="qwRoleID" comment="玩家的ID"/>
+            <Member type="ArenaGS::SArenaFighter" name="stPlayer" comment="九疑鼎所属玩家的基础信息" />
+            <Member type="STripodHelp" name="tripodHelpData" comment="玩家九疑鼎的协助数据" />
+            <Member type="TVecTripodInfo" name="vecTripods" comment="玩家的所有九疑鼎数据" />
+            <Member type="TVecTripodLog" name="vecTripodLog"    comment="九疑鼎日志" />
+        </Struct>
+        <Struct name="SFireInfo" vec="TVecFireInfo" comment="玩家的九疑鼎火种数据">
+            <Member type="UINT16" name ="wFireID" comment="九疑鼎火种ID"/>
+            <Member type="UINT32" name ="dwSucceed" comment="火种祈火成功次数"/>
+            <Member type="UINT32" name ="dwRemain" comment="火种剩余祈火次数"/>
+        </Struct>
+        <Struct name="STripodStatus" vec="TVecTripodStatus" comment="玩家九疑鼎的扇火、协助状态">
+            <Member type="UINT64" name ="qwRoleID" comment="玩家的ID"/>
+            <Member type="UINT8" name ="byShanfengst" comment="是否可以扇火(1是 0否)"/>
+            <Member type="UINT8" name ="byHelpst" comment="是否可以协助(1是 0否)"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetAllTripods" ret="true" comment="取得玩家所有九疑鼎信息">
+            <RetParam type="STripodData" name ="oTripodData" comment="九疑鼎数据列表"/>
+            <RetParam type="UINT8" name ="byShanfeng" comment="玩家今日已扇风次数"/>
+            <RetParam type="UINT8" name ="byHelpTimes" comment="玩家今日已协助次数(玩家协助)"/>
+        </Func>
+        <Func name="GetAllFires" ret="true" comment="取得玩家所有九疑鼎的火种信息">
+            <RetParam type="TVecFireInfo" name ="vecFires" comment="九疑鼎信息列表"/>
+        </Func>
+        <Func name="GetTripodData" ret="true" comment="取得其他玩家所有九疑鼎信息">
+            <Param type="UINT64" name ="qwRoleID" comment="玩家ID(九疑鼎所属者)"/>
+            <RetParam type="STripodData" name ="oTripodData" comment="九疑鼎数据列表"/>
+        </Func>
+        <Func name="ActiveTripod" ret="true" comment="激活九疑鼎">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="UpgradeTripod" ret="true" comment="升级九疑鼎">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <Param type="UINT8"    name="byOneKey"  comment="是否一键" />
+            <RetParam type="TVecTripodInfo" name ="vecTripods" comment="九疑鼎信息列表"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="MakeFireTripod" ret="true" comment="九疑鼎祈火(炼丹)">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <Param type="UINT16" name ="wFireID" comment="火种ID"/>
+            <RetParam type="TVecTripodInfo" name ="vecTripods" comment="九疑鼎信息列表"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="ClearFireTripod" ret="true" comment="清除九疑鼎祈火记录">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetTripodAward" ret="true" comment="获取九疑鼎炼丹果实">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="TVecTripodInfo" name ="vecTripods" comment="九疑鼎信息列表"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="SpeedTripod" ret="true" comment="加速九疑鼎炼丹(道具入鼎)">
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <Param type="ItemProt::TVecItemCount" name="vecItems" comment="入鼎道具列表"/>
+            <RetParam type="TVecTripodInfo" name ="vecTripods" comment="九疑鼎信息列表"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="AddTripodExtraSoul" ret="true" comment="扇火九疑鼎">
+            <Param type="UINT64" name ="qwRoleID" comment="玩家ID(九疑鼎所属者)"/>
+            <Param type="UINT8" name ="byTripodID" comment="九疑鼎ID"/>
+            <RetParam type="TVecTripodInfo" name ="vecTripods" comment="所属者的九疑鼎信息列表"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="FighterHelpTripod" ret="true" comment="散仙协助九疑鼎">
+            <Param type="UINT16" name ="wFighterID" comment="自己的散仙ID"/>
+            <Param type="UINT8" name ="byPos" comment="协助位置"/>
+            <RetParam type="SFighterHelpInfo" name ="oFighterHelp" comment="散仙协助信息"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="UserHelpTripod" ret="true" comment="玩家协助九疑鼎">
+            <Param type="UINT64" name ="qwRoleID" comment="对方玩家ID"/>
+            <Param type="UINT8" name ="byPos" comment="协助位置"/>
+            <RetParam type="SPlayerHelpInfo" name ="oPlayerHelp" comment="玩家协助信息"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="ShotOffHelpTripod" ret="true" comment="踢出九疑鼎协助者">
+            <Param type="UINT8" name ="byPos" comment="协助位置(0,1,2)"/>
+            <Param type="UINT8" name ="byType" comment="0散仙 1玩家"/>
+            <RetParam type="ETripodType" name ="eResult" comment="结果"/>
+            <RetParam type="UINT8" name ="byPos" comment="协助位置(0,1,2)"/>
+            <RetParam type="UINT8" name ="byType" comment="0散仙 1玩家"/>
+        </Func>
+        <Func name="GetTripodStatus" ret="true" comment="请求玩家九疑鼎的能被扇火、协助信息">
+            <Param type="TVecUINT64" name ="vecRoleID" comment="好友玩家ID列表"/>
+            <RetParam type="TVecTripodStatus" name ="vecStatus" comment="玩家九疑鼎的扇火、协助状态"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UpdateTripod" comment="更新玩家的九疑鼎数据">
+            <Param type="STripodData" name ="oTripodData" comment="九疑鼎数据列表"/>
+            <Param type="UINT8" name ="byShanfeng" comment="玩家今日已扇风次数"/>
+            <Param type="UINT8" name ="byHelpTimes" comment="玩家今日已协助次数(玩家协助)"/>
+        </Func>
+    </FuncS2C>
+</Protocol>
+

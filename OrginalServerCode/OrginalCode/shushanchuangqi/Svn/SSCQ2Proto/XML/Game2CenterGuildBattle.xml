@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterGuildBattle" id="77" comment="帮派战相关协议">
+    <Refer>
+        <Protocol name="GuildBattleProt" />
+        <Protocol name="NewGuildBattleProt" />
+    </Refer>
+    <TypeDef>
+        <Struct name="SMemberScore" vec="TVecMemberScore" comment="帮派战玩家分数信息" >
+            <Member type="UINT64"   name="qwRoleID"  comment="成员角色ID" />
+            <Member type="UINT32"   name="dwScore"   comment="积分" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <!-- 这里是老帮派战相关 -->
+        <Func name="SetState" comment="帮派战状态设定">
+            <Param  type="GuildBattleProt::EGBState"     name="eState"       comment="当前帮派战状态" />
+        </Func>
+        <Func name="UserSignUp" ret="true" comment="帮派战用户报名">
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID" />
+            <RetParam type="UINT64" name="qwGuildID" comment="帮派ID" />
+            <RetParam type="UINT16" name="wLevel"    comment="帮派等级"/>
+            <RetParam type="string" name="strGuildName"     comment="帮派名称" />
+            <RetParam type="UINT32" name="dwScore"   comment="帮派战积分" />
+            <RetParam type="GuildBattleProt::EGBSignUpResult" name="eResult" comment="玩家报名结果" />
+        </Func>
+        <Func name="InfoNotify" comment="帮派战相关广播" >
+            <Param type="UINT64"        name="qwGuildID" comment="帮派对应ID" />
+            <Param type="UINT16"        name="wMsgID"    comment="消息ID" />
+            <Param type="TVecString"    name="vecStr"    comment="聊天信息参数"/>
+        </Func>
+        <Func name="GetAuthority" ret="true" comment="是否有帮派战操作权限" >
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID" />
+            <RetParam type="bool" name="bHasAuthority" comment="是否有帮派战操作权限" />
+        </Func>
+        <Func name="AddScore" comment="增加帮派战积分" >
+            <Param type="UINT64" name="qwGuildID" comment="帮派ID" />
+            <Param type="UINT32" name="dwScore"   comment="帮派战积分" />
+            <Param type="TVecMemberScore" name="vecMemberScore" comment="玩家获得积分" />
+        </Func>
+        <Func name="AddGuildScore" comment="增加帮派战帮派积分" >
+            <Param type="UINT64" name="qwGuildID" comment="帮派ID" />
+            <Param type="UINT32" name="dwScore"   comment="帮派战积分" />
+        </Func>
+        <Func name="AddMemberScore" comment="增加帮派战成员积分" >
+            <Param type="UINT64" name="qwGuildID" comment="帮派ID" />
+            <Param type="TVecMemberScore" name="vecMemberScore" comment="玩家获得积分" />
+        </Func>
+        <Func name="GetPanelInfo" ret="true" comment="获取帮派战相关面板信息" >
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID" />
+            <RetParam      type="UINT32"   name="dwSelfScore"  comment="我的积分" />
+            <RetParam      type="UINT32"   name="dwGuildScore" comment="帮派积分" />
+            <RetParam      type="UINT32"   name="dwGuildRank"  comment="帮派排名" />
+        </Func>
+        <Func name="SyncGuildRank" comment="更新帮派战积分排名" >
+        </Func>
+
+        <!-- 这里是新帮派战相关 -->
+        <Func name="NewSetState" comment="帮派战状态设定">
+            <Param  type="NewGuildBattleProt::ENGBState"     name="eState"       comment="当前帮派战状态" />
+        </Func>
+        <Func name="NewGetGuildID"  ret="true" comment="获取帮派ID" >
+            <Param      type="UINT64"   name="qwRoleID"     comment="玩家ID" />
+            <RetParam   type="UINT64"   name="qwGuildID"    comment="帮派ID" />
+            <RetParam   type="string"   name="strGuildName" comment="帮派名称" />
+            <RetParam   type="UINT8"    name="byGuildLvl"   comment="帮派等级" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="GuildLevelChanged" comment="帮派等级更新">
+            <Param type="UINT64" name="qwGuildID" comment="帮派对应ID" />
+            <Param type="UINT16" name="wLevel"    comment="帮派等级"/>
+        </Func>
+        <Func name="GuildOwnerChanged" comment="帮主更新">
+            <Param type="UINT64"   name="qwGuildID"         comment="帮派对应ID" />
+            <Param type="string"   name="strGuildOwnerName" comment="帮主名称" />
+        </Func>
+        <Func name="GuildDisband" comment="帮派解散">
+            <Param type="UINT64"        name="qwGuildID" comment="帮派对应ID" />
+        </Func>
+        <Func name="ReadyToSendNewGuildBattle" comment="可以发送新帮派战数据" >
+        </Func>
+    </FuncS2C>
+</Protocol>

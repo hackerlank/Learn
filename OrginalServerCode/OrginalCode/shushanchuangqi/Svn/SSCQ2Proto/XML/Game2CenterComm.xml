@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterComm" id="12" comment="GameServer到CenterServer的通信协议">
+    <Refer>
+        <Protocol name="FriendProt"/>
+        <Protocol name="MailProt"/>
+        <Protocol name="RoleInfoDefine"/>
+        <Protocol name="ProtoCommon" />
+        <Protocol name="GuildProt" />
+        <Protocol name="BattleGS"/>
+        <Protocol name="ItemProt"/>
+        <Protocol name="TripodProt"/>
+        <Protocol name="EventCenter"/> 
+        <Protocol name="LogDataDefine"/>
+        <Protocol name="MallProt"/>
+        <Protocol name="PHPProt"/>
+        <Protocol name="ShipProt"/>
+        <Protocol name="BeautyLogGS"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ESyncKey" comment="数据同步键">
+            <Member name="eSyncNone" comment="无"/>
+            <Member name="eSyncGameSvrC2S" comment="GameServer之间的C2S通信协议"/>
+            <Member name="eSyncGameSvrS2C" comment="GameServer之间的S2C通信协议"/>
+        </Enum>
+        <Enum name="EUserSyncPropField" comment="角色同步属性字段">
+            <Member name="eSyncPropLevel" comment="等级"/>
+            <Member name="eSyncPropNation" comment="阵营"/>
+            <Member name="eSyncPropYellowDiamond" comment="QQ黄钻"/>
+            <Member name="eSyncPropGold" comment="仙石"/>
+            <Member name="eSyncPropSilver" comment="银币"/>
+            <Member name="eSyncPropCoupon" comment="礼券"/>
+            <Member name="eSyncPropbyTitle" comment="称号"/>
+            <Member name="eSyncPropbyWallow" comment="防沉迷"/>
+            <Member name="eSyncPropVIPLevel" comment="vip等级"/>
+            <Member name="eSyncPropQuality" comment="主将品质"/>
+            <Member name="eSyncPropPlayerFighterID" comment="主将ID"/>
+            <Member name="eSyncPropTotalRecharge" comment="玩家每次仙石充值数"/>
+        </Enum>
+        <Enum name="EOpSource" comment="操作原因">
+            <Member name="eOpAreaAward"     comment="斗剑奖励"/>
+            <Member name="eOpAreaFlush"     comment="斗剑刷将"/>
+            <Member name="eOpClearAreaCd"   comment="清除斗剑CD"/>
+            <Member name="eOpArenaWirship"  comment="斗剑膜拜"/>
+            <Member name="eOpGuildDonate"   comment="帮派捐献"/>
+            <Member name="eOpGuildWorship"  comment="帮派供奉" />
+            <Member name="eOpBuyAreaTimes"  comment="购买挑战次数" />
+            <Member name="eOpLadderAward"   comment="天梯奖励"/>
+            <Member name="eOpAreaAwardDays"   comment="斗剑挑战奖励"/>
+            <Member name="eOpClearLadderCd"   comment="天梯cd清除"/>
+            <Member name="eOpAdoreAward"    comment="崇拜奖励" />
+            <Member name="eOpTripodAward" comment="九疑鼎扇火、协助奖励" />
+        </Enum>
+
+        <Enum name="EUpdateError" comment="更新/查询用户数据">
+            <Member name="eUpdateErrorNoUser" comment="无用户"/>
+            <Member name="eUpdateErrorItemCount" comment="物品不足"/>
+            <Member name="eUpdateErrorMoneyCount" comment="钱币不足"/>
+            <Member name="eUpdateErrorUnKown" comment="未知错误"/>
+        </Enum>
+
+        <Enum name="EPlayerUINTProp" comment="玩家整形属性字段">
+            <Member name="ePropTopDemonFloorID" comment="镇妖塔最高层"/>
+            <Member name="ePropPrizeDemonFloorID" comment="镇妖塔奖励层数"/>           
+        </Enum>
+
+        <Enum name="EWonderActType" comment="全服活动类型信息">
+            <Member name="eActTrump"   value = "1" comment="法宝"/>
+            <Member name="eActLevel" comment="等级"/>
+            <Member name="eActFighter" comment="散仙"/>           
+            <Member name="eActFormation" comment="阵灵"/>           
+            <Member name="eActDungon" comment="副本"/>           
+            <Member name="eActBeauty" comment="美女"/>           
+            <Member name="eActHorse" comment="坐骑"/>           
+            <Member name="eActEnd" comment="结束"/>           
+        </Enum>
+        <Enum name="ActiveParam" comment="活动消息同步">
+            <Member name="eShip"    comment="运船金船"/>
+        </Enum>
+
+        <Struct name="SUserItem" vec = "TVecUserItem" comment="物品信息">
+            <Member type="UINT32" name= "dwTypeID" comment="物品ID/钱币类型"/>
+            <Member type="UINT32" name= "dwCount" comment="数量"/>
+        </Struct>
+
+        <Struct name="SUserEnterInfo" comment="角色进入游戏信息">
+            <Member type="UINT16" name= "wHeroID" comment="主将ID"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="ProtoCommon::ECareerType" name ="eCareer" comment =" 职业"/>
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="UINT8" name="byLevel" comment="玩家等级"/>
+            <Member type="UINT8" name="byNation" comment="国家"/>
+            <Member type="UINT8" name="byGMLvl" comment="GM权限"/>
+            <Member type="UINT32" name="dwTotalRecharge" comment ="充值金额"/>
+            <Member type="UINT32" name="dwCreateTime" comment ="创角时间"/>
+            <Member type="UINT32" name="dwLoginTime" comment ="上次登陆时间"/>
+            <Member type="UINT32" name="dwOfflineTime" comment ="上次下线时间"/>
+            <Member type="UINT32" name="dwLockExpireTime" comment = "被封禁结束时间"/>
+            <Member type="UINT32" name="dwForbExpireTime" comment = "被禁言结束时间"/>
+            <Member type="UINT32" name="dwGold" comment = "仙石"/>
+            <Member type="UINT32" name="dwSilver" comment = "银币"/>
+            <Member type="UINT32" name="dwCoupon" comment ="礼券"/>
+            <Member type="UINT32" name="dwSoul" comment ="魂魄"/>
+            <Member type="UINT32" name="dwPrestige" comment ="声望"/>
+            <Member type="UINT32" name="dwHonor" comment ="荣誉"/>
+            <Member type="UINT32" name="dwPExp" comment="修为"/>
+            <Member type="UINT32" name="dwSigil" comment="符印"/>
+            <Member type="UINT32" name="dwCentsY" comment="仙元"/>
+            <Member type="UINT32" name="dwAction" comment= "体力"/>
+            <Member type="UINT32" name="dwSop" comment= "阅历"/>
+            <Member type="UINT32" name="dwBTPoint" comment= "战斗力"/>
+            <Member type="TVecUINT16" name="vecOwnTitle" comment ="拥有称号"/>
+            <Member type="TVecUINT16" name="vecEquipTitle" comment ="装备称号"/>
+            <Member type="UINT8" name="byDomain" comment ="渠道"/>
+            <Member type="UINT8" name="byDomainLvl" comment ="渠道等级"/>
+            <Member type="UINT8" name="byDisplayLvl" comment ="显示等级"/>
+            <Member type="UINT8" name="byDomainYear" comment ="年费"/>
+            <Member type="string" name="szOpenId" comment ="szOpenId"/>
+            <Member type="string" name="szOpenKey" comment ="szOpenKey"/>
+            <Member type="UINT64" name="qwInvitedID" comment ="邀请"/>
+            <Member type="UINT8" name="byWallow" comment ="防沉迷"/>
+            <Member type="UINT8" name="byVIPLvl" comment ="VIP等级"/>
+            <Member type="UINT8" name="byYDLvl" comment ="黄钻等级"/>
+            <Member type="string" name="strSign" comment ="签名"/>
+            <Member type="UINT16" name="wMood" comment ="心情表情"/>
+            <Member type="UINT32" name="dwFighterPower" comment ="战斗力"/>
+            <Member type="UINT8" name="byQuality" comment="主将品质" />
+            <Member type="UINT16" name="wPlayerFighterID" comment="主将ID" />
+            <Member type="FriendProt::TVecFriendDBInfo" name ="vecFriendsInfo" comment ="关系信息"/>
+            <Member type="RoleInfoDefine::TVecVarsDBInfo"  name ="vecGameVars" comment="传到center的Var数据"/>
+            <Member type="RoleInfoDefine::TVecRoleArenaInfo" name="vecArenaInfo" comment="玩家斗剑信息"/>
+            <Member type="TripodProt::TVecFireInfo" name="vecFireInfo" comment="玩家九疑鼎的火种信息"/>
+            <Member type="string" name ="szIconAppear"  comment ="开启的功能"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatform" comment="平台参数列表"/>
+            <Member type="ShipProt::TVecShipReport" name="vecShipReport" comment="金船战报" />
+            <Member type="ShipProt::PlayerSelfShipData" name="sShipData" comment="自己金船相关信息" />
+        </Struct>
+        
+        <Struct name="SLingShanShopData" vec = "TVecLingShanShopData" comment="灵山商店数据">
+            <Member type="UINT64" name= "qwGuildID" comment="帮派ID"/>
+            <Member type="TVecUINT8" name= "vecLingShanType" comment="灵山类型"/>
+        </Struct>
+        <Struct name="SActivityState" vec = "TVecActivityState" comment="活动状态数据">
+            <Member type="UINT32" name= "dwActID" comment="活动ID"/>
+            <Member type="bool" name= "bOpen" comment="状态"/>
+        </Struct>
+
+
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="KeepAlive" comment="心跳">
+        </Func>
+        <Func name="GameSvrInitNft" comment="GameServer初始化完成通知">
+        </Func>
+       
+        <Func name="GetCenterState" ret="true" comment="CenterServer状态请求">
+        </Func>
+        
+        <Func name="GameSvrDataSyncReq" comment="GameServer数据同步请求">
+            <Param type="ESyncKey" name="eSyncKey" comment="同步Key"/>
+            <Param type="UINT16" name="wDestGroup" comment="目的服务器组号"/>
+            <Param type="UINT8" name="byDestIndex" comment="目的GameServer(0为全部)"/>
+            <Param type="TVecINT32" name="vecParam" comment="同步参数"/>
+            <Param type="string" name="strSyncData" comment="同步数据"/>
+        </Func>
+        <Func name="UserLoginNtf" comment="账号进入游戏通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="SUserEnterInfo" name="rUserInfo" comment="帐号进入信息"/>
+        </Func>
+        <Func name="UserLogoutNtf" comment="账号退出游戏通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+        </Func>
+        <Func name="UserReplaceNtf" comment="账号替换通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+        </Func>
+        <Func name="UserJumpSvrNtf" comment="帐号跳GameServer通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+        </Func>
+        <Func name="UserSyncPropNtf" comment="玩家同步属性通知">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="EUserSyncPropField" name="eField" comment="同步属性类型"/>
+            <Param type="string" name="strVal" comment="值序列化字符串"/>
+        </Func>
+        <Func name="IsFriend" ret="true" comment="是否为好友">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="UINT64" name="qwFriID" comment="好友账号ID"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="0是好友 1非好友"/>
+        </Func>
+        <Func name="IsSameGuild" ret="true" comment="是否在同一个帮派">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <Param type="UINT64" name="qwOtherID" comment="帮派成员ID"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="0在同一个帮派 1不在同一个帮派"/>
+        </Func>
+        <!-->发送邮件<-->
+        <Func name="SendMail"  comment="发送系统邮件,自定义字符串">
+            <Param type="string" name="strSender" comment="发送者"/>
+            <Param type="string" name="strTitle" comment="标题"/>
+            <Param type="MailProt::SysMailSendTxt" name="strMsgInfo" comment="内容"/>
+            <Param type="MailProt::TVecMailAttachment" name="vecItemInfo" comment="物品信息"/>
+            <Param type="TVecUINT64" name="vecTargetIDs" comment="接受者IDs"/>           
+        </Func>
+        <Func name="GetGuildID" ret="true" comment="获取帮派ID">
+            <Param type="UINT64" name="qwRoleID"        comment="玩家ID" />
+            <RetParam type="UINT64" name="qwGuildID"    comment="帮派ID" />
+            <RetParam type="string" name="strGuildName" comment="帮派名称" />
+            <RetParam type="UINT8" name="byGuildLvl" comment="帮派等级" />
+            <RetParam type="string" name="strGuildOwnerName" comment="帮主名称" />
+        </Func>
+        <Func name="GetGuildName" ret="true" comment="获取帮派ID">
+            <Param type="UINT64" name="qwGuildID"        comment="帮派ID" />
+            <RetParam type="bool"   name="bValid"    comment="是否已经找到" />
+            <RetParam type="UINT64" name="qwGuildID"    comment="帮派ID" />
+            <RetParam type="string" name="strGuildName" comment="帮派名称" />
+            <RetParam type="UINT8" name="byGuildLvl" comment="帮派等级" />
+            <RetParam type="string" name="strGuildOwnerName" comment="帮主名称" />
+        </Func>
+        <Func name="NotifyGuildInfo" comment="帮派广播">
+            <Param type="UINT64"     name="qwGuildID"     comment="帮派ID" />
+            <Param type="TVecUINT64" name="vecExcpRoleID" comment="不需要通知的人ID" />
+            <Param type="ByteArray"  name="strData"       comment="具体信息"/>
+        </Func>
+        <Func name="SynIconAppear" comment="同步增加icon">
+            <Param type="UINT64"     name="qwRoleID"     comment="角色ID" />
+            <Param type="string"  name="szIcon"       comment="功能"/>
+        </Func>
+        <Func name="AddGuildContribution" comment="增加帮派贡献">
+            <Param type="UINT64" name="qwRoleID"        comment="玩家ID" />
+            <Param type="UINT32" name="dwContribution"  comment="帮派贡献" />
+        </Func>
+        <Func name="ActiveTripodFire" comment="增加玩家九疑鼎火种">
+            <Param type="UINT64" name="qwRoleID"    comment="玩家ID" />
+            <Param type="UINT16" name="wFireID"     comment="火种ID" />
+        </Func>
+        <Func name="UpdatePlatformParam" comment="更新登录参数" >
+            <Param type="UINT64" name="qwRoleID"    comment="玩家ID" />
+            <Param type="ProtoCommon::TVecPlatformParam" name="vecPlatform" comment="平台参数列表"/>
+            <Param type="UINT32"    name="dwIndex"  comment="当前平台索引" />
+        </Func>
+        <Func name="UpdateEnterString" comment="更新登录其他参数" >
+            <Param type="UINT64" name="qwRoleID"    comment="玩家ID" />
+            <Param type="TVecString" name="vecEnterString" comment="平台参数列表"/>
+        </Func>
+        <Func name="SendWonderType"   comment="发送全服活动信息" >
+            <Param type="EWonderActType" name="eActType"    comment="活动类型" />
+            <Param type="UINT64" name="qwRoleID"    comment="玩家ID" />
+            <Param type="UINT32" name="dwCond"    comment="条件ID" />
+        </Func>
+        <Func name="SubGuildContribution" ret="true" comment="扣除帮贡" >
+            <Param type="UINT64" name="qwRoleID"        comment="玩家ID" />
+            <Param type="UINT32" name="dwContribution"  comment="帮贡数量" />
+            <RetParam type="GuildProt::EGuildResult" name ="eResult" comment ="检测结果"/>
+        </Func>
+        <Func name="BeautyLotteryLog"  comment="美女抽奖log" >
+            <Param type="BeautyLogGS::SBeautyLog" name="oBeautyLog"        comment="抽奖log" />
+        </Func>
+        <Func name="InviteFriend"  comment="邀请好友成功" >
+            <Param type="UINT64" name="qwUserID"        comment="邀请人" />
+            <Param type="UINT64" name="qwInvitedUserID"        comment="被邀请人" />
+        </Func>
+        <Func name="NotifyGuildExchangedItemBegin" comment="通知帮派兑换物品开始">
+            <Param type="TVecLingShanShopData"    name="vecLingShanShopData" comment="灵山商店数据" />
+        </Func>
+        <Func name="SyncGameBuffUseInCenter" comment="同步在Center使用的buff结束时间(待修改完善)">
+            <Param type="UINT64"    name="qwRoleID"     comment="玩家ID" />
+            <Param type="UINT16"    name="wBuffID"      comment="buffID" />
+            <Param type="UINT32"    name="dwEndTime"    comment="结束时间" />
+        </Func>
+        <Func name="SyncGameActiveParam" comment="同步活动参数">
+            <Param type="ActiveParam"    name="eParam"     comment="参数类型" />
+            <Param type="TVecUINT32"    name="vecParam"      comment="参数" />
+        </Func>
+        <Func name="GetSystemVar" ret="true" comment="获取全局Var值" >
+            <Param type="TVecUINT16"    name="vecVarID"      comment="varID列表" />
+            <RetParam type="TVecUINT16"    name="vecVars"      comment="varID列表" />
+            <RetParam type="TVecUINT64"    name="vecValues"    comment="var数值列表(必须与vecVars对应)" />
+        </Func>
+        <Func name="SetSystemVar" ret="true" comment="设置全局Var值" >
+            <Param type="TVecUINT16"    name="vecVars"      comment="varID列表" />
+            <Param type="TVecUINT64"    name="vecValues"    comment="var数值列表(必须与vecVars对应)" />
+            <RetParam type="TVecUINT16"    name="vecVarID"     comment="设置成功的varID列表(只是校验用)" />
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ReplaceUser" ret="true" comment="替换帐号">
+            <Param type="UINT64" name="qwUsrID" keep="true" comment="帐号ID"/>
+        </Func>
+        <Func name="GMCmd" ret="true" comment="GM指令">
+            <Param type="UINT64" name="qwUsrID" keep="true" comment="帐号ID"/>
+            <Param type="string" name="strInfo" comment="GM指令信息"/>
+        </Func>
+        <Func name="AddTotalRecharge" ret="true" comment="充值接口">
+            <Param type="RoleInfoDefine::SRecharge" name="oRecharge" comment="充值仙石的数据"/>
+            <Param type="string" name="strUdp1" comment="udpLog参数1(平台传来的)"/>
+            <Param type="string" name="strUdp2" comment="udpLog参数2(平台传来的)"/>
+        </Func>
+        <Func name="AddRechargeMailItem" ret="true" comment="充值接口(改版:加仙石礼包到邮件)">
+            <Param type="RoleInfoDefine::SRecharge" name="oRecharge" comment="充值仙石的数据"/>
+            <Param type="string" name="strUdp1" comment="udpLog参数1(平台传来的)"/>
+            <Param type="string" name="strUdp2" comment="udpLog参数2(平台传来的)"/>
+        </Func>
+        <Func name="AddTotalPrepaid" ret="true" comment="补偿玩家未创建预先充值的仙石">
+            <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Param type="UINT32" name="dwGold" comment="仙石数量"/>
+        </Func>
+        <Func name="AddQQCoinBuyItem" ret="true" comment="Q点直购道具">
+            <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Param type="TVecUserItem" name="vecUserItem"  comment="物品列表"/>
+        </Func>
+        <Func name="CheckMailAttch" ret="true" comment="询问可否提取附件">
+            <Param type="UINT64" name="qwUsrID"  comment="帐号ID"/>
+            <Param type="UINT64" name="qwMailID"  comment="邮件ID"/>
+            <Param type="MailProt::TVecMailAttachment" name="vecItemInfo" comment="附件"/>
+            <RetParam type="UINT8" name ="byCan" comment ="0表示可以提取"/>
+        </Func>
+        <Func name="SendMailAttch"  comment="发送附件">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT64" name="qwMailID"  comment="邮件ID"/>
+            <Param type="MailProt::TVecMailAttachment" name="vecItemInfo" comment="附件"/>
+        </Func>
+        <Func name="SetSign"  comment="修改签名">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="string" name="strSign"  comment="签名"/>
+        </Func>
+        <Func name="SetMood"  comment="修改表情">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT16" name="wMood"  comment="表情"/>
+        </Func>
+        <Func name="FigtherToOther" ret="true" comment="请求和他人发起战斗">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT64" name="qwOtherID"  comment="他人的ID"/>
+            <Param type="UINT32" name="dwCost"  comment="花费的游戏币"/>
+            <Param type="BattleGS::EBattleType" name="eBattleType"  comment="战斗类型"/>
+            <Param type="UINT32" name="dwBufferID"  comment="临时增加的buffer"/>
+            <Param type="UINT32" name="dwSkillAttrID" comment="增加的属性"/>
+            <Param type="UINT32" name="dwCount"  comment="buffer叠加层数"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="请求结果"/>
+            <RetParam type ="UINT8" name ="bySuc" comment ="是否胜利"/>
+            <RetParam type ="UINT64" name ="qwBattleID" comment ="战报ID"/>
+            <RetParam type ="UINT32" name ="dwSelfFighterPower" comment ="自己的战斗力"/>
+            <RetParam type ="UINT8" name ="bySelfQuality" comment ="自己的主将品质"/>
+            <RetParam type ="UINT32" name ="dwOtherFighterPower" comment ="他人的战斗力"/>
+            <RetParam type ="UINT8" name ="byOtherQuality" comment ="他人的主将品质"/>
+            <RetParam type ="UINT32" name ="dwTurns" comment ="战斗回合数"/>
+        </Func>
+        <Func name="CanPushLoot" ret="true" comment="询问可否放下掉落">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT32" name="dwLootId"  comment="掉落的ID"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="0,可以，1，没有这个掉落，2，其他错误"/>
+        </Func>
+        <Func name="PushLoot"  comment="掉落到玩家包裹">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="EOpSource" name="eSource " comment="原因"/>
+            <Param type="LogDataDefine::ItemFrom" name="eItemFrom" comment="道具or资源来源类型"/>
+            <Param type="UINT32" name="dwLootId"  comment="掉落的ID"/>
+        </Func>
+        <Func name="ReduceItem"  ret="true" comment="扣钱或物品">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="LogDataDefine::ItemTo" name="eItemTo" comment="道具or资源消耗类型"/>
+            <Param type="UINT32" name="dwID"  comment="钱或物品ID"/>
+            <Param type="UINT32" name="dwCount"  comment="数量"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="0,可以,1，不足，2，其他错误"/>
+        </Func>
+        <Func name="CanReduceItem"  ret = "true" comment="物品/资源数量是否够">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT32" name="dwItemID"  comment="物品ID"/>
+            <Param type="UINT32" name="dwCount"  comment="数量"/>
+            <RetParam type ="UINT8" name ="byRet" comment ="0,可以,1，不足，2，其他错误"/>
+        </Func>
+
+        <Func name="GetUserUINTProp"  ret = "true" comment="查询玩家属性">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="EPlayerUINTProp" name="eUINTPropType"  comment="属性类型"/>
+            <RetParam type ="UINT32" name ="dwValue" comment ="属性值"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>            
+        </Func>
+
+        <Func name="SetUserUINTProp"  ret = "true" comment="设置玩家属性">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="EPlayerUINTProp" name="eUINTPropType"  comment="属性类型"/>
+            <Param type ="UINT32" name ="dwValue" comment ="属性值"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>            
+        </Func>
+
+        <Func name="UserSubItem"  ret = "true" comment="扣除物品/钱币">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="LogDataDefine::ItemTo" name="eItemTo" comment="道具or资源消耗类型"/>
+            <Param type="TVecUserItem" name="vecUserItem"  comment="物品列表"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>
+        </Func>
+
+        <Func name="UserAddItem"  ret = "true" comment="添加物品/钱币">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="LogDataDefine::ItemFrom" name="eItemFrom" comment="道具or资源来源类型"/>
+            <Param type="TVecUserItem" name="vecUserItem"  comment="物品列表"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>
+        </Func>
+
+        <Func name="SendSysMsg"   comment="转发系统消息">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT16" name="wMsgID"  comment="消息ID"/>
+        </Func> 
+        <Func name="ActionNotify"   comment="任务事件通知">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="UINT16" name="wAction" comment="通知类型"/>
+        </Func>
+        <Func name="BubbleNotify"   comment="气泡事件通知">
+            <Param type="UINT64"       name="qwUsrID"  comment="帐号ID" />
+            <Param type="ProtoCommon::EDataChange"   name="eType"    comment="修改类型" />
+            <Param type="UINT16"       name="wMsgID"   comment="通知类型"/>
+            <Param type="TVecINT64"    name="vecParam"     comment="整型变量" />
+            <Param type="TVecString"   name="vecString"    comment="字符串型变量" />
+        </Func>
+        <Func name="GuildLevelUpdated" comment="玩家帮派等级更新">
+            <Param type="UINT64"    name="qwRoleID"     comment="玩家ID" />
+            <Param type="UINT16"    name="wLevel"       comment="帮派等级" />
+        </Func>
+        <Func name="GuildNameUpdated" comment="玩家帮派名有更新" >
+            <Param type="UINT64" name="qwRoleID"     comment="玩家ID" />
+            <Param type="string" name="strGuildName" comment="帮派名称" />
+        </Func>
+        <Func name="GuildTechUpdate" comment="帮派技能属性更新" >
+            <Param type="UINT64"    name="qwRoleID"     comment="玩家唯一ID" />
+            <Param type="ProtoCommon::TVecFtAttrMod" name="vecFtAttr" comment="玩家的帮派技能属性" />
+            <Param type="GuildProt::TVecGuildTechInfo" name="vecGuildTech" comment="玩家的帮派技能信息" />
+        </Func>
+        <Func name="ReloadTable" comment="重新加载表格" >
+            <Param type="TVecString"    name="vecTableName"     comment="表格名字" />
+        </Func>
+        <Func name="TripodAttrUpdate" comment="玩家九疑鼎属性更新" >
+            <Param type="UINT64"    name="qwRoleID"     comment="玩家唯一ID" />
+            <Param type="TVecUINT32"    name="vecValue"     comment="九疑鼎ID、等级" />
+        </Func>
+        <Func name="ProcessCond" ret = "true" comment="完成GetCond条件" >
+            <Param type="UINT64"    name="qwUsrID"  comment="玩家ID" />
+            <Param type="UINT16"    name="wCondID"  comment="条件ID" />
+            <Param type="LogDataDefine::ItemTo" name="eItemTo" comment="道具or资源消耗类型"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 1 其他错误"/>
+        </Func>
+        <Func name="UpgradeTripod" ret = "true" comment="玩家升级九疑鼎" >
+            <Param type="UINT64"   name="qwUsrID"  comment="玩家ID" />
+            <Param type="UINT8"    name="byTripodID"  comment="九疑鼎ID" />
+            <Param type="UINT8"    name="byLevel"  comment="九疑鼎当前等级" />
+            <Param type="UINT32"   name="dwExp"  comment="九疑鼎当前经验值" />
+            <Param type="UINT8"    name="byOneKey"  comment="是否一键" />
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 1 其他错误"/>
+            <RetParam type="UINT8"  name="byLevel"  comment="九疑鼎当前等级" />
+            <RetParam type="UINT32" name="dwExp"  comment="九疑鼎当前经验值" />
+        </Func>
+        <Func name="SpeedTripod" ret = "true" comment="加速九疑鼎炼丹(道具入鼎)" >
+            <Param type="UINT64"    name="qwUsrID"  comment="玩家ID" />
+            <Param type="UINT32"    name="dwCurSoul"  comment="当前九疑鼎的火种元气值" />
+            <Param type="UINT32"    name="dwMaxSoul"  comment="当前九疑鼎的火种最大元气值(配置)" />
+            <Param type="ItemProt::TVecItemCount" name="vecItems" comment="入鼎道具列表"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 1 其他错误"/>
+            <RetParam type="UINT32" name="dwSoul"  comment="九疑鼎增加的元气值" />
+        </Func>
+        <Func name="CheckHasFighter" ret="true" comment="判断玩家是否拥有散仙" >
+            <Param type="UINT64"    name="qwUsrID"  comment="玩家ID" />
+            <Param type="UINT16"    name="wFighterID"     comment="散仙ID" />
+            <RetParam type ="UINT8" name ="byError" comment ="0 拥有, 1 其他错误"/>
+            <RetParam type ="UINT8" name ="byColor" comment ="散仙品质"/>
+        </Func>
+        <Func name="GetBattlePoint" ret="true" comment="获取战斗力" >
+            <Param type="UINT64"        name="qwUsrID"          comment="玩家ID" />
+            <RetParam type="UINT8"      name="byError"          comment="0 成功, 1 其他错误"/>
+            <RetParam type="UINT32"     name="dwBattlePoint"    comment="玩家战斗力" />
+        </Func>
+        <Func name="OnPlayerEvent"  comment="玩家发事件中心消息" >
+            <Param type="UINT64"        name="qwUsrID"  comment="玩家ID" />
+            <Param type="EventCenter::EventType"        name="eEventType"    comment="事件类型" />
+            <Param type="TVecINT32"     name="vecParam" comment="事件参数" />
+            <Param type="string"        name="strParam" comment="事件参数" />
+            <Param type="bool"          name="bLog"     comment="事件参数" />
+        </Func>
+        <Func name="AddORSetGameVar" comment="增加或者设置玩家GameVar数值" >
+            <Param type="UINT64"        name="qwUsrID"      comment="玩家ID" />
+            <Param type="UINT8"         name="byType"       comment="0增加 >0设置" />
+            <Param type="TVecUINT16"    name="vecVars"      comment="varID列表" />
+            <Param type="TVecUINT64"    name="vecValues"    comment="var数值列表(必须与vecVars对应)" />
+        </Func>
+        <Func name="DeleteGameVar" comment="清除玩家GameVar" >
+            <Param type="UINT64"     name="qwUsrID"  comment="玩家ID" />
+            <Param type="TVecUINT16" name="vecVars"  comment="varID列表" />
+        </Func>
+        <Func name="AddMallDiscount" comment="增加商城限购活动" >
+            <Param type="MallProt::SDiscount" name="oDiscount"  comment="限购道具列表" />
+        </Func>
+        <Func name="ClearMallDiscount" comment="清除商城限购活动" >
+            <Param type="UINT8" name="byPos"  comment="限购道具栏位" />
+        </Func>
+        <Func name="SubPlayerMoney" ret="true" comment="扣除多个玩家钱币/物品">
+            <Param type="TVecUINT64" name="vecUserID" comment="玩家ID" />
+            <Param type="TVecUserItem" name="vecUserItem"  comment="物品列表"/>
+        </Func>
+        <Func name="SetPlayerLevel" ret="true" comment="设置玩家等级">
+            <Param type="UINT64" name="qwUsrID" comment="玩家ID" />
+            <Param type="UINT16" name="wLevel" comment="玩家等级" />
+        </Func>
+        <Func name="SetPlayerVIPLevel" ret="true" comment="设置玩家VIP等级">
+            <Param type="UINT64" name="qwUsrID" comment="玩家ID" />
+            <Param type="PHPProt::EOptType" name="eOptType" comment="台台操作类型(eOptSetPlayerVIPLevel/eOptAddGrowthValue)" />
+            <Param type="UINT32" name="dwLevelOrGrowthValue" comment="等级or成长值" />
+        </Func>
+        <Func name="SetDayTask" ret="true" comment="设置日常任务">
+            <Param type="TVecUINT64" name="vecUserID" comment="玩家ID" />
+            <Param type="PHPProt::EPHPTaskType" name="eTaskType" comment="日常任务类型" />
+        </Func>
+        <Func name="GetPlayerInfo" ret="true" comment="获取玩家信息">
+            <Param type ="UINT64" name="qwUserID" comment="玩家ID"/> 
+            <RetParam type ="PHPProt::SPlayerInfo" name="sPlayerInfo" comment="返回的数据"/> 
+        </Func>
+        <Func name="GetPlayerBagInfo" ret="true" comment="获取玩家背包信息">
+            <Param type ="UINT64" name="qwUserID" comment="玩家ID"/> 
+            <RetParam type ="PHPProt::TVecPlayerBagInfo" name="vecPlayerBagInfo" comment="返回的数据"/> 
+        </Func>
+        <Func name="DelPlayerItem" ret="true" comment="删除玩家物品">
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT8" name="byType" comment="1；背包，2：仓库"/>
+            <Param type="UINT64" name="qwInstID" comment="物品唯一ID"/>
+            <Param type="UINT16" name="wCount" comment="堆叠数"/>
+        </Func>
+        <Func name="SendSysMailByLootId"  comment="给玩家用掉落包发系统邮件">
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT16" name="wTitle" comment="邮件标题"/>
+            <Param type="UINT16" name="wText" comment="邮件正文"/>
+            <Param type="TVecString" name="vecParam" comment="邮件参数"/>
+            <Param type="UINT32" name="dwLootId" comment="掉落包"/>
+            <Param type="UINT32" name="dwRate" comment="倍率"/>
+        </Func>
+        <Func name="GetTaskStateForPlatfrom" ret="true" comment="任务集市">
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT32" name="dwTaskID" comment="邮件标题"/>
+            <Param type="UINT8" name="byStep" comment="邮件正文"/>
+            <Param type="UINT8" name="byOpt" comment="邮件正文"/>
+            <RetParam type ="PHPProt::ETaskState" name="eRet" comment="返回的数据"/> 
+        </Func>
+        <Func name="SynWeiweiPersonNum"  comment="同步微信微博人数">
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <Param type="UINT8" name ="byType" comment ="类型"/>
+			<Param type="UINT32" name ="dwCount" comment ="人数"/>
+        </Func>
+		<Func name="CheckCDK"  comment="检测CDK">
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <Param type="string" name ="strCDK" comment ="CDK码"/>
+        </Func>
+		<Func name="SynQQAlarm"  comment="QQAlarm安装">
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+        </Func>
+		<Func name="ModifyChest"  comment="运营修改宝箱信息">
+			<Param type="PHPProt::SChestInfo" name="sChestInfo" comment="信息"/>
+        </Func>
+		<Func name="SyncActivityTime"  comment="Center2Game活动时间同步">
+			<Param type="ProtoCommon::SActivityTime" name="sActTime" comment="信息"/>
+        </Func>
+		<Func name="GetLoginDays"  ret="true" comment="请求累计登入天数">
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+			<RetParam type="UINT32" name="dwDays" comment="天数"/>
+        </Func>
+		<Func name="SyncActState"  comment="同步活动状态">
+			<Param type="SActivityState" name="oInfo" comment="数据"/>
+			<Param type="bool" name="bNotify" comment="是否通知全服"/>
+        </Func>
+		<Func name="SyncTitle"  comment="添加Title">
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+			<Param type="UINT16" name="wTitleID" comment="添加Title"/>
+        </Func>
+        <Func name="SubGoldOrCoupon"  ret = "true" comment="扣除礼卷钻石">
+            <Param type="UINT64" name="qwUsrID " comment="帐号ID"/>
+            <Param type="LogDataDefine::ItemTo" name="eItemTo" comment="道具or资源消耗类型"/>
+            <Param type="UINT32" name="dwCount"  comment="扣款数量"/>
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

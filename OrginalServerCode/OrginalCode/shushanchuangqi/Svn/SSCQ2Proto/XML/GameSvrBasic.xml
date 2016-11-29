@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GameSvrBasic" id="13" proxy="GameServer" comment="GameServer的基本协议">
+    <TypeDef>
+        <Enum name="EBreakReason" comment="断开原因">
+            <Member name="eBreakNone" comment="无"/>
+            <Member name="eBreakUsrKick" comment="被另一处登录的帐号踢下线"/>
+            <Member name="eBreakSvrKick" comment="被服务器踢下线"/>
+            <Member name="eBreakExcept" comment="发生异常"/>
+            <Member name="eBreakOther" comment="其它原因"/>
+            <Member name="eBreakIndulgeKick" comment="防沉迷系统已启动，请休息5小时"/>
+            <Member name="eBreakIndulgeTimeKick" comment="防沉迷系统已启动，请休息完5小时后登陆"/>
+        </Enum>
+        <Struct name="SGMCommand" vec="TVecGMCommand" comment="GM命令">
+            <Member type="string" name="strCmd" comment="命令"/>
+            <Member type="string" name="strName" comment="名称"/>
+            <Member type="string" name="strDesc" comment="描述"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="KeepAlive" ret= "true"comment="心跳">
+            <RetParam type="UINT32" name="dwServerTime" comment="服务器的当前时间(1970年1月1日0时开始的秒数)"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <!---
+    <Func name="InitStartNtf" comment="角色数据开始同步通知">
+      <Param type="UINT32" name="dwServerTime" comment="服务器的当前时间(1970年1月1日0时开始的秒数)"/>
+    </Func>
+    <Func name="InitFinishNtf" comment="角色数据客户端初始化完成通知">
+    </Func>
+      -->
+    <Func name="GMCommandAck" comment="GM指令结果返回">
+        <Param type="string" name="strResult" comment="指令结果"/>
+    </Func>
+    <Func name="OpenAllSystem" comment="打开所有功能">
+        <Param type="bool" name="bOpen" comment="是否打开"/>
+    </Func>
+    <Func name="ServerDisconnectNtf" comment="服务器断开连接通知">
+        <Param type="EBreakReason" name="eBreakReason" comment="断开连接原因"/>
+    </Func>
+</FuncS2C>
+</Protocol>

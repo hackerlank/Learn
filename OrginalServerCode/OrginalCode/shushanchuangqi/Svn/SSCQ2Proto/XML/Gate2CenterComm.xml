@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Gate2CenterComm" id="6" comment="GateServer到CenterServer的通信协议">
+  <Refer>
+    <Protocol name="ServerCommon"/>
+  </Refer>
+  <TypeDef>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="KeepAlive" comment="心跳">
+      <Param type="UINT32" name="dwUsrCnt" comment="玩家数量"/>
+    </Func>
+    <Func name="UserLoginNtf" comment="玩家上线通知">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="string" name="strIPAddr" comment="IP地址"/>
+    </Func>
+    <Func name="UserLogoutNtf" comment="玩家下线通知">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="ServerCommon::ELeaveType" name="eLeaveType" comment="下线类型"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+    <Func name="UserWantLoginNtf" comment="玩家登录通知">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="UINT32" name="dwCryptoCode" comment="登录验证码"/>
+    </Func>
+    <Func name="KickUserOffLine" comment="踢玩家下线">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="ServerCommon::ELeaveType" name="eLeaveType" comment="下线类型"/>
+    </Func>
+    <Func name="ReplaceUser" ret="true" comment="替换帐号">
+      <Param type="UINT64" name="qwUsrID" keep="true" comment="帐号ID"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

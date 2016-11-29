@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="ShushanBattleProt" id="66" proxy = "GameServer" comment="蜀山论剑相关协议">
+    <Refer>
+        <Protocol name="MapProt" />
+    </Refer>
+    <TypeDef>
+        <Enum name="ESSBattleStatus" comment="蜀山论剑参加状态" >
+            <Member name="eSSBattle_ENTER"    comment="已进入" />
+            <Member name="eSSBattle_QUIT"     comment="已退出" />
+            <Member name="eSSBattle_JOINBYE"  comment="轮空" />
+            <Member name="eSSBattle_FIGHTING" comment="正在战斗" />
+        </Enum>
+        <Enum name="ESSBattleResult" comment="蜀山论剑操作结果">
+            <Member name="eSSBattle_Suc" comment="成功"/>
+            <Member name="eSSBattle_NotRuning" comment="论剑活动未开始"/>
+            <Member name="eSSBattle_CDTime" comment="正在冷却"/>
+            <Member name="eSSBattle_LevelLimit" comment="等级小于30级"/>
+            <Member name="eSSBattle_LackMoney" comment="金钱不够"/>
+            <Member name="eSSBattle_NotEnter" comment="未参加"/>
+            <Member name="eSSBattle_Full" comment="霸气or怒气已满"/>
+            <Member name="eSSBattle_NotEnough" comment="霸气or怒气不足"/>
+            <Member name="eSSBattle_Used" comment="已使用"/>
+            <Member name="eSSBattle_OtherErr" comment="其他错误"/>
+        </Enum>
+
+        <Struct name="SBattleTaskData" vec="TVecTaskData" comment ="任务数据结构">
+            <Member type="UINT8" name="byTaskID" comment="任务ID"/>
+            <Member type="UINT8" name="byAward" comment="荣誉奖励值"/>
+            <Member type="UINT8" name="byComplete" comment="是否完成(0否,1是)"/>
+        </Struct>
+        <Struct name="SSSBattleReport" vec="TVecSSBattleReport" comment ="战斗战报数据结构">
+            <Member type="UINT8" name="byRound" comment="当前轮次"/>
+            <Member type="string" name="strNameA" comment="攻方玩家名字"/>
+            <Member type="UINT64" name="qwRoleA" comment="攻方玩家ID"/>
+            <Member type="string" name="strNameB" comment="守方玩家名字"/>
+            <Member type="UINT64" name="qwRoleB" comment="守方玩家ID"/>
+            <Member type="UINT8" name="byResult" comment="结果(0是攻方胜利,1是守方胜利,2是攻方逃跑,3守方逃跑,4攻方轮空)"/>
+            <Member type="UINT64" name="qwBattleID"  comment="战报ID"/>
+            <Member type="UINT8" name="byCurrKill" comment="当前连杀数(若个人战报即表明个人连杀数,若全部战报即表明攻方连杀数)"/>
+            <Member type="UINT16" name="wHonor" comment="当场获得荣誉值(若个人战报即表明个人获得荣誉值,若全部战报即表明攻方获得荣誉值)"/>
+        </Struct>
+        <Struct name="SOtherPlayer" vec="TVecOtherPlayer" comment ="对方玩家数据结构">
+            <Member type="UINT64" name="qwRoleIDOther" comment="对方玩家ID"/>
+            <Member type="UINT8" name="byCurrKillOther" comment="对方当前连杀数"/>
+            <Member type="UINT16" name="wHonorOther" comment="对方总荣誉值"/>
+            <Member type="UINT16" name="wSkillFlagsOther" comment="对方技能使用位域,对应位表示技能是否已使用(低8位)"/>
+            <Member type="UINT32" name="dwMaxHpOther" comment="对方总血量"/>
+            <Member type="UINT32" name="dwCurHpOther" comment="对方当前血量"/>
+            <Member type="UINT32" name="dwBattlePowerOther" comment="对方总战斗力"/>
+            <Member type="MapProt::SPlayerAppear" name="rPlayerAppear" comment="对方玩家的外观"/>
+        </Struct>
+        <Struct name="SSSBattlePairInfo" comment="论剑场玩家的配对信息，也是发给前端用的信息">   
+            <Member type="UINT8" name="byRound" comment="当前轮次"/>
+            <Member type="UINT16" name="wTimeLeft" comment="距离下一场【或者开始】时间(秒)"/>
+            <Member type="UINT8" name="byCurrKill" comment="当前连杀数"/>
+            <Member type="UINT8" name="byMaxKill" comment="最高连杀数"/>
+            <Member type="UINT8" name="byTotalWin" comment="胜利场数"/>
+            <Member type="UINT8" name="byTotalLose" comment="失败场数"/>
+            <Member type="UINT16" name="wHonor" comment="总荣誉值"/>
+            <Member type="UINT8" name="byDomineer" comment="霸气值"/>
+            <Member type="UINT8" name="byAnger" comment="怒气值"/>
+            <Member type="UINT16" name="wSkillFlags" comment="技能使用位域,对应位表示技能是否已使用(低8位)"/>
+            <Member type="TVecTaskData" name="vecTaskData" comment="任务数据vec"/>
+            <Member type="UINT32" name="dwMaxHp" comment="自己总血量"/>
+            <Member type="UINT32" name="dwCurHp" comment="自己当前血量"/>
+            <Member type="UINT32" name="dwBattlePower" comment="自己总战斗力"/>
+            <Member type="TVecOtherPlayer" name="vecOtherPlayer" comment="对方玩家数据"/>
+        </Struct>
+        <Struct name="SSSBattleUseSkill" comment="蜀山论剑场玩家使用技能返回的数据结构">   
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wHonor" comment="总荣誉值"/>
+            <Member type="UINT16" name="wSkillFlags" comment="技能使用位域,对应位表示技能是否已使用(低8位)"/>
+            <Member type="UINT32" name="dwCurHp" comment="当前血量"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+        <Func name="GetBattleStartInfo" comment="蜀山论剑准备/开始/结束信息">
+        </Func>
+        <Func name="GetPlayerPairInfo"  comment="请求蜀山论剑玩家的配对信息">
+        </Func>
+        <Func name="GetFirstPlayer"  comment="请求连杀王、荣誉王信息">
+        </Func>
+        <Func name="PlayerEnter" ret= "true" comment="参加蜀山论剑活动">
+            <RetParam type="ESSBattleResult" name="eResult" comment="请求参加蜀山论剑返回"/>
+        </Func>
+        <Func name="PlayerLeave" ret= "true" comment="退出蜀山论剑活动">
+            <RetParam type="ESSBattleResult" name="eResult" comment="请求退出蜀山论剑返回"/>
+        </Func>
+        <Func name="UseSkill" ret= "true" comment="使用蜀山论剑技能">
+            <Param type="UINT8" name="bySkillID" comment="技能ID"/>
+            <RetParam type="UINT8" name="bySkillID" comment="技能ID"/>
+            <RetParam type="ESSBattleResult" name="eResult" comment="请求使用蜀山论剑技能返回"/>
+        </Func>
+        <Func name="BuySkill" ret= "true" comment="购买蜀山论剑霸气or怒气">
+            <Param type="UINT8" name="byFlag" comment="购买类型:0霸气 1怒气"/>
+            <RetParam type="UINT8" name="byFlag" comment="购买类型:0霸气 1怒气"/>
+            <RetParam type="ESSBattleResult" name="eResult" comment="购买蜀山论剑霸气or怒气返回"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="BattleStartInfo" comment="蜀山论剑准备/开始/结束信息">
+            <Param type="UINT8" name="byStatus" comment="状态=>0:准备 1:开始 2:结束"/>
+            <Param type="UINT32" name="dwTimeLeft" comment="byStatus为0:距离开始的剩余时间;byStatus为1:距离结束的剩余时间;byStatus为2:距离下一次开始的剩余时间"/>
+        </Func>
+        <Func name="PlayerPairInfo" comment="蜀山论剑玩家的配对信息">
+            <Param type="SSSBattlePairInfo" name="stPairInfo" comment="玩家的配对信息"/>
+        </Func>
+        <Func name="TopKiller" comment="广播连杀王玩家信息">
+            <Param type="string" name="strName" comment="玩家名字"/>
+            <Param type="UINT8" name="byTopStreak" comment="最高连杀数"/>
+        </Func>
+        <Func name="HonorKinger" comment="广播荣誉王玩家信息">
+            <Param type="string" name="strName" comment="玩家名字"/>
+            <Param type="UINT16" name="wMaxHonor" comment="最高荣誉值"/>
+        </Func>
+        <Func name="BattleReportInfo" comment="蜀山论剑玩家的战报信息">
+            <Param type="UINT8" name="byType" comment="0表示个人战报 1表示全部"/>
+            <Param type="TVecSSBattleReport" name="vecReport" comment="玩家的战斗信息"/>
+        </Func>
+        <Func name="UseSkillInfo" comment="蜀山论剑玩家使用技能信息">
+            <Param type="SSSBattleUseSkill" name="stUseSkill" comment="使用技能信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

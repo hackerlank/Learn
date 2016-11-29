@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="NpcProt" id="14" proxy="GameServer" comment="NPC相关协议">
+    <Refer>  
+        <Protocol name="TaskProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ETalkResult" comment="NPC对话结果">
+            <Member name="eTalkSucceed" comment="打开对话成功"/>
+            <Member name="eTalkNotExist" comment="NPC不存在"/>
+            <Member name="eTalkTooFar" comment="玩家距离NPC太远"/>
+            <Member name="eTalkScriptFail" comment="NPC对话脚本执行失败"/>
+            <Member name="eTalkOther" comment="其它错误"/>
+        </Enum>
+        <Struct name="SNpcTaskState" vec="TVecNpcTask" comment="NPC的任务状态">
+            <Member type="UINT16" name="wNpcID" comment="NPC的ID"/>
+            <Member type="TaskProt::ENpcTaskState" name="eNpcTaskState" comment="任务状态"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="NpcTalkReq" comment="打开NPC对话界面请求">
+            <Param type="UINT64" name="qwCreatureID" comment="当前NPC的生物ID"/>
+        </Func>
+        <Func name="ExecScriptFunc" comment="执行NPC对话脚本函数">
+            <Param type="UINT64" name="qwCreatureID" comment="当前NPC的生物ID"/>
+            <Param type="string" name="strFuncName" comment="脚本函数名称"/>
+        </Func>
+        <Func name="NpcTaskStateReq" comment="地图的NPC任务状态请求">
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+        </Func>
+        <Func name="FinishTaskTalk" ret = "true" comment="完成一任务对话">
+            <Param type="UINT64" name="qwCreatureID" comment="当前NPC的生物ID"/>
+            <Param type="UINT16" name="wTaskID" comment="对话的任务"/>
+            <RetParam  type="string" name="strContent" comment="对话内容"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="NpcTalkNtf" comment="NPC对话通知">
+            <Param type="UINT64" name="qwCreatureID" comment="NPC的生物ID"/>
+            <Param type="ETalkResult" name="eResult" comment="对话结果"/>
+            <Param type="string" name="strContent" comment="对话内容"/>
+        </Func>
+        <Func name="NpcTaskStateNtf" comment="NPC任务状态通知">
+            <Param type="TVecNpcTask" name="rVecNpcTask" comment="NPC任务状态列表"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

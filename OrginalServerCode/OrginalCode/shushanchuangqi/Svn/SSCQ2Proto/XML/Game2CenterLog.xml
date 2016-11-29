@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterLog" id="61" comment="GameServer到CenterServer的数据中心log协议">
+  <Refer>
+    <Protocol name="ProtoCommon"/>
+  </Refer>
+  <TypeDef>
+    <Struct name="SUserMoneyChange" vec="TVecUserMoneyChange" comment="帐号金钱变化信息">
+      <Member type="ProtoCommon::EMoneyType" name="eMoneyType" comment="货币类型"/>
+      <Member type="INT32" name="dwValue" comment="值"/>
+      <Member type="UINT16" name="wFromTo" comment="货币来源or消耗类型(dwValue>0来源 dwValue<0消耗)"/>
+    </Struct>
+    <Struct name="SUserItemChange" vec="TVecUserItemChange" comment="帐号道具变化信息">
+      <Member type="UINT16" name="wItemID" comment="道具ID"/>
+      <Member type="INT32" name="dwCount" comment="数量"/>
+      <Member type="float" name="dwPrice" comment="价格"/>
+      <Member type="UINT16" name="wFromTo" comment="道具来源or消耗类型(dwCount>0来源 dwCount<0消耗)"/>
+    </Struct>
+    <Enum name="EOpType" comment="操作类型">
+      <Member name="eOpTypeGM" comment="GM操作"/>
+      <!--Member name="eOpTypeMail" comment="邮件"/>
+      <Member name="eOpTypeShop" comment="商城"/>
+      <Member name="eOpTypeBuyVIP" comment="购买VIP"/>
+      <Member name="eOpTypeBuyAction" comment="购买行动力"/>
+      <Member name="eOpTypeClearCD" comment="清除冷却时间"/>
+      <Member name="eOpTypeMine" comment="购买挖矿次数"/>
+      <Member name="eOpTypeEquipRanLock" comment="洗练装备锁定属性"/>
+      <Member name="eOpTypeFreshChurch" comment="刷新领主任务"/>
+      <Member name="eOpTypeTemple" comment="刷新神殿"/>
+      <Member name="eOpTypeTempleBuy" comment="神殿购买"/>
+      <Member name="eOpTypeValhalla" comment="刷新英灵殿"/>
+      <Member name="eOpTypeFreshCortege" comment="刷新扈从"/>
+      <Member name="eOpTypeRanCortege" comment="扈从洗练"/>
+      <Member name="eOpTypeDonateFamily" comment="家族捐献"/>
+      <Member name="eOpTypeRanEquip" comment="装备洗练"/>
+      <Member name="eOpTypeGiftBox" comment="礼包赠送"/>
+      <Member name="eOpTypeAuctionBidFor" comment="拍卖行竞拍"/>
+      <Member name="eOpTypeExpandStore" comment="扩充包裹"/>
+      <Member name="eOpTypeTask" comment="任务奖励"/>
+      <Member name="eOpTypeSweepCurse" comment="诅咒之塔扫荡加速"/>
+      <Member name="eOpTypeSweepTraining" comment="试炼之塔加速"/>
+      <Member name="eOpTypeChangeGuildName" comment="公会改名"/>
+	  <Member name="eOpTypeFamilyFightInspire" comment="家族激励"/-->
+      <Member name="eOpTypeItemChange" comment="道具获得与使用操作"/>
+      <Member name="eOpTypeMoneyChange" comment="货币获得与使用操作"/>
+      <Member name="eOpTypeEnd" comment="结束"/>
+    </Enum>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="LogRegister" comment="log注册记录">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="TVecString" name="vecStrInfo" comment="用户登陆平台信息"/>
+    </Func>
+    <Func name="LogUserLogin" comment="log登陆">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="TVecString" name="vecStrInfo" comment="用户登陆平台信息"/>
+    </Func>
+    <Func name="LogPlayerLogout" comment="log登出">
+      <Param type="UINT32" name="dwTime" comment="时间"/>
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+    </Func>
+    <Func name="LogRecharge" comment="log玩家充值">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="string" name="strUdp1" comment="udpLog参数1(平台传来的)"/>
+      <Param type="string" name="strUdp2" comment="udpLog参数2(平台传来的)"/>
+      <Param type="UINT32" name="dwGold" comment="仙石数量"/>
+    </Func>
+    <Func name="LogMoneyChange" comment="log金钱变化">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="EOpType" name="eType" comment="类型"/>
+      <Param type="TVecUserMoneyChange" name="vecMoney" comment="货币"/>
+    </Func>
+    <Func name="LogItemChange" comment="log道具变化">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="EOpType" name="eType" comment="类型"/>
+      <Param type="TVecUserItemChange" name="vecItem" comment="道具"/>
+    </Func>
+    <Func name="LogGuideChange" comment="log新手引导变化">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="string" name="strCategory" comment="引导类 load或guide"/>
+      <Param type="string" name="strStep" comment="引导ID"/>
+    </Func>
+    <Func name="LogActiveChange" comment="log自定义行为变化">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="string" name="strCategory" comment="行为分类"/>
+      <Param type="string" name="strAction" comment="用户行为"/>
+      <Param type="UINT32" name="dwCount" comment=""/>
+    </Func>
+    <Func name="LogAct" comment="log自定义行为变化">
+      <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      <Param type="string" name="strCategory" comment="行为分类"/>
+      <Param type="string" name="strAction" comment="用户行为"/>
+      <Param type="string" name="strParam3" comment="用户行为"/>
+      <Param type="string" name="strParam4" comment="用户行为"/>
+      <Param type="string" name="strParam5" comment="用户行为"/>
+      <Param type="string" name="strParam6" comment="用户行为"/>
+      <Param type="UINT32" name="dwCount" comment=""/>
+    </Func>
+    <Func name="LogServerInfo" comment="log服务器变化">
+      <Param type="UINT32" name="dwTime" comment="时间"/>
+      <Param type="string" name="strType" comment="记录类型"/>
+      <Param type="string" name="strSubType" comment="记录分类型"/>
+      <Param type="UINT32" name="dwNum" comment="记录数据"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+  </FuncS2C>
+</Protocol>

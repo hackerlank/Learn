@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="NewGuildBattleProt" id="68" proxy="GameServer" comment="新帮派战相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ENGBState" comment="帮派战当前状态" >
+            <Member name="eNGBSNone"      comment="没有开启帮派战" />
+            <Member name="eNGBSReady"     comment="帮派战即将开启，倒计时通知阶段" />
+            <Member name="eNGBSBattle"    comment="帮派战进行中" />
+            <Member name="eNGBSBattleEnd" comment="帮派战战役结束" />
+        </Enum>
+        <Enum name="ENGBPlayerState" comment="帮派战玩家状态" >
+            <Member name="eNGBPSNone" value="0"   comment="无效状态" />
+            <Member name="eNGBPSWait"             comment="待战状态" />
+            <Member name="eNGBPSDead"             comment="死亡状态" />
+            <Member name="eNGBPSRunAway"          comment="逃跑状态" />
+            <Member name="eNGBPSMax"              comment="最大状态" />
+        </Enum>
+        <Enum name="ENGBMountain" comment="帮派战灵山" >
+            <Member name="eNGBMNone"         value="0" comment="无效灵山" />
+            <Member name="eNGBMEMei"                   comment="峨眉" />
+            <Member name="eNGBMKunLun"                 comment="昆仑" />
+            <Member name="eNGBMHuangShan"              comment="黄山" />
+            <Member name="eNGBMMax"                    comment="最大灵山数" />
+        </Enum>
+        <Enum name="ENGBCaveCore" comment="帮派战洞府战阵眼类型" >
+            <Member name="eNGBCCNone"         value="0" comment="无效阵眼" />
+            <Member name="eNGBCCDragon"                 comment="青龙" />
+            <Member name="eNGBCCTiger"                  comment="白虎" />
+            <Member name="eNGBCCPhenix"                 comment="朱雀" />
+            <Member name="eNGBCCTurtle"                 comment="玄武" />
+            <Member name="eNGBCCMax"                    comment="最大阵眼" />
+        </Enum>
+        <Enum name="ENGBMountainState" comment="帮派灵山状态" >
+            <Member name="eNGBMSNone"             value="0" comment="无效状态" />
+            <Member name="eNGBMSGate"                       comment="城门战" />
+            <Member name="eNGBMSCave"                       comment="洞府战" />
+            <Member name="eNGBMSEnd"                        comment="战斗结束" />
+            <Member name="eNGBMSMax"                        comment="最大状态" />
+        </Enum>
+        <Enum name="ENGBSide" comment="帮派战战斗方向">
+            <Member name="eNGBSideAttacker"         value="0"   comment="进攻方" />
+            <Member name="eNGBSideDefencer"         value="1"   comment="防守方" />
+            <Member name="eNGBSideInvalid"                      comment="无效方" />
+        </Enum>
+        <Enum name="ENGBResult" comment="帮派战返回结果">
+            <Member name="eNGBRSuccess" value="0"   comment="成功" />
+            <Member name="eNGBRFailed"              comment="失败" />
+            <Member name="eNGBRWrongTime"           comment="时间段错误" />
+            <Member name="eNGBRNotInBattle"         comment="不在帮派战中" />
+            <Member name="eNGBRNoGuild"             comment="不存在帮派" />
+            <Member name="eNGBRInvalidMountain"     comment="错误的灵山" />
+            <Member name="eNGBRNoAuthority"         comment="权限不足" />
+        </Enum>
+        <Enum name="ENGBEnterResult" comment="帮派战进入结果">
+            <Member name="eNGBERSuccess" value="0"   comment="进入成功" />
+            <Member name="eNGBERFailed"              comment="进入失败" />
+            <Member name="eNGBERNotInGuild"          comment="进入时不存在帮派" />
+            <Member name="eNGBERRepeat"              comment="进入重复" />
+            <Member name="eNGBERWrongTime"           comment="不在进入时段" />
+            <Member name="eNGBERGuildLevel"          comment="帮派等级过低" />
+            <Member name="eNGBEREscape"              comment="刚刚从战斗中逃离" />
+            <Member name="eNGBERGuildWrong"          comment="您的帮派未入围洞府战" />
+        </Enum>
+        <Enum name="ENGBGateAttackResult"  comment="帮派战城门战攻击返回结果" >
+            <Member name="eNGBGARSuccess" value="0"     comment="攻击成功" />
+            <Member name="eNGBGARFailed"                comment="攻击失败" />
+            <Member name="eNGBGARTargetIsDead"          comment="目标已经死亡" />
+            <Member name="eNGBGARSelfIsDead"            comment="还在死亡冷却中" />
+            <Member name="eNGBGARWrongTime"             comment="不在正确的时间段内" />
+            <Member name="eNGBGARDefencer"              comment="防守方不能攻击城门" />
+            <Member name="eNGBGARDefencerAlive"         comment="存在防守方成员" />
+        </Enum>
+        <Enum name="ENGBBuyPuppetResult"  comment="帮派战购买傀儡返回结果" >
+            <Member name="eNGBBPRSuccess" value="0"     comment="购买成功" />
+            <Member name="eNGBBPRFailed"                comment="购买失败" />
+            <Member name="eNGBBPRLackOfMoney"           comment="货币不足" />
+            <Member name="eNGBBPRCountLimit"            comment="已经到达上限" />
+            <Member name="eNGBBPRWrongTime"             comment="不在正确的时间段内" />
+            <Member name="eNGBBPRDefencer"              comment="防守方不能购买傀儡" />
+        </Enum>
+        <Enum name="ENGBClearDeadCDResult"  comment="帮派战买活返回结果" >
+            <Member name="eNGBCDCDRSuccess" value="0"     comment="买活成功" />
+            <Member name="eNGBCDCDRFailed"                comment="买活失败" />
+            <Member name="eNGBCDCDRIsAlive"               comment="已经复活" />
+            <Member name="eNGBCDCDRWrongTime"             comment="不在正确的时间段内" />
+        </Enum>
+        <Enum name="ENGBCaveAttackResult"  comment="帮派战洞府战战斗返回结果" >
+            <Member name="eNGBCARSuccess" value="0"     comment="战斗成功" />
+            <Member name="eNGBCARFailed"                comment="战斗失败" />
+            <Member name="eNGBCARBeCaptured"            comment="已被他人占领" />
+            <Member name="eNGBCARCountLimit"            comment="已经到达上限" />
+            <Member name="eNGBCARWrongTime"             comment="不在正确的时间段内" />
+            <Member name="eNGBCARTargetDead"            comment="目标已经死亡" />
+            <Member name="eNGBCARNotInCore"             comment="不在阵眼上" />
+            <Member name="eNGBCARInCore"                comment="在阵眼上无法攻击" />
+            <Member name="eNGBCARSelfIsDead"            comment="还在死亡冷却中" />
+            <Member name="eNGBCARSelfSide"              comment="不能攻击自己人" />
+        </Enum>
+        <Enum name="ENGBQuitResult" comment="帮派战退出结果"> 
+            <Member name="eNGBQuitSuccess" value="0"   comment="退出成功" />
+            <Member name="eNGBQuitFailed"              comment="退出失败" />
+        </Enum>
+        <Enum name="ENGBBattleResult" comment="帮派战战斗相关结果">
+            <Member name="eNGBBattleSuccess" value="0"   comment="战斗成功" />
+            <Member name="eNGBBattleFailed"              comment="战斗失败" />
+        </Enum>
+        <Struct name="SPuppetInfo"  vec="TVecPuppetInfo"    comment="傀儡信息">
+            <Member type="UINT8"    name="byIndex"          comment="所属站位(0,1,2; 0为系统战争傀儡)" />
+            <Member type="UINT64"   name="qwOwnerID"        comment="拥有者ID" />
+            <Member type="UINT32"   name="dwNextAttackTime" comment="下一次攻击时间" />
+        </Struct>
+        <Struct name="SPlayerInfo" comment="玩家信息"> 
+            <Member type="UINT64"                   name="qwRoleID"         comment="玩家ID" />
+            <Member type="string"                   name="strName"          comment="玩家姓名" />
+            <Member type="ProtoCommon::ECareerType" name="eJob"             comment="职业"/>
+            <Member type="ProtoCommon::ESexType"    name="eSex"             comment="性别"/>
+            <!-- Member type="TVecTitleAppear"          name="vecTitle"         comment="头衔"/-->
+            <!-- Member type="string"                   name="strGuildName"     comment="帮派名称" /-->
+            <Member type="UINT8"                    name="byQuality"        comment="品质" />
+            <!-- Member type="UINT8"                    name="byVIPLevel"       comment="VIP等级" /-->
+            <Member type="UINT64"                   name="qwGuildID"        comment="帮派ID" />
+            <Member type="ENGBSide"                 name="eSide"            comment="自己所在方向" />
+            <Member type="UINT32"                   name="dwMaxHP"          comment="最大血量" />
+            <Member type="UINT32"                   name="dwHP"             comment="当前血量" />
+            <Member type="UINT32"                   name="dwDeadTime"       comment="死亡时间（复活所需时间）" />
+        </Struct>
+        <Struct name="SMountainPanelInfo" vec="TVecMountainPanelInfo" comment="灵山面板信息" >
+            <Member type="ENGBMountain"         name="eMountainType"     comment="灵山类型" />
+            <Member type="ENGBMountainState"    name="eState"            comment="灵山状态" />
+            <Member type="UINT64"               name="qwGuildID"         comment="当前占领帮派ID" />
+            <Member type="string"               name="strGuildName"      comment="当前占领帮派名称" />
+            <Member type="UINT16"               name="wGuildLevel"       comment="当前占领帮派等级" />
+            <Member type="string"               name="strGuildOwnerName" comment="当前占领帮派帮主名称" />
+            <Member type="UINT32"               name="dwGuildOwnCount"   comment="当前占领帮派占领次数" />
+            <Member type="TVecUINT64"           name="vecAttackGuildID"   comment="（洞府战）攻击帮派ID" />
+        </Struct>
+        <Struct name="SPlayerPanelInfo" vec="TVecPlayerPanelInfo"   comment="面板玩家信息" >
+            <Member type="UINT64"                   name="qwRoleID"         comment="玩家ID" />
+            <Member type="string"                   name="strName"          comment="玩家姓名" />
+            <Member type="UINT8"                    name="byLevel"          comment="玩家等级" />
+            <!-- Member type="ProtoCommon::ECareerType" name="eJob"             comment="职业"/-->
+            <!-- Member type="ProtoCommon::ESexType"    name="eSex"             comment="性别"/-->
+            <Member type="UINT8"                    name="byQuality"        comment="品质" />
+            <Member type="UINT64"                   name="qwGuildID"        comment="帮派ID" />
+            <Member type="ENGBSide"                 name="eSide"            comment="自己所在方向" />
+            <Member type="string"                   name="strGuildName"     comment="帮派名称" />
+            <Member type="UINT8"                    name="byHPP"            comment="剩余生命值百分比" />
+            <Member type="UINT32"                   name="dwMaxHP"          comment="最大血量" />
+            <Member type="UINT32"                   name="dwHP"             comment="当前血量" />
+        </Struct>
+        <Struct name="SOwnerHistoryInfo" vec="TVecOwnerHistoryInfo" comment="占领历史信息" >
+            <Member type="ENGBMountain"         name="eMountainType"     comment="灵山类型" />
+            <Member type="UINT64"               name="qwGuildID"         comment="当前占领帮派ID" />
+            <Member type="string"               name="strGuildName"      comment="当前占领帮派名称" />
+            <Member type="string"               name="strGuildOwnerName" comment="当前占领帮派帮主名称" />
+            <Member type="UINT32"               name="dwTime"            comment="占领时间" />
+        </Struct>
+        <Struct name="SMountainGateInfo"    comment="灵山城门信息">
+            <Member type="UINT32"               name="dwRemainTime"     comment="开始倒计时" />
+            <Member type="UINT32"               name="dwGateMaxHP"      comment="城门总血量" />
+            <Member type="UINT32"               name="dwGateHP"         comment="城门剩余血量" />
+            <Member type="TVecPuppetInfo"       name="vecPuppetInfo"    comment="傀儡信息" />
+            <Member type="ENGBSide"             name="eSelfSide"        comment="自己所在方向" />
+            <Member type="SPlayerInfo"          name="sSelfInfo"        comment="自己的信息" />
+            <Member type="TVecPlayerPanelInfo"  name="vecPlayerInfo"    comment="对面玩家信息" />
+        </Struct>
+        <Struct name="SCaveCoreInfo" vec="TVecCaveCoreInfo"   comment="洞府阵眼信息">
+            <Member type="ENGBCaveCore"         name="eType"            comment="阵眼类型" />
+            <Member type="TVecPlayerPanelInfo"  name="vecPlayerInfo"    comment="占领者信息（数量只能为0/1）" />
+        </Struct>
+        <Struct name="SCaveAttackGuildInfo" vec="TVecCaveAttackGuildInfo" comment="洞府战攻击帮派信息" >
+            <Member type="UINT64"               name="qwGuildID"        comment="帮派ID" />
+            <Member type="string"               name="strName"          comment="帮派姓名" />
+            <Member type="UINT32"               name="dwMaxEnergy"      comment="能量上限" />
+            <Member type="UINT32"               name="dwEnergy"         comment="当前能量" />
+        </Struct>
+        <Struct name="SCaveInfo"        comment="洞府战具体信息" >
+            <Member type="UINT32"                   name="dwRemainTime"             comment="开始倒计时" />
+            <Member type="ENGBSide"                 name="eSelfSide"                comment="自己所在方向" />
+            <Member type="TVecCaveCoreInfo"         name="vecCaveCoreInfo"          comment="阵眼信息" />
+            <Member type="TVecCaveAttackGuildInfo"  name="vecCaveAttackGuildInfo"   comment="洞府攻击帮派信息" />
+            <Member type="SPlayerInfo"              name="sSelfInfo"                comment="自己的信息" />
+            <Member type="TVecPlayerPanelInfo"      name="vecPlayerInfo"            comment="对面玩家信息" />
+        </Struct>
+        <Struct name="SGuildRankInfo" vec="TVecGuildRankInfo" comment="排行榜帮派信息" > 
+            <Member type="UINT16"               name="wRank"            comment="排名" />
+            <Member type="UINT64"               name="qwGuildID"        comment="帮派ID" />
+            <Member type="string"               name="strName"          comment="帮派姓名" />
+            <Member type="UINT32"               name="dwScore"          comment="战功" />
+        </Struct>
+        <Struct name="SGuildMemberRankInfo" vec="TVecGuildMemberRankInfo" comment="排行榜帮派信息" > 
+            <Member type="UINT16"               name="wRank"            comment="排名" />
+            <Member type="UINT64"               name="qwGuildID"        comment="帮派ID" />
+            <Member type="UINT64"               name="qwRoleID"         comment="玩家ID" />
+            <Member type="string"               name="strName"          comment="玩家姓名" />
+            <Member type="UINT32"               name="dwScore"          comment="战功" />
+        </Struct>
+        <Struct name="SPlayerRankInfo" vec="TVecPlayerRankInfo" comment="排行榜个人信息" >
+            <Member type="UINT16"               name="wRank"            comment="排名" />
+            <Member type="UINT64"               name="qwRoleID"         comment="玩家ID" />
+            <Member type="string"               name="strName"          comment="玩家姓名" />
+            <Member type="UINT32"               name="dwScore"          comment="战功" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetState"  ret="true" comment="获取帮派战状态" >
+            <RetParam  type="ENGBState"             name="eState"           comment="当前帮派战状态" />
+            <RetParam  type="UINT32"                name="dwRemainTime"     comment="新帮派战剩余时间" />
+            <RetParam  type="TVecMountainPanelInfo" name="vecInfo"          comment="各个灵山信息" />
+            <RetParam  type="ENGBMountain"          name="eMountainType"    comment="自己所在战斗信息" />
+        </Func>
+        <Func name="GetOwnerHistory" ret="true" comment="获取历届占领帮会" >
+            <Param      type="ENGBMountain"         name="eMountainType"    comment="灵山类型" />
+            <RetParam   type="TVecOwnerHistoryInfo" name="vecInfo"          comment="理解帮派信息" />
+        </Func>
+        <Func name="Enter" ret="true" comment="进入帮派战(进入准备场地)" >
+            <Param      type="ENGBMountain"         name="eMountainType"    comment="灵山类型" />
+            <RetParam   type="ENGBEnterResult"      name="eResult"          comment="进入结果" />
+            <RetParam   type="ENGBMountainState"    name="eState"           comment="灵山状态" />
+        </Func>
+        <Func name="GateAttackPlayer" ret="true" comment="城门战攻击玩家/城门" >
+            <Param      type="UINT64"                   name="qwTargetRoleID"   comment="目标唯一ID(0为城墙)" />
+            <RetParam   type="ENGBGateAttackResult"     name="eResult"          comment="攻击返回结果" />
+        </Func>
+        <Func name="BuyPuppet" ret="true" comment="购买傀儡" >
+            <RetParam type="ENGBBuyPuppetResult"    name="eResult"      comment="购买结果" />
+        </Func>
+        <Func name="GetGateInfo" ret="true" comment="获取城门战信息">
+            <RetParam type="ENGBResult"         name="eResult"  comment="返回结果" />
+            <RetParam type="SMountainGateInfo"  name="sInfo"    comment="城门信息" />
+        </Func>
+        <Func name="CaveCapture" ret="true" comment="洞府战占领阵眼">
+            <Param      type="ENGBCaveCore"         name="eCaveType"    comment="阵眼类型" />
+            <RetParam   type="ENGBCaveAttackResult" name="eResult"      comment="返回结果" />
+        </Func>
+        <Func name="CaveAttack" ret="true" comment="洞府战攻击他人">
+            <Param      type="UINT64"               name="qwTargetRoleID"   comment="目标唯一ID" />
+            <RetParam   type="ENGBCaveAttackResult" name="eResult"          comment="返回结果" />
+        </Func>
+        <Func name="CaveRest" ret="true" comment="洞府战从阵眼下阵">
+            <RetParam   type="ENGBCaveAttackResult" name="eResult"          comment="返回结果" />
+        </Func>
+        <Func name="GetCaveInfo" ret="true" comment="获取洞府战信息">
+            <RetParam type="ENGBResult"         name="eResult"  comment="返回结果" />
+            <RetParam type="SCaveInfo"          name="sInfo"    comment="洞府信息" />
+        </Func>
+        <Func name="ClearDeadCD"    ret="true" comment="立即买活" >
+            <RetParam type="ENGBClearDeadCDResult"  name="eResult" comment="返回类型" />
+        </Func>
+        <Func name="Quit" ret="true" comment="帮派战退出" >
+            <RetParam    type="ENGBQuitResult"  name="eResult"  comment="退出返回结果" />
+        </Func>
+        <Func name="GetGuildRankInfo" ret="true" comment="获取战功榜帮派排名信息" >
+            <Param    type="UINT32"       name="dwIndex"            comment="排名索引" />
+            <Param    type="UINT32"       name="dwCount"            comment="排名个数" />
+            <RetParam type="ENGBResult"   name="eResult"            comment="返回结果" />
+            <RetParam type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <RetParam type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <RetParam type="TVecGuildRankInfo"  name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="GetGuildMemberRankInfo" ret="true" comment="获取战功榜帮派成员排名信息" >
+            <Param    type="UINT32"       name="dwIndex"            comment="排名索引" />
+            <Param    type="UINT32"       name="dwCount"            comment="排名个数" />
+            <RetParam type="ENGBResult"   name="eResult"            comment="返回结果" />
+            <RetParam type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <RetParam type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <RetParam type="TVecGuildMemberRankInfo"  name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="GetPlayerRankInfo" ret="true" comment="获取战功榜个人排名信息" >
+            <Param    type="UINT32"       name="dwIndex"            comment="排名索引" />
+            <Param    type="UINT32"       name="dwCount"            comment="排名个数" />
+            <RetParam type="ENGBResult"   name="eResult"            comment="返回结果" />
+            <RetParam type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <RetParam type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <RetParam type="TVecPlayerRankInfo" name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="CallMember" ret="true" comment="召集帮众广播">
+            <RetParam   type="ENGBResult"   name="eResult"  comment="召集结果" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="StateNotify" comment="状态变更广播" >
+            <Param  type="ENGBState"                name="eState"           comment="当前帮派战状态" />
+            <Param  type="UINT32"                   name="dwRemainTime"     comment="新帮派战剩余时间" />
+            <Param  type="TVecMountainPanelInfo"    name="vecInfo"          comment="各个灵山信息" />
+            <!-- Param  type="ENGBMountain"             name="eMountainType"    comment="自己所在战斗信息" /-->
+        </Func>
+        <Func name="GateInfoNotify" comment="城门战广播" >
+            <Param type="SMountainGateInfo"  name="sInfo"    comment="城门信息" />
+        </Func>
+        <Func name="GateListNotify" comment="城门战列表通知" >
+            <Param type="TVecPlayerPanelInfo"  name="vecInfo"    comment="城门玩家列表信息通知" />
+        </Func>
+        <Func name="GateBrokenNotify"   comment="城门被攻破广播" >
+            <Param type="ENGBMountain"         name="eMountainType"     comment="灵山类型" />
+            <Param type="TVecUINT64"           name="vecAttackGuildID"   comment="（洞府战）攻击帮派ID" />
+        </Func>
+        <Func name="CaveInfoNotify" comment="洞府战广播" >
+            <Param type="SCaveInfo"     name="sInfo"    comment="洞府具体信息" />
+        </Func>
+        <Func name="CaveListNotify" comment="洞府战列表通知" >
+            <Param type="TVecPlayerPanelInfo"  name="vecInfo"    comment="洞府玩家列表信息通知" />
+        </Func>
+        <Func name="CaveCoreNotify" comment="洞府战阵眼信息通知" >
+            <Param type="TVecCaveCoreInfo"         name="vecCaveCoreInfo"  comment="阵眼信息" />
+        </Func>
+        <Func name="CaveCapture" comment="洞府战被占领通知" >
+            <Param type="ENGBMountain"         name="eMountainType"     comment="灵山类型" />
+            <Param type="string"               name="strGuildName"      comment="当前占领帮派名称" />
+        </Func>
+        <Func name="BattleLogNotify" comment="战斗日志通知" >
+            <Param type="UINT16"      name="wMsgID"   comment="消息ID"/>
+            <Param type="TVecString"  name="vecStr"   comment="聊天信息参数"/>
+        </Func>
+        <Func name="PuppetAttackNotify" comment="战斗日志通知" >
+            <Param type="UINT8"    name="byIndex"          comment="所属站位(0,1,2; 0为系统战争傀儡)" />
+        </Func>
+        <Func name="GuildRankInfoNotify" comment="战功榜帮派排名信息广播" >
+            <Param type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <Param type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <Param type="TVecGuildRankInfo"  name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="GuildMemberRankInfoNotify" comment="战功榜帮派成员排名信息广播" >
+            <Param type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <Param type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <Param type="TVecGuildMemberRankInfo"  name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="PlayerRankInfoNotify" comment="战功榜个人排名信息广播" >
+            <Param type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <Param type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <Param type="TVecPlayerRankInfo" name="vecInfo" comment="排名信息" />
+        </Func>
+        <Func name="CallMemberNotify" comment="召集帮众广播">
+            <Param type="UINT8"                    name="byQuality"        comment="品质" />
+            <Param type="string"                   name="strName"    comment="名字"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

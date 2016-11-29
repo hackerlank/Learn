@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="ShipProt" id="84" proxy = "CenterServer" comment="元江金船协议">
+    <Refer> 
+        <Protocol name="ProtoCommon" />
+        <Protocol name="BattleGS" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EShipBattleSource" comment="战斗原因" >
+            <Member name="EBS_OPENSHIP"              comment="开船" />
+            <Member name="EBS_ROBWITHOWER"              comment="打劫与船主战斗" />
+            <Member name="EBS_ROBWITHDEFENSE"            comment="打劫与护卫战斗" />
+            <Member name="EBS_GRABBYOWER"            comment="返抢与船主战斗"/>
+            <Member name="EBS_GRABBYDEFENSE"            comment="返抢与护卫战斗"/>
+            <Member name="EBS_CLOSESHIP"            comment="结束航运"/>
+        </Enum>
+
+        <Enum name="EShipResult" desc = "true" comment="金船操作结果">
+            <Member name="EShip_Suc" comment="成功"/>
+            <Member name="EShip_NoShip" comment="船不存在"/>
+
+            <Member name="EShip_NoFlushShip" comment="你没有刷船"/>
+            <Member name="EShip_NoFlushShip2" comment="邀请你的人没有刷船"/> 
+            <Member name="EShip_DeFenseIsAgree" comment="已经有人同意帮你护送"/>
+            <Member name="EShip_DeFenseIsAgree2" comment="已经有人同意帮船主护送"/>
+            <Member name="EShip_DriveHasShip" comment="你的船已开"/>
+            <Member name="EShip_DriveHasShip2" comment="邀请你的人的船已开"/>
+            <Member name="EShip_InviteDeFenseOffLine" comment="你邀请的人不在线"/>
+            <Member name="EShip_InviteDeFenseOffLine2" comment="船主不在线"/>
+            <Member name="EShip_DeFenseAgreeOther" comment="你邀请的人答应护送其他船"/>
+            <Member name="EShip_DeFenseAgreeOther2" comment="你已答应护送其他船"/>
+            <Member name="EShip_DeFenseOtherShip" comment="你邀请的人在护送其他船"/>
+            <Member name="EShip_DeFenseOtherShip2" comment="你在护送其他船"/>
+            <Member name="EShip_OtherDeFenseTimesOut" comment="你邀请的人护送次数用完"/>
+            <Member name="EShip_OtherDeFenseTimesOut2" comment="你的护送次数用完"/>
+            <Member name="EShip_DeFenseDisAgree" comment="邀请的人不同意帮你护送"/>
+            <Member name="EShip_DeFenseDisAgree2" comment="邀请的人不同意帮你护送"/>
+            <Member name="EShip_DeFenseErrFriend" comment="他不是你的护卫"/>
+            <Member name="EShip_BuyOpenGoldLimit" comment="购买运船仙石不足"/>
+            <Member name="EShip_BuyRobGoldLimit" comment="购买抢劫仙石不足"/>
+            <Member name="EShip_RelushGoldLimit" comment="购买刷新次数仙石不足"/>
+            <Member name="EShip_RelushShipUpLimit" comment="刷新次数用完"/>
+            <Member name="EShip_DriveOverLimit" comment="今日开船到达上限"/>
+            <Member name="EShip_DriveGoldLimit" comment="开船金币不足"/>
+            <Member name="EShip_ROBOverLimit" comment="今日抢劫次数到达上限"/>
+            <Member name="EShip_ROBOverShip" comment="这条船被抢劫次数到达上限"/>
+            <Member name="EShip_ROBDone" comment="这条船你已经打劫"/>
+            <Member name="EShip_ROBSelf" comment="这条船被你护卫或者是你的，不可抢劫"/>
+            <Member name="EShip_GRABErrOwer" comment="这条船不是你的或者你不是护卫，不可返抢"/>
+            <Member name="EShip_GRABErr" comment="返抢对手错误"/>
+            <Member name="EShip_BattleCool" comment="战斗冷却"/>
+            <Member name="EShip_FinishOneKeyNoGold" comment="一键完成运船金币不足"/>
+            <Member name="EShip_GetShipOneKeyNoGold" comment="一键召唤Vip金币不足"/>
+            <Member name="EShip_GetShipOneKeyNoVip" comment="一键召唤Vip等级不足"/>
+            <Member name="EShip_OtherErr" comment="其他错误"/>
+        </Enum>
+        <Struct name="PlayerShip" vec="TVecPlayerShip" comment ="金船信息">
+            <Member type="UINT64" name="qwInsID" comment="金船唯一ID" />
+            <Member type="UINT64" name="qwOwer" comment="金船拥有者" />
+            <Member type="UINT32" name="dwOwerPoint" comment="金船拥有者战斗力" />
+            <Member type="UINT8" name="byOwerLevel" comment="拥有者等级" />
+            <Member type="UINT8" name="byOwerColor" comment="拥有者颜色" />
+            <Member type="UINT8" name="byChannel" comment="航道" />
+            <Member type="UINT16" name = "wShipId" comment="金船模板"/>
+            <Member type="UINT64" name = "qwDefense" comment="护送者ID"/>
+            <Member type="UINT32" name="dwDefensePoint" comment="护送者战斗力" />
+            <Member type="UINT8" name="byDefenseLevel" comment="护送者等级" />
+            <Member type="UINT8" name="byDefenseColor" comment="护送者颜色" />
+            <Member type="UINT64" name = "qwRoBId1" comment="打劫者1"/>
+            <Member type="UINT8" name="byRoB1Color" comment="打劫者1颜色" />
+            <Member type="UINT32" name="dwRoB1Point" comment="打劫者1战斗力" />
+            <Member type="UINT8" name="byRoB1Level" comment="打劫者1等级" />
+            <Member type="UINT64" name = "qwRoBId2" comment="打劫者2"/>
+            <Member type="UINT8" name = "byRoB2Color" comment="打劫者2颜色"/>
+            <Member type="UINT32" name="dwRoB2Point" comment="打劫者2战斗力" />
+            <Member type="UINT8" name="byRoB2Level" comment="打劫者2等级" />
+            <Member type="UINT64" name = "qwRoBId3" comment="打劫者3"/>
+            <Member type="UINT8" name = "byRoB3Color" comment="打劫者3颜色"/>
+            <Member type="UINT32" name="dwRoB3Point" comment="打劫者3战斗力" />
+            <Member type="UINT8" name="byRoB3Level" comment="打劫者3等级" />
+            <Member type="UINT32" name ="dwBeginTimer" comment ="开船时间"/>
+            <Member type="UINT32" name ="dwEndTimer" comment ="结束时间"/>
+            <Member type="UINT32" name ="dwAwardRate" comment ="奖励倍率"/>
+        </Struct>
+        <Struct name="ShipReport" vec="TVecShipReport" comment ="金船战报">
+            <Member type="UINT64" name="qwInsID" comment="金船唯一ID" />
+            <Member type="EShipBattleSource" name="eSource" comment="战斗原因" />
+            <Member type="UINT64" name="qwOwer" comment="金船拥有者" />
+            <Member type="UINT8" name="byOwerColor" comment="拥有者颜色" />
+            <Member type="UINT16" name = "wShipId" comment="金船模板"/>
+            <Member type="UINT64" name = "qwDefense" comment="护送者ID"/>
+            <Member type="UINT8" name="byDefenseColor" comment="护送者颜色" />
+            <Member type="UINT64" name = "qwRoBId" comment="打劫者"/>
+            <Member type="UINT8" name="byRoBColor" comment="打劫者颜色" />
+            <Member type="UINT64" name ="qwBattleID" comment ="战报ID"/>
+            <Member type="UINT32" name ="dwFinishTimer" comment ="该船到达时间"/>
+            <Member type="UINT32" name ="dwTimer" comment ="发生时间"/>
+            <Member type="UINT8" name ="byRobTimes" comment ="被抢劫次数"/>
+            <Member type="UINT32" name ="dwAwardRate" comment ="奖励倍率"/>
+        </Struct>
+        <Struct name="PlayerShipForClient" vec="TVecPlayerShipForClient" comment ="金船客户端信息">
+            <Member type ="PlayerShip" name ="stInfo" comment ="金船信息"/>
+            <Member type ="string"   name ="strOwerName" comment="金船拥有者名字" />
+            <Member type ="string"   name ="strGuipName" comment="金船拥有者帮派" />
+            <Member type ="string"   name ="strDefenseName" comment="金船护卫名字" /> 
+            <Member type ="string"   name ="strRoBIdName1" comment="金船抢劫者1名字" /> 
+            <Member type ="string"   name ="strRoBIdName2" comment="金船抢劫者2名字" /> 
+            <Member type ="string"   name ="strRoBIdName3" comment="金船抢劫者3名字" /> 
+        </Struct>
+        <Struct name ="PlayerSelfShipData" vec="TVecPlayerSelfShipData" comment ="玩家数据库信息">
+            <Member type ="UINT32"   name ="dwBuyOpenShipTimes" comment="购买的运船次数" />
+            <Member type ="UINT32"   name ="dwBuyRoBShipTimes" comment="购买的抢劫次数" />
+            <Member type ="UINT32"   name ="dwBuyReflushShipTimes" comment="购买的刷新次数" />
+            <Member type ="UINT16"   name ="wReflushShip" comment="刷出来的船" />
+            <Member type ="UINT32"   name ="dwReflushShipTimer" comment="刷船的时间" />
+            <Member type ="UINT64"   name ="qwInviteDefense" comment="邀请的护送者" />
+            <Member type ="UINT32"   name ="dwInviteDefenseAgreeTime" comment="别人同意护送的时间" />
+            <Member type="UINT32" name="dwInviteDefensePoint" comment="护送者战斗力" />
+            <Member type="UINT8" name="byInviteDefenseLevel" comment="护送者等级" />
+            <Member type="UINT8" name="byInviteDefenseColor" comment="护送者颜色" />
+            <Member type ="UINT64"   name ="qwAgreeDefenseShipOwer" comment="我同意护送的船" />
+            <Member type ="UINT32"   name ="dwAgreeDefenseShipOwerTime" comment="我同意护送的时间" />
+        </Struct>
+
+        <Struct name ="PlayerShipForList" vec="TVecPlayerShipForList" comment ="列表信息">
+            <Member type="UINT64" name="qwInsID" comment="金船唯一ID" />
+            <Member type ="UINT64" name ="qwOwer" comment="金船拥有者"/>
+            <Member type ="UINT16" name ="wShipId" comment ="船模板"/>
+            <Member type="UINT8" name="byChannel" comment="航道" />
+            <Member type="UINT32" name ="dwBeginTimer" comment ="开船时间"/>
+            <Member type="UINT32" name ="dwEndTimer" comment ="结束时间"/>
+        </Struct>
+        <Struct name ="PlayerSelfView" vec="TVecPlayerSelfView" comment ="玩家信息">
+            <Member type ="PlayerSelfShipData"   name ="stData" comment="基本信息" />
+            <Member type ="UINT32"   name ="dwRobTimes" comment="抢劫次数" />
+            <Member type ="UINT8"   name ="byDefenseTimes" comment="护送次数" />
+            <Member type ="UINT32"   name ="dwOpenShipTimes" comment="开船次数" />
+            <Member type ="UINT32"   name ="dwReFluseTimes" comment="刷新次数" />
+            <Member type ="UINT32"   name ="dwBuyRobTimes" comment="今日购买的抢劫次数" />
+            <Member type ="UINT32"   name ="dwBuyOpenShipTimesToday" comment="今日购买的运船次数" />
+            <Member type ="UINT32"   name ="dwBuyRlushShipTimesToday" comment="今日购买的刷新次数" />
+            <Member type="UINT32" name ="dwFreezBattleTime" comment ="金船战斗冷却时间"/>
+            <Member type="UINT32" name ="dwBeginTimer" comment ="自己开船时间"/>
+            <Member type="UINT32" name ="dwEndTimer" comment ="自己船结束时间"/>
+            <Member type ="UINT64"   name ="qwDefenseShip" comment="我护送的船" />
+            <Member type ="UINT64"   name ="qwSelfShip" comment="我自己的船" />
+            <Member type ="string"   name ="strInviteDefenseName" comment ="同意护送者名字"/>
+        </Struct>
+        <Struct name="ShipReportForClient" vec="TVecShipReportForClient" comment ="金船战报客户端信息">
+            <Member type ="ShipReport" name ="stInfo" comment ="战报信息"/>
+            <Member type ="BattleGS::EBattleResult" name ="eResult"/>
+            <Member type ="string"   name ="strOwerName" comment="金船拥有者名字" /> 
+            <Member type ="string"   name ="strDefenseName" comment="金船护卫名字" /> 
+            <Member type ="string"   name ="strRoBIdName" comment="金船抢劫者名字" /> 
+        </Struct>
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+
+        <Func name="GetShipSelfView"  comment="获取自己显示信息">
+        </Func>
+        <Func name="GetShipList"  ret = "true" comment="获取所有金船显示信息">
+            <RetParam type ="TVecPlayerShipForList" name = "vecShip" comment ="获取结果"/>
+        </Func>
+        <Func name="DelList" comment="不再关注列表">
+        </Func>
+        <Func name="GetShipInfo" ret = "true" comment="获取某条船的信息">
+
+            <Param type="UINT64" name="qwInsID" comment="金船唯一ID" />
+            <RetParam type ="EShipResult" name ="eResult" comment ="获取结果"/>
+            <RetParam type ="PlayerShipForClient" name ="stShipInfo" comment ="金船信息"/>
+        </Func>
+        <Func name="GetShipReport"   comment="获取历史信息">
+        </Func>
+        <Func name="OpenShip" ret = "true" comment="雇佣船只,开始运船">
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="BuyOpenShipTimes" ret = "true" comment="购买运船次数">
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="BuyRoBShipTimes" ret = "true" comment="购买抢劫次数">
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="BuyReflushShipTimes" ret = "true" comment="购买刷新次数">
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="ReFlushShip" ret = "true" comment="刷新船只">
+            <Param type ="UINT8" name ="byVip" comment ="0,表示非vip ,非0表示vip"/>
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+            <RetParam type="UINT16" name = "wShipId" comment="金船模板"/>
+        </Func>
+        <Func name="InViteFriend" ret = "true" comment="邀请护送船只">
+            <Param type ="UINT64" name ="qwFriend" comment ="好友"/>
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="InViteOtherAgree" ret = "true" comment="回应邀请护送船只">
+            <Param type ="UINT8" name ="bySuc" comment ="0,同意，1拒绝"/>
+            <Param type ="UINT64" name ="qwFriend" comment ="好友"/>
+            <Param type ="UINT32" name ="dwCode"  comment ="验证码"/>
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="FireDefense" ret = "true" comment="船主踢出护送者">
+            <Param type ="UINT64" name ="qwFriend" comment ="好友"/>
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+        <Func name="DoRoBShip" ret = "true" comment="打劫船只">
+            <Param type="UINT64" name="qwInsID" comment="金船唯一ID" />
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+            <RetParam type ="UINT8" name ="bySuc" comment ="0,失败，1胜利"/>
+        </Func>
+        <Func name="DoGrapShip" ret = "true" comment="返抢">
+            <Param type ="UINT64" name ="qwShipID" comment ="金船唯一ID"/>
+            <Param type ="UINT64" name ="qwRoBID" comment ="打劫者ID"/>
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+            <RetParam type ="UINT8" name ="bySuc" comment ="0,失败，1胜利"/>
+        </Func>
+        <Func name="FinishShipOneKey" ret = "true" comment="一键完成运送">
+            <RetParam type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SendView" comment="发送玩家信息">
+            <Param type ="PlayerSelfView" name ="stViewInfo" comment ="玩家信息"/>
+        </Func>
+        <Func name="UpDateShipAdd" comment="发送船只增加消息">
+            <Param type ="PlayerShipForList" name ="stShipInfo" comment ="船只信息"/>
+        </Func>
+        <Func name="UpDateShipDel" comment="发送船只删除消息">
+            <Param type="UINT64" name="qwInsID" comment="金船唯一ID" />
+        </Func>
+        <Func name="SendRePort" comment="发送玩家战报信息">
+            <Param type ="TVecShipReportForClient" name ="vecReportInfo" comment ="玩家战报信息"/>
+        </Func>
+        <Func name="UpDateShipReportAdd" comment="发送记录增加消息">
+            <Param type ="ShipReportForClient" name ="stReport" comment ="记录信息"/>
+        </Func>
+        <Func name="InviteAnswer" comment="邀请别人的回复">
+            <Param type ="UINT64" name ="qwDefense" comment ="护卫者ID"/>
+            <Param type ="string" name ="strName" comment ="护卫者的名字"/>
+            <Param type ="UINT8" name ="byColor" comment ="护卫者的颜色"/>
+            <Param type ="EShipResult" name ="eResult" comment ="操作结果"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

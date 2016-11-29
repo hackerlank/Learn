@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="LoginPkgProt" id="92" proxy="GameServer" comment="累计登入礼包协议">
+    <Refer>
+	</Refer>
+	   <TypeDef>
+        <Enum name="EResultInLoginProt" comment="操作结果">
+		    <Member name="ePkgError" comment="错误"/>  
+			<Member name="ePkgGain" comment="已经领取"/> 
+			<Member name="ePkgFull" comment="背包已满"/> 
+			<Member name="ePkgSuccess" comment="成功"/>
+        </Enum>
+		</TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetLoginPkg"  ret="true" comment="获取礼包">
+		    <Param type="UINT8" name="byIndex" comment="累计天数"/>
+            <RetParam type="UINT16" name="wResult" comment="操作结果:从地位向高位，1表示领取，0表示没有领"/>
+            <RetParam type="EResultInLoginProt" name="eResult" comment="操作结果"/>
+        </Func>
+        <Func name="GetPkgInfo"  ret="true" comment="登入礼包信息">
+            <RetParam type="UINT16" name="wDays" comment="连续登入的天数"/>
+            <RetParam type="UINT16" name="wResult" comment="操作结果:从地位向高位，1表示领取，0表示没有领"/>
+        </Func>
+    </FuncC2S>
+
+    <FuncS2C>
+        <Func name="SendPkgInfo"  comment="登入礼包信息">
+            <Param type="UINT16" name="wDays" comment="连续登入的天数"/>
+            <Param type="UINT16" name="wResult" comment="操作结果:从地位向高位，1表示领取，0表示没有领"/>
+        </Func>
+    </FuncS2C>
+</Protocol>
+										
+   
+	    										
+
+

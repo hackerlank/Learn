@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ServerCommon" id="29" comment="服务器通用类型定义">
+  <TypeDef>
+    <Enum name="ELeaveType" desc="true" comment="下线的类型">
+      <Member name="eLeaveNone" comment="无"/>
+      <Member name="eLeaveAway" comment="正常下线"/>
+      <Member name="eLeaveReplace" comment="替换帐号"/>
+      <Member name="eLeaveJump" comment="跳服"/>
+      <Member name="eLeaveKick" comment="被踢"/>
+      <Member name="eIndulgeKick" comment="防沉迷系统已启动，请休息5小时"/>
+      <Member name="eIndulgeTimeKick" comment="防沉迷离线不足5小时，请休息5小时"/>
+      <Member name="eLeaveExcept" comment="异常"/>
+    </Enum>
+    <Enum name="EUserReqType" comment="帐号信息请求类型">
+      <Member name="eUserReqNone" comment="无"/>
+      <Member name="eUserReqMail" comment="邮件"/>
+      <Member name="eUserReqShopMall" comment="商城"/>
+      <Member name="eUserReqFriend" comment="好友查询"/>
+      <Member name="eUserReqVIP" comment="赠送VIP"/>
+    </Enum>
+    <Struct name="SUsrIDNameData" comment="账号ID,Name数据">
+      <Member type="UINT64" name="qwUsrID" comment="账号ID"/>
+      <Member type="string" name="strName" comment="主英雄名"/>
+      <Member type="UINT8" name="byLevel" comment="等级"/>
+      <Member type="UINT8" name="byJob" comment="职业"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="CppSvr"/>
+</Protocol>

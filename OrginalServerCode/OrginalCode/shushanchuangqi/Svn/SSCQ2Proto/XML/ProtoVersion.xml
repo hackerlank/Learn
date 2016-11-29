@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="ProtoVersion" id="259" comment="协议版本号">
+    <TypeDef>
+        <Enum name="EProtoVer" byte="4" comment="协议版本">
+            <Member name="EPROTOVERSION" value="14080801" comment="版本号，年2位(14),月2位(07),日2位，序号2位"/>
+        </Enum>
+    </TypeDef>
+	  <FuncC2S client="ActionScript">
+	  </FuncC2S>
+</Protocol>

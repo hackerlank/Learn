@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GlobalChatProt" id="28" proxy="CenterServer" comment="全局聊天协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EChatShowResult" global="server" comment="获取展示道具结果">
+            <Member name="eChatShowSucceed" comment="成功"/>
+            <Member name="eChatShowNotExist" comment="展示道具不存在"/>
+            <Member name="eChatShowErrOther" comment="其他错误"/>
+        </Enum>
+        <Enum name="EChannelType" comment="通道类型">
+            <Member name="eChannelNone" value="0" comment="None"/>
+            <Member name="eChannelAll"     value="1"       comment="综合"/>
+            <Member name="eChannelWorld"   value="2"       comment="世界"/>
+            <Member name="eChannelGuild"    value="3"      comment="帮派"/>
+            <Member name="eChannelSys"      value="4"      comment="系统"/>
+            <Member name="eChannelTeam"     value="5"      comment="组队"/>
+            <Member name="eChannelNoLabelSys"   comment="无字系统消息"/>
+        </Enum>
+        <Enum name="EChannelSubType" comment="消息额外类型">
+            <Member name="eSubNone" comment="无"/>
+            <Member name="eSubBulletin" comment="公告区域"/>
+            <Member name="eSubBroadcast" comment="广播区域"/>
+            <Member name="eSubHorn" comment="喇叭区域"/>
+            <Member name="eSubSuspension" comment="悬浮区域"/>
+            <Member name="eSubPrompt" comment="提示区域"/>
+            <Member name="eSubEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EChatShowType" comment="展示类型">
+            <Member name="eShowItem" comment="道具"/>
+            <Member name="eShowRole" comment="角色"/>
+            <Member name="eShowPet" comment="阵灵"/>
+            <Member name="eShowHorse" comment="坐骑"/>
+        </Enum>
+        <Enum name="EWhisperErrorType" comment="私聊错误类型">
+            <Member name="eWhisperTooFastErr" comment="太快"/>
+            <Member name="eWhisperOfflineErr" comment="目标不在线"/>
+            <Member name="eWhisperLengthErr" comment="信息长度不对"/>
+        </Enum>
+        <Enum name="ESShowInfoType" comment="炫耀类型">
+            <Member name="eFlauntGood" comment="物品，使用SItem解析"/>
+            <Member name="eFlauntHero" comment="散仙，使用SFlauntHero解析"/>
+            <Member name="eFlauntPet" comment="阵灵，使用SFlauntPet解析"/>
+            <Member name="eFlauntHorse" comment="坐骑，使用SFlauntHorse解析"/>
+			<Member name="eShowAchievement" comment="成就"/>
+	        <Member name="eFlauntFashion" comment="时装，使用SFlauntFashion解析"/>
+        </Enum>
+        <Struct name="SSenderInfo" comment="发送者信息">
+            <Member type="UINT8" name="byVIPType" comment="VIP特权类型"/>
+            <Member type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Member type="string" name="strName" comment="发送者名"/>
+            <Member type="string" name="strGuildName" comment="帮派名称"/>
+            <Member type="UINT8" name="byQuality" comment="玩家品质（颜色）" />
+            <Member type="UINT8" name="byNation" comment="发送者国家"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台相关参数" />
+        </Struct>
+        <Struct name="SShowInfo" vec="TVecShowInfo" comment="炫耀信息" >
+            <Member type="UINT64"       name="qwInstID"     comment="唯一ID" />
+            <Member type="ByteArray"    name="strShowInfo"  comment="展示信息序列化"/>
+        </Struct>
+        <Struct name="SWhisperInfo" comment="私聊对方信息">
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="string" name="strName" comment="名字 XXX: 如果主将改名需要修改此处"/>
+            <Member type="UINT8" name="byVIPType" comment="VIP特权类型"/>
+            <Member type="string" name="strGuildName" comment="帮派名称"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台相关参数" />
+            <Member type="UINT16" name="wFighterID" comment="主将ID"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="性别"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT16" name="wMood" comment="心情表情"/>
+            <Member type="string" name="strSign" comment="签名"/>
+			<Member type="UINT8" name="byQuality" comment="品质"/>
+        </Struct>
+        <Struct name="SFlauntSkill" vec="TVecFlauntSkill" comment="炫耀参与战斗的技能信息">
+            <Member type="UINT8" name="byIdx" comment="技能槽idx"/>
+            <Member type="UINT32" name="dwSkillID" comment="技能ID"/>
+        </Struct>
+        <Struct name="SFlauntEquip" vec="TVecFlauntEquip" comment="炫耀装备信息">
+            <Member type="UINT16" name="wEquipID" comment="装备TypeID"/>
+            <Member type="UINT8" name="byStrengthenLevel" comment="强化等级"/>
+            <Member type="UINT8" name="byPos" comment="装备位置"/>
+        </Struct>
+        <Struct name="SFlauntHero" comment="散仙炫耀信息">
+            <Member type ="string" name = "strName" comment ="名字"/>
+            <Member type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Member type="UINT16" name="wFighterID" comment="散仙ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT8" name="byQuilty" comment="品质 0,1,2,3,4,5,6【黑白绿蓝紫黄橙】"/>
+            <Member type="UINT32" name="dwPower" comment="散仙战斗力"/>
+            <Member type="ProtoCommon::TVecFtAttrMod"   name="oAttrVec"      comment="最终属性"/>
+            <Member type="UINT8" name="byDujieLevel" comment="散仙渡劫等级"/>
+            <Member type="TVecFlauntSkill" name="vActiveSkill" comment="主动技能"/>
+            <Member type="TVecFlauntSkill" name="vPassiveSkill" comment="被动技能"/>
+            <Member type="SFlauntSkill" name="sPeerLessSkill" comment="无双技能"/>
+            <Member type="TVecFlauntEquip" name="vecFlauntEquip" comment="时装"/>
+			<Member type="UINT8" name="byLianPi" comment="炼皮"/>
+            <Member type="UINT8" name="byTongJin" comment="通筋"/>
+            <Member type="UINT8" name="byQiangJi" comment="强肌"/>
+            <Member type="UINT8" name="byDuanGu" comment="锻骨"/>
+            <Member type="UINT8" name="byHuoLuo" comment="活络"/>
+            <Member type="UINT8" name="byXiSui" comment="洗髓"/>
+        </Struct>		
+		<Struct name="SFlauntFashion" comment="时装炫耀">
+			<Member type="UINT16" name="wFighterID" comment="主将ID"/>
+			<Member type="UINT8" name="byLevel" comment="时装等级"/>
+			<Member type="UINT8" name="byType" comment="类型(0武器,1衣服)"/>
+			<Member type="UINT16" name="weaponID" comment="武器ID"/>
+			<Member type="UINT16" name="armorID" comment="衣服ID"/>
+		</Struct>
+        <Struct name="SFlauntPet" comment="阵灵炫耀信息">
+		    <Member type="UINT64" name="qwInstID" comment="阵灵唯一ID"/>
+            <Member type="UINT16" name="wFighterID" comment="阵灵ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+        </Struct>
+        <Struct name="SFlauntHorse" comment="坐骑炫耀信息">
+		    <Member type="UINT64" name="qwInstID" comment="阵灵唯一ID"/>
+            <Member type="UINT16" name="wFighterID" comment="坐骑ID"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+        </Struct>
+		<Struct name="SFlauntAchievement" comment="成就炫耀信息">
+		    <Member type="UINT64" name="qwInstID" comment="成就唯一ID"/>
+            <Member type="UINT16" name="wAchievementID" comment="成就ID"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="Chat" comment="聊天">
+            <Param type="EChannelType" name="eChannelType" comment="通道类型"/>
+            <Param type="string" name="strInfo" comment="聊天信息"/>
+            <Param type="TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+        </Func>
+        <Func name="Whisper" ret="true" comment="私聊">
+            <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Param type="string" name="strInfo" comment="聊天信息"/>
+            <Param type="TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+            <RetParam type="UINT16" name="wMsgID"     comment="返回错误码（0为没有错误）" />
+        </Func>
+        <Func name="GetShowInfo" ret="true" comment="获取炫耀信息">
+            <Param      type="UINT64" name="qwInstID" comment="唯一ID"/>
+            <RetParam   type="SSenderInfo"  name="rSenderInfo" comment="发送者信息"/>
+            <RetParam   type="ByteArray"    name="strShowInfo"  comment="展示信息序列化"/>
+        </Func>
+        <Func name="ReqWhisperInfo"  ret="true" comment="请求私聊信息">
+            <Param type="string" name="strReceiveName" comment="玩家名字"/>
+            <RetParam  type="SWhisperInfo" name="whisperInfo"  comment="获取私聊对方信息返回"/>
+        </Func>
+        <!--
+    <Func name="ShowItemReq" ret="true" comment="请求展示信息">
+      <Param type="UINT32" name="dwShowID" keep="true" comment="展示ID"/>
+      <Param type="EChatShowType" name="eShowType" keep="true" comment="类型"/>
+      <RetParam type="ByteArray" name="strShowItem" comment="展示道具序列化"/>
+      <RetParam type="EChatShowResult" name="eResult" comment="展示结果"/>
+    </Func>
+    -->
+  </FuncC2S>
+  <FuncS2C>
+      <Func name="ChatInfoNotify" comment="聊天信息通知">
+          <Param type="EChannelType" name="eChannelType" comment="通道类型"/>
+          <Param type="SSenderInfo" name="rSenderInfo" comment="发送者信息"/>
+          <Param type="string" name="strInfo" comment="聊天信息"/>
+          <Param type="TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+      </Func>
+      <Func name="WhisperErrorNotify" comment="私聊错误通知">
+          <Param type="EWhisperErrorType" name="eErrType" comment="错误类型"/>
+          <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+      </Func>
+      <Func name="WhisperInfoNotify" comment="私聊信息通知">
+          <Param type="SSenderInfo" name="rSenderInfo" comment="发送者信息"/>
+          <Param type="string" name="strInfo" comment="私聊信息"/>
+          <Param type="TVecShowInfo" name="vecShowInfo" comment="炫耀物品信息" />
+      </Func>
+      <Func name="SystemMsgNotify" comment="系统信息通知">
+          <Param type="EChannelType" name="eChannelType" comment="通道类型"/>
+          <Param type="string" name="strInfo" comment="聊天信息"/>
+          <Param type="EChannelSubType" name="eSubType" comment="额外信息"/>
+      </Func>
+      <Func name="SystemMsgIDNotify" comment="系统MsgID通知">
+          <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+      </Func>
+      <Func name="SystemFormatMsgIDNotify" comment="系统MsgID通知">
+          <Param type="UINT16" name="wMsgID" comment="消息ID"/>
+          <Param type="TVecString" name="vecStr" comment="聊天信息参数"/>
+      </Func>
+      <Func name="SysDialogAndNoticeUpdateNotify" comment="系统弹窗和公告更新通知">
+          <Param type="UINT8" name="byNotifyType" comment="通知类型1:系统弹窗通知；2、公告更新通知"/>
+      </Func>
+  </FuncS2C>
+</Protocol>

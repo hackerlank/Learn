@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="WonderActivityProt" id="199" proxy="CenterServer" comment="精彩活动">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+	</Refer>
+	   <TypeDef>
+	   <Enum name="EWActResult" comment="操作结果">
+		    <Member name="eWActResult_none" comment="无此活动"/>
+			<Member name="eWActResult_success" comment="操作成功"/>
+			<Member name="eWActResult_error" comment="操作失败"/>
+        </Enum>
+        <Enum name="EGainResult" comment="领奖操作结果">
+		    <Member name="eGainResult_none" comment="无此奖励"/>
+			<Member name="eGainResult_success" comment="领奖成功"/>
+			<Member name="eGainResult_alreadyGain" comment="奖励已领"/>
+			<Member name="eGainResult_fullBag" comment="背包满"/>
+			<Member name="eGainResult_notGet" comment="条件未达到"/>
+			<Member name="eGainResult_error" comment="操作失败"/>
+        </Enum>
+
+        <Enum name="EWActType" byte="2" comment="活动类型">
+		    <Member name="eWActType_NONE" comment="无活动"/>
+			<Member name="eWActType_RANKPOINT"     value="702" comment="战力排行榜"/>
+			<Member name="eWActType_LEVELACT"      value="703" comment="全服等级奖励"/>
+			<Member name="eWActType_HORSEACT"      value="704" comment="坐骑收集奖励"/>
+			<Member name="eWActType_DUNGON"        value="705" comment="全服副本奖励"/>
+			<Member name="eWActType_FIGHTER"       value="706" comment="全服散仙奖励"/>
+			<Member name="eWActType_FORMATION"     value="707" comment="全服阵灵奖励"/>
+			<Member name="eWActType_TRUMP"         value="708" comment="全服法宝奖励"/>
+			<Member name="eWActType_RANKLEVEL"     value="709" comment="等级排行榜"/>
+			<Member name="eWActType_RANKPET"       value="710" comment="阵灵排行榜"/>
+			<Member name="eWActType_RANKFIGHTER"   value="711" comment="散仙排行榜"/>
+			<Member name="eWActType_RANKARENA"     value="712" comment="斗剑排行榜"/>
+			<Member name="eWActType_RANKGUILD"     value="713" comment="帮派排行榜"/>
+			<Member name="eWActType_RANKTRUMP"     value="717" comment="法宝排行榜"/>
+            <Member name="eWActType_QQCOIN"        value="715" comment="Q养成活动 "/>
+            <Member name="eWActType_BEAUTYACT"     value="716" comment="美女奖励 "/>
+			<Member name="eWActType_POINT"         value="718" comment="战力奖励"/>
+			<Member name="eWActType_OpenBuy"       value="719" comment="开服购买礼包"/>
+			<Member name="eWActType_MAX" comment="活动最大值"/>
+        </Enum>
+        <Enum name="EWActState" comment="活动状态">
+		    <Member name="eWActState_Init" comment="初始状态"/>
+		    <Member name="eWActState_Advance" comment="活动预告"/>
+			<Member name="eWActState_Begin" comment="活动开始"/>
+			<Member name="eWActState_End" comment="活动结束"/>
+			<Member name="eWActState_Retain" comment="活动保留时间"/>
+        </Enum>
+
+		 <Enum name="EWActPrizeType" comment="活动奖励类型">
+		    <Member name="eWActPrizeType_default" comment="全部奖励"/>
+			<Member name="eWActPrizeType_first" comment="第一名玩家奖励"/>
+			<Member name="eWActPrizeType_one" comment="一等奖"/>
+            <Member name="eWActPrizeType_two" comment="二等奖"/>
+            <Member name="eWActPrizeType_three" comment="三等奖"/>
+            <Member name="eWActPrizeType_MAX" comment="奖励最大值"/>
+        </Enum>
+	    <Struct name="SItemConfig" vec="TVecItemConfig" comment="奖励道具信息">
+            <Member type="UINT32" name="dwItemID" comment="道具ID"/>
+            <Member type="UINT32" name="dwCount" comment="道具数量"/>
+        </Struct>
+        <Struct name="SPrizeConfig" vec="TVecPrizeConfig" comment="奖励道具信息">
+            <Member type="EWActPrizeType" name="ePrizeType" comment="奖励类型"/>
+            <Member type="TVecItemConfig" name="vecItems" comment="道具"/>
+        </Struct>
+
+        <Struct name="SWActConfig" vec="TVecWActConfig" comment="活动具体配置信息">
+            <Member type="UINT16" name="wWActID" comment="活动ID"/>
+            <Member type="UINT16" name="wCfgID" comment="活动配置ID"/>
+            <Member type="EWActPrizeType" name="eWactPrizeType" comment="奖励类型"/>
+            <Member type="TVecItemConfig" name="vecItemConfig" comment="奖励道具列表"/>
+        </Struct>
+        <Struct name="SWActPlayerInfo" comment="人物信息">
+            <Member type="UINT16" name="wWActID" comment="活动ID"/>
+            <Member type="UINT16" name="wID" comment="散仙|阵灵ID"/>
+            <Member type="UINT64" name="qwPlayerID" comment="玩家ID"/>
+            <Member type="string" name="strName" comment="玩家名字|帮主名"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="玩家职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="玩家性别"/>
+            <Member type="string" name="strName1" comment="帮派名"/>
+            <Member type="UINT32" name="dwValue1" comment="参数1(战力，等级，散仙，阵灵，帮派）排名"/>
+            <Member type="UINT32" name="dwValue2" comment="参数2(战力，等级，散仙战力，阵灵战力，帮派等级)"/>
+        </Struct>
+	    <Struct name="STime" vec="TVecTime" comment="活动时间信息">
+            <Member type="UINT16" name="wWActID" comment="活动ID"/>
+            <Member type="UINT32" name="dwAdvTime" comment="活动预告时间"/>
+            <Member type="UINT32" name="dwBeginTime" comment="活动开始时间"/>
+            <Member type="UINT32" name="dwEndTime" comment="活动结束时间"/>
+            <Member type="UINT32" name="dwRetainTime" comment="活动预留时间"/>
+        </Struct>
+        <Struct name="SWonderPrize2DB" vec="TVecWonderPrize2DB" comment="数据库信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wActID" comment="活动ID"/>
+            <Member type="UINT16" name="wActType" comment="活动类型"/>
+            <Member type="UINT32" name="wCond" comment="活动条件"/>
+            <Member type="UINT8" name="byStatus" comment="活动状态"/>
+        </Struct>
+        <Struct name="SPrizeStatus" vec="TVecPrizeStatus" comment="状态信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="UINT16" name="wActID" comment="活动ID"/>
+            <Member type="TVecUINT8" name="vecStatus" comment="活动状态"/>
+        </Struct>
+        <Struct name="SRoleStatus" vec="TVecRoleStatus" comment="玩家在活动中的状态信息">
+            <Member type="UINT32" name="wCond" comment="活动ID"/>
+            <Member type="UINT32" name="dwMaxRole" comment="活动达到条件人数"/>
+            <Member type="UINT32" name="dwCurRole" comment="活动目前人数"/>
+            <Member type="UINT8" name="byStatus" comment="活动状态"/>
+        </Struct>
+        <Struct name="SRetain" vec="TVecRetain" comment="玩家在活动中的保留值">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="UINT8" name="byCareer" comment="玩家职业"/>
+            <Member type="UINT8" name="bySex" comment="性别"/>
+            <Member type="UINT16" name="wActID" comment="活动ID"/>
+            <Member type="UINT16" name="wID" comment="保留值（散仙ID,帮派ID,阵灵ID.....)"/>
+            <Member type="string" name="strGuildName" comment="帮派名字"/>
+            <Member type="UINT16" name="wType" comment="保留类型"/>
+            <Member type="UINT32" name="dwValue" comment="保留值"/>
+            <Member type="UINT32" name="dwTime" comment="时间"/>
+        </Struct>
+        
+		<Struct name="SRoleAllStatus" vec="TVecRoleAllStatus" comment="玩家在所有活动中的信息">
+		    <Member type="UINT16" name="wActID" comment="活动ID"/>
+            <Member type="TVecRoleStatus" name="vecAllState" comment="状态"/>
+        </Struct>
+
+        <Struct name="SDragonBallAct" vec="TVecDragonBallAct" comment="七星龙珠活动信息">
+            <Member type="UINT32" name="dwBeginTime"  comment="活动开始时间"/>
+            <Member type="UINT32" name="dwEndTime"  comment="活动结束时间"/>
+            <Member type="UINT32" name="dwRecharge" comment="今日充值仙石数"/>
+            <Member type="UINT8"  name="byIdx" comment="第几期活动"/>
+            <Member type="UINT8"  name="byDay" comment="今日完成的龙珠数"/>
+            <Member type="UINT8"  name="byAll" comment="完成的龙珠总数"/>
+            <Member type="UINT8"  name="byRemain" comment="今日之前剩余可点亮的龙珠数"/>
+        </Struct> 
+        <Struct name="SSevenConsumeAct" vec="TVecSevenConsumeAct" comment="七日消费活动信息">
+            <Member type="UINT32" name="dwBeginTime"  comment="活动开始时间"/>
+            <Member type="UINT32" name="dwEndTime"  comment="活动结束时间"/>
+            <Member type="UINT32" name="dwConsume" comment="七日总消费仙石数"/>
+            <Member type="UINT8"  name="byInfo" comment="奖励领取状态信息(从低到高按位取,1已领取 0未领取)"/>
+        </Struct> 
+        <Struct name="SQQCoinActInfo" comment="Q币养成活动信息">
+            <Member type="UINT32"  name="dwTime"      comment="活动剩余时间"/>
+            <Member type="UINT8"   name="byLevel"     comment="当前兑换的等级"/>
+            <Member type="UINT32"  name="dwMaxValue"  comment="奖励最大值"/>
+            <Member type="UINT32"  name="dwCurValue"  comment="当前值"/>
+        </Struct> 
+      </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetConfigTime"  ret="true" comment="获得活动时间配置">
+		    <Param type="UINT16" name="wWActID" comment="精彩活动ID"/>
+			<RetParam type="STime" name="sTimes" comment="时间"/>
+            <RetParam type="EWActResult" name="eRet" comment="操作结果"/>  
+        </Func>
+        <Func name="GetAllPrize"  ret="true" comment="获得活动所有奖励配置">
+            <Param type="UINT16" name="wWActID" comment="精彩活动ID"/>
+			<RetParam type="UINT16" name="wActID" comment="活动ID"/>
+			<RetParam type="SWActPlayerInfo" name="sFirstPlayer" comment="第一名玩家信息"/>
+			<RetParam type="SWActPlayerInfo" name="sSelfPlayer" comment="玩家自己信息"/>
+			<RetParam type="TVecPrizeConfig" name="vecPrizeConfig" comment="奖励信息"/>
+            <RetParam type="EWActResult" name="eRet" comment="操作结果"/>  
+        </Func>
+        <Func name="GetActList"  ret="true" comment="获得活动列表">
+			<RetParam type="TVecTime" name="vecTimes" comment="奖励信息"/>
+            <RetParam type="EWActResult" name="eRet" comment="操作结果"/>  
+        </Func>
+        <Func name="TakePrize"  ret="true" comment="玩家领奖">
+            <Param type="UINT16" name="wActID" comment="精彩活动ID"/>
+            <Param type="UINT32" name="wCond" comment="条件"/>
+			<RetParam type="UINT16" name="wActIDRet" comment="返回活动ID"/>
+			<RetParam type="UINT32" name="wCondRet" comment="返回条件"/>
+        </Func>
+        <Func name="GetRoleActInfo"  ret="true" comment="玩家活动信息">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+            <RetParam type="UINT16" name="wActIDRet" comment="活动ID"/>
+            <RetParam type="TVecRoleStatus" name="vecRet" comment="操作结果"/>  
+        </Func>
+		 <Func name="GetRoleAllState" ret="true" comment="玩家在所有活动中的状态">
+            <RetParam type="TVecRoleAllStatus" name="vecRet" comment="结果"/>  
+        </Func>
+        <Func name="GetDragonBallAct" ret="true" comment="请求七星龙珠活动信息">
+            <RetParam type="UINT8" name="byRet" comment="0活动未开启 >0活动已开启"/>
+        </Func>
+        <Func name="GetSevenConsumeAct" ret="true" comment="请求七日消费活动信息">
+            <RetParam type="UINT8" name="byRet" comment="0活动未开启 >0活动已开启"/>
+        </Func>
+        <Func name="GetQQCoinAct"    ret="false" comment="请求Q养成活动信息">
+        </Func>
+        <Func name="ExChange"        ret="true" comment="兑换仙石或者领取Q币">
+            <Param type="UINT8" name="byType" comment="0表示Q币，1表示仙石"/>
+            <RetParam type="EWActResult" name="eResult" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SendTakePrizeNtf"   comment="领奖状态通知">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+            <Param type="UINT32" name="wCond" comment="条件ID"/>
+            <Param type="EGainResult" name="eRet" comment="状态"/>
+        </Func>
+        <Func name="SendReachCondNtf"   comment="达到条件通知">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+            <Param type="UINT32" name="wCond" comment="条件ID"/>
+        </Func>
+        <Func name="UpdateDragonBallAct"  comment="更新七星龙珠活动信息">
+            <Param type="SDragonBallAct" name="oDragonBallAct"  comment="七星龙珠活动信息"/>
+        </Func>
+        <Func name="UpdateSevenConsumeAct"  comment="更新七日消费活动信息">
+            <Param type="SSevenConsumeAct" name="oSevenConsumeAct"  comment="七日消费活动信息"/>
+        </Func>
+        <Func name="SyncQQCoinInfo"  comment="同步QQ养成信息">
+            <Param type="SQQCoinActInfo" name="oQQCoinInfo"  comment="Q养成活动信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

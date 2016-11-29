@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="BeautyLogGS" id="133" proxy = "CenterServer" comment="美女log">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+   </Refer>
+  <TypeDef>
+    <Enum name="EBeautyLog" desc="true" comment="美女log">
+      <Member name="eBeautyLog_Sucess" value="0" comment="成功"/>
+      <Member name="eBeautyLog_Error" value="1" comment="失败"/> 
+    </Enum>
+    <Struct name="SBeautyLog" vec="TVecBeautyLog" comment="美女log信息">
+      <Member type="UINT64" name="qwUserID" comment="uid"/>
+      <Member type="string" name="strRoleName" comment="角色名"/>
+      <Member type="UINT8" name="byColor" comment="角色颜色"/>
+      <Member type="UINT16" name="wItemID" comment="物品id"/>
+      <Member type="UINT32" name="dwCount" comment="物品数量"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    <Func name="GetBeautyLog" ret="true" comment="获取美女log信息">
+      <RetParam type="TVecBeautyLog" name="vecBeautyLog" comment="美女log信息"/>
+    </Func>
+  </FuncC2S>
+  
+  <FuncS2C>
+    <Func name="AddBeautyLogNotify" comment="美女log添加">
+      <Param type="SBeautyLog" name="oAddBeautyLog" comment="美女log信息"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

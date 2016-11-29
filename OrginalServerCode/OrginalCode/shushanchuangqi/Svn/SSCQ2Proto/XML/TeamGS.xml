@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="TeamGS" id="56" proxy = "CenterServer" comment="竞技场协议">
+    <Refer> 
+        <Protocol name="BattleGS" />
+        <Protocol name="ItemProt" />
+        <Protocol name="ProtoCommon" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EMemberStatus" comment="队伍状态" >
+            <Member name="EMEMBER_NONE"              comment="无状态" />
+            <Member name="EMEMBER_READY"            comment="已准备好" />
+            <Member name="EMEMBER_ERR"            comment="不满足条件提示"/>
+        </Enum>
+        <Enum name="TeamListOP" comment="队伍状态" >
+            <Member name="ETeam_Create"              comment="队伍创建" />
+            <Member name="ETeam_UpDate"            comment="队伍更新" />
+            <Member name="ETeam_Del"            comment="队伍删除"/>
+        </Enum>
+
+        <Enum name="ETEAMResult" desc = "true" comment="竞技场操作结果">
+            <Member name="ETeam_Suc" comment="成功"/>
+            <Member name="ETeam_OtherTeam" comment="在其他房间中"/>
+            <Member name="ETeam_NOTInTeam" comment="不在房间中"/>
+            <Member name="ETeam_PreDgn" comment="前置副本没有通过"/>
+            <Member name="ETeam_PackFull" comment="包裹满"/>
+            <Member name="ETeam_Full" comment="房间满"/>
+            <Member name="ETeam_NOLeader" comment="您不是队长"/>
+            <Member name="ETeam_NODgnType" comment="不存在这个副本"/>
+            <Member name="ETeam_ErrTeam" comment="不存在这个队伍"/>
+            <Member name="ETeam_NewHeroErr" comment="新将不存在"/>
+            <Member name="ETeam_MainHero" comment="主将不可替换"/>
+            <Member name="ETeam_NewHeroIn" comment="新将已在"/>
+            <Member name="ETeam_NewHeroPosErr" comment="新将位置错误"/>
+            <Member name="ETeam_PlayerINReady" comment="玩家已准备"/>
+            <Member name="ETeam_PlayerNOReady" comment="玩家没有准备好"/>
+            <Member name="ETeam_MemBerNOReady" comment="有玩家没有准备好"/>
+            <Member name="ETeam_LowLevel" comment="等级不足，无法进入副本"/>
+            <Member name="ETeam_Fighters" comment="将不足，无法进入副本"/>
+            <Member name="ETeam_KickSelf" comment="不可踢自己"/>
+            <Member name="ETeam_KickErr" comment="被踢不在该队伍中"/>
+            <Member name="ETeam_PosErr" comment="位置不正确"/>
+            <Member name="ETeam_InBattle" comment="战斗中"/>
+            <Member name="ETeam_MinPerSon" comment="人数不足"/>
+            <Member name="ETeam_ErrPerSon" comment="有人不满足条件"/>
+            <Member name="ETeam_DiffDgn" comment="副本人数不一致"/>
+            <Member name="ETeam_PetErr" comment="错误玩家阵灵"/>
+            <Member name="ETeam_PassWord" comment="密码错误"/>
+            <Member name="ETeam_IsLeader" comment="已经是队长"/>
+            <Member name="ETeam_ErrMem" comment="不是房间成员"/>
+
+            <Member name="ETeam_OtherErr" comment="其他错误"/>
+        </Enum>
+        <Struct name="TeamFighter" vec="TVecTeamFighter" comment ="房间里的战斗对象">
+            <Member type="BattleGS::SFeatureBase" name="pFeature" comment="外观信息" />
+            <Member type="UINT32" name="dwFighterPower" comment="战斗力" />
+            <Member type="UINT8" name = "byPos" comment="在玩家将序列的位置"/>
+            <SubStruct name ="CommonFighter" vec ="TVecCommonFighter" comment ="普通将"> 
+                <Member type="UINT64"   name="qwInstID" comment="将唯一ID"/>
+                <Member type="UINT16"   name="wFighterID" comment="将类型ID"/>
+                <Member type="UINT8"    name="byLevel" comment="等级"/>
+                <Member type="UINT8"    name="byMain"  comment="是否主将"/>
+            </SubStruct>
+            <SubStruct name ="FormationFighter" vec ="TVecFormationFighter" comment ="阵灵"> 
+                <Member type="UINT16"   name="wFighterID" comment="阵灵ID"/>
+                <Member type="UINT8"   name="byPetLevel" comment="阵灵的阶"/>
+            </SubStruct>
+            <SubStruct name ="BeautyFighter" vec ="TVecBeautyFighter" comment ="阵灵"> 
+                <Member type="UINT16"   name="wFighterID" comment="阵灵ID"/>
+            </SubStruct>
+        </Struct>
+        <Struct name="TeamMember" vec="TVecTeamMember" comment ="队伍玩家">
+            <Member type ="UINT64" name ="qwRoleID" comment ="玩家ID"/>
+            <Member type ="UINT8" name ="byPos" comment ="位置"/>
+            <Member type ="string" name ="strName" comment ="名字"/>
+            <Member type ="EMemberStatus" name="eStatus" comment="玩家状态"/>
+            <Member type ="UINT8" name="byVIPLevel" comment="vip等级"/>
+            <Member type ="ProtoCommon::SPlatformParam" name="oPlatformParam" comment="qq平台信息"/>
+            <Member type ="TVecTeamFighter" name ="vecFighter" comment="战斗对象"/>
+        </Struct>
+        <Struct name="TeamSetting" vec="TVecTeamSetting" comment ="队伍设定">
+            <Member type ="UINT32" name ="dwPassWord" comment ="队伍密码"/>
+        </Struct>
+        <Struct name ="TeamInfo" vec="TVecTeamInfo" comment ="队伍信息">
+            <Member type ="UINT32" name ="TeamID" comment="队伍ID"/>
+            <Member type ="UINT16" name ="DgnType" comment ="副本模板"/>
+            <Member type ="UINT64" name ="TeamLeader" comment ="队长ID"/>
+            <Member type ="UINT64" name ="qwPetOwner" comment ="出战阵灵的拥有者"/>
+            <Member type ="TeamSetting" name ="stSetting" comment = "队伍设置"/>
+            <Member type ="TVecTeamMember" name ="vecMember" comment ="队伍成员"/>
+        </Struct>
+        <Struct name ="TeamInfoForList" vec ="TVecTeamInfoForList" comment ="房间列表信息">
+            <Member type ="UINT32" name = "TeamID" comment ="队伍ID"/>
+            <Member type ="UINT16" name = "DgnType" comment ="房间ID"/>
+            <Member type ="TeamSetting" name ="stSetting" comment = "队伍设置密码0 或 1，1表示有密码"/>
+            <Member type ="TeamFighter" name ="stLeader" comment ="队长信息"/>
+            <Member type ="string" name ="strLeaderName" comment ="队长名字"/>
+            <Member type ="UINT8" name ="bySize" comment ="当前人数"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+        <Func name="GetTeamList" ret= "true" comment="根据模板查询可加入房间">
+            <Param type ="UINT16" name = "DgnType" comment ="房间ID"/>
+            <RetParam type="TVecTeamInfoForList" name="vecReturn" comment="返回的房间列表"/>
+        </Func>
+        <Func name="StopTeamList"  comment="停止查询">
+        </Func>
+        <Func name="CreateTeam" ret= "true" comment="请求创建房间">
+            <Param type="UINT16" name="DgnType" comment="副本类型"/>
+            <Param type ="TeamSetting" name ="stSetting" comment = "队伍设置"/>
+            <RetParam type="UINT32" name="dwTeamID" comment="房间ID"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="创建房间结果"/>
+        </Func>
+        <Func name="EnterTeam" ret = "true" comment="请求加入房间">
+            <Param type="UINT32" name="dwTeamID" comment="房间ID"/>
+            <Param type="UINT32"  name ="dwPassWord" comment ="队伍密码"/>
+            <RetParam type="UINT32" name="dwTeamID" comment="房间ID"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="请求加入房间"/>
+        </Func>
+        <Func name="ResetFigter" ret= "true" comment="请求更换将">
+            <Param type ="UINT64" name ="qwNewFighter" comment ="新将"/>
+            <Param type ="UINT8" name ="byPos"  comment ="将位置"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="请求更换将"/>
+        </Func>
+        <Func name="ChangeSelfPos" ret= "true" comment= "交换自己的将位置">
+            <Param type ="UINT8" name ="byPos1" comment ="第1个位置"/>
+            <Param type ="UINT8" name ="byPos2"  comment ="第2个位置"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="ChangeArrayPos" ret= "true" comment= "交换列的位置">
+            <Param type ="UINT8" name ="byPos1" comment ="第1个位置"/>
+            <Param type ="UINT8" name ="byPos2"  comment ="第2个位置"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="LeaveTeam" ret= "true"  comment="请求离开房间">
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="DoReady" ret= "true" comment="玩家已经准备好">
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="CancelDoReady" ret= "true" comment="玩家取消准备好">
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="EnterDgn" ret= "true" comment="请求进入副本">
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="KickOffPlayer" ret= "true" comment="请求踢玩家出队伍">
+            <Param type ="UINT64" name ="qwRoleID" comment ="踢的人"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="GetTeamInfo" ret= "true" comment="获取队伍信息">
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="ChangDgnType" ret= "true" comment="换副本请求">
+            <Param type ="UINT16" name = "NewDgnType" comment ="新副本类型"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="ChangPet" ret= "true" comment="换阵灵请求">
+            <Param type ="UINT64" name = "qwRoleID" comment ="阵灵的主人"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="ChangSetting" ret= "true" comment="更改设置请求">
+            <Param type ="TeamSetting" name ="stSetting" comment = "队伍设置"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+        <Func name="ChangLeader" ret= "true" comment="换队长">
+            <Param type ="UINT64" name ="qwNewLeader" comment = "新队长ID"/>
+            <RetParam type="ETEAMResult" name="eResult" comment="返回"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="TeamInfoUpdate" comment="房间信息更新">
+            <Param type ="TeamInfo" name ="stInfo" comment ="房间信息"/>
+        </Func>
+        <Func name="NoticeKicked" comment="通告自己被踢">
+            <Param type ="UINT16" name ="DgnType" comment ="副本类型"/>
+        </Func>
+        <Func name="UpdateTeamInfoList" comment="房间列表更新">
+            <Param type ="TeamListOP" name ="eOpType" comment ="操作类型"/>
+            <Param type="TVecTeamInfoForList" name="vecInfo" comment="修改的数据"/>
+        </Func>
+        <Func name="TeamDelForList" comment="队伍解散">
+            <Param type="UINT32" name="dwTeamID" comment="队伍ID"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DemonTower" id="70" proxy="GameServer" comment="锁妖塔">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+   </Refer>
+  <TypeDef>
+    <Struct name="SSpaceInfo" vec="TVecSpaceInfo" comment="魄空间列表">
+        <Member type="UINT32" name="dwSoulSpaceID" comment="魄空间id"/>
+        <Member type="UINT32" name="dwSoulSpaceLevel" comment="魄空间等级"/> 
+    </Struct>
+    
+    <Enum name="EAttackedType" desc="true" comment="被攻击类型">
+        <Member name="eAttackedType_DemonTower" value="1" comment="锁妖塔"/>
+    </Enum>
+    <Struct name="SRoleAttaked" vec="TVecRoleAttaked" comment="被攻击列表">
+        <Member type="UINT64" name="qwRoleID" comment="角色ID"/>
+        <Member type="UINT32" name="dwPos" comment="存储位置"/>
+        <Member type="UINT64" name="qwAtkRoleID" comment="攻击角色ID"/>
+        <Member type="string" name="strRoleName" comment="角色名"/>
+        <Member type="UINT8"  name="byLevel" comment="等级"/>
+        <Member type="UINT32" name="dwAttackedTime" comment="攻击时间"/>
+        <Member type="UINT32" name="dwFighterType" comment="战斗类型"/>        
+    </Struct>
+    <Struct name="SDemonToweAttackedInfo" vec="TVecDemonToweAttackedInfo" comment="锁妖塔被攻击列表">
+            <Member type="UINT64" name="qwAtkRoleID" comment="攻击角色ID"/>
+            <Member type="string" name="strRoleName" comment="角色名"/>
+            <Member type="UINT32" name="dwLayerID" comment="层数"/>
+            <Member type="UINT8"  name="byLevel" comment="等级"/>
+            <Member type="UINT32" name="dwAttackedTime" comment="攻击时间"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    <Func name="EnterDemonTower" ret="true" comment="进入锁妖塔 (暂时不用)">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="LeaveDemonTower" ret="true" comment="离开锁妖塔 (暂时不用)">
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    
+    <Func name="SealMonster" ret="true" comment="封印怪物(暂时不用)">
+      <Param type="UINT32" name="dwFloorID" comment="层数"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    <Func name="UpgradeSoulSpace" ret="true" comment="升级魄空间">
+      <Param type="UINT32" name="dwSoulSpaceID" comment="魄空间类型ID"/>
+      <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    <Func name="GetSoulSpace"  comment="获取魄空间列表">
+    </Func>
+    <Func name="GetAttackedList"  comment="获取被攻击列表">
+    </Func>
+    <Func name="TakeDayPrize"  ret="true"  comment="获取每日奖励">
+        <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+    </Func>
+    <Func name="TakeLayerPrize"  ret="true"  comment="领取每层奖励">
+        <Param type="UINT32" name="dwFloorID" comment="层数"/>
+        <RetParam type="UINT32" name="dwRet" comment="结果 0成功其他错误码"/>
+        <RetParam type="UINT32" name="dwFloorID" comment="最高已领奖层"/>
+    </Func>
+    <Func name="GetTopPrizeLayer"  ret="true"  comment="获取最高已领奖层">
+        <RetParam type="UINT32" name="dwFloorID" comment="层数"/>
+    </Func>
+    <Func name="ClearFightMonsterCd" ret="true"  comment="清除pve战斗cd">  
+      <RetParam type="UINT8" name="bRet" comment="0成功 其他失败"/>
+    </Func>
+    <Func name="GetLayerPrized" ret="true"  comment="获取已领奖励层数">  
+      <RetParam type="TVecUINT32" name="vecFloorID" comment="已领奖励层数"/>
+    </Func>
+  </FuncC2S>
+  
+  <FuncS2C>
+    <Func name="UpgradeSoulSpaceNotify"  comment="升级魄空间通知">
+      <Param type="UINT32" name="dwSoulSpaceID" comment="魄空间类型ID(升级结果)"/>
+      <Param type="UINT32" name="dwSoulSpaceLevel" comment="魄空间等级(升级结果)"/>
+    </Func>
+    <Func name="SoulSpaceListNotify"  comment="魄空间列表">
+      <Param type="TVecSpaceInfo" name="vecSpaceInfo" comment="魄空间列表"/>
+    </Func>
+    <Func name="DayPrizeResetNotify"  comment="每日重置奖励通知">
+        <Param type="UINT32" name="dwFloorID" comment="层数"/>
+    </Func>
+    <Func name="AttackListNotify"  comment="被攻击列表通知">
+        <Param type="TVecDemonToweAttackedInfo" name="oDemonToweAttackedInfo" comment="被攻击列表"/>
+    </Func>
+    <Func name="AttackChangedNotify"  comment="被攻击通知(收到通知后拉取被攻击列表)">
+    </Func>
+    <Func name="FloorPassNotify"  comment="通关协议">
+        <Param type="UINT32" name="dwFloorID" comment="通关层数"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="InviteGS" id="134" proxy="CenterServer" comment="邀请好友相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EInviteResult" comment="好友相关的结果">
+            <Member name="eInvite_Success" comment="成功"/>
+            <Member name="eInvite_Failed" comment="失败"/>
+            <Member name="eInvite_ErrorUserID" comment="玩家id错误"/>
+            <Member name="eInvite_ErrorCFGID" comment="配置id错误"/>
+            <Member name="eInvite_TaskInit" comment="任务未完成"/>
+            <Member name="eInvite_TaskTakedPrize" comment="任务奖励已领取"/>
+            <Member name="eInvite_ServerBusy" comment="任务奖励已领取"/>
+        </Enum>
+        <Enum name="EInvitedTask" comment="邀请任务状态">
+            <Member name="eInvitedTask_Init" comment="未完成"/>
+            <Member name="eInvitedTask_Finish" comment="已完成"/>
+            <Member name="eInvitedTask_TakePrized" comment="已领奖"/>
+        </Enum>
+        
+        <Struct name="SInvitedFriendDB"  vec="TVecInvitedFriendDB" comment="被邀请好友db信息">
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="UINT64" name="qwInviteID" comment="邀请账号ID"/>
+            <Member type="string" name="strName" comment="名字 "/>
+            <Member type="UINT8" name="byColor" comment="职业"/>
+            <Member type="UINT8" name="byJob" comment="职业"/>
+            <Member type="UINT8" name="bySex" comment="性别"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+            <Member type="UINT32" name="dwTotalRecharge" comment="总充值"/>
+        </Struct>
+        <Struct name="SInvitedFriend"  vec="TVecInvitedFriend" comment="被邀请好友信息">
+            <Member type="UINT64" name="qwUserID" comment="帐号ID"/>
+            <Member type="string" name="strName" comment="名字 "/>
+            <Member type="UINT8" name="byJob" comment="职业"/>
+            <Member type="UINT8" name="bySex" comment="性别"/>
+            <Member type="UINT8" name="byLevel" comment="等级"/>
+            <Member type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+            <Member type="UINT32" name="dwTotalRecharge" comment="总充值"/>
+            <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+        </Struct>
+        <Struct name="SInvitedTask"  vec="TVecInvitedTask" comment="邀请任务状态">
+            <Member type="UINT32" name="dwInviteTaskID" comment="任务id"/>
+            <Member type="UINT16" name="wTaskType" comment="任务类型"/>
+            <Member type="EInvitedTask" name="eInvitedTask" comment="任务状态"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetInvitedFriendList" ret="true" comment="获取被邀请好友列表">
+            <RetParam type="TVecInvitedFriend" name="vecInvitedFriend" comment="被邀请好友列表"/>
+        </Func>
+        <Func name="GetInvitedTaskList" ret="true" comment="邀请任务列表">
+            <RetParam type="TVecInvitedTask" name="vecInvitedTask" comment="邀请任务状态信息"/>
+        </Func>
+        <Func name="GetDayInvitedFriends" ret="true" comment="每日邀请好友数量">
+            <RetParam type="UINT32" name="dwInviteCnt" comment="邀请数量"/>
+        </Func>
+        <Func name="TakeTaskPrize" ret="true" comment="领取奖励">
+            <Param type="UINT32" name="dwPrizeID" comment="领奖任务ID"/>
+            <RetParam type="EInviteResult" name="eRet" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UpdateInvitedFriend" comment="被邀请好友信息更新">
+            <Param type="SInvitedFriend" name="oInvitedFriend" comment="查询返回"/>
+        </Func>
+        <Func name="UpdateInvitedTask" comment="被邀请任务信息更新">
+            <Param type="SInvitedTask" name="oInvitedTask" comment="被邀请任务信息"/>
+        </Func>
+        <Func name="UpdateDayInvitedFriends"  comment="每日邀请好友数量">
+            <Param type="UINT32" name="dwInviteCnt" comment="邀请数量"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Beauty" id="131" proxy="GameServer" comment="美女系统">
+   <Refer>
+     <Protocol name="ProtoCommon"/>
+     <Protocol name="ItemProt"/>
+   </Refer>
+  <TypeDef>
+    <Enum name="EBeautyRet" comment="美女系统操作结果">
+        <Member name="eBeautyRet_Sucess" comment="成功"/>
+        <Member name="eBeautyRet_LevelLimit" comment="等级不够"/>
+        <Member name="eBeautyRet_ErrorCFG" comment="配置错误"/>
+        <Member name="eBeautyRet_PackError" comment="背包格子不够"/>
+        <Member name="eBeautyRet_MoneyError" comment="钱不够"/>
+        <Member name="eBeautyRet_HeartError" comment="爱心不够"/>
+        <Member name="eBeautyRet_ErrorID" comment="美女ID错误"/>
+        <Member name="eBeautyRet_ChatCd" comment="聊天cd限制"/>
+        <Member name="eBeautyRet_LackItem" comment="物品不够"/>
+        <Member name="eBeautyRet_ExistBeauty" comment="已结识美女"/>
+        <Member name="eBeautyRet_GondError" comment="激活条件不满足"/>
+        <Member name="eBeautyRet_LotterTypeError" comment="抽奖类型错误"/>
+    </Enum>
+
+    <Enum name="ELotteryBeautyType" byte = "2" comment="抽奖类型">
+        <Member name="eLotteryBeautyType_OneSilver" value="1001" comment="单次银币抽奖"/>
+        <Member name="eLotteryBeautyType_OneGold" value="1002" comment="单次仙石抽奖"/>
+        <Member name="eLotteryBeautyType_OneLoveHeart" value="1003" comment="单次爱心抽奖"/>
+        <Member name="eLotteryBeautyType_OneFreeGold" value="1004" comment="单次仙石免费抽奖"/>
+        <Member name="eLotteryBeautyType_TenSilver"  value="2001" comment="10次银币抽奖"/>
+        <Member name="eLotteryBeautyType_TenGold" value="2002" comment="10次仙石抽奖"/>
+        <Member name="eLotteryBeautyType_TenLoveHeart" value="2003" comment="10次爱心抽奖"/>
+    </Enum>
+    <Struct name="SBeauty" vec="TVecBeauty" comment="美女信息">
+        <Member type="UINT64" name="qwRoleID" comment="玩家id"/>
+        <Member type="UINT16" name="wBeautyID" comment="美女id"/>
+        <Member type="UINT16" name="wBeautyLevel" comment="亲密等级"/>
+        <Member type="UINT32" name="dwBeautyExp" comment="亲密度"/>
+        <Member type="UINT16" name="wDayLoveType" comment="当天喜欢物品类型"/>
+        <Member type="UINT32" name="dwChatTime" comment="美女聊天cd(目前是共用cd次字段不用)"/>
+        <Member type="UINT32" name="dwPrizeExp" comment="已获得爱心的亲密度"/>
+        <Member type="bool" name="bFight" comment="是否出战"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="ActionScript">
+    <Func name="GetBeatyInfo" ret="true"  comment="获取美女信息">
+        <RetParam type="TVecBeauty" name="vecBeauty" comment="美女信息列表"/>
+        <RetParam type="UINT32" name="dwLoveCnt" comment="爱心个数"/>
+        <RetParam type="UINT32" name="dwNextChatTime" comment="下次聊天冷却时间"/>
+        <RetParam type="UINT32" name="dwNextGoldLotteryTime" comment="下次免费金币抽奖冷却时间"/>
+        <RetParam type="UINT32" name="dwNextSilverLotterTime" comment="下次免费银币冷却时间"/>
+        <RetParam type="UINT16" name="wBeautyID" comment="出战美女ID"/>
+    </Func>
+    <Func name="MeetBeauty" ret="true"  comment="结识美女">
+        <Param type="UINT16" name="wBeautyID" comment="美女id"/>
+        <RetParam type="EBeautyRet" name="eRet" comment="操作结果"/>
+    </Func>
+    <Func name="ChatBeauty" ret="true"  comment="和美女聊天">
+        <Param type="UINT16" name="wBeautyID" comment="美女id"/>
+        <RetParam type="EBeautyRet" name="eRet" comment="操作结果"/>
+    </Func>
+    <Func name="SendPrizeBeauty" ret="true"  comment="送美女礼品">
+        <Param type="UINT16" name="wBeautyID" comment="美女id"/>
+        <Param type="ItemProt::TVecItemCount" name="vecItemCount" comment="物品列表"/>
+        <RetParam type="EBeautyRet" name="eRet" comment="操作结果"/>
+    </Func>
+    <Func name="LotteryBeauty" ret="true"  comment="抽奖">
+        <Param type="ELotteryBeautyType" name="eLotteryBeautyType" comment="抽奖类型"/>
+        <RetParam type="EBeautyRet" name="eRet" comment="操作结果"/>
+        <RetParam type="ItemProt::TVecItemGenInfo" name="vecItemGenInfo" comment="物品列表"/>
+    </Func>
+    <Func name="BeautyFight" ret="true"  comment="美女出战">
+        <Param type="UINT16" name="wBeautyID" comment="美女id"/>
+        <RetParam type="EBeautyRet" name="eRet" comment="操作结果"/>
+    </Func>
+    <Func name="GetRareItemList" ret="true"  comment="获取稀有物品列表">
+        <RetParam type="TVecUINT16" name="vecItemID" comment="稀有物品列表"/>
+    </Func>
+    <Func name="GetLotteryFreeCnt"   comment="获取当前已免费抽奖次数">
+    </Func>
+ </FuncC2S>
+  <FuncS2C>
+    <Func name="BeautyNotify"  comment="美女信息更新">
+      <Param type="SBeauty" name="oBeauty" comment="美女信息"/>
+    </Func>
+    <Func name="LoveHeartCntNotify"  comment="爱心数目更新">
+      <Param type="UINT32" name="dwLoveCnt" comment="爱心个数"/>
+    </Func>
+    <Func name="ChatCdNotify"  comment="聊天cd">
+      <Param type="UINT32" name="dwNextChatTime" comment="下次聊天冷却时间"/>
+    </Func>
+    <Func name="FreeMoneyCdNotify"  comment="免费抽奖cd">
+      <Param type="ELotteryBeautyType" name="eLotteryBeautyType" comment="抽奖类型,只有单次金币，银币两种类型"/>
+      <Param type="UINT32" name="dwNextChatTime" comment="下次聊天冷却时间"/>
+    </Func>
+    <Func name="LotteryFreeCntNotify"   comment="当前已免费抽奖次数">
+        <Param type="UINT8" name="byFreeCnt" comment="已免费抽奖次数"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

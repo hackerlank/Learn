@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ItemProt" id="18" proxy="GameServer" comment="道具相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EItemResult" comment="使用道具结果">
+            <Member name="eItemSucceed" comment="成功"/>
+            <Member name="eItemFailed" comment="失败"/>
+            <Member name="eItemNotEnougth" comment="道具使用个数不足"/>
+            <Member name="eItemNotExist" comment="道具不存在"/>
+            <Member name="eItemErrBind" comment="道具为绑定"/>
+            <Member name="eItemErrUse" comment="道具无法使用"/>
+            <Member name="eItemStoreFull" comment="包裹或仓库满"/>
+            <Member name="eItemStoreErr" comment="包裹或仓库错误"/>
+            <Member name="eItemRangeErr" comment="道具距离过远"/>
+            <Member name="eItemNoStack" comment="道具为非堆叠的"/>
+            <Member name="eItemNoCoin" comment="游戏币不足"/>
+            <Member name="eItemCoinFull" comment="游戏币超出上限"/>
+            <Member name="eItemNoMoney" comment="仙石不足"/>
+            <Member name="eItemMoneyFull" comment="充值货币超出上限"/>
+            <Member name="eItemErrOper" comment="操作非法"/>
+            <Member name="eItemErrCD" comment="CD时间未到"/>
+            <Member name="eItemErrSlot" comment="装备位错误"/>
+            <Member name="eItemNotNeed" comment="无需此操作"/>
+            <Member name="eItemErrName" comment="名字太长"/>
+            <Member name="eItemExpired" comment="道具使用时间过期"/>
+            <Member name="eItemErrSell" comment="道具无法出售"/>
+            <Member name="eItemErrDrop" comment="道具无法丢弃"/>
+            <Member name="eItemErrLevel" comment="使用等级不够"/>
+            <Member name="eItemErrJob" comment="使用职业限制"/>
+            <Member name="eItemNoStuff" comment="材料不足"/>
+            <Member name="eItemErrDungeon" comment="副本中无法使用传送卷轴"/>
+            <Member name="eItemErrTransfMap" comment="该地图中无法使用传送卷轴"/>
+            <Member name="eItemMountExist" comment="已存在该坐骑"/>
+            <Member name="eItemMutualEquip" comment="属性类型"/>
+            <Member name="eItemMutual" comment="属性类型"/>
+            <Member name="eItemNoTakeOff" comment="无法脱下"/>
+            <Member name="eItemSkillExist" comment="该技能已存在"/>
+            <Member name="eItemFashionExist" comment="该时装已存在"/>
+            <Member name="eItemStoreMax" comment="背包已达上限"/>
+            <Member name="eItemDepotMax" comment="仓库已达上限"/>
+            <Member name="eItemErrOther" comment="其它错误"/>
+        </Enum>
+        <Enum name="ECittaResult" comment="心法操作结果" >
+            <Member name="eCittaSuccess"      comment="心法操作成功"            />
+            <Member name="eCittaFailed"       comment="心法操作失败"            />
+            <Member name="eCittaPackFull"     comment="心法操作时背包已满"      />
+            <Member name="eCittaMaterialLack" comment="材料不足"                />
+            <Member name="eCittaSlotNotEmpty" comment="心法槽已满"              />
+            <Member name="eCittaSlotEmpty"    comment="心法槽为空"              />
+            <Member name="eCittaSilverLack"   comment="银币不足"                />
+        </Enum>
+        <Enum name="ETrumpResult" comment="装备养成结果">
+            <Member name="eTrumpSuccess"                    comment="法宝养成成功"/>
+            <Member name="eTrumpFailed"                     comment="法宝养成失败"/>
+            <Member name="eTrumpExist"                      comment="法宝已经存在"/>
+            <Member name="eTrumpNotifyFailed"               comment="法宝通知失败"/>
+            <Member name="eTrumpNotActived"                 comment="法宝未激活"/>
+            <Member name="eTrumpNotExist"                   comment="法宝不存在" />
+            <Member name="eTrumpUpgradeMaterialLack"        comment="法宝强化材料不足" />
+            <Member name="eTrumpEvolveMaterialLack"         comment="法宝升阶材料不足" />
+            <Member name="eTrumpFull"                       comment="法宝位已满" />
+            <Member name="eTrumpIsEquiped"                  comment="法宝已装备" />
+            <Member name="eTrumpNotEquiped"                 comment="法宝未装备" />
+            <Member name="eTrumpActiveFailed"               comment="法宝解锁失败" />
+        </Enum>
+        <Enum name="EFashionResult" comment="时装养成结果">
+            <Member name="eFashionSucc" comment="时装养成成功"/>
+            <Member name="eFashionFailed" comment="时装养成失败"/>
+            <Member name="eFashionItemErr" comment="时装养成时所需物品不足"/>
+        </Enum>
+        <Enum name="EGemstoneResult" comment="宝石操作">
+            <Member name="eGemstoneSuccess" comment="宝石操作成功"/>
+            <Member name="eGemstoneFailed" comment="宝石操作失败"/>
+            <Member name="eGemstoneSlotNotEmpty" comment="宝石位置非空"/>
+            <Member name="eGemstoneSlotEmpty" comment="宝石位置空"/>
+            <Member name="eGemstonePackFull" comment="包裹满"/>
+            <Member name="eGemstoneHeroErr" comment="将错误"/>
+            <Member name="eGemstoneNoStone" comment="没有找到宝石"/>
+            <Member name="eGemstoneErrStone" comment="宝石合成目标不存在"/>
+            <Member name="eGemstoneMaterialLack" comment="宝石材料不足"/>
+            <Member name="eGemstoneHasSameType" comment="已经装备相同类型宝石"/>
+        </Enum>
+
+        <Enum name="EItemQuality" comment="道具品质">
+            <Member name="eColorNone" comment="无"/>
+            <Member name="eColorGreen" comment="绿"/>
+            <Member name="eColorBlue" comment="蓝"/>
+            <Member name="eColorPurple" comment="紫"/>
+            <Member name="eColorOrange" comment="橙"/>
+            <Member name="eColorBlackGold" comment="暗金"/>
+            <Member name="eColorEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EStoreType" comment="存储类型">
+            <Member name="eStoreNone" comment="无"/>
+            <Member name="eStorePack" comment="道具包裹"/>
+            <Member name="eStoreDepot" comment="角色仓库"/>
+            <Member name="eStorePlayerTrump" comment="法宝栏"/>
+            <Member name="eStorePlayerCitta" comment="心法栏"/>
+            <Member name="eStoreFashion" comment="时装栏"/>
+            <Member name="eStoreGemstone" comment="宝石栏"/>
+            <Member name="eStoreEquipTrump" comment="装备法宝栏"/>
+        </Enum>
+        <Enum name="EItemLoggerType" comment="道具日志类型">
+            <Member name="eItemLogger1" comment="试炼塔道具日志"/>
+        </Enum>
+        <Enum name="EBindType" global="server" comment="绑定类型">
+            <Member name="eBindNone" comment="未绑定"/>
+            <Member name="eBindGet" comment="获取绑定"/>
+            <Member name="eBindStren" comment="强化后绑定"/>
+        </Enum>
+        <Enum name="EBindUseType" global="server" comment="绑定优先使用类型">
+            <Member name="eBindUseNone" comment="只使用非绑定"/>
+            <Member name="eBindUseBind" comment="只使用绑定"/>
+            <Member name="eBindUseNoneFirst" comment="优先使用非绑定"/>
+            <Member name="eBindUseBindFirst" comment="优先使用绑定"/>
+        </Enum>
+        <Enum name="EItemType" global="server" comment="类型大类型">
+            <Member name="eItemNone" comment="无类型"/>
+            <Member name="eItemResource" comment="资源道具"/>
+            <Member name="eItemNormal" comment="普通道具"/>
+            <Member name="eItemTrump" comment="法宝"/>
+            <Member name="eItemEquipTrump" comment="装备法宝"/>
+            <Member name="eItemFashion" comment="时装"/>
+            <Member name="eItemFormation" comment="阵法"/>
+            <Member name="eItemCitta" comment="心法"/>
+            <Member name="eItemIntensify" comment="强化"/>
+            <Member name="eItemSkillBook" comment="技能书"/>
+            <Member name="eItemStone" comment="宝石"/>
+            <Member name="eItemStuff" comment="材料"/>
+            <Member name="eItemTask" comment="任务"/>
+            <Member name="eItemSpirit" comment="注灵"/>
+            <Member name="eItemSoul" comment="元神"/>
+            <Member name="eItemNeidan" comment="灵宠内丹"/>
+            <Member name="eItemVigour" comment="灵宠精魄"/>
+            <Member name="eItemOther" comment="其他"/>
+            <Member name="eItemEnd" comment=""/>
+        </Enum>
+        <Enum name="EItemSubType" global="server" comment="物品子类型">
+            <Member name="eItemSubNone" comment="无类型"/>
+            <Member name="eItemSubResource"             value="1"   comment="资源"/>
+            <Member name="eItemSubNormal"               value="2"   comment="普通"/>
+            <Member name="eItemSubFasionMaterial"       value="10"  comment="时装激活材料"/>
+            <Member name="eItemSubZTMaterial"           value="20"  comment="本命法宝温养材料"/>
+            <Member name="eItemSubWepaon"               value="21"  comment="武器"/>
+            <Member name="eItemSubRing"                 value="22"  comment="戒指"/>
+            <Member name="eItemSubNeck"                 value="23"  comment="项链"/>
+            <Member name="eItemSubHead"                 value="24"  comment="头盔"/>
+            <Member name="eItemSubChest"                value="25"  comment="胸甲"/>
+            <Member name="eItemSubLegging"              value="26"  comment="护腿"/>
+            <Member name="eItemSubMounts"               value="30"  comment="坐骑"/>
+            <Member name="eItemSubActiveTrump"          value="32"  comment="主动法宝"/>
+            <Member name="eItemSubPassiveTrump"         value="33"  comment="被动法宝"/>
+            <Member name="eItemSubFashion"              value="51"  comment="时装-神器"/>
+            <Member name="eItemSubFashion2"             value="52"  comment="时装-神衣"/>
+            <Member name="eItemSubSpirit"               value="141" comment="注灵"/>
+            <Member name="eItemSubPetSoul"              value="151" comment="兽魂"/>
+            <Member name="eItemSubEquipTrumpInnate"     value="205" comment="先天" />
+            <Member name="eItemSubEquipTrumpPassive"    value="206" comment="被动" />
+            <Member name="eItemSubEquipTrumpTransform"  value="207" comment="光环" />
+            <Member name="eItemSubEquipTrumpHalo"       value="208" comment="变身" />
+        </Enum>
+        <Enum name="ETrumpSlotType" signed="true" comment="法宝位类型">
+            <Member name="eSlotTrump1"  comment="法宝1"/>
+            <Member name="eSlotTrump2"  comment="法宝2"/>
+            <Member name="eSlotTrump3"  comment="法宝3"/>
+            <Member name="eSlotTrump4"  comment="法宝4"/>
+            <Member name="eSlotTrump5"  comment="法宝5"/>
+            <Member name="eSlotTrump6"  comment="法宝6"/>
+            <Member name="eSlotTrump7"  comment="法宝7"/>
+            <Member name="eSlotTrump8"  comment="法宝8"/>
+            <Member name="eSlotTrump9"  comment="法宝9"/>
+            <Member name="eSlotTrump10" comment="法宝10"/>
+        </Enum>
+        <Enum name="ECittaSlotType" signed="true" comment="心法位类型">
+            <Member name="eSlotCitta1" comment="心法1"/>
+            <Member name="eSlotCitta2" comment="心法2"/>
+            <Member name="eSlotCitta3" comment="心法3"/>
+            <Member name="eSlotCitta4" comment="心法4"/>
+            <Member name="eSlotCitta5" comment="心法5"/>
+            <Member name="eSlotCitta6" comment="心法6"/>
+            <Member name="eSlotCitta7" comment="心法7"/>
+            <Member name="eSlotCitta8" comment="心法8"/>
+        </Enum>
+        <Enum name="ECittaNameType" comment="心法姓名前缀类型">
+            <Member name="eNameNone"    value="0"  comment="破烂之"/>
+            <Member name="eNameAttack"             comment="力量之"/>
+            <Member name="eNameDefence"            comment="坚固的"/>
+            <Member name="eNameMgcDefence"         comment="道心之"/>
+            <Member name="eNameHP"                 comment="长生的"/>
+            <Member name="eNameHit"                comment="神佑的"/>
+            <Member name="eNameDodge"              comment="灵猴的"/>
+            <Member name="eNameCritical"           comment="刺客的"/>
+            <Member name="eNameAntiCri"            comment="平衡的"/>
+            <Member name="eNamePiece"              comment="破击之"/>
+            <Member name="eNameCounter"            comment="反击之"/>
+            <Member name="eNameResist"             comment="压制的"/>
+        </Enum>
+        <Struct name="SItemGenInfo" vec="TVecItemGenInfo" comment="显示用的模板数据">
+            <Member type="UINT16" name="wItemID" comment="模板ID"/>
+            <Member type="UINT32" name="dwCount" comment="数量"/>
+            <Member type="UINT8" name="byQuality" comment="品质"/>
+            <Member type="EBindType" name="eBindType" comment="绑定类型"/>
+            <Member type="UINT32" name ="dwTimeID" comment ="时钟ID"/>
+        </Struct>
+        <Struct name ="SInstCount" vec="TVecInstCount" comment= "物品列表">
+            <Member type="UINT64" name="qwInstID" comment="道具唯一ID"/>
+            <Member type="UINT32" name="wCount" comment="道具个数"/>
+        </Struct>
+        <Struct name ="SItemCount" vec="TVecItemCount" comment= "物品列表">
+            <Member type="UINT16" name="wItemID" comment="道具ID"/>
+            <Member type="UINT32" name="wCount" comment="道具个数"/>
+        </Struct>
+        <Struct name="SResource" vec="TVecResource" comment="资源列表">
+            <!--Member type="EResource" name="_eRes" comment="资源类型"/-->
+            <Member type="ProtoCommon::EMoneyType" name="_eRes" comment="资源(货币)类型"/>
+            <Member type="UINT32" name="_dwValue" comment="资源(货币)数量"/>	
+        </Struct>
+        <Struct name="RoleItemInfo" vec="TVecRoleItemInfo" comment="EDataType:eRoleItemInfo">
+            <Member type="UINT64" name="qwInstID" comment="物品唯一ID"/>
+            <Member type="UINT16" name="wItemID" comment="物品模板"/>	
+            <Member type="UINT8" name="byStoreType" comment="背包类型-数据来源：EStoreType"/>
+            <Member type="INT16" name="wIndex" comment="所属背包的位置"/>
+            <Member type="UINT16" name="wCount" comment="具的堆叠数"/>
+            <Member type="UINT8" name="byBind" comment="绑定类型0非绑定，1绑定"/>
+            <Member type="UINT8" name="byExpired" comment="是否时效，>0 时效物品"/>
+            <Member type="UINT32" name="dwExpireTime" comment="时效过期时间"/>
+            <Member type="UINT32" name ="dwMark" comment ="标记为错误物品,存下标记时间"/>
+        </Struct>
+        <Struct name="SShuffleInfo" vec="TVecShuffleInfo" comment="洗炼信息" >
+            <Member type="UINT32" name="dwType"          comment="洗炼类型"/>
+            <Member type="UINT32" name="dwValue"         comment="洗炼数值"/>
+        </Struct>
+        <Struct name="SItem" vec="TVecItem" comment="道具的信息">
+            <Member type="RoleItemInfo" name="sItemInfo" comment="道具信息"/>
+            <SubStruct name="SStack" vec="TVecStack" comment="堆叠道具的信息，只用于识别">
+            </SubStruct>
+            <SubStruct name="SEquipTrump" vec="TVecEquipTrump" comment="装备的信息">
+                <Member type="UINT64"           name="qwOwnerID"          comment="散仙唯一ID，属于散仙的物品时有效"/>
+                <Member type="UINT8"            name="byIntensifyLvl"     comment="当前强化等级"/>
+                <Member type="UINT8"            name="byIntensifyLvlMax"  comment="可强的最高等级"/>
+                <Member type="UINT32"           name="dwBlessing"         comment="强化祝福值"/>
+                <Member type="TVecShuffleInfo"  name="vecShuffleInfo"     comment="洗炼信息" />
+                <Member type="TVecShuffleInfo"  name="vecNowReplace"      comment="可替换的洗炼信息"/>
+                <Member type="UINT32"           name="dwXiLianBlessing"   comment="洗练祝福值"/>
+            </SubStruct>
+            <SubStruct name="SCitta" vec="TVecCitta" comment="心法的信息" >
+                <Member type="UINT64"   name="qwOwnerID"   comment="散仙唯一ID，属于散仙的物品时有效"/>
+                <Member type="ECittaNameType"  name="eCittaNameType" comment="心法姓名前缀" />
+                <Member type="ProtoCommon::TVecFtAttrMod" name="oAttrVec" comment="增加属性"/>
+                <Member type="UINT32"   name="dwSkillID"    comment="附加技能ID" />
+                <Member type="UINT32"   name="dwSignetID"   comment="印记ID" />
+            </SubStruct>
+            <SubStruct name="STrump" vec="TVecTrump" comment="法宝信息">
+                <Member type="UINT64" name="qwRoleID"   comment="拥有者RoleID" />
+                <Member type="UINT8"  name="byActived"  commont="法宝是否激活(始终为1)" />
+                <Member type="UINT8"  name="byUsed"     comment="法宝是否出战" />
+                <Member type="UINT32" name="dwExp"      comment="法宝祭炼值" />
+                <Member type="UINT16" name="wLevel"     comment="法宝祭炼等级" />
+                <Member type="UINT16" name="wRank"      comment="法宝祭炼阶数" />
+            </SubStruct>
+            <SubStruct name="SFashion" vec="TVecFashion" comment="时装信息">
+                <Member type="UINT8" name="byLevel" comment="时装等级"/>
+                <Member type="UINT32" name="dwExp" comment="时装经验"/>
+                <Member type="UINT8" name="bySelected" comment="是否选中"/>
+                <Member type="UINT8" name="byHide" comment="是否隐藏"/>
+            </SubStruct>
+            <SubStruct name="SGemstone" vec="TVecGemstone" comment="宝石信息">
+                <Member type="UINT64"   name="qwOwnerID"   comment="散仙唯一ID"/>
+            </SubStruct>
+
+        </Struct>
+        <Struct name="SStoreStream" comment="背包信息">
+            <Member type="UINT16" name="wCapacity" comment="背包大小(不发最大值，最大值由两端的配置决定)"/>
+            <Member type="TVecItem" name="vecItem" comment="物品信息"/>
+        </Struct>
+        <Struct name="SItemColdTime" vec="TVecItemColdTime" comment="玩家道具冷却时间">
+            <Member type="UINT16" name="wID" comment="冷却ID"/>
+            <Member type="UINT32" name="dwTime" comment="冷却到期时间"/>
+        </Struct>
+        <Struct name="SAddItemMsg" vec="TVecAddItemMsg" comment="玩家获得道具">
+            <Member type="UINT16" name="wItemID" comment="道具的ID"/>
+            <Member type="UINT16" name="wCount" comment="道具个数"/>
+            <Member type="UINT8" name="byQuality" comment="道具品质"/>
+        </Struct>
+        <Struct name="SLoggedItem" vec="TVecLoggedItem" comment="记录的道具">
+            <Member type="UINT16" name="wItemID" comment="道具ID"/>
+            <Member type="UINT8" name="byQuality" comment="品质"/>
+            <Member type="UINT32" name="dwCount" comment="道具个数"/>
+            <Member type="bool" name="bBind" comment="是否绑定"/>
+        </Struct>
+        <Struct name="SGMMailTarget" vec="TVecGMMailTarget" comment="收件人信息">
+            <Member type="UINT64" name="qwTargetID" comment="收件人ID"/>
+            <Member type="string" name="strTarget" comment="收件人名"/>
+        </Struct>
+        <Struct name="SGMMailItem" vec="TVecGMMailItem" comment="道具信息">
+            <Member type="UINT16" name="wItemID" comment="道具配置ID"/>
+            <Member type="UINT32" name="wItemCount" comment="道具数量"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GetStore" ret="true" comment="请求包裹信息(整个包裹)">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <RetParam type="SStoreStream" name="stStoreStream" comment="背包信息"/>
+            <RetParam type="UINT32" name="dwNextUnlockTime" comment="下一个解锁背包空间的时间 0-表示可解锁 0xFFFFFFFF-表示没有可解锁的了 其他为秒"/>
+        </Func>
+        <Func name="UseItem" ret="true" comment="请求使用包裹中的道具">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwRoleID" keep="true" comment="针对的角色ID"/>
+            <Param type="UINT64" name="qwMercenID" keep="true" comment="针对的佣兵ID"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="优先使用的物品实例ID"/>
+            <Param type="UINT16" name="wStack" keep="true" comment="使用个数(只针对堆叠道具)"/>
+            <!--LocParam type="UINT16" name="wItemID" keep="true" comment="道具模板ID"/-->
+            <RetParam type="EItemResult" name="eResult" comment="使用道具结果"/>
+        </Func>
+        <Func name="ExpandStore" ret="true" comment="扩充包裹或仓库">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT8" name="byCount" comment="扩充个数"/>
+            <Param type="ProtoCommon::ECoinType" name="eCoinType" comment="货币类型"/>
+            <RetParam type="EItemResult" name="eResult" comment="扩充结果"/>
+        </Func>
+        <Func name="RelocateStoreItem" ret="true" comment="包裹或仓库中道具换位置">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="道具的实例ID"/>
+            <Param type="INT16" name="wNewIndex" comment="道具在包裹中新的位置0开始"/>
+            <RetParam type="EItemResult" name="eResult" comment="换位置的结果"/>
+        </Func>
+        <Func name="TidyupStore" ret="true" comment="整理包裹或仓库">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <RetParam type="EItemResult" name="eResult" comment="整理的结果"/>
+        </Func>
+        <Func name="SplitStackItem" ret="true" comment="拆分包裹或仓库中的堆叠类道具">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="道具的实例ID"/>
+            <Param type="UINT16" name="wStack" comment="拆分出来的堆叠数量"/>
+            <Param type="INT16" name="wIndex" comment="拆分出来的堆叠道具的存储位置(-1表示选第一个空位)"/>
+            <RetParam type="EItemResult" name="eResult" comment="拆分的结果"/>
+        </Func>
+        <Func name="MergeStackItem" ret="true" comment="合并包裹或仓库中的堆叠类道具">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwFromInstID" keep="true" comment="源道具的实例ID"/>
+            <Param type="UINT64" name="qwToInstID" keep="true" comment="目的道具的实例ID"/>
+            <RetParam type="EItemResult" name="eResult" comment="合并的结果"/>
+        </Func>
+        <Func name="DestroyStoreItem" ret="true" comment="销毁包裹或仓库中的道具">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="道具的实例ID"/>
+            <RetParam type="EItemResult" name="eResult" comment="销毁的结果"/>
+        </Func>
+        <Func name="TransferItem" ret="true" comment="在包裹和仓库之间移动道具">
+            <Param type="EStoreType" name="eFromStoreType" comment="源存储类型"/>
+            <Param type="EStoreType" name="eToStoreType" comment="目的存储类型"/>
+            <Param type="UINT64" name="qwInstID" comment="道具的实例ID"/>
+            <Param type="INT16" name="wIndex" comment="道具在目的存储中的位置(-1表示选第一个空位)"/>
+            <RetParam type="EItemResult" name="eResult" comment="移动的结果"/>
+        </Func>
+        <Func name="SellItem" ret="true" comment="请求出售包裹中的道具-出售给系统">
+            <Param type="TVecUINT64" name="vecInstID" keep="true" comment="出售的道具实例ID集合"/>
+            <!--LocParam type="TVecUINT16" name="vecItemID" comment="道具的ID"/-->
+            <RetParam type="EItemResult" name="eResult" comment="使用道具结果"/>
+        </Func>
+        <Func name="SellItemWithCount" ret="true" comment="请求按个数出售包裹中的道具-出售给系统">
+            <Param type="EStoreType" name="eStoreType" keep="true" comment="存储类型"/>
+            <Param type="UINT64" name="qwInstID" keep="true" comment="优先卖出的物品实例ID"/>
+            <Param type="UINT16" name="wStack" keep="true" comment="卖出个数"/>
+            <RetParam type="EItemResult" name="eResult" comment="卖出道具结果"/>
+        </Func>
+        <Func name="UnlockPack" ret="true" comment="解锁背包格子">
+            <RetParam type="EItemResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="OpenItemLogger" comment="打开道具日志">
+            <Param type="EItemLoggerType" name="eType" comment=""/>
+        </Func>
+        <Func name="RecordTransfPoint" ret="true" comment="记录传送点">
+            <Param type="UINT64" name="qwInstID" comment="道具ID"/>
+            <Param type="UINT16" name="wIndex" comment="存储序号"/>
+            <RetParam type="EItemResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="TransfMapPoint" ret="true" comment="传送">
+            <Param type="UINT64" name="qwInstID" comment="道具ID"/>
+            <Param type="UINT16" name="wIndex" comment="存储序号"/>
+            <Param type="UINT16" name="wMapID" comment="地图ID"/>
+            <RetParam type="EItemResult" name="eResult" comment="结果"/>
+        </Func>
+        <Func name="WearCitta" ret="true" comment="请求装备心法" >
+            <Param type="UINT64" name="qwInstID" keep="true" comment="装备的实例ID"/>
+            <Param type="ECittaSlotType" name="eSlotType" keep="true" comment="装备位的类型"/>
+            <RetParam type="ECittaResult" name="eResult" comment="穿上装备的结果"/>
+        </Func>
+        <Func name="TakeoffCitta" ret="true" comment="请求卸下心法" >
+            <Param type="ECittaSlotType" name="eSlotType" keep="true" comment="装备位的类型"/>
+            <Param type="INT16" name="wIndex" keep="true" comment="放入心法栏位置：-1表示右击脱下，非-1表示放入包裹的位置"/>
+            <RetParam type="ECittaResult" name="eResult" comment="脱下装备的结果"/>
+        </Func>
+        <Func name="MergeCitta" ret="true" comment="请求合成心法">
+            <Param type="EBindUseType" name="eBindType" comment="绑定使用方式" />
+            <Param type="UINT16" name="wItemID" comment="制作心法模版ID" />
+            <Param type="UINT16" name="wCount"  comment="制作数量"  />
+            <RetParam type="ECittaResult" name="eResult" comment="结果" />
+            <RetParam type="TVecItem" name="vecItemCitta" comment="新增的道具"/>
+        </Func>
+        <Func name="BreakCitta" ret="true" comment="请求分解心法">
+            <Param type="TVecUINT64"  name="vecInstID" comment="物品唯一ID" />
+            <RetParam type="ECittaResult"    name="eResult"     comment="结果" />
+            <RetParam type="TVecItemGenInfo" name="vecItemInfo" comment="分解产生的道具" />
+        </Func>
+        <Func name="ActiveTrump" ret="true" comment="激活法宝">
+            <Param type="UINT16" name="wItemID" comment="法宝道具ID"/>
+            <RetParam type="ETrumpResult" name="eResult"    comment="结果"/>
+            <RetParam type="TVecTrump"    name="vecTrump"   comment="新法宝"/>
+        </Func>
+        <Func name="EquipTrump" ret="true" comment="出战法宝">
+            <Param type="UINT64" name="qwInstID" comment="法宝的实例ID" />
+            <RetParam type="ETrumpResult" name="eResult"    comment="结果" />
+            <RetParam type="TVecTrump"    name="vecTrump"   comment="新法宝"/>
+        </Func>
+        <Func name="UnEquipTrump" ret="true" comment="卸下法宝">
+            <Param type="UINT64" name="qwInstID" comment="法宝的实例ID" />
+            <RetParam type="ETrumpResult" name="eResult"    comment="结果" />
+            <RetParam type="TVecTrump"    name="vecTrump"   comment="新法宝"/>
+        </Func>
+        <Func name="UpgradeTrump" ret="true" comment="祭炼法宝" >
+            <Param type="UINT64"            name="qwInstID" comment="法宝的实例ID"/>
+            <Param type="UINT8"             name="byOneKey" comment="是否一键"/>
+            <RetParam type="ETrumpResult"   name="eResult"  comment="结果" />
+            <RetParam type="TVecTrump"      name="vecTrump" comment="新法宝"/>
+        </Func>
+        <Func name="EvolveTrump" ret="true" comment="提升法宝品级">
+            <Param    type="UINT64"         name="qwInstID"    comment="法宝的实例ID" />
+            <RetParam type="ETrumpResult"   name="eResult"     comment="结果" />
+            <RetParam type="TVecTrump"      name="vecTrump"    comment="新法宝"/>
+        </Func>
+        <Func name="FashionActive" ret="true" comment="激活时装">
+            <Param type="UINT16" name="wItemID" comment="时装物品ID"/>
+            <RetParam type="EFashionResult" name="eResult" comment="结果" />
+        </Func>
+        <Func name="FashionHide" ret="true" comment="隐藏所选时装">
+            <Param type="UINT8" name="byType" comment="0-神器时装 1-神依时装"/>
+            <Param type="UINT8" name="byHide" comment="0-显示 1-隐藏"/>
+            <RetParam type="EFashionResult" name="eResult" comment="结果" />
+        </Func>
+        <Func name="FashionChange" ret="true" comment="选择时装">
+            <Param type="UINT64" name="qwInstID" comment="时装唯一ID"/>
+            <RetParam type="EFashionResult" name="eResult" comment="结果" />
+        </Func>
+        <Func name="FashionUpgrade" ret="true" comment="时装炼化">
+            <Param type="UINT64" name="qwInstID" comment="时装物品ID"/>
+            <Param type="UINT8"  name="byOneKey" comment="是否一键"/>
+            <RetParam type="EFashionResult" name="eResult" comment="结果" />
+        </Func>
+        <Func name="WareGemStone" ret="true" comment="穿戴宝石">
+            <Param type="UINT16" name="wItemID" comment="宝石模板ID"/>
+            <Param type="UINT64" name="qwFighterID" comment="将ID"/>
+            <Param type="UINT8" name="byPos" comment="穿戴位置"/>
+            <RetParam type="EGemstoneResult" name="eResult" comment="结果" />
+            <RetParam type="UINT64" name="qwFighterID" comment="将ID"/>
+            <RetParam type="UINT8" name="byPos" comment="穿戴位置"/>
+            <RetParam type="SGemstone" name="Item" comment="宝石" />
+        </Func>
+        <Func name="TakeOffGemStone" ret="true" comment="取下宝石">
+            <Param type="UINT64" name="qwFighterID" comment="将ID"/>
+            <Param type="UINT8" name="byPos" comment="穿戴位置0~5,6表示全部卸下"/>
+            <RetParam type="EGemstoneResult" name="eResult" comment="结果" />
+            <RetParam type="UINT64" name="qwFighterID" comment="将ID"/>
+            <RetParam type="UINT8" name="byPos" comment="穿戴位置"/>
+        </Func>
+        <Func name="ComposeGemStone" ret="true" comment="合成宝石">
+            <Param type="UINT16" name="wItemID" comment="宝石模板ID"/>
+            <Param type="UINT32" name="dwNum" comment="合成数量"/>
+            <RetParam type="EGemstoneResult" name="eResult" comment="结果" />
+        </Func>
+        <Func name="ComposeGemStoneOneKey" ret="true" comment="一键合成宝石">
+            <Param type="TVecGMMailItem" name="vecStone" comment="合成宝石列表"/>
+            <RetParam type="EGemstoneResult" name="eResult" comment="结果" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="StoreNotify" comment="包裹或仓库道具通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT16" name="wStoreSize" comment="包裹或仓库的容量"/>
+            <Param type="TVecItem" name="vecStoreItem" comment="包裹或仓库中道具的列表"/>
+        </Func>
+        <Func name="PackNextUnlockTime" ret="false" comment="解锁格子还需要多少时间">
+            <Param type="UINT32" name="dwTime" comment="时间，单位秒"/>
+        </Func>
+        <Func name="StoreSizeChangeNotify" comment="包裹或仓库容量改变通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT16" name="wStoreSize" comment="包裹或仓库的容量"/>
+        </Func>
+        <Func name="StoreItemAddNtf" comment="当前玩家的包裹或仓库中道具增加通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="TVecItem" name="vecStoreItem" comment="包裹或仓库中道具的列表"/>
+            <Param type="bool" name="bNew" comment="是否新获得道具"/>
+        </Func>
+        <Func name="StoreItemDelNtf" comment="当前玩家的包裹或仓库中道具删除通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="TVecUINT64" name="vecInstID" comment="道具的实例ID列表"/>
+        </Func>
+        <Func name="StackItemUpdate" comment="堆叠道具数量刷新通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Param type="UINT64" name="qwInstID" comment="堆叠道具的实例ID"/>
+            <Param type="UINT16" name="wStack" comment="当前堆叠数"/>
+        </Func>
+        <Func name="OpenDepot" comment="打开包裹或仓库">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+        </Func>
+        <Func name="ItemBindChangeNtf" comment="道具绑定改变通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT64" name="qwInstID" comment="道具的实例ID"/>
+            <Param type="EBindType" name="eBindType" comment="道具的绑定类型"/>
+            <Param type="bool" name="bBind" comment="道具是否绑定"/>
+        </Func>
+        <Func name="ItemCDNtf" comment="道具CD时间通知">
+            <Param type="UINT8" name="byType" comment="冷却类型0:ItemID 1:GroupID"/>
+            <Param type="SItemColdTime" name="rItemCD" comment="道具CD"/>
+        </Func>
+        <Func name="ItemExpireTimeNtf" comment="道具的到期时间通知">
+            <Param type="UINT64" name="qwInstID" comment="道具的实例ID"/>
+            <Param type="UINT32" name="dwExpireTime" comment="到期时间(1970年1月1日0时开始的秒数)"/>
+        </Func>
+        <Func name="ItemChangeNotify" comment="道具(装备)属性变化通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="UINT64" name="qwOwnerID" comment="所有者ID(可能是主将，副将，宠物...)"/>
+            <Param type="SItem" name="rStoreItem" comment="装备更新后信息"/>
+        </Func>
+        <Func name="ClearAllItemCDNtf" comment="清除道具使用冷却CD">
+        </Func>
+        <Func name="SlotItemCDNotify" comment="角色道具冷却通知">
+            <Param type="TVecItemColdTime" name="vecItemCold" comment="道具使用冷却时间"/>
+            <Param type="TVecItemColdTime" name="vecGroupCold" comment="道具公共冷却时间"/>
+        </Func>
+        <Func name="AddItemSystemMsg" comment="角色获得道具提示">
+            <Param type="TVecAddItemMsg" name="vecAddItemMsg" comment="道具获得提示"/>
+        </Func>
+        <Func name="ItemErrNfg" comment="错误提示">
+            <Param type="EItemResult" name="eResult" comment="提示"/>
+        </Func>
+        <Func name="AgainAddloggedItemNotify" comment="再一次增加记录道具通知">
+            <Param type="TVecLoggedItem" name="rVecLoggedItem" comment="道具列表"/>
+        </Func>
+        <Func name="AddLoggedItemNotify" comment="增加记录道具通知">
+            <Param type="TVecLoggedItem" name="rVecLoggedItem" comment="道具列表"/>
+        </Func>
+        <Func name="UpdateLoggedStackItemNotify" comment="更新记录的堆叠道具通知">
+            <Param type="UINT16" name="wItemID" comment="ID"/>
+            <Param type="UINT8" name="byQuality" comment="品质"/>
+            <Param type="UINT32" name="dwCount" comment="数目"/>
+        </Func>
+        <Func name="CittaAddNtf" comment="当前玩家制造或者分解心法，包裹或仓库中道具增加通知">
+            <Param type="EStoreType" name="eStoreType" comment="存储类型"/>
+            <Param type="TVecItem" name="vecStoreItem" comment="包裹或仓库中道具的列表"/>
+            <Param type="bool" name="bNew" comment="是否新获得道具"/>
+        </Func>
+        <Func name="NoticeUseItemNotify" comment="更新记录的堆叠道具通知">
+            <Param type="UINT16" name="wItemID" comment="ID"/>
+            <Param type="UINT32" name="dwNum" comment="使用物品数量"/>
+            <Param type="TVecResource" name="vecRes" comment="资源"/>
+            <Param type="TVecItemGenInfo" name="vecItem" comment="物品"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

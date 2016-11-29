@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="AnswerProt" id="95" proxy="CenterServer" comment="答题协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+	    <Enum name="EAnswerResult" comment="答题操作结果" >
+            <Member name="EAnswerResult_Suc"                comment="操作成功" />
+            <Member name="EAnswerResult_Lack"               comment="技能使用完" />
+			<Member name="EAnswerResult_No"                 comment="技能无法使用" />
+			<Member name="EAnswerResult_Err"                comment="操作失败" />
+        </Enum>
+	   <Enum name="EAnswerSkill" comment="答题技能" >
+            <Member name="EAnswerSkill_NONE"            comment="无技能" />
+            <Member name="EAnswerSkill_1"               comment="仙人之路" />
+			<Member name="EAnswerSkill_2"               comment="天官赐福" />
+			<Member name="EAnswerSkill_3"               comment="驱散迷雾" />
+            <Member name="EAnswerSkill_END"              comment="最大值"/>
+        </Enum>
+        <Struct name="SAnswerTime"  comment="答题时间控制" >
+            <Member type="UINT32" name="dwReadTime" comment="玩家阅读时间" />
+            <Member type="UINT32" name="dwAnswerTime" comment="玩家答题时间" />
+			<Member type="UINT32"  name="dwResultTime" comment="玩家显示结果时间" />
+			<Member type="UINT32" name="dwEndTime" comment="玩家答题结束时间" />
+        </Struct>
+		<Struct name="SAnswerSkill" vec="TVecAnswerSkill" comment="答题技能信息" >
+            <Member type="EAnswerSkill" name="eSkillType" comment="技能ID" />
+            <Member type="UINT8" name="byRemain" comment="剩余次数" />
+        </Struct>
+		<Struct name="SAnswerTopic" comment="答题题目信息" >
+            <Member type="UINT8" name="byIndex" comment="编号" />
+			<Member type="UINT32"  name="dwTopicID" comment="题目ID" />
+			<Member type="UINT8"  name="byAnswer1" comment="答案1" />
+			<Member type="UINT8"  name="byAnswer2" comment="答案2" />
+			<Member type="UINT8"  name="byAnswer3" comment="答案3" />
+			<Member type="UINT8"  name="byAnswer4" comment="答案4" />
+			<Member type="SAnswerTime"  name="sTimeInfo" comment="题目时间" />
+			<Member type="UINT32"  name="dwRemain" comment="剩余题目数" />
+        </Struct>
+		<Struct name="SAnswerPlayer"  comment="玩家信息" >
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID" />
+            <Member type="bool"   name="bRight" comment="本次答题是否正确" />
+            <Member type="UINT32" name="dwThisScore" comment="本题玩家获得积分" />
+			<Member type="UINT32" name="dwScore" comment="玩家积分" />
+			<Member type="UINT32" name="dwRank" comment="玩家排名" />
+			<Member type="UINT32" name="dwRight" comment="玩家答对题目数" />
+			<Member type="UINT32" name="dwUntilFail" comment="连续答对题目数" />
+			<Member type="TVecAnswerSkill" name="vecSkillInfo" comment="技能信息" />
+        </Struct>
+		<Struct name="SAnswerRank"  vec="TVecAnswerRank" comment="排名信息" >
+		    <Member type="UINT32"  name="dwRank" comment="玩家排名" />	
+			<Member type="string"  name="strName" comment="玩家名字" />	
+			<Member type="UINT32"  name="dwScore" comment="玩家积分" />	
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+	    <Func name="Join"  comment="玩家报名">
+        </Func>
+		<Func name="Leave"  comment="玩家离开">
+        </Func>
+		<Func name="GetCoutdown" ret="true" comment="获取活动开始倒计时">
+		    <RetParam type="UINT32" name="dwTime" comment="倒计时时间"/>
+	        <RetParam type="SAnswerPlayer" name="sPlayerInfo" comment="玩家信息"/>
+		    <RetParam type="bool" name="bRet" comment="是否开启面板"/>
+        </Func>
+		<Func name="Answer"  ret="true" comment="玩家答题">
+		    <Param type="UINT8" name="byAnswerID" comment="玩家选择答案"/>
+			<RetParam type="UINT32" name="dwIndex" comment="题目"/>
+			<RetParam type="EAnswerResult" name="eResult" comment="答题结果返回"/>
+        </Func>
+		<Func name="UseSkill"  ret="true" comment="玩家使用技能">
+		    <Param type="EAnswerSkill" name="eSkillType" comment="技能ID"/>
+			<RetParam type="EAnswerSkill" name="eSkillTypeRet" comment="技能ID"/>
+			<RetParam type="UINT8" name="byAnswer1" comment="答案1"/>
+			<RetParam type="UINT8" name="byAnswer2" comment="答案2"/>
+			<RetParam type="EAnswerResult" name="eResult" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+	   <Func name="AnswerAlarm"  comment="答题预告">
+	       <Param type="UINT32" name="dwTime" comment="时间"/>
+       </Func>
+	   <Func name="AnswerCountdown"  comment="答题开始倒计时30秒通知">
+	       <Param type="UINT32" name="dwTime" comment="时间"/>
+       </Func>
+       <Func name="AnswerBegin"  comment="答题开始">
+	       <Param type="UINT32" name="dwTime" comment="时间"/>
+       </Func>
+	   <Func name="AnswerEnd"  comment="答题结束">
+	       <Param type="UINT32" name="dwTime" comment="时间"/>
+       </Func>
+	   <Func name="SendTopic"  comment="发送题目">
+	       <Param type="SAnswerTopic" name="sTopic" comment="题目信息"/>
+       </Func>
+	   <Func name="SendAnswerInfo"  comment="答完一题信息发送">
+	       <Param type="SAnswerPlayer" name="sPlayerInfo" comment="玩家信息"/>
+		   <Param type="TVecAnswerRank"   name="vecRankInfo" comment="排名列表"/>
+       </Func>
+    </FuncS2C>
+</Protocol>

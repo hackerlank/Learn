@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GameSvrComm" id="67" comment="GameServer之间的通信协议">
+  <TypeDef>
+    <Struct name="STest" comment="测试结构体">
+      <Member type="UINT32" name="dwParam" comment="成员1"/>
+    </Struct>
+  </TypeDef>
+  <FuncC2S client="CppSvr">
+    <Func name="TestFuncReq" comment="测试函数请求">
+      <Param type="STest" name="rTest" comment="参数1"/>
+    </Func>
+    <Func name="TestRetFuncReq" ret="true" comment="测试返回函数请求">
+      <Param type="STest" name="rTest" keep="true" comment="参数1"/>
+      <RetParam type="UINT32" name="dwRetParam" comment="返回参数1"/>
+    </Func>
+  </FuncC2S>
+  <FuncS2C>
+    <Func name="TestFuncAck" comment="测试函数返回">
+      <Param type="STest" name="rTest" comment="参数1"/>
+    </Func>
+  </FuncS2C>
+</Protocol>

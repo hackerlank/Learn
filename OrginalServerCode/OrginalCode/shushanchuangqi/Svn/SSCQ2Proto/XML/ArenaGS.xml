@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="ArenaGS" id="26" proxy = "CenterServer" comment="竞技场协议">
+    <Refer>
+        <Protocol name="BattleGS" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EArenaLevel" comment="竞技等级" >
+            <Member name="EArenaLevel_NONE"            comment="无等级" />
+            <Member name="EArenaLevel_IRON"            comment="黑铁" />
+            <Member name="EArenaLevel_COPPER"           comment="青铜" />
+            <Member name="EArenaLevel_SILVER"           comment="白银" />
+            <Member name="EArenaLevel_GOLD"             comment="黄金" />
+            <Member name="EArenaLevel_DIAMOND"          comment="钻石" />
+            <Member name="EArenaLevel_END"              comment="最大值"/>
+        </Enum>
+        <Enum name="EArenaResult" comment="竞技场操作结果">
+            <Member name="EArenaR_Suc" comment="成功"/>
+            <Member name="EArenaR_NoEnter" comment="没有参加斗剑"/>
+            <Member name="EArenaR_CDTime" comment="正在冷却"/>
+            <Member name="EArenaR_NoChanllengeTimes" comment="挑战次数用完"/>
+            <Member name="EArenaR_BuyTimesChanllengeTimes" comment="购买挑战次数已达上限"/>
+            <Member name="EArenaR_LackMoney" comment="钱钱不够"/>
+            <Member name="EArenaR_EnemyNoExist" comment="挑战目标不存在"/>
+            <Member name="EArenaR_EnemyTimeOut" comment="挑战目标已过期"/>
+            <Member name="EArenaR_EnemyIsSuc" comment="挑战目标已胜利"/>
+            <Member name="EArenaR_NoReward" comment="没有奖励可领取"/>
+            <Member name="EArenaR_RewardHasGet" comment="奖励已经领取"/>
+            <Member name="EArenaR_PackageFull" comment="包裹满了"/>
+            <Member name="EArenaR_AwardTimeOut" comment="奖励已过期"/>
+            <Member name="EArenaR_WirShipOverTimes" comment ="膜拜次数已达上限"/>
+            <Member name="EArenaR_WirShipPlayerOverTimer" comment ="膜拜对象已过期"/>
+            <Member name="EArenaR_BuyTimesMax" comment ="累计购买次数已达上限"/>
+            <Member name="EArenaR_VIPLevel" comment ="御剑等级不足"/>
+            <Member name="EArenaR_LadderNOOpen" comment ="天梯未开启"/>
+            <Member name="EArenaR_LadderTimesLimit" comment ="天梯挑战次数不足"/>
+            <Member name="EArenaR_LadderAwardHasGet" comment ="天梯挑战奖励已领"/>
+            <Member name="EArenaR_LadderRankErr"     comment ="排名验证错误"/>
+            <Member name="EArenaR_LadderRankLimit"     comment ="挑战资格验证错误"/>
+            <Member name="EArenaR_ArenaNoOpen"     comment ="斗剑功能未开放"/>
+            <Member name="EArenaR_ArenaTimesLimit" comment ="历练挑战次数不足"/>
+            <Member name="EArenaR_ArenaAwardHasGet" comment ="历练挑战奖励已领"/>
+            <Member name="EArenaR_LadderTimesZero" comment ="天梯挑战次数用完"/>
+            <Member name="EArenaR_LadderBuyTimesUp" comment ="天梯挑战购买次数到达上限"/>
+
+            <Member name="EArenaR_OtherErr" comment="其他错误"/>
+        </Enum>
+        <Enum name="EArenaAwardType" comment="奖励包类型">
+            <Member name="Type_NONE" comment="无定义"/>
+            <Member name="Type_Level" comment="段位包"/>
+            <Member name="Type_Rank" comment="排名包"/>
+            <Member name="Type_LadderRank" comment="天梯排名包"/>
+        </Enum>
+        <Struct name="SLadderRobot" vec="TVecLadderRobot" comment ="机器人排名信息">
+            <Member type ="UINT16" name ="wMonsterID" comment="机器人ID"/>
+            <Member type ="UINT16" name="wRank" comment="机器人排名"/>
+        </Struct>
+        <Struct name="SArenaAward" vec="TVecArenaAward" comment ="玩家奖励信息">
+            <Member type = "EArenaAwardType" name ="eType" comment ="奖励包类型"/>
+            <Member type ="UINT8" name="byDraw" comment="0,表示未领取；1，表示已领取"/>
+            <Member type ="UINT32" name ="dwDrawID" comment="掉落包ID"/>
+        </Struct>
+        <Struct name="SArenaFighter" vec="TVecArenaFighter" comment="竞技场玩家信息">
+            <Member type="string" name="strName" comment="名字"/>
+            <Member type="UINT16" name="wLevel"  comment="等级"/>
+            <Member type="BattleGS::SPlayerFeature" name ="stAppear" comment = "外观"/>
+        </Struct>
+        <Struct name="SFlushFighter" vec="TVecFlushFither" comment ="玩家刷对手信息">
+            <Member type ="UINT8" name="bySuc" comment="0,表示未战胜；1，表示已击败"/>
+            <Member type ="UINT64" name ="qwFighterID" comment="对手ID,小于65535为怪物"/>
+        </Struct>
+        <Struct name="SArenaPlayerBaseData" vec="TVecArenaPlayerBaseData" comment="竞技场玩家基本信息">
+            <Member type="UINT32" name="dwRanking" comment="同积分序号"/>
+            <Member type="UINT32" name="dwScore" comment="积分"/>
+            <Member type="UINT32" name="dwLadderRank" comment="天梯排名0表示天梯功未开启，10000表示天梯功能已开启未挑机器人，9999表示已挑战机器人"/>
+            <Member type="EArenaLevel"  name="eLevel" comment="竞技等级"/>
+            <!--<Member type="UINT32"  name="dwSameDays" comment="同级连续天数"/>-->
+            <Member type="UINT32" name="dwLastFlushTime" comment="最近客户端刷新时间"/>
+            <Member type="UINT32" name="dwLastRank" comment="最近结算排名"/>
+            <Member type="EArenaLevel" name ="eLastLevel" comment ="最近结算之前段位"/>
+            <Member type="UINT32" name = "dwFighterPower" comment =" 战斗力"/>
+            <Member type="UINT8" name = "byQuality" comment ="品质"/>
+            <Member type="UINT8" name = "byVIPLevel" comment ="VIP等级"/>
+            <Member type="UINT32" name ="dwLastLadderRank" comment ="最近结算排名"/>
+        </Struct>
+        <Struct name="SArenaPlayerData" vec="TVecArenaPlayerData" comment="竞技场玩家信息，要进数据库的总信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="SArenaFighter" name="stFighter"  comment="角色基本信息"/>
+            <Member type="SArenaPlayerBaseData" name="stBaseData" comment="基本竞技场信息"/>
+        </Struct>
+        <Struct name="SArenaPlayerBaseDataUpdate" vec="TVecArenaPlayerBaseDataUpdate" comment="竞技场更新信息">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="SArenaPlayerBaseData" name="stBaseData" comment="基本竞技场信息"/>
+        </Struct>
+        <--展示给客户端的刷的对手->
+        <Struct name="SFlushFitherForClient" vec ="TVecSFlushFitherForClient" comment ="客户端竞技场的对手">
+            <Member type="SFlushFighter" name="stFlushFighter" comment="id，小于65535为机器人，读怪物列表"/>
+            <Member type="UINT32" name = "wGroup" commit ="客户端不好处理，怪物给他32"/>
+            <Member type="EArenaLevel"  name="eLevel" comment="段位,无段位表示没有加入竞技场"/>
+            <Member type="SArenaFighter" name="stFighter" comment="其他属性"/>
+            <Member type="UINT32" name = "dwFighterPower" comment =" 战斗力"/>
+            <Member type="UINT32" name = "dwLadderRank" comment ="天梯排名"/>
+            <Member type="UINT32" name = "dwArenaRank" comment ="历练排名"/>
+        </Struct>
+        <Struct name="SLadderReport"  vec ="TVecLadderReport" comment ="战报">
+            <Member type ="UINT64" name ="qwBattleID" comment ="战报ID"/>
+            <Member type ="UINT64" name ="qwEmemyID"  comment ="对手ID"/>
+            <Member type ="string" name ="strName" comment ="对手名字"/>
+            <Member type ="UINT32" name ="dwMonsterId" comment ="对手是机器人,机器人ID"/>
+            <Member type ="UINT8" name ="byAttack" comment ="0,表示挑战别人，1表示别人挑战自己"/>
+            <Member type ="UINT8" name ="bySuc" comment ="0,自己失败，1，自己胜利"/>
+            <Member type ="UINT32" name ="dwPreRank" comment ="挑战之前的排名"/>
+            <Member type ="UINT32" name ="dwNowRank" comment ="挑战之后的排名"/>o
+            <Member type ="UINT32" name ="dwTimer" comment ="战报时间"/>
+        </Struct>
+        <Struct name="SArenaRank2Client" vec="TVecArenaRank2Client" comment="排行信息">
+            <Member type="UINT64" name="qwRoleID" comment="ID"/>
+            <Member type="UINT32"  name="dwRank" comment="名次"/>
+            <Member type="UINT32" name="dwScore" comment="积分"/>
+            <Member type="SArenaFighter" name="stFighter" comment="其它信息"/>
+            <Member type="UINT32" name = "dwFighterPower" comment =" 战斗力"/>
+            <Member type="UINT8" name = "byQuality" comment ="品质"/>
+            <Member type="UINT8" name = "byVIPLevel" comment ="品质"/>
+            <Member type="UINT32" name = "dwLadderRank" comment ="天梯排名"/>
+        </Struct>
+
+        <Struct name="SArenaPlayerBaseData2Client" vec="TVecArenaPlayerBaseData2Client" comment="竞技场玩家基本信息，也是发给前端用的信息">   
+            <Member type="UINT32" name="dwRanking" comment="本段位排名"/>
+            <Member type="UINT32" name="dwScore" comment="积分"/>
+            <Member type="EArenaLevel"  name="eLevel" comment="段位"/>
+            <Member type="UINT32"  name="dwTotalSize" comment="本段位总人数"/>
+            <Member type ="EArenaLevel" name="ePreLevel" comment ="前次结算段位"/>
+            <Member type="UINT32" name ="dwPreRank" comment ="前次结算排名"/>
+            <Member type="TVecArenaAward" name="vecAwards" comment="奖励包状态"/>
+            <Member type="UINT32" name="dwArenaCDTime"  comment="历练冷却到期时间戳"/>
+            <Member type="UINT32" name="dwLadderCDTime"  comment="天梯冷却到期时间戳"/>
+            <Member type="UINT16" name="wChallenge" comment="当前挑战次数，每天0点清0"/>
+            <Member type="UINT16" name="wChallengeBuyTimes" comment="购买的挑战次数"/>
+            <Member type="UINT16" name="wSelfReflush" comment="当前购买刷新次数"/>
+            <Member type="UINT16" name="wSelfFreeReflush" comment="当前VIP免费刷新次数"/>
+            <Member type="UINT8" name="byArenaWirship" comment="膜拜次数"/>
+            <Member type="UINT32"name ="dwLastLadderRank" comment ="上次结算天梯排名，0表示排名"/>
+            <Member type="UINT32"name ="dwMinLadderRank" comment ="天梯最好排名,0表示无排名"/>
+            <Member type="TVecSFlushFitherForClient" name="vecFlushFigter"  comment="最近刷的对手"/>
+            <Member type="TVecArenaRank2Client" name="vecWirshipFigter"  comment="膜拜对象列表"/>
+            <Member type="UINT32" name = "dwFighterPower" comment =" 战斗力"/>
+            <Member type="UINT32" name = "dwLadderRank" comment =" 天梯排名，0表示未参与天梯，9999表示已经与机器战斗，但是不计入排名，否者为真实排名"/>
+            <Member type="UINT16" name = "wLadderChallenge" comment =" 天梯挑战次数"/>
+            <Member type="UINT32" name = "dwArenaAward" comment =" 历练挑战奖励，天梯挑战奖励领取状况，右到左1位历练，2位天梯"/>
+            <Member type="UINT32" name="dwLadderBuyTimes" comment="购买的天梯挑战次数"/>
+            <Member type="UINT32" name="dwLadderBuyTimesToday" comment="今日购买的天梯挑战次数"/>
+
+        </Struct>
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+        <Func name="ArenaInfoReq" ret= "true" comment="请求自己竞技场信息,同时开启竞技场">
+            <RetParam type="EArenaResult" name="eResult" comment="结果提示"/>
+            <RetParam type="SArenaPlayerBaseData2Client" name="stReturn" comment="返回的自己信息"/>
+        </Func>
+        <Func name="ArenaChallengeReq" ret= "true" comment="请求挑战">
+            <Param type="UINT64" name="qwDefense" comment="被挑战者ID"/>
+            <RetParam type="EArenaResult" name="eResult" comment="请求挑战返回"/>
+            <RetParam type="UINT64" name="qwBattleID" comment="战报ID"/>
+            <RetParam type="UINT8" name="bySuc" comment="0,表示挑战失败，1表示挑战成功"/>
+            <RetParam type="UINT32" name="dwScore" comment="当前积分"/>
+            <RetParam type="UINT32" name="dwRanking" comment="当前排名"/>
+            <RetParam type="UINT16" name="wChallenge" comment="今日挑战次数"/>
+            <RetParam type="UINT16" name="wChallengeBuyTimes" comment="购买的挑战次数"/>
+            <RetParam type="UINT32" name="dwCDTimer" comment="冷却时间戳"/>
+        </Func>
+        <Func name="ArenaByChallengeTimes" ret= "true" comment="请求购买挑战次数">
+            <RetParam type="EArenaResult" name="eResult" comment="请求挑战返回"/>
+            <RetParam type="UINT16" name="wChallenge" comment="今日挑战次数"/>
+            <RetParam type="UINT16" name="wChallengeBuyTimes" comment="购买的挑战次数"/>
+        </Func>
+
+        <Func name="ArenaPageUpReq" ret = "true" comment="请求翻页">
+            <Param type="EArenaLevel"  name="eLevel" comment="段位"/>
+            <Param type="UINT32" name ="dwRank" comment ="请求排名开始名次"/>
+            <Param type="UINT8" name ="byNum"  comment ="请求数量"/>
+            <RetParam type="EArenaResult" name="eResult" comment="查询结果"/>
+            <RetParam type="UINT32" name="dwSize" comment="本段位的人数总计"/>
+            <RetParam type="TVecArenaRank2Client" name="vecRankData" comment="排行榜数据"/>
+        </Func>
+        <Func name="ArenaClearCDReq" ret= "true" comment="请求清除冷却">
+            <Param type="UINT8"  name="byType" comment="0,历练，1天梯"/>
+            <RetParam type="EArenaResult" name="eResult" comment="请求清除冷却返回"/>
+        </Func>
+        <Func name="ArenaGetRankingRewardReq" ret= "true"  comment="请求获取奖池奖励">
+            <Param type ="UINT32" name ="dwLootId" comment ="奖励包"/>
+            <Param type = "EArenaAwardType" name ="eType" comment ="奖励包类型"/>
+            <RetParam type="EArenaResult" name="eResult" comment="请求获取奖池奖励返回"/>
+        </Func>
+        <Func name="ArenaWorship" ret= "true" comment="膜拜请求">
+            <Param type ="UINT64" name ="qwRoleID" comment ="膜拜对象"/>
+            <RetParam type="EArenaResult" name="eResult" comment="膜拜请求返回"/>
+        </Func>
+        <Func name="FlushNewEnemy" ret= "true" comment="请求刷将">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="UINT16" name="wSelfReflush" comment="当前购买刷新次数"/>
+            <RetParam type="UINT16" name="wSelfFreeReflush" comment="当前VIP免费刷新次数"/>
+        </Func>
+        <Func name="GetAllEnemy" ret= "true" comment="请求对手信息">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="TVecSFlushFitherForClient" name="vecFlushFigter"  comment="最近刷的对手"/>
+        </Func>
+        <Func name="GetAllAward" ret= "true" comment="请求奖励信息">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="TVecArenaAward" name="vecAwards" comment="奖励包状态"/>
+        </Func>
+        <Func name="GetAllWirship" ret= "true" comment="请求膜拜信息">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="TVecArenaRank2Client" name="vecWirshipFigter"  comment="膜拜对象列表"/>
+        </Func>
+        <Func name="GetAllAwardInfo" ret= "true" comment="请求计算:奖励信息">
+            <RetParam type="EArenaResult" name="eResult" comment="返回"/>
+            <RetParam type="TVecArenaAward" name="vecAwards" comment="奖励包状态"/>
+        </Func>
+        <Func name="ReFluseLadderEnemy" ret= "true" comment="请求对手信息">
+            <Param type ="UINT8" name ="byType" comment ="0,默认刷对手，1顺次刷对手"/>
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="TVecSFlushFitherForClient" name="vecFlushFigter"  comment="最近刷的对手"/>
+        </Func>
+        <Func name ="GetLadderAward" ret ="true" comment ="清求领取今日天梯奖励">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+        </Func> 
+        <Func name ="GetArenaAward" ret ="true" comment ="清求领取今日历练奖励">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+        </Func>    
+
+        <Func name ="GetLadderReport" ret ="true" comment ="清求战报">
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="TVecLadderReport" name="vecReport" comment="请求刷将返回"/>
+        </Func>    
+        <Func name ="LadderBattle" ret ="true" comment ="请求天梯挑战">
+            <Param type ="UINT64" name ="qwEnemyID" comment ="对手ID"/>
+            <Param type ="UINT32" name ="dwEnemyRank" comment ="对手天梯排名"/>
+            <RetParam type="EArenaResult" name="eResult" comment="请求刷将返回"/>
+            <RetParam type="UINT8" name="bySuc" comment="0,失败，1成功"/>
+            <RetParam type="TVecSFlushFitherForClient" name="vecFlushFigter"  comment="最近刷的对手"/>
+            <RetParam type ="UINT32" name ="dwSelfRank" comment ="自己排名"/>
+            <RetParam type ="UINT16" name ="dwLadderTimes" comment ="今日挑战天梯次数"/>
+            <RetParam type="UINT32" name="dwLadderCDTimer" comment="冷却时间戳"/>
+            <RetParam type="UINT32"name ="dwMinLadderRank" comment ="天梯最好排名,0表示无排名"/>
+            <RetParam type="UINT32" name="dwLadderBuyTimes" comment="购买的天梯挑战次数"/>
+        </Func>    
+        <Func name="LadderPageUpReq" ret = "true" comment="请求天梯排名">
+            <Param type="UINT32" name ="dwRank" comment ="请求排名开始名次"/>
+            <Param type="UINT8" name ="byNum"  comment ="请求数量"/>
+            <RetParam type="EArenaResult" name="eResult" comment="查询结果"/>
+            <RetParam type="TVecArenaRank2Client" name="vecRankData" comment="排行榜数据"/>
+        </Func>
+        <Func name="ArenaBuyLadderTimes" ret= "true" comment="请求购买天梯挑战次数">
+            <RetParam type="EArenaResult" name="eResult" comment="请求购买返回"/>
+            <RetParam type="UINT32" name="dwLadderBuyTimesToday" comment="今日购买天梯挑战次数"/>
+            <RetParam type="UINT32" name="dwLadderBuyTimes" comment="购买的天梯挑战次数"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UpdateLadderMinRank"  comment="通告获得最好天梯排名">
+            <Param type="UINT32" name="dwLastRank" comment="前排名,0表示无排名"/>
+            <Param type="UINT32" name="dwNowRank" comment="现排名"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

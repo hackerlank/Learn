@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="VarDefine" id="62"   comment="Var变量定义">
+    <Refer> 
+    </Refer>
+    <TypeDef>
+        <Enum name="EPlayerVar" byte = "2" comment="玩家var变量，小于60000">
+            <Member name="ePlayerVarNone"  comment ="无定义"/>
+
+            <!--CenterServer-->
+            <Member name="ePlayerVarArenaWirship" value="101" comment="竞技场每日膜拜次数"/>
+            <Member name="ePlayerVarArenaChallengeFree" value="102" comment="竞技场挑战次数"/>
+            <Member name="ePlayerVarArenaChallengeFlush" value="103" comment="竞技场购买刷新次数"/>
+            <Member name="ePlayerVarArenaChallenge0" value="104" comment="竞技场0点刷将"/>
+            <Member name="ePlayerVarArenaChallenge12" value="105" comment="竞技场12点刷将"/>
+            <Member name="ePlayerVarArenaChallenge18" value="106" comment="竞技场18点刷将"/>           
+            <Member name="ePlayerVarSendMail"     value="107" comment="一小时发40封邮件" />
+            <Member name="ePlayerVarBuyArenaChallengeTimes"     value="108" comment="购买的斗剑挑战次数" />
+            <Member name="ePlayerVarBuyArenaChallengeTimesOneDay"     value="109" comment="每日购买挑战次数" />
+            <Member name="ePlayerVarLadderUpdate"     value="110" comment="今日天梯排名累计上升名次，int32，大于100者不动" />
+            <Member name="ePlayerVarGuildDonate"     value="111" comment="帮派捐献" />
+            <Member name="ePlayerVarGuildWorship"     value="112" comment="帮派捐献" />
+            <Member name="ePlayerVarLadderChallenge"     value="113" comment="天梯挑战次数" />
+            <Member name="ePlayerVarChallegeAward"     value="114" comment="挑战领奖,按位表示0位历练，1位天梯" />
+            <Member name="ePlayerVarAdoreCount"     value="115" comment="当日崇拜次数" />
+            <Member name="ePlayerVarTripodShanfeng" value="116" comment="玩家每日对九疑鼎扇火次数"/>           
+            <Member name="ePlayerVarTripodHelp" value="117" comment="玩家每日对九疑鼎协助次数"/>
+            <Member name="ePlayerVarArenaChallengeFreeFlush" value="118" comment="VIP每日竞技场免费刷新次数"/>
+            <Member name="ePlayerNoticeUpdateMark" value="119" comment="客服后台公告更新标志"/>
+            <Member name="ePlayerSysDialogMark" value="120" comment="客服后台系统弹窗标志"/>
+            <Member name="ePlayerQQCoinLevel" value="121" comment="QQ养成计划玩家等级记录"/>
+            <Member name="ePlayerAnswer" value="122" comment="答题信息"/>
+            <Member name="ePlayerAnswerScoreAndTime" value="123" comment="答题信息积分和时间"/>
+            <Member name="ePlayerTeamPos1Cache" value="124" comment="组队副本站位1散仙ID"/>
+            <Member name="ePlayerTeamPos2Cache" value="125" comment="组队副本站位2散仙ID"/>
+            <Member name="ePlayerTeamPos3Cache" value="126" comment="组队副本站位3散仙ID"/>
+            <Member name="ePlayerVarDayRechargeCenter" value="127" comment="今日充值仙石数"/>
+            <Member name="ePlayerVarDragonBall_TodayCount" value="128" comment="七龙珠活动之今日充值额度已达目标额度次数"/>
+            <Member name="ePlayerVarDragonBall_AllCount" value="129" comment="七龙珠活动之达到目标额度的总次数"/>
+            <Member name="ePlayerShipRobTimes" value="130" comment="抢劫次数"/>
+            <Member name="ePlayerShipDefenseTimes" value="131" comment="护送次数"/>
+            <Member name="ePlayerShipOpenTimes" value="132" comment="开船次数"/>
+            <Member name="ePlayerShipReFluseTimes" value="133" comment="刷新次数"/>
+            <Member name="ePlayerBuyOpenShipTimesToday" value="134" comment="今日购买的运船次数"/>
+            <Member name="ePlayerBuyRoBShipTimesToday" value="135" comment="今日购买的抢劫次数"/>
+            <Member name="ePlayerBuyReflushShipTimesToday" value="136" comment="今日购买的刷新次数"/>
+            <Member name="ePlayerFreezShipTimer" value="137" comment="金船战败冷却时间数"/>
+            <Member name="ePlayerInvites" value="138" comment="每日邀请好友数量"/>
+            <Member name="ePlayerVarXiheHelpCount" value="139" comment="羲和神车每日帮助次数"/>
+            <Member name="ePlayerVarFruit" value="140" comment="天元神兽每日喂养朱果数量"/>
+            <Member name="ePlayerVarDayPackage" value="141" comment="天元神兽每日礼包"/>
+            <Member name="ePlayerVarMonsterPackage" value="142" comment="天元神兽成长礼包"/>
+            <Member name="ePlayerVarTotalScore" value="143" comment="天元神兽活动玩家总积分"/>
+            <Member name="ePlayerVarBuyLadderTimes" value="143" comment="斗剑累计购买次数"/>
+            <Member name="ePlayerVarBuyLadderTimesToday" value="144" comment="斗剑今日购买次数"/>
+            <Member name="ePlayerVarGuildExchangedItemToday" value="145" comment="玩家今日帮派战兑换物品数量"/>
+            <Member name="ePlayerVarSevenConsumeGold" value="146" comment="七日消费仙石数"/>
+            <Member name="ePlayerVarSevenConsumeAwardInfo" value="147" comment="七日消费活动领奖信息"/>
+            <Member name="ePlayerVarGuildWorshipTypeBegin" value="148" comment="帮派捐献类型统计1" />
+            <Member name="ePlayerVarGuildWorshipType2"     value="149" comment="帮派捐献类型统计2" />
+            <Member name="ePlayerVarGuildWorshipType3"    value="150" comment="帮派捐献类型统计3" />
+            <Member name="ePlayerVarGuildWorshipTypeEnd"     value="151" comment="帮派捐献类型统计4" />
+            <Member name="ePlayerMinLadderRank"     value="152" comment="最小天梯排名" />
+            <Member name="ePlayerQQCoinExchangeCount" value="153" comment="QQ养成计划玩家兑换次数"/>
+            <Member name="ePlayerQQCoinExchangeValue" value="154" comment="QQ养成计划玩家兑换额度"/>
+
+            <!--GameServer-->
+            <Member name="ePlayerVarRecharge" value="1000" comment="当前充值总额度"/>           
+            <Member name="ePlayerVarConsume" value="1001" comment="当前消费总额度"/>           
+            <Member name="ePlayerVarFirstRechrgeStatus" value="1002" comment="首充礼包礼券状态:0未充值 1已充值但未领取 2已领取"/>
+            <Member name="ePlayerVarDayEvent" value="1004" comment="19点刷新事件标志"/>         
+            <Member name="ePlayerFlushGroupTask" value="1005" comment="当前刷新师门任务次数"/> 
+            <Member name="ePlayerFlushYaMenTask" value="1006" comment="当前刷新衙门任务次数"/>
+            <Member name="ePlayerFinishGroupTask" value="1007" comment="当前完成师门任务次数"/> 
+            <Member name="ePlayerFinishYaMenTask" value="1008" comment="当前完成衙门任务次数"/>
+            <Member name="ePlayerGetGroupPExp" value="1009" comment="今日获得师门奖励次数"/> 
+            <Member name="ePlayerActivity" value="1010" comment="当日活跃度"/> 
+            <Member name="ePlayerActivityTask" value="1011" comment="刷新活跃任务"/> 
+            <Member name="ePlayerActivityAward" value="1012" comment="领取每日奖励"/> 
+            <Member name="ePlayerVIPEndTime" value="1013" comment="VIP特权结束时间"/> 
+            <Member name="ePlayerVIPGrowthValue" value="1014" comment="VIP特权成长值"/> 
+            <Member name="ePlayerVIPType" value="1015" comment="开启的VIP特权类型(也可表示是否开启过VIP特权)"/> 
+            <Member name="ePlayerVIPDayTime" value="1016" comment="VIP特权成长值每天结算时间"/> 
+            <Member name="ePlayerVIPGetDayPack" value="1017" comment="VIP特权每日礼包领取"/> 
+            <Member name="ePlayerVIPUsedGold" value="1018" comment="VIP特权消耗仙石数(小于100，若未开通VIP或者VIP过期则表明累计消耗数)"/> 
+            <Member name="ePlayerVarIndulgeTime" value="1019" comment="防沉迷时间"/>
+            <Member name="ePlayerVarSittingTime" value="1020" comment="开始打坐时间"/>   
+            <Member name="ePlayerVarTaskMark" value="1021" comment="任务前置条件标记"/>
+            <Member name="ePlayerVarMaxAction" value="1022" comment="体力补满标志"/>
+            <Member name="ePlayerVarActionRegain1" value="1023" comment="定点体力发放1"/>
+            <Member name="ePlayerVarActionRegain2" value="1024" comment="定点体力发放2"/>
+            <Member name="ePlayerVarActionAdd" value="1025" comment="每隔一段时间体力增加"/>
+            <Member name="ePlayerVarBuyActionCnt" value="1026" comment="购买行动力次数"/>
+            <Member name="ePlayerVarActionBuffer" value="1027" comment="体力buffer数值"/>
+            <Member name="ePlayerGetYaMenPExp" value="1028" comment="今日获得衙门奖励次数"/> 
+            <Member name="ePlayerBuyGroupTask" value="1029" comment="今日购买师门任务次数"/> 
+            <Member name="ePlayerBuyYaMenTask" value="1030" comment="今日购买衙门任务次数"/>
+            <Member name="eDemonTowerAtkMonsterCd" value="1031" comment="锁妖塔攻击怪物cd"/> 
+            <Member name="eTeamDgnAward" value="1032" comment="组队副本领奖次数"/> 
+            <Member name="ePlayerYDDayBag" value="1033" comment="QQ黄钻每日礼包"/>   
+            <Member name="ePlayerYDNewBag" value="1034" comment="QQ黄钻新手礼包"/>   
+            <Member name="ePlayerYDYearBag" value="1035" comment="QQ黄钻年费礼包"/>   
+            <Member name="ePlayerYDLuxuryBag" value="1036" comment="QQ黄钻豪华礼包"/>   
+            <Member name="ePlayerYDGrowBag" value="1037" comment="QQ黄钻成长礼包"/>
+            <Member name="ePlayerYDHorseBag" value="1038" comment="QQ黄钻座机礼包"/>
+            <Member name="ePlayerOnLineTime" value="1039" comment="当天在线时间"/>
+            <Member name="ePlayerGetInvite" value="1040" comment="获得邀请奖励"/>
+            <Member name="ePlayerVIPGetLevelAward" value="1041" comment="VIP特权等级奖励领取"/> 
+            <Member name="ePlayerMallDiscountPos1" value="1042" comment="商城限购活动期间位置1已购买次数"/> 
+            <Member name="ePlayerMallDiscountPos2" value="1043" comment="商城限购活动期间位置2已购买次数"/> 
+            <Member name="ePlayerMallDiscountPos3" value="1044" comment="商城限购活动期间位置3已购买次数"/> 
+            <Member name="ePlayerMallDiscountRecharge" value="1045" comment="商城限购活动期间充值仙石数量"/> 
+            <Member name="ePlayerMallDiscountConsume" value="1046" comment="商城限购活动期间消费仙石数量"/>
+            <Member name="ePlayerMallDayLimitFresh" value="1047" comment="商城限购每日刷新数量"/>
+            <Member name="ePlayerSign" value="1048" comment="玩家签到功能"/> 
+            <Member name="ePlayerLoginPkg" value="1049" comment="累计登入礼包"/> 
+            <Member name="ePlayerLeaveLHB" value="1050" comment="玩家离开琅寰福地"/> 
+            <Member name="ePlayerLHBSkill1" value="1051" comment="琅寰福地技能1"/> 
+            <Member name="ePlayerLHBSkill2" value="1052" comment="琅寰福地技能2"/> 
+            <Member name="ePlayerLHBSkill3" value="1053" comment="琅寰福地技能3"/> 
+            <Member name="ePlayerLHBLoginTime" value="1054" comment="琅寰福地登入时间"/> 
+            <Member name="ePlayerDujieFailTimes" value="1055" comment="散仙渡劫失败次数(做保护概率)"/>
+            <Member name="ePlayerDujieCount" value="1056" comment="散仙渡劫次数(新手需要)"/>
+            <Member name="ePlayerVarMonthCardEndTime" value="1057" comment="月卡特权结束时间"/> 
+            <Member name="ePlayerVarMonthCardGetTime" value="1058" comment="月卡奖励领取时间"/> 
+            <Member name="ePlayerVarMonthCardOverNotice" value="1059" comment="月卡过期通知记录"/> 
+            <Member name="ePlayerVarLoginDays" value="1060" comment="玩家累计登入天数（最大14天）"/> 
+            <Member name="ePlayerVarSecondRechrgeStatus" value="1061" comment="二次充值礼包状态:0未充值 1已充值但未领取 2已领取"/>
+            <Member name="ePlayerVarSecondRechargeValue" value="1062" comment="二次充值总额度"/>           
+            <Member name="ePlayerVarCuiTiCount" value="1063" comment="散仙崔体是否到达+7"/>           
+            <Member name="ePlayerVarZhanQi" value="1064" comment="玩家是否参加秘境夺宝"/>           
+            <Member name="ePlayerVarRechargeToday" value="1065" comment="今日充值总额度"/>  
+            <Member name="ePlayerVarGetRechargeAward" value="1066" comment="今日领取单日冲值礼包"/>       
+            <Member name="ePlayerVarShengLingBuyLife" value="1067" comment="今日领取单日冲值礼包"/>       
+            <Member name="ePlayerVarShengLingBuyEnter" value="1068" comment="圣陵购买次数"/>       
+            <Member name="ePlayerVarShengLingUseEnter" value="1069" comment="圣陵使用进入次数"/>       
+            <Member name="ePlayerVarUseControlDice"    value="1070" comment="遥控骰子使用次数"/>       
+            <Member name="ePlayerVarBuyControlDice" value="1071" comment="遥控骰子购买次数"/>       
+            <Member name="ePlayerVarUseTurnDice" value="1072" comment="转向骰子使用次数"/>       
+            <Member name="ePlayerVarBuyTurnDice" value="1073" comment="转向骰子购买次数"/>       
+            <Member name="ePlayerVarMotuScore" value="1074" comment="三消积分"/>       
+            <Member name="ePlayerVarMotuStep" value="1075" comment="三消步数"/>       
+            <Member name="ePlayerVarMotuPrizeState" value="1076" comment="三消奖励状态"/>       
+            <Member name="ePlayerVarPlayerLevel" value="1077" comment="玩家所在层"/>       
+            <Member name="ePlayerVarPlayerGridIndex" value="1078" comment="玩家所在格子"/>       
+            <Member name="ePlayerVarPlayerPreGridIndex" value="1079" comment="玩家上一次所在格子"/>       
+            <Member name="ePlayerVarPlayerPreLevel" value="1080" comment="玩家上一次所在层"/>       
+            <Member name="ePlayerVarPlayerDir" value="1081" comment="玩家方向"/>       
+            <Member name="ePlayerVarPlayerBuyEnterTimes" value="1084" comment="今天购买次数"/>       
+            <Member name="ePlayerVarPlayerBuyTurnDiceTimes" value="1085" comment="今天购买次数"/>       
+            <Member name="ePlayerVarPlayerBuyControlDiceTimes" value="1086" comment="今天购买次数"/>       
+            <Member name="ePlayerVarPlayerBuyLifeTimes" value="1087" comment="今天购买次数"/>       
+            <Member name="ePlayerVarShengLingUseLife" value="1088" comment="今天购买次数"/>       
+            <Member name="ePlayerVarControlDiceSended" value="1089" comment="免费遥控骰子是否已经发送"/>       
+            <Member name="ePlayerVarCheckContinue" value="1090" comment="是否继续进入圣陵"/>       
+            <Member name="ePlayerVarPlayDiceEffect" value="1091" comment="播放特效"/>       
+            <Member name="ePlayerVarFenbaoyan" value="1092" comment="分宝岩时间"/>       
+            <Member name="ePlayerVarFirstEnterShengLing" value="1093" comment="玩家第一次进入"/>       
+
+            <Member name="ePlayerZeroDay" value="10054" comment="零点刷新事件标志"/>
+            <Member name="ePlayerTHKillNum" value="10055" comment="寻宝每天击杀次数"/>
+            <Member name="ePlayerTHCond" value="10056" comment="寻宝前置条件"/>
+            <Member name="ePlayerTGSL" value="10057" comment="寻宝天罡神力"/>
+            <Member name="ePlayerBJGX" value="10058" comment="寻宝白驹过隙"/>
+            <Member name="ePlayerTLHZ" value="10059" comment="寻宝偷梁换柱"/>
+            <Member name="ePlayerShushanweiwei" value="10060" comment="蜀山微微个人奖励"/>
+            <Member name="ePlayerShushanweixin" value="10061" comment="蜀山微微微信奖励"/>
+            <Member name="ePlayerShushanweibo" value="10062" comment="蜀山微微微博奖励"/>
+            <Member name="ePlayerVarDayRechargeGame" value="10065" comment="今日充值仙石数"/>
+            <Member name="ePlayerVarShushanFoundInfo" value="10066" comment="蜀山基金购买与领取数据"/>
+            <Member name="ePlayerVarShushanFoundLoginDays" value="10067" comment="玩家购买蜀山基金后累计登陆天数"/>
+            <Member name="ePlayerCircleTaskStar" value="10068" comment="环任务星级"/>
+            <Member name="ePlayerCircleTaskNum" value="10069" comment="环任务环数"/>
+            <Member name="ePlayerVarChongZhi" value="10070" comment="商城充值仙石活动奖励信息"/>
+            <Member name="ePlayerTaskMarket" value="10071" comment="任务集市"/>
+            <Member name="ePlayerlixianDgnBuyTimes" value="10072" comment="购买的历险副本总次数"/>
+            <Member name="ePlayerlixianDgnBuyTimesToday" value="10073" comment="今日购买的历险副本总次数"/>
+            <Member name="ePlayerlixianDgnPassToday" value="10074" comment="今日通关的历险副本次数"/>
+            <Member name="ePlayerWeiboNum" value="10075" comment="蜀山微微微博人数"/>
+            <Member name="ePlayerWeixinNum" value="10076" comment="蜀山微微微信人数"/>
+            <Member name="ePlayerGEMEntryNum" value="10077" comment="守卫峨眉（0-31位：每天免费进入次数；32-63位：每天购买进入次数）"/>                                                          
+            <Member name="ePlayerGEMMissionStatus" value="10078" comment="每一位代表守卫峨眉每个关卡守卫成功状态（0：未成功；1：成功）"/>
+            <Member name="ePlayerGEMBuyEntryNum" value="10079" comment="守卫峨眉购买进入总次数"/>
+            <Member name="ePlayerQQAlarm" value="10080" comment="玩家安装QQAlarm奖励"/>
+            <Member name="ePlayerDrawCount" value="10081" comment="玩家已经免费求签次数"/>
+            <Member name="ePlayerMoneyTreeCount" value="10082" comment="玩家当日摇钱次数"/>
+            <Member name="ePlayerRegisterSevenDaysA" value="10083" comment="玩家注册第一天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysB" value="10084" comment="玩家注册第二天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysC" value="10085" comment="玩家注册第三天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysD" value="10086" comment="玩家注册第四天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysE" value="10087" comment="玩家注册第五天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysF" value="10088" comment="玩家注册第六天目标信息"/>
+            <Member name="ePlayerRegisterSevenDaysG" value="10089" comment="玩家注册第七天目标信息"/>
+            <Member name="ePlayerCurDayBuyMark" value="10090" comment="玩家注册七天活动当天购买标志"/>
+            <Member name="ePlayerFighterBuyMark" value="10091" comment="玩家购买散仙购买标志"/>
+            <Member name="ePlayerMallDiscountPos1Mark" value="10092" comment="商城限购活动期间位置1版本标记"/> 
+            <Member name="ePlayerMallDiscountPos2Mark" value="10093" comment="商城限购活动期间位置2版本标记"/> 
+            <Member name="ePlayerMallDiscountPos3Mark" value="10094" comment="商城限购活动期间位置3版本标记"/> 
+            <Member name="ePlayerMallDiscountPos1Recharge" value="10095" comment="商城限购活动期间位置1充值仙石数量"/> 
+            <Member name="ePlayerMallDiscountPos2Recharge" value="10096" comment="商城限购活动期间位置2充值仙石数量"/> 
+            <Member name="ePlayerMallDiscountPos3Recharge" value="10097" comment="商城限购活动期间位置3充值仙石数量"/> 
+            <Member name="ePlayerMallDiscountPos1Consume" value="10098" comment="商城限购活动期间位置1消费仙石数量"/>
+            <Member name="ePlayerMallDiscountPos2Consume" value="10099" comment="商城限购活动期间位置2消费仙石数量"/>
+            <Member name="ePlayerMallDiscountPos3Consume" value="10100" comment="商城限购活动期间位置3消费仙石数量"/>
+            <Member name="ePlayerVarMax" value="59999" comment="最大值"/>
+        </Enum>
+        <Enum name="ESystemVar" byte = "2"  comment="系统var变量(大于60000)">
+            <Member name="eSystemVarNone" value="60000" comment="无定义"/>
+            <Member name="eSystemVarArena" value="60001" comment="竞技场结算"/>
+            <Member name="eSystemVarGuildStatue" value="60002" comment="帮派神像奖励结算"/>
+            <Member name="eSystemVarGuildBattleAward" value="60003" comment="帮派战奖励结算"/>
+            <Member name="eSystemVarDemonTowerMaxTop" value="60004" comment="锁妖塔通关最高层数"/>
+            <Member name="eSystemVarQQCoinConsumeValue" value="60005" comment="QQ养成计划奖励消费额度"/>
+            <Member name="eSystemVarQQCoinMaxValue" value="60006" comment="QQ养成计划奖励最大额度"/>
+            <Member name="eSystemVarQQCoinActTime" value="60007" comment="QQ养成计划活动时间"/>
+            <Member name="eSystemVarAnswer" value="60008" comment="答题活动时间"/>
+            <Member name="eSystemVarAnswerTopicID" value="60009" comment="答题活动当前题目ID"/>
+            <Member name="eSystemVarZeroTime" value="60010" comment="零点时间"/>
+            <Member name="eSystemVarOpenServerActivity" value="60011" comment="开服活动开始时间"/>
+
+            <!--(VarID:60500-60700)活动预留(BEGIN)-->
+            <Member name="eSystemVar_WorldBossActBeginTime" value="60500" comment="世界BOSS开始时间"/>
+            <Member name="eSystemVar_WorldBossActEndTime" value="60501" comment="世界BOSS结束时间"/>
+            <Member name="eSystemVar_LangHuanBlessActBeginTime" value="60502" comment="琅寰福地开始时间"/>
+            <Member name="eSystemVar_LangHuanBlessActEndTime" value="60503" comment="琅寰福地结束时间"/>
+            <Member name="eSystemVar_GodChest" value="60504" comment="天赐宝箱活动"/>
+            <Member name="eSystemVar_DragonBallActPeriod" value="60506" comment="当前七龙珠活动第多少期"/>
+            <Member name="eSystemVar_SevenConsumeActBeginTime" value="60507" comment="七日消费活动开始时间"/>
+            <Member name="eSystemVar_SevenConsumeActEndTime" value="60508" comment="七日消费活动结束时间"/>
+            <Member name="eSystemVar_DragonBallActBeginTime" value="60509" comment="七龙珠活动开始时间"/>
+            <Member name="eSystemVar_DragonBallActEndTime" value="60510" comment="七龙珠活动结束时间"/>
+            <Member name="eSystemVar_NewGuildBattleGate1HP" value="60511" comment="新帮派战山头一城门血量"/>
+            <Member name="eSystemVar_NewGuildBattleGate2HP" value="60512" comment="新帮派战山头二城门血量"/>
+            <Member name="eSystemVar_NewGuildBattleGate3HP" value="60513" comment="新帮派战山头三城门血量"/>
+            <Member name="eSystemVar_NewGuildBattleGate1Attack" value="60514" comment="新帮派战山头一城门血量"/>
+            <Member name="eSystemVar_NewGuildBattleGate2Attack" value="60515" comment="新帮派战山头二城门攻击力"/>
+            <Member name="eSystemVar_NewGuildBattleGate3Attack" value="60516" comment="新帮派战山头三城门攻击力"/>
+            
+            <!--(VarID:60500-60700)活动预留(END)-->
+            <Member name="eSystemVarMax"  comment="最大值"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

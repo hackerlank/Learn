@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="Center2DBComm" id="31" comment="CenterServer到DBServer的通信协议">
+    <Refer>
+        <Protocol name="ServerCommon"/>
+        <Protocol name="RoleInfoDefine"/>
+        <Protocol name="MailProt"/>
+        <Protocol name="ArenaGS"/>
+        <Protocol name="DemonTowerGS"/>
+        <Protocol name="GlobalChatProt"/>
+        <Protocol name="RankProt" />
+        <Protocol name="TripodProt" />
+        <Protocol name="PHPProt"/>
+        <Protocol name="ProtoCommon"/>
+        <Protocol name="WonderActivityProt"/>
+        <Protocol name="ShipProt"/>
+        <Protocol name="GodMonsterProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ECenterData" comment="中心服数据类型">
+            <Member name="eCenterDate_BeautyLog"     value="1" comment="美女log"/>
+            <Member name="eCenterDate_InviteFriend"  value = "2" comment="邀请好友数据"/>
+            <Member name="eCenterDate_InviteTask"    value="3" comment="邀请好友任务数据"/>
+            <Member name="eCenterDate_DemonTower_MinRonds"    value="4" comment="镇妖塔最小回数"/>
+            <Member name="eCenterDate_DemonTower_MinBattlePoint"    value="5" comment="镇妖塔最小战斗力"/>
+        </Enum>
+        <Struct name="SCenterData" vec="TVecCenterData" comment="中心服存储数据">
+            <Member type="UINT16" name="wType" comment="类型 ECenterData"/>
+            <Member type="UINT64" name="qwInstID" comment="keyid1"/>
+            <Member type="UINT64" name="qwInstID2" comment="keyid2"/>
+            <Member type="UINT64" name="qwParam" comment="64位参数"/>
+            <Member type="string" name="strParam" comment="整形参数"/>
+            <Member type="UINT32" name="dwParam1" comment="32位参数1"/>
+            <Member type="UINT32" name="dwParam2" comment="32位参数2"/>
+            <Member type="UINT32" name="dwParam3" comment="32位参数3"/>
+            <Member type="UINT64" name="qwParam4" comment="64位参数4"/>
+        </Struct>
+        <Struct name="SSystemMailTargetInfo" vec="TVecSystemMailTargetInfo" comment="系统邮件信息">
+            <Member type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Member type="UINT64" name="qwReceiveID" comment="接受者ID"/>
+        </Struct>
+        <Struct name="MailDelData" vec="TVecMailDelData" comment="邮件删除提示结构">
+            <Member type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Member type="UINT8" name="byGet" comment="邮件的附件状态"/>
+        </Struct>
+        <Struct name="SSystemMailInfo" comment="系统邮件信息">
+            <Member type="MailProt::EMailType" name="eMailType" comment="邮件类型"/>
+            <Member type="MailProt::EMailState" name="eMailState" comment="邮件状态"/>
+            <Member type="UINT32" name="dwSendTime" comment="发送时间"/>
+            <Member type="string" name="strTitle" comment="标题"/>
+            <Member type="string" name="strSender" comment="发送者"/>
+            <Member type="string" name="strMsg" comment="邮件内容"/>
+            <Member type="UINT8" name="byGet"  comment="附件状态"/>
+            <Member type="MailProt::TVecMailAttachment" name="vecMailAttachment" comment="附件"/>
+            <!--- <Member type="string" name="strAttachment" comment="附件"/>-->
+        </Struct>
+        <Struct name="SBaseCond" vec="TVecBaseCond" comment="数据库查询基本条件" >
+            <Member type="UINT8"       name="byLevel"                  comment="等级" />
+        </Struct>
+        <Struct name="SBaseResult" vec="TVecBaseResult" comment="数据库查询返回" >
+            <Member type="TVecUINT64"       name="vecPlayerID"                  comment="玩家ID" />
+            <Member type="UINT32"           name="dwResult"                   comment="查询结果" />
+        </Struct>
+        <Struct name="SRoleLevel" vec="TVecRoleLevel" comment="玩家等级" >
+            <Member type="UINT32"       name="dwID"                      comment="条件ID" />
+            <Member type="UINT32"       name="dwCount"                      comment="数量" />
+            <Member type="TVecUINT64"   name="vecRole"                  comment="玩家ID" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="KeepAlive" comment="心跳">
+        </Func>
+        <Func name="GetStatus" ret="true" comment="DBServer状态请求">
+        </Func>
+        <Func name="InsertRecharge" ret="false" comment="插入玩家充值仙石信息(未创角预先充值)">
+            <Param type="RoleInfoDefine::SRecharge" name="oRecharge" comment="充值仙石的数据"/>
+        </Func>
+        <Func name="LoadPrepaid" ret ="true"  comment="加载玩家未创角预先充值的仙石信息">
+            <RetParam type="RoleInfoDefine::TVecPrepaid" name="vecPrepaid" comment="玩家未创角预先值信息"/>
+        </Func>
+        <Func name="UpdatePrepaid" ret="false" comment="更新玩家未创角预先充值信息">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type ="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Param type ="UINT32" name="dwGold" comment="仙石数量"/>
+        </Func>
+        <Func name="ReplaceUser" ret="true" comment="替换帐号">
+            <Param type="UINT64" name="qwUsrID" keep="true" comment="帐号ID"/>
+        </Func>
+        <Func name="LoadOffLineUserData" ret ="true"  comment="加载离线玩家数据">
+            <Param type="UINT64" name="qwUsrID" comment="账号ID"/>
+            <RetParam type="UINT8" name="byRet" comment="0表示成功"/>
+            <RetParam type="RoleInfoDefine::RoleDataInfo" name ="RoleData" comment ="玩家数据"/>
+        </Func>
+        <Func name="RoleDataUpdate" ret="false" comment="一行数据更新">
+            <Param type ="UINT64" name="qwRoleId" comment="角色Id"/>
+            <Param type ="RoleInfoDefine::EDataType" name="eDataType" comment="更新数据块"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <Func name="GetRankInfo" comment="获取排名信息">
+        </Func>
+        <Func name="RankDataUpdate" ret="false" comment="排行榜数据更新">
+            <Param type ="UINT64" name="qwInstID" comment="唯一ID"/>
+            <Param type ="RankProt::ERankType" name="eDataType" comment="更新数据类型"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <Func name="GetAdoreInfo" comment="获取崇拜信息">
+        </Func>
+        <Func name="AdoreDataUpdate" ret="false" comment="崇拜数据更新">
+            <Param type ="UINT64" name="qwInstID" comment="唯一ID"/>
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+            <Param type ="string" name="strData" comment="更新数据"/>
+        </Func>
+        <Func name="UserIDNameReq" comment="获取账号ID或主角色名请求">
+            <Param type="ServerCommon::EUserReqType" name="eType" comment="类型"/>
+            <Param type="UINT64" name="qwUsrID" comment="帐号ID"/>
+            <Param type="string" name="strName" comment="主角色名称"/>
+            <Param type="UINT64" name="qwUsrData" comment="用户数据"/>
+        </Func>
+        <Func name="GetUserIDFromName" ret = "true" comment="根据名字获取ID请求">
+            <Param type="string" name="strName" comment="主角色名称"/>
+            <RetParam type="UINT64" name="qwUsrID" comment="用户ID"/>
+        </Func>
+        <!---邮件相关-->
+        <!---
+        <Func name="UpdateOvertimeMail" ret="true" comment="更新过期邮件状态">
+            <Param type="TVecUINT64" name="vecMailIDs" comment="更新的MailID"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        <Func name="RemoveOvertimeMail" ret="true" comment="删除过期邮件">
+            <Param type="TVecMailDelData" name="vecMailIDs" comment="邮件ID列表"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        -->
+        <Func name="GetAllMailList" ret="true" comment="获得邮件列表">
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Param type="UINT32" name="dwOverTime" comment="过期时间"/>
+            <RetParam type="MailProt::TVecMailDetail" name="vecMails" comment="邮件列表"/>
+        </Func>
+        <Func name="SaveMail" ret="true" comment="保存邮件">
+            <Param type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Param type="UINT64" name="qwReceiveID" comment="接受者ID"/>
+            <Param type="UINT64" name="qwSenderID" comment="发送者ID"/>
+            <Param type="string" name="strSenderName" comment="发送者名字"/>
+            <Param type="MailProt::EMailType" name="eMailType" comment="邮件类型"/>
+            <Param type="MailProt::EMailState" name="eMailState" comment="邮件状态"/>
+            <Param type="UINT32" name="dwSendTime" comment="发送时间"/>
+            <Param type="string" name="strTitle" comment="标题"/>
+            <Param type="string" name="strMsg" comment="邮件内容"/>
+            <!--- <Param type="string" name="strAttachment" comment="附件?"/>-->
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        <Func name="DeleteMail" ret="true"   comment="删除邮件">
+            <Param type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Param type="TVecMailDelData" name="vecMailIDs" comment="邮件ID列表"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        <Func name="SaveSystemMail" ret="true"  comment="保存系统邮件">
+            <Param type="TVecSystemMailTargetInfo" name="vecSystemMailTargetInfo" comment="邮件目标"/>
+            <Param type="SSystemMailInfo" name="rSystemMailInfo" comment="系统邮件信息"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        <!---
+        <Func name="UpdateMailInfo" ret="true"  comment="更新邮件信息">
+            <Param type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Param type="string" name="strMailAttachment" comment="邮件附件"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        -->
+        <Func name="UpdateMailStatus" ret="true"  comment="更新邮件状态">
+            <Param type="UINT64" name="qwMailID" comment="邮件ID"/>
+            <Param type="MailProt::EMailState" name="eMailState" comment="邮件状态"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+        <Func name="DelMailAttach" ret="true"  comment="删除邮件附件">
+            <Param type="MailDelData" name="stDelData" comment="删除提示"/>
+            <RetParam type="INT8" name=" byRet" comment="非0表示失败"/>
+        </Func>
+
+        <!---邮件相关结束-->
+
+        <!---精彩活动相关-->
+        <Func name="GetPrizeStatus" ret="true"  comment="查询玩家奖励状态">
+            <RetParam type="WonderActivityProt::TVecWonderPrize2DB" name="vecRet" comment="查询结果"/>
+        </Func>
+        <Func name="DelActPrizeData"  comment="删除玩家数据">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+        </Func>
+        <Func name="GetAllRoleLevel"  ret="true" comment="查询所有玩家信息">
+            <Param type="UINT8" name="byType" comment="类型"/>
+            <RetParam type="UINT8" name="byTypeRet" comment="类型"/>
+            <RetParam type="TVecRoleLevel" name="vecRoleLevel" comment="返回玩家等级"/>
+        </Func>
+        <Func name="UpdatePrizeStatus"  comment="更新玩家奖励状态">
+            <Param type="WonderActivityProt::SWonderPrize2DB" name="sPrize2DB" comment="玩家信息"/>
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+        </Func>
+        <Func name="GetRetain" ret="true"  comment="查询玩家保留信息">
+            <RetParam type="WonderActivityProt::TVecRetain" name="vecRet" comment="查询结果"/>
+        </Func>
+        <Func name="UpdateRetain"  comment="更新玩家保留信息">
+            <Param type="WonderActivityProt::SRetain" name="sRetain" comment="玩家保留信息"/>
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新方式，增加，删除，修改"/>
+        </Func>
+        <Func name="DelActRetainData"  comment="删除玩家保留数据">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+        </Func>
+
+
+        <!---精彩活动相关结束-->
+
+        <Func name="GetAllUserIDAndName" comment="请求所有UserID和name">
+        </Func>
+        <Func name="GetAllNotice" comment="请求所有公告">
+        </Func>
+        <Func name="AddNotice" comment="增加公告">
+            <Param type= "PHPProt::SNotice" name = "sNotice" comment="公告内容"/>
+        </Func>
+        <Func name="DelNotice" comment="删除公告">
+            <Param type="UINT32" name="dwNoticeID" comment="公告ID"/>
+        </Func>
+        <Func name="GetAllArena"   comment="请求斗剑信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="UpdateAllArena"   comment="更新斗剑数据">
+            <Param type= "ArenaGS::TVecArenaPlayerBaseDataUpdate" name = "vecUpdate" comment="更新信息"/>
+        </Func>
+        <Func name="DelPlayerArena"   comment="删除玩家斗剑数据">
+            <Param type= "TVecUINT64" name = "vecDel" comment="删除玩家斗剑信息"/>
+        </Func>
+        <Func name="GetGameVar"  ret="true"    comment="请求系统Var数据">
+            <RetParam type ="RoleInfoDefine::TVecGameVarsDBInfo" name="vecVar" comment="返回的Var"/> 
+        </Func>
+        <Func name="UpdateGameVar"      comment="更新系统Var数据">
+            <Param type ="RoleInfoDefine::SGameVarsDBInfo" name="Var" comment="更新的Var"/> 
+        </Func>
+        <Func name="AddGameVar"      comment="增加系统Var数据">
+            <Param type ="RoleInfoDefine::SGameVarsDBInfo" name="Var" comment="增加的Var"/> 
+        </Func>
+        <Func name="DelGameVar"      comment="删除Var数据">
+            <Param type ="UINT16" name="wVarID" comment="删除的VarID"/> 
+        </Func>
+        <Func name="GetArenaFighterByID"  ret="true"    comment="根据玩家ID获得竞技基本数据">
+            <Param type ="UINT64" name="qwRoleID" comment="玩家的ID"/> 
+            <RetParam type ="ArenaGS::SArenaFighter" name="stFighter" comment="返回的数据"/> 
+        </Func>
+        <Func name="GetDemonTowerInfo"  ret="true"  comment="获取镇妖塔信息（启动预加载调用）">
+            <RetParam type="DemonTowerGS::TVecDemonTowerPlayer" name="vecDemonTowerPlayer" comment="镇妖塔玩家信息"/>
+        </Func>
+        <Func name="UpateDemonTowerInfo"   comment="更新镇妖塔玩家信息">
+            <Param type="DemonTowerGS::EDemonTowerDB" name="eDbType" comment="更新类型"/>
+            <Param type="DemonTowerGS::SDemonTowerPlayer" name="oDemonTowerPlayer" comment="镇妖塔玩家信息"/>
+        </Func>
+        <Func name="GetCenterData"  ret="true"  comment="获取中心服数据">
+            <RetParam type="TVecCenterData" name="vecCenterData" comment="中心服数据"/>
+        </Func>
+        <Func name="UpateCenterData"   comment="更新中心服数据">
+            <Param type="SCenterData" name="oCenterData" comment="中心服数据"/>
+            <Param type="bool" name="bDelete" comment="删除/更新"/>
+        </Func>
+        <Func name="GetWhisperInfo" ret="true" comment="查看玩家私聊信息">
+            <Param type ="UINT64" name="qwRoleID" comment="玩家的ID"/> 
+            <RetParam type ="GlobalChatProt::SWhisperInfo" name="whisperInfo" comment="返回的数据"/> 
+        </Func>
+        <Func name="GetBattleReport" ret="true" comment="获得玩家战报信息">
+            <Param type ="UINT64" name="qwRoleID" comment="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::EBattleReportType" name ="eBattleType" comment ="战斗类型"/>
+            <Param type ="RoleInfoDefine::EBattleActionType" name ="eAction"  comment ="战斗的发起"/>
+            <RetParam type ="RoleInfoDefine::TVecBattleRePort" name="vecReport" comment="返回的数据"/> 
+        </Func>
+        <Func name="AddBattleReport" ret="true" comment="增加玩家战报信息">
+            <Param type ="UINT64" name="qwRoleID" comment ="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::SBattleRePort" name ="sReport" comment ="战斗数据"/>
+            <Param type ="UINT8" name ="byNum"  comment ="超过byNum，返回删除的旧的战报,0表示不删除"/>
+            <RetParam type ="TVecUINT64" name="vecBattleID" comment="删除的战报"/> 
+        </Func>
+        <Func name="ReloadTable" comment="重新加载表格" >
+            <Param type="TVecString"    name="vecTableName"     comment="表格名字" />
+        </Func>
+        <Func name="GetAllTripod"   comment="请求所有九疑鼎信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="GetAllTripodHelper"   comment="请求所有九疑鼎的协助信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="GetAllTripodLog"   comment="请求所有九疑鼎的动态信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="UpdateTripod"   comment="更新玩家九疑鼎信息">
+            <Param type ="UINT64" name="qwRoleID" comment ="玩家的ID"/> 
+            <Param type="TripodProt::STripodInfo" name="oTripodInfo" comment="九疑鼎的数据"/>
+        </Func>
+        <Func name="UpateTripodHelp"   comment="更新玩家九疑鼎协助信息">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="TripodProt::STripodHelp" name="oTripodHelp" comment="九疑鼎协助的信息"/>
+        </Func>
+        <Func name="UpdateTripodLog"   comment="更新玩家九疑鼎动态信息">
+            <Param type ="UINT64" name="qwRoleID" comment ="玩家的ID"/> 
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="TripodProt::STripodLog" name="oTripodLog" comment="九疑鼎动态的信息"/>
+        </Func>
+        <Func name="AddOffLineEvent"  comment="增加离线事件">
+            <Param type ="TVecUINT64" name="vecRoleID" comment ="玩家的ID"/> 
+            <Param type ="RoleInfoDefine::SEventOffLine" name ="sEventData" comment ="事件"/>
+        </Func>
+        <Func name="FreezePlayer"  comment="对玩家封号">
+            <Param type ="UINT64" name="qwRoleID" comment ="玩家的ID"/> 
+            <Param type ="UINT32" name ="dwFreezeTimer" comment ="封号"/>
+        </Func>
+        <Func name="ForbitChat"  comment="对玩家禁言">
+            <Param type ="UINT64" name="qwRoleID" comment ="玩家的ID"/> 
+            <Param type ="UINT32" name ="dwForbitTimer" comment ="禁言时间"/>
+        </Func>
+        <Func name="UpdateLoginIP"  comment="将玩家登录时IP写入数据库">
+            <Param type ="UINT64" name="qwUserID" comment ="玩家的ID"/> 
+            <Param type ="string" name ="strLoginIP" comment ="登录时IP"/>
+        </Func>
+        <Func name="GetPlatformParam" comment="请求拉取进入参数" >
+        </Func>
+        <Func name="GetResult2DB"  comment="数据库查询">
+            <Param type ="SBaseCond" name="sBaseCond"   comment  ="查询条件"/> 
+        </Func>
+        <Func name="GetAllShip"   comment="请求金船信息">
+            <Param type="UINT32" name="dwPageSize" comment="发送条数"/>
+        </Func>
+        <Func name="UpdateShip"   comment="更新金船数据">
+            <Param type= "ShipProt::PlayerShip" name = "UpdateInfo" comment="更新信息"/>
+        </Func>
+        <Func name="DelShip"   comment="删除金船数据">
+            <Param type= "UINT64" name = "qwInsID" comment="删除金船信息"/>
+        </Func>
+        <Func name="AddShipReport"   comment="增加金船报告">
+            <Param type="UINT64" name="qwRoleID" comment="报告拥有者"/>
+            <Param type="ShipProt::ShipReport" name="sReport" comment="报告内容"/>
+        </Func>
+        <Func name="DelShipReport"   comment="删除金船报告">
+            <Param type="UINT64" name="qwRoleID" comment="报告拥有者"/>
+            <Param type="UINT64" name="qwInsID" comment="金船唯一ID"/>
+        </Func>
+        <Func name="SyncMonsterUserInfo"   comment="天元神兽同步玩家信息">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="GodMonsterProt::SGuildUser2DB" name="sUser" comment="数据"/>
+        </Func>
+        <Func name="GetGodMonsterInfo"  ret="true"  comment="获取天元神兽信息（启动预加载调用）">
+            <RetParam type="GodMonsterProt::TVecGuildUser2DB" name="vecUser" comment="天元神兽玩家信息"/>
+        </Func>
+        <Func name="SyncLimitPrizeInfo"   comment="天元神兽同步玩家限购礼包信息">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="GodMonsterProt::SLimitPrize2DB" name="oLimitPrize" comment="数据"/>
+        </Func>
+        <Func name="GetLimitPrizeInfo"  ret="true"  comment="获取天元神兽玩家限购礼包信息（启动预加载调用）">
+            <RetParam type="GodMonsterProt::TVecLimitPrize2DB" name="vecLimitPrize" comment="数据"/>
+        </Func>
+        <Func name="SyncActivityCenterInfo"   comment="运营活动中心同步信息">
+            <Param type ="ProtoCommon::EDataChange" name="eUpdateType" comment="更新类型，增加，删除，修改"/>
+            <Param type="ProtoCommon::SActivityOpt"   name="oActOpt" comment="数据"/>
+        </Func>
+        <Func name="GetActivityCenterInfo"  ret="true"  comment="运营活动中心操作（启动预加载调用）">
+            <RetParam type="ProtoCommon::TVecActivityOpt" name="vecActOpt" comment="数据"/>
+        </Func>
+         <Func name="AddLadderRobot"    comment="增加机器人新信息">
+            <Param type="ArenaGS::TVecLadderRobot" name="vecData" comment="数据"/>
+        </Func>
+         <Func name="UpdateLadderRobot"    comment="增加机器人新信息">
+<Param type="ArenaGS::SLadderRobot" name="SData" comment="数据"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="SendResult2Cent" comment="返回查询结果">
+            <Param type="SBaseCond" name="sCond" comment="查询条件"/>
+            <Param type="SBaseResult" name="sResult" comment="查询结果"/>
+        </Func>
+        <Func name="SendAllUserIDAndName" comment="返回所有玩家ID和名字">
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "PHPProt::TVecUserIDAndName" name = "vecUserIDAndName" comment="玩家ID和名字"/>
+        </Func>
+        <Func name="SendAllNotice" comment="返回所有公告">
+            <Param type= "PHPProt::TVecNotice" name = "vecNotice" comment="公告内容"/>
+        </Func>
+        <Func name="SendAllArena"   comment="返回请求斗剑信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "ArenaGS::TVecArenaPlayerData" name = "vecSendDate" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllRobot"   comment="返回机器人天梯排行信息">
+            <Param type="ArenaGS::TVecLadderRobot" name="vecRobot" comment="机器人排行信息"/>
+        </Func>
+        <Func name="RankInitNotify"   comment="返回请求排行榜数据">
+            <Param type="UINT32" name="dwCurSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "RankProt::TVecRankInfo" name="vecRankInfo" comment="更新信息"/>
+        </Func>
+        <Func name="AdoreInitNotify"   comment="返回请求崇拜数据">
+            <Param type="UINT32" name="dwCurSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type="RankProt::TVecDBAdoreInfo" name="vecAdoreInfo" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllTripod"   comment="返回所有九疑鼎信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "TripodProt::TVecTripodData" name = "vecSendData" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllTripodHelper"   comment="返回所有九疑鼎的协助信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "TripodProt::TVecTripodHelp" name = "vecSendData" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllTripodLog"   comment="返回所有九疑鼎的动态信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "TripodProt::TVecTripodLog" name = "vecSendData" comment="更新信息"/>
+        </Func>
+        <Func name="PlatformParamInfoNotify" comment="平台参数加载返回" >
+            <Param type="UINT32" name="dwCurSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type="TVecUINT64" name="vecRoleID" comment="玩家ID" />
+            <Param type= "ProtoCommon::TVecPlatformParam" name="vecPlatformParam" comment="更新信息"/>
+        </Func>
+        <Func name="SendAllShip"   comment="返回请求金船信息">
+            <Param type="UINT32" name="dwPageSize" comment="已发送条数"/>
+            <Param type="UINT32" name="dwTotalSize" comment="总条数"/>
+            <Param type= "ShipProt::TVecPlayerShip" name = "vecSendDate" comment="更新信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="AchievementProt" id="75" proxy="GameServer" comment="成就相关协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EAchievementRet" desc="true" comment="成就完成进度">      
+            <Member name="eAchievementRet_Sucess"  value="0"  comment="成功"/> 
+            <Member name="eAchievementRet_NotFinish"  comment="未完成"/>
+            <Member name="eAchievementRet_TakePrized"  comment="已领奖"/>
+            <Member name="eAchievementRet_ErrorCFG"  comment="配置错误"/>
+            <Member name="eAchievementRet_PackFull"  comment="包满"/>
+        </Enum>
+        <Enum name="EAchievementProcess" desc="true" comment="成就完成进度">      
+            <Member name="eAchievementProcess_Init"  value="0"  comment="未完成"/> 
+            <Member name="eAchievementProcess_Finish"  comment="已完成"/>
+            <Member name="eAchievementProcess_TakePrize"  comment="已领奖"/>
+        </Enum>
+        <Enum name="EAchievementShareType" desc="true" comment="成就分享类型">      
+            <Member name="eAchievementShareType_Invalid"  value="0"  comment="无效类型"/> 
+            <Member name="eAchievementShareType_Friend"  comment="qq好友分享"/>
+            <Member name="eAchievementShareType_Game"  comment="游戏内炫耀"/>
+        </Enum>
+        <Struct name="SAchievementInfo" vec="TVecAchievementInfo" comment="EDataType:eTypeAchievementInfo">
+            <Member type="UINT64" name="qwRoleID" comment="角色ID"/>
+            <Member type="UINT16" name="wAchievementID" comment="成就ID"/>
+            <Member type="UINT32" name="dwCount" comment="EAchievementProcess类型成就完成进度"/>
+            <Member type="UINT32" name="dwProcess" comment="当前进度(持续型事件记录数据)"/>
+            <Member type="UINT32" name="dwFinishTime" comment="完成时间"/>
+        </Struct>
+         <Struct name="SAchievementShare" vec="TVecAchievementShare" comment="成就分享列表">
+            <Member type="UINT16" name="wAchievementID" comment="成就ID"/>
+            <Member type="EAchievementProcess" name="eProcess" comment="分享状态"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GeAchievementInfo" ret="true" comment="获取成就信息">
+            <RetParam type="TVecAchievementInfo" name="vecAchievementInfo" comment="成就榜信息"/>
+            <RetParam type="UINT16" name="wLevel" comment="成就等级"/>
+            <RetParam type="UINT32" name="dwAP" comment="成就点"/>
+        </Func>
+        <Func name="TakePrize" ret="true" comment="获取成就奖励">
+            <Param type="UINT16" name="wAchievementID" comment="成就ID"/>
+            <RetParam type="EAchievementRet" name="eRet" comment="结果"/>
+        </Func>
+         <Func name="GeAchievementShareList" ret="true" comment="获取成就分享信息">
+            <RetParam type="TVecAchievementShare" name="vecAchievementShare" comment="成就分享信息"/>
+        </Func>
+        <Func name="TakeSharePrize" ret="true" comment="获取成就分享奖励">
+            <Param type="UINT16" name="wAchievementID" comment="成就ID"/>
+            <RetParam type="EAchievementRet" name="eRet" comment="结果"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="APNotify" comment="成就点通知">
+            <Param type="UINT32" name="dwAP" comment="成就点"/>
+        </Func>
+        <Func name="AchievementLevelNotify" comment="成就等级通知">
+            <Param type="UINT16" name="wLevel" comment="成就等级"/>
+        </Func>
+        <Func name="AchievementInfoNotify" comment="成就等级通知">
+            <Param type="SAchievementInfo" name="oAchievementInfo" comment="成就信息"/>
+        </Func>
+        <Func name="AchievementShareNotify" comment="成就分享通知">
+            <Param type="SAchievementShare" name="oAchievementShare" comment="成就分享信息"/>
+        </Func>
+        <Func name="MidnightNotify" comment="零点通知">
+        </Func>
+    </FuncS2C>
+</Protocol>

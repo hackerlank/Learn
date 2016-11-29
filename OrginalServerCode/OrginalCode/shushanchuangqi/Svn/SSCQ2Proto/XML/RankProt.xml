@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="RankProt" id="80" proxy="CenterServer" comment="排行榜相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon" />
+        <Protocol name="BattleGS" />
+    </Refer>
+    <TypeDef>
+        <Enum name="ERankType" comment="排行榜类型" >
+            <Member name="eRTNone"                value="0"    comment="无效排行榜类型" />
+
+            <Member name="eRTHead"                                    comment="魁首榜" />
+
+            <Member name="eRTRoleRankBegin"                           comment="玩家排行榜开始索引" />
+            <Member name="eRTBattlePoint"   value="eRTRoleRankBegin"  comment="总战力榜" />
+            <Member name="eRTLevel"                                   comment="等级榜" />
+            <Member name="eRTFormation"                               comment="阵灵榜" />
+            <Member name="eRTHeroFighter"                             comment="散仙榜" />
+            <Member name="eRTTrump"                                   comment="法宝榜" />
+            <Member name="eRTArena"                                   comment="斗剑榜" />
+            <Member name="eRTRoleRankEnd"   value="eRTArena"          comment="玩家排行榜结束索引" />
+
+            <Member name="eRTGuildRankBegin"                          comment="帮派排行榜开始索引" />
+            <Member name="eRTGuildBattle"   value="eRTGuildRankBegin" comment="帮派战排行榜" />
+            <Member name="eRTGuildRankEnd"                            comment="帮派排行榜结束索引" />
+            <Member name="eRTMax"  comment="排名类型最大值"/>
+        </Enum>
+        <Enum name="ERankResult" comment="排行榜返回结果集" >
+            <Member name="eRRSuccess"    value="0" comment="操作成功" />
+            <Member name="eRRFailed"               comment="操作失败" />
+            <Member name="eRRNotExist"             comment="不存在" />
+        </Enum>
+        <Enum name="EAdoreResult" comment="排行榜返回结果集" >
+            <Member name="eARSuccess"    value="0" comment="操作成功" />
+            <Member name="eARFailed"               comment="操作失败" />
+            <Member name="eARNotExist"             comment="不存在" />
+        </Enum>
+        <Struct name="SRankInfo" vec="TVecRankInfo" comment="排名信息" >
+            <Member type="UINT32" name="dwValue"      comment="排名依据的信息(战斗力/等级……)"/>
+            <Member type="UINT32" name="dwUpdateTime" comment="更新时间" />
+            <SubStruct name="SRoleHeadInfo" vec="TVecRoleHeadInfo" comment="魁首榜" >
+                <Member type="ERankType"    name="eType"            comment="排行榜类型" />
+                <Member type="UINT64"       name="qwRoleID"         comment="玩家ID" />
+                <Member type="string"       name="strName"          comment="玩家姓名" />
+                <Member type="UINT16"       name="wID"              comment="对应ID" />
+                <Member type="UINT16"       name="wPlayerFighterID" comment="主将ID"/>
+                <Member type="UINT8"        name="byQuality"        comment="主将品质(颜色)"/>
+                <Member type="UINT8"        name="byInfoQuality"    comment="魁首品质(颜色)"/>
+                <Member type="string"       name="strGuildName"     comment="帮派名字"  />
+            </SubStruct>
+            <SubStruct name="SRoleRankInfo" vec="TVecRoleRankInfo" comment="玩家相关排名信息" >
+                <Member type="UINT64"   name="qwRoleID"         comment="玩家ID" />
+                <Member type="string"   name="strName"          comment="玩家姓名" />
+                <Member type="UINT16"   name="wPlayerFighterID" comment="主将ID"/>
+                <Member type="UINT8"    name="byQuality"        comment="散仙品质(颜色)"/>
+                <Member type="UINT8"    name="byVIPLevel"       comment="玩家VIP等级"/>
+                <Member type="ProtoCommon::TVecPlatformParam" name="vecPlatforms" comment="平台信息" />
+                <SubStruct name="SRRBattlePointInfo" vec="TVecRRBattlePointInfo" comment="战力信息" >
+                    <Member type="UINT32"   name="dwBattlePoint"    comment="战斗力" /> 
+                    <Member type="string"   name="strGuildName"     comment="帮派名称" />
+                </SubStruct>
+                <SubStruct name="SRRLevelInfo" vec="TVecRRLevelInfo" comment="等级信息" >
+                    <Member type="UINT16"   name="wLevel"    comment="等级" /> 
+                    <Member type="UINT64"   name="qwExp"     comment="经验值" />
+                </SubStruct>
+                <SubStruct name="SRRFormationInfo" vec="TVecRRFormationInfo" comment="阵灵信息" >
+                    <Member type="UINT32"   name="dwBattlePoint"    comment="战斗力" /> 
+                    <Member type="string"   name="strGuildName"     comment="帮派名称" />
+                    <Member type="UINT16"   name="wID"     comment="阵灵配置表ID，同monster"/>
+                </SubStruct>
+                <SubStruct name="SRRHeroFighterInfo" vec="TVecRRHeroFighterInfo" comment="散仙信息" >
+                    <Member type="UINT32"   name="dwBattlePoint"    comment="战斗力" /> 
+                    <Member type="string"   name="strGuildName"     comment="帮派名称" />
+                    <Member type="UINT16"   name="wID"              comment="散仙类型"/>
+                    <Member type="UINT8"    name="byInfoQuality"    comment="散仙品质(颜色)"/>
+                </SubStruct>
+                <SubStruct name="SRRTrumpInfo" vec="TVecRRTrumpInfo" comment="法宝信息" >
+                    <Member type="UINT32"   name="dwBattlePoint"    comment="战斗力" /> 
+                    <Member type="string"   name="strGuildName"     comment="帮派名称" />
+                    <Member type="UINT16"   name="wID"              comment="法宝ID" /> 
+                </SubStruct>
+                <SubStruct name="SRRArenaInfo" vec="TVecRRArenaInfo" comment="斗剑信息" >
+                    <Member type="UINT32"   name="dwBattlePoint"    comment="战斗力" /> 
+                    <Member type="string"   name="strGuildName"     comment="帮派名称" />
+                </SubStruct>
+            </SubStruct>
+            <SubStruct name="SGuildRankInfo" vec="TVecGuildRankInfo"    comment="帮派相关排名信息" >
+                <Member type="UINT64"       name="qwGuildID"        comment="帮派ID" />
+                <Member type="string"       name="strName"          comment="帮主姓名" />
+                <Member type="UINT16"       name="wLevel"           comment="帮派等级" />
+                <Member type="string"       name="strGuildName"     comment="帮派姓名" />
+                <Member type="UINT64"       name="qwRoleID"         comment="帮主ID" />
+                <Member type="UINT8"        name="byQuality"        comment="主将品质(颜色)"/>
+                <Member type="UINT16"       name="wPlayerFighterID" comment="主将ID"/>
+                <SubStruct name="SGRBattleInfo"  vec="TVecGRBattleInfo" comment="帮派战排名">
+                    <Member type="UINT32"   name="dwBattleScore" comment="帮派战积分" />
+                </SubStruct>
+                <SubStruct name="SGRLevelInfo" vec="TVecGRLevelInfo"    comment="帮派等级排名" >
+                    <Member type="UINT16"   name="wLevel2"   comment="帮派等级" />
+                </SubStruct>
+            </SubStruct>
+        </Struct>
+        <Struct name="SDBAdoreInfo" vec="TVecDBAdoreInfo" comment="崇拜数据库信息" >
+            <Member type="UINT64" name="qwRoleID"     comment="玩家ID" />
+            <Member type="UINT32" name="dwCount"      comment="被崇拜数量"/>
+            <Member type="UINT32" name="dwUpdateTime" comment="更新时间" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetRankInfo" ret="true" comment="获取排行榜数据" >
+            <Param    type="ERankType"    name="eType"              comment="排行榜类型" />
+            <Param    type="UINT32"       name="dwIndex"            comment="排名索引" />
+            <Param    type="UINT32"       name="dwCount"            comment="排名个数" />
+            <RetParam type="ERankType"    name="eType"              comment="排行榜类型" />
+            <RetParam type="UINT32"       name="dwMaxCount"         comment="最大排名数量" />
+            <RetParam type="UINT32"       name="dwCurIndex"         comment="当前排名索引" />
+            <RetParam type="UINT32"       name="dwSelfRank"         comment="自己所在排名"/>
+            <RetParam type="TVecRankInfo" name="vecRankInfo"        comment="排行榜数据"/>
+            <RetParam type="TVecRankInfo" name="vecSelfRankInfo"    comment="自己所在排名" />
+        </Func>
+        <Func name="GetPlayerFeature" ret="true" comment="获得玩家外观信息">
+            <Param type="UINT64"        name="qwRoleID"         comment="玩家ID" />
+            <RetParam type="ERankResult"   name="eResult"          comment="崇拜结果" />
+            <RetParam type="BattleGS::SFeatureBase" name="pFeature" comment="外观信息"/>
+        </Func>
+        <Func name="GetAdoreCount" ret="true" comment="获得崇拜数量">
+            <Param type="UINT64"        name="qwRoleID"         comment="玩家ID" />
+            <RetParam type="UINT32"     name="dwCount"          comment="崇拜数量" />
+            <RetParam type="UINT32"     name="dwSelfCount"      comment="自己剩余崇拜数量" />
+        </Func>
+        <Func name="AdorePlayer" ret="true" comment="崇拜玩家" >
+            <Param type="UINT64"   name="qwRoleID"         comment="玩家ID" />
+            <RetParam type="ERankResult"   name="eResult"          comment="崇拜结果" />
+            <RetParam type="UINT32"        name="dwCount"          comment="崇拜数量" />
+            <RetParam type="UINT32"        name="dwSelfCount"      comment="自己剩余崇拜数量" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

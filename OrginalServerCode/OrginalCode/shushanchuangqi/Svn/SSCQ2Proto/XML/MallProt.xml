@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="MallProt" id="27" proxy="GameServer" comment="商城相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EMallType" signed="true" comment="商城类型">
+            <Member name="eMallGold" value="1" comment="奇珍商城"/>
+            <Member name="eMallFashion" comment="时装商城"/>
+            <Member name="eMallVIP" comment="VIP商城"/>
+            <Member name="eMallPrestige" comment="声望商城"/>
+            <Member name="eMallHonor" comment="荣誉商城"/>
+            <Member name="eMallCoupon" comment="礼券商城"/>
+            <Member name="eMallSilver" comment="银币商城"/>
+			<Member name="eMallLimit" comment="限购商城"/>
+			<Member name="eMallGem" comment="宝石商城"/>
+            <Member name="eMallEnd" comment="商城"/>
+        </Enum>
+        <Enum name="EMallResult" signed="true" comment="商城操作结果">
+            <Member name="eMallResultSucc" comment="成功"/>
+            <Member name="eMallResultFailed" comment="失败"/>
+            <Member name="eMallResultStore" comment="背包空间不足"/>
+            <Member name="eMallResultStoreAdd" comment="物品加入背包出错"/>
+            <Member name="eMallResultMoney" comment="购买时相应货币不足"/>
+            <Member name="eMallResultNoItem" comment="所购买的物品已下架"/>
+            <Member name="eMallResultFashionErr" comment="所购买的时装不能加入背包"/>
+            <Member name="eMallResultFashionAlready" comment="所购买的时装已存在"/>
+            <Member name="eMallPresentSucc" comment="赠送成功"/>
+            <Member name="eMallPresentNoTarget" comment="赠送的玩家不存在"/>
+            <Member name="eMallResultDiscountOverTime" comment="限购活动已过期"/>
+            <Member name="eMallResultDiscountFull" comment="超出限购数量限制"/>
+            <Member name="eMallResultDiscountRechargeErr" comment="未达到限购充值仙石数量"/>
+            <Member name="eMallResultDiscountConsumeErr" comment="未达到限购消耗仙石数量"/>
+            <Member name="eMallResultItemCount" comment="没有购买次数"/>
+        </Enum>
+        <Enum name="EUseMoneyMark" signed="true" comment="使用钱币标志">
+            <Member type="UINT8" name="eUseBindMoney" comment="使用绑定钱币"/>
+            <Member type="UINT8" name="eUseNoBindMoney" comment="使用非绑定钱币"/>
+        </Enum>
+        <Enum name="EDiscountLimitType" signed="true" comment="限购限制类型">
+            <Member name="eDiscountLimitTypeNO" value="0" comment="无条件"/>
+            <Member name="eDiscountLimitTypeRecharge" value="1" comment="充值限购"/>
+            <Member name="eDiscountLimitTypeConsume" value="2" comment="消费限购"/>
+            <Member name="eDiscountLimitTypeEnd" comment="限购类型"/>
+        </Enum>
+        <Struct name="SMallInfo" vec="TVecMallInfo" comment="商城信息">
+            <Member type="UINT32" name="dwInstID" comment="商品编号"/>
+            <Member type="string" name="strName" comment="商品名称"/>
+            <Member type="UINT16" name="wItemID" comment="物品ID"/>
+            <Member type="UINT32" name="dwItemCount" comment="物品数量"/>
+            <Member type="ProtoCommon::EMoneyType" name="eMoneyType" comment="所需货币类型"/>
+            <Member type="UINT32" name="dwPrice" comment="价格"/>
+            <Member type="UINT8" name="byVIP" comment="VIP等级限制"/>
+            <Member type="UINT16" name="wIcon" comment="图标"/>
+            <Member type="UINT32" name="dwDayCntLimit" comment="限购数量"/>
+        </Struct>
+        <Struct name="SDiscountItem" vec="TVecDiscountItem" comment="商城折扣物品">
+            <Member type="UINT16" name="wItemID" comment="物品ID"/>
+            <Member type="UINT16" name="wOriginalPrice" comment="原价"/>
+            <Member type="UINT16" name="wDiscountPrice" comment="折扣价"/>
+        </Struct>
+        <Struct name="SDiscount" vec="TVecDiscount" comment="商城折扣物品信息">
+            <Member type="UINT8" name="byPos" comment="限购位置(0,1,2表示)"/>
+            <Member type="UINT64" name="qwMarkID" comment="栏位版本ID"/>
+            <Member type="TVecDiscountItem" name="vecDisItems" comment="限购道具"/>
+            <Member type="UINT8" name="byLimitType" comment="类型限制(0无条件、1充值限购、2消费限购)"/>
+            <Member type="UINT32" name="dwLimitValue" comment="达到的仙石数量限制(0无条件、1充值限购、2消费限购)"/>
+            <Member type="UINT16" name="wLimitCount" comment="购买道具个数限制"/>
+            <Member type="UINT32" name="dwBeginTime" comment="限购开始时间"/>
+            <Member type="UINT32" name="dwEndTime" comment="限购结束时间"/>
+        </Struct>
+        <Struct name="SBuyItemInfo" vec="TVecBuyItemInfo" comment="物品购买信息">
+            <Member type="UINT32" name="dwInstID" comment="实例ID"/>
+            <Member type="UINT32" name="dwCount" comment="物品数量"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="MalGet" ret="true" comment="预览商城信息">
+            <Param type="EMallType" name="eType" comment="商城类型"/>
+            <RetParam type="TVecMallInfo" name="vecMallInfo" comment="商场信息列表"/>
+        </Func>
+        <Func name="MalBuy" ret="true" comment="商场购买">
+            <Param type="EUseMoneyMark" name="eMark" comment="使用钱币标志"/>
+            <Param type="EMallType" name="eType" comment="商城类型"/>
+            <Param type="UINT32" name="wInstID" comment="实例ID"/>
+            <Param type="UINT16" name="wCount" comment="物品个数"/>
+            <RetParam type="EMallResult" name="eResult" comment="购买结果返回"/>
+        </Func>
+        <Func name="MallPresent" ret="true" comment="商场赠送">
+            <Param type="EUseMoneyMark" name="eMark" comment="使用钱币标志"/>
+            <Param type="EMallType" name="eType" comment="商城类型"/>
+            <Param type="UINT32" name="wInstID" comment="物品ID"/>
+            <Param type="UINT16" name="wCount" comment="物品个数"/>
+            <Param type="string" name="strReceiveName" comment="接受者姓名"/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strMsg" comment="邮件内容"/>
+            <RetParam type="EMallResult" name="eResult" comment="赠送结果返回"/>
+        </Func>
+        <Func name="GetMallDiscountInfo" comment="预览商城限购信息">
+        </Func>
+        <Func name="BuyDiscountItem" ret="true" comment="购买商场限购道具">
+            <Param type="UINT8" name="byPos" comment="限购位置(0,1,2)"/>
+            <Param type="UINT16" name="wCount" comment="购买个数"/>
+            <RetParam type="EMallResult" name="eResult" comment="购买结果返回"/>
+            <RetParam type="UINT8" name="byPos" comment="限购位置(0,1,2)"/>
+            <RetParam type="UINT16" name="wCount" comment="购买个数"/>
+        </Func>
+        <Func name="GetBuyItemList" ret="true" comment="获取物品购买数量列表">
+            <RetParam type="TVecBuyItemInfo" name="vecBuyItemInfo" comment="购买数量列表"/>
+        </Func>
+        <Func name="GetChongZhiActInfo" ret="false" comment="获取玩家首次充值活动完成信息(在商城界面的奖励)">
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="UpdateMallDiscountInfo" comment="通知玩家商城限购信息">
+            <Param type="TVecDiscount" name="vecDiscount" comment="限购信息列表"/>
+            <Param type="UINT32" name="wCountPos1" comment="限购位置1购买道具数"/>
+            <Param type="UINT32" name="wCountPos2" comment="限购位置2购买道具数"/>
+            <Param type="UINT32" name="wCountPos3" comment="限购位置3购买道具数"/>
+            <Param type="UINT32" name="wRechargePos1" comment="位置1充值限购期间充值仙石数"/>
+            <Param type="UINT32" name="wRechargePos2" comment="位置2充值限购期间充值仙石数"/>
+            <Param type="UINT32" name="wRechargePos3" comment="位置3充值限购期间充值仙石数"/>
+            <Param type="UINT32" name="wConsumePos1" comment="位置1消费限购期间消费仙石数"/>
+            <Param type="UINT32" name="wConsumePos2" comment="位置2消费限购期间消费仙石数"/>
+            <Param type="UINT32" name="wConsumePos3" comment="位置3消费限购期间消费仙石数"/>
+        </Func>
+        <Func name="UpdateMallDiscountInfoByPos" comment="通过栏位通知玩家商城限购信息">
+            <Param type="SDiscount" name="oDiscount" comment="限购信息列表"/>
+        </Func>
+        <Func name="BuyItemNotify"  comment="物品购买数量更新">
+            <Param type="SBuyItemInfo" name="oBuyItemInfo" comment="更新信息 dwInstID=0 表示整个更新列表清空数量（0点刷新）"/>
+        </Func>
+        <Func name="UpdateChongZhiActInfo" comment="更新玩家'首次充值'活动完成信息(在商城界面的奖励)">
+            <Param type="UINT8" name="byIdx" comment="当前充值完成的第几个"/>
+            <Param type="UINT32" name="dwCount" comment="当前充值了几个仙石包"/>
+            <Param type="UINT8" name="byInfo" comment="按位取(低6位,每位为1表明已完成)"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

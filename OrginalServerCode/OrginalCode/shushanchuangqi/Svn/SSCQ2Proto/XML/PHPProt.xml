@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="PHPProt" id="90" proxy="CenterServer" comment="PHP相关协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="EOptResult" signed="true" comment="后台操作结果">
+            <Member name="eOptResultSucc" comment="成功"/>
+            <Member name="eOptResultFailed" comment="失败"/>
+        </Enum>
+         <Enum name="EOptType" signed="true" comment="后台操作类型">
+            <Member name="eOptNone" comment="无"/>
+            <Member name="eOptLockUser" comment="封号"/>
+            <Member name="eOptUnlockUser" comment="解封"/>
+            <Member name="eOptLockSpeak" comment="禁言"/>
+            <Member name="eOptUnlockSpeak" comment="解禁"/>
+            <Member name="eOptSetPlayerVIPLevel" comment="设置玩家VIP等级"/>
+            <Member name="eOptAddGrowthValue" comment="增加玩家成长值"/>
+            <Member name="eOptEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EPHPTaskType" comment="日常任务类型">
+            <Member name="ePHPTaskNone" comment="无"/>
+            <Member name="ePHPYaMenTask" comment="衙门任务"/>
+            <Member name="ePHPShiMenTask" comment="师门任务"/>
+            <Member name="ePHPTaskEnd" comment="结束"/>
+        </Enum>
+        <Enum name="ESendTarget" comment="发放对象">
+            <Member name="eSendTargetNone" comment="无"/>
+            <Member name="eIsOnline" comment="在线玩家"/>
+            <Member name="eAll" comment="所有玩家"/>
+            <Member name="eClanMember" comment="帮派成员"/>
+            <Member name="eClanBag" comment="帮派仓库"/>
+            <Member name="eSendTargetEnd" comment="结束"/>
+        </Enum>
+		<Enum name="ETaskOpt" comment="任务集市中任务操作">
+            <Member name="eTaskOptNone" comment="无"/>
+            <Member name="eTaskOptComplete" comment="任务是否完成"/>
+            <Member name="eTaskOptCompAndReward" comment="任务是否完成，若完成发放奖励"/>
+			<Member name="eTaskOptReward" comment="发放奖励"/>
+            <Member name="eTaskOptEnd" comment="结束"/>
+        </Enum>
+		<Enum name="ETaskState" comment=" 任务集市状态返回">
+            <Member name="eTaskStateNone" comment="无"/>
+            <Member name="eTaskStateSuc" comment="奖励发放成功或任务步骤完成"/>
+            <Member name="eTaskStateNoRole" comment="玩家没有创建角色"/>
+			<Member name="eTaskStateNoComp" comment="任务步骤没有完成"/>
+            <Member name="eTaskStateSended" comment="奖励已经发放过"/>
+			<Member name="eTaskStateSendErr" comment="发放奖励错误"/>
+			<Member name="eTaskStateParamErr" comment="请求参数错误"/>
+			<Member name="eTaskStateOtherErr" comment="其他错误"/>
+            <Member name="eTaskStateEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EPlatformType" comment="平台类型">
+            <Member name="ePlatformNone" comment="无"/>
+            <Member name="ePlatformTypeQQYellow" comment="QQ黄钻平台/Qzone"/>
+			<Member name="ePlatformTypeQQPengyou" comment="QQ朋友/校友/黄钻"/>
+			<Member name="ePlatformTypeQQWeibo" comment="QQ微博平台"/>
+			<Member name="ePlatformTypeQQPlus" comment="QQ/Q+平台"/>
+			<Member name="ePlatformTypeQQGame" comment="QQ蓝钻/游戏平台"/>
+			<Member name="ePlatformTypeQQ3366" comment="QQ蓝钻/3366平台/包子"/>
+			<Member name="ePlatformTypeQQKingxin" comment="QQ官网平台/QQ会员"/>
+			<Member name="ePlatformTypeKingxin" comment="恺英官网平台"/>
+            <Member name="ePlatformTypeEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EQQPlatformType" desc="true" comment="QQ平台类型">
+			<Member name="eQQPlatformTypeNone"  comment="无"/>
+			<Member name="eQQPlatformTypeYellow" comment="黄钻平台"/>
+			<Member name="eQQPlatformTypeBlue" comment="蓝钻平台"/>
+			<Member name="eQQPlatformTypeRed" comment="红钻/VIP平台"/>
+			<Member name="eQQPlatformTypeEnd"  comment="结束"/>
+		</Enum>
+		<Enum name="EPHPPtType" desc="true" comment="平台类型定义">
+			<Member name="ePHPPtTypeNone"  comment="无"/>
+			<Member name="ePHPPtTypeQQYellow" comment="QQ黄钻平台/Qzone"/>
+			<Member name="ePHPPtTypeQQPengyou" comment="QQ朋友/校友/黄钻"/>
+			<Member name="ePHPPtTypeQQWeibo" comment="QQ微博平台"/>
+			<Member name="ePHPPtTypeQQPlus" comment="QQ/Q+平台"/>
+			<Member name="ePHPPtTypeQQGame" comment="QQ蓝钻/游戏平台"/>
+			<Member name="ePHPPtTypeQQ3366" comment="QQ蓝钻/3366平台/包子"/>
+			<Member name="ePHPPtTypeQQKingxin" comment="QQ官网平台/QQ会员"/>
+			<Member name="ePHPPtTypeKingxin" comment="恺英官网平台"/>
+			<Member name="ePHPPtTypeMax"  comment="最大值"/>
+		</Enum>
+        <Enum name="EShowType" comment="公告显示区域类型">
+            <Member name="eShowNone" comment="无"/>
+            <Member name="eChatWindowNotice" comment="聊天窗口显示公告"/>
+            <Member name="eAllNotice" comment="全部显示"/>
+            <Member name="eShowEnd" comment="结束"/>
+        </Enum>
+        <Enum name="ERollType" comment="是否滚动">
+            <Member name="eRollNone" comment="无"/>
+            <Member name="eIsRoll" comment="滚动"/>
+            <Member name="eNoRoll" comment="不滚动"/>
+            <Member name="eRollEnd" comment="结束"/>
+        </Enum>
+        <Enum name="ESendType" comment="是否立即发送">
+            <Member name="eSendNone" comment="无"/>
+            <Member name="eIsImmediateSend" comment="立即发送"/>
+            <Member name="eNoImmediateSend" comment="不立即发送"/>
+            <Member name="eSendEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EDialogType" comment="弹窗类型">
+            <Member name="eDialogNone" comment="无"/>
+            <Member name="eUpdateNoticeDialog" comment="更新公告弹窗"/>
+            <Member name="eSysDialog" comment="系统弹窗"/>
+            <Member name="eDialogEnd" comment="结束"/>
+        </Enum>
+        <Enum name="EActivityType" comment="类型">
+            <Member name="eActivity_None"                       comment="无"/>
+            <Member name="eActivity_WorldBoss"       value="1"  comment="世界boss活动"/>
+            <Member name="eActivity_LangHuanBless"   value="2"  comment="琅环活动"/>
+            <Member name="eActivity_DragonBall"      value="3"  comment="七星龙珠活动"/>
+            <Member name="eActivity_SevenConsume"    value="4"  comment="七日消费活动"/>
+            <Member name="eActivity_QQCoin"    value="5"  comment="Q币养成活动"/>
+            <Member name="eActivity_Max"                        comment="结束"/>
+        </Enum>
+        <Struct name="SUserIDAndName" vec="TVecUserIDAndName" comment="UserID和Name">
+            <Member type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Member type="string" name="strName" comment="角色名称"/>
+        </Struct>
+        <Struct name="SNotice" vec="TVecNotice" comment="公告">
+            <Member type="UINT32" name="dwNoticeID" comment="公告ID"/>
+            <Member type="UINT8" name="byNoticeType" comment="公告类型"/>
+            <Member type="string" name="strContent" comment="公告内容"/>
+            <Member type="UINT32" name="dwBeginTime" comment="公告开始时间"/>
+            <Member type="UINT32" name="dwEndTime" comment="公告结束"/>
+        </Struct>
+        <Struct name="SPlayerInfo" vec="TVecPlayerInfo" comment="玩家信息">
+            <Member type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Member type="string" name="strName" comment="角色名称"/>
+            <Member type="UINT16" name="wLevel" comment="等级"/>
+            <Member type="string" name="strGuildName" comment="帮派名"/>
+            <Member type="UINT64" name="qwGuildID" comment="帮派ID"/>
+            <Member type="UINT8" name="byJob" comment="职业(1、儒；2、释；3、道；4、墨)"/>
+            <Member type="UINT8" name="bySex" comment="性别(1、男；2、女)"/>
+            <Member type="UINT32" name="dwSilver" comment="银币"/>
+            <Member type="UINT32" name="dwGold" comment="仙石"/>
+            <Member type="UINT32" name="dwCoupon" comment="礼券"/>
+            <Member type="UINT8" name="byForbExpire" comment="是否禁言(0、否；1、是)"/>
+            <Member type="UINT8" name="byLockExpire" comment="是否封号(0、否；1、是)"/>
+            <Member type="UINT8" name="byVIPLevel" comment="VIP等级"/>
+            <Member type="UINT32" name="dwPrestige" comment="声望"/>
+            <Member type="UINT32" name="dwHonor" comment="荣誉"/>
+            <Member type="UINT32" name="dwDJ" comment="斗剑排名"/>
+            <Member type="UINT32" name="dwHistoryDJ" comment="历史最高斗剑"/>
+            <Member type="UINT32" name="dwCreateTime" comment="创角时间"/>
+            <Member type="UINT16" name="wShiMenTask" comment="师门任务"/>
+            <Member type="UINT16" name="wYaMenTaTask" comment="衙门任务"/>
+        </Struct>
+        <Struct name="SPlayerBagInfo" vec="TVecPlayerBagInfo" comment="玩家背包信息">
+            <Member type="UINT64" name="qwInstID" comment="物品唯一ID"/>
+            <Member type="UINT16" name="wItemID" comment="物品模板"/>	
+            <Member type="UINT8" name="byType" comment="1；背包，2：仓库"/>
+            <Member type="UINT16" name="wCount" comment="堆叠数"/>
+            <Member type="UINT8" name="byBind" comment="0：非绑定，1：绑定"/>
+        </Struct>
+        <Struct name="SChestInfo"  comment="天赐宝箱活动参数修改">
+            <Member type="UINT32" name="dwTime" comment="开启时间"/>
+            <Member type="UINT8" name="byBig"   comment="大宝箱个数"/>	
+            <Member type="UINT8" name="byMid"   comment="中宝箱个数"/>
+            <Member type="UINT8" name="bySmall" comment="小宝箱个数"/>
+            <Member type="UINT8" name="byPeroid" comment="活动持续时间"/>
+            <Member type="UINT16" name="wMapID" comment="宝箱刷新地图"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="PHP">
+        <Func name="OnUserRecharge" ret="true" comment="玩家充值仙石">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strToken" comment="memcach校验"/>
+            <Param type="string" name="strNo" comment="充值流水号"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT16" name="wID" comment="仙石包ID(41[10仙石],42[100仙石],43[300仙石],44[500仙石],45[1000仙石],46[3000仙石])或者Q点直购道具ID"/>
+            <Param type="UINT32" name="dwValue" comment="充值的仙石包数量或者Q点直购道具数量"/>
+            <Param type="string" name="strUINT" comment="单位,默认发QQCOIN(Q点)"/>
+            <Param type="string" name="strMoney" comment="仙石对应的QQCOIN值"/>
+            <Param type="string" name="strParam" comment="用来url请求"/>
+            <RetParam type="UINT8" name="byRet" comment="充值返回值(值为0:成功 非0其他错误)"/>
+            <RetParam type="string" name="strError" comment="错误码字符串(若成功为空)"/>
+        </Func>
+        <Func name="ModifyActivityIntegral" ret="true" comment="修改玩家各种活动积分信息">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="EActivityType" name="eType" comment="活动ID"/>
+            <Param type="INT32" name="dwActCount" comment="活动积分(负数表明减少)"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GetPlayerInfo" ret="true" comment="获取玩家信息">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <RetParam type="TVecPlayerInfo" name="vecPlayerInfo" comment="玩家信息"/>
+        </Func>
+        <Func name="GetPlayerBagInfo" ret="true" comment="获取玩家背包信息">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <RetParam type="TVecPlayerBagInfo" name="vecPlayerBagInfo" comment="玩家背包信息"/>
+        </Func>
+        <Func name="DelItem" ret="true" comment="删除物品">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT8" name="byType" comment="1；背包，2：仓库"/>
+            <Param type="UINT64" name="qwInstID" comment="物品唯一ID"/>
+            <Param type="UINT16" name="wCount" comment="堆叠数"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GetActList" ret="true" comment="获取活动列表信息">
+            <RetParam type="TVecUINT16" name="vecIDs" comment="活动列表"/>
+        </Func>
+        <Func name="OpenAct" ret="true" comment="开启指定活动">
+            <Param type="EActivityType" name="eType" comment="活动ID"/>
+            <Param type="UINT32" name="dwBegin" comment="活动开启时间"/>
+            <Param type="UINT32" name="dwEnd" comment="活动结束时间"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="LockOrUnlockUser" ret="true" comment="封号/解封">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="EOptType" name="eOptType" comment="后台操作类型(eOptLockUser/eOptUnlockUser)"/>
+            <Param type="UINT32" name="dwEndTime" comment="时间"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="LockOrUnlockSpeak" ret="true" comment="禁言/解禁">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="EOptType" name="eOptType" comment="后台操作类型(eOptLockSpeak/eOptUnlockSpeak)"/>
+            <Param type="UINT32" name="dwEndTime" comment="时间"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GetOnlineNum" ret="true" comment="获取在线人数">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <RetParam type="UINT32" name="dwOnlineNum" comment="在线人数"/>
+        </Func>
+        <Func name="SendItem" ret="true" comment="发放物品/货币">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strUserID" comment="格式：用户AID|户BID|.."/>
+            <Param type="string" name="strName" comment="角色名称(注：考虑到解析字符异常，名字不支持多个)"/>
+            <Param type="string" name="strItem" comment="格式：ItemAID,ItemANum|ItemBID,ItemBNum|..,.."/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SubMoney" ret="true" comment="减少货币数量">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strUserID" comment="格式：用户AID|户BID|.."/>
+            <Param type="string" name="strName" comment="角色名称(注：考虑到解析字符异常，名字不支持多个)"/>
+            <Param type="string" name="strItem" comment="格式：ItemAID,ItemANum|ItemBID,ItemBNum|..,.."/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SendVIPItem" ret="true" comment="发放VIP物品">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="UINT8" name="byVIPMinLevel" comment="VIP最小等级"/>
+            <Param type="UINT8" name="byVIPMaxLevel" comment="VIP最大等级"/>
+            <Param type="string" name="strItem" comment="格式：ItemAID,ItemANum|ItemBID,ItemBNum|..,.."/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SendClanItem" ret="true" comment="发放帮派物品">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="UINT64" name="qwClanID" comment="帮派ID"/>
+            <Param type="ESendTarget" name="eTarget" comment="对象"/>
+            <Param type="string" name="strItem" comment="格式：ItemAID,ItemANum|ItemBID,ItemBNum|..,.."/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GlobalSendItem" ret="true" comment="全区发放物品">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="ESendTarget" name="eTarget" comment="对象"/>
+            <Param type="string" name="strItem" comment="格式：ItemAID,ItemANum|ItemBID,ItemBNum|..,.."/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <Param type="string" name="strArgument" comment="理由"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SendMail" ret="true" comment="发送邮件">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strUserID" comment="格式：用户AID|户BID|.."/>
+            <Param type="string" name="strName" comment="角色名称(注：考虑到解析字符异常，名字不支持多个)"/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GlobalSendMail" ret="true" comment="全区发送邮件">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="ESendTarget" name="eTarget" comment="对象"/>
+            <Param type="string" name="strTitle" comment="邮件标题"/>
+            <Param type="string" name="strContent" comment="邮件内容"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GlobalSendNotice" ret="true" comment="发送公告">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strContent" comment="系统弹窗内容"/>
+            <Param type="EPlatformType" name="ePlatformType" comment="平台类型"/>
+            <Param type="EShowType" name="eShowType" comment="显示区域"/>
+            <Param type="ERollType" name="eRollType" comment="是否滚动"/>
+            <Param type="ESendType" name="eSendType" comment="是否立即发送"/>
+            <Param type="UINT32" name="dwBeginTime" comment="公告开始时间(注：如果选择立即发送，dwBeginTime为0)"/>
+            <Param type="UINT32" name="dwEndTime" comment="公告结束时间(注：如果选择立即发送，dwEndTime为0)"/>
+            <RetParam type="UINT32" name="dwNoticeID" comment="返回公告ID"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GlobalDelNotice" ret="true" comment="删除公告">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="UINT32" name="dwNoticeID" comment="公告ID"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GlobalSendSysDialog" ret="true" comment="发送系统弹窗">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="EPlatformType" name="ePlatformType" comment="平台类型"/>
+            <Param type="EDialogType" name="eDialogType" comment="弹窗类型"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="OpenDiscountActivity" ret="true" comment="开启商城限购活动">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="UINT8" name="byPos" comment="限购位置(0,1,2表示)"/>
+            <Param type="UINT8" name="byOptType" comment="操作类型(0：增加；1：删除)"/>
+            <Param type="string" name="strDisItems" comment="限购道具信息(itemID,原价,折扣价|...)"/>
+            <Param type="UINT8" name="byLimitType" comment="类型限制(0无条件、1充值限购、2消费限购)"/>
+            <Param type="UINT32" name="dwLimitValue" comment="达到的仙石数量限制(0无条件、1充值限购、2消费限购)"/>
+            <Param type="UINT16" name="wLimitCount" comment="购买道具个数限制"/>
+            <Param type="UINT32" name="dwBeginTime" comment="限购开始时间"/>
+            <Param type="UINT32" name="dwEndTime" comment="限购结束时间"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SetPlayerLevel" ret="true" comment="设置玩家等级">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="UINT16" name="wLevel" comment="等级"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SetPlayerVIPLevel" ret="true" comment="设置玩家VIP等级">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strName" comment="角色名称"/>
+            <Param type="UINT64" name="qwUserID" comment="用户ID"/>
+            <Param type="EOptType" name="eOptType" comment="后台台操作类型(eOptSetPlayerVIPLevel/eOptAddGrowthValue)"/>
+            <Param type="UINT32" name="wLevelOrGrowthValue" comment="等级or成长值"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="TaskManager" ret="true" comment="日常任务管理">
+            <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+            <Param type="string" name="strUserID" comment="格式：用户AID|户BID|.."/>
+            <Param type="string" name="strName" comment="角色名称(注：考虑到解析字符异常，名字不支持多个)"/>
+            <Param type="EPHPTaskType" name="ePHPTaskType" comment="任务类型"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="PlatformInfo" comment="平台信息">
+            <Param type="EPlatformType" name ="byPtType" comment ="平台类型"/>
+			<Param type="EQQPlatformType" name ="byQQPtType" comment ="QQ平台类型"/>
+            <Param type="UINT8" name ="byQQPtLv" comment ="QQ平台类型等级"/>
+            <Param type="UINT8" name ="byQQPtYearType" comment ="是否年费"/>
+            <Param type="UINT8" name ="byQQPtLuxuryType" comment ="是否豪华"/>
+            <Param type="string" name ="customPar1" comment ="广告主来源"/>
+            <Param type="string" name ="customPar2"  comment ="广告次来源"/>
+            <Param type="string" name ="strOpenId"  comment ="openID"/>
+			<Param type="string" name ="strOpenKey"  comment ="openKey"/>
+        </Func>
+
+		<Func name="GetTaskState" ret="true" comment="任务集市中任务状态查询">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <Param type="UINT32" name ="dwTaskID" comment ="任务ID"/>
+			<Param type="UINT8" name ="byStep" comment ="步骤ID"/>
+			<Param type="ETaskOpt" name ="eTaskOpt" comment ="任务操作"/>
+			<RetParam type="UINT16" name="wServerNo" comment="区服ID"/>
+			<RetParam type="ETaskState" name ="eTaskState" comment ="状态返回"/>
+        </Func>
+		<Func name="SynWeiweiPersonNum" ret="true"  comment="同步微信微博人数">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <Param type="UINT8" name ="byType" comment ="任务ID"/>
+			<Param type="UINT32" name ="dwCount" comment ="步骤ID"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+		<Func name="CheckCDK" ret="true"  comment="检测CDK">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <Param type="string" name ="strCDK" comment ="CDK码"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+		<Func name="SynQQAlarm" ret="true"  comment="QQAlarm安装">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="ModifyChest" ret="true"  comment="天赐宝箱活动参数修改">
+			<Param type="SChestInfo" name="sInfo" comment="数据"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SetPool" ret="true"  comment="设置汇灵盏奖励池">
+			<Param type="UINT8" name="byType" comment="类型，0表示设置奖励池最大值，1表示设置奖励池现有值"/>
+		    <Param type="UINT32" name="dwValue" comment="数据"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="GetLoginDays" ret="true"  comment="请求玩家累计登入天数">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+            <RetParam type="UINT32" name="dwDays" comment="累计登入天数"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SendQQGroupMsg" ret="true"  comment="发送工会聊天信息">
+            <Param type="UINT64" name="qwGroupUserID" comment="绑定qq的玩家ID"/>
+            <Param type="UINT16" name="wServerNo" comment="聊天玩家区号ID"/>
+            <Param type="UINT64" name="qwUserID" comment="聊天玩家账号ID"/>
+            <Param type="string" name="strChatMsg" comment="聊天"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="SendTitle" ret="true"  comment="添加称号">
+		    <Param type="UINT16" name="wServerNo" comment="区服ID"/>
+			<Param type="UINT64" name="qwUserID" comment="玩家ID"/>
+		    <Param type="UINT16" name="wTitleID" comment="TitleID"/>
+            <RetParam type="EOptResult" name="eOptResult" comment="后台操作结果"/>
+        </Func>
+        <Func name="TestPHP"  comment="Test">
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>
+

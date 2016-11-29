@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="DayActProt" id="69" proxy="GameServer" comment="活动">
+    <Refer>       
+    </Refer>
+    <TypeDef>
+        <Enum name="EActID" comment="活动ID（保留暂时不用）">
+        </Enum>
+        <Enum name="EActType" comment="活动类型">
+            <Member name="eActTypeInvalid"          value="0"   comment="" />
+            <Member name="eActTypeWorldBoss"        value="1"   comment="boss活动" />
+			<Member name="eActTypeLangHuanBless"    value="2"   comment="LangHuanBless活动" />
+			<Member name="eActTypeGuildBattle"      value="3"   comment="帮派战活动" />
+			<Member name="eActTypeShushanBattle"    value="4"   comment="蜀山论剑活动" />
+            <Member name="eActTypeEnergy"           value="5"   comment="剑气充盈活动" />
+            <Member name="eActTypeTeamReward"       value="6"   comment="组队副本奖励活动" />
+            <Member name="eActTypeAnswer"           value="7"   comment="答题活动" />
+            <Member name="eActTypeLingShan"         value="8"   comment="秘境寻宝" />
+            <Member name="eActTypeNewGuildBattle"   value="9"   comment="新帮派战" />
+            <Member name="eActTypeChest"            value="10"  comment="刷宝箱" />
+            <Member name="eActTypeShipReward"       value="11"  comment="元江金船活动" />
+
+            <Member name="eActTypeEnd"  comment="" />
+        </Enum>
+        <Enum name="EDayActivityStatus" comment="活动状态">
+            <Member name="eDayActivityStatusInit" value="0" comment="活动初始化状态" />
+            <Member name="eDayActivityStatusAlarm"  comment="活动警戒状态" />
+            <Member name="eDayActivityStatusReady"  comment="活动准备状态" />
+            <Member name="eDayActivityStatusProcess"  comment="活动进行状态" />
+            <Member name="eDayActivityStatusEnd"  comment="活动结束状态" />
+        </Enum>
+        <Struct name="SActInfo" vec="TVecActInfo" comment="活动信息表">
+            <Member type="UINT32" name="dwActType" comment="活动id"/>
+            <Member type="UINT32" name="dwActStatus" comment="活动状态"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetActList" ret="true" comment="获取活动列表">
+            <RetParam type="TVecActInfo" name="vecActInfo" comment="活动列表"/>
+        </Func>
+        <Func name="GetFirstRechargeStatus" ret="true" comment="是否已领取首充礼包">
+            <RetParam type="UINT8" name="byRet" comment="0未充值 1已充值但未领取 2已领取"/>
+        </Func>       
+        <Func name="GetFirstRechargeAward" ret="true" comment="领取首充礼包">
+            <RetParam type="UINT8" name="byRet" comment="0失败 1成功 2未充值 3已领取"/>
+        </Func>       
+        <Func name="BuyShushanFoundSelf" ret="true" comment="为自己购买蜀山基金">
+            <Param type="UINT8" name="byType" comment="基金类型(1成长基金 2修为投资计划 3银币投资计划 4宝物投资计划)"/>
+            <RetParam type="UINT8" name="byRet" comment="0失败 1成功"/>
+        </Func>       
+        <Func name="BuyShushanFoundFirend" ret="true" comment="为好友购买蜀山基金">
+            <Param type="UINT64" name="qwFriendID" comment="好友ID"/>
+            <Param type="UINT8" name="byType" comment="基金类型(1成长基金 2修为投资计划 3银币投资计划 4宝物投资计划)"/>
+            <RetParam type="UINT8" name="byRet" comment="0失败 1成功"/>
+        </Func>       
+        <Func name="GetShushanFoundInfo" ret="false" comment="获取玩家购买及领取蜀山基金的信息">
+        </Func>       
+        <Func name="GetShushanFoundAward" ret="true" comment="领取蜀山基金奖励">
+            <Param type="UINT8" name="byType" comment="基金类型(1成长基金 2修为投资计划 3银币投资计划 4宝物投资计划)"/>
+            <Param type="UINT8" name="byDay" comment="领取第几个(1~7)"/>
+            <RetParam type="UINT8" name="byRet" comment="0失败 1成功"/>
+        </Func>
+        <Func name="GetSecondRechargeStatus" ret="true" comment="获取二次充值礼包状态">
+            <RetParam type="UINT8" name="byRet" comment="0未充值 1已充值但未领取 2已领取"/>
+            <RetParam type="UINT32" name="dwSecondRechargeValue" comment="二次充值累计金额"/>
+        </Func>
+        <Func name="GetSecondRechargeAward" ret="true" comment="领取二次充值礼包">
+            <RetParam type="UINT8" name="byRet" comment="0失败 1成功 2未充值 3已领取"/>
+        </Func>
+        <Func name="GetOpenServerTime" ret="true" comment="获取开服时间" >
+            <RetParam type="UINT32" name ="dwTime" comment ="时间"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="ActChangeNotify" comment="活动状态改变通知">
+            <Param type="UINT32" name="dwActType" comment="活动id"/>
+            <Param type="UINT32" name="dwActStatus" comment="活动状态"/>
+        </Func>       
+        <Func name="ShushanFoundChangeNotify" comment="蜀山基金活动改变通知">
+            <Param type="UINT16" name="wGrowFoundInfo"   comment="成长基金(按低到高顺序,0位表示是否购买[1是0否],第1-7位表示7次的领取信息[1是0否])"/>
+            <Param type="UINT16" name="wPExpFoundInfo"   comment="修为基金(按低到高顺序,0位表示是否购买[1是0否],第1-7位表示7次的领取信息[1是0否])"/>
+            <Param type="UINT16" name="wSilverFoundInfo" comment="银币基金(按低到高顺序,0位表示是否购买[1是0否],第1-7位表示7次的领取信息[1是0否])"/>
+            <Param type="UINT16" name="wItemFoundInfo"   comment="宝物基金(按低到高顺序,0位表示是否购买[1是0否],第1-7位表示7次的领取信息[1是0否])"/>
+            <Param type="UINT32"  name="dwLoginDays"      comment="玩家累计登陆天数(按低到高顺序,成长/修为/银币宝物)"/>
+        </Func>       
+    </FuncS2C>
+</Protocol>

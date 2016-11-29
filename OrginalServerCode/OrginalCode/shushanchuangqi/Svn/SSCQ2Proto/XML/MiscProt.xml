@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="MiscProt" id="72" proxy="GameServer" comment="不好归类的小协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EBuyActionRet" comment="购买体力错误码">
+            <Member name="eBuyActionRet_Sucess" value="0" comment="成功"/>
+            <Member name="eBuyActionRet_MaxAction"  comment="体力已满"/>
+            <Member name="eBuyActionRet_MoneyLimit" comment="仙元不足"/>
+            <Member name="eBuyActionRet_CountLimit" comment="购买次数限制"/>
+            <Member name="eBuyActionRet_VIPCFGError" comment="vip配置出错"/>
+        </Enum>
+        <Enum name="EMiscOptRes" comment="操作结果">
+            <Member name="eMiscOptRes_Sucess" value="0" comment="成功"/>
+            <Member name="eMiscOptRes_Error" comment="失败"/>
+        </Enum>
+        <Enum name="ELotteryRes" comment="抽奖操作结果">
+            <Member name="eLotteryRes_Sucess" value="0" comment="成功"/>
+            <Member name="eLotteryRes_PackFul"          comment="背包满"/>
+            <Member name="eLotteryRes_LackMoney"        comment="缺钱"/>
+            <Member name="eLotteryRes_Error"            comment="失败"/>
+        </Enum>
+        <Enum name="EEveryDayReChargeAward" comment="每日冲值领奖奖励">
+            <Member name="eEveryDayReChargeAward_Sucess" comment="成功"/>
+            <Member name="eEveryDayReChargeAward_LowMoney"          comment="今日冲值不足"/>
+            <Member name="eEveryDayReChargeAward_HasDone"        comment="今日已经领奖"/>
+            <Member name="eEveryDayReChargeAward_NoAward"        comment="今日无奖"/>
+        </Enum>
+
+        <Struct name="SGodChestInfo" comment="刷宝箱信息">
+            <Member type="UINT8" name="byState" comment="状态"/>
+            <Member type="UINT8" name="byRount" comment="回合数"/>
+            <Member type="UINT32" name="dwTime" comment="倒计时数"/>
+            <Member type="UINT32" name="dwEnd" comment="活动结束时间"/>
+        </Struct>
+        <Struct name="SLotteryInfo" vec="TVecLotteryInfo" comment="抽奖信息">
+            <Member type="string" name="strName" comment="玩家"/>
+            <Member type="UINT32" name="dwLotteryID" comment="奖励ID(对应配置表)"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="SetIndulge" comment="设置防沉迷状态">
+            <Param type="bool" name="bIndulge" comment="设置防沉迷状态"/>
+        </Func>
+        <Func name="SetIndulgeRate" comment="设置防沉迷收益率">
+            <Param type="UINT32" name="dwIndulgeRate" comment="设置防沉迷收益率"/>
+        </Func>
+        <Func name="BuyAction" ret="true" comment="购买体力">
+            <RetParam type="UINT32" name="dwRet" comment="结果"/>
+            <RetParam type="UINT32" name="dwCount" comment="购买体力次数"/>
+            <RetParam type="UINT32" name="dwPrice" comment="购买体力价格"/>
+        </Func>
+        <Func name="GetBuyActionCount" ret="true" comment="获取购买体力次数">
+            <RetParam type="UINT32" name="dwCount" comment="购买体力次数"/>
+            <RetParam type="UINT32" name="dwPrice" comment="购买体力价格"/>
+            <RetParam type="UINT32" name="dwAction" comment="体力"/>
+        </Func>
+        <Func name="GetActionBuff"  comment="获取体力buff数值">
+        </Func>
+        <Func name="SendUdpLog" comment="发送udplog">
+            <Param type="string" name="strParam1" comment="参数1"/>
+            <Param type="string" name="strParam2" comment="参数2"/>
+        </Func>
+        <Func name="GetMoneyList" ret="true" comment="获取货币基础数值">
+            <RetParam type="ProtoCommon::TVecMoneyCount" name="vecMoneyCount" comment="货币列表（货币数量为0的不发送）"/>
+        </Func>
+        <Func name="TakeActionBuff"  comment="领取体力buff">
+        </Func>
+        <Func name="ClientBlankScreenLog" comment="客户端黑屏Log">
+            <Param type="string" name="strParam1" comment="参数1"/>
+        </Func>
+        <Func name="OnEnter" ret="false" comment="天赐宝箱">
+        </Func>
+        <Func name="GetRount" ret="false" comment="获得回合数和活动状态">
+        </Func>
+        <Func name="Draw" ret="true" comment="玩家抽奖">
+            <RetParam type="UINT16" name="wLotteryID" comment="抽奖号码"/>
+            <RetParam type="ELotteryRes" name="eResult" comment="操作结果"/>
+        </Func>
+        <Func name="DrawRet" comment="客户端通知动画播放完毕">
+        </Func>
+        <Func name="SendLottery" ret="false" comment="同步客户端玩家抽奖">
+            <Param type="UINT32" name="dwTotalNum" comment="总的抽奖信息条数"/>
+            <Param type="UINT32" name="dwSelfNum" comment="自己的抽奖信息条数"/>
+        </Func>
+        <Func name="GetEveryDayRechargeAward" ret="true" comment="获取每日冲值奖励">
+            <RetParam type="EEveryDayReChargeAward" name="eResult" comment="消息返回"/>
+        </Func>
+        <Func name="GetEveryDayRecharge" ret="true" comment="获取每日冲值金额">
+            <RetParam type="UINT32" name="dwTotalRechargeToday" comment="仙石"/>
+        </Func>
+        <Func name="BuyFenbaoyan" ret="true" comment="分宝岩购买活动">
+            <Param type="UINT16" name="wNum" comment="购买数量"/>
+            <RetParam type="EMiscOptRes" name="eRet" comment="购买结果"/>
+        </Func>
+        <Func name="FenbaoyanTime"  ret="true" comment="分宝岩购买活动时间">
+            <RetParam type="UINT32" name="dwBegin" comment="开始时间"/>
+            <RetParam type="UINT32" name="dwEnd" comment="结束时间"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="IndulgeTimeNotify" comment="聊天信息通知">
+            <Param type="UINT32" name="dwIndulgeTime" comment="防沉迷时间(秒)"/>
+        </Func>
+        <Func name="IndulgeNextLoginTime" comment="聊天信息通知">
+            <Param type="UINT32" name="dwTime" comment="可以登陆时间(秒)"/>
+        </Func>
+        <Func name="GetActionBuffNotify" comment="Buffer中的体力">
+            <Param type="UINT32" name="dwValue" comment="Buffer中的体力"/>
+            <Param type="UINT32" name="TakeTime" comment="最近领取时间"/>
+        </Func>
+        <Func name="OnBegin" comment="通知活动开始">
+        </Func>
+        <Func name="SendNotice" comment="宝箱下一波公告">
+            <Param type="UINT8" name="byRount" comment="剩余波数"/>
+            <Param type="UINT8" name="byMaxRount" comment="最大波数"/>
+        </Func>
+        <Func name="OnCountDown" comment="通知倒计时">
+            <Param type="UINT32" name="dwTime" comment="活动倒计时时间"/>
+        </Func>
+        <Func name="OnEnd" comment="通知活动结束">
+        </Func>
+        <Func name="SyncChestInfo" comment="通知宝箱活动剩余轮次">
+            <Param type="SGodChestInfo" name="sInfo" comment="宝箱信息"/>
+        </Func>
+        <Func name="SyncLotteryInfo" comment="通知宝箱活动剩余轮次">
+            <Param type="UINT32" name="dwLottery" comment="抽奖券"/>
+            <Param type="TVecLotteryInfo" name="vecTotalInfo" comment="总的抽奖信息"/>
+            <Param type="TVecLotteryInfo" name="vecSelfInfo" comment="自己抽奖信息"/>
+        </Func>
+        <Func name="SyncRechargeToday" comment="同步今日冲值仙石总数">
+            <Param type="UINT32" name="dwTotalRechargeToday" comment="仙石"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="CenterMiscProt" id="94" proxy="CenterServer" comment="CenterServer不好归类的小协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="YelloDiamondProt" id="200" proxy="GameServer" comment="QQ黄钻协议">
+	   <TypeDef>
+        <Enum name="EOpResult" comment="操作结果">
+		    <Member name="eOtherError" comment="其他错误"/>
+            <Member name="eShortLevel" comment="等级不够"/>
+            <Member name="eNotActive" comment="未开通QQ黄钻"/>
+            <Member name="eNotYear" comment="未开通年费黄钻贵族"/>
+            <Member name="eNotLuxury" comment="未开通QQ豪华黄钻"/>
+			<Member name="eAreadyGain" comment="已经领取"/>
+            <Member name="eBagFull" comment="背包空间不足"/>
+			<Member name="eSuccess" comment="操作成功"/>
+        </Enum>
+		<Enum name="EBagType" comment="礼包类型">
+		    <Member name="EBagType_eNone"           value="0" comment="无礼包可领取"/>
+            <Member name="EBagType_eDayBag"         value="1" comment="黄钻日常礼包"/>
+            <Member name="EBagType_eYearBag"        value="2" comment="年黄钻礼包"/>
+            <Member name="EBagType_eLuxuryBag"      value="3" comment="豪华QQ黄钻礼包"/>
+            <Member name="EBagType_eNewBag"         value="4" comment="新手礼包"/>
+            <Member name="EBagType_eGrowBag"        value="5" comment="成长礼包"/>
+            <Member name="EBagType_eHorseBag"       value="6" comment="座机礼包"/>
+            <Member name="EBagType_eMax"                      comment="最大值"/>
+        </Enum>							
+	    <Enum name="EYDType" comment="QQ黄钻类型">							
+			<Member name="EYDType_eNone" comment="未开通QQ黄钻"/>					
+	        <Member name="EYDType_eDayType" comment="普通QQ黄钻"/>							
+	        <Member name="EYDType_eYearType" comment="年QQ黄钻"/>							
+	        <Member name="EYDType_eLuxuryType" comment="豪华QQ黄钻"/>							
+	    </Enum>		
+		<Struct name="SYDInfo" comment="QQ黄钻信息">									
+            <Member type="bool" name="bGainDayBag" comment="是否领取每日礼包"/>										
+			<Member type="bool" name="bGainYearBag" comment="是否领取年费礼包"/>							
+			<Member type="bool" name="bGainLuxuryBag" comment="是否领取豪华礼包"/>							
+			<Member type="bool" name="bGainHorseBag" comment="是否领取座机礼包"/>							
+			<Member type="UINT16" name="dGrowBag" comment="已领取成长礼包等级 从低位开始向高位 1表示领取，0表示未领取"/>							
+			<Member type="bool" name="bGainNewBag" comment="是否领取新手礼包"/>							
+        </Struct>
+		</TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="GainYDBag"  ret="true" comment="获取黄钻礼包">
+		    <Param type="EBagType" name="eBagType" comment="礼包类型"/>
+			<Param type="UINT16" name="dLevel" comment="玩家等级成长礼包"/>
+            <RetParam type="EOpResult" name="eOpResult" comment="操作结果"/>
+        </Func>
+		<Func name="GetYDBagInfo"  ret="true" comment="获取黄钻礼包领取信息">
+            <RetParam type="SYDInfo" name="ydInfo" comment="黄钻信息"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+    </FuncS2C>
+</Protocol>
+										
+   
+	    										
+
+

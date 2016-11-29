@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="ShengLingProt" id="98" proxy="GameServer" comment="圣陵协议">
+    <Refer>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+	    <Enum name="EShengLingResult" comment="操作结果" >
+            <Member name="EShengLingResultSuc"                comment="操作成功" />
+            <Member name="EShengLingResultPackFul"            comment="背包空间不足" />
+            <Member name="EShengLingResultPrizeTaked"         comment="奖励被领取" />
+            <Member name="EShengLingResultFailed"             comment="战斗失败" />
+			<Member name="EShengLingResultGoldLack"           comment="仙石不足" />
+			<Member name="EShengLingResultEnterLack"          comment="次数不足" />
+			<Member name="EShengLingResultLifeLack"           comment="生命不足" />
+			<Member name="EShengLingResultControlDiceLack"    comment="遥控骰子不足" />
+			<Member name="EShengLingResultTurnDiceLack"       comment="转向骰子不足" />
+			<Member name="EShengLingResultScoreLack"          comment="积分不够" />
+			<Member name="EShengLingResultStepLack"           comment="积分不够" />
+			<Member name="EShengLingResultNotFinish"          comment="格子未完成" />
+			<Member name="EShengLingResultTypeError"          comment="格子类型不对" />
+			<Member name="EShengLingResultError"              comment="操作失败" />
+        </Enum>
+		<Enum name="ECardType" comment="卡片类型" >
+			<Member name="ECardType_ControlDice"        comment="遥控骰子" />
+            <Member name="ECardType_TurnDice"           comment="转向卡片" />
+        </Enum>
+	   <Enum name="EGridType" comment="圣陵格子类型" >
+            <Member name="EGridType_None"            comment="无" />
+            <Member name="EGridType_Empty"           comment="空格子" />
+            <Member name="EGridType_Normal"          comment="普通怪物格子" />
+            <Member name="EGridType_Elite"           comment="精英怪物格子" />
+            <Member name="EGridType_Boss"            comment="Boss怪物格子" />
+			<Member name="EGridType_Big"             comment="小宝箱格子" />
+			<Member name="EGridType_Mid"             comment="中宝箱格子" />
+			<Member name="EGridType_Small"           comment="大宝箱格子" />
+			<Member name="EGridType_Born"            comment="出生格子" />
+			<Member name="EGridType_Random"          comment="随机格子" />
+			<Member name="EGridType_Motu"            comment="三消陷阱格子" />
+			<Member name="EGridType_Pintu"           comment="拼图陷阱格子" />
+			<Member name="EGridType_Zadan"           comment="砸蛋陷阱格子" />
+			<Member name="EGridType_Go"              comment="传送格子" />
+            <Member name="EGridType_End"             comment="最大值"/>
+        </Enum>
+        <Enum name="EBuyType" comment="购买类型" >
+            <Member name="EBuyType_ControlDice"  comment="购买遥控骰子" />
+            <Member name="EBuyType_TurnCard"     comment="购买转向卡片" />
+            <Member name="EBuyType_Life"         comment="购买生命" />
+            <Member name="EBuyType_Enter"        comment="购买进入次数 " />
+            <Member name="EBuyType_Step"         comment="购买三消步数" />
+        </Enum>
+		<Struct name="SGrid" vec="TVecGrid" comment="格子数据" >
+            <Member type="UINT8" name="byIndex"       comment="格子ID" />
+            <Member type="UINT8" name="byLevel"       comment="格子所在层" />
+			<Member type="EGridType" name="eGridType" comment="格子类型" />
+			<Member type="UINT16"    name="wNoteID"   comment="格子记录数据" />
+			<Member type="bool" name="bFinished"      comment="是否完成" />
+			<Member type="bool" name="bRandom"        comment="是否随机格子" />
+        </Struct>
+		<Struct name="SCard" vec="TVecCard" comment="卡片信息" >
+		    <Member type="ECardType"   name="eCardType" comment="卡片类型" />
+			<Member type="UINT8"       name="byBuy"     comment="玩家购买次数" />
+			<Member type="UINT8"       name="byUse"     comment="当日使用次数" />
+			<Member type="UINT8"       name="byBuyForToday"     comment="当日购买次数" />
+        </Struct>
+		<Struct name="SPlayerInfo" vec="TVecPlayerInfo" comment="玩家信息" >
+		    <Member type="UINT64"   name="qwRoleID"    comment="玩家ID" />
+            <Member type="UINT8"    name="byCurLevel"  comment="玩家当前所在层" />
+			<Member type="UINT8"    name="byCurIndex"  comment="玩家当前所在层格子ID" />
+			<Member type="UINT8"    name="byPreLevel"  comment="玩家上一次所在层" />
+			<Member type="UINT8"    name="byPreIndex"  comment="玩家上一次所在层格子ID" />
+			<Member type="UINT8"    name="byBuy"       comment="玩家购买生命数" />
+			<Member type="UINT8"    name="byUse"       comment="玩家当前使用生命数" />
+            
+			<Member type="UINT8"    name="byNext"      comment="是否进入下一层" />
+            <Member type="TVecGrid" name="vecGrid"     comment="格子数据" />
+        </Struct>
+		<Struct name="SShengLingInfo" vec="TVecShengLingInfo" comment="玩家进入信息" >
+            <Member type="UINT64"   name="qwRoleID" comment="玩家ID" />
+            <Member type="UINT16"   name="wPassword" comment="初始密码" />
+            <Member type="UINT8"    name="byDir"    comment="玩家在棋盘中的方向（0表示反向，1表示正向）" />
+            <Member type="UINT8"    name="byLevel"  comment="玩家当前所在层" />
+			<Member type="UINT8"    name="byIndex"  comment="玩家当前所在层格子ID" />
+			<Member type="UINT8"    name="byBuyLife"     comment="玩家购买生命数" />
+			<Member type="UINT8"    name="byUseLife"     comment="玩家今日使用生命数" />
+			<Member type="UINT8"    name="byStep"   comment="玩家在“三消”中剩余步数" />
+			<Member type="UINT16"   name="byScore"  comment="玩家在“三消”中累计积分" />
+			<Member type="UINT8"    name="byBit"   comment="玩家在“三消”中奖励领取状态，bit位表示从低到高" />
+			<Member type="UINT8"    name="byBuyLifeToday"     comment="玩家今天购买生命数" />
+			<Member type="UINT8"    name="byFirst"     comment="玩家是否第一次进入圣陵" />
+            
+			<Member type="TVecGrid" name="vecGrid" comment="格子数据" />
+            <Member type="TVecCard" name="vecCard" comment="卡片数据" />
+            <Member type="ItemProt::TVecItemGenInfo" name="vecItem" comment="获得的奖励数据" />
+        </Struct>
+		<Struct name="SShengLingInfo2DB" vec="TVecShengLingInfo2DB" comment="数据库信息" >
+            <Member type="UINT64"   name="qwRoleID" comment="玩家ID" />
+            <Member type="UINT8"    name="byLevel"  comment="玩家所在层" />
+			<Member type="UINT8"    name="byIndex"  comment="格子ID" />
+			<Member type="UINT8"    name="byType"   comment="格子类型" />
+			<Member type="UINT16"    name="wNoteID"  comment="格子中记录ID" />
+            <Member type="UINT8"    name="byRandom" comment="是否随机格子" />
+			<Member type="UINT8"    name="byFinish" comment="是否完成" />
+        </Struct>
+		<Struct name="SShengLingPrize2DB" vec="TVecShengLingPrize2DB" comment="数据库奖励信息" >
+            <Member type="UINT64"   name="qwRoleID" comment="玩家ID" />
+            <Member type="UINT16"   name="wItemID"  comment="物品" />
+			<Member type="UINT16"   name="wNum"     comment="数量" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="OnOpen" ret="true" comment="玩家打开活动面板">
+			<RetParam type="UINT8"    name="byUseEnter"    comment="玩家当日使用进入次数" />
+            <RetParam type="UINT8"    name="byBuyEnter"    comment="玩家购买进入次数" />
+            <RetParam type="UINT8"    name="byBuyEnterToday"    comment="玩家今天购买进入次数" />
+            <RetParam type="bool"     name="bContinue"    comment="是否继续" />
+        </Func>
+
+		<Func name="OnEnter" ret="true" comment="玩家进入圣陵">
+            <RetParam type="UINT8"          name="byBuyEnterToday"    comment="玩家今天购买进入次数" />
+		    <RetParam type="SShengLingInfo" name="sInfo"   comment="玩家数据"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="DrawDice" ret="true" comment="玩家摇骰子">
+		    <RetParam type="UINT8" name="byIndex"   comment="骰子数"/>
+		    <RetParam type="UINT64" name="qwBattleID"   comment="战报ID"/>
+			<RetParam type="SPlayerInfo" name="sInfo"   comment="玩家数据"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="UseCard" ret="true" comment="使用卡片">
+		    <Param type="ECardType"   name="eCardType" comment="卡片类型"/>
+		    <Param type="UINT8" name="byIndex"         comment="骰子数(转向时byIndex=0)"/>
+			<RetParam type="SCard" name="sCard"        comment="卡片信息"/>
+			<RetParam type="SPlayerInfo" name="sInfo"   comment="玩家数据"/>
+		    <RetParam type="UINT64" name="qwBattleID"   comment="战报ID"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="Buy" ret="true" comment="购买">
+		    <Param type="EBuyType"   name="eBuyType" comment="购买类型"/>
+		    <Param type="UINT8" name="byNum"   comment="购买次数"/>
+			<RetParam type="EBuyType" name="eBuyTypeRet"   comment="返回购买类型"/>
+			<RetParam type="UINT8"    name="byBuy"         comment="返回购买次数"/>
+			<RetParam type="UINT8"    name="byBuyToday"    comment="返回今日购买次数"/>
+			<RetParam type="UINT8"    name="byUse"         comment="返回当日使用次数"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="TakePrize" ret="true" comment="玩家领奖">
+		    <Param type="EGridType" name="eGridType"       comment="格子类型(小游戏）"/>
+		    <Param type="UINT8" name="byIndex"       comment="三消中第几个奖励或者拼图是否一键完成(其他忽略此参数）"/>
+		    <RetParam type="UINT8" name="byBit" comment="奖励状态(其他忽略此参数）"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="AddScore" ret="true" comment="三消中积分累计">
+		    <Param type="UINT16" name="wScore"       comment="积分"/>
+		    <Param type="UINT8"  name="byStep"       comment="减少步数"/>
+		    <Param type="UINT16" name="wPassword"    comment="密码"/>
+		    <RetParam type="UINT16" name="wNextPwd"  comment="下一次密码"/>
+		    <RetParam type="UINT8" name="byTotalStep" comment="剩余步数"/>
+		    <RetParam type="UINT16" name="wTotalScore" comment="总积分"/>
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="FinishTrapGrid" ret="true" comment="玩家完成或者放弃小游戏">
+			<RetParam type="EShengLingResult" name="eResult"   comment="操作结果"/>
+        </Func>
+		<Func name="Leave" comment="玩家离开圣陵">
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+		<Func name="Clearance" comment="玩家通关">
+        </Func>
+		<Func name="SyncData" comment="玩家数据推送（0点)">
+		    <Param type="SShengLingInfo" name="sInfo"   comment="玩家数据"/>
+        </Func>
+		<Func name="PlayEffect" comment="播放特效">
+        </Func>
+        <Func name="GetPrizeInfo" comment="获得奖励道具">
+            <Param type="ItemProt::TVecItemGenInfo" name="vecItem" comment="玩家物品" />
+        </Func>
+    </FuncS2C>
+</Protocol>

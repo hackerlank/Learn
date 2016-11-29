@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="SittingProt" id="55" proxy="GameServer" comment="打坐协议">
+    <Refer>
+        <Protocol name="MapProt"/>
+        <Protocol name="ItemProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="ESittingResult" comment="请求的结果">
+            <Member name="eSittingSucceed" comment="成功"/>
+            <Member name="eSittingTogether" comment="没有找到双修的人"/>
+            <Member name="eHasSitting"      comment ="您已经在打坐"/>
+            <Member name="eNotInCity"      comment ="主城才能打坐"/>
+            <Member name="eLevelLow"      comment ="等级不足"/>
+            <Member name="eSittingErrOther" comment="其它错误"/>
+        </Enum>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="DoSittingTogether" ret="true" comment="请求双修">
+            <Param type="UINT64" name="qwOtherID"  comment="对方ID,0表示单修，非0表示双修"/>
+            <RetParam type="ESittingResult" name="eResult"  comment="请求结果"/>
+        </Func>
+        <Func name="CancelSitting"  comment="请求取消修炼">
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="CancelSittingOffLine"  comment="玩家打坐结算">
+            <Param    type ="UINT8" name = "byType"  comment="0,表示单修，1表示双修"/> 
+            <Param    type ="ItemProt::TVecResource" name = "vecRes"  comment="获得的资源"/> 
+            <Param    type ="UINT32" name = "dwSittingTimer"  comment="开始时间"/>
+        </Func>
+        <Func name="UpdateSitting"  comment="打坐状态变化">
+            <Param   type ="UINT8" name ="byState" comment ="0,表示结束打坐，1 ，开始打坐"/>
+            <Param   type ="MapProt::TVecPlayerAppear" name ="vecOtherApear" comment ="空表示单修，非空表示双修"/>
+            <Param   type ="UINT32" name ="dwSittingTimer" comment ="开始时间"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="CompareBattlePoint" id="58" proxy = "GameServer" comment="变强(战力对比)相关协议">
+    <Refer>
+        <Protocol name="ProtoCommon"/>
+    </Refer>
+    <TypeDef>
+        <Struct name="SCompareData" vec="TVecCompareData" comment ="对比的数据结构">
+            <Member type="UINT64" name="qwRoleID" comment="玩家ID"/>
+            <Member type="string" name="strName" comment="玩家名字"/>
+            <Member type="UINT8" name="byLevel" comment="玩家等级"/>
+            <Member type="ProtoCommon::ECareerType" name="eCareer" comment="玩家主将职业"/>
+            <Member type="ProtoCommon::ESexType" name="eSex" comment="玩家主将性别"/>
+            <Member type="UINT32" name="dwBattlePoint"  comment="玩家总战斗力"/>
+            <Member type="UINT32" name="dwHeroBP"       comment="散仙的战斗力(渡劫和心法除外)"/>
+            <Member type="UINT32" name="dwBeautyBP"     comment="美女系统战斗力"/>
+            <Member type="UINT32" name="dwTrumpBP"      comment="法宝战斗力"/>
+            <Member type="UINT32" name="dwHorseBP"      comment="坐骑战斗力"/>
+            <Member type="UINT32" name="dwDujieBP"      comment="渡劫战斗力"/>
+            <Member type="UINT32" name="dwXinfaBP"      comment="心法战斗力"/>
+            <Member type="UINT32" name="dwClanBP"       comment="帮派战斗力"/>
+        </Struct>
+
+    </TypeDef>
+    <FuncC2S  client="ActionScript">
+        <Func name="CompareOtherBPByID" ret= "true" comment="战斗力对比">
+            <Param type="UINT64" name="qwRoleID" comment="对方的玩家ID"/>
+            <RetParam type="TVecCompareData" name="vecCompareData" comment="玩家的对比数据信息"/>
+        </Func>
+        <Func name="CompareOtherBPByName" ret= "true" comment="战斗力对比">
+            <Param type="string" name="strName" comment="对方的玩家名字"/>
+            <RetParam type="TVecCompareData" name="vecCompareData" comment="玩家的对比数据信息"/>
+        </Func>
+
+    </FuncC2S>
+    <FuncS2C>
+
+    </FuncS2C>
+</Protocol>

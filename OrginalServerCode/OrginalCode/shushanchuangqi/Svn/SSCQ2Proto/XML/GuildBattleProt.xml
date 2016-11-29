@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="GuildBattleProt" id="76" proxy="GameServer" comment="帮派相关协议">
+    <Refer>
+        <Protocol name="MapProt"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EGBState" comment="帮派战当前状态" >
+            <Member name="eGBStateNone"      comment="没有开启或即将开启的帮派战" />
+            <Member name="eGBStatePreReady"  comment="帮派战报名即将开启" />
+            <Member name="eGBStateReady"     comment="帮派战即将开启，报名阶段" />
+            <Member name="eGBStatePrepare"   comment="帮派战准备中" />
+            <Member name="eGBStateBattle"    comment="帮派战进行中" />
+            <Member name="eGBStateBattleEnd" comment="帮派战战役结束" />
+        </Enum>
+        <Enum name="EGBUserState" comment="帮派战玩家状态" >
+            <Member name="eGBUserStateNone" value="0"   comment="无效状态" />
+            <Member name="eGBUserStatePrepare"          comment="准备状态(在准备场中)" />
+            <Member name="eGBUserStateWait"             comment="待战状态" />
+            <Member name="eGBUserStateBattle"           comment="战斗状态" />
+            <Member name="eGBUserStateDead"             comment="死亡状态" />
+            <Member name="eGBUserStateWin"              comment="胜利状态" />
+            <Member name="eGBUserStateWinTooMuch"       comment="连胜八场，封刀" />
+            <Member name="eGBUserStateRunAway"          comment="逃跑状态" />
+            <Member name="eGBUserStateMax"              comment="最大状态" />
+        </Enum>
+        <Enum name="EGBSpot" comment="帮派战据点" >
+            <Member name="eGBSpotNone"             value="0" comment="无效据点" />
+            <Member name="eGBSpotYuzhufeng"        value="1" comment="玉柱峰" />
+            <Member name="eGBSpotGuangmingding"    value="2" comment="光明顶" />
+            <Member name="eGBSpotShiwangfeng"      value="3" comment="十王峰" />
+            <Member name="eGBSpotWanfoding"        value="4" comment="万佛顶" />
+            <Member name="eGBSpotMax"                        comment="最大据点" />
+            <Member name="eGBSpotZhurongfeng"      value="5" comment="祝融峰" />
+            <Member name="eGBSpotYuxuding"         value="6" comment="玉虚顶" />
+        </Enum>
+        <Enum name="EGBSpotState" comment="帮派据点状态" >
+            <Member name="eGBSpotStateNone"             value="0" comment="无效状态" />
+            <Member name="eGBSpotStateWin"                        comment="胜利" />
+            <Member name="eGBSpotStateLose"                       comment="失败" />
+            <Member name="eGBSpotStateTie"                        comment="平局" />
+            <Member name="eGBSpotStateBattle"                     comment="战斗中" />
+            <Member name="eGBSpotStateNobody"                     comment="无人参战" />
+            <Member name="eGBSpotStateMax"                        comment="最大状态" />
+        </Enum>
+        <Enum name="EGBSide" comment="帮派战战斗方向">
+            <Member name="eGBSideA"         value="0"   comment="A方" />
+            <Member name="eGBSideB"         value="1"   comment="B方" />
+            <Member name="eGBSideInvalid"               comment="无效方" />
+        </Enum>
+        <Enum name="EGBSkill" comment="帮派战技能" >
+            <Member name="eGBSkillNone"   value="0"     comment="无效技能" />
+            <Member name="eGBSkillAttack"               comment="攻击强化" />
+            <Member name="eGBSkillDefence"              comment="防御强化" />
+            <Member name="eGBSkillSpeed"                comment="身法强化" />
+            <Member name="eGBSkillHP"                   comment="生命强化" />
+            <Member name="eGBSkillMax"                  comment="技能最大值" />
+        </Enum>
+        <Enum name="EGBResult" comment="帮派战返回结果">
+            <Member name="eGBResultSuccess" value="0"   comment="成功" />
+            <Member name="eGBResultFailed"              comment="失败" />
+            <Member name="eGBResultWrongTime"           comment="时间段错误" />
+            <Member name="eGBResultNotInBattle"         comment="不在帮派战中" />
+            <Member name="eGBResultNoGuild"             comment="不存在帮派" />
+            <Member name="eGBResultNoAuthority"         comment="权限不足" />
+        </Enum>
+        <Enum name="EGBSignUpResult" comment="帮派战报名结果">
+            <Member name="eGBSignUpSuccess" value="0"   comment="报名成功" />
+            <Member name="eGBSignUpFailed"              comment="报名失败" />
+            <Member name="eGBSignUpNotInGuild"          comment="报名时不存在帮派" />
+            <Member name="eGBSignUpRepeat"              comment="报名重复" />
+            <Member name="eGBSignUpWrongTime"           comment="不在报名时段" />
+            <Member name="eGBSignUpSpotFull"            comment="报名据点已满" />
+            <Member name="eGBSignUpEscape"              comment="由于您刚刚逃离了帮派战，暂时无法报名" />
+        </Enum>
+        <Enum name="EGBEnterResult" comment="帮派战进入结果">
+            <Member name="eGBEnterSuccess" value="0"   comment="进入成功" />
+            <Member name="eGBEnterFailed"              comment="进入失败" />
+            <Member name="eGBEnterNotInGuild"          comment="进入时不存在帮派" />
+            <Member name="eGBEnterRepeat"              comment="进入重复" />
+            <Member name="eGBEnterWrongTime"           comment="不在进入时段" />
+        </Enum>
+        <Enum name="EGBQuitResult" comment="帮派战退出结果">
+            <Member name="eGBQuitSuccess" value="0"   comment="退出成功" />
+            <Member name="eGBQuitFailed"              comment="退出失败" />
+            <Member name="eGBQuitNotInGuild"          comment="退出时不存在帮派" />
+            <Member name="eGBQuitNotInBattle"         comment="当前不在帮派战" />
+            <Member name="eGBQuitRepeat"              comment="退出重复" />
+            <Member name="eGBQuitWrongTime"           comment="当前不存在帮派战" />
+        </Enum>
+        <Enum name="EGBAdjustResult" comment="帮派战调整结果">
+            <Member name="eGBAdjustSuccess" value="0"   comment="调整成功" />
+            <Member name="eGBAdjustFailed"              comment="调整失败" />
+            <Member name="eGBAdjustNotInGuild"          comment="调整时不存在帮派" />
+            <Member name="eGBAdjustNoAuthority"         comment="调整权限不足" />
+            <Member name="eGBAdjustWrongTime"           comment="不在调整时间段" />
+            <Member name="eGBAdjustSpotFull"            comment="调整目标据点已满" />
+        </Enum>
+        <Enum name="EGBBattleResult" comment="帮派战战斗相关结果">
+            <Member name="eGBBattleSuccess" value="0"   comment="战斗成功" />
+            <Member name="eGBBattleFailed"              comment="战斗失败" />
+            <Member name="eGBBattleNotInGuild"          comment="战斗时不存在帮派" />
+        </Enum>
+        <Enum name="EGBSkillResult" comment="帮派战技能相关结果">
+            <Member name="eGBSkillSuccess" value="0"   comment="成功" />
+            <Member name="eGBSkillFailed"              comment="失败" />
+            <Member name="eGBSkillWrongTime"           comment="只有在准备阶段才可以购买增益祝福" />
+            <Member name="eGBSkillNoGold"              comment="仙石不足" />
+            <Member name="eGBSkillAlreadyHave"         comment="已经拥有该效果" />
+        </Enum>
+        <Struct name="SSkillInfo" vec="TVecSkillInfo" comment="技能信息" >
+            <Member type="EGBSkill"   name="eType"    comment="技能类型" />
+        </Struct>
+        <Struct name="SBattleUserInfo" vec="TVecBattleUserInfo" comment="帮派战玩家信息" >
+            <Member type="UINT64"                   name="qwRoleID"   comment="成员角色ID" />
+            <Member type="string"                   name="strName"    comment="名字"/>
+            <Member type="UINT16"                   name="wLevel"     comment="等级"/>
+            <Member type="EGBUserState"             name="eState"     comment="玩家状态" />
+            <Member type="UINT16"                   name="wFighterID" comment="玩家主将ID" />
+            <Member type="TVecSkillInfo"            name="vecSkillInfo" comment="玩家技能信息" />
+            <SubStruct name="SBattleUserAllInfo" vec="TVecBattleUserAllInfo" comment="帮派战玩家详细信息（包括战斗相关属性）">
+                <Member type="MapProt::SPlayerAppear"   name="sAppear"          comment="外观"/>
+                <Member type="UINT8"                    name="byHPP"            comment="剩余HP百分比" />
+                <Member type="UINT8"                    name="byPosIndex"       comment="据点站位编号" />
+                <Member type="UINT32"                   name="dwBattlePoint"    comment="战斗力" />
+            </SubStruct>
+        </Struct>
+        <Struct name="SBattleInfo" vec="TVecBattleInfo" comment="战斗信息">
+            <Member type="UINT64"   name="qwBattleID"   comment="战报ID" />
+            <Member type="string"   name="strNameA"     comment="A方名字"/>
+            <Member type="UINT64"   name="qwRoleIDA"    comment="A方ID" />
+            <Member type="string"   name="strNameB"     comment="B方名字"/>
+            <Member type="UINT64"   name="qwRoleIDB"    comment="B方ID" />
+            <Member type="EGBSide"  name="eWinnerSide"  comment="获胜方" />
+        </Struct>
+        <Struct name="SBattleData" vec="TVecBattleData" comment="战斗详细数据" >
+            <Member type="UINT8"     name="byIndex"         comment="战斗场编号(1~3)" />
+            <Member type="UINT64"    name="qwRoleIDA"       comment="A方玩家ID" />
+            <Member type="UINT64"    name="qwRoleIDB"       comment="B方玩家ID" />
+            <Member type="EGBSide"   name="eWinnerSide"     comment="获胜方" />
+            <Member type="ByteArray" name="strBattleReport" comment="战报"/>
+        </Struct>
+        <Struct name="SBattleSlotInfo" vec="TVecBattleSlotInfo" comment="战斗场信息">
+            <Member type="UINT8"                name="byIndex"          comment="战斗场编号(1~3)" />
+            <Member type="UINT64"               name="qwBattleID"       comment="战报ID" />
+            <Member type="SBattleUserAllInfo"   name="sUserAllInfoA"    comment="A方成员信息" />
+            <Member type="SBattleUserAllInfo"   name="sUserAllInfoB"    comment="B方成员信息" />
+        </Struct>
+        <Struct name="SSpotInfo" vec="TVecSpotInfo" comment="据点信息" >
+            <Member type="EGBSpot"              name="eSpotType"       comment="据点类型" />
+            <SubStruct name="SSpotAllInfo" vec="TVecSpotAllInfo"    comment="据点详细信息" >
+                <Member type="EGBSpotState"         name="eState"            comment="据点状态" />
+                <Member type="TVecBattleUserInfo"   name="vecMemberInfoA"    comment="A方成员信息" />
+                <Member type="TVecBattleUserInfo"   name="vecMemberInfoB"    comment="B方成员信息" />
+                <Member type="TVecBattleSlotInfo"   name="vecBattleSlotInfo" comment="战斗场信息" />
+                <Member type="TVecBattleInfo"       name="vecBattleInfo"     comment="战报信息" />
+            </SubStruct>
+            <SubStruct name="SSpotBriefInfo" vec="TVecSpotBriefInfo"    comment="据点简略信息" >
+                <Member type="EGBSpotState"         name="eState"           comment="据点状态" />
+            </SubStruct>
+            <SubStruct name="SSpotReadyInfo" vec="TVecSpotReadyInfo"    comment="报名阶段据点信息" >
+                <Member type="UINT8"    name="byCount"  comment="该据点人数" />
+            </SubStruct>
+        </Struct>
+        <Struct name="SFieldInfo" vec="TVecFieldInfo" comment="战场信息" >
+            <Member type="string"            name="strGuildNameA"    comment="A方帮派名称" />
+            <Member type="string"            name="strGuildNameB"    comment="B方帮派名称" />
+            <Member type="TVecSpotInfo"      name="vecSpotInfo"      comment="据点详细信息"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="SignUp" ret="true" comment="帮派战报名" >
+            <Param    type="EGBSpot"           name="eSpotType"   comment="据点类型" />
+            <RetParam type="EGBSignUpResult"    name="eResult"      comment="报名返回结果" />
+        </Func>
+        <Func name="Enter" ret="true" comment="进入帮派战(进入准备场地)" >
+            <RetParam type="EGBEnterResult"    name="eResult"      comment="报名返回结果" />
+        </Func>
+        <Func name="Quit" ret="true" comment="帮派战退出" >
+            <RetParam    type="EGBQuitResult"  name="eResult"  comment="退出返回结果" />
+        </Func>
+        <Func name="AdjustMember" ret="true" comment="帮派成员调整" >
+            <Param      type="UINT64"           name="qwRoleID"     comment="成员角色ID" />
+            <Param      type="EGBSpot"          name="eSpotType"    comment="目标据点类型" />
+            <Param      type="UINT8"            name="byIndex"      comment="新目标对应位置(从1开始)" />
+            <RetParam   type="EGBAdjustResult"  name="eResult"      comment="调整返回结果" />
+        </Func> 
+        <Func name="GetState"  ret="true" comment="获取帮派战状态" >
+            <RetParam  type="EGBState"     name="eState"       comment="当前帮派战状态" />
+            <RetParam  type="UINT8"         name="byBattleCount" comment="当前已经战斗的数量" />
+            <RetParam  type="UINT32"       name="dwRemainTime" comment="当前状态剩余时间" />
+            <RetParam  type="EGBSpot"      name="eSpotType"    comment="自己所在据点(不为None也可能在准备地图中)" />
+            <RetParam  type="bool"         name="bGuildJoined" comment="自己所在帮派是否已经参加" />
+            <RetParam  type="EGBSide"      name="eSelfSide"    comment="自己所在帮派方向" />
+        </Func>
+        <Func name="GetFieldInfo" ret="true" comment="帮派战场信息" >
+            <RetParam type="EGBResult"      name="eResult"          comment="返回结果" />
+            <RetParam type="TVecFieldInfo"  name="vecFieldInfo"     comment="帮派战场信息"/>
+        </Func>
+        <Func name="GetSpotInfo" ret="true" comment="帮派据点信息" >
+            <Param      type="EGBSpot"          name="eType"        comment="据点类型" />
+            <RetParam   type="EGBResult"        name="eResult"      comment="返回结果" />
+            <RetParam   type="TVecSpotInfo"     name="vecSpotInfo"  comment="据点详细信息（数量为0/1）" />
+        </Func>
+        <Func name="GetSpotBattle" ret="true"   comment="据点战报获取">
+            <Param      type="EGBSpot"          name="eType"        comment="据点类型" />
+            <RetParam   type="EGBBattleResult"  name="eResult"      comment="战报获取结果" />
+            <RetParam   type="TVecBattleData"   name="vecBattleData" comment="战报信息" />
+        </Func>
+        <Func name="GetSkillInfo" ret="true" comment="帮派战技能信息获取" >
+            <RetParam type="EGBSkillResult" name="eResult"      comment="购买结果" />
+            <RetParam type="TVecSkillInfo"  name="vecSkillInfo" comment="具体已购买技能" />
+        </Func>
+        <Func name="BuySkill" ret="true" comment="帮派购买技能结果" >
+            <Param      type="EGBSkill"         name="eType"    comment="购买的技能类型" />
+            <RetParam   type="EGBSkillResult"   name="eResult"  comment="购买结果" />
+        </Func>
+        <Func name="GetPanelInfo" ret="true" comment="获取帮派战小面板信息">
+            <RetParam      type="UINT32"   name="dwSelfScore"  comment="我的积分" />
+            <RetParam      type="UINT32"   name="dwGuildScore" comment="帮派积分" />
+            <RetParam      type="UINT32"   name="dwGuildRank"  comment="帮派排名" />
+        </Func>
+        <Func name="CallMember" ret="true" comment="召集帮众广播">
+            <RetParam   type="EGBResult"   name="eResult"  comment="召集结果" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="StateNotify"  comment="帮派战状态通知" >
+            <Param  type="EGBState"     name="eState"           comment="当前帮派战状态" />
+            <Param  type="UINT8"        name="byBattleCount"    comment="当前已经战斗的数量" />
+            <Param  type="UINT32"       name="dwRemainTime"     comment="当前状态剩余时间" />
+            <Param  type="EGBSpot"      name="eSpotType"        comment="自己所在据点(报名的据点或者目前被调整到的据点)" />
+            <Param  type="EGBSide"      name="eSelfSide"        comment="自己所在帮派方向" />
+        </Func>
+        <Func name="FieldInfoNotify" comment="帮派战信息通知" >
+            <Param type="SFieldInfo" name="sFieldInfo" comment="战场信息" />
+        </Func>
+        <Func name="SpotInfoNotify" comment="帮派战据点信息通知" >
+            <Param   type="TVecSpotInfo"     name="vecSpotInfo"  comment="据点详细信息" />
+        </Func>
+        <Func name="SpotBattleNotify" comment="据点战斗通知" >
+            <Param type="EGBSpot"        name="eType"         comment="据点类型" />
+            <Param type="TVecBattleData" name="vecBattleData" comment="战报信息" />
+        </Func>
+        <Func name="SkillInfoNotify" comment="帮派战技能信息通知" >
+            <Param type="TVecSkillInfo" name="vecSkillInfo" comment="具体已购买技能" />
+        </Func>
+        <Func name="PanelInfoNotify" comment="更新帮派战小面板信息">
+            <Param      type="UINT32"   name="dwSelfScore"  comment="我的积分" />
+            <Param      type="UINT32"   name="dwGuildScore" comment="帮派积分" />
+            <Param      type="UINT32"   name="dwGuildRank"  comment="帮派排名" />
+        </Func>
+        <Func name="SignupEnterNotify" comment="报名还没进入的通知进入">
+        </Func>
+        <Func name="CallMemberNotify" comment="召集帮众广播">
+            <Param type="UINT8"                    name="byQuality"        comment="品质" />
+            <Param type="string"                   name="strName"    comment="名字"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

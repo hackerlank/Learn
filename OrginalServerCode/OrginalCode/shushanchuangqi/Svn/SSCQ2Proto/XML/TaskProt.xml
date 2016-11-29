@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="TaskProt" id="15" proxy="GameServer" comment="任务协议">
+    <Refer>
+    </Refer>
+    <TypeDef>
+        <Enum name="ETaskResult" comment="任务的结果">
+            <Member name="eTaskSucceed" comment="成功"/>
+            <Member name="eTaskNotExist" comment="任务不存在"/>
+            <Member name="eTaskAlreadyAccept" comment="任务已经接取"/>
+            <Member name="eTaskErrFinish" comment="任务不能完成"/>
+            <Member name="eTaskErrGiveUp" comment="任务不能取消"/>
+            <Member name="eTaskErrAccept" comment="接取任务失败"/>
+            <Member name="eTaskErrPackFull" comment="背包已满错误"/>
+            <Member name="eTaskErrRepeat" comment="不能接取重复任务"/>
+            <Member name="eTaskErrFull" comment="已接任务数已满"/>
+            <Member name="eTaskErrSex" comment="性别错误"/>
+            <Member name="eTaskErrPrepTask" comment="前置任务"/>
+            <Member name="eTaskErrLevel" comment="等级不符"/>
+            <Member name="eTaskErrNoSelOptAward" comment="未选取奖励"/>
+            <Member name="eTaskErrMap" comment="所在地图不符"/>
+            <Member name="eTaskNoDiamond" comment="钻石不足"/>
+            <Member name="eTaskNoGiftCoin" comment="礼金不足"/>
+            <Member name="eTaskNoFamily" comment="无家族"/>
+            <Member name="eTaskNoGuild" comment="无公会"/>
+            <Member name="eTaskErrCamp" comment="阵营不对"/>
+            <Member name="eTaskNoRepution" comment="声望不够"/>
+            <Member name="eTaskNoJob" comment="职业限制"/>
+            <Member name="eTaskNoRace" comment="种族限制"/>
+            <Member name="eTaskNoGold" comment="仙石不足"/>
+            <Member name="eTaskNoSliver" comment="银币不足"/>
+            <Member name="eTaskGroupFull" comment="师门任务只能接一个"/>
+            <Member name="eTaskYaMenFull" comment="衙门任务只能接一个"/>
+            <Member name="eTaskCircleFull" comment="环任务只能接一个"/>
+            <Member name="eTaskErrOther" comment="其它错误"/>
+        </Enum>
+        <Enum name="ETaskState" comment="任务的状态">
+            <Member name="eTaskNone" comment="无"/>
+            <Member name="eTaskAccept" comment="任务已接取"/>
+            <Member name="eTaskFail" comment="任务失败"/>
+            <Member name="eTaskFinish" comment="任务完成"/>
+        </Enum>
+        <Enum name="ENpcTaskState" comment="任务NPC的状态">
+            <Member name="eNpcTaskNone" comment="无"/>
+            <Member name="eNpcTaskAccept" comment="任务可接取"/>
+            <Member name="eNpcTaskUnfinish" comment="任务未完成"/>
+            <Member name="eNpcTaskSubmit" comment="任务可交付"/>
+            <Member name="eNpcTaskFuture" comment="将来可接取"/>
+        </Enum>
+        <Struct name="STaskInfo" vec="TVecTaskInfo" comment="任务信息">
+            <SubStruct name="STaskCollectInfo" comment="收集道具的信息">
+                <Member type="UINT16" name="wItemID" comment="道具的ID"/>
+                <Member type="UINT16" name="wItemCount" comment="已搜集道具的数量"/>
+            </SubStruct>
+            <SubStruct name="STaskGatherInfo" comment="采集的信息">
+                <Member type="UINT16" name="wGatherID" comment="采集的ID"/>
+                <Member type="UINT16" name="wCount" comment="已采集的次数"/>
+            </SubStruct>
+            <SubStruct name="STaskMonsterInfo" comment="杀死怪物的信息">
+                <Member type="UINT16" name="wMonsterID" comment="怪物的ID"/>
+                <Member type="UINT16" name="wMonsterCount" comment="已杀怪物的数量"/>
+            </SubStruct>
+            <SubStruct name="STaskTalkInfo" comment="NPC的对话信息">
+                <Member type="UINT16" name="wNpcID" comment="NPC的ID"/>
+                <Member type="UINT16" name="wTalkCount" comment="0:未完成1:已完成"/>
+            </SubStruct>
+            <SubStruct name="STaskProbeInfo" comment="探索区域信息">
+                <Member type="UINT8" name="byIndex" comment="探索区域索引"/>
+                <Member type="bool" name="bProbed" comment="是否已探索"/>
+            </SubStruct>
+            <SubStruct name="STaskBuildInfo" comment="建筑的信息">
+                <Member type="UINT16" name="wBuildID" comment="建筑ID"/>
+                <Member type="UINT16" name="wLevel" comment="等级"/>
+            </SubStruct>
+            <SubStruct name="STaskScienceInfo" comment="科技的信息">
+                <Member type="UINT16" name="wScienceID" comment="科技ID"/>
+                <Member type="UINT16" name="wLevel" comment="等级"/>
+            </SubStruct>
+            <SubStruct name="STaskActionInfo" comment="行为的信息">
+                <Member type="UINT16" name="wAction" comment="行为类型"/>
+                <Member type="UINT16" name="wCount" comment="次数"/>
+            </SubStruct>
+            <SubStruct name="STaskGrowInfo" comment="成长的信息">
+                <Member type="UINT16" name="wType" comment="成长类型"/>
+                <Member type="UINT16" name="wLevel" comment="等级"/>
+            </SubStruct>
+        </Struct>
+        <Struct name="STask" vec="TVecTask" comment="任务的属性">
+            <Member type="UINT16" name="wTaskID" comment="任务的ID"/>
+            <Member type="ETaskState" name="eTaskState" comment="任务的状态"/>
+            <Member type="UINT32" name="dwAcceptTime" comment="接取时间"/>
+            <Member type="UINT8" name="byRepeat" comment="同时接取数"/>
+            <Member type="TVecTaskInfo" name="vecTaskInfo" comment="任务信息列表"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="AcceptTaskReq" ret="true" comment="接受任务请求">
+            <Param type="UINT8" name="byCost" comment="0,正常提交，1，付费提交，限未完成任务,支持师门,衙门任务"/>
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>
+            <RetParam type="ETaskResult" name="eResult" comment="接受任务的结果"/>
+            <RetParam type="UINT8" name="byCost" comment="参数回传"/>
+            <RetParam type="UINT16" name="wTaskID" comment="任务ID"/>
+        </Func>
+        <Func name="GiveUpTask" ret="true" comment="放弃任务请求">
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>
+            <RetParam type="ETaskResult" name="eResult" comment="放弃任务的结果"/>
+            <RetParam type="UINT16" name="wTaskID" comment="任务ID"/>
+        </Func>
+        <Func name="FinishTask" ret="true" comment="完成任务请求(领取奖励)">
+            <Param type="UINT8" name="byCost" comment="0,正常提交，1，付费提交，限未完成任务,支持师门,衙门任务"/>
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>
+            <Param type="UINT8" name="byIndex" comment="可选择的奖励索引"/>
+            <RetParam type="ETaskResult" name="eResult" comment="完成任务的结果"/>
+            <RetParam type="UINT8" name="byCost" comment="参数回传"/>
+            <RetParam type="UINT16" name="wTaskID" comment="任务ID"/>
+        </Func>
+        <Func name="FinishSpeTask" comment="完成特殊任务请求">
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>           
+        </Func>
+        <Func name="GetTaskList"  comment="获得任务列表">     
+        </Func> 
+        <Func name="GetCircleTaskInfo"  comment="获得环任务信息">     
+        </Func>  
+        <Func name="FinishCircleTaskOneKey" ret="true" comment="完成所有的环任务"> 
+            <RetParam type="ETaskResult" name="eResult" comment="完成任务的结果"/>
+        </Func>  
+         <Func name="UpdateCircleTaskStar" ret="true" comment="提升环任务星级"> 
+            <RetParam type="ETaskResult" name="eResult" comment="完成任务的结果"/>
+        </Func>  
+
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="TaskListNtf" comment="任务列表通知">
+            <Param type="TVecTask" name="vecTask" comment="任务列表"/>
+        </Func>
+        <Func name="TaskUpdateNtf" comment="任务更新通知">
+            <Param type="STask" name="rTask" comment="任务"/>
+        </Func>
+        <Func name="DelTaskAck" comment="删除任务">
+            <Param type="UINT16" name="wTaskID" comment="任务ID"/>
+        </Func>
+        <Func name="AddTaskAck" comment="添加任务">
+            <Param type="UINT8" name="byCost" comment="立即完成"/>
+            <Param type="STask" name="rTask" comment="任务"/>
+        </Func>
+        <Func name="NotifyTaskRecordAck" comment="任务记录">
+            <Param type="TVecUINT16" name="vecTaskID" comment="任务完成记录"/>
+        </Func>
+        <Func name="NotifyStory" comment="通知播放剧情">
+            <Param type="UINT16" name="wStoryID" comment="剧情ID"/>
+            <Param type="UINT8" name="byType" comment="参数类型"/>
+            <Param type="UINT32" name="dwParam" comment="参数"/>
+        </Func>
+        <Func name="SendCircleTaskInfo" comment="通知环任务信息">
+            <Param type="UINT8" name="byStar" comment="环任务星级"/>
+            <Param type="UINT8" name="byNum" comment="环任务环数"/>
+        </Func>
+
+    </FuncS2C>
+</Protocol>

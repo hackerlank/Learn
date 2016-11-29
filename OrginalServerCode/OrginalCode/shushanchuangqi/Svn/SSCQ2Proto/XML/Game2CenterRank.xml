@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="Game2CenterRank" id="81" comment="排行榜相关内部协议">
+    <Refer>
+        <Protocol name="RankProt" />
+        <Protocol name="BattleGS" />
+    </Refer>
+    <TypeDef>
+    </TypeDef>
+    <FuncC2S client="CppSvr">
+        <Func name="UpdateRankInfo" comment="更新排名信息">
+            <Param type="RankProt::ERankType"       name="eType"       comment="更新类型" />
+            <Param type="UINT64"                    name="qwInstID"    comment="唯一ID(玩家ID/帮派ID)" />
+            <Param type="RankProt::TVecRankInfo"    name="vecRankInfo" comment="玩家信息" />
+        </Func>
+        <Func name="UpdateAllLevelInfo" comment="更新所有待更新的等级信息">
+            <Param type="TVecUINT64"                name="vecRoleID"   comment="玩家ID" />
+            <Param type="RankProt::TVecRankInfo"    name="vecRankInfo" comment="玩家信息" />
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="GetFeature" ret="true" comment="获取玩家的外观信息" >
+            <Param type="UINT64"    name="qwRoleID"     comment="玩家唯一ID" />
+            <RetParam type ="UINT8" name ="byError" comment ="0 成功, 其他错误"/>
+            <RetParam type ="string" name ="strName" comment ="玩家姓名"/>
+            <RetParam type ="UINT16" name ="wLevel" comment ="玩家等级"/>
+            <RetParam type="BattleGS::SFeatureBase" name="pFeature" comment="外观信息"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

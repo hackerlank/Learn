@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="LevelPrize" id="121" proxy="GameServer" comment="等级奖励">
+    <Refer>
+        <Protocol name="ItemProt" />
+        <Protocol name="WonderActivityProt" />
+    </Refer>
+    <TypeDef>
+        <Enum name="ELevelActStatus" comment="奖励状态信息">
+            <Member name="eLevleActStatus_Init" value="0" comment="未完成"/>
+            <Member name="eLevleActStatus_Finish"  comment="完成"/>
+            <Member name="eLevleActStatus_GetPrize" comment="已领取奖励"/>
+            <Member name="eLevleActStatus_FullPack" comment="背包满"/>
+            <Member name="eLevleActStatus_Success" comment="操作成功"/>
+            <Member name="eLevleActStatus_Error" comment="操作失败"/>
+        </Enum>
+        <Enum name="EActState" comment="活动信息">
+            <Member name="eActState_Init"    value="0" comment="未完成"/>
+            <Member name="eActState_OnAdvance"  comment="预告"/>
+            <Member name="eActState_OnBegin" comment="开始"/>
+            <Member name="eActState_OnEnd" comment="结束"/>
+            <Member name="eActState_OnRetain" comment="保留"/>
+        </Enum>
+        <Struct name="SPrize" vec="TVecPrize" comment="奖励" >
+                <Member type="UINT8" name="byIndex" comment="第几个奖" />
+			    <Member type="ELevelActStatus" name="eState" value="eLevleActStatus_Init" comment="第几个奖状态" />
+				<Member type="ItemProt::TVecItemGenInfo" name="vecItem" comment="物品"/> 
+        </Struct>
+        <Struct name="SPrize2DB" vec="TVecPrize2DB" comment="数据操作" >
+			    <Member type="UINT64" name="qwRoleID" comment="玩家ID" />
+			    <Member type="UINT16" name="wActID" comment="活动ID" />
+			    <Member type="UINT16" name="wLevel" comment="奖励NO" />
+			    <Member type="UINT16" name="wStatus" comment="奖励状态" />
+		</Struct>
+
+		<Struct name="STime"  comment="活动配置时间">
+               <Member type="UINT32" name="dwAdvTime" comment="活动预告时间"/>
+               <Member type="UINT32" name="dwBeginTime" comment="活动开始时间"/>
+               <Member type="UINT32" name="dwEndTime" comment="活动结束时间"/>
+               <Member type="UINT32" name="dwRetainTime" comment="活动预留时间"/>
+	    </Struct>
+
+        <Struct name="SPrizeState" vec="TVecPrizeState" comment="奖励状态" >
+            <Member type="UINT8" name="byIndex"  comment="领奖" />
+            <Member type="ELevelActStatus" name="eStatus" comment="奖励状态" />
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript">
+        <Func name="GetPrizeInfo"  ret="true" comment="获取奖励">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+            <RetParam  type="UINT16" name="wActID"  comment="活动ID"/>
+            <RetParam  type="TVecPrize" name="vecPrize"  comment="结果"/>
+        </Func>
+
+        <Func name="TakePrize"  ret="true" comment="获取奖励">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+            <Param type="UINT8" name="byIndex" comment="第几个奖励"/>
+            <RetParam type="UINT16" name="wActID" comment="活动Id"/>
+            <RetParam type="UINT8" name="byIndex" comment="活动Id"/>
+            <RetParam  type="ELevelActStatus" name="eRet"  comment="领取结果"/>
+        </Func>
+        <Func name="GetRoleState"  ret="true" comment="玩家在个人服活动中的状态">
+            <RetParam type="WonderActivityProt::TVecRoleAllStatus" name="vecRet" comment="结果"/>  
+        </Func>
+        <Func name="TakePrizeForQQAlarm" ret="true" comment="QQAlarm获取奖励">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+            <RetParam  type="ELevelActStatus" name="eRet"  comment="领取结果"/>
+        </Func>
+        <Func name="GetStateForQQAlarm" ret="false" comment="QQAlarm获取奖励状态">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="LevelPrizeNotify" comment="等级奖励活动状态通知">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+            <Param type="EActState" name="eStatus" comment="活动状态"/>
+        </Func>
+        <Func name="SendReachCondNfy" comment="可领状态通知">
+            <Param type="UINT16" name="wActID" comment="活动Id"/>
+            <Param type="UINT8" name="byIndex" comment="第几个奖励"/>
+        </Func>
+        <Func name="SendStateForQQAlarm" comment="QQAlarm奖励状态通知">
+            <Param type="UINT16" name="wActID" comment="活动ID"/>
+            <Param  type="ELevelActStatus" name="eRet"  comment="结果"/>
+        </Func>
+    </FuncS2C>
+</Protocol>

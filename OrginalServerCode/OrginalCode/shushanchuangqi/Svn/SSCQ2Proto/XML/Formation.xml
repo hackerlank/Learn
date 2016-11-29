@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name="FormationProt" id="22" proxy="GameServer" comment="阵灵相关协议">
+    <Refer>
+        <Protocol name="RoleInfoDefine"/>
+    </Refer>
+    <TypeDef>
+        <Enum name="EFormationAttr" comment="阵型解锁属性">
+            <Member name="eFormAttrNone" comment="无加成"/>
+            <Member name="eFormAttrSpeed" comment="身法"/>
+            <Member name="eFormAttrHit" comment="命中"/>
+            <Member name="eFormAttrEva" comment="闪避"/>
+            <Member name="eFormAttrCrit" comment="暴击"/>
+            <Member name="eFormAttrAntiCrit" comment="抗暴"/>
+            <Member name="eFormAttrCount" comment="反击"/>
+            <Member name="eFormAttrAntiCount" comment="抵抗"/>
+            <Member name="eFormAttrAp" comment="破击"/>
+            <Member name="eFormAttrMax" comment="最大"/>
+        </Enum>
+        <Enum name="EFormPetType" comment="阵形、阵灵、兽魂操作结果">
+            <Member name="eFormPetSucc" comment="成功"/>
+            <Member name="eFormPetFalied" comment="失败"/>
+            <Member name="eFormPetMainFighterErr" comment="主将不能下阵"/>
+            <Member name="eFormPetItemErr" comment="解锁道具不足"/>
+            <Member name="eFormPetPetLevelItemErr" comment="阵灵升级道具不足"/>
+        </Enum>
+        <Enum name="EBeastSoulResult" comment="兽魂操作返回结果" >
+            <Member name="eBeastSoulSucces"  value="0" comment="操作成功" />
+            <Member name="eBeastSoulFailed"            comment="操作失败" />
+            <Member name="eBeastSoulLackOfMoney"       comment="对应货币不足" />
+            <Member name="eBeastSoulRankMax"           comment="已经是最大等级" />
+            <Member name="eBeastSoulLevelLimit"        comment="玩家等级不足" />
+        </Enum>
+        <Struct name="SLineup" vec="TVecSLineup" comment="阵型信息">
+            <Member type="UINT64" name="qwInstID" comment="散仙唯一ID"/>
+            <Member type="INT32" name="iPos" comment="位置"/>
+        </Struct>
+        <Struct name="SBeastSoulItem" vec="TVecBeastSoulItem" comment="兽魂奖励道具信息" >
+            <Member type="UINT16" name="wItemID" comment="模板ID"/>
+            <Member type="UINT32" name="dwCount" comment="数量"/>
+        </Struct>
+    </TypeDef>
+    <FuncC2S client="ActionScript,PHP">
+        <Func name="FormationUp" ret="true" comment="上阵/下阵">
+            <Param type="UINT64" name ="qwInstID" comment="散仙唯一ID"/>
+            <Param type="INT32" name ="iPos" comment="目标位置: [0-8]为上阵 <-1时为下阵"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="SetFormation" ret="true" comment="设置阵形">
+            <Param type="TVecSLineup" name ="vecSLineup" comment="阵形列表"/>
+            <RetParam type="bool" name ="bRet" comment="结果"/>
+        </Func>
+        <Func name="PetsGet" ret="true" comment="取得所有阵灵信息">
+            <RetParam type="RoleInfoDefine::TVecPetDataInfo" name ="vecPets" comment="阵灵信息列表"/>
+        </Func>
+        <Func name="PetsActive" ret="true" comment="激活阵灵">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="PetsStatus" ret="true" comment="设置阵灵状态">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <Param type="UINT8" name ="byType" comment="状态: 1-出战且显示 2-出战隐藏"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="PetsUpgrade" ret="true" comment="阵灵幻化">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="PetsLevelUp" ret="true" comment="阵灵升级">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <Param type="UINT8" name ="byType" comment="升级消耗类型 0-朱果 1-蟠桃"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="QuickPetsLevelUp" ret="true" comment="阵灵一键升级">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <RetParam type="EFormPetType" name ="eResult" comment="结果"/>
+        </Func>
+        <Func name="GetBeastSoul" ret="true" comment="获取兽魂信息" >
+            <RetParam type="EBeastSoulResult" name="eResult" comment="获取结果" />
+            <RetParam type="RoleInfoDefine::TVecBeastSoulInfo" name="vecBeastSoul" comment="兽魂信息" />
+        </Func>
+        <Func name="UpgradeBeastSoul" ret="true" comment="升级兽魂" >
+            <Param type="RoleInfoDefine::EBeastSoulType" name="eType" comment="兽魂种类" />
+            <RetParam type="EBeastSoulResult" name="eResult" comment="获取结果" />
+            <RetParam type="RoleInfoDefine::TVecBeastSoulInfo" name="vecBeastSoul" comment="兽魂信息" />
+            <RetParam type="TVecBeastSoulItem" name="vecItem" comment="包裹或仓库中道具的列表"/>
+        </Func>
+    </FuncC2S>
+    <FuncS2C>
+        <Func name="FormationNotify" comment="阵形信息">
+            <Param type="UINT16" name ="wFormationID" comment="阵形ID"/>
+            <Param type="UINT8" name ="bySelected" comment="状态: 0-未启用 1-未启用"/>
+        </Func>
+        <Func name="PetDataNotify" comment="阵灵信息">
+            <Param type="UINT16" name ="wPetID" comment="阵灵ID"/>
+            <Param type="UINT8" name ="bySelected" comment="状态: 0-未启用 1-出战且显示 2-出战隐藏"/>
+            <Param type="UINT8" name ="byLevel" comment="阵灵等级"/>
+            <Param type="UINT32" name ="dwExp" comment="经验"/>
+        </Func>
+        <Func name="RolePetNotify" comment="全局阵灵信息">
+            <Param type="RoleInfoDefine::SRolePetInfo" name ="sRolePetInfo" comment="阵灵全局信息"/>
+        </Func>
+        <Func name="BeastNotify" comment="兽魂信息">
+            <Param type="UINT16" name ="wBeastID" comment="兽魂ID"/>
+        </Func>
+        <Func name="BeastSoulNotify" comment="兽魂信息">
+            <Param type="RoleInfoDefine::TVecBeastSoulInfo" name="vecBeastSoul" comment="兽魂信息" />
+        </Func>
+    </FuncS2C>
+</Protocol>
+

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol name ="LogDataDefine" id ="61" comment="日志数据定义">
+    <Refer>
+        <Protocol name="MailProt" />
+    </Refer>
+    <TypeDef>
+        <Enum name="EDgnOpType" comment="副本操作">
+            <Member name="EDgnOpType_CREATE"  comment="副本创建"/>
+            <Member name="EDgnOpType_PLAYERENTER" comment="玩家进入"/>
+            <Member name="EDgnOpType_PLAYERLEAVE"  comment="玩家退出"/>
+            <Member name="EDgnOpType_FINISH"  comment="副本完成"/>
+            <Member name="EDgnOpType_DESTROY"  comment="副本销毁"/>
+        </Enum>
+
+        <Enum name="ItemFrom" byte="2" desc="true" comment="获得物品/或者货币">
+            <Member name="ItemFrom_GM"                  value="1"       comment="GM指令里得到的物品"/>
+            <Member name="ItemFrom_InLuaBox"            value="2"       comment="lua脚本使用宝箱获得"/>
+            <Member name="ItemFrom_System"              value="3"       comment="系统奖励"/>
+            <Member name="ItemFrom_EDgn"                value="4"       comment="副本奖励"/>
+            <Member name="ItemFrom_DujieAward"          value="5"       comment="渡劫奖励"/>
+            <Member name="ItemFrom_MonsterDrop"         value="6"       comment="怪物掉落"/>
+            <Member name="ItemFrom_YaMenAward"          value="7"       comment="衙门每日奖励"/>
+            <Member name="ItemFrom_BeastSoul"           value="8"       comment="兽魂奖励"/>
+            <Member name="ItemFrom_Gather"              value="9"       comment="采集"/>
+            <Member name="ItemFrom_Task"                value="10"      comment="任务奖励"/>
+            <Member name="ItemFrom_Mail"                value="11"      comment="邮件"/>
+            <Member name="ItemFrom_Mall"                value="12"      comment="商城购买"/>
+            <Member name="ItemFrom_DemonTower"          value="13"      comment="锁妖塔"/>
+            <Member name="ItemFrom_TripodAward"         value="14"      comment="九疑鼎奖励"/>
+            <Member name="ItemFrom_ArenaAward"          value="15"      comment="斗剑奖励"/>
+            <Member name="ItemFrom_RankAdoreAward"      value="16"      comment="排行榜崇拜奖励"/>
+            <Member name="ItemFrom_VIPAward"            value="17"      comment="VIP礼包"/>
+            <Member name="ItemFrom_YelloDiamondAward"   value="18"      comment="黄钻礼包"/>
+            <Member name="ItemFrom_FighterFind"         value="19"      comment="刷将奖励"/>
+            <Member name="ItemFrom_ExchangeItem"        value="20"      comment="兑换物品"/>
+            <Member name="ItemFrom_LevelPrizeAct"       value="21"      comment="运营活动"/>
+            <Member name="ItemFrom_Activity"            value="22"      comment="活跃度"/>
+            <Member name="ItemFrom_CittaStore"          value="23"      comment="天书背包"/>
+            <Member name="ItemFrom_UserDeptORPack"      value="24"      comment="玩家仓库与背包道具交换、拆分、合并"/>
+            <Member name="ItemFrom_ActiveTrump"         value="25"      comment="法宝激活"/>
+            <Member name="ItemFrom_MergeCitta"          value="26"      comment="心法合成"/>
+            <Member name="ItemFrom_BreakCitta"          value="27"      comment="心法分解"/>
+            <Member name="ItemFrom_HeroXinFaDisperse"   value="28"      comment="散仙心法分解"/>
+            <Member name="ItemFrom_PlayerXinFaDisperse" value="29"      comment="主将心法分解"/>
+            <Member name="ItemFrom_NewCollection"       value="30"      comment="收藏"/>
+            <Member name="ItemFrom_NewAchieve"          value="31"      comment="成就"/>
+            <Member name="ItemFrom_EnergyBuy"           value="32"      comment="购买精力"/>
+            <Member name="ItemFrom_EnergyBuff"          value="33"      comment="buffer增加精力"/>
+            <Member name="ItemFrom_DemonTowerSeal"      value="34"      comment="锁妖塔每日领取"/>
+            <Member name="ItemFrom_DemonTowerPass"      value="35"      comment="锁妖塔过关领取"/>
+            <Member name="ItemFrom_Pend"                value="36"      comment="延迟发放"/>
+            <Member name="ItemFrom_Siting"              value="37"      comment="双修"/>
+            <Member name="ItemFrom_Recharge"            value="38"      comment="充值"/>
+            <Member name="ItemFrom_LangHuanBless"       value="39"      comment="琅環福地"/>
+            <Member name="ItemFrom_GroupTask"           value="40"      comment="师门任务"/>
+            <Member name="ItemFrom_SellItem"            value="41"      comment="卖出物品"/>
+            <Member name="ItemFrom_SignInAward"         value="42"      comment ="领取签到奖励礼包"/>
+            <Member name="ItemFrom_ArenaBattle"         value="43"      comment="斗剑历练奖励声望"/>              
+            <Member name="ItemFrom_CharInit"            value="44"      comment="角色初始化获得"/>
+            <Member name="ItemFrom_LoginPkg"            value="45"      comment="累计登入获得"/>
+            <Member name="ItemFrom_SevenDayTarget"      value="46"      comment="7日目标活动"/>
+            <Member name="ItemFrom_WonderActivity"      value="47"      comment="精彩活动"/>
+            <Member name="ItemFrom_PHP"                 value="48"      comment="客服后台操作"/>
+            <Member name="ItemFrom_BattleArrayItem"     value="49"      comment="破阵"/>
+            <Member name="ItemFrom_TreasureHunt"        value="50"      comment="寻宝"/>
+            <Member name="ItemFrom_Beauty"              value="51"      comment="美女系统"/>
+            <Member name="ItemFrom_QQCoinExChange"      value="52"      comment="QQ养成计划"/>
+            <Member name="ItemFrom_Shushanweiwei"       value="53"      comment="蜀山微微"/>
+            <Member name="ItemFrom_ShushanFound"        value="54"      comment="蜀山基金"/>      
+            <Member name="ItemFrom_CircleTask"          value="55"      comment="环任务奖励"/>
+            <Member name="ItemFrom_CircleTaskFinish"    value="56"      comment="环任务全部完成奖励"/>
+            <Member name="ItemFrom_MallChongZhi"        value="57"      comment="商城充值活动奖励"/>
+            <Member name="ItemFrom_Answer"              value="58"      comment="答题活动"/>
+            <Member name="ItemFrom_GuardEMei"           value="59"      comment="守卫峨眉"/>
+            <Member name="ItemFrom_InviteFriend"        value="60"      comment="邀请好友"/>
+            <Member name="ItemFrom_QQAlarm"             value="61"      comment="QQAlarm奖励"/>
+            <Member name="ItemFrom_GuildXihe"           value="62"      comment="羲和神车奖励"/>
+            <Member name="ItemFrom_Achievement"         value="63"      comment="羲和神车奖励"/>
+            <Member name="ItemFrom_LadderBattle"        value="64"      comment="斗剑奖励资源"/>     
+            <Member name="ItemFrom_ExchangeMoney"       value="65"      comment="货币兑换"/>     
+            <Member name="ItemFrom_Draw"                value="66"      comment="求签"/>     
+            <Member name="ItemFrom_StarAward"           value="67"      comment="副本星级领奖"/>
+            <Member name="ItemFrom_GodMonster"          value="68"      comment="天元神兽奖励"/>
+            <Member name="ItemFrom_LingShan"            value="69"      comment="秘境寻宝"/>
+            <Member name="ItemFrom_GuildExchangedItem"  value="70"      comment="帮派战物品兑换"/>
+            <Member name="ItemFrom_MoneyTree"           value="71"    comment="摇钱树"/>
+            <Member name="ItemFrom_OffStone"           value="72"    comment="取下宝石"/>
+            <Member name="ItemFrom_MergeStone"           value="73"    comment="宝石合成"/>
+            <Member name="ItemFrom_Lottery"           value="74"    comment="抽奖"/>
+            <Member name="ItemFrom_RegisterSevenDaysDis"  value="75"    comment="注册七天折扣豪礼大回馈"/>
+            <Member name="ItemFrom_SecondRechargeAward"   value="76"      comment="二次充值礼包"/>
+            <Member name="ItemFrom_Mall_NoGold"           value="77"      comment="商城购买非仙石"/>
+            <Member name="ItemFrom_ETrumpStrength"        value="78"      comment="装备法宝强化"/>
+            <Member name="ItemFrom_ETrumpXiLian"          value="79"      comment="装备法宝洗练"/>
+            <Member name="ItemFrom_BreakEquipTrump"       value="80"      comment="分解装备法宝"/>
+            <Member name="ItemFrom_MergeEquipTrump"       value="81"      comment="合成装备法宝"/>
+            <Member name="ItemFrom_WearEquipTrump"        value="82"      comment="穿戴装备法宝"/>
+            <Member name="ItemFrom_TakeOffEquipTrump"     value="83"      comment="卸下装备法宝"/>
+            <Member name="ItemFrom_ShengLing"             value="84"      comment="圣陵"/>
+            <Member name="ItemFrom_Fenbaoyan"             value="85"      comment="分宝岩"/>
+            <Member name="ItemFrom_Feedback"              value="86"      comment="消费回馈"/>
+
+
+        </Enum>
+        <Enum name="ItemTo" byte="2" desc="true" comment="删除物品/扣除货币">      
+            <Member name="ItemTo_Sell"                  value="5000"    comment="出售给系统"/>
+            <Member name="ItemTo_GM"                    value="5001"    comment="GM指令里删除物品"/>
+            <Member name="ItemTo_UseItem"               value="5002"    comment="物品使用"/>
+            <Member name="ItemTo_BeastSlots"            value="5003"    comment="激活兽魂"/>
+            <Member name="ItemTo_CommitDujieTask"       value="5004"    comment="提交渡劫任务消耗"/>
+            <Member name="ItemTo_TripodMakeFire"        value="5005"    comment="九疑鼎祈火"/>
+            <Member name="ItemTo_TripodSpeed"           value="5006"    comment="九疑鼎道具入鼎"/>
+            <Member name="ItemTo_TripodActive"          value="5007"    comment="九疑鼎激活消耗"/>
+            <Member name="ItemTo_TripodUpgrade"         value="5008"    comment="九疑鼎升级消耗"/>
+            <Member name="ItemTo_DemonTower"            value="5009"    comment="锁妖塔消耗"/>
+            <Member name="ItemTo_ArenaFlush"            value="5010"    comment="斗剑刷将"/>
+            <Member name="ItemTo_ArenaClearCD"          value="5011"    comment="清除斗剑CD"/>
+            <Member name="ItemTo_ArenaWirship"          value="5012"    comment="斗剑膜拜"/>
+            <Member name="ItemTo_ArenaBuyTimes"         value="5013"    comment="斗剑购买挑战次数"/>
+            <Member name="ItemTo_ArenaClearLadderCD"    value="5014"    comment="斗剑天梯cd清除"/>
+            <Member name="ItemTo_GuildDonate"           value="5015"    comment="帮派捐献"/>
+            <Member name="ItemTo_GuildWorship"          value="5016"    comment="帮派供奉"/>
+            <Member name="ItemTo_MergeCitta"            value="5017"    comment="天书使用、分解、穿戴"/>
+            <Member name="ItemTo_UserDeptORPack"        value="5018"    comment="玩家仓库与背包道具交换、拆分、合并"/>
+            <Member name="ItemTo_GatherCond"            value="5019"    comment="玩家收集消耗"/>
+            <Member name="ItemTo_Task"                  value="5020"    comment="任务消耗"/>
+            <Member name="ItemTo_TrumpActive"           value="5021"    comment="主将法宝激活消耗"/>
+            <Member name="ItemTo_TrumpUpgrade"          value="5022"    comment="主将法宝祭炼升级消耗"/>
+            <Member name="ItemTo_TrumpEvolve"           value="5023"    comment="主将法宝升阶消耗"/>
+            <Member name="ItemTo_LearnXinFa"            value="5024"    comment="学习心法消耗"/>
+            <Member name="ItemTo_ZodTrumpUpgrade"       value="5025"    comment="散仙本命法宝祭炼升级消耗"/>
+            <Member name="ItemTo_EquipUpgrade"          value="5026"    comment="装备升级消耗"/>
+            <Member name="ItemTo_FashionUpgrade"        value="5027"    comment="时装升级消耗"/>
+            <Member name="ItemTo_FashionActive"         value="5028"    comment="时装激活消耗"/>
+            <Member name="ItemTo_HorseActive"           value="5029"    comment="坐骑激活消耗"/>
+            <Member name="ItemTo_HorseUpgrade"          value="5030"    comment="坐骑升级消耗"/>
+            <Member name="ItemTo_HeroInstinct"          value="5031"    comment="散仙血脉激活消耗"/>
+            <Member name="ItemTo_TalentActive"          value="5032"    comment="天赋激活消耗"/>
+            <Member name="ItemTo_FormationActive"       value="5033"    comment="阵型激活消耗"/>
+            <Member name="ItemTo_PetActive"             value="5034"    comment="宠物激活消耗"/>
+            <Member name="ItemTo_PetLvlUp"              value="5035"    comment="宠物升级消耗"/>
+            <Member name="ItemTo_Recruit"               value="5036"    comment="将领招募消耗"/>
+            <Member name="ItemTo_ExchangeItem"          value="5037"    comment="兑换物品消耗"/>
+            <Member name="ItemTo_FlushTask"             value="5038"    comment="刷新师门任务"/>
+            <Member name="ItemTo_BuyTask"               value="5039"    comment="购买师门任务"/>
+            <Member name="ItemTo_YaMenFlushTask"        value="5040"    comment="刷新衙门任务"/>
+            <Member name="ItemTo_YaMenBuyTask"          value="5041"    comment="购买衙门任务"/>
+            <Member name="ItemTo_HeroShift"             value="5042"    comment="散仙转移"/>
+            <Member name="ItemTo_HeroCuiTiUpgrade"      value="5043"    comment="散仙粹体升级"/>
+            <Member name="ItemTo_FighterLuckyExchange"  value="5044"    comment="散仙兑换"/>
+            <Member name="ItemTo_FighterSearch"         value="5045"    comment="散仙搜索"/>
+            <Member name="ItemTo_FighterTaoismUpgrade"  value="5046"    comment="道术升级"/>
+            <Member name="ItemTo_TaskForGroupAward"     value="5047"    comment="师门任务领奖"/>
+            <Member name="ItemTo_TaskForYaMenAward"     value="5048"    comment="衙门任务领奖"/>
+            <Member name="ItemTo_FigtherToOther"        value="5049"    comment="发起战斗"/>
+            <Member name="ItemTo_ExpandStore"           value="5050"    comment="扩展背包"/>
+            <Member name="ItemTo_BuyGuildSkill"         value="5051"    comment="购买工会战技能"/>
+            <Member name="ItemTo_SweepingSpeedUp"       value="5052"    comment="扫荡加速"/>
+            <Member name="ItemTo_EquipIntensify"        value="5053"    comment="装备强化"/>
+            <Member name="ItemTo_AttachSpirit"          value="5054"    comment="装备注灵"/>
+            <Member name="ItemTo_MallBuy"               value="5055"    comment="商城购买"/>
+            <Member name="ItemTo_HeroLevelUpgrade"      value="5056"    comment="散仙升级"/>
+            <Member name="ItemTo_HeroSkillLevelUpgrade" value="5057"    comment="散仙天赋技能升级"/>
+            <Member name="ItemTo_HeroXinFaUpgrade"      value="5058"    comment="散仙心法升级"/>
+            <Member name="ItemTo_HeroSkillUpgrade"      value="5059"    comment="散仙技能升级"/>
+            <Member name="ItemTo_PlayerXinFaUpgrade"    value="5060"    comment="玩家心法升级"/>
+            <Member name="ItemTo_OpenVIP"               value="5061"    comment="开启vip"/>
+            <Member name="ItemTo_OpenFriendVIP"         value="5062"    comment="给好友开启vip"/>
+            <Member name="ItemTo_BuyAction"             value="5063"    comment="购买行动力"/>
+            <Member name="ItemTo_ConsumeAction"         value="5064"    comment="副本或扫荡消耗"/>
+            <Member name="ItemTo_ZodTrump"              value="5065"    comment="法宝升级"/>
+            <Member name="ItemTo_BattleBuySkill"        value="5066"    comment="论剑购买技能"/>
+            <Member name="ItemTo_SoulSpaceUpgrade"      value="5067"    comment="魄空间升级"/>
+            <Member name="ItemTo_WorldBossRelive"       value="5068"    comment="世界boss复活"/>
+            <Member name="ItemTo_WorldBossBuyStrength"  value="5069"    comment="世界boss购买buffer"/>
+            <Member name="ItemTo_WorldAttack"           value="5070"    comment="世界boss购买立即攻击"/>
+            <Member name="ItemTo_PlayerAdvanceUpgrade"  value="5071"    comment="主将技能进阶"/>
+            <Member name="ItemTo_PlayerSkillUpgrade"    value="5072"    comment="主将技能升级"/>
+            <Member name="ItemTo_RuneUpgrade"           value="5073"    comment="主将技能熔炼"/>
+            <Member name="ItemTo_UpgradeBeastSoul"      value="5074"    comment="兽魂"/>
+            <Member name="ItemTo_PHP"                   value="5075"    comment="客服后台操作"/>
+            <Member name="ItemTo_FighterCombination"    value="5076"    comment="散仙组合升级消耗"/>
+            <Member name="ItemTo_BattleArrayItem"       value="5077"    comment="破阵"/>
+            <Member name="ItemTo_TreasureHunt"          value="5078"    comment="一键寻宝"/>
+            <Member name="ItemTo_Beauty"                value="5079"    comment="美女系统"/>
+            <Member name="ItemTo_ByOpenShipTimes"       value="5080"    comment="购买运船次数"/> 
+            <Member name="ItemTo_ByRobShipTimes"        value="5081"    comment="购买抢船次数"/>
+            <Member name="ItemTo_ByReFlushShipTimes"    value="5082"    comment="购买刷船次数"/>
+            <Member name="ItemTo_ShushanFound"          value="5083"    comment="购买蜀山基金"/> 
+            <Member name="ItemTo_CircleOneKey"          value="5084"    comment="环任务立即完成当前"/> 
+            <Member name="ItemTo_CircleOneKeyAll"       value="5085"    comment="环任务立即完成所有"/>  
+            <Member name="ItemTo_GetShipOneKey"         value="5086"    comment="vip召唤船只"/> 
+            <Member name="ItemTo_FinishShipOneKey"      value="5087"    comment="一键完成运船"/>         
+            <Member name="ItemTo_CircleUpStar"          value="5088"    comment="环任务升星"/>
+            <Member name="ItemTo_BuyHeroDgn"            value="5089"    comment="购买英雄副本次数"/>
+            <Member name="ItemTo_BuyLiXianDgn"          value="5090"    comment="购买历险副本次数"/>
+            <Member name="ItemTo_BuyEntryNum"           value="5091"    comment="购买守卫峨眉进入次数"/>
+            <Member name="ItemTo_GuildXihe"             value="5092"    comment="羲和神车消耗"/>
+            <Member name="ItemTo_BuyLadderTimes"        value="5093"    comment="购买天梯挑战次数"/>
+            <Member name="ItemTo_ExchangeMoney"         value="5094"    comment="货币兑换"/>
+            <Member name="ItemTo_Draw"                  value="5095"    comment="求签"/>
+            <Member name="ItemTo_FighterDismiss"        value="5096"    comment="散功消耗"/>
+            <Member name="ItemTo_LingShan"              value="5097"    comment="秘境寻宝"/>
+            <Member name="ItemTo_GodMonster"            value="5098"    comment="天元神兽消耗"/>
+            <Member name="ItemTo_DujieConsume"          value="5099"    comment="散仙渡劫消耗"/>
+            <Member name="ItemTo_MoneyTree"             value="5100"    comment="摇钱树消耗"/>
+            <Member name="ItemTo_WareStone"             value="5101"    comment="装备宝石"/>
+            <Member name="ItemTo_MergeStone"            value="5102"    comment="合成消耗"/>
+            <Member name="ItemTo_RegisterSevenDaysDis"  value="5103"    comment="注册七天折扣豪礼大回馈消耗"/>
+            <Member name="ItemTo_MallBuy_NoGold"        value="5104"    comment="商城购买_礼卷"/>
+            <Member name="ItemTo_NewGuildBattleDead"    value="5105"    comment="灵山买活"/>
+            <Member name="ItemTo_NewGuildBattleBuyPuppet" value="5106"    comment="购买傀儡"/>
+            <Member name="ItemTo_Lottery"                 value="5106"    comment="抽奖"/>
+            <Member name="ItemTo_BreakCitta"              value="5107"      comment="心法分解"/>
+            <Member name="ItemTo_FighterBuyLYQ"           value="5108"      comment="邀仙居——李英琼"/>
+            <Member name="ItemTo_FighterBuyQLY"           value="5109"      comment="邀仙居——齐灵云"/>
+            <Member name="ItemTo_ETrumpStrength"          value="5110"      comment="装备法宝强化"/>
+            <Member name="ItemTo_ETrumpXiLian"            value="5111"      comment="装备法宝洗练"/>
+            <Member name="ItemTo_BreakEquipTrump"       value="5112"      comment="分解装备法宝"/>
+            <Member name="ItemTo_MergeEquipTrump"       value="5113"      comment="合成装备法宝"/>
+            <Member name="ItemTo_WearEquipTrump"        value="5114"      comment="穿戴装备法宝"/>
+            <Member name="ItemTo_TakeOffEquipTrump"     value="5115"      comment="卸下装备法宝"/>
+            <Member name="ItemTo_ShengLing"             value="5116"      comment="圣陵"/>
+            <Member name="ItemTo_Fenbaoyan"             value="5117"      comment="分宝岩"/>
+            <Member name="ItemTo_Feedback"              value="5118"      comment="消费回馈"/>
+            
+
+        </Enum>
+        <Enum name="EFighterOptType" comment="散仙操作类型">
+            <Member name="eOptType_Recurit" comment="招募"/>
+            <Member name="eOptType_Upgrade" comment="升级"/>
+            <Member name="eOptType_CuiTi" comment="猝体"/>
+            <Member name="eOptType_FaBao" comment="法宝"/>
+            <Member name="eOptType_Skill" comment="技能"/>
+            <Member name="eOptType_Shift" comment="CuiTi转移"/>
+            <Member name="eOptType_XinFa" comment="心法"/>
+            <Member name="eOptType_PassiveSkill" comment="被动技能"/>
+        </Enum>
+        <Struct name="LogDataBase" vec="TVecLogDataBase" comment="日志数据基类">
+
+            <SubStruct name="SDgnLog" vec="TVecDgnLog" comment="副本日志">
+                <Member type="EDgnOpType" name="eOpType" comment="操作类型"/>
+                <Member type="UINT16" name="wDgnType" comment="副本类型"/>
+                <Member type="UINT64" name="qwDgnInsID" comment="副本实例ID"/>
+                <Member type="UINT64" name="qwUserID"  comment="操作者，0表示系统"/>
+            </SubStruct>
+            <SubStruct name="SRegisterLog" vec="TVecRegisterLog" comment="注册日志">
+                <Member type="UINT32" name="serverId" comment="服务器ID"/>
+                <Member type="UINT64" name="playerId" comment="玩家ID"/>
+                <Member type="string" name="playerName" comment="玩家名字"/>
+            </SubStruct>
+            <SubStruct name="SLoginLog" vec="TVecLoginLog" comment="登录日志">
+                <Member type="UINT32" name="serverId" comment="服务器ID"/>
+                <Member type="UINT64" name="playerId" comment="玩家ID"/>
+                <Member type="UINT32" name="loginTime" comment="登录时间"/>
+                <Member type="string" name="loginIp" comment="登录IP"/>
+                <Member type="UINT32" name="logoutTime" comment="离开时间"/>
+            </SubStruct>
+            <SubStruct name="SItemCoursesLog" vec="TVecItemCoursesLog" comment="道具流水日志">
+                <Member type="UINT32" name="serverId" comment="服务器ID"/>
+                <Member type="UINT64" name="playerId" comment="玩家ID"/>
+                <Member type="string" name="strOpenId" comment="玩家的openId"/>
+                <Member type="UINT64" name="qwInstId" comment="物品流水ID"/>
+                <Member type="UINT32" name="itemId" comment="物品ID"/>
+                <Member type="UINT32" name="itemNum" comment="物品使用or增加数量"/>
+                <Member type="UINT16" name="fromto" comment="物品出处id"/>
+                <Member type="string" name="fromtoStr" comment="物品出处字符描述"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SMoneyCoursesLog" vec="TVecMoneyCoursesLog" comment="货币流水日志">
+                <Member type="UINT32" name="serverId" comment="服务器ID"/>
+                <Member type="UINT64" name="playerId" comment="玩家ID"/>
+                <Member type="string" name="strOpenId" comment="玩家的openId"/>
+                <Member type="UINT8" name="moneyType" comment="货币类型ID"/>
+                <Member type="UINT32" name="moneyNum" comment="货币使用or增加数量"/>
+                <Member type="UINT32" name="totalNum" comment="当前货币总数量"/>
+                <Member type="UINT16" name="fromto" comment="物品出处id"/>
+                <Member type="string" name="fromtoStr" comment="物品出处字符描述"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+                <Member type="UINT8" name="bIsFreeGold" comment="是否使用免费仙石"/>
+            </SubStruct>
+            <SubStruct name="SMailLog" vec="TVecMailLog" comment="邮件流水日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwPlayerId" comment="玩家ID"/>
+                <Member type="UINT64" name="qwMailId" comment="邮件ID"/>
+                <Member type="UINT8" name="byType" comment="邮件类型"/>
+                <Member type="string" name="strTitle" comment="邮件标题"/>
+                <Member type="string" name="strText" comment="邮件正文"/>
+                <Member type="string" name="strAttach" comment="邮件附件"/>
+                <Member type="UINT8" name="byState" comment="邮件状态"/>
+                <Member type="UINT32" name="dwRevTime" comment="操作时间"/>
+                <Member type="UINT32" name="dwDelTime" comment="删除时间"/>
+            </SubStruct>
+            <SubStruct name="SPetLog" vec="TVecPetLog" comment="阵灵日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwPlayerId" comment="玩家ID"/>
+                <Member type="string" name="sName" comment="阵灵名字"/>
+                <Member type="UINT8" name="byOpType" comment="操作类型"/>
+                <Member type="UINT16" name="wLevel" comment="阵灵等级"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+
+            <SubStruct name="SDujieLog" vec="TVecDujieLog" comment="渡劫日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwPlayerId" comment="玩家ID"/>
+                <Member type="UINT16" name="wFighterId" comment="散仙ID"/>
+                <Member type="string" name="sFighterName" comment="散仙名字"/>
+                <Member type="string" name="sPeriodName" comment="渡劫阶段"/>
+                <Member type="UINT32" name="dwExp"  comment="当前渡劫经验值"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SFashionLog" vec="TVecFashionLog" comment="时装日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT16" name="wId" comment="时装ID"/>
+                <Member type="string" name="sName" comment="时装名字"/>
+                <Member type="UINT32" name="dwLevel" comment="时装等级"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SFighterLog" vec="TVecFighterLog" comment="散仙日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT16" name="wFighterId" comment="散仙ID"/>
+                <Member type="string" name="sName" comment="散仙名字"/>
+                <Member type="UINT16" name="wLevel" comment="散仙等级"/>
+                <Member type="UINT8" name="byQuality" comment="散仙品质"/>
+                <Member type="EFighterOptType" name="eOptType" comment="操作类型1"/>
+                <Member type="UINT32" name="dwType" comment="操作类型2(本命法宝时，0表示法宝，1表示法宝技能)"/>
+                <Member type="UINT64" name="qwResult" comment="操作结果(本命法宝时：前32位表示ID，后32为表示等级"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SHorseLog" vec="TVecHorseLog" comment="坐骑日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT32" name="dwID" comment="坐骑ID"/>
+                <Member type="string" name="sName" comment="坐骑名字"/>
+                <Member type="UINT32" name="dwLevel" comment="坐骑等级"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="STrumpLog" vec="TVecTrumpLog" comment="法宝日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT16" name="wID" comment="法宝ID"/>
+                <Member type="string" name="sName" comment="法宝名字"/>
+                <Member type="UINT32" name="dwSkillId" comment="法宝技能等级"/>
+                <Member type="UINT32" name="dwLevel" comment="法宝品节"/>
+                <Member type="UINT32" name="dwExp" comment="法宝当前祭炼值"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SBeautyLog" vec="TVecBeautyLog" comment="美女日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT16" name="wID" comment="美女ID"/>
+                <Member type="string" name="sName" comment=" 美女名字"/>
+                <Member type="UINT16" name="wLevel" comment="亲密等级"/>
+                <Member type="UINT32" name="dwExp" comment="亲密度"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SEquipLog" vec="TVecEquipLog" comment="装备日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT32" name="dwID" comment="装备ID"/>
+                <Member type="string" name="sName" comment="装备名字"/>
+                <Member type="UINT32" name="dwLevel" comment="装备等级"/>
+                <Member type="UINT32" name="happenedTime" comment="时间"/>
+            </SubStruct>
+            <SubStruct name="SGuildLog" vec="TVecGuildLog" comment="帮会日志">
+                <Member type="UINT32" name="dwServerId" comment="服务器ID"/>
+                <Member type="UINT64" name="qwGuildId" comment="帮派ID"/>
+                <Member type="string" name="sName" comment="帮派名字"/>
+                <Member type="UINT8" name="byLevel" comment="帮派等级"/>
+                <Member type="UINT32" name="dwCount" comment="帮派人员"/>
+                <Member type="UINT8" name="byTowerLvl" comment="神谕塔等级"/>
+                <Member type="UINT8" name="byStoreLvl" comment="仓库等级"/>
+                <Member type="UINT8" name="byHourseLvl" comment="剑阁等级"/>
+                <Member type="UINT32" name="dwScore" comment="帮派积分"/>
+                <Member type="UINT32" name="dwMoney" comment="帮派金钱"/>
+                <Member type="UINT32" name="happenedTime" comment="创建时间"/>
+                <Member type="UINT8" name="byOptType" comment="数据库操作 (1创建，其他Update)"/>
+                <Member type="UINT8" name="byOptParam" comment="附加参数(1加入2加钱3加积分4神谕塔升级5仓库升级6剑阁升级)"/>
+            </SubStruct>
+            <SubStruct name="SSendMoneyLog" vec="TVecSendMoneyLog" comment="发送货币日志">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byMoneyType" comment="货币类型"/>
+                <Member type="UINT32" name="dwMoneyValue" comment="发送数量"/>
+                <Member type="string" name="strReason" comment="发送理由"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SSendItemLog" vec="TVecSendItemLog" comment="发送物品日志">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8" name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="string" name="strTitle" comment="标题"/>
+                <Member type="string" name="strBody" comment="内容"/>
+                <Member type="string" name="strItemList" comment="物品列表"/>
+                <Member type="string" name="strReason" comment="发送理由"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SMailOpLog" vec="TVecMailOpLog" comment="邮件操作日志">
+                <Member type="string" name="strSendName" comment="操作人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byMailOpType" comment="邮件操作类型"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SForbiddenLog" vec="TVecForbiddenLog" comment="封号*解封记录">
+                <Member type="string" name="strSendName" comment="操作人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byOpType" comment="操作类型"/>
+                <Member type="UINT32" name="dwForbidTime" comment="封禁时间"/>
+                <Member type="string" name="strReason" comment="理由"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SForbiddenChatLog" vec="TVecForbiddenChatLog" comment="禁言*解禁记录">
+                <Member type="string" name="strSendName" comment="操作人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byOpType" comment="操作类型"/>
+                <Member type="UINT32" name="dwForbidTime" comment="封禁时间"/>
+                <Member type="string" name="strReason" comment="理由"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SGlobalSendItemLog" vec="TVecGlobalSendItemLog" comment="发送物品日志">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT32" name="dwGold" comment="仙石"/>
+                <Member type="UINT32" name="dwCoupon" comment="礼卷"/>
+                <Member type="UINT32" name="dwSliver" comment="银币"/>
+                <Member type="UINT32" name="dwHonor" comment="荣誉"/>
+                <Member type="string" name="strItemList" comment="物品列表"/>
+                <Member type="string" name="strReason" comment="理由"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SQuesOptLog" vec="TVecQuesOptLog" comment="任务管理记录">
+                <Member type="string" name="strSendName" comment="操作人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byOpType" comment="操作类型"/>
+                <Member type="UINT16" name="wQuestType" comment="任务类型"/>
+                <Member type="string" name="strQuestName" comment="任务名字"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SSendMailLog" vec="TVecSendMailLog" comment="邮件发送日志">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="string" name="strTitel" comment="标题"/>
+                <Member type="string" name="strBody" comment="内容"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SVIPSendLog" vec="TVecVIPSendLog" comment="VIP物品发放记录">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT32" name="dwVIPLevel" comment="vip等级"/>
+                <Member type="string" name="strBody" comment="内容"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SActivityOpenLog" vec="TVecActivityOpenLog" comment="活动开启记录">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="string" name="strActivityName" comment="活动名称"/>
+                <Member type="UINT32" name="dwBeginTime" comment="开始时间"/>
+                <Member type="UINT32" name="dwEndTime" comment="结束时间"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SDiscountItemLog" vec="TVecDiscountItemLog" comment="限时限购配置记录">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byType" comment="类型"/>
+                <Member type="UINT32" name="dwBeginTime" comment="开始时间"/>
+                <Member type="UINT32" name="dwEndTime" comment="结束时间"/>
+                <Member type="string" name="strItemList" comment="物品列表"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+            <SubStruct name="SLevelChangeLog" vec="TVecLevelChangeLog" comment="等级修改记录">
+                <Member type="string" name="strSendName" comment="发送人"/>
+                <Member type="UINT8"  name="byStatus" comment="状态"/>
+                <Member type="UINT32" name="dwServerId" comment="大区"/>
+                <Member type="UINT64" name="qwUserId" comment="玩家ID"/>
+                <Member type="UINT8"  name="byLevel" comment="玩家等级"/>
+                <Member type="UINT32" name="dwOpTime" comment="操作时间"/>
+            </SubStruct>
+
+        </Struct>
+    </TypeDef>
+
+</Protocol>
