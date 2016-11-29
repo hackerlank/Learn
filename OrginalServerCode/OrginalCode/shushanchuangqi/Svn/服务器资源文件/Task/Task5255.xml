@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="5255" name="心法内修" level="0" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="支线" Charge="0" Nexttask="4068" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 激活主角的心法“玄门无形剑气”1次 </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']激活主角心法玄门无形剑气[/font][/u][/a]{3}次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5254" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="43"  value="1"  param="0,1300"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="10009"/>
+    <Item type="5" value="168880"/>
+   </General>
+  <MustItem>
+   </MustItem>
+ </Award>
+</Task>

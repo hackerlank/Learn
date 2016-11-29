@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="4206" name="镇妖宝塔" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4205" name="轻易除魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1022"  name="李英琼">
+       <Chat  index="1">
+            <PCSpeak>在我这次前往昆仑途中，曾遇到一只灵猴，他称自己为天地阵法之灵，却被关到我们的镇妖塔中，师姐能否明示此事真伪？</PCSpeak>
+            <NPCSpeak>不错，我峨眉确有一镇妖宝塔，最近内有许多妖怪趁乱想突出。你不如进去镇妖。也可以作为你的修为的验证。你既与那阵灵有缘，相必进入后也能得到意外相助。你出塔后可找到朱梅前辈助你收服。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="7325"/>
+    <Item type="5" value="125769"/>
+   </General>
+ </Award>
+</Task>

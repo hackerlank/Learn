@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="4208" name="宝石光芒" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 镶嵌一颗[a event="{0}"][u][font color='#32fb18']1级攻击宝石[/font][/u][/a]1次({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4207" name="渡劫飞越"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="59"  value="1"  param="8801"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="7513"/>
+    <Item type="5" value="140143"/>
+   </General>
+ </Award>
+</Task>

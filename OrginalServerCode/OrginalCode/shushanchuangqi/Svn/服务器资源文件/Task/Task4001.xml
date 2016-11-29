@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="2" >
+       <Basic id="4001" name="脱胎换骨" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="4002" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 完成支线任务或通关历险副本提升到[font color="#32fb18"][u]{0}[/u][/font]级({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3806" name="灵气衰竭"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+     <Grow>
+      <Item type="1" value="40"/>
+   </Grow >
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="6601"/>
+    <Item type="5" value="157534"/>
+   </General>
+ </Award>
+</Task>

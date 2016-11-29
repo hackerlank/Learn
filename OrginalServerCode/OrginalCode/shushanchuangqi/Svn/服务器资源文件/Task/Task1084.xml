@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1084" name="闯入瑶池" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="1">
+          <Item id="800" name="1"/>
+          <Item id="801" name="1"/>
+          <Item id="802" name="1"/>
+          <Item id="803" name="1"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1075"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>前方便是我们追寻已久的瑶池，相信我们找的结果正在其中。</PCSpeak>
+            <NPCSpeak>既然这样让我们速速过去，相信就能找到我们追求已久的答案。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4079"/>
+    <Item type="5" value="135962"/>
+   </General>
+ </Award>
+</Task>

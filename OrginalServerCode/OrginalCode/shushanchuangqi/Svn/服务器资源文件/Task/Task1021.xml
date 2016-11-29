@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1021" name="宗门严令" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1020" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1071"  name="齐掌教">
+       <Chat  index="1">
+            <PCSpeak>掌教这是？</PCSpeak>
+            <NPCSpeak>逆徒！见妖不杀，必有后患。</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>…是，弟子…知…错！</PCSpeak>
+            <NPCSpeak>如今仙山灵气断绝，即使是杀妖取灵也保不住这仙脉断绝…嗯？这是？？</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="807"/>
+    <Item type="5" value="601"/>
+   </General>
+ </Award>
+</Task>

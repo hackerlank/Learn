@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="4406" name="宝船宝物" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4405" name="心魔真身"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1062"  name="朱梅">
+       <Chat  index="1">
+            <PCSpeak>前辈找我何事？</PCSpeak>
+            <NPCSpeak>自从我们峨眉从元江金船得了许多天仙宝物以后，引得外道魔军纷纷觊觎，甚至影响到了我派正常的物资运送。还是需要一些有实力的人去护航，如果是有歹心之人，也不妨抢他一抢。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8425"/>
+    <Item type="5" value="106958"/>
+   </General>
+ </Award>
+</Task>

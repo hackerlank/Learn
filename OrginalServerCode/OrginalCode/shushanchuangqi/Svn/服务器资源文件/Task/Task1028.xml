@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1028" name="云深难返" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1027" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1010"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>我这是到了哪里…</PCSpeak>
+            <NPCSpeak>你想必是峨眉弟子，说来我与峨眉也素有渊源。能救下你亦是缘份。不知峨眉金顶情况如何？</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>唉，一言难尽…</PCSpeak>
+            <NPCSpeak>此事不急。你虽重伤，却又近渡劫期，正是凶险无比。能否安然渡过，要看你造化了。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1159"/>
+    <Item type="5" value="1902"/>
+   </General>
+ </Award>
+</Task>

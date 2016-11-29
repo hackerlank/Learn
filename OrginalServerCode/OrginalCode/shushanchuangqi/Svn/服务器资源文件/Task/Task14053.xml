@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="10"  content="1" >
+       <Basic id="14053" name="九宫传说" level="51" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="跑环" Charge="0" Nexttask="0" giveUp="1" linklevel="0" repeat="429497295" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="4" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 通关[u][font color='#32fb18']地火台[/font][/u] </Purpose>
+    <Fail>  </Fail>
+    <Finish>  </Finish>
+ </Dialog>
+  <Limit/>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="2194" name="魔军" count="1" fake="0" strParam="353"/>
+    </Kill>
+ </Process>
+  <Award/>
+</Task>

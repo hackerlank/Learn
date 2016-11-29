@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="1033" name="玄门阵法" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="1034" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 使任意一个散仙[a event="{0}"][u][font color='#32fb18']上阵[/font][/u][/a]({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1032" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="23"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1411"/>
+    <Item type="5" value="5629"/>
+   </General>
+  <MustItem>
+    <Item id="56" name="0" count="3" jobname="0" job="0"/>
+   </MustItem>
+ </Award>
+</Task>

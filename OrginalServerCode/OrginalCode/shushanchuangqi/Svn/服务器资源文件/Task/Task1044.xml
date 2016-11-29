@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1044" name="玄天踪迹" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1043" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1051"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>这里为什么有魔气如此厚重之魔怪，正如早前冲击峨眉那些魔怪一样！难道说…等等，前方那红色身影，莫不是…</PCSpeak>
+            <NPCSpeak>似乎正是昆仑玄天宗。快，我们前去追上他。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1965"/>
+    <Item type="5" value="8390"/>
+   </General>
+ </Award>
+</Task>

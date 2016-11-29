@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="32" >
+       <Basic id="5253" name="破除阵眼" level="0" />
+       <Mark open="1" share="0" awardui="1" TaskLabel="支线" Charge="0" Nexttask="4068" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 成功破去阵眼1次 </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']成功破去阵眼[/font][/u][/a]{3}次({1}/{3}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5252" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="44"  value="1"  param=" "/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="9913"/>
+    <Item type="5" value="165168"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GM命令相关参数 -->
+<Config Version="1">
+    <Super Comment="Super指令">
+
+        <User Comment="帐号相关" >
+            <!-- TODO: Comment里面的称谓策划自己对照表来改吧 -->
+            <Money Comment="金钱" Type="1"  Count="9999999"/>
+            <Money Comment="金钱" Type="2"  Count="9999999"/>
+            <Money Comment="金钱" Type="3"  Count="9999999"/>
+            <Money Comment="金钱" Type="4"  Count="9999999"/>
+            <Money Comment="金钱" Type="5"  Count="9999999"/>
+            <Money Comment="金钱" Type="6"  Count="9999999"/>
+            <Money Comment="金钱" Type="7"  Count="9999999"/>
+            <Money Comment="金钱" Type="8"  Count="9999999"/>
+            <Money Comment="金钱" Type="9"  Count="9999999"/>
+            <Money Comment="金钱" Type="10" Count="9999999"/>
+            <Money Comment="金钱" Type="11" Count="9999999"/>
+            <Money Comment="金钱" Type="12" Count="9999999"/>
+            <Money Comment="金钱" Type="13" Count="9999999"/>
+            <Money Comment="金钱" Type="14" Count="9999999"/>
+            <Money Comment="金钱" Type="15" Count="9999999"/>
+
+            <Item Comment="道具" >
+                <OneItem Comment="单独一件道具" ID="500" Count="1" />
+            </Item>
+            <VIP Level="15" Comment="VIP" />
+        </User>
+
+        <!-- ↓↓↓↓↓这里是不区分玩家职业的配置↓↓↓↓↓ -->
+        <Player Comment="通用玩家(不区分职业)">
+            <Level Comment="等级" Max="150"/>
+            <Equip Comment="装备" Level="150">
+            </Equip>
+            <Trump Comment="法宝" MinID="6000" MaxID="6018" Level="9">
+                <!--OneTrump Comment="单独一件法宝" ID="5080" Level="9" /-->
+            </Trump>
+            <Fighter Comment="散仙相关配置" MinID="100" MaxID="117">
+                <CuiTi Comment="淬体" Level="150"/>
+                <Skill Comment="技能" Level="9" />
+                <Xinfa Comment="心法" Level="9" />
+            </Fighter>
+            <Formation Comment="阵型" MinID="1" MaxID="15"/>
+            <Pet Comment="阵灵" MinID="1" MaxID="12" Level="9" />
+            <IconAppear Comment="图标解锁" MinID="1" MaxID="42" />
+        </Player>
+        <!-- ↑↑↑↑↑这里是不区分玩家职业的配置↑↑↑↑↑ -->
+
+        <!-- ↓↓↓↓↓这里是区分玩家职业的配置↓↓↓↓↓ -->
+        <JobPlayer Job="1" Comment="儒">
+            <Skill MinID="11" MaxID="19" Level="9"/>
+            <Trump MinID="0" MaxID="0" >
+                <OneTrump Comment="单独一件法宝" ID="5000" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5004" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5008" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5012" Level="9" />
+            </Trump>
+        </JobPlayer>
+        <JobPlayer Job="2" Comment="释">
+            <Skill MinID="31" MaxID="39" Level="9"/>
+            <Trump MinID="0" MaxID="0" >
+                <OneTrump Comment="单独一件法宝" ID="5001" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5005" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5009" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5013" Level="9" />
+            </Trump>
+        </JobPlayer>
+        <JobPlayer Job="3" Comment="道">
+            <Skill MinID="51" MaxID="59" Level="9"/>
+            <Trump MinID="0" MaxID="0" >
+                <OneTrump Comment="单独一件法宝" ID="5002" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5006" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5010" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5014" Level="9" />
+            </Trump>
+        </JobPlayer>
+        <JobPlayer Job="4" Comment="墨" >
+            <Skill MinID="71" MaxID="79" Level="9"/>
+            <Trump MinID="0" MaxID="0" >
+                <OneTrump Comment="单独一件法宝" ID="5003" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5007" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5011" Level="9" />
+                <OneTrump Comment="单独一件法宝" ID="5015" Level="9" />
+            </Trump>
+        </JobPlayer>
+        <!-- ↑↑↑↑↑这里是区分玩家职业的配置↑↑↑↑↑ -->
+
+    </Super>
+</Config>

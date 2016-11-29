@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3802" name="幽影传说" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3614" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1024"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>幽影林地，此地我印象中曾经来过，那里灵气沛然，是个孕育宝物之福地。</PCSpeak>
+            <NPCSpeak>唉，如今之幽影林地，却已经不复当年之景。恶物横行，其主要的祸首却是幽影梦魇。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="6059"/>
+    <Item type="5" value="199724"/>
+   </General>
+ </Award>
+</Task>

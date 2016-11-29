@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1004" name="封印百年" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1003" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1508"  name="芸儿">
+       <Chat  index="1">
+            <PCSpeak>他说的不错，难以彻底杀死他。也罢，我就拼尽这一身修为，来封住他的元神，虽然只有区区百年。</PCSpeak>
+            <NPCSpeak>百年的时间啊。咳咳，也好，至少人间也能得到百年安宁。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+  <Award/>
+</Task>

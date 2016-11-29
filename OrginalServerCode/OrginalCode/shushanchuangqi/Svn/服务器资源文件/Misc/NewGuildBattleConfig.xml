@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 新帮派战 -->
+<Config Version="1">
+    <ReleaseConfig Comment="正式游戏模式相关时间" />
+    <DebugConfig GatePrepareTime="90" CavePrepareTime="90" CampaignTime="1800" Comment="调试模式相关时间"/>
+    <CaveConfig MaxRes="3000">
+        1.青龙 2.白虎 3.朱雀 4.玄武
+        <CaveCore Type="1" ResOutput="10" />
+        <CaveCore Type="2" ResOutput="8" />
+        <CaveCore Type="3" ResOutput="6" />
+        <CaveCore Type="4" ResOutput="4" />
+    </CaveConfig>
+    <ExpConfig Time="15" />
+</Config>

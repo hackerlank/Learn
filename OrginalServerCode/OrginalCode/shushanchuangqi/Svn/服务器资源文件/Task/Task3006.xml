@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3006" name="火盾无害" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3007" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 激活散仙组合“谢家姐妹” </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']激活散仙组合[/font][/u][/a]“火盾无害”。({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3005" name="阵灵恢复"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="55"  value="1"  param="1"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4150"/>
+    <Item type="5" value="341220"/>
+   </General>
+ </Award>
+</Task>

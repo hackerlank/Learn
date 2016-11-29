@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="4603" name="深有乾坤" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4602" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1024"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>不知道掌教所指玄阴寨中玄机是何事，我百思不得解，还请明示。</PCSpeak>
+            <NPCSpeak>其实这玄阴寨只不过是外皮，深入寨中，将会发现另有洞天，唤作归元宫。那才是玄阴寨真正面目。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="8809"/>
+    <Item type="5" value="121711"/>
+   </General>
+ </Award>
+</Task>

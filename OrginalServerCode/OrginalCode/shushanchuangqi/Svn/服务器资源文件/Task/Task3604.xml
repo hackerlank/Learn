@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3604" name="佛道双修" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3603" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1024"  name="醉道人">
+       <Chat  index="1">
+            <PCSpeak>佛道双修从未能有人前人试过，不过你却不同，你类世修道，每世皆差一步到达金仙之体，佛道双修这事未必也不可成，他人从未践行之路，未必也是死路。</PCSpeak>
+            <NPCSpeak>既然你能想到此节，想必能做到就是。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5520"/>
+    <Item type="5" value="95105"/>
+   </General>
+ </Award>
+</Task>

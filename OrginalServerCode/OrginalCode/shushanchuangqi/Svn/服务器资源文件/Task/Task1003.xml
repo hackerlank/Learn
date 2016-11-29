@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1003" name="狂妄血魔" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1002" name="坠落天火"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1070"  name="血魔">
+       <Chat  index="1">
+            <PCSpeak>你危害天下，最终落得如此下场！</PCSpeak>
+            <NPCSpeak>哈哈哈哈！以你们功力，就算能困住我，又如何杀的死我？？</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+  <Award/>
+</Task>

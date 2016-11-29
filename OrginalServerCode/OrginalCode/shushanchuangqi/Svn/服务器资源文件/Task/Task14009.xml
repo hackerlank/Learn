@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="10"  content="128" >
+       <Basic id="14009" name="昆仑旧事" level="31" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="跑环" Charge="0" Nexttask="0" giveUp="1" linklevel="0" repeat="429497295" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="4" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+  <Limit/>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1062"  name="朱梅">
+       <Chat  index="1">
+            <PCSpeak>曾闻落神岭之故，有宝隐与此，能否赐教？</PCSpeak>
+            <NPCSpeak>落神岭镇中藏有至宝，魔物不敢侵袭。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+  <Award/>
+</Task>

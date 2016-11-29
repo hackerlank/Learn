@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 战斗相关参数 -->
+<Config Version="1">
+    <Damage Comment="伤害计算">
+        <Reduce Max="7000" Min="0" Comment="免伤率">
+            <Value ID="1" Value="50" />
+            <Value ID="2" Value="2000" />
+        </Reduce>
+        <CriticalDmg Max="30000" Min="15000" Comment="暴击伤害" />
+        <DamageFloat Max="10500" Min="9500" Comment="伤害浮动"/>
+    </Damage>
+    <Hit Max="10000" Min="100" Comment="命中计算" >
+        <Value ID="1" Value="20" />
+        <Value ID="2" Value="500" />
+    </Hit>
+    <Critical Max="10000" Min="0" Comment="暴击概率">
+	    <Value ID="1" Value="50" />
+        <Value ID="2" Value="2000" />
+    </Critical>
+    <Counter Max="6000" Min="0" Comment="反击概率" >
+        <Value ID="1" Value="50" />
+        <Value ID="2" Value="2000" />
+    </Counter>
+    <Resist Max="10000" Min="0" Comment="抵抗计算" >
+    </Resist>
+</Config>

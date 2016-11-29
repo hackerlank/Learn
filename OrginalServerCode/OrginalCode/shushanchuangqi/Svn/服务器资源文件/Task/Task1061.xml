@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1061" name="杀上瑶池" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1060" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1052"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>魔从何处来。为何要毁生物，断灵根？</PCSpeak>
+            <NPCSpeak>修道之人必得安定舍欲。然而欲望之事又岂能轻易舍去？更有无数修道者想取捷径，必然有代价。所有未消之欲望便是魔气之源</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="2770"/>
+    <Item type="5" value="31843"/>
+   </General>
+ </Award>
+</Task>

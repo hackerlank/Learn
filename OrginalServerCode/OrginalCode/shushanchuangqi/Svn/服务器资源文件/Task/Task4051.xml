@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="4051" name="初有小成" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 使当日活跃度达到50 </Desc>
+    <Purpose> [a event="{0}"][u][font color='#32fb18']当日活跃度达到[/font][/u][/a]{3}({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="4005" name="日渐强大"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="28"  value="1"  param="50,50,50,50"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="6873"/>
+    <Item type="5" value="204795"/>
+   </General>
+ </Award>
+</Task>

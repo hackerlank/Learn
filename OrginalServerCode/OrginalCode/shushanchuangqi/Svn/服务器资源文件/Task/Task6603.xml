@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6603" name="迟归缘由" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6602" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1025"  name="齐掌教">
+       <Chat  index="1">
+            <PCSpeak>弟子归来迟晚，只因陷空老祖触动地核火种，为稳定上古大阵才迟迟未归。</PCSpeak>
+            <NPCSpeak>不曾想那陷空竟然能深入如此，若非这禁制平衡微妙，不知将引出何等大祸。你且回去，继续保持那阵运转。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="12199"/>
+    <Item type="5" value="319927"/>
+   </General>
+ </Award>
+</Task>

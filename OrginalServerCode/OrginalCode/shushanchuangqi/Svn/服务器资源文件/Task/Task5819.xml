@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="1" >
+       <Basic id="5819" name="吐冰海狮" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="5820" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail>  </Fail>
+    <Finish>  </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5818" name="1"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="2221" name="魔军" count="1" fake="0" strParam="363"/>
+    </Kill>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11449"/>
+    <Item type="5" value="257354"/>
+   </General>
+ </Award>
+</Task>

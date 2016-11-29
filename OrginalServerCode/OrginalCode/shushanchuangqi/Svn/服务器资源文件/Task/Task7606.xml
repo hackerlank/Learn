@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="1" >
+       <Basic id="7606" name="八反刺球" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="7607" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail>  </Fail>
+    <Finish>  </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="7605" name="破阵之计"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="2436" name="魔军" count="1" fake="0" strParam="401"/>
+    </Kill>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="13204"/>
+    <Item type="5" value="352192"/>
+   </General>
+ </Award>
+</Task>

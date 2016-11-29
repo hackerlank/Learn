@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 帮派战 -->
+<Config Version="1">
+  <ActivityTime SignUpNotifyTime="20:15:00" SignUpTime="00:00:30" StartTime="04:40:00" EndTime="21:15:00" BroadcastTime="20:38:00" Comment="开始/结束时间"/>
+  <DebugConfig SignUpTime="300" PrepareTime="120" CampaignTime="300" CampaignCount="5"/>
+  <BattleTime PrepareTime="180" BattleTime="360"  Comment="准备/战斗时间" />
+  <FieldConfig MinUserCount="2" UserCount="12" ExtraScore="20" Comment="场地设置（人数/分数）" PrepareMap="2003"/>
+  <BattleConfig PairCount="4" MinTime="5" MaxTime="30" MaxWin="5" Comment="战斗最短/最长时间"/>
+  <ExpConfig Time="15" />
+  <ScoreConfig WinnerScore="200" LoserScore="50" GuildWinnerScore="20">
+	<WinnerScore Count="1" Score="10"/>
+	<WinnerScore Count="2" Score="20"/>
+	<WinnerScore Count="3" Score="40"/>
+	<WinnerScore Count="4" Score="80"/>
+	<WinnerScore Count="5" Score="120"/>
+  </ScoreConfig>
+</Config>

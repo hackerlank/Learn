@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1090" name="境界之界" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1089" name="力战血魔"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1077"  name="朱梅">
+       <Chat  index="1">
+            <PCSpeak>既然无碍，那我们这就去落神岭与众仙会合。</PCSpeak>
+            <NPCSpeak>且慢，因为峨眉遇袭，掌教在落神岭布下了天阵，非一定境界者无法通过。你离那境界已经不远可以去找某某询问如何提升。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4432"/>
+    <Item type="5" value="114309"/>
+   </General>
+ </Award>
+</Task>

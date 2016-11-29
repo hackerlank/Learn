@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=UTF-8?>
+<!-- 斗剑 -->
+<Config>
+  <CalTimer val = "19" comment ="段位晋级计算时间,刷新膜拜,升降级"/>
+  <ArenaNum freeVal = "20" ExtraVal = "15" ExtraVip = "5" Extracost ="10" reflushtime = "0" CDTimer ="600" CLearCDCost = "10" comment="每日免费挑战最大次数,额外挑战次数上限，获得额外挑战次数的条件,每次额外挑战的花费,挑战cd时间" 
+  	 DouJianWinResourse1Type= "6" DouJianWinResourse1Value= "10" DouJianWinResourse2Type= "" DouJianWinResourse2Value= "" 
+  	 DouJianFailResourse1Type= "6" DouJianFailResourse1Value= "5" DouJianFailResourse2Type= "" DouJianFailResourse2Value= ""/>
+  <FlushChallenger timer = "0,12,18" Number ="3,1,1" selfFlushCost ="10" selfFlushAddcost= "5" reflushtime = "0" comment="刷新3次0，12，18时，每次5个，本段 3个，上段 1个，下段1个，上下段没有，在本段中刷新，如果，刷不够用机器人填,自己刷新花费10仙石,第二次自费15仙石,按等差数列递增"/>
+  <Robot Range ="19003,19004,19005,19006,19007,19008,19009,19010" comment ="机器人id库"/>
+  <worship MaxNum ="5" ShowworshipNum ="3" worshipId ="1" reflushtime="0" comment ="每日膜拜次数，展示膜拜对象，膜拜奖励id"/>
+  <DelCondition Level = "1" Days ="7"/>
+</Config>

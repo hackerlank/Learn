@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1042" name="昆仑之殇" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1041" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1051"  name="谢琳">
+       <Chat  index="1">
+            <PCSpeak>这里便是通往昆仑瑶池的必经之路，世间人称困龙池？早有耳闻，亲眼得见却是如此光景。</PCSpeak>
+            <NPCSpeak>是啊，当年昆仑被血魔攻陷之时，百条天龙几被屠尽，最后几只也被魔气冻死此地。无法轮回。小心！前方魔军！</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="1864"/>
+    <Item type="5" value="11824"/>
+   </General>
+ </Award>
+</Task>

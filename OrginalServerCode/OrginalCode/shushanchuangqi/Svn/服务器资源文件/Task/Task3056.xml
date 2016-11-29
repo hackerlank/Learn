@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3056" name="志同道合" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="811" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3007" name="初见增闻"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1023"  name="苦行头陀">
+       <Chat  index="1">
+            <PCSpeak>前次在贡嘎镇，还未还得及感谢大师相助。</PCSpeak>
+            <NPCSpeak>天下修道之人颇多，虽然门法不同，但修道之心都是相似。你也同理，如果能找到志同道合之人一起除魔修道，也可增加你的阅历，更快得道。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4230"/>
+    <Item type="5" value="85117"/>
+   </General>
+ </Award>
+</Task>

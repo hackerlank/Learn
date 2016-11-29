@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="5808" name="怪侠乙休" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5807" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1402"  name="乙休">
+       <Chat  index="1">
+            <PCSpeak>不知前辈可是乙休老前辈？既然等在此处，应该对霜华宫主人消失一事有所了解？还望明示。</PCSpeak>
+            <NPCSpeak>看你小子资质不错，不如投入我门下？</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>这个。。。晚辈已经投入峨眉，改投他派这实在是。。。</PCSpeak>
+            <NPCSpeak>你们峨眉强收别派弟子还少吗？罢了，入了峨眉都同一副嘴脸。说起霜华宫之迷，你得先去极光境跑一次，那里听说被魔所占。不知真假。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11254"/>
+    <Item type="5" value="230570"/>
+   </General>
+ </Award>
+</Task>

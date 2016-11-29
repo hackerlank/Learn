@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1091" name="一方宝树" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1090" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1077"  name="朱梅">
+       <Chat  index="1">
+            <PCSpeak>如此可行了？</PCSpeak>
+            <NPCSpeak>竟然在如此动乱毫发无伤，可见你的功力已经到了何等地步。你在此次劫难中成长不少，如果想进入落神岭，必须得达到某个境界。我有一个宝树，你不如试一下。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="4482"/>
+    <Item type="5" value="115500"/>
+   </General>
+ </Award>
+</Task>

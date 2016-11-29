@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="1076" name="极水寒潭" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="1075" name="境界突破"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1012"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>多谢前辈指点，收服飞剑，自此之后实力大增，天府地狱皆可去得。</PCSpeak>
+            <NPCSpeak>取得这柄飞剑只是我引你们来此处的原因之一，更重要的原因 是希望你们能够去往极水寒潭，这样方能救回丹辰子。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="3525"/>
+    <Item type="5" value="60757"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="32" >
+       <Basic id="3411" name="亲密无间" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="3501" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc> 0 </Desc>
+    <Purpose> 增加织女[a event="{0}"][u][font color='#32fb18']亲密度[/font][/u][/a]到10({1}/{2}) </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3452" name="越炼越强"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Behave>
+        <Item  type="58"  value="1"  param="1,10"/>
+    </Behave>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="175157"/>
+    <Item type="5" value="127309"/>
+   </General>
+ </Award>
+</Task>

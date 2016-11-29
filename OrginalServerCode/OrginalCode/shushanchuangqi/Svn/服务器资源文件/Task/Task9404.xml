@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="1" >
+       <Basic id="9404" name="金光妖僧" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="9405" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail>  </Fail>
+    <Finish>  </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="9403" name="一力相撑"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+      <Kill>
+       <Monster id="2490" name="魔军" count="1" fake="0" strParam="434"/>
+    </Kill>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="14914"/>
+    <Item type="5" value="661591"/>
+   </General>
+ </Award>
+</Task>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="2"  content="128" >
+       <Basic id="5252" name="阵法玄妙" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="支线" Charge="0" Nexttask="4067" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="5201" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1057"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>天地之间，有各种阵法玄妙，我感觉如果不好好研究一番，将来遇敌之时难免吃亏。</PCSpeak>
+            <NPCSpeak>你既有此觉悟，我便指引你一去处，那里你可好好揣摩阵法玄妙。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="9865"/>
+    <Item type="5" value="163312"/>
+   </General>
+ </Award>
+</Task>

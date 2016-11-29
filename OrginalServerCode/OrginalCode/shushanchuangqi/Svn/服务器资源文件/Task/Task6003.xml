@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="6003" name="地底之险" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="6002" name="血洗魔军"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1402"  name="乙休">
+       <Chat  index="1">
+            <PCSpeak>照癞姑前辈所言暗示，这次陷空老祖未出现，也是受到灵气枯竭影响？既然如此，为何不派人去地底寻他一寻？</PCSpeak>
+            <NPCSpeak>哈哈，若能下去，早就有人去了，何苦在这里猜来猜去。陷空老祖修行法门与众不同，又有随身行宫护身方可在凶险地下修炼，非一般人去得。</NPCSpeak>
+        </Chat>
+       <Chat  index="2">
+            <PCSpeak>原来如此。</PCSpeak>
+            <NPCSpeak>虽然地底去不得，但霜华宫有一虚影。为惑世人所设。现在却也被魔怪侵占。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="11629"/>
+    <Item type="5" value="274694"/>
+   </General>
+ </Award>
+</Task>

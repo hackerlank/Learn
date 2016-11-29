@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task>
+ <Property  type="1"  content="128" >
+       <Basic id="3611" name="兑换宝物" level="0" />
+       <Mark open="1" share="0" awardui="0" TaskLabel="主线" Charge="0" Nexttask="0" giveUp="0" linklevel="0" repeat="0" typeExtent="0" />
+       <Trigger>
+           <Target id="0" name="" type="2" />
+       </Trigger>
+ </Property>
+ <Dialog >
+    <Desc>  </Desc>
+    <Purpose> 0 </Purpose>
+    <Fail> 0 </Fail>
+    <Finish> 0 </Finish>
+ </Dialog>
+ <Limit>
+    <PreTask  flag="0">
+          <Item id="3610" name="犹如新生"/>
+     </PreTask>
+ </Limit>
+<Process>
+  <General/>
+    <Talk>
+      <NPC  id="1057"  name="玄天宗">
+       <Chat  index="1">
+            <PCSpeak>大师还有何指教？</PCSpeak>
+            <NPCSpeak>你仙缘深厚，另外你峨眉妙宝无数，身为峨眉弟子，怎么能不好好利用。只要你达到资格，便可领取各种宝物，于修道大有好处。</NPCSpeak>
+        </Chat>
+       </NPC>
+    </Talk>
+ </Process>
+ <Award>
+  <General>
+    <Item type="2" value="5804"/>
+    <Item type="5" value="99728"/>
+    <Item type="6" value="30"/>
+   </General>
+ </Award>
+</Task>
