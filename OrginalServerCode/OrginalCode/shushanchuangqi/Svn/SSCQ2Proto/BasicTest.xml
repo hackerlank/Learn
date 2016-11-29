@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol name="BasicTest" id="100" proxy="GameServer" comment="基本测试">
+	<TypeDef>
+	</TypeDef>
+	<FuncC2S client="ActionScript">
+		<Func name="ReqEnterGame" ret="true" comment="请求进入游戏">
+			<RetParam type="UINT64" name="qwUsrID" comment="UserID返回"/>
+		</Func>
+		<Func name="ReqTestResult" ret="true" comment="请求测试">
+			<Param type="INT32" name="dwRand" keep="true" comment="随机数"/>
+			<LocParam type="INT32" name="dwRand" comment="随机数副本"/>
+			<RetParam type="UINT64" name="qwUsrID" comment="UserID"/>
+			<RetParam type="string" name="strRet" comment="随机数文本返回"/>
+		</Func>
+	</FuncC2S>
+	<FuncS2C>
+		<Func name="TimerNotify" comment="时钟触发通知">
+			<Param type="UINT64" name="qwUsrID" comment="UserID"/>
+			<Param type="UINT32" name="dwTime" comment="当前时间"/>
+		</Func>
+	</FuncS2C>
+</Protocol>
