@@ -1,0 +1,350 @@
+
+parse command start
+pvp command round = 0, turn = 0, team_id = 0, skill_idx = 0
+pvp command round = 0, turn = 3, team_id = 0, skill_idx = 2
+
+parse command end
+pvp seed = 24865
+
+init battle start
+
+
+unit list start
+[0]property={attack=281,hp=269,defense=210,critical=160},hp=269,skillID=0x0e010001,extar skillID=0x21000003,lock count=0,energy=0
+[1]property={attack=308,hp=515,defense=233,critical=140},hp=515,skillID=0x0e040001,extar skillID=0x21000001,lock count=0,energy=0
+[2]property={attack=39,hp=50,defense=50,critical=60},hp=50,skillID=0x0e030001,extar skillID=0x21000005,lock count=0,energy=0
+[3]property={attack=128,hp=20,defense=20,critical=154},hp=20,skillID=0x0e040001,extar skillID=0x21000007,lock count=0,energy=0
+[4]property={attack=57,hp=52,defense=41,critical=80},hp=52,skillID=0x0e050001,extar skillID=0x21000008,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 0
+
+
+
+
+unit list start
+[0]property={attack=379,hp=603,defense=304,critical=179},hp=603,skillID=0x0e030004,extar skillID=0x21000002,lock count=0,energy=0
+[1]property={attack=158,hp=230,defense=180,critical=80},hp=230,skillID=0x0e010006,extar skillID=0x21000003,lock count=0,energy=0
+[2]property={attack=294,hp=416,defense=279,critical=105},hp=416,skillID=0x0e040001,extar skillID=0x21000004,lock count=0,energy=0
+[3]property={attack=129,hp=196,defense=173,critical=80},hp=196,skillID=0x0e050001,extar skillID=0x21000009,lock count=0,energy=0
+[4]property={attack=45,hp=40,defense=35,critical=80},hp=40,skillID=0x0e020002,extar skillID=0x21000012,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 0
+
+
+pvp fight order {5,1,7,0,6,8,3,4,9,2}
+
+init battle end
+
+round 0 start
+turn start[fight order = 5]
+get random num = 75834214[get target]
+get random num = 455577179[get target by row]
+find target, team_id=0, idx = 1
+damage = 606
+get random num = 182682702[cal critical]
+be attacked,damage=542,hp after damage=-27
+turn end
+extar skill start
+do skill id = 0x21000003, type = 1
+get random num = 836953094[get target]
+get random num = 633486122[get target by row]
+find target, team_id=1, idx = 4
+damage = 421
+get random num = 1576001424[cal critical]
+be attacked,damage=413,hp after damage=-373
+extar skill end
+turn start[fight order = 1]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 7]
+get random num = 403869233[get target]
+get random num = 16542504[get target by row]
+find target, team_id=0, idx = 0
+damage = 294
+get random num = 798312795[cal critical]
+be attacked,damage=266,hp after damage=3
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 0]
+get random num = 875387068[get target]
+get random num = 2138680223[get target by row]
+find target, team_id=1, idx = 3
+damage = 281
+get random num = 753729197[cal critical]
+be attacked,damage=258,hp after damage=-62
+turn end
+extar skill start
+do skill id = 0x21000005, type = 2
+get random num = 24929136[get target for lock]
+get target for lock,team_id=1,idx=0
+lock unit,lock count = 1[1]
+extar skill end
+turn start[fight order = 6]
+get random num = 305477171[get target]
+get random num = 258749507[get target by row]
+find target, team_id=0, idx = 4
+damage = 268
+get random num = 2136021034[cal critical]
+be attacked,damage=262,hp after damage=-210
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 8]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 3]
+get random num = 1587495689[get target]
+get random num = 671399447[get target by row]
+find target, team_id=1, idx = 2
+damage = 128
+get random num = 1886091883[cal critical]
+be attacked,damage=112,hp after damage=304
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 4]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 9]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 2]
+get random num = 988934815[get target]
+get random num = 2069081965[get target by row]
+find target, team_id=1, idx = 1
+damage = 42
+get random num = 800254183[cal critical]
+be attacked,damage=38,hp after damage=192
+turn end
+extar skill start
+extar skill end
+team info after one round
+
+
+unit list start
+[0]property={attack=281,hp=269,defense=210,critical=160},hp=3,skillID=0x0e010001,extar skillID=0x21000003,lock count=0,energy=15
+[1]property={attack=308,hp=515,defense=233,critical=140},hp=-27,skillID=0x0e040001,extar skillID=0x21000001,lock count=0,energy=0
+[2]property={attack=39,hp=50,defense=50,critical=60},hp=50,skillID=0x0e030001,extar skillID=0x21000005,lock count=0,energy=5
+[3]property={attack=128,hp=20,defense=20,critical=154},hp=20,skillID=0x0e040001,extar skillID=0x21000007,lock count=0,energy=5
+[4]property={attack=57,hp=52,defense=41,critical=80},hp=-210,skillID=0x0e050001,extar skillID=0x21000008,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 2
+
+
+
+
+unit list start
+[0]property={attack=379,hp=603,defense=304,critical=179},hp=603,skillID=0x0e030004,extar skillID=0x21000002,lock count=1,energy=5
+[1]property={attack=158,hp=230,defense=180,critical=80},hp=192,skillID=0x0e010006,extar skillID=0x21000003,lock count=0,energy=15
+[2]property={attack=294,hp=416,defense=279,critical=105},hp=304,skillID=0x0e040001,extar skillID=0x21000004,lock count=0,energy=15
+[3]property={attack=129,hp=196,defense=173,critical=80},hp=-62,skillID=0x0e050001,extar skillID=0x21000009,lock count=0,energy=0
+[4]property={attack=45,hp=40,defense=35,critical=80},hp=-373,skillID=0x0e020002,extar skillID=0x21000012,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 2
+
+
+
+round 0 end
+
+round 1 start
+turn start[fight order = 5]
+the unit is locked[lock count = 1]
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 1]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 7]
+get random num = 850802765[get target]
+get random num = 2035826329[get target by row]
+find target, team_id=0, idx = 3
+damage = 294
+get random num = 1718650511[cal critical]
+be attacked,damage=291,hp after damage=-271
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 0]
+get random num = 1301333811[get target]
+get random num = 92324385[get target by row]
+find target, team_id=1, idx = 1
+damage = 281
+get random num = 419852905[cal critical]
+be attacked,damage=257,hp after damage=-65
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 6]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 8]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 3]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 4]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 9]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 2]
+get random num = 347610991[get target]
+get random num = 1004864526[get target by row]
+find target, team_id=1, idx = 2
+damage = 42
+get random num = 1139338067[cal critical]
+be attacked,damage=36,hp after damage=268
+turn end
+extar skill start
+extar skill end
+team info after one round
+
+
+unit list start
+[0]property={attack=281,hp=269,defense=210,critical=160},hp=3,skillID=0x0e010001,extar skillID=0x21000003,lock count=0,energy=20
+[1]property={attack=308,hp=515,defense=233,critical=140},hp=-27,skillID=0x0e040001,extar skillID=0x21000001,lock count=0,energy=0
+[2]property={attack=39,hp=50,defense=50,critical=60},hp=50,skillID=0x0e030001,extar skillID=0x21000005,lock count=0,energy=10
+[3]property={attack=128,hp=20,defense=20,critical=154},hp=-271,skillID=0x0e040001,extar skillID=0x21000007,lock count=0,energy=5
+[4]property={attack=57,hp=52,defense=41,critical=80},hp=-210,skillID=0x0e050001,extar skillID=0x21000008,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 3
+
+
+
+
+unit list start
+[0]property={attack=379,hp=603,defense=304,critical=179},hp=603,skillID=0x0e030004,extar skillID=0x21000002,lock count=0,energy=5
+[1]property={attack=158,hp=230,defense=180,critical=80},hp=-65,skillID=0x0e010006,extar skillID=0x21000003,lock count=0,energy=15
+[2]property={attack=294,hp=416,defense=279,critical=105},hp=268,skillID=0x0e040001,extar skillID=0x21000004,lock count=0,energy=30
+[3]property={attack=129,hp=196,defense=173,critical=80},hp=-62,skillID=0x0e050001,extar skillID=0x21000009,lock count=0,energy=0
+[4]property={attack=45,hp=40,defense=35,critical=80},hp=-373,skillID=0x0e020002,extar skillID=0x21000012,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 3
+
+
+
+round 1 end
+
+round 2 start
+turn start[fight order = 5]
+get random num = 2030625089[get target]
+get random num = 1881304076[get target by row]
+find target, team_id=0, idx = 2
+damage = 606
+get random num = 10143034[cal critical]
+be attacked,damage=591,hp after damage=-541
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 1]
+the unit is dead
+turn end
+extar skill start
+extar skill end
+turn start[fight order = 7]
+get random num = 381179012[get target]
+get random num = 372880207[get target by row]
+find target, team_id=0, idx = 0
+damage = 294
+get random num = 266980283[cal critical]
+be attacked,damage=266,hp after damage=-263
+turn end
+team info after one round
+
+
+unit list start
+[0]property={attack=281,hp=269,defense=210,critical=160},hp=-263,skillID=0x0e010001,extar skillID=0x21000003,lock count=0,energy=20
+[1]property={attack=308,hp=515,defense=233,critical=140},hp=-27,skillID=0x0e040001,extar skillID=0x21000001,lock count=0,energy=0
+[2]property={attack=39,hp=50,defense=50,critical=60},hp=-541,skillID=0x0e030001,extar skillID=0x21000005,lock count=0,energy=10
+[3]property={attack=128,hp=20,defense=20,critical=154},hp=-271,skillID=0x0e040001,extar skillID=0x21000007,lock count=0,energy=5
+[4]property={attack=57,hp=52,defense=41,critical=80},hp=-210,skillID=0x0e050001,extar skillID=0x21000008,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 5
+
+
+
+
+unit list start
+[0]property={attack=379,hp=603,defense=304,critical=179},hp=603,skillID=0x0e030004,extar skillID=0x21000002,lock count=0,energy=10
+[1]property={attack=158,hp=230,defense=180,critical=80},hp=-65,skillID=0x0e010006,extar skillID=0x21000003,lock count=0,energy=15
+[2]property={attack=294,hp=416,defense=279,critical=105},hp=268,skillID=0x0e040001,extar skillID=0x21000004,lock count=0,energy=35
+[3]property={attack=129,hp=196,defense=173,critical=80},hp=-62,skillID=0x0e050001,extar skillID=0x21000009,lock count=0,energy=0
+[4]property={attack=45,hp=40,defense=35,critical=80},hp=-373,skillID=0x0e020002,extar skillID=0x21000012,lock count=0,energy=0
+unit list end
+buffer list start
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buff id = 0x00000000, count = 0
+buffer list end
+team dead count = 3
+
+
+
+round 2 end
