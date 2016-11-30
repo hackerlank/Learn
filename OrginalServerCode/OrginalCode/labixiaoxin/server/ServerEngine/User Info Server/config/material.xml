@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<material>
+	<id>17010101</id>
+	<resid>lingpai1</resid>
+	<name>1星武器碎片</name>
+	<quality>1</quality>
+	<desc>合成1星武器的主要材料</desc>
+</material>
+<material>
+	<id>17010102</id>
+	<resid>lingpai2</resid>
+	<name>2星武器碎片</name>
+	<quality>2</quality>
+	<desc>合成2星武器的主要材料</desc>
+</material>
+<material>
+	<id>17010103</id>
+	<resid>lingpai3</resid>
+	<name>3星武器碎片</name>
+	<quality>3</quality>
+	<desc>合成3星武器的主要材料</desc>
+</material>
+<material>
+	<id>17010104</id>
+	<resid>lingpai4</resid>
+	<name>4星武器碎片</name>
+	<quality>4</quality>
+	<desc>合成4星武器的主要材料</desc>
+</material>
+<material>
+	<id>17010105</id>
+	<resid>lingpai5</resid>
+	<name>5星武器碎片</name>
+	<quality>5</quality>
+	<desc>合成5星武器的主要材料</desc>
+</material>
+<material>
+	<id>17010201</id>
+	<resid>gouyu1</resid>
+	<name>1星防具碎片</name>
+	<quality>1</quality>
+	<desc>合成1星防具的主要材料</desc>
+</material>
+<material>
+	<id>17010202</id>
+	<resid>gouyu2</resid>
+	<name>2星防具碎片</name>
+	<quality>2</quality>
+	<desc>合成2星防具的主要材料</desc>
+</material>
+<material>
+	<id>17010203</id>
+	<resid>gouyu3</resid>
+	<name>3星防具碎片</name>
+	<quality>3</quality>
+	<desc>合成3星防具的主要材料</desc>
+</material>
+<material>
+	<id>17010204</id>
+	<resid>gouyu4</resid>
+	<name>4星防具碎片</name>
+	<quality>4</quality>
+	<desc>合成4星防具的主要材料</desc>
+</material>
+<material>
+	<id>17010205</id>
+	<resid>gouyu5</resid>
+	<name>5星防具碎片</name>
+	<quality>5</quality>
+	<desc>合成5星防具的主要材料</desc>
+</material>
+<material>
+	<id>17010301</id>
+	<resid>shenfu1</resid>
+	<name>1星禅杖碎片</name>
+	<quality>1</quality>
+	<desc>合成1星禅杖的主要材料</desc>
+</material>
+<material>
+	<id>17010302</id>
+	<resid>shenfu2</resid>
+	<name>2星禅杖碎片</name>
+	<quality>2</quality>
+	<desc>合成2星禅杖的主要材料</desc>
+</material>
+<material>
+	<id>17010303</id>
+	<resid>shenfu3</resid>
+	<name>3星禅杖碎片</name>
+	<quality>3</quality>
+	<desc>合成3星禅杖的主要材料</desc>
+</material>
+<material>
+	<id>17010304</id>
+	<resid>shenfu4</resid>
+	<name>4星禅杖碎片</name>
+	<quality>4</quality>
+	<desc>合成4星禅杖的主要材料</desc>
+</material>
+<material>
+	<id>17010305</id>
+	<resid>shenfu5</resid>
+	<name>5星禅杖碎片</name>
+	<quality>5</quality>
+	<desc>合成5星禅杖的主要材料</desc>
+</material>
+<material>
+	<id>17010401</id>
+	<resid>lingqi1</resid>
+	<name>1星神将魂</name>
+	<quality>1</quality>
+	<desc>合成1星神将的主要材料</desc>
+</material>
+<material>
+	<id>17010402</id>
+	<resid>lingqi2</resid>
+	<name>2星神将魂</name>
+	<quality>2</quality>
+	<desc>合成2星神将的主要材料</desc>
+</material>
+<material>
+	<id>17010403</id>
+	<resid>lingqi3</resid>
+	<name>3星神将魂</name>
+	<quality>3</quality>
+	<desc>合成3星神将的主要材料</desc>
+</material>
+<material>
+	<id>17010404</id>
+	<resid>lingqi4</resid>
+	<name>4星神将魂</name>
+	<quality>4</quality>
+	<desc>合成4星神将的主要材料</desc>
+</material>
+<material>
+	<id>17010405</id>
+	<resid>lingqi5</resid>
+	<name>5星神将魂</name>
+	<quality>5</quality>
+	<desc>合成5星神将的主要材料</desc>
+</material>
+<material>
+	<id>17020101</id>
+	<resid>jin</resid>
+	<name>金元素石</name>
+	<quality>1</quality>
+	<desc>蕴含金元素的灵石，是炼宝合成的基础材料。</desc>
+</material>
+<material>
+	<id>17020102</id>
+	<resid>mu</resid>
+	<name>木元素石</name>
+	<quality>1</quality>
+	<desc>蕴含木元素的灵石，是炼宝合成的基础材料。</desc>
+</material>
+<material>
+	<id>17020103</id>
+	<resid>shui</resid>
+	<name>水元素石</name>
+	<quality>1</quality>
+	<desc>蕴含水元素的灵石，是炼宝合成的基础材料。</desc>
+</material>
+<material>
+	<id>17020104</id>
+	<resid>huo</resid>
+	<name>火元素石</name>
+	<quality>1</quality>
+	<desc>蕴含火元素的灵石，是炼宝合成的基础材料。</desc>
+</material>
+<material>
+	<id>17020105</id>
+	<resid>tu</resid>
+	<name>土元素石</name>
+	<quality>1</quality>
+	<desc>蕴含土元素的灵石，是炼宝合成的基础材料。</desc>
+</material>
+</root>

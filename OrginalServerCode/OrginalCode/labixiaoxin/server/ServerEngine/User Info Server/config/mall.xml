@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<mall>
+	<id>11000006</id>
+	<resid>yuanbao_750</resid>
+	<product_id>lxy.6</product_id>
+	<discount>0</discount>
+	<gold>750</gold>
+	<rmb>588</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000005</id>
+	<resid>yuanbao_395</resid>
+	<product_id>lxy.5</product_id>
+	<discount>0</discount>
+	<gold>395</gold>
+	<rmb>328</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000004</id>
+	<resid>yuanbao_230</resid>
+	<product_id>lxy.4</product_id>
+	<discount>0</discount>
+	<gold>230</gold>
+	<rmb>198</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000003</id>
+	<resid>yuanbao_100</resid>
+	<product_id>lxy.3</product_id>
+	<discount>0</discount>
+	<gold>100</gold>
+	<rmb>88</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000002</id>
+	<resid>yuanbao_32</resid>
+	<product_id>lxy.2</product_id>
+	<discount>0</discount>
+	<gold>32</gold>
+	<rmb>30</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000001</id>
+	<resid>yuanbao_6</resid>
+	<product_id>lxy.1</product_id>
+	<discount>0</discount>
+	<gold>6</gold>
+	<rmb>6</rmb>
+	<platform>ios</platform>
+</mall>
+<mall>
+	<id>11000101</id>
+	<resid>yuanbao_6</resid>
+	<product_id>lxy_dx.1</product_id>
+	<discount>0</discount>
+	<gold>1</gold>
+	<rmb>1</rmb>
+	<platform>dx</platform>
+</mall>
+<mall>
+	<id>11000102</id>
+	<resid>yuanbao_32</resid>
+	<product_id>lxy_dx.2</product_id>
+	<discount>0</discount>
+	<gold>2</gold>
+	<rmb>2</rmb>
+	<platform>dx</platform>
+</mall>
+<mall>
+	<id>11000103</id>
+	<resid>yuanbao_100</resid>
+	<product_id>lxy_dx.3</product_id>
+	<discount>0</discount>
+	<gold>5</gold>
+	<rmb>5</rmb>
+	<platform>dx</platform>
+</mall>
+<mall>
+	<id>11000104</id>
+	<resid>yuanbao_230</resid>
+	<product_id>lxy_dx.4</product_id>
+	<discount>0</discount>
+	<gold>10</gold>
+	<rmb>10</rmb>
+	<platform>dx</platform>
+</mall>
+<mall>
+	<id>11000105</id>
+	<resid>yuanbao_395</resid>
+	<product_id>lxy_dx.5</product_id>
+	<discount>0</discount>
+	<gold>15</gold>
+	<rmb>15</rmb>
+	<platform>dx</platform>
+</mall>
+<mall>
+	<id>11000106</id>
+	<resid>yuanbao_750</resid>
+	<product_id>lxy_dx.6</product_id>
+	<discount>0</discount>
+	<gold>20</gold>
+	<rmb>20</rmb>
+	<platform>dx</platform>
+</mall>
+</root>
