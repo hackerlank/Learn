@@ -1,0 +1,1413 @@
+[2014-05-26 09:55:07] [ID=0x00000362]get reward
+[2014-05-26 09:55:07] [ID=0x00000362]set basic info[coin=65270,money=89,exp=655,powerpoint=77,honour=0,level=9][1760,0,150,0,0]
+[2014-05-26 09:55:07] [ID=0x00000362]get item,ID = 0x0c104003
+[2014-05-26 09:55:07] [ID=0x00000362]get item,ID = 0x17020105
+[2014-05-26 09:55:18] [ID=0x00000362]clear map, type = 0
+[2014-05-26 10:00:11] [ID=0x00000362]get reward
+[2014-05-26 10:00:11] [ID=0x00000362]set basic info[coin=67740,money=89,exp=46,powerpoint=77,honour=0,level=10][2470,0,180,0,0]
+[2014-05-26 10:00:11] [ID=0x00000362]get item,ID = 0x0c105001
+[2014-05-26 10:00:11] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 10:00:18] [ID=0x00000362]clear map, type = 0
+[2014-05-26 10:00:34] [ID=0x00000362]set basic info[coin=62570,money=89,exp=46,powerpoint=77,honour=0,level=10][-5170,0,0,0,0]
+[2014-05-26 10:00:34] [ID=0x00000362]level up player,ID=0x0a201001,step=10
+[2014-05-26 10:00:34] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 10:00:39] [ID=0x00000362]set basic info[coin=57400,money=89,exp=46,powerpoint=77,honour=0,level=10][-5170,0,0,0,0]
+[2014-05-26 10:00:39] [ID=0x00000362]level up player,ID=0x0a103001,step=10
+[2014-05-26 10:00:39] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a103001
+[2014-05-26 10:00:43] [ID=0x00000362]set basic info[coin=52230,money=89,exp=46,powerpoint=77,honour=0,level=10][-5170,0,0,0,0]
+[2014-05-26 10:00:43] [ID=0x00000362]level up player,ID=0x0a204001,step=10
+[2014-05-26 10:00:43] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 10:00:46] [ID=0x00000362]set basic info[coin=47060,money=89,exp=46,powerpoint=77,honour=0,level=10][-5170,0,0,0,0]
+[2014-05-26 10:00:46] [ID=0x00000362]level up player,ID=0x0a401001,step=10
+[2014-05-26 10:00:46] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 10:15:25] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 11:09:30] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 1071
+[2014-05-26 11:09:53] [ID=0x000000f1]set basic info[coin=6813343,money=137440,exp=2843,powerpoint=2026,honour=216,level=20][0,0,0,0,2]
+[2014-05-26 11:09:53] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 11:10:48] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 11333
+[2014-05-26 11:11:28] [ID=0x000000f1]set basic info[coin=6813343,money=137440,exp=2843,powerpoint=2026,honour=218,level=20][0,0,0,0,2]
+[2014-05-26 11:11:28] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 11:16:58] [ID=0x0000008d]set basic info[coin=12430445,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][-370,0,0,-95,0]
+[2014-05-26 11:16:58] [ID=0x0000008d]level up equipment,ID=0x0c103001,level=5
+[2014-05-26 11:16:58] [ID=0x0000008d]level up item, idx = 202387457, player ID = 0x0a103001
+[2014-05-26 11:38:42] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-05-26 11:38:42] [ID=0x0000008d]get reward
+[2014-05-26 11:38:42] [ID=0x0000008d]set basic info[coin=12430945,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][500,0,0,0,0]
+[2014-05-26 11:46:25] [ID=0x000000f1]set basic info[coin=6813243,money=137440,exp=2843,powerpoint=2006,honour=218,level=20][-100,0,0,-20,0]
+[2014-05-26 11:46:25] [ID=0x000000f1]level up equipment,ID=0x0c10400a,level=2
+[2014-05-26 11:46:25] [ID=0x000000f1]level up item, idx = 202391562, player ID = 0x0a204001
+[2014-05-26 11:46:41] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=218,level=20][-110,0,0,-35,0]
+[2014-05-26 11:46:41] [ID=0x000000f1]level up equipment,ID=0x0c10400a,level=3
+[2014-05-26 11:46:41] [ID=0x000000f1]level up item, idx = 202391562, player ID = 0x0a204001
+[2014-05-26 11:47:04] [ID=0x0000008d]set basic info[coin=12413615,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][-17330,0,0,0,0]
+[2014-05-26 11:47:04] [ID=0x0000008d]level up player,ID=0x0a201001,step=14
+[2014-05-26 11:47:04] [ID=0x0000008d]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 11:47:11] [ID=0x0000008d]step up player ID = 0x0a201001, step = 4, soulcount = 93
+[2014-05-26 11:47:56] [ID=0x0000008d]step up player ID = 0x0a201001, step = 5, soulcount = 85
+[2014-05-26 11:48:34] [ID=0x0000008d]step up player ID = 0x0a201001, step = 6, soulcount = 69
+[2014-05-26 11:48:41] [ID=0x0000008d]set basic info[coin=12391595,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][-22020,0,0,0,0]
+[2014-05-26 11:48:41] [ID=0x0000008d]level up player,ID=0x0a201001,step=15
+[2014-05-26 11:48:41] [ID=0x0000008d]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 11:48:45] [ID=0x0000008d]set basic info[coin=12364105,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][-27490,0,0,0,0]
+[2014-05-26 11:48:45] [ID=0x0000008d]level up player,ID=0x0a201001,step=16
+[2014-05-26 11:48:45] [ID=0x0000008d]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 11:48:53] [ID=0x0000008d]set basic info[coin=12330305,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][-33800,0,0,0,0]
+[2014-05-26 11:48:53] [ID=0x0000008d]level up player,ID=0x0a201001,step=17
+[2014-05-26 11:48:53] [ID=0x0000008d]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 11:58:55] [ID=0x0000008d]get reward
+[2014-05-26 11:58:55] [ID=0x0000008d]set basic info[coin=12339505,money=96279,exp=2575,powerpoint=13883,honour=168,level=18][9200,0,0,0,0]
+[2014-05-26 11:58:55] [ID=0x0000008d]get item,ID = 0x0c200006
+[2014-05-26 11:59:20] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 12:00:32] [ID=0x0000008d]get reward
+[2014-05-26 12:00:32] [ID=0x0000008d]set basic info[coin=12340495,money=96282,exp=2733,powerpoint=13883,honour=168,level=18][990,3,158,0,0]
+[2014-05-26 12:00:32] [ID=0x0000008d]get item,ID = 0x0c200002
+[2014-05-26 12:00:32] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 12:00:41] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 12:02:06] [ID=0x0000008d]get reward
+[2014-05-26 12:02:06] [ID=0x0000008d]set basic info[coin=12341925,money=96282,exp=2909,powerpoint=13883,honour=168,level=18][1430,0,176,0,0]
+[2014-05-26 12:02:06] [ID=0x0000008d]get item,ID = 0x0c200002
+[2014-05-26 12:02:06] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 12:02:15] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 12:02:24] [ID=0x0000008d]set basic info[coin=12341925,money=96276,exp=2909,powerpoint=13883,honour=168,level=18][0,-6,0,0,0]
+[2014-05-26 12:02:24] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 12:02:24] [ID=0x0000008d]get reward
+[2014-05-26 12:02:24] [ID=0x0000008d]set basic info[coin=12341925,money=96276,exp=2909,powerpoint=13883,honour=168,level=18][0,0,0,0,0]
+[2014-05-26 12:03:43] [ID=0x0000008d]get reward
+[2014-05-26 12:03:43] [ID=0x0000008d]set basic info[coin=12343745,money=96282,exp=3085,powerpoint=13883,honour=168,level=18][1820,6,176,0,0]
+[2014-05-26 12:03:43] [ID=0x0000008d]get item,ID = 0x17020103
+[2014-05-26 12:03:43] [ID=0x0000008d]get item,ID = 0xcdcdcdcd
+[2014-05-26 12:03:50] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 12:04:43] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000022
+[2014-05-26 12:04:43] [ID=0x0000008d]get reward
+[2014-05-26 12:04:43] [ID=0x0000008d]set basic info[coin=12343745,money=96282,exp=3085,powerpoint=13883,honour=168,level=18][0,0,0,0,0]
+[2014-05-26 12:15:33] [ID=0x0000008d]get reward
+[2014-05-26 12:15:33] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=168,level=18][0,500,0,0,0]
+[2014-05-26 12:15:33] [ID=0x0000008d]get pvp reward ID = 0x22000001
+[2014-05-26 12:15:35] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 27726
+[2014-05-26 12:15:57] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=172,level=18][0,0,0,0,4]
+[2014-05-26 12:15:57] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:16:28] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 28666
+[2014-05-26 12:16:44] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=176,level=18][0,0,0,0,4]
+[2014-05-26 12:16:44] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:16:49] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 29087
+[2014-05-26 12:17:05] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=180,level=18][0,0,0,0,4]
+[2014-05-26 12:17:05] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:17:14] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 27681
+[2014-05-26 12:17:36] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=184,level=18][0,0,0,0,4]
+[2014-05-26 12:17:36] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:19:11] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 19964
+[2014-05-26 12:19:38] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=188,level=18][0,0,0,0,4]
+[2014-05-26 12:19:38] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:27:15] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 1340
+[2014-05-26 12:27:23] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=190,level=18][0,0,0,0,2]
+[2014-05-26 12:27:23] [ID=0x0000008d]clear map, type = 1
+[2014-05-26 12:30:27] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 5686
+[2014-05-26 12:31:19] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=194,level=18][0,0,0,0,4]
+[2014-05-26 12:31:19] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:32:54] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 6021
+[2014-05-26 12:33:02] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=196,level=18][0,0,0,0,2]
+[2014-05-26 12:33:03] [ID=0x0000008d]clear map, type = 1
+[2014-05-26 12:33:14] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 11662
+[2014-05-26 12:33:32] [ID=0x0000008d]set basic info[coin=12343745,money=96782,exp=3085,powerpoint=13883,honour=200,level=18][0,0,0,0,4]
+[2014-05-26 12:33:32] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:39:00] [ID=0x0000008d]get reward
+[2014-05-26 12:39:00] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=200,level=18][650,0,97,0,0]
+[2014-05-26 12:39:00] [ID=0x0000008d]get item,ID = 0x0c104001
+[2014-05-26 12:39:00] [ID=0x0000008d]get item,ID = 0x17020103
+[2014-05-26 12:39:06] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 12:39:14] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 17124
+[2014-05-26 12:39:31] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=204,level=18][0,0,0,0,4]
+[2014-05-26 12:39:31] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 12:41:04] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 23941
+[2014-05-26 12:41:17] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=208,level=18][0,0,0,0,4]
+[2014-05-26 12:41:17] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 13:26:36] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 32745
+[2014-05-26 13:27:55] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=210,level=18][0,0,0,0,2]
+[2014-05-26 13:27:55] [ID=0x0000008d]clear map, type = 1
+[2014-05-26 13:28:00] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 31762
+[2014-05-26 13:28:33] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=214,level=18][0,0,0,0,4]
+[2014-05-26 13:28:33] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 13:50:07] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-05-26 13:50:07] [ID=0x0000008d]get reward
+[2014-05-26 13:50:07] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=13883,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 13:57:11] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 28423
+[2014-05-26 13:57:25] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=220,level=20][0,0,0,0,2]
+[2014-05-26 13:57:25] [ID=0x000000f1]clear map, type = 1
+[2014-05-26 13:57:29] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 27531
+[2014-05-26 13:57:49] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=222,level=20][0,0,0,0,2]
+[2014-05-26 13:57:49] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 13:57:54] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 4806
+[2014-05-26 13:58:20] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=224,level=20][0,0,0,0,2]
+[2014-05-26 13:58:20] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 14:03:54] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 12268
+[2014-05-26 14:05:20] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=226,level=20][0,0,0,0,2]
+[2014-05-26 14:05:20] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200006,level=1,step=1,package idx=78
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200004,level=1,step=1,package idx=21
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200004,level=1,step=1,package idx=26
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200002,level=1,step=1,package idx=79
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200002,level=1,step=1,package idx=80
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200002,level=1,step=1,package idx=20
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200001,level=1,step=1,package idx=13
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200001,level=1,step=1,package idx=17
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item info,ID=0x0c200001,level=1,step=1,package idx=14
+[2014-05-26 14:25:16] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=14045,honour=214,level=18][0,0,0,162,0]
+[2014-05-26 14:25:16] [ID=0x0000008d]delete item end
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c105001,level=1,step=1,package idx=66
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c105001,level=1,step=1,package idx=18
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c105001,level=1,step=1,package idx=23
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c105001,level=1,step=1,package idx=19
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c104001,level=1,step=1,package idx=25
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c104001,level=1,step=1,package idx=26
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c104001,level=1,step=1,package idx=12
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c102003,level=1,step=1,package idx=27
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c102003,level=1,step=1,package idx=68
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item info,ID=0x0c101004,level=1,step=1,package idx=13
+[2014-05-26 14:25:20] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=14205,honour=214,level=18][0,0,0,160,0]
+[2014-05-26 14:25:20] [ID=0x0000008d]delete item end
+[2014-05-26 14:25:27] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 14:25:27] [ID=0x0000008d]delete item info,ID=0x0c302001,level=1,step=1,package idx=27
+[2014-05-26 14:25:27] [ID=0x0000008d]delete item info,ID=0x0c302001,level=1,step=1,package idx=28
+[2014-05-26 14:25:27] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=14245,honour=214,level=18][0,0,0,40,0]
+[2014-05-26 14:25:27] [ID=0x0000008d]delete item end
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item info,ID=0x0c105006,level=1,step=1,package idx=16
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item info,ID=0x0c102009,level=1,step=1,package idx=24
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item info,ID=0x0c102007,level=1,step=1,package idx=14
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item info,ID=0x0c101007,level=1,step=1,package idx=11
+[2014-05-26 14:25:35] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=14329,honour=214,level=18][0,0,0,84,0]
+[2014-05-26 14:25:35] [ID=0x0000008d]delete item end
+[2014-05-26 14:25:51] [ID=0x0000008d]get reward
+[2014-05-26 14:25:51] [ID=0x0000008d]set basic info[coin=12344395,money=96782,exp=3182,powerpoint=14329,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 14:25:51] [ID=0x0000008d]get item,ID = 0x0c10500c
+[2014-05-26 14:25:51] [ID=0x0000008d]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 14:26:24] [ID=0x000000f1]step up equipment,ID=0x0c10400a,step=2
+[2014-05-26 14:33:11] [ID=0x0000008d]update team info,type=0
+[2014-05-26 14:33:16] [ID=0x0000008d]update team info,type=1
+[2014-05-26 14:33:24] [ID=0x0000008d]update team info,type=1
+[2014-05-26 14:43:08] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 41
+[2014-05-26 14:43:30] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=228,level=20][0,0,0,0,2]
+[2014-05-26 14:43:30] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 14:45:31] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 18467
+[2014-05-26 14:45:55] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=230,level=20][0,0,0,0,2]
+[2014-05-26 14:45:55] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 14:49:44] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 6334
+[2014-05-26 14:57:19] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=14329,honour=214,level=18][0,-30,0,0,0]
+[2014-05-26 14:57:19] [ID=0x0000008d]get reward
+[2014-05-26 14:57:19] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=14329,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 14:57:19] [ID=0x0000008d]get item,ID = 0x0a401003
+[2014-05-26 14:57:19] [ID=0x0000008d]get luck, luck ID = 0x1600000a, count = 1
+[2014-05-26 15:03:10] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=232,level=20][0,0,0,0,2]
+[2014-05-26 15:03:10] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 15:08:04] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 11478
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c105012,level=1,step=1,package idx=18
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c10500d,level=1,step=1,package idx=15
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c10500d,level=1,step=1,package idx=19
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c10500d,level=1,step=1,package idx=4
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c104012,level=1,step=1,package idx=43
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c104012,level=1,step=1,package idx=6
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c103012,level=1,step=1,package idx=20
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c101012,level=1,step=1,package idx=47
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item info,ID=0x0c10100d,level=1,step=1,package idx=13
+[2014-05-26 15:08:10] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=14878,honour=214,level=18][0,0,0,549,0]
+[2014-05-26 15:08:10] [ID=0x0000008d]delete item end
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c200024,level=1,step=1,package idx=10
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c200029,level=1,step=1,package idx=14
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c200028,level=1,step=1,package idx=26
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c200021,level=1,step=1,package idx=8
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c20001f,level=1,step=1,package idx=19
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c20001c,level=1,step=1,package idx=11
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c20001c,level=1,step=1,package idx=7
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c200027,level=1,step=1,package idx=18
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item info,ID=0x0c20001b,level=1,step=1,package idx=23
+[2014-05-26 15:08:18] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=15593,honour=214,level=18][0,0,0,715,0]
+[2014-05-26 15:08:18] [ID=0x0000008d]delete item end
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c305002,level=1,step=1,package idx=16
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c304002,level=1,step=1,package idx=2
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c303007,level=1,step=1,package idx=24
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c303007,level=1,step=1,package idx=27
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c302008,level=1,step=1,package idx=5
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c302008,level=1,step=1,package idx=3
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c302008,level=1,step=1,package idx=9
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c301007,level=1,step=1,package idx=36
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c301007,level=1,step=1,package idx=28
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item info,ID=0x0c301007,level=1,step=1,package idx=11
+[2014-05-26 15:08:23] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=16603,honour=214,level=18][0,0,0,1010,0]
+[2014-05-26 15:08:23] [ID=0x0000008d]delete item end
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item start,delete type=1
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10200b,level=1,step=1,package idx=20
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c103011,level=1,step=1,package idx=7
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10300c,level=1,step=1,package idx=14
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10300c,level=1,step=1,package idx=25
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c103010,level=1,step=1,package idx=24
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10300b,level=1,step=1,package idx=15
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10300a,level=1,step=1,package idx=17
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10300b,level=1,step=1,package idx=19
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c102011,level=1,step=1,package idx=4
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c102010,level=1,step=1,package idx=18
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c105011,level=1,step=1,package idx=26
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c105010,level=1,step=1,package idx=8
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10500c,level=1,step=1,package idx=23
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10500a,level=1,step=1,package idx=10
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10400c,level=1,step=1,package idx=6
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item info,ID=0x0c10400a,level=1,step=1,package idx=28
+[2014-05-26 15:08:38] [ID=0x0000008d]set basic info[coin=12344395,money=96752,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,656,0]
+[2014-05-26 15:08:38] [ID=0x0000008d]delete item end
+[2014-05-26 15:08:55] [ID=0x0000008d]set basic info[coin=12334395,money=96752,exp=3182,powerpoint=17259,honour=214,level=18][-10000,0,0,0,0]
+[2014-05-26 15:08:55] [ID=0x0000008d]get reward
+[2014-05-26 15:08:55] [ID=0x0000008d]set basic info[coin=12334395,money=96752,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:08:55] [ID=0x0000008d]get item,ID = 0x0c303003
+[2014-05-26 15:08:55] [ID=0x0000008d]get luck, luck ID = 0x16000009, count = 1
+[2014-05-26 15:09:02] [ID=0x0000008d]set basic info[coin=12234395,money=96752,exp=3182,powerpoint=17259,honour=214,level=18][-100000,0,0,0,0]
+[2014-05-26 15:09:02] [ID=0x0000008d]get reward
+[2014-05-26 15:09:02] [ID=0x0000008d]set basic info[coin=12234395,money=96752,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c101009
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c303003
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c302006
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c10400b
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c101009
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c105007
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c200010
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c200011
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c301005
+[2014-05-26 15:09:02] [ID=0x0000008d]get item,ID = 0x0c10200b
+[2014-05-26 15:09:02] [ID=0x0000008d]get luck, luck ID = 0x16000009, count = 10
+[2014-05-26 15:09:12] [ID=0x0000008d]set basic info[coin=12234395,money=96722,exp=3182,powerpoint=17259,honour=214,level=18][0,-30,0,0,0]
+[2014-05-26 15:09:12] [ID=0x0000008d]get reward
+[2014-05-26 15:09:12] [ID=0x0000008d]set basic info[coin=12234395,money=96722,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:09:12] [ID=0x0000008d]get item,ID = 0x0a401005
+[2014-05-26 15:09:12] [ID=0x0000008d]get luck, luck ID = 0x1600000a, count = 1
+[2014-05-26 15:12:12] [ID=0x0000008d]set basic info[coin=12234395,money=96692,exp=3182,powerpoint=17259,honour=214,level=18][0,-30,0,0,0]
+[2014-05-26 15:12:12] [ID=0x0000008d]get reward
+[2014-05-26 15:12:12] [ID=0x0000008d]set basic info[coin=12234395,money=96692,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:12:12] [ID=0x0000008d]get item,ID = 0x7fffffff
+[2014-05-26 15:12:12] [ID=0x0000008d]get luck, luck ID = 0x1600000a, count = 1
+[2014-05-26 15:12:26] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=234,level=20][0,0,0,0,2]
+[2014-05-26 15:12:26] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 15:12:48] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 4664
+[2014-05-26 15:13:14] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=236,level=20][0,0,0,0,2]
+[2014-05-26 15:13:14] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 15:15:25] [ID=0x0000008d]set basic info[coin=12234395,money=96662,exp=3182,powerpoint=17259,honour=214,level=18][0,-30,0,0,0]
+[2014-05-26 15:15:25] [ID=0x0000008d]get reward
+[2014-05-26 15:15:25] [ID=0x0000008d]set basic info[coin=12234395,money=96662,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:15:25] [ID=0x0000008d]get item,ID = 0x0a401005
+[2014-05-26 15:15:25] [ID=0x0000008d]get luck, luck ID = 0x1600000a, count = 1
+[2014-05-26 15:15:55] [ID=0x0000008d]set basic info[coin=12234395,money=96362,exp=3182,powerpoint=17259,honour=214,level=18][0,-300,0,0,0]
+[2014-05-26 15:15:55] [ID=0x0000008d]get reward
+[2014-05-26 15:15:55] [ID=0x0000008d]set basic info[coin=12234395,money=96362,exp=3182,powerpoint=17259,honour=214,level=18][0,0,0,0,0]
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a501006
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a203002
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a401006
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a401005
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a401004
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a201001
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a401002
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a401006
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a205001
+[2014-05-26 15:15:55] [ID=0x0000008d]get item,ID = 0x0a205001
+[2014-05-26 15:15:55] [ID=0x0000008d]get luck, luck ID = 0x1600000a, count = 10
+[2014-05-26 15:18:13] [ID=0x0000008d]update team info,type=1
+[2014-05-26 15:18:28] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 3548
+[2014-05-26 15:18:55] [ID=0x0000008d]set basic info[coin=12234395,money=96362,exp=3182,powerpoint=17259,honour=216,level=18][0,0,0,0,2]
+[2014-05-26 15:18:55] [ID=0x0000008d]commit pvp battle, result = 1
+[2014-05-26 15:22:59] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-05-26 15:22:59] [ID=0x0000008d]get reward
+[2014-05-26 15:22:59] [ID=0x0000008d]set basic info[coin=12234895,money=96362,exp=3182,powerpoint=17259,honour=216,level=18][500,0,0,0,0]
+[2014-05-26 15:23:16] [ID=0x0000008d]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 19629
+[2014-05-26 15:23:37] [ID=0x0000008d]set basic info[coin=12234895,money=96362,exp=3182,powerpoint=17259,honour=220,level=18][0,0,0,0,4]
+[2014-05-26 15:23:37] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-26 15:24:37] [ID=0x0000008d]get reward
+[2014-05-26 15:24:37] [ID=0x0000008d]set basic info[coin=12236465,money=96362,exp=3260,powerpoint=17259,honour=220,level=18][1570,0,78,0,0]
+[2014-05-26 15:24:37] [ID=0x0000008d]get item,ID = 0x0c104001
+[2014-05-26 15:24:48] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 15:27:11] [ID=0x0000008d]get reward
+[2014-05-26 15:27:11] [ID=0x0000008d]set basic info[coin=12237015,money=96362,exp=3338,powerpoint=17259,honour=220,level=18][550,0,78,0,0]
+[2014-05-26 15:27:11] [ID=0x0000008d]get item,ID = 0x0c104001
+[2014-05-26 15:27:16] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 15:58:10] [ID=0x0000008d]step up equipment,ID=0x0c10100b,step=2
+[2014-05-26 16:00:52] [ID=0x0000008d]step up equipment,ID=0x0c10100b,step=2
+[2014-05-26 16:27:04] [ID=0x0000008d]get reward
+[2014-05-26 16:27:04] [ID=0x0000008d]set basic info[coin=12238899,money=96364,exp=3453,powerpoint=17259,honour=220,level=18][1884,2,115,0,0]
+[2014-05-26 16:27:04] [ID=0x0000008d]get item,ID = 0x0c301002
+[2014-05-26 16:27:04] [ID=0x0000008d]get item,ID = 0x17020101
+[2014-05-26 16:27:38] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 16:32:58] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000023
+[2014-05-26 16:32:58] [ID=0x0000008d]get reward
+[2014-05-26 16:32:58] [ID=0x0000008d]set basic info[coin=12238899,money=96374,exp=3453,powerpoint=17259,honour=220,level=18][0,10,0,0,0]
+[2014-05-26 16:33:24] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000006
+[2014-05-26 16:33:24] [ID=0x0000008d]get reward
+[2014-05-26 16:33:24] [ID=0x0000008d]set basic info[coin=12338899,money=96384,exp=3453,powerpoint=17259,honour=220,level=18][100000,10,0,0,0]
+[2014-05-26 16:34:32] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 31673
+[2014-05-26 16:36:38] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=238,level=20][0,0,0,0,2]
+[2014-05-26 16:36:38] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 16:38:07] [ID=0x0000039f]get reward
+[2014-05-26 16:38:07] [ID=0x0000039f]get reward
+[2014-05-26 16:38:07] [ID=0x0000039f]set basic info[coin=5550,money=2,exp=9,powerpoint=0,honour=0,level=2][0,0,0,0,0]
+[2014-05-26 16:38:07] [ID=0x0000039f]get item,ID = 0x0c101002
+[2014-05-26 16:38:07] [ID=0x0000039f]get item,ID = 0x04010001
+[2014-05-26 16:38:07] [ID=0x0000039f]get item,ID = 0x08000006
+[2014-05-26 16:38:07] [ID=0x0000039f]get item,ID = 0x08000002
+[2014-05-26 16:38:07] [ID=0x0000039f]set basic info[coin=5550,money=2,exp=9,powerpoint=0,honour=0,level=2][550,2,78,0,0]
+[2014-05-26 16:38:07] [ID=0x0000039f]get item,ID = 0x0c104001
+[2014-05-26 16:38:17] [ID=0x0000039f]clear map, type = 0
+[2014-05-26 16:38:57] [ID=0x0000039f]select equipment packageIdx = 0, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 16:39:14] [ID=0x0000039f]set basic info[coin=5500,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 16:39:14] [ID=0x0000039f]level up player,ID=0x0a102001,step=2
+[2014-05-26 16:39:14] [ID=0x0000039f]level up item, idx = 0, player ID = 0x0a102001
+[2014-05-26 16:41:16] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 26924
+[2014-05-26 16:42:03] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=240,level=20][0,0,0,0,2]
+[2014-05-26 16:42:03] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 16:42:12] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 19072
+[2014-05-26 16:42:47] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=242,level=20][0,0,0,0,2]
+[2014-05-26 16:42:47] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 16:42:52] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 6270
+[2014-05-26 16:43:28] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=246,level=20][0,0,0,0,4]
+[2014-05-26 16:43:28] [ID=0x000000f1]commit pvp battle, result = 0
+[2014-05-26 16:43:38] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 5829
+[2014-05-26 16:44:12] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=248,level=20][0,0,0,0,2]
+[2014-05-26 16:44:12] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 16:45:03] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 23986
+[2014-05-26 16:45:34] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=250,level=20][0,0,0,0,2]
+[2014-05-26 16:45:34] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 16:46:44] [ID=0x0000039f]get reward
+[2014-05-26 16:46:44] [ID=0x0000039f]get reward
+[2014-05-26 16:46:44] [ID=0x0000039f]set basic info[coin=6340,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 16:46:44] [ID=0x0000039f]get item,ID = 0x0800000a
+[2014-05-26 16:46:44] [ID=0x0000039f]set basic info[coin=6340,money=5,exp=9,powerpoint=0,honour=0,level=3][840,3,96,0,0]
+[2014-05-26 16:46:44] [ID=0x0000039f]get item,ID = 0x0c101002
+[2014-05-26 16:46:44] [ID=0x0000039f]get item,ID = 0xabababab
+[2014-05-26 16:46:53] [ID=0x0000039f]clear map, type = 0
+[2014-05-26 16:51:16] [ID=0x000003a0]get reward
+[2014-05-26 16:51:16] [ID=0x000003a0]get reward
+[2014-05-26 16:51:16] [ID=0x000003a0]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][0,0,0,0,0]
+[2014-05-26 16:51:16] [ID=0x000003a0]get item,ID = 0x0c101002
+[2014-05-26 16:51:16] [ID=0x000003a0]get item,ID = 0x04010001
+[2014-05-26 16:51:16] [ID=0x000003a0]get item,ID = 0x08000006
+[2014-05-26 16:51:16] [ID=0x000003a0]get item,ID = 0x08000002
+[2014-05-26 16:51:16] [ID=0x000003a0]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][600,2,78,0,0]
+[2014-05-26 16:51:16] [ID=0x000003a0]get item,ID = 0x0c104001
+[2014-05-26 16:51:22] [ID=0x000003a0]clear map, type = 0
+[2014-05-26 16:51:37] [ID=0x000003a0]select equipment packageIdx = 0, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 16:51:46] [ID=0x000003a0]set basic info[coin=5550,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 16:51:46] [ID=0x000003a0]level up player,ID=0x0a102001,step=2
+[2014-05-26 16:51:46] [ID=0x000003a0]level up item, idx = 0, player ID = 0x0a102001
+[2014-05-26 16:51:59] [ID=0x000003a0]set basic info[coin=5500,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 16:51:59] [ID=0x000003a0]level up player,ID=0x0a201001,step=2
+[2014-05-26 16:51:59] [ID=0x000003a0]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 16:52:09] [ID=0x000003a0]set basic info[coin=5450,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 16:52:09] [ID=0x000003a0]level up player,ID=0x0a204001,step=2
+[2014-05-26 16:52:09] [ID=0x000003a0]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 16:53:45] [ID=0x000003a0]get reward
+[2014-05-26 16:53:45] [ID=0x000003a0]get reward
+[2014-05-26 16:53:45] [ID=0x000003a0]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 16:53:45] [ID=0x000003a0]get item,ID = 0x0800000a
+[2014-05-26 16:53:45] [ID=0x000003a0]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][840,3,96,0,0]
+[2014-05-26 16:53:45] [ID=0x000003a0]get item,ID = 0x0c104001
+[2014-05-26 16:53:45] [ID=0x000003a0]get item,ID = 0x17010103
+[2014-05-26 16:53:45] [ID=0x000003a0]get item,ID = 0xcdcdcdcd
+[2014-05-26 16:53:50] [ID=0x000003a0]clear map, type = 0
+[2014-05-26 16:54:01] [ID=0x000003a0]get reward
+[2014-05-26 16:54:01] [ID=0x000003a0]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 16:54:01] [ID=0x000003a0]get item,ID = 0x0c105011
+[2014-05-26 16:54:01] [ID=0x000003a0]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 16:54:13] [ID=0x000003a0]get reward
+[2014-05-26 16:54:13] [ID=0x000003a0]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 16:54:13] [ID=0x000003a0]get item,ID = 0x0c104012
+[2014-05-26 16:54:13] [ID=0x000003a0]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 16:55:22] [ID=0x000003a0]get reward
+[2014-05-26 16:55:22] [ID=0x000003a0]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 16:55:22] [ID=0x000003a0]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 16:55:52] [ID=0x000003a0]do behaviour,behaviour ID = 0x16100020
+[2014-05-26 16:55:52] [ID=0x000003a0]get reward
+[2014-05-26 16:55:52] [ID=0x000003a0]set basic info[coin=6340,money=5,exp=9,powerpoint=0,honour=0,level=3][50,0,0,0,0]
+[2014-05-26 16:58:20] [ID=0x000000f1]get reward
+[2014-05-26 16:58:20] [ID=0x000000f1]set basic info[coin=6813133,money=137440,exp=2843,powerpoint=1971,honour=250,level=20][0,0,0,0,0]
+[2014-05-26 16:58:20] [ID=0x000000f1]get item,ID = 0x0c10100a
+[2014-05-26 16:58:20] [ID=0x000000f1]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 16:58:35] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=250,level=20][0,-10,0,0,0]
+[2014-05-26 16:58:35] [ID=0x000000f1]get reward
+[2014-05-26 16:58:35] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=250,level=20][0,0,0,0,0]
+[2014-05-26 16:58:35] [ID=0x000000f1]get item,ID = 0x0c10100c
+[2014-05-26 16:58:35] [ID=0x000000f1]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:02:33] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-05-26 17:02:33] [ID=0x0000008d]get reward
+[2014-05-26 17:02:33] [ID=0x0000008d]set basic info[coin=12338899,money=96384,exp=3453,powerpoint=17259,honour=220,level=18][0,0,0,0,0]
+[2014-05-26 17:15:25] [ID=0x000003a3]get reward
+[2014-05-26 17:15:25] [ID=0x000003a3]get reward
+[2014-05-26 17:15:25] [ID=0x000003a3]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][0,0,0,0,0]
+[2014-05-26 17:15:25] [ID=0x000003a3]get item,ID = 0x0c101002
+[2014-05-26 17:15:25] [ID=0x000003a3]get item,ID = 0x04010001
+[2014-05-26 17:15:25] [ID=0x000003a3]get item,ID = 0x08000006
+[2014-05-26 17:15:25] [ID=0x000003a3]get item,ID = 0x08000002
+[2014-05-26 17:15:25] [ID=0x000003a3]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][600,2,78,0,0]
+[2014-05-26 17:15:25] [ID=0x000003a3]get item,ID = 0x0c200001
+[2014-05-26 17:15:33] [ID=0x000003a3]clear map, type = 0
+[2014-05-26 17:15:52] [ID=0x000003a3]select equipment packageIdx = 0, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 17:16:00] [ID=0x000003a3]set basic info[coin=5550,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 17:16:00] [ID=0x000003a3]level up player,ID=0x0a102001,step=2
+[2014-05-26 17:16:00] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a102001
+[2014-05-26 17:18:44] [ID=0x000000f0]get reward
+[2014-05-26 17:18:44] [ID=0x000000f0]set basic info[coin=1006500,money=100025,exp=0,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 17:18:44] [ID=0x000000f0]get item,ID = 0x0c104010
+[2014-05-26 17:18:44] [ID=0x000000f0]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:21:13] [ID=0x000003a3]get reward
+[2014-05-26 17:21:13] [ID=0x000003a3]get reward
+[2014-05-26 17:21:13] [ID=0x000003a3]set basic info[coin=6390,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 17:21:13] [ID=0x000003a3]get item,ID = 0x0800000a
+[2014-05-26 17:21:13] [ID=0x000003a3]set basic info[coin=6390,money=5,exp=9,powerpoint=0,honour=0,level=3][840,3,96,0,0]
+[2014-05-26 17:21:13] [ID=0x000003a3]get item,ID = 0x0c104001
+[2014-05-26 17:21:13] [ID=0x000003a3]get item,ID = 0xabababab
+[2014-05-26 17:21:20] [ID=0x000003a3]clear map, type = 0
+[2014-05-26 17:21:35] [ID=0x000003a3]get reward
+[2014-05-26 17:21:35] [ID=0x000003a3]set basic info[coin=6390,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 17:21:35] [ID=0x000003a3]get item,ID = 0x0c10200c
+[2014-05-26 17:21:35] [ID=0x000003a3]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:21:53] [ID=0x000003a3]get reward
+[2014-05-26 17:21:53] [ID=0x000003a3]set basic info[coin=6390,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 17:21:53] [ID=0x000003a3]get item,ID = 0x0c301007
+[2014-05-26 17:21:53] [ID=0x000003a3]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 17:22:14] [ID=0x000003a3]get reward
+[2014-05-26 17:22:14] [ID=0x000003a3]set basic info[coin=6390,money=5,exp=9,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 17:22:14] [ID=0x000003a3]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:22:20] [ID=0x00000362]get reward
+[2014-05-26 17:22:20] [ID=0x00000362]set basic info[coin=49920,money=89,exp=226,powerpoint=77,honour=0,level=10][2860,0,180,0,0]
+[2014-05-26 17:22:20] [ID=0x00000362]get item,ID = 0x17010103
+[2014-05-26 17:22:20] [ID=0x00000362]get item,ID = 0xcdcdcdcd
+[2014-05-26 17:22:30] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:22:47] [ID=0x000003a3]select equipment packageIdx = 3, itemID = 0x0c10200c, oldItemID = 0x0c102001
+[2014-05-26 17:22:53] [ID=0x000003a3]select equipment packageIdx = 1, itemID = 0x0c200001, oldItemID = 0x00000000
+[2014-05-26 17:23:25] [ID=0x000003a3]set basic info[coin=6340,money=5,exp=9,powerpoint=0,honour=0,level=3][-50,0,0,0,0]
+[2014-05-26 17:23:25] [ID=0x000003a3]level up player,ID=0x0a201001,step=2
+[2014-05-26 17:23:25] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:23:29] [ID=0x000003a3]set basic info[coin=6290,money=5,exp=9,powerpoint=0,honour=0,level=3][-50,0,0,0,0]
+[2014-05-26 17:23:29] [ID=0x000003a3]level up player,ID=0x0a204001,step=2
+[2014-05-26 17:23:29] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 17:23:38] [ID=0x000003a3]set basic info[coin=6230,money=5,exp=9,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 17:23:38] [ID=0x000003a3]level up player,ID=0x0a204001,step=3
+[2014-05-26 17:23:38] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 17:23:41] [ID=0x000003a3]set basic info[coin=6170,money=5,exp=9,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 17:23:41] [ID=0x000003a3]level up player,ID=0x0a201001,step=3
+[2014-05-26 17:23:41] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:23:47] [ID=0x000003a3]set basic info[coin=6110,money=5,exp=9,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 17:23:47] [ID=0x000003a3]level up player,ID=0x0a102001,step=3
+[2014-05-26 17:23:47] [ID=0x000003a3]level up item, idx = 0, player ID = 0x0a102001
+[2014-05-26 17:26:37] [ID=0x00000362]get reward
+[2014-05-26 17:26:37] [ID=0x00000362]set basic info[coin=53040,money=89,exp=406,powerpoint=77,honour=0,level=10][3120,0,180,0,0]
+[2014-05-26 17:26:37] [ID=0x00000362]get item,ID = 0x0c105001
+[2014-05-26 17:26:37] [ID=0x00000362]get item,ID = 0x17010103
+[2014-05-26 17:26:37] [ID=0x00000362]get item,ID = 0xcdcdcdcd
+[2014-05-26 17:26:44] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:27:01] [ID=0x000003a3]get reward
+[2014-05-26 17:27:01] [ID=0x000003a3]set basic info[coin=7320,money=11,exp=117,powerpoint=0,honour=0,level=3][1210,6,108,0,0]
+[2014-05-26 17:27:01] [ID=0x000003a3]get item,ID = 0x0c200001
+[2014-05-26 17:27:01] [ID=0x000003a3]get item,ID = 0xabababab
+[2014-05-26 17:27:08] [ID=0x000003a3]clear map, type = 0
+[2014-05-26 17:27:14] [ID=0x00000362]get reward
+[2014-05-26 17:27:14] [ID=0x00000362]set basic info[coin=53040,money=89,exp=406,powerpoint=77,honour=0,level=10][0,0,0,0,0]
+[2014-05-26 17:27:14] [ID=0x00000362]get item,ID = 0x0c10100a
+[2014-05-26 17:27:14] [ID=0x00000362]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:27:27] [ID=0x00000362]get reward
+[2014-05-26 17:27:27] [ID=0x00000362]set basic info[coin=53040,money=89,exp=406,powerpoint=77,honour=0,level=10][0,0,0,0,0]
+[2014-05-26 17:27:27] [ID=0x00000362]get item,ID = 0x0c10500e
+[2014-05-26 17:27:27] [ID=0x00000362]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 17:27:32] [ID=0x000000f0]get reward
+[2014-05-26 17:27:32] [ID=0x000000f0]set basic info[coin=1006500,money=100025,exp=0,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 17:27:32] [ID=0x000000f0]get item,ID = 0x0c303007
+[2014-05-26 17:27:32] [ID=0x000000f0]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 17:27:43] [ID=0x000000f0]set basic info[coin=1006500,money=100015,exp=0,powerpoint=0,honour=0,level=6][0,-10,0,0,0]
+[2014-05-26 17:27:43] [ID=0x000000f0]get reward
+[2014-05-26 17:27:43] [ID=0x000000f0]set basic info[coin=1006500,money=100015,exp=0,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 17:27:43] [ID=0x000000f0]get item,ID = 0x0c101011
+[2014-05-26 17:27:43] [ID=0x000000f0]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:27:46] [ID=0x00000362]select equipment packageIdx = 0, itemID = 0x0c101007, oldItemID = 0x0c10100b
+[2014-05-26 17:27:50] [ID=0x000000f0]set basic info[coin=1006500,money=100005,exp=0,powerpoint=0,honour=0,level=6][0,-10,0,0,0]
+[2014-05-26 17:27:50] [ID=0x000000f0]get reward
+[2014-05-26 17:27:50] [ID=0x000000f0]set basic info[coin=1006500,money=100005,exp=0,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 17:27:50] [ID=0x000000f0]get item,ID = 0x0c200027
+[2014-05-26 17:27:50] [ID=0x000000f0]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:27:51] [ID=0x00000362]select equipment packageIdx = 0, itemID = 0x0c10100b, oldItemID = 0x0c101007
+[2014-05-26 17:27:58] [ID=0x00000362]select equipment packageIdx = 17, itemID = 0x0c10100a, oldItemID = 0x0c10100b
+[2014-05-26 17:28:00] [ID=0x00000362]select equipment packageIdx = 17, itemID = 0x0c10100b, oldItemID = 0x0c10100a
+[2014-05-26 17:28:18] [ID=0x00000362]select equipment packageIdx = 6, itemID = 0x0c200001, oldItemID = 0x0c20001e
+[2014-05-26 17:28:31] [ID=0x00000362]select equipment packageIdx = 6, itemID = 0x0c20001e, oldItemID = 0x0c200001
+[2014-05-26 17:28:41] [ID=0x000003a3]get reward
+[2014-05-26 17:28:41] [ID=0x000003a3]get reward
+[2014-05-26 17:28:41] [ID=0x000003a3]set basic info[coin=7820,money=13,exp=60,powerpoint=0,honour=0,level=4][0,0,0,0,0]
+[2014-05-26 17:28:41] [ID=0x000003a3]get item,ID = 0x04010002
+[2014-05-26 17:28:41] [ID=0x000003a3]set basic info[coin=7820,money=13,exp=60,powerpoint=0,honour=0,level=4][500,2,84,0,0]
+[2014-05-26 17:28:41] [ID=0x000003a3]get item,ID = 0x0c104001
+[2014-05-26 17:28:41] [ID=0x000003a3]get item,ID = 0x17020103
+[2014-05-26 17:28:51] [ID=0x000003a3]clear map, type = 0
+[2014-05-26 17:28:56] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 24648
+[2014-05-26 17:29:22] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=252,level=20][0,0,0,0,2]
+[2014-05-26 17:29:22] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 17:31:37] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 6617
+[2014-05-26 17:31:59] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=254,level=20][0,0,0,0,2]
+[2014-05-26 17:31:59] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 17:32:04] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 22813
+[2014-05-26 17:32:20] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=256,level=20][0,0,0,0,2]
+[2014-05-26 17:32:20] [ID=0x000000f1]clear map, type = 1
+[2014-05-26 17:32:26] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 9514
+[2014-05-26 17:32:45] [ID=0x00000362]get reward
+[2014-05-26 17:32:45] [ID=0x00000362]set basic info[coin=55770,money=95,exp=586,powerpoint=77,honour=0,level=10][2730,6,180,0,0]
+[2014-05-26 17:32:45] [ID=0x00000362]get item,ID = 0x0c105001
+[2014-05-26 17:32:45] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 17:32:51] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:33:12] [ID=0x00000362]set basic info[coin=55770,money=89,exp=586,powerpoint=77,honour=0,level=10][0,-6,0,0,0]
+[2014-05-26 17:33:12] [ID=0x00000362]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 17:33:12] [ID=0x00000362]get reward
+[2014-05-26 17:33:12] [ID=0x00000362]set basic info[coin=55770,money=89,exp=586,powerpoint=77,honour=0,level=10][0,0,0,0,0]
+[2014-05-26 17:33:14] [ID=0x00000362]set basic info[coin=55770,money=83,exp=586,powerpoint=77,honour=0,level=10][0,-6,0,0,0]
+[2014-05-26 17:33:14] [ID=0x00000362]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 17:33:14] [ID=0x00000362]get reward
+[2014-05-26 17:33:14] [ID=0x00000362]set basic info[coin=55770,money=83,exp=586,powerpoint=77,honour=0,level=10][0,0,0,0,0]
+[2014-05-26 17:33:16] [ID=0x00000362]set basic info[coin=55770,money=77,exp=586,powerpoint=77,honour=0,level=10][0,-6,0,0,0]
+[2014-05-26 17:33:16] [ID=0x00000362]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 17:33:16] [ID=0x00000362]get reward
+[2014-05-26 17:33:16] [ID=0x00000362]set basic info[coin=55770,money=77,exp=586,powerpoint=77,honour=0,level=10][0,0,0,0,0]
+[2014-05-26 17:36:46] [ID=0x00000362]get reward
+[2014-05-26 17:36:46] [ID=0x00000362]set basic info[coin=59730,money=80,exp=756,powerpoint=77,honour=0,level=10][3960,3,170,0,0]
+[2014-05-26 17:36:46] [ID=0x00000362]get item,ID = 0x0c302001
+[2014-05-26 17:36:46] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 17:36:53] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:39:12] [ID=0x00000138]get reward
+[2014-05-26 17:39:12] [ID=0x00000138]set basic info[coin=930494,money=100034,exp=3951,powerpoint=75,honour=4,level=29][0,0,0,0,0]
+[2014-05-26 17:39:12] [ID=0x00000138]get item,ID = 0x0c10100a
+[2014-05-26 17:39:12] [ID=0x00000138]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:40:01] [ID=0x00000138]set basic info[coin=930494,money=100024,exp=3951,powerpoint=75,honour=4,level=29][0,-10,0,0,0]
+[2014-05-26 17:40:01] [ID=0x00000138]get reward
+[2014-05-26 17:40:01] [ID=0x00000138]set basic info[coin=930494,money=100024,exp=3951,powerpoint=75,honour=4,level=29][0,0,0,0,0]
+[2014-05-26 17:40:01] [ID=0x00000138]get item,ID = 0x0c303008
+[2014-05-26 17:40:01] [ID=0x00000138]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:40:14] [ID=0x00000138]set basic info[coin=930494,money=100014,exp=3951,powerpoint=75,honour=4,level=29][0,-10,0,0,0]
+[2014-05-26 17:40:14] [ID=0x00000138]get reward
+[2014-05-26 17:40:14] [ID=0x00000138]set basic info[coin=930494,money=100014,exp=3951,powerpoint=75,honour=4,level=29][0,0,0,0,0]
+[2014-05-26 17:40:14] [ID=0x00000138]get item,ID = 0x0c10300a
+[2014-05-26 17:40:14] [ID=0x00000138]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:40:26] [ID=0x00000138]set basic info[coin=930494,money=100004,exp=3951,powerpoint=75,honour=4,level=29][0,-10,0,0,0]
+[2014-05-26 17:40:26] [ID=0x00000138]get reward
+[2014-05-26 17:40:26] [ID=0x00000138]set basic info[coin=930494,money=100004,exp=3951,powerpoint=75,honour=4,level=29][0,0,0,0,0]
+[2014-05-26 17:40:26] [ID=0x00000138]get item,ID = 0x0c10300a
+[2014-05-26 17:40:26] [ID=0x00000138]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 17:40:55] [ID=0x00000362]get reward
+[2014-05-26 17:40:55] [ID=0x00000362]set basic info[coin=65190,money=80,exp=947,powerpoint=77,honour=0,level=10][5460,0,191,0,0]
+[2014-05-26 17:40:55] [ID=0x00000362]get item,ID = 0x0c20000a
+[2014-05-26 17:40:55] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 17:41:05] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:41:22] [ID=0x00000362]select equipment packageIdx = 21, itemID = 0x0c20000a, oldItemID = 0x0c200001
+[2014-05-26 17:41:48] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 6618
+[2014-05-26 17:42:35] [ID=0x00000138]get reward
+[2014-05-26 17:42:35] [ID=0x00000138]set basic info[coin=930494,money=100504,exp=3951,powerpoint=75,honour=4,level=29][0,500,0,0,0]
+[2014-05-26 17:42:35] [ID=0x00000138]get pvp reward ID = 0x22000001
+[2014-05-26 17:42:39] [ID=0x00000138]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 20580
+[2014-05-26 17:43:40] [ID=0x00000138]set basic info[coin=930494,money=100504,exp=3951,powerpoint=75,honour=8,level=29][0,0,0,0,4]
+[2014-05-26 17:43:40] [ID=0x00000138]commit pvp battle, result = 0
+[2014-05-26 17:43:51] [ID=0x00000138]get reward
+[2014-05-26 17:43:51] [ID=0x00000138]set basic info[coin=930494,money=101004,exp=3951,powerpoint=75,honour=8,level=29][0,500,0,0,0]
+[2014-05-26 17:43:51] [ID=0x00000138]get pvp reward ID = 0x22000001
+[2014-05-26 17:43:56] [ID=0x00000138]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x000000f1, seed = 19796
+[2014-05-26 17:44:48] [ID=0x00000362]get reward
+[2014-05-26 17:44:48] [ID=0x00000362]set basic info[coin=70650,money=80,exp=1138,powerpoint=77,honour=0,level=10][5460,0,191,0,0]
+[2014-05-26 17:44:48] [ID=0x00000362]get item,ID = 0x17010303
+[2014-05-26 17:44:48] [ID=0x00000362]get item,ID = 0xcdcdcdcd
+[2014-05-26 17:44:58] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:45:07] [ID=0x00000138]set basic info[coin=930494,money=101004,exp=3951,powerpoint=75,honour=10,level=29][0,0,0,0,2]
+[2014-05-26 17:45:07] [ID=0x00000138]clear map, type = 1
+[2014-05-26 17:47:05] [ID=0x00000138]update team info,type=0
+[2014-05-26 17:48:03] [ID=0x00000138]update team info,type=1
+[2014-05-26 17:48:52] [ID=0x00000138]set basic info[coin=930494,money=100994,exp=3951,powerpoint=75,honour=10,level=29][0,-10,0,0,0]
+[2014-05-26 17:48:52] [ID=0x00000138]buy package max
+[2014-05-26 17:48:56] [ID=0x00000138]set basic info[coin=930494,money=100988,exp=3951,powerpoint=75,honour=10,level=29][0,-6,0,0,0]
+[2014-05-26 17:48:56] [ID=0x00000138]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 17:48:56] [ID=0x00000138]get reward
+[2014-05-26 17:48:56] [ID=0x00000138]set basic info[coin=930494,money=100988,exp=3951,powerpoint=75,honour=10,level=29][0,0,0,0,0]
+[2014-05-26 17:49:15] [ID=0x00000138]set basic info[coin=823964,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-106530,0,0,0,0]
+[2014-05-26 17:49:15] [ID=0x00000138]level up player,ID=0x0a201001,step=24
+[2014-05-26 17:49:15] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:20] [ID=0x00000138]set basic info[coin=702244,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-121720,0,0,0,0]
+[2014-05-26 17:49:20] [ID=0x00000138]level up player,ID=0x0a201001,step=25
+[2014-05-26 17:49:20] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:24] [ID=0x00000138]set basic info[coin=563954,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-138290,0,0,0,0]
+[2014-05-26 17:49:24] [ID=0x00000138]level up player,ID=0x0a201001,step=26
+[2014-05-26 17:49:24] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:33] [ID=0x00000138]set basic info[coin=407654,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-156300,0,0,0,0]
+[2014-05-26 17:49:33] [ID=0x00000138]level up player,ID=0x0a201001,step=27
+[2014-05-26 17:49:33] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:36] [ID=0x00000138]set basic info[coin=231844,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-175810,0,0,0,0]
+[2014-05-26 17:49:36] [ID=0x00000138]level up player,ID=0x0a201001,step=28
+[2014-05-26 17:49:36] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:38] [ID=0x00000138]set basic info[coin=34964,money=100988,exp=3951,powerpoint=75,honour=10,level=29][-196880,0,0,0,0]
+[2014-05-26 17:49:38] [ID=0x00000138]level up player,ID=0x0a201001,step=29
+[2014-05-26 17:49:38] [ID=0x00000138]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:49:47] [ID=0x00000362]get reward
+[2014-05-26 17:49:47] [ID=0x00000362]set basic info[coin=76110,money=80,exp=177,powerpoint=77,honour=0,level=11][5460,0,191,0,0]
+[2014-05-26 17:49:47] [ID=0x00000362]get item,ID = 0x17010103
+[2014-05-26 17:49:47] [ID=0x00000362]get item,ID = 0xcdcdcdcd
+[2014-05-26 17:49:54] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:50:16] [ID=0x00000138]do behaviour,behaviour ID = 0x16000023
+[2014-05-26 17:50:16] [ID=0x00000138]get reward
+[2014-05-26 17:50:16] [ID=0x00000138]set basic info[coin=34964,money=100992,exp=3951,powerpoint=75,honour=10,level=29][0,4,0,0,0]
+[2014-05-26 17:50:43] [ID=0x00000362]set basic info[coin=68770,money=80,exp=177,powerpoint=77,honour=0,level=11][-7340,0,0,0,0]
+[2014-05-26 17:50:43] [ID=0x00000362]level up player,ID=0x0a201001,step=11
+[2014-05-26 17:50:43] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 17:50:46] [ID=0x00000362]set basic info[coin=61430,money=80,exp=177,powerpoint=77,honour=0,level=11][-7340,0,0,0,0]
+[2014-05-26 17:50:46] [ID=0x00000362]level up player,ID=0x0a103001,step=11
+[2014-05-26 17:50:46] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a103001
+[2014-05-26 17:50:50] [ID=0x00000362]set basic info[coin=54090,money=80,exp=177,powerpoint=77,honour=0,level=11][-7340,0,0,0,0]
+[2014-05-26 17:50:50] [ID=0x00000362]level up player,ID=0x0a204001,step=11
+[2014-05-26 17:50:50] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 17:50:53] [ID=0x00000362]set basic info[coin=46750,money=80,exp=177,powerpoint=77,honour=0,level=11][-7340,0,0,0,0]
+[2014-05-26 17:50:53] [ID=0x00000362]level up player,ID=0x0a401001,step=11
+[2014-05-26 17:50:53] [ID=0x00000362]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 17:53:49] [ID=0x000003a5]get reward
+[2014-05-26 17:53:49] [ID=0x000003a5]get reward
+[2014-05-26 17:53:49] [ID=0x000003a5]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][0,0,0,0,0]
+[2014-05-26 17:53:49] [ID=0x000003a5]get item,ID = 0x0c101002
+[2014-05-26 17:53:49] [ID=0x000003a5]get item,ID = 0x04010001
+[2014-05-26 17:53:49] [ID=0x000003a5]get item,ID = 0x08000006
+[2014-05-26 17:53:49] [ID=0x000003a5]get item,ID = 0x08000002
+[2014-05-26 17:53:49] [ID=0x000003a5]set basic info[coin=5600,money=2,exp=9,powerpoint=0,honour=0,level=2][600,2,78,0,0]
+[2014-05-26 17:53:49] [ID=0x000003a5]get item,ID = 0x0c101002
+[2014-05-26 17:53:59] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 17:54:04] [ID=0x00000138]set basic info[coin=34964,money=100986,exp=3951,powerpoint=75,honour=10,level=29][0,-6,0,0,0]
+[2014-05-26 17:54:04] [ID=0x00000138]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 17:54:04] [ID=0x00000138]get reward
+[2014-05-26 17:54:04] [ID=0x00000138]set basic info[coin=34964,money=100986,exp=3951,powerpoint=75,honour=10,level=29][0,0,0,0,0]
+[2014-05-26 17:54:18] [ID=0x000003a5]select equipment packageIdx = 1, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 17:55:05] [ID=0x00000362]get reward
+[2014-05-26 17:55:05] [ID=0x00000362]set basic info[coin=51430,money=80,exp=368,powerpoint=77,honour=0,level=11][4680,0,191,0,0]
+[2014-05-26 17:55:05] [ID=0x00000362]get item,ID = 0x0c20000a
+[2014-05-26 17:55:05] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 17:55:17] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:56:29] [ID=0x000003a5]set basic info[coin=5550,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 17:56:29] [ID=0x000003a5]level up player,ID=0x0a205002,step=2
+[2014-05-26 17:56:29] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 17:58:43] [ID=0x00000362]get reward
+[2014-05-26 17:58:43] [ID=0x00000362]set basic info[coin=57670,money=86,exp=559,powerpoint=77,honour=0,level=11][6240,6,191,0,0]
+[2014-05-26 17:58:43] [ID=0x00000362]get item,ID = 0x0c104001
+[2014-05-26 17:58:43] [ID=0x00000362]get item,ID = 0xabababab
+[2014-05-26 17:58:50] [ID=0x00000362]clear map, type = 0
+[2014-05-26 17:59:00] [ID=0x00000138]get reward
+[2014-05-26 17:59:00] [ID=0x00000138]set basic info[coin=34964,money=101486,exp=3951,powerpoint=75,honour=10,level=29][0,500,0,0,0]
+[2014-05-26 17:59:00] [ID=0x00000138]get pvp reward ID = 0x22000001
+[2014-05-26 17:59:21] [ID=0x00000362]get reward
+[2014-05-26 17:59:21] [ID=0x00000362]set basic info[coin=157670,money=116,exp=559,powerpoint=77,honour=0,level=11][100000,30,0,0,0]
+[2014-05-26 17:59:21] [ID=0x00000362]get map group reward,Group ID = 0x24001001, index = 2
+[2014-05-26 17:59:48] [ID=0x000003a5]get reward
+[2014-05-26 17:59:48] [ID=0x000003a5]set basic info[coin=6150,money=4,exp=93,powerpoint=0,honour=0,level=2][600,2,84,0,0]
+[2014-05-26 17:59:48] [ID=0x000003a5]get item,ID = 0x0c104001
+[2014-05-26 17:59:48] [ID=0x000003a5]get item,ID = 0x17010303
+[2014-05-26 17:59:55] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:04:00] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=258,level=20][0,0,0,0,2]
+[2014-05-26 18:04:00] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 18:05:14] [ID=0x000003a5]get reward
+[2014-05-26 18:05:14] [ID=0x000003a5]get reward
+[2014-05-26 18:05:14] [ID=0x000003a5]set basic info[coin=6850,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:05:14] [ID=0x000003a5]get item,ID = 0x0800000a
+[2014-05-26 18:05:14] [ID=0x000003a5]set basic info[coin=6850,money=6,exp=94,powerpoint=0,honour=0,level=3][700,2,97,0,0]
+[2014-05-26 18:05:14] [ID=0x000003a5]get item,ID = 0x0c105001
+[2014-05-26 18:05:14] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:05:23] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:05:29] [ID=0x00000362]get reward
+[2014-05-26 18:05:29] [ID=0x00000362]set basic info[coin=162270,money=116,exp=559,powerpoint=77,honour=0,level=11][4600,0,0,0,0]
+[2014-05-26 18:05:29] [ID=0x00000362]get item,ID = 0x7fffffff
+[2014-05-26 18:05:31] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 24389
+[2014-05-26 18:05:36] [ID=0x00000362]clear map, type = 0
+[2014-05-26 18:05:41] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=260,level=20][0,0,0,0,2]
+[2014-05-26 18:05:41] [ID=0x000000f1]clear map, type = 1
+[2014-05-26 18:05:45] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x00000138, seed = 5075
+[2014-05-26 18:05:50] [ID=0x00000138]get reward
+[2014-05-26 18:05:50] [ID=0x00000138]set basic info[coin=43244,money=101486,exp=4191,powerpoint=75,honour=10,level=29][8280,0,240,0,0]
+[2014-05-26 18:05:50] [ID=0x00000138]get item,ID = 0x0c103007
+[2014-05-26 18:05:50] [ID=0x00000138]get item,ID = 0xabababab
+[2014-05-26 18:06:00] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:07] [ID=0x00000138]get reward
+[2014-05-26 18:06:07] [ID=0x00000138]set basic info[coin=48564,money=101486,exp=4410,powerpoint=75,honour=10,level=29][5320,0,219,0,0]
+[2014-05-26 18:06:07] [ID=0x00000138]get item,ID = 0x17020103
+[2014-05-26 18:06:07] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:06:07] [ID=0x000003a5]get reward
+[2014-05-26 18:06:07] [ID=0x000003a5]set basic info[coin=6850,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:06:07] [ID=0x000003a5]get item,ID = 0x0c10400b
+[2014-05-26 18:06:07] [ID=0x000003a5]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:06:10] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:12] [ID=0x00000138]get reward
+[2014-05-26 18:06:12] [ID=0x00000138]set basic info[coin=52764,money=101486,exp=4629,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:12] [ID=0x00000138]get item,ID = 0x0c101004
+[2014-05-26 18:06:12] [ID=0x00000138]get item,ID = 0x17010103
+[2014-05-26 18:06:12] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:06:13] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=262,level=20][0,0,0,0,2]
+[2014-05-26 18:06:13] [ID=0x000000f1]commit pvp battle, result = 1
+[2014-05-26 18:06:15] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:16] [ID=0x000003a5]get reward
+[2014-05-26 18:06:16] [ID=0x000003a5]set basic info[coin=6850,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:06:16] [ID=0x000003a5]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:06:16] [ID=0x00000138]get reward
+[2014-05-26 18:06:16] [ID=0x00000138]set basic info[coin=56964,money=101486,exp=4848,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:19] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:20] [ID=0x00000138]get reward
+[2014-05-26 18:06:20] [ID=0x00000138]set basic info[coin=61164,money=101486,exp=5067,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:20] [ID=0x00000138]get item,ID = 0x17020105
+[2014-05-26 18:06:20] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:06:23] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:24] [ID=0x00000138]get reward
+[2014-05-26 18:06:24] [ID=0x00000138]set basic info[coin=65364,money=101486,exp=5286,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:24] [ID=0x00000138]get item,ID = 0x0c102004
+[2014-05-26 18:06:24] [ID=0x00000138]get item,ID = 0xabababab
+[2014-05-26 18:06:27] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:28] [ID=0x00000138]get reward
+[2014-05-26 18:06:28] [ID=0x00000138]set basic info[coin=69564,money=101486,exp=5505,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:28] [ID=0x00000138]get item,ID = 0x0c102004
+[2014-05-26 18:06:28] [ID=0x00000138]get item,ID = 0xabababab
+[2014-05-26 18:06:32] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:33] [ID=0x00000138]get reward
+[2014-05-26 18:06:33] [ID=0x00000138]set basic info[coin=73764,money=101486,exp=5724,powerpoint=75,honour=10,level=29][4200,0,219,0,0]
+[2014-05-26 18:06:33] [ID=0x00000138]get item,ID = 0x17010203
+[2014-05-26 18:06:33] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:06:36] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:38] [ID=0x000003a5]get reward
+[2014-05-26 18:06:38] [ID=0x000003a5]set basic info[coin=6850,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:06:38] [ID=0x000003a5]get item,ID = 0x0c10500e
+[2014-05-26 18:06:38] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 18:06:52] [ID=0x00000138]get reward
+[2014-05-26 18:06:52] [ID=0x00000138]set basic info[coin=76624,money=101486,exp=5915,powerpoint=75,honour=10,level=29][2860,0,191,0,0]
+[2014-05-26 18:06:52] [ID=0x00000138]get item,ID = 0x17020103
+[2014-05-26 18:06:52] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:06:53] [ID=0x000003a5]select equipment packageIdx = 5, itemID = 0x0c10500e, oldItemID = 0x0c105001
+[2014-05-26 18:06:57] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:06:58] [ID=0x00000138]get reward
+[2014-05-26 18:06:58] [ID=0x00000138]set basic info[coin=79484,money=101486,exp=6106,powerpoint=75,honour=10,level=29][2860,0,191,0,0]
+[2014-05-26 18:06:58] [ID=0x00000138]get item,ID = 0x0c102001
+[2014-05-26 18:06:58] [ID=0x00000138]get item,ID = 0x17020101
+[2014-05-26 18:06:58] [ID=0x00000138]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:07:02] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:07:03] [ID=0x00000138]get reward
+[2014-05-26 18:07:03] [ID=0x00000138]set basic info[coin=82344,money=101486,exp=6297,powerpoint=75,honour=10,level=29][2860,0,191,0,0]
+[2014-05-26 18:07:03] [ID=0x00000138]get item,ID = 0x0c103001
+[2014-05-26 18:07:03] [ID=0x00000138]get item,ID = 0xabababab
+[2014-05-26 18:07:08] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:07:09] [ID=0x00000138]get reward
+[2014-05-26 18:07:09] [ID=0x00000138]set basic info[coin=85204,money=101486,exp=6488,powerpoint=75,honour=10,level=29][2860,0,191,0,0]
+[2014-05-26 18:07:09] [ID=0x00000138]get item,ID = 0x0c104006
+[2014-05-26 18:07:09] [ID=0x00000138]get item,ID = 0xabababab
+[2014-05-26 18:07:10] [ID=0x000003a5]select equipment packageIdx = 4, itemID = 0x0c10400b, oldItemID = 0x0c104001
+[2014-05-26 18:07:13] [ID=0x00000138]clear map, type = 0
+[2014-05-26 18:10:03] [ID=0x000000f1]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 20945
+[2014-05-26 18:10:34] [ID=0x000000f1]set basic info[coin=6813133,money=137430,exp=2843,powerpoint=1971,honour=266,level=20][0,0,0,0,4]
+[2014-05-26 18:10:34] [ID=0x000000f1]commit pvp battle, result = 0
+[2014-05-26 18:13:50] [ID=0x000000f1]step up player ID = 0x0a203001, step = 2, soulcount = 99
+[2014-05-26 18:14:07] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:14:19] [ID=0x000003a5]set basic info[coin=6790,money=6,exp=94,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 18:14:19] [ID=0x000003a5]level up player,ID=0x0a205002,step=3
+[2014-05-26 18:14:19] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 18:14:25] [ID=0x000003a5]set basic info[coin=6740,money=6,exp=94,powerpoint=0,honour=0,level=3][-50,0,0,0,0]
+[2014-05-26 18:14:25] [ID=0x000003a5]level up player,ID=0x0a201001,step=2
+[2014-05-26 18:14:25] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:14:27] [ID=0x000003a5]set basic info[coin=6680,money=6,exp=94,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 18:14:27] [ID=0x000003a5]level up player,ID=0x0a201001,step=3
+[2014-05-26 18:14:27] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:14:31] [ID=0x000003a5]set basic info[coin=6630,money=6,exp=94,powerpoint=0,honour=0,level=3][-50,0,0,0,0]
+[2014-05-26 18:14:31] [ID=0x000003a5]level up player,ID=0x0a204001,step=2
+[2014-05-26 18:14:31] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:14:33] [ID=0x000003a5]set basic info[coin=6570,money=6,exp=94,powerpoint=0,honour=0,level=3][-60,0,0,0,0]
+[2014-05-26 18:14:33] [ID=0x000003a5]level up player,ID=0x0a204001,step=3
+[2014-05-26 18:14:33] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:17:20] [ID=0x00000362]do behaviour,behaviour ID = 0x16000022
+[2014-05-26 18:17:20] [ID=0x00000362]get reward
+[2014-05-26 18:17:20] [ID=0x00000362]set basic info[coin=162270,money=116,exp=559,powerpoint=77,honour=0,level=11][0,0,0,0,0]
+[2014-05-26 18:17:23] [ID=0x000003a5]get reward
+[2014-05-26 18:17:23] [ID=0x000003a5]get reward
+[2014-05-26 18:17:23] [ID=0x000003a5]set basic info[coin=7220,money=8,exp=68,powerpoint=0,honour=0,level=4][0,0,0,0,0]
+[2014-05-26 18:17:23] [ID=0x000003a5]get item,ID = 0x04010002
+[2014-05-26 18:17:23] [ID=0x000003a5]set basic info[coin=7220,money=8,exp=68,powerpoint=0,honour=0,level=4][650,2,115,0,0]
+[2014-05-26 18:17:23] [ID=0x000003a5]get item,ID = 0x0c104001
+[2014-05-26 18:17:23] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:17:25] [ID=0x00000362]do behaviour,behaviour ID = 0x16100019
+[2014-05-26 18:17:25] [ID=0x00000362]get reward
+[2014-05-26 18:17:25] [ID=0x00000362]set basic info[coin=162270,money=116,exp=559,powerpoint=77,honour=0,level=11][0,0,0,0,0]
+[2014-05-26 18:17:29] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:17:35] [ID=0x00000362]do behaviour,behaviour ID = 0x16100020
+[2014-05-26 18:17:35] [ID=0x00000362]get reward
+[2014-05-26 18:17:35] [ID=0x00000362]set basic info[coin=162320,money=116,exp=559,powerpoint=77,honour=0,level=11][50,0,0,0,0]
+[2014-05-26 18:17:46] [ID=0x000003a5]set basic info[coin=7090,money=8,exp=68,powerpoint=0,honour=0,level=4][-130,0,0,0,0]
+[2014-05-26 18:17:46] [ID=0x000003a5]level up player,ID=0x0a205002,step=4
+[2014-05-26 18:17:46] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 18:17:50] [ID=0x000003a5]set basic info[coin=6960,money=8,exp=68,powerpoint=0,honour=0,level=4][-130,0,0,0,0]
+[2014-05-26 18:17:50] [ID=0x000003a5]level up player,ID=0x0a201001,step=4
+[2014-05-26 18:17:50] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:17:53] [ID=0x000003a5]set basic info[coin=6830,money=8,exp=68,powerpoint=0,honour=0,level=4][-130,0,0,0,0]
+[2014-05-26 18:17:53] [ID=0x000003a5]level up player,ID=0x0a204001,step=4
+[2014-05-26 18:17:53] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:18:10] [ID=0x00000362]do behaviour,behaviour ID = 0x16000023
+[2014-05-26 18:18:10] [ID=0x00000362]get reward
+[2014-05-26 18:18:10] [ID=0x00000362]set basic info[coin=162320,money=117,exp=559,powerpoint=77,honour=0,level=11][0,1,0,0,0]
+[2014-05-26 18:18:46] [ID=0x000003a5]do behaviour,behaviour ID = 0x16100019
+[2014-05-26 18:18:46] [ID=0x000003a5]get reward
+[2014-05-26 18:18:46] [ID=0x000003a5]set basic info[coin=6830,money=8,exp=68,powerpoint=0,honour=0,level=4][0,0,0,0,0]
+[2014-05-26 18:18:51] [ID=0x000003a5]do behaviour,behaviour ID = 0x16100020
+[2014-05-26 18:18:51] [ID=0x000003a5]get reward
+[2014-05-26 18:18:51] [ID=0x000003a5]set basic info[coin=6880,money=8,exp=68,powerpoint=0,honour=0,level=4][50,0,0,0,0]
+[2014-05-26 18:18:58] [ID=0x000003a5]do behaviour,behaviour ID = 0x16000022
+[2014-05-26 18:18:58] [ID=0x000003a5]get reward
+[2014-05-26 18:18:58] [ID=0x000003a5]set basic info[coin=6880,money=8,exp=68,powerpoint=0,honour=0,level=4][0,0,0,0,0]
+[2014-05-26 18:20:23] [ID=0x00000362]set basic info[coin=160320,money=117,exp=559,powerpoint=77,honour=0,level=11][-2000,0,0,0,0]
+[2014-05-26 18:20:23] [ID=0x00000362]skill level up,skillID=0x0e010001
+[2014-05-26 18:20:24] [ID=0x00000362]set basic info[coin=150320,money=117,exp=559,powerpoint=77,honour=0,level=11][-10000,0,0,0,0]
+[2014-05-26 18:20:24] [ID=0x00000362]skill level up,skillID=0x0e010002
+[2014-05-26 18:20:25] [ID=0x00000362]set basic info[coin=110320,money=117,exp=559,powerpoint=77,honour=0,level=11][-40000,0,0,0,0]
+[2014-05-26 18:20:25] [ID=0x00000362]skill level up,skillID=0x0e010003
+[2014-05-26 18:24:53] [ID=0x000003a5]get reward
+[2014-05-26 18:24:53] [ID=0x000003a5]set basic info[coin=7840,money=10,exp=4,powerpoint=0,honour=0,level=5][960,2,140,0,0]
+[2014-05-26 18:24:53] [ID=0x000003a5]get item,ID = 0x0c105001
+[2014-05-26 18:24:53] [ID=0x000003a5]get item,ID = 0x17010203
+[2014-05-26 18:25:01] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:25:52] [ID=0x000003a5]bind bonus
+[2014-05-26 18:25:52] [ID=0x000003a5]set basic info[coin=7840,money=20,exp=4,powerpoint=0,honour=0,level=5][0,10,0,0,0]
+[2014-05-26 18:30:07] [ID=0x000000f1]get reward
+[2014-05-26 18:30:07] [ID=0x000000f1]set basic info[coin=6817873,money=137433,exp=3061,powerpoint=1971,honour=266,level=20][4740,3,218,0,0]
+[2014-05-26 18:30:07] [ID=0x000000f1]get item,ID = 0x0c105001
+[2014-05-26 18:30:07] [ID=0x000000f1]get item,ID = 0x17010103
+[2014-05-26 18:30:07] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:30:12] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:30:53] [ID=0x000000f1]get reward
+[2014-05-26 18:30:53] [ID=0x000000f1]set basic info[coin=6820273,money=137436,exp=3395,powerpoint=1971,honour=266,level=20][2400,3,334,0,0]
+[2014-05-26 18:30:53] [ID=0x000000f1]get item,ID = 0x17020102
+[2014-05-26 18:30:53] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:30:58] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:31:06] [ID=0x000003a5]get reward
+[2014-05-26 18:31:06] [ID=0x000003a5]set basic info[coin=9280,money=22,exp=148,powerpoint=0,honour=0,level=5][1440,2,144,0,0]
+[2014-05-26 18:31:06] [ID=0x000003a5]get item,ID = 0x0c101002
+[2014-05-26 18:31:06] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:31:15] [ID=0x000000f1]get reward
+[2014-05-26 18:31:15] [ID=0x000000f1]set basic info[coin=6840273,money=137436,exp=3395,powerpoint=1971,honour=266,level=20][20000,0,0,0,0]
+[2014-05-26 18:31:15] [ID=0x000000f1]get map group reward,Group ID = 0x24001004, index = 0
+[2014-05-26 18:31:50] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:34:49] [ID=0x000000f1]get reward
+[2014-05-26 18:34:49] [ID=0x000000f1]set basic info[coin=6844353,money=137442,exp=3503,powerpoint=1971,honour=266,level=20][4080,6,108,0,0]
+[2014-05-26 18:34:49] [ID=0x000000f1]get item,ID = 0x0c200001
+[2014-05-26 18:34:49] [ID=0x000000f1]get item,ID = 0xabababab
+[2014-05-26 18:34:59] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:35:16] [ID=0x000003a5]get reward
+[2014-05-26 18:35:16] [ID=0x000003a5]get reward
+[2014-05-26 18:35:16] [ID=0x000003a5]set basic info[coin=10900,money=24,exp=12,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 18:35:16] [ID=0x000003a5]get item,ID = 0x04010003
+[2014-05-26 18:35:16] [ID=0x000003a5]set basic info[coin=10900,money=24,exp=12,powerpoint=0,honour=0,level=6][1620,2,149,0,0]
+[2014-05-26 18:35:16] [ID=0x000003a5]get item,ID = 0x0c101001
+[2014-05-26 18:35:16] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:35:17] [ID=0x000000f1]get reward
+[2014-05-26 18:35:17] [ID=0x000000f1]set basic info[coin=6845913,money=137445,exp=3602,powerpoint=1971,honour=266,level=20][1560,3,99,0,0]
+[2014-05-26 18:35:17] [ID=0x000000f1]get item,ID = 0x0c104001
+[2014-05-26 18:35:17] [ID=0x000000f1]get item,ID = 0x17020101
+[2014-05-26 18:35:17] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:35:22] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:35:41] [ID=0x000000f1]get reward
+[2014-05-26 18:35:41] [ID=0x000000f1]set basic info[coin=6848913,money=137451,exp=3713,powerpoint=1971,honour=266,level=20][3000,6,111,0,0]
+[2014-05-26 18:35:41] [ID=0x000000f1]get item,ID = 0x0c103001
+[2014-05-26 18:35:41] [ID=0x000000f1]get item,ID = 0x17020103
+[2014-05-26 18:35:41] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:35:46] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:36:06] [ID=0x000000f1]get reward
+[2014-05-26 18:36:06] [ID=0x000000f1]set basic info[coin=6851463,money=137454,exp=3871,powerpoint=1971,honour=266,level=20][2550,3,158,0,0]
+[2014-05-26 18:36:06] [ID=0x000000f1]get item,ID = 0x17020105
+[2014-05-26 18:36:06] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:36:12] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:36:14] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:36:29] [ID=0x000003a5]get reward
+[2014-05-26 18:36:29] [ID=0x000003a5]set basic info[coin=20900,money=24,exp=12,powerpoint=0,honour=0,level=6][10000,0,0,0,0]
+[2014-05-26 18:36:29] [ID=0x000003a5]get map group reward,Group ID = 0x24001001, index = 0
+[2014-05-26 18:36:43] [ID=0x0000008d]get reward
+[2014-05-26 18:36:43] [ID=0x0000008d]set basic info[coin=12340846,money=96387,exp=3596,powerpoint=17259,honour=220,level=18][1947,3,143,0,0]
+[2014-05-26 18:36:43] [ID=0x0000008d]get item,ID = 0x0c104001
+[2014-05-26 18:36:43] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 18:36:45] [ID=0x000003a5]set basic info[coin=20580,money=24,exp=12,powerpoint=0,honour=0,level=6][-320,0,0,0,0]
+[2014-05-26 18:36:45] [ID=0x000003a5]level up player,ID=0x0a205002,step=5
+[2014-05-26 18:36:45] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 18:36:45] [ID=0x000000f1]get reward
+[2014-05-26 18:36:45] [ID=0x000000f1]set basic info[coin=6853283,money=137457,exp=4014,powerpoint=1971,honour=266,level=20][1820,3,143,0,0]
+[2014-05-26 18:36:45] [ID=0x000000f1]get item,ID = 0x0c200001
+[2014-05-26 18:36:45] [ID=0x000000f1]get item,ID = 0xabababab
+[2014-05-26 18:36:46] [ID=0x000003a5]set basic info[coin=19890,money=24,exp=12,powerpoint=0,honour=0,level=6][-690,0,0,0,0]
+[2014-05-26 18:36:46] [ID=0x000003a5]level up player,ID=0x0a205002,step=6
+[2014-05-26 18:36:46] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 18:36:50] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:36:50] [ID=0x000000f1]clear map, type = 0
+[2014-05-26 18:36:50] [ID=0x000003a5]set basic info[coin=19570,money=24,exp=12,powerpoint=0,honour=0,level=6][-320,0,0,0,0]
+[2014-05-26 18:36:50] [ID=0x000003a5]level up player,ID=0x0a201001,step=5
+[2014-05-26 18:36:50] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:36:52] [ID=0x000003a5]set basic info[coin=18880,money=24,exp=12,powerpoint=0,honour=0,level=6][-690,0,0,0,0]
+[2014-05-26 18:36:52] [ID=0x000003a5]level up player,ID=0x0a201001,step=6
+[2014-05-26 18:36:52] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:36:55] [ID=0x000003a5]set basic info[coin=18560,money=24,exp=12,powerpoint=0,honour=0,level=6][-320,0,0,0,0]
+[2014-05-26 18:36:55] [ID=0x000003a5]level up player,ID=0x0a204001,step=5
+[2014-05-26 18:36:55] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:36:57] [ID=0x000003a5]set basic info[coin=17870,money=24,exp=12,powerpoint=0,honour=0,level=6][-690,0,0,0,0]
+[2014-05-26 18:36:57] [ID=0x000003a5]level up player,ID=0x0a204001,step=6
+[2014-05-26 18:36:57] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:39:42] [ID=0x0000008d]get reward
+[2014-05-26 18:39:42] [ID=0x0000008d]set basic info[coin=12341946,money=96393,exp=3757,powerpoint=17259,honour=220,level=18][1100,6,161,0,0]
+[2014-05-26 18:39:42] [ID=0x0000008d]get item,ID = 0x17010103
+[2014-05-26 18:39:42] [ID=0x0000008d]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:41:03] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:41:26] [ID=0x000003a5]get reward
+[2014-05-26 18:41:26] [ID=0x000003a5]set basic info[coin=18670,money=26,exp=162,powerpoint=0,honour=0,level=6][800,2,150,0,0]
+[2014-05-26 18:41:26] [ID=0x000003a5]get item,ID = 0x0c200002
+[2014-05-26 18:41:26] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:43:17] [ID=0x000000f1]get reward
+[2014-05-26 18:43:17] [ID=0x000000f1]set basic info[coin=6862643,money=137460,exp=4409,powerpoint=1971,honour=266,level=20][9360,3,395,0,0]
+[2014-05-26 18:43:17] [ID=0x000000f1]get item,ID = 0x17020104
+[2014-05-26 18:43:17] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:43:17] [ID=0x000000f1]get reward
+[2014-05-26 18:43:17] [ID=0x000000f1]set basic info[coin=6875123,money=137466,exp=4979,powerpoint=1971,honour=266,level=20][12480,6,570,0,0]
+[2014-05-26 18:43:17] [ID=0x000000f1]get item,ID = 0x17010203
+[2014-05-26 18:43:17] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:43:18] [ID=0x000000f1]get reward
+[2014-05-26 18:43:18] [ID=0x000000f1]set basic info[coin=6893523,money=137466,exp=5264,powerpoint=1971,honour=266,level=20][18400,0,285,0,0]
+[2014-05-26 18:43:18] [ID=0x000000f1]get item,ID = 0x0c101009
+[2014-05-26 18:43:18] [ID=0x000000f1]get item,ID = 0xabababab
+[2014-05-26 18:43:18] [ID=0x000000f1]set basic info[coin=6893523,money=137460,exp=5264,powerpoint=1971,honour=266,level=20][0,-6,0,0,0]
+[2014-05-26 18:43:18] [ID=0x000000f1]get reward
+[2014-05-26 18:43:18] [ID=0x000000f1]set basic info[coin=6893523,money=137460,exp=5264,powerpoint=1971,honour=266,level=20][0,0,0,0,0]
+[2014-05-26 18:43:18] [ID=0x000000f1]get item,ID = 0x0c10300c
+[2014-05-26 18:43:19] [ID=0x000000f1]get reward
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6915603,money=137463,exp=5741,powerpoint=1971,honour=266,level=20][22080,3,477,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0x17010103
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:43:19] [ID=0x000000f1]get reward
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6945043,money=137469,exp=119,powerpoint=1971,honour=266,level=21][29440,6,600,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0x17020101
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:43:19] [ID=0x000000f1]get reward
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6948643,money=137469,exp=371,powerpoint=1971,honour=266,level=21][3600,0,252,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0x0c20000f
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0xabababab
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6948643,money=137463,exp=371,powerpoint=1971,honour=266,level=21][0,-6,0,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get reward
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6948643,money=137463,exp=371,powerpoint=1971,honour=266,level=21][0,0,0,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0x0c200014
+[2014-05-26 18:43:19] [ID=0x000000f1]get reward
+[2014-05-26 18:43:19] [ID=0x000000f1]set basic info[coin=6952963,money=137466,exp=712,powerpoint=1971,honour=266,level=21][4320,3,341,0,0]
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0x17010103
+[2014-05-26 18:43:19] [ID=0x000000f1]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:43:23] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:43:40] [ID=0x000003a7]get reward
+[2014-05-26 18:43:40] [ID=0x000003a7]get reward
+[2014-05-26 18:43:40] [ID=0x000003a7]set basic info[coin=6100,money=2,exp=9,powerpoint=0,honour=0,level=2][0,0,0,0,0]
+[2014-05-26 18:43:40] [ID=0x000003a7]get item,ID = 0x0c101002
+[2014-05-26 18:43:40] [ID=0x000003a7]get item,ID = 0x04010001
+[2014-05-26 18:43:40] [ID=0x000003a7]get item,ID = 0x08000006
+[2014-05-26 18:43:40] [ID=0x000003a7]get item,ID = 0x08000002
+[2014-05-26 18:43:40] [ID=0x000003a7]set basic info[coin=6100,money=2,exp=9,powerpoint=0,honour=0,level=2][1100,2,78,0,0]
+[2014-05-26 18:43:40] [ID=0x000003a7]get item,ID = 0x0c104001
+[2014-05-26 18:43:52] [ID=0x000003a7]clear map, type = 0
+[2014-05-26 18:44:13] [ID=0x000003a7]select equipment packageIdx = 0, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 18:44:15] [ID=0x0000008d]get reward
+[2014-05-26 18:44:15] [ID=0x0000008d]set basic info[coin=12344146,money=96395,exp=3901,powerpoint=17259,honour=220,level=18][2200,2,144,0,0]
+[2014-05-26 18:44:15] [ID=0x0000008d]get item,ID = 0x0c102001
+[2014-05-26 18:44:15] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 18:44:23] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:44:23] [ID=0x000003a7]set basic info[coin=6050,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 18:44:23] [ID=0x000003a7]level up player,ID=0x0a102001,step=2
+[2014-05-26 18:44:23] [ID=0x000003a7]level up item, idx = 0, player ID = 0x0a102001
+[2014-05-26 18:44:34] [ID=0x000003a7]set basic info[coin=6000,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 18:44:34] [ID=0x000003a7]level up player,ID=0x0a201001,step=2
+[2014-05-26 18:44:34] [ID=0x000003a7]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:44:42] [ID=0x000003a7]set basic info[coin=5950,money=2,exp=9,powerpoint=0,honour=0,level=2][-50,0,0,0,0]
+[2014-05-26 18:44:42] [ID=0x000003a7]level up player,ID=0x0a204001,step=2
+[2014-05-26 18:44:42] [ID=0x000003a7]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:45:38] [ID=0x000003a5]get reward
+[2014-05-26 18:45:38] [ID=0x000003a5]set basic info[coin=19270,money=26,exp=246,powerpoint=0,honour=0,level=6][600,0,84,0,0]
+[2014-05-26 18:45:38] [ID=0x000003a5]get item,ID = 0x0c105001
+[2014-05-26 18:45:38] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:45:44] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:46:26] [ID=0x0000008d]get reward
+[2014-05-26 18:46:26] [ID=0x0000008d]set basic info[coin=12346616,money=96401,exp=4081,powerpoint=17259,honour=220,level=18][2470,6,180,0,0]
+[2014-05-26 18:46:26] [ID=0x0000008d]get item,ID = 0x17020103
+[2014-05-26 18:46:26] [ID=0x0000008d]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:46:39] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:46:54] [ID=0x000000f1]set basic info[coin=6932963,money=137466,exp=712,powerpoint=1971,honour=266,level=21][-20000,0,0,0,0]
+[2014-05-26 18:46:54] [ID=0x000000f1]get reward
+[2014-05-26 18:46:54] [ID=0x000000f1]set basic info[coin=6932963,money=137466,exp=712,powerpoint=1971,honour=266,level=21][0,0,0,0,0]
+[2014-05-26 18:46:54] [ID=0x000000f1]get item,ID = 0x0c302001
+[2014-05-26 18:47:11] [ID=0x000003a7]get reward
+[2014-05-26 18:47:11] [ID=0x000003a7]set basic info[coin=6550,money=4,exp=93,powerpoint=0,honour=0,level=2][600,2,84,0,0]
+[2014-05-26 18:47:11] [ID=0x000003a7]get item,ID = 0x0c101001
+[2014-05-26 18:47:11] [ID=0x000003a7]get item,ID = 0x17020102
+[2014-05-26 18:47:20] [ID=0x000003a7]clear map, type = 0
+[2014-05-26 18:48:25] [ID=0x0000008d]get reward
+[2014-05-26 18:48:25] [ID=0x0000008d]set basic info[coin=12348416,money=96404,exp=85,powerpoint=17259,honour=220,level=19][1800,3,170,0,0]
+[2014-05-26 18:48:25] [ID=0x0000008d]get item,ID = 0x17020105
+[2014-05-26 18:48:25] [ID=0x0000008d]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:48:33] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:48:42] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:49:10] [ID=0x000003a5]get reward
+[2014-05-26 18:49:10] [ID=0x000003a5]set basic info[coin=19270,money=26,exp=246,powerpoint=0,honour=0,level=6][0,0,0,0,0]
+[2014-05-26 18:49:10] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 18:50:37] [ID=0x000003a5]get reward
+[2014-05-26 18:50:37] [ID=0x000003a5]set basic info[coin=20810,money=29,exp=342,powerpoint=0,honour=0,level=6][1540,3,96,0,0]
+[2014-05-26 18:50:37] [ID=0x000003a5]get item,ID = 0x0c104001
+[2014-05-26 18:50:37] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 18:50:43] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:50:52] [ID=0x000003a7]get reward
+[2014-05-26 18:50:52] [ID=0x000003a7]get reward
+[2014-05-26 18:50:52] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:50:52] [ID=0x000003a7]get item,ID = 0x0800000a
+[2014-05-26 18:50:52] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][700,2,97,0,0]
+[2014-05-26 18:50:52] [ID=0x000003a7]get item,ID = 0x0c103001
+[2014-05-26 18:50:52] [ID=0x000003a7]get item,ID = 0x17010103
+[2014-05-26 18:51:02] [ID=0x0000008d]get reward
+[2014-05-26 18:51:02] [ID=0x0000008d]set basic info[coin=12351146,money=96404,exp=276,powerpoint=17259,honour=220,level=19][2730,0,191,0,0]
+[2014-05-26 18:51:02] [ID=0x0000008d]get item,ID = 0x0c104006
+[2014-05-26 18:51:02] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 18:51:09] [ID=0x000003a7]clear map, type = 0
+[2014-05-26 18:51:12] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:51:44] [ID=0x000003a7]get reward
+[2014-05-26 18:51:44] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:51:44] [ID=0x000003a7]get item,ID = 0x0c10100c
+[2014-05-26 18:51:44] [ID=0x000003a7]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:52:03] [ID=0x000003a7]get reward
+[2014-05-26 18:52:03] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:52:03] [ID=0x000003a7]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:52:15] [ID=0x000003a7]get reward
+[2014-05-26 18:52:15] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:52:15] [ID=0x000003a7]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:52:23] [ID=0x000003a5]get reward
+[2014-05-26 18:52:23] [ID=0x000003a5]get reward
+[2014-05-26 18:52:23] [ID=0x000003a5]set basic info[coin=21510,money=32,exp=57,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 18:52:23] [ID=0x000003a5]get item,ID = 0x08000007
+[2014-05-26 18:52:23] [ID=0x000003a5]set basic info[coin=21510,money=32,exp=57,powerpoint=0,honour=0,level=7][700,3,99,0,0]
+[2014-05-26 18:52:23] [ID=0x000003a5]get item,ID = 0x0c105001
+[2014-05-26 18:52:23] [ID=0x000003a5]get item,ID = 0x17020103
+[2014-05-26 18:52:23] [ID=0x000003a5]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:52:29] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 18:52:38] [ID=0x000003a7]get reward
+[2014-05-26 18:52:38] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:52:38] [ID=0x000003a7]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:53:10] [ID=0x000003a7]get reward
+[2014-05-26 18:53:10] [ID=0x000003a7]set basic info[coin=7250,money=6,exp=94,powerpoint=0,honour=0,level=3][0,0,0,0,0]
+[2014-05-26 18:53:10] [ID=0x000003a7]get luck, luck ID = 0x16000008, count = 1
+[2014-05-26 18:53:13] [ID=0x0000008d]get reward
+[2014-05-26 18:53:13] [ID=0x0000008d]set basic info[coin=12354266,money=96410,exp=467,powerpoint=17259,honour=220,level=19][3120,6,191,0,0]
+[2014-05-26 18:53:13] [ID=0x0000008d]get item,ID = 0x0c104006
+[2014-05-26 18:53:13] [ID=0x0000008d]get item,ID = 0x0c302009
+[2014-05-26 18:53:13] [ID=0x0000008d]get item,ID = 0xabababab
+[2014-05-26 18:54:12] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 18:54:33] [ID=0x000003a5]set basic info[coin=21510,money=2,exp=57,powerpoint=0,honour=0,level=7][0,-30,0,0,0]
+[2014-05-26 18:54:33] [ID=0x000003a5]get reward
+[2014-05-26 18:54:33] [ID=0x000003a5]set basic info[coin=21510,money=2,exp=57,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 18:54:33] [ID=0x000003a5]get item,ID = 0x0c10300d
+[2014-05-26 18:54:33] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 18:55:35] [ID=0x000003a5]get reward
+[2014-05-26 18:55:35] [ID=0x000003a5]set basic info[coin=21510,money=2,exp=57,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 18:55:35] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 18:55:53] [ID=0x000003a5]do behaviour,behaviour ID = 0x16000023
+[2014-05-26 18:55:53] [ID=0x000003a5]get reward
+[2014-05-26 18:55:53] [ID=0x000003a5]set basic info[coin=21510,money=3,exp=57,powerpoint=0,honour=0,level=7][0,1,0,0,0]
+[2014-05-26 18:55:56] [ID=0x000003a5]use gift,giftID=0x04010001
+[2014-05-26 18:55:56] [ID=0x000003a5]get reward
+[2014-05-26 18:55:56] [ID=0x000003a5]set basic info[coin=22010,money=3,exp=57,powerpoint=0,honour=0,level=7][500,0,0,0,0]
+[2014-05-26 18:55:58] [ID=0x000003a5]use gift,giftID=0x04010002
+[2014-05-26 18:55:58] [ID=0x000003a5]get reward
+[2014-05-26 18:55:58] [ID=0x000003a5]set basic info[coin=22010,money=33,exp=57,powerpoint=0,honour=0,level=7][0,30,0,0,0]
+[2014-05-26 18:55:59] [ID=0x000003a5]use gift,giftID=0x04010003
+[2014-05-26 18:55:59] [ID=0x000003a5]get reward
+[2014-05-26 18:55:59] [ID=0x000003a5]set basic info[coin=23010,money=33,exp=57,powerpoint=0,honour=0,level=7][1000,0,0,0,0]
+[2014-05-26 18:55:59] [ID=0x000003a5]get item,ID = 0x0a401001
+[2014-05-26 18:56:14] [ID=0x000003a5]select equipment packageIdx = 8, itemID = 0x0c101002, oldItemID = 0x0c101001
+[2014-05-26 18:56:51] [ID=0x000003a5]update team info,type=0
+[2014-05-26 18:57:21] [ID=0x000003a5]set basic info[coin=22960,money=33,exp=57,powerpoint=0,honour=0,level=7][-50,0,0,0,0]
+[2014-05-26 18:57:21] [ID=0x000003a5]level up player,ID=0x0a401001,step=2
+[2014-05-26 18:57:21] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:22] [ID=0x000003a5]set basic info[coin=22900,money=33,exp=57,powerpoint=0,honour=0,level=7][-60,0,0,0,0]
+[2014-05-26 18:57:22] [ID=0x000003a5]level up player,ID=0x0a401001,step=3
+[2014-05-26 18:57:22] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:22] [ID=0x000003a5]set basic info[coin=22770,money=33,exp=57,powerpoint=0,honour=0,level=7][-130,0,0,0,0]
+[2014-05-26 18:57:22] [ID=0x000003a5]level up player,ID=0x0a401001,step=4
+[2014-05-26 18:57:22] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:24] [ID=0x000003a5]set basic info[coin=22450,money=33,exp=57,powerpoint=0,honour=0,level=7][-320,0,0,0,0]
+[2014-05-26 18:57:24] [ID=0x000003a5]level up player,ID=0x0a401001,step=5
+[2014-05-26 18:57:24] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:25] [ID=0x000003a5]set basic info[coin=21760,money=33,exp=57,powerpoint=0,honour=0,level=7][-690,0,0,0,0]
+[2014-05-26 18:57:25] [ID=0x000003a5]level up player,ID=0x0a401001,step=6
+[2014-05-26 18:57:25] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:27] [ID=0x000003a5]set basic info[coin=20460,money=33,exp=57,powerpoint=0,honour=0,level=7][-1300,0,0,0,0]
+[2014-05-26 18:57:27] [ID=0x000003a5]level up player,ID=0x0a401001,step=7
+[2014-05-26 18:57:27] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a401001
+[2014-05-26 18:57:32] [ID=0x000003a5]set basic info[coin=19160,money=33,exp=57,powerpoint=0,honour=0,level=7][-1300,0,0,0,0]
+[2014-05-26 18:57:32] [ID=0x000003a5]level up player,ID=0x0a204001,step=7
+[2014-05-26 18:57:32] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a204001
+[2014-05-26 18:57:44] [ID=0x000003a5]set basic info[coin=17860,money=33,exp=57,powerpoint=0,honour=0,level=7][-1300,0,0,0,0]
+[2014-05-26 18:57:44] [ID=0x000003a5]level up player,ID=0x0a205002,step=7
+[2014-05-26 18:57:44] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a205002
+[2014-05-26 18:57:59] [ID=0x000003a5]set basic info[coin=16560,money=33,exp=57,powerpoint=0,honour=0,level=7][-1300,0,0,0,0]
+[2014-05-26 18:57:59] [ID=0x000003a5]level up player,ID=0x0a201001,step=7
+[2014-05-26 18:57:59] [ID=0x000003a5]level up item, idx = 0, player ID = 0x0a201001
+[2014-05-26 18:57:59] [ID=0x000003a7]get reward
+[2014-05-26 18:57:59] [ID=0x000003a7]get reward
+[2014-05-26 18:57:59] [ID=0x000003a7]set basic info[coin=8020,money=9,exp=52,powerpoint=0,honour=0,level=4][0,0,0,0,0]
+[2014-05-26 18:57:59] [ID=0x000003a7]get item,ID = 0x04010002
+[2014-05-26 18:57:59] [ID=0x000003a7]set basic info[coin=8020,money=9,exp=52,powerpoint=0,honour=0,level=4][770,3,99,0,0]
+[2014-05-26 18:57:59] [ID=0x000003a7]get item,ID = 0x0c101002
+[2014-05-26 18:57:59] [ID=0x000003a7]get item,ID = 0x17010203
+[2014-05-26 18:57:59] [ID=0x000003a7]get item,ID = 0xcdcdcdcd
+[2014-05-26 18:58:06] [ID=0x000003a7]clear map, type = 0
+[2014-05-26 19:00:50] [ID=0x0000008d]set basic info[coin=12354266,money=96404,exp=467,powerpoint=17259,honour=220,level=19][0,-6,0,0,0]
+[2014-05-26 19:00:50] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000001
+[2014-05-26 19:00:50] [ID=0x0000008d]get reward
+[2014-05-26 19:00:50] [ID=0x0000008d]set basic info[coin=12354266,money=96404,exp=467,powerpoint=17259,honour=220,level=19][0,0,0,0,0]
+[2014-05-26 19:01:11] [ID=0x000003a5]get reward
+[2014-05-26 19:01:11] [ID=0x000003a5]set basic info[coin=17880,money=33,exp=165,powerpoint=0,honour=0,level=7][1320,0,108,0,0]
+[2014-05-26 19:01:11] [ID=0x000003a5]get item,ID = 0x17020101
+[2014-05-26 19:01:11] [ID=0x000003a5]get item,ID = 0xcdcdcdcd
+[2014-05-26 19:01:17] [ID=0x000003a7]get reward
+[2014-05-26 19:01:17] [ID=0x000003a7]set basic info[coin=9340,money=15,exp=163,powerpoint=0,honour=0,level=4][1320,6,111,0,0]
+[2014-05-26 19:01:17] [ID=0x000003a7]get item,ID = 0x0c103001
+[2014-05-26 19:01:17] [ID=0x000003a7]get item,ID = 0xabababab
+[2014-05-26 19:01:23] [ID=0x000003a7]clear map, type = 0
+[2014-05-26 19:01:27] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 19:02:37] [ID=0x0000008d]get reward
+[2014-05-26 19:02:37] [ID=0x0000008d]set basic info[coin=12356246,money=96410,exp=631,powerpoint=17259,honour=220,level=19][1980,6,164,0,0]
+[2014-05-26 19:02:37] [ID=0x0000008d]get item,ID = 0x17020103
+[2014-05-26 19:02:37] [ID=0x0000008d]get item,ID = 0xcdcdcdcd
+[2014-05-26 19:02:57] [ID=0x0000008d]clear map, type = 0
+[2014-05-26 19:05:05] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=0,honour=0,level=7][0,-30,0,0,0]
+[2014-05-26 19:05:05] [ID=0x000003a5]get reward
+[2014-05-26 19:05:05] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 19:05:05] [ID=0x000003a5]get item,ID = 0x0c10200e
+[2014-05-26 19:05:05] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 19:05:17] [ID=0x000003a5]get reward
+[2014-05-26 19:05:17] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 19:05:17] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 19:05:36] [ID=0x000003a5]get reward
+[2014-05-26 19:05:36] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 19:05:36] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 19:05:45] [ID=0x000003a5]get reward
+[2014-05-26 19:05:45] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=0,honour=0,level=7][0,0,0,0,0]
+[2014-05-26 19:05:45] [ID=0x000003a5]get luck, luck ID = 0x16000007, count = 1
+[2014-05-26 20:51:52] [ID=0x000003a5]select equipment packageIdx = 10, itemID = 0x0c200002, oldItemID = 0x00000000
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item start,delete type=1
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c105001,level=1,step=1,package idx=7
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c105001,level=1,step=1,package idx=11
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c105001,level=1,step=1,package idx=13
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c105001,level=1,step=1,package idx=5
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c105001,level=1,step=1,package idx=3
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c101001,level=1,step=1,package idx=9
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c101001,level=1,step=1,package idx=8
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c101001,level=1,step=1,package idx=1
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c104001,level=1,step=1,package idx=4
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c104001,level=1,step=1,package idx=2
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c104001,level=1,step=1,package idx=6
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item info,ID=0x0c104001,level=1,step=1,package idx=12
+[2014-05-26 20:52:19] [ID=0x000003a5]set basic info[coin=17880,money=3,exp=165,powerpoint=192,honour=0,level=7][0,0,0,192,0]
+[2014-05-26 20:52:19] [ID=0x000003a5]delete item end
+[2014-05-26 20:52:29] [ID=0x000003a5]set basic info[coin=17780,money=3,exp=165,powerpoint=172,honour=0,level=7][-100,0,0,-20,0]
+[2014-05-26 20:52:29] [ID=0x000003a5]level up equipment,ID=0x0c10500e,level=2
+[2014-05-26 20:52:29] [ID=0x000003a5]level up item, idx = 202395662, player ID = 0x0a205002
+[2014-05-26 20:52:32] [ID=0x000003a5]set basic info[coin=17670,money=3,exp=165,powerpoint=137,honour=0,level=7][-110,0,0,-35,0]
+[2014-05-26 20:52:32] [ID=0x000003a5]level up equipment,ID=0x0c10500e,level=3
+[2014-05-26 20:52:32] [ID=0x000003a5]level up item, idx = 202395662, player ID = 0x0a205002
+[2014-05-26 20:52:35] [ID=0x000003a5]set basic info[coin=17490,money=3,exp=165,powerpoint=77,honour=0,level=7][-180,0,0,-60,0]
+[2014-05-26 20:52:35] [ID=0x000003a5]level up equipment,ID=0x0c10500e,level=4
+[2014-05-26 20:52:35] [ID=0x000003a5]level up item, idx = 202395662, player ID = 0x0a205002
+[2014-05-26 20:52:50] [ID=0x000003a5]set basic info[coin=17390,money=3,exp=165,powerpoint=57,honour=0,level=7][-100,0,0,-20,0]
+[2014-05-26 20:52:50] [ID=0x000003a5]level up equipment,ID=0x0c200002,level=2
+[2014-05-26 20:52:50] [ID=0x000003a5]level up item, idx = 203423746, player ID = 0x0a205002
+[2014-05-26 20:52:53] [ID=0x000003a5]set basic info[coin=17280,money=3,exp=165,powerpoint=22,honour=0,level=7][-110,0,0,-35,0]
+[2014-05-26 20:52:53] [ID=0x000003a5]level up equipment,ID=0x0c200002,level=3
+[2014-05-26 20:52:53] [ID=0x000003a5]level up item, idx = 203423746, player ID = 0x0a205002
+[2014-05-26 20:53:09] [ID=0x000003a5]set basic info[coin=17180,money=3,exp=165,powerpoint=2,honour=0,level=7][-100,0,0,-20,0]
+[2014-05-26 20:53:09] [ID=0x000003a5]level up equipment,ID=0x0c10400b,level=2
+[2014-05-26 20:53:09] [ID=0x000003a5]level up item, idx = 202391563, player ID = 0x0a204001
+[2014-05-26 20:55:32] [ID=0x000003a5]get reward
+[2014-05-26 20:55:32] [ID=0x000003a5]set basic info[coin=18160,money=6,exp=274,powerpoint=2,honour=0,level=7][980,3,109,0,0]
+[2014-05-26 20:55:32] [ID=0x000003a5]get item,ID = 0x0c20000a
+[2014-05-26 20:55:32] [ID=0x000003a5]get item,ID = 0xabababab
+[2014-05-26 20:55:38] [ID=0x000003a5]clear map, type = 0
+[2014-05-26 21:04:57] [ID=0x000000ff]compose item ID = 0x0a202001
+[2014-05-26 21:06:17] [ID=0x000000ff]update team info,type=1
+[2014-05-26 21:06:25] [ID=0x000000ff]set basic info[coin=110670,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-50,0,0,0,0]
+[2014-05-26 21:06:25] [ID=0x000000ff]level up player,ID=0x0a202001,step=2
+[2014-05-26 21:06:25] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:26] [ID=0x000000ff]set basic info[coin=110610,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-60,0,0,0,0]
+[2014-05-26 21:06:26] [ID=0x000000ff]level up player,ID=0x0a202001,step=3
+[2014-05-26 21:06:26] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:26] [ID=0x000000ff]set basic info[coin=110480,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-130,0,0,0,0]
+[2014-05-26 21:06:26] [ID=0x000000ff]level up player,ID=0x0a202001,step=4
+[2014-05-26 21:06:26] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:27] [ID=0x000000ff]set basic info[coin=110160,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-320,0,0,0,0]
+[2014-05-26 21:06:27] [ID=0x000000ff]level up player,ID=0x0a202001,step=5
+[2014-05-26 21:06:27] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:27] [ID=0x000000ff]set basic info[coin=109470,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-690,0,0,0,0]
+[2014-05-26 21:06:27] [ID=0x000000ff]level up player,ID=0x0a202001,step=6
+[2014-05-26 21:06:27] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:27] [ID=0x000000ff]set basic info[coin=108170,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-1300,0,0,0,0]
+[2014-05-26 21:06:27] [ID=0x000000ff]level up player,ID=0x0a202001,step=7
+[2014-05-26 21:06:27] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:28] [ID=0x000000ff]set basic info[coin=105960,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-2210,0,0,0,0]
+[2014-05-26 21:06:28] [ID=0x000000ff]level up player,ID=0x0a202001,step=8
+[2014-05-26 21:06:28] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:28] [ID=0x000000ff]set basic info[coin=102480,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-3480,0,0,0,0]
+[2014-05-26 21:06:28] [ID=0x000000ff]level up player,ID=0x0a202001,step=9
+[2014-05-26 21:06:28] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:28] [ID=0x000000ff]set basic info[coin=97310,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-5170,0,0,0,0]
+[2014-05-26 21:06:28] [ID=0x000000ff]level up player,ID=0x0a202001,step=10
+[2014-05-26 21:06:28] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:29] [ID=0x000000ff]set basic info[coin=89970,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-7340,0,0,0,0]
+[2014-05-26 21:06:29] [ID=0x000000ff]level up player,ID=0x0a202001,step=11
+[2014-05-26 21:06:29] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:30] [ID=0x000000ff]set basic info[coin=79920,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-10050,0,0,0,0]
+[2014-05-26 21:06:30] [ID=0x000000ff]level up player,ID=0x0a202001,step=12
+[2014-05-26 21:06:30] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:30] [ID=0x000000ff]set basic info[coin=66560,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-13360,0,0,0,0]
+[2014-05-26 21:06:30] [ID=0x000000ff]level up player,ID=0x0a202001,step=13
+[2014-05-26 21:06:30] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:30] [ID=0x000000ff]set basic info[coin=49230,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-17330,0,0,0,0]
+[2014-05-26 21:06:30] [ID=0x000000ff]level up player,ID=0x0a202001,step=14
+[2014-05-26 21:06:30] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:06:31] [ID=0x000000ff]set basic info[coin=27210,money=99825,exp=2149,powerpoint=88,honour=0,level=22][-22020,0,0,0,0]
+[2014-05-26 21:06:31] [ID=0x000000ff]level up player,ID=0x0a202001,step=15
+[2014-05-26 21:06:31] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a202001
+[2014-05-26 21:07:13] [ID=0x000000ff]get pvp opponent,seasonID = 16216, pvpType=0, opponent ID = 0x0000008d, seed = 12896
+[2014-05-26 21:08:28] [ID=0x000000ff]set basic info[coin=27210,money=99825,exp=2149,powerpoint=88,honour=2,level=22][0,0,0,0,2]
+[2014-05-26 21:08:28] [ID=0x000000ff]clear map, type = 1
+[2014-05-26 21:08:41] [ID=0x000000ff]get reward
+[2014-05-26 21:08:41] [ID=0x000000ff]set basic info[coin=127210,money=99855,exp=2149,powerpoint=88,honour=2,level=22][100000,30,0,0,0]
+[2014-05-26 21:08:41] [ID=0x000000ff]get map group reward,Group ID = 0x24001001, index = 2
+[2014-05-26 21:08:44] [ID=0x000000ff]get reward
+[2014-05-26 21:08:44] [ID=0x000000ff]set basic info[coin=177210,money=99885,exp=2149,powerpoint=88,honour=2,level=22][50000,30,0,0,0]
+[2014-05-26 21:08:44] [ID=0x000000ff]get map group reward,Group ID = 0x24001001, index = 1
+[2014-05-26 21:08:46] [ID=0x000000ff]get reward
+[2014-05-26 21:08:46] [ID=0x000000ff]set basic info[coin=187210,money=99885,exp=2149,powerpoint=88,honour=2,level=22][10000,0,0,0,0]
+[2014-05-26 21:08:46] [ID=0x000000ff]get map group reward,Group ID = 0x24001001, index = 0
+[2014-05-26 21:08:58] [ID=0x000000ff]get reward
+[2014-05-26 21:08:58] [ID=0x000000ff]set basic info[coin=267210,money=99915,exp=2149,powerpoint=88,honour=2,level=22][80000,30,0,0,0]
+[2014-05-26 21:08:58] [ID=0x000000ff]get map group reward,Group ID = 0x24001002, index = 1
+[2014-05-26 21:09:00] [ID=0x000000ff]get reward
+[2014-05-26 21:09:00] [ID=0x000000ff]set basic info[coin=287210,money=99915,exp=2149,powerpoint=88,honour=2,level=22][20000,0,0,0,0]
+[2014-05-26 21:09:00] [ID=0x000000ff]get map group reward,Group ID = 0x24001002, index = 0
+[2014-05-26 21:09:31] [ID=0x000000ff]set basic info[coin=287210,money=99615,exp=2149,powerpoint=88,honour=2,level=22][0,-300,0,0,0]
+[2014-05-26 21:09:31] [ID=0x000000ff]get reward
+[2014-05-26 21:09:31] [ID=0x000000ff]set basic info[coin=287210,money=99615,exp=2149,powerpoint=88,honour=2,level=22][0,0,0,0,0]
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c10400d
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c10400e
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c200021
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c101013
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c10300e
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c303007
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c10500d
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c10500e
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c302007
+[2014-05-26 21:09:31] [ID=0x000000ff]get item,ID = 0x0c303008
+[2014-05-26 21:09:31] [ID=0x000000ff]get luck, luck ID = 0x16000007, count = 10
+[2014-05-26 21:20:21] [ID=0x000000ff]select equipment packageIdx = 4, itemID = 0x0c10300d, oldItemID = 0x0c10300e
+[2014-05-26 21:20:38] [ID=0x000000ff]select equipment packageIdx = 18, itemID = 0x0c20002a, oldItemID = 0x0c200014
+[2014-05-26 21:21:15] [ID=0x000000ff]select equipment packageIdx = 32, itemID = 0x0c101013, oldItemID = 0x0c101001
+[2014-05-26 21:21:23] [ID=0x000000ff]select equipment packageIdx = 31, itemID = 0x0c200021, oldItemID = 0x00000000
+[2014-05-26 21:21:36] [ID=0x000000ff]select equipment packageIdx = 22, itemID = 0x0c10400e, oldItemID = 0x0c104001
+[2014-05-26 21:21:48] [ID=0x000000ff]select equipment packageIdx = 36, itemID = 0x0c10500e, oldItemID = 0x0c105001
+[2014-05-26 21:21:54] [ID=0x000000ff]select equipment packageIdx = 25, itemID = 0x0c200020, oldItemID = 0x00000000
+[2014-05-26 21:21:59] [ID=0x000000ff]select equipment packageIdx = 26, itemID = 0x0c20001f, oldItemID = 0x0c200020
+[2014-05-26 21:22:19] [ID=0x000000ff]update team info,type=0
+[2014-05-26 21:23:09] [ID=0x000000ff]select equipment packageIdx = 21, itemID = 0x0c10100e, oldItemID = 0x0c101013
+[2014-05-26 21:23:24] [ID=0x000000ff]select equipment packageIdx = 21, itemID = 0x0c101013, oldItemID = 0x0c101001
+[2014-05-26 21:23:28] [ID=0x000000ff]set basic info[coin=287110,money=99615,exp=2149,powerpoint=68,honour=2,level=22][-100,0,0,-20,0]
+[2014-05-26 21:23:28] [ID=0x000000ff]level up equipment,ID=0x0c101013,level=2
+[2014-05-26 21:23:28] [ID=0x000000ff]level up item, idx = 202379283, player ID = 0x0a101001
+[2014-05-26 21:23:30] [ID=0x000000ff]set basic info[coin=287000,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-110,0,0,-35,0]
+[2014-05-26 21:23:30] [ID=0x000000ff]level up equipment,ID=0x0c101013,level=3
+[2014-05-26 21:23:30] [ID=0x000000ff]level up item, idx = 202379283, player ID = 0x0a101001
+[2014-05-26 21:23:48] [ID=0x000000ff]set basic info[coin=286950,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-50,0,0,0,0]
+[2014-05-26 21:23:48] [ID=0x000000ff]level up player,ID=0x0a101001,step=2
+[2014-05-26 21:23:48] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:23:50] [ID=0x000000ff]set basic info[coin=286890,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-60,0,0,0,0]
+[2014-05-26 21:23:50] [ID=0x000000ff]level up player,ID=0x0a101001,step=3
+[2014-05-26 21:23:50] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:23:53] [ID=0x000000ff]set basic info[coin=286760,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-130,0,0,0,0]
+[2014-05-26 21:23:53] [ID=0x000000ff]level up player,ID=0x0a101001,step=4
+[2014-05-26 21:23:53] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:23:59] [ID=0x000000ff]set basic info[coin=286440,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-320,0,0,0,0]
+[2014-05-26 21:23:59] [ID=0x000000ff]level up player,ID=0x0a101001,step=5
+[2014-05-26 21:23:59] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:04] [ID=0x000000ff]set basic info[coin=285750,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-690,0,0,0,0]
+[2014-05-26 21:24:04] [ID=0x000000ff]level up player,ID=0x0a101001,step=6
+[2014-05-26 21:24:04] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:06] [ID=0x000000ff]set basic info[coin=284450,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-1300,0,0,0,0]
+[2014-05-26 21:24:06] [ID=0x000000ff]level up player,ID=0x0a101001,step=7
+[2014-05-26 21:24:06] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:08] [ID=0x000000ff]set basic info[coin=282240,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-2210,0,0,0,0]
+[2014-05-26 21:24:08] [ID=0x000000ff]level up player,ID=0x0a101001,step=8
+[2014-05-26 21:24:08] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:11] [ID=0x000000ff]set basic info[coin=278760,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-3480,0,0,0,0]
+[2014-05-26 21:24:11] [ID=0x000000ff]level up player,ID=0x0a101001,step=9
+[2014-05-26 21:24:11] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:13] [ID=0x000000ff]set basic info[coin=273590,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-5170,0,0,0,0]
+[2014-05-26 21:24:13] [ID=0x000000ff]level up player,ID=0x0a101001,step=10
+[2014-05-26 21:24:13] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:15] [ID=0x000000ff]set basic info[coin=266250,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-7340,0,0,0,0]
+[2014-05-26 21:24:15] [ID=0x000000ff]level up player,ID=0x0a101001,step=11
+[2014-05-26 21:24:15] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:18] [ID=0x000000ff]set basic info[coin=256200,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-10050,0,0,0,0]
+[2014-05-26 21:24:18] [ID=0x000000ff]level up player,ID=0x0a101001,step=12
+[2014-05-26 21:24:18] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:20] [ID=0x000000ff]set basic info[coin=242840,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-13360,0,0,0,0]
+[2014-05-26 21:24:20] [ID=0x000000ff]level up player,ID=0x0a101001,step=13
+[2014-05-26 21:24:20] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:22] [ID=0x000000ff]set basic info[coin=225510,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-17330,0,0,0,0]
+[2014-05-26 21:24:22] [ID=0x000000ff]level up player,ID=0x0a101001,step=14
+[2014-05-26 21:24:22] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:23] [ID=0x000000ff]set basic info[coin=203490,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-22020,0,0,0,0]
+[2014-05-26 21:24:23] [ID=0x000000ff]level up player,ID=0x0a101001,step=15
+[2014-05-26 21:24:23] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:24] [ID=0x000000ff]set basic info[coin=176000,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-27490,0,0,0,0]
+[2014-05-26 21:24:24] [ID=0x000000ff]level up player,ID=0x0a101001,step=16
+[2014-05-26 21:24:24] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:26] [ID=0x000000ff]set basic info[coin=142200,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-33800,0,0,0,0]
+[2014-05-26 21:24:26] [ID=0x000000ff]level up player,ID=0x0a101001,step=17
+[2014-05-26 21:24:26] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:27] [ID=0x000000ff]set basic info[coin=101190,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-41010,0,0,0,0]
+[2014-05-26 21:24:27] [ID=0x000000ff]level up player,ID=0x0a101001,step=18
+[2014-05-26 21:24:27] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:24:28] [ID=0x000000ff]set basic info[coin=52010,money=99615,exp=2149,powerpoint=33,honour=2,level=22][-49180,0,0,0,0]
+[2014-05-26 21:24:28] [ID=0x000000ff]level up player,ID=0x0a101001,step=19
+[2014-05-26 21:24:28] [ID=0x000000ff]level up item, idx = 0, player ID = 0x0a101001
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item start,delete type=1
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item info,ID=0x0c105001,level=1,step=1,package idx=36
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item info,ID=0x0c104001,level=1,step=1,package idx=22
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item info,ID=0x0c102003,level=1,step=1,package idx=27
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item info,ID=0x0c101001,level=1,step=1,package idx=21
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item info,ID=0x0c101001,level=1,step=1,package idx=32
+[2014-05-26 21:25:11] [ID=0x000000ff]set basic info[coin=52010,money=99615,exp=2149,powerpoint=113,honour=2,level=22][0,0,0,80,0]
+[2014-05-26 21:25:11] [ID=0x000000ff]delete item end
+[2014-05-26 21:25:16] [ID=0x000000ff]delete item start,delete type=1
+[2014-05-26 21:25:16] [ID=0x000000ff]delete item info,ID=0x0c105007,level=1,step=1,package idx=28
+[2014-05-26 21:25:16] [ID=0x000000ff]delete item info,ID=0x0c101006,level=1,step=1,package idx=10
+[2014-05-26 21:25:16] [ID=0x000000ff]set basic info[coin=52010,money=99615,exp=2149,powerpoint=155,honour=2,level=22][0,0,0,42,0]
+[2014-05-26 21:25:16] [ID=0x000000ff]delete item end
+[2014-05-26 21:25:21] [ID=0x000000ff]set basic info[coin=51910,money=99615,exp=2149,powerpoint=135,honour=2,level=22][-100,0,0,-20,0]
+[2014-05-26 21:25:21] [ID=0x000000ff]level up equipment,ID=0x0c10300f,level=2
+[2014-05-26 21:25:21] [ID=0x000000ff]level up item, idx = 202387471, player ID = 0x0a203001
+[2014-05-26 21:25:23] [ID=0x000000ff]set basic info[coin=51800,money=99615,exp=2149,powerpoint=100,honour=2,level=22][-110,0,0,-35,0]
+[2014-05-26 21:25:23] [ID=0x000000ff]level up equipment,ID=0x0c10300f,level=3
+[2014-05-26 21:25:23] [ID=0x000000ff]level up item, idx = 202387471, player ID = 0x0a203001
+[2014-05-26 21:25:26] [ID=0x000000ff]set basic info[coin=51620,money=99615,exp=2149,powerpoint=40,honour=2,level=22][-180,0,0,-60,0]
+[2014-05-26 21:25:26] [ID=0x000000ff]level up equipment,ID=0x0c10300f,level=4
+[2014-05-26 21:25:26] [ID=0x000000ff]level up item, idx = 202387471, player ID = 0x0a203001
+[2014-05-26 21:25:57] [ID=0x000000ff]select equipment packageIdx = 28, itemID = 0x0c303008, oldItemID = 0x0c301009
+[2014-05-26 21:26:01] [ID=0x000000ff]select equipment packageIdx = 4, itemID = 0x0c10300e, oldItemID = 0x0c10300f
+[2014-05-26 21:26:12] [ID=0x000000ff]select equipment packageIdx = 28, itemID = 0x0c301009, oldItemID = 0x0c303008
+[2014-05-26 21:26:21] [ID=0x000000ff]set basic info[coin=51520,money=99615,exp=2149,powerpoint=20,honour=2,level=22][-100,0,0,-20,0]
+[2014-05-26 21:26:21] [ID=0x000000ff]level up equipment,ID=0x0c20002a,level=2
+[2014-05-26 21:26:21] [ID=0x000000ff]level up item, idx = 203423786, player ID = 0x0a103001
+[2014-05-26 21:32:38] [ID=0x000000ff]get reward
+[2014-05-26 21:32:38] [ID=0x000000ff]set basic info[coin=53720,money=99617,exp=2333,powerpoint=20,honour=2,level=22][2200,2,184,0,0]
+[2014-05-26 21:32:38] [ID=0x000000ff]get item,ID = 0x0c301002
+[2014-05-26 21:32:38] [ID=0x000000ff]get item,ID = 0xabababab
+[2014-05-26 21:32:46] [ID=0x000000ff]clear map, type = 0
+[2014-05-26 21:35:14] [ID=0x000000ff]get reward
+[2014-05-26 21:35:14] [ID=0x000000ff]set basic info[coin=55810,money=99619,exp=2523,powerpoint=20,honour=2,level=22][2090,2,190,0,0]
+[2014-05-26 21:35:14] [ID=0x000000ff]get item,ID = 0x0c20000c
+[2014-05-26 21:35:14] [ID=0x000000ff]get item,ID = 0xabababab
+[2014-05-26 21:35:21] [ID=0x000000ff]clear map, type = 0

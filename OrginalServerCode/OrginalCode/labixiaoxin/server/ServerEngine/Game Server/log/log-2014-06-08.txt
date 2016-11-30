@@ -1,0 +1,18 @@
+[2014-06-08 10:41:28] [ID=0x0000008d]get reward
+[2014-06-08 10:41:28] [ID=0x0000008d]set basic info[coin=2929617,money=95040,exp=1779,powerpoint=1168,honour=97,level=21][2280,0,288,0,0]
+[2014-06-08 10:41:28] [ID=0x0000008d]get item,ID = 0x0c101001
+[2014-06-08 10:41:28] [ID=0x0000008d]get item,ID = 0x0c101001
+[2014-06-08 10:41:33] [ID=0x0000008d]clear map, type = 0
+[2014-06-08 10:42:01] [ID=0x0000008d]get pvp opponent,seasonID = 2318, pvpType=0, opponent ID = 0x000000f1, seed = 11420
+[2014-06-08 10:42:25] [ID=0x0000008d]set basic info[coin=2929617,money=95040,exp=1779,powerpoint=1168,honour=101,level=21][0,0,0,0,4]
+[2014-06-08 10:42:25] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-06-08 10:43:41] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-06-08 10:43:41] [ID=0x0000008d]get reward
+[2014-06-08 10:43:41] [ID=0x0000008d]set basic info[coin=2930117,money=95040,exp=1779,powerpoint=1168,honour=101,level=21][500,0,0,0,0]
+[2014-06-08 10:43:50] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-06-08 10:43:50] [ID=0x0000008d]get reward
+[2014-06-08 10:43:50] [ID=0x0000008d]set basic info[coin=2930117,money=95040,exp=1779,powerpoint=1168,honour=101,level=21][0,0,0,0,0]
+[2014-06-08 10:44:09] [ID=0x0000008d]update team info,type=0
+[2014-06-08 10:44:49] [ID=0x0000008d]update team info,type=0
+[2014-06-08 10:44:50] [ID=0x0000008d]update team info,type=1
+[2014-06-08 10:48:15] [ID=0x0000008d]update team info,type=0

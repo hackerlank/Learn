@@ -1,0 +1,25 @@
+[2014-02-10 09:31:54] [ID=0x00000138]set basic info[coin=1197094,money=73,exp=3541,powerpoint=995,level29][0,2,0,0]
+[2014-02-10 11:23:23] [ID=0x00000303]set basic info[coin=5000,money=1,exp=0,powerpoint=0,level1][0,1,0,0]
+[2014-02-10 12:06:48] [ID=0x0000008d]set basic info[coin=300500,money=818,exp=751,powerpoint=3191,level16][0,1,0,0]
+[2014-02-10 12:15:52] [ID=0x00000304]set basic info[coin=5000,money=1,exp=0,powerpoint=0,level1][0,1,0,0]
+[2014-02-10 13:49:51] [ID=0x00000212]set basic info[coin=8985,money=28,exp=548,powerpoint=746,level27][0,1,0,0]
+[2014-02-10 13:50:45] [ID=0x00000212]set basic info[coin=8985,money=53,exp=548,powerpoint=746,level27][0,25,0,0]
+[2014-02-10 13:50:53] [ID=0x00000212]get luck
+[2014-02-10 13:50:53] [ID=0x00000212]set basic info[coin=8985,money=23,exp=548,powerpoint=746,level27][0,-30,0,0]
+[2014-02-10 13:50:53] [ID=0x00000212]get item,ID = 0x0c10200c
+[2014-02-10 13:54:46] [ID=0x00000212]get reward
+[2014-02-10 13:54:46] [ID=0x00000212]set basic info[coin=68685,money=23,exp=548,powerpoint=746,level27][59700,0,0,0]
+[2014-02-10 13:55:44] [ID=0x00000212]set basic info[coin=68685,money=5,exp=548,powerpoint=746,level27][0,-18,0,0]
+[2014-02-10 13:57:50] [ID=0x00000212]get reward
+[2014-02-10 13:57:50] [ID=0x00000212]set basic info[coin=271583,money=5,exp=548,powerpoint=746,level27][202898,0,0,0]
+[2014-02-10 13:58:16] [ID=0x00000212]set basic info[coin=222403,money=5,exp=548,powerpoint=746,level27][-49180,0,0,0]
+[2014-02-10 13:58:16] [ID=0x00000212]level up player,ID=0x0a201001,step=19
+[2014-02-10 13:58:16] [ID=0x00000212]set basic info[coin=164033,money=5,exp=548,powerpoint=746,level27][-58370,0,0,0]
+[2014-02-10 13:58:16] [ID=0x00000212]level up player,ID=0x0a201001,step=20
+[2014-02-10 13:58:17] [ID=0x00000212]set basic info[coin=95393,money=5,exp=548,powerpoint=746,level27][-68640,0,0,0]
+[2014-02-10 13:58:17] [ID=0x00000212]level up player,ID=0x0a201001,step=21
+[2014-02-10 13:58:19] [ID=0x00000212]set basic info[coin=15343,money=5,exp=548,powerpoint=746,level27][-80050,0,0,0]
+[2014-02-10 13:58:19] [ID=0x00000212]level up player,ID=0x0a201001,step=22
+[2014-02-10 13:58:21] [ID=0x00000212]set basic info[coin=1983,money=5,exp=548,powerpoint=746,level27][-13360,0,0,0]
+[2014-02-10 13:58:21] [ID=0x00000212]level up player,ID=0x0a204001,step=13
+[2014-02-10 17:02:49] [ID=0x00000305]set basic info[coin=5000,money=1,exp=0,powerpoint=0,level1][0,1,0,0]

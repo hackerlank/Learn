@@ -1,0 +1,54 @@
+[2014-05-13 13:02:36] [ID=0x0000008d]update team info,type=1
+[2014-05-13 13:02:43] [ID=0x0000008d]update team info,type=0
+[2014-05-13 13:03:07] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-05-13 13:03:07] [ID=0x0000008d]get reward
+[2014-05-13 13:03:07] [ID=0x0000008d]set basic info[coin=12230220,money=95520,exp=1189,powerpoint=12015,honour=34,level=16][0,0,0,0,0]
+[2014-05-13 13:03:12] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-05-13 13:03:12] [ID=0x0000008d]get reward
+[2014-05-13 13:03:12] [ID=0x0000008d]set basic info[coin=12230720,money=95520,exp=1189,powerpoint=12015,honour=34,level=16][500,0,0,0,0]
+[2014-05-13 13:03:34] [ID=0x0000008d]get reward
+[2014-05-13 13:03:34] [ID=0x0000008d]set basic info[coin=12230720,money=96020,exp=1189,powerpoint=12015,honour=34,level=16][0,500,0,0,0]
+[2014-05-13 13:03:34] [ID=0x0000008d]get pvp reward ID = 0x22000001
+[2014-05-13 13:11:04] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000023
+[2014-05-13 13:11:04] [ID=0x0000008d]get reward
+[2014-05-13 13:11:04] [ID=0x0000008d]set basic info[coin=12230720,money=96022,exp=1189,powerpoint=12015,honour=34,level=16][0,2,0,0,0]
+[2014-05-13 13:17:17] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000006
+[2014-05-13 13:17:17] [ID=0x0000008d]get reward
+[2014-05-13 13:17:17] [ID=0x0000008d]set basic info[coin=12330720,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][100000,10,0,0,0]
+[2014-05-13 18:07:58] [ID=0x0000008d]get reward
+[2014-05-13 18:07:58] [ID=0x0000008d]set basic info[coin=12340720,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][10000,0,0,0,0]
+[2014-05-13 18:07:58] [ID=0x0000008d]get map group reward,Group ID = 0x24001001, index = 0
+[2014-05-13 18:09:49] [ID=0x0000008d]get reward
+[2014-05-13 18:09:49] [ID=0x0000008d]set basic info[coin=12360720,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][20000,0,0,0,0]
+[2014-05-13 18:09:49] [ID=0x0000008d]get map group reward,Group ID = 0x24001002, index = 0
+[2014-05-13 18:49:26] [ID=0x000000f1]get reward
+[2014-05-13 18:49:26] [ID=0x000000f1]set basic info[coin=6968003,money=137639,exp=2531,powerpoint=2026,honour=108,level=20][10000,0,0,0,0]
+[2014-05-13 18:49:26] [ID=0x000000f1]get map group reward,Group ID = 0x24001001, index = 0
+[2014-05-13 19:16:19] [ID=0x000000ff]get reward
+[2014-05-13 19:16:19] [ID=0x000000ff]set basic info[coin=1095618,money=100044,exp=719,powerpoint=15,honour=0,level=22][10000,0,0,0,0]
+[2014-05-13 19:16:19] [ID=0x000000ff]get map group reward,Group ID = 0x24001001, index = 0
+[2014-05-13 19:20:23] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-05-13 19:20:23] [ID=0x0000008d]get reward
+[2014-05-13 19:20:23] [ID=0x0000008d]set basic info[coin=12360720,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][0,0,0,0,0]
+[2014-05-13 19:22:42] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-05-13 19:22:42] [ID=0x0000008d]get reward
+[2014-05-13 19:22:42] [ID=0x0000008d]set basic info[coin=12361220,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][500,0,0,0,0]
+[2014-05-13 19:23:00] [ID=0x0000008d]get reward
+[2014-05-13 19:23:00] [ID=0x0000008d]set basic info[coin=12361220,money=96032,exp=1189,powerpoint=12015,honour=34,level=16][0,0,0,0,0]
+[2014-05-13 19:23:00] [ID=0x0000008d]get item,ID = 0x0c200026
+[2014-05-13 19:23:00] [ID=0x0000008d]get luck, luck ID = 0x16000008, count = 1
+[2014-05-13 21:09:41] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:13:07] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:18:16] [ID=0x0000008d]clear map, type = 0
+[2014-05-13 21:21:17] [ID=0x0000008d]clear map, type = 0
+[2014-05-13 21:23:14] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:25:12] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:25:32] [ID=0x0000008d]clear map, type = 0
+[2014-05-13 21:28:05] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:29:56] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:32:11] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:34:34] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:35:31] [ID=0x000000f1]clear map, type = 0
+[2014-05-13 21:38:56] [ID=0x0000008d]clear map, type = 0
+[2014-05-13 21:44:34] [ID=0x0000008d]clear map, type = 0
+[2014-05-13 21:49:15] [ID=0x0000008d]clear map, type = 0

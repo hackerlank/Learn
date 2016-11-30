@@ -1,0 +1,21 @@
+[2014-05-25 09:17:07] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-05-25 09:17:07] [ID=0x0000008d]get reward
+[2014-05-25 09:17:07] [ID=0x0000008d]set basic info[coin=12330815,money=95759,exp=2575,powerpoint=13978,honour=164,level=18][500,0,0,0,0]
+[2014-05-25 09:17:42] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-05-25 09:17:42] [ID=0x0000008d]get reward
+[2014-05-25 09:17:42] [ID=0x0000008d]set basic info[coin=12330815,money=95759,exp=2575,powerpoint=13978,honour=164,level=18][0,0,0,0,0]
+[2014-05-25 09:17:56] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000023
+[2014-05-25 09:17:56] [ID=0x0000008d]get reward
+[2014-05-25 09:17:56] [ID=0x0000008d]set basic info[coin=12330815,money=95769,exp=2575,powerpoint=13978,honour=164,level=18][0,10,0,0,0]
+[2014-05-25 09:18:00] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000006
+[2014-05-25 09:18:00] [ID=0x0000008d]get reward
+[2014-05-25 09:18:00] [ID=0x0000008d]set basic info[coin=12430815,money=95779,exp=2575,powerpoint=13978,honour=164,level=18][100000,10,0,0,0]
+[2014-05-25 09:20:23] [ID=0x0000008d]get reward
+[2014-05-25 09:20:23] [ID=0x0000008d]set basic info[coin=12430815,money=96279,exp=2575,powerpoint=13978,honour=164,level=18][0,500,0,0,0]
+[2014-05-25 09:20:23] [ID=0x0000008d]get pvp reward ID = 0x22000001
+[2014-05-25 09:20:34] [ID=0x0000008d]get pvp opponent,seasonID = 16215, pvpType=0, opponent ID = 0x000000f1, seed = 28869
+[2014-05-25 09:21:37] [ID=0x0000008d]set basic info[coin=12430815,money=96279,exp=2575,powerpoint=13978,honour=168,level=18][0,0,0,0,4]
+[2014-05-25 09:21:37] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-05-25 09:24:15] [ID=0x0000008d]update team info,type=0
+[2014-05-25 09:25:09] [ID=0x0000008d]update team info,type=1
+[2014-05-25 18:17:38] [ID=0x00000138]get pvp opponent,seasonID = 16215, pvpType=0, opponent ID = 0x0000008d, seed = 58

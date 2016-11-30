@@ -1,0 +1,39 @@
+[2014-06-17 10:07:47] [ID=0x000003a7]set basic info[coin=17220,money=3,exp=173,powerpoint=151,honour=0,level=9][0,-1,0,0,0]
+[2014-06-17 10:08:09] [ID=0x000003a7]clear map, type = 0
+[2014-06-17 10:08:25] [ID=0x000003a7]clear map, type = 0
+[2014-06-17 10:18:33] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000023
+[2014-06-17 10:18:33] [ID=0x0000008d]get reward
+[2014-06-17 10:18:33] [ID=0x0000008d]set basic info[coin=239585,money=84500,exp=3806,powerpoint=1056,honour=291,level=22][0,2,0,0,0]
+[2014-06-17 10:18:35] [ID=0x0000008d]do behaviour,behaviour ID = 0x16000006
+[2014-06-17 10:18:35] [ID=0x0000008d]get reward
+[2014-06-17 10:18:35] [ID=0x0000008d]set basic info[coin=339585,money=84510,exp=3806,powerpoint=1556,honour=291,level=22][100000,10,0,500,0]
+[2014-06-17 10:18:47] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100019
+[2014-06-17 10:18:47] [ID=0x0000008d]get reward
+[2014-06-17 10:18:47] [ID=0x0000008d]set basic info[coin=339585,money=84510,exp=3806,powerpoint=1556,honour=291,level=22][0,0,0,0,0]
+[2014-06-17 10:18:52] [ID=0x0000008d]do behaviour,behaviour ID = 0x16100020
+[2014-06-17 10:18:52] [ID=0x0000008d]get reward
+[2014-06-17 10:18:52] [ID=0x0000008d]set basic info[coin=340085,money=84510,exp=3806,powerpoint=1556,honour=291,level=22][500,0,0,0,0]
+[2014-06-17 10:19:06] [ID=0x0000008d]get pvp opponent,seasonID = 2320, pvpType=0, opponent ID = 0x000000f1, seed = 32391
+[2014-06-17 10:20:00] [ID=0x0000008d]set basic info[coin=340085,money=84510,exp=3806,powerpoint=1556,honour=295,level=22][0,0,0,0,4]
+[2014-06-17 10:20:00] [ID=0x0000008d]commit pvp battle, result = 0
+[2014-06-17 10:54:04] [ID=0x000003a7]do behaviour,behaviour ID = 0x16000023
+[2014-06-17 10:54:04] [ID=0x000003a7]get reward
+[2014-06-17 10:54:04] [ID=0x000003a7]set basic info[coin=17220,money=5,exp=173,powerpoint=151,honour=0,level=9][0,2,0,0,0]
+[2014-06-17 10:54:17] [ID=0x000003a7]do behaviour,behaviour ID = 0x16100020
+[2014-06-17 10:54:17] [ID=0x000003a7]get reward
+[2014-06-17 10:54:17] [ID=0x000003a7]set basic info[coin=17270,money=5,exp=173,powerpoint=151,honour=0,level=9][50,0,0,0,0]
+[2014-06-17 10:54:20] [ID=0x000003a7]do behaviour,behaviour ID = 0x16100019
+[2014-06-17 10:54:20] [ID=0x000003a7]get reward
+[2014-06-17 10:54:20] [ID=0x000003a7]set basic info[coin=17270,money=5,exp=173,powerpoint=151,honour=0,level=9][0,0,0,0,0]
+[2014-06-17 10:54:44] [ID=0x000003a7]set basic info[coin=17270,money=4,exp=173,powerpoint=151,honour=0,level=9][0,-1,0,0,0]
+[2014-06-17 11:00:39] [ID=0x000003a7]clear map, type = 0
+[2014-06-17 16:30:52] [ID=0x0000008d]update team info,type=0
+[2014-06-17 16:30:54] [ID=0x0000008d]update team info,type=0
+[2014-06-17 16:30:55] [ID=0x0000008d]update team info,type=0
+[2014-06-17 16:31:01] [ID=0x0000008d]update team info,type=0
+[2014-06-17 16:31:03] [ID=0x0000008d]update team info,type=0
+[2014-06-17 18:30:07] [ID=0x00000138]get reward
+[2014-06-17 18:30:07] [ID=0x00000138]set basic info[coin=731024,money=82692,exp=7549,powerpoint=4384,honour=64,level=31][4320,0,395,0,0]
+[2014-06-17 18:30:07] [ID=0x00000138]get item,ID = 0x17020103
+[2014-06-17 18:30:07] [ID=0x00000138]get item,ID = 0x17020102
+[2014-06-17 18:30:07] [ID=0x00000138]get item,ID = 0x17020103
