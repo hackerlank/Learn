@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SERVICE_TYPE_SERVICE_DAEMON,
+SERVICE_TYPE_SERVICE_LOGIN,
+SERVICE_TYPE_SERVICE_GATEWAY,
+SERVICE_TYPE_SERVICE_DB,
+SERVICE_TYPE_SERVICE_MAP,
+SERVICE_TYPE_SERVICE_PHP_PROXY,
+	ERVICE_TYPE_SERVICE_USER_INFO
+-->
+
+<service_config>
+	<multicast>
+		<ip>232.1.1.1</ip>
+		<port>1000</port>
+	</multicast>
+	
+	<database>
+		<name>xiyou_db</name>
+		<host>tcp://127.0.0.1:3306</host>
+		<user>root</user>
+		<password>761103</password>
+	</database>
+	
+	<service_define_list>
+		<service_define>
+			<name>Game Server</name>
+			<id>1</id>
+			<is_serviceMgr>1</is_serviceMgr>
+		</service_define>
+		
+		<service_define>
+			<name>Daemon</name>
+			<id>2</id>
+		</service_define>
+		
+		<service_define>
+			<name>Login Server</name>
+			<id>3</id>
+		</service_define>
+		
+		<service_define>
+			<name>Gateway</name>
+			<id>4</id>
+		</service_define>
+		
+		<service_define>
+			<name>DB Server</name>
+			<id>5</id>
+		</service_define>
+		
+		<service_define>
+			<name>Map Server</name>
+			<id>6</id>
+		</service_define>
+		
+		<service_define>
+			<name>Php Proxy Server</name>
+			<id>7</id>
+		</service_define>
+		
+		<service_define>
+			<name>User Info Server</name>
+			<id>8</id>
+		</service_define>
+	</service_define_list>
+	
+	<service_instance_list>
+		<service_instance>
+			<name>Game Server</name>
+			<type>Game Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>1005</port>
+			</lan>
+			<wlan>
+				<ip>127.0.0.1</ip>
+				<port>1100</port>
+			</wlan>
+			<public>
+				<ip>127.0.0.1</ip>
+				<port>1100</port>
+			</public>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test DB Server</name>
+			<type>DB Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>5001</port>
+			</lan>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test Login Server</name>
+			<type>Login Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>3333</port>
+			</lan>
+			<wlan>
+				<ip>0.0.0.0</ip>
+				<port>1500</port>
+			</wlan>
+			<public>
+				<ip>112.65.46.154</ip>
+				<port>1500</port>
+			</public>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test Gateway</name>
+			<type>Gateway</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>4001</port>
+			</lan>
+			<wlan>
+				<ip>0.0.0.0</ip>
+				<port>1510</port>
+			</wlan>
+			<public>
+				<ip>112.65.46.154</ip>
+				<port>1510</port>
+			</public>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test Map Server</name>
+			<type>Map Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>6001</port>
+			</lan>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test Php Proxy</name>
+			<type>Php Proxy Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>7001</port>
+			</lan>
+			<wlan>
+				<ip>127.0.0.1</ip>
+				<port>1520</port>
+			</wlan>
+			<wlan>
+				<ip>127.0.0.1</ip>
+				<port>1520</port>
+			</wlan>
+			<id>1</id>
+		</service_instance>
+		
+		<service_instance>
+			<name>Test User Info Server</name>
+			<type>User Info Server</type>
+			<lan>
+				<ip>127.0.0.1</ip>
+				<port>8001</port>
+			</lan>
+			<wlan>
+				<ip>127.0.0.1</ip>
+				<port>1530</port>
+			</wlan>
+			<wlan>
+				<ip>127.0.0.1</ip>
+				<port>1530</port>
+			</wlan>
+			<id>1</id>
+		</service_instance>
+		
+	</service_instance_list>
+</service_config>

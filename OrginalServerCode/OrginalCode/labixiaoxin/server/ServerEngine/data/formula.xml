@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<formula>
+	<id>18040100</id>
+	<origin_id>0A101001</origin_id>
+	<name>天狼</name>
+	<cost>17010402,16;17020104,40;17020105,40;8A101001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040101</id>
+	<origin_id>0A102001</origin_id>
+	<name>西域使者</name>
+	<cost>17010402,16;17020101,32;17020102,32;8A102001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040102</id>
+	<origin_id>0A103001</origin_id>
+	<name>雷牙</name>
+	<cost>17010402,16;17020102,32;17020105,32;8A103001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040103</id>
+	<origin_id>0A104001</origin_id>
+	<name>绿影</name>
+	<cost>17010402,16;17020102,32;17020103,32;8A104001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040104</id>
+	<origin_id>0A105001</origin_id>
+	<name>雪灵子</name>
+	<cost>17010402,16;17020101,32;17020105,32;8A105001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040105</id>
+	<origin_id>0A201001</origin_id>
+	<name>小悟空</name>
+	<cost>17010401,16;17020101,20;17020105,20;8A201001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040106</id>
+	<origin_id>0A202001</origin_id>
+	<name>猪八戒</name>
+	<cost>17010401,16;17020104,16;17020102,16;8A202001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040107</id>
+	<origin_id>0A203001</origin_id>
+	<name>沙僧</name>
+	<cost>17010401,16;17020103,16;17020105,16;8A203001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040108</id>
+	<origin_id>0A204001</origin_id>
+	<name>萌兔精</name>
+	<cost>17010401,16;17020104,16;17020101,16;8A204001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040109</id>
+	<origin_id>0A205001</origin_id>
+	<name>紫霞仙子</name>
+	<cost>17010401,16;17020102,16;17020103,16;8A205001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040200</id>
+	<origin_id>0A201002</origin_id>
+	<name>武曲星</name>
+	<cost>17010402,16;17020104,40;17020101,40;8A201002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040201</id>
+	<origin_id>0A202002</origin_id>
+	<name>火德星君</name>
+	<cost>17010402,16;17020104,32;17020101,32;8A202002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040202</id>
+	<origin_id>0A203002</origin_id>
+	<name>龙三公主</name>
+	<cost>17010403,16;17020102,64;17020103,64;8A203002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040203</id>
+	<origin_id>0A204002</origin_id>
+	<name>鹤童</name>
+	<cost>17010402,16;17020101,32;17020105,32;8A204002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040204</id>
+	<origin_id>0A205002</origin_id>
+	<name>瑶池仙子</name>
+	<cost>17010402,16;17020103,32;17020105,32;8A205002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>2星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040205</id>
+	<origin_id>0A201003</origin_id>
+	<name>齐天大圣</name>
+	<cost>17010403,16;17020101,160;17020104,160;8A201003,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040207</id>
+	<origin_id>0A401001</origin_id>
+	<name>胡一刀</name>
+	<cost>17010401,16;17020101,16;17020102,16;8A401001,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040208</id>
+	<origin_id>0A401002</origin_id>
+	<name>胡二棒</name>
+	<cost>17010401,16;17020103,16;17020105,16;8A401002,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040209</id>
+	<origin_id>0A401003</origin_id>
+	<name>胡三弓</name>
+	<cost>17010401,16;17020101,16;17020104,16;8A401003,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040300</id>
+	<origin_id>0A401004</origin_id>
+	<name>金三胖</name>
+	<cost>17010401,16;17020102,16;17020105,16;8A401004,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>1星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040301</id>
+	<origin_id>0A401005</origin_id>
+	<name>黑熊精</name>
+	<cost>17010403,16;17020104,64;17020105,64;8A401005,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040302</id>
+	<origin_id>0A401006</origin_id>
+	<name>长须大王</name>
+	<cost>17010403,16;17020101,64;17020105,64;8A401006,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040303</id>
+	<origin_id>0A401007</origin_id>
+	<name>多目神君</name>
+	<cost>17010404,16;17020101,128;17020102,128;17020104,128;8A401007,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040304</id>
+	<origin_id>0A401008</origin_id>
+	<name>北海龙王</name>
+	<cost>17010404,16;17020103,128;17020104,128;17020105,128;8A401008,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040305</id>
+	<origin_id>0A401009</origin_id>
+	<name>二郎神</name>
+	<cost>17010404,16;17020104,160;17020105,160;17020101,160;8A401009,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040306</id>
+	<origin_id>0A401010</origin_id>
+	<name>哪咤</name>
+	<cost>17010404,16;17020101,128;17020102,128;17020104,128;8A401010,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040307</id>
+	<origin_id>0A401011</origin_id>
+	<name>托塔天王</name>
+	<cost>17010404,16;17020103,128;17020104,128;17020105,128;8A401011,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040308</id>
+	<origin_id>0A401012</origin_id>
+	<name>木吒</name>
+	<cost>17010404,16;17020104,160;17020105,160;17020101,160;8A401012,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040309</id>
+	<origin_id>0A401013</origin_id>
+	<name>九尾妖狐</name>
+	<cost>17010404,20;17020101,128;17020102,128;17020104,128;8A401013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040310</id>
+	<origin_id>0A401014</origin_id>
+	<name>虎力大仙</name>
+	<cost>17010404,16;17020103,128;17020104,128;17020105,128;8A401014,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18040311</id>
+	<origin_id>0A401015</origin_id>
+	<name>巨灵神</name>
+	<cost>17010404,20;17020104,160;17020105,160;17020101,160;8A401015,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星将领配方1</desc>
+</formula>
+<formula>
+	<id>18010301</id>
+	<origin_id>0C10100A</origin_id>
+	<name>马良神笔</name>
+	<cost>17010103,5;17020101,10;8C10100A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方1</desc>
+</formula>
+<formula>
+	<id>18010302</id>
+	<origin_id>0C10100B</origin_id>
+	<name>虎牙锤</name>
+	<cost>17010103,5;17020102,10;8C10100B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方2</desc>
+</formula>
+<formula>
+	<id>18010303</id>
+	<origin_id>0C10100C</origin_id>
+	<name>宝蓝博玉柱</name>
+	<cost>17010103,5;17020103,10;8C10100C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方3</desc>
+</formula>
+<formula>
+	<id>18010304</id>
+	<origin_id>0C10200A</origin_id>
+	<name>炙热之风</name>
+	<cost>17010103,5;17020104,10;8C10200A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方4</desc>
+</formula>
+<formula>
+	<id>18010305</id>
+	<origin_id>0C10200B</origin_id>
+	<name>广口燧发枪</name>
+	<cost>17010103,5;17020105,10;8C10200B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010306</id>
+	<origin_id>0C10200C</origin_id>
+	<name>悲怆的赤焰</name>
+	<cost>17010103,5;17020101,10;8C10200C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010307</id>
+	<origin_id>0C10300A</origin_id>
+	<name>青龙双刃戟</name>
+	<cost>17010103,5;17020102,10;8C10300A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010308</id>
+	<origin_id>0C10300B</origin_id>
+	<name>知秋蒲扇</name>
+	<cost>17010103,5;17020103,10;8C10300B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010309</id>
+	<origin_id>0C10300C</origin_id>
+	<name>疯魔月牙铲</name>
+	<cost>17010103,5;17020104,10;8C10300C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010310</id>
+	<origin_id>0C10400A</origin_id>
+	<name>雕翎短弓</name>
+	<cost>17010103,5;17020105,10;8C10400A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010311</id>
+	<origin_id>0C10400B</origin_id>
+	<name>束鹤之弓</name>
+	<cost>17010103,5;17020101,10;8C10400B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010312</id>
+	<origin_id>0C10400C</origin_id>
+	<name>午夜凋零</name>
+	<cost>17010103,5;17020102,10;8C10400C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010313</id>
+	<origin_id>0C10500A</origin_id>
+	<name>碧落莲花</name>
+	<cost>17010103,5;17020103,10;8C10500A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010314</id>
+	<origin_id>0C10500B</origin_id>
+	<name>离火直杖</name>
+	<cost>17010103,5;17020104,10;8C10500B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010315</id>
+	<origin_id>0C10500C</origin_id>
+	<name>镇魂杖</name>
+	<cost>17010103,5;17020105,10;8C10500C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010401</id>
+	<origin_id>0C10100D</origin_id>
+	<name>浸血之牙</name>
+	<cost>17010104,10;17020101,20;17020102,20;8C10100D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010402</id>
+	<origin_id>0C10100E</origin_id>
+	<name>甘彩漩涡</name>
+	<cost>17010104,10;17020102,20;17020103,20;8C10100E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010403</id>
+	<origin_id>0C10200D</origin_id>
+	<name>魔音灌耳</name>
+	<cost>17010104,10;17020103,20;17020104,20;8C10200D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010404</id>
+	<origin_id>0C10200E</origin_id>
+	<name>地狱巨口</name>
+	<cost>17010104,10;17020104,20;17020105,20;8C10200E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010405</id>
+	<origin_id>0C10300D</origin_id>
+	<name>了尘缘</name>
+	<cost>17010104,10;17020105,20;17020101,20;8C10300D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010406</id>
+	<origin_id>0C10300E</origin_id>
+	<name>金雁从革</name>
+	<cost>17010104,10;17020101,20;17020103,20;8C10300E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010407</id>
+	<origin_id>0C10400D</origin_id>
+	<name>黑羽冥弓</name>
+	<cost>17010104,10;17020102,20;17020104,20;8C10400D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010408</id>
+	<origin_id>0C10400E</origin_id>
+	<name>花开堪折</name>
+	<cost>17010104,10;17020103,20;17020105,20;8C10400E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010409</id>
+	<origin_id>0C10500D</origin_id>
+	<name>百花神杖</name>
+	<cost>17010104,10;17020101,20;17020105,20;8C10500D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010410</id>
+	<origin_id>0C10500E</origin_id>
+	<name>血之仪式</name>
+	<cost>17010104,10;17020102,20;17020105,20;8C10500E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星武器配方6</desc>
+</formula>
+<formula>
+	<id>18010501</id>
+	<origin_id>0C10100F</origin_id>
+	<name>擎天</name>
+	<cost>17010105,20;17020101,40;17020102,40;17020103,40;8C10100F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方1</desc>
+</formula>
+<formula>
+	<id>18010502</id>
+	<origin_id>0C10200F</origin_id>
+	<name>天命</name>
+	<cost>17010105,20;17020102,40;17020103,40;17020104,40;8C10200F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方2</desc>
+</formula>
+<formula>
+	<id>18010503</id>
+	<origin_id>0C10300F</origin_id>
+	<name>渡劫</name>
+	<cost>17010105,20;17020103,40;17020104,40;17020105,40;8C10300F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方3</desc>
+</formula>
+<formula>
+	<id>18010504</id>
+	<origin_id>0C10400F</origin_id>
+	<name>斩棘</name>
+	<cost>17010105,20;17020104,40;17020105,40;17020101,40;8C10400F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方4</desc>
+</formula>
+<formula>
+	<id>18010505</id>
+	<origin_id>0C10500F</origin_id>
+	<name>诛邪</name>
+	<cost>17010105,20;17020105,40;17020101,40;17020102,40;8C10500F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方5</desc>
+</formula>
+<formula>
+	<id>18010601</id>
+	<origin_id>0C101013</origin_id>
+	<name>灭世</name>
+	<cost>17010105,25;17020101,40;17020102,40;17020103,40;8C101013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方1</desc>
+</formula>
+<formula>
+	<id>18010602</id>
+	<origin_id>0C102013</origin_id>
+	<name>致命</name>
+	<cost>17010105,25;17020102,40;17020103,40;17020104,40;8C102013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方2</desc>
+</formula>
+<formula>
+	<id>18010603</id>
+	<origin_id>0C103013</origin_id>
+	<name>斩孽</name>
+	<cost>17010105,25;17020103,40;17020104,40;17020105,40;8C103013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方3</desc>
+</formula>
+<formula>
+	<id>18010604</id>
+	<origin_id>0C104013</origin_id>
+	<name>披荆</name>
+	<cost>17010105,25;17020104,40;17020105,40;17020101,40;8C104013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方4</desc>
+</formula>
+<formula>
+	<id>18010605</id>
+	<origin_id>0C105013</origin_id>
+	<name>救赎</name>
+	<cost>17010105,25;17020105,40;17020101,40;17020102,40;8C105013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星武器配方5</desc>
+</formula>
+<formula>
+	<id>18020301</id>
+	<origin_id>0C200013</origin_id>
+	<name>轻羽石</name>
+	<cost>17010203,4;17020101,6;8C200013,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020302</id>
+	<origin_id>0C200014</origin_id>
+	<name>自然符石</name>
+	<cost>17010203,4;17020102,6;8C200014,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020303</id>
+	<origin_id>0C200015</origin_id>
+	<name>玉中缘</name>
+	<cost>17010203,4;17020103,6;8C200015,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020304</id>
+	<origin_id>0C200016</origin_id>
+	<name>大夫指环</name>
+	<cost>17010203,4;17020104,6;8C200016,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020305</id>
+	<origin_id>0C200017</origin_id>
+	<name>皇族指环</name>
+	<cost>17010203,4;17020105,6;8C200017,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020306</id>
+	<origin_id>0C200018</origin_id>
+	<name>仙池玉佩</name>
+	<cost>17010203,4;17020102,6;8C200018,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020307</id>
+	<origin_id>0C200019</origin_id>
+	<name>映日红</name>
+	<cost>17010203,4;17020103,6;8C200019,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020308</id>
+	<origin_id>0C20001A</origin_id>
+	<name>霜白露</name>
+	<cost>17010203,4;17020104,6;8C20001A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020309</id>
+	<origin_id>0C20001B</origin_id>
+	<name>凝心环</name>
+	<cost>17010203,4;17020105,6;8C20001B,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020401</id>
+	<origin_id>0C20001C</origin_id>
+	<name>蟠龙玉佩</name>
+	<cost>17010204,8;17020105,16;17020101,16;8C20001C,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020402</id>
+	<origin_id>0C20001D</origin_id>
+	<name>展红绫</name>
+	<cost>17010204,8;17020101,16;17020102,16;8C20001D,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020403</id>
+	<origin_id>0C20001E</origin_id>
+	<name>天机玉佩</name>
+	<cost>17010204,8;17020102,16;17020103,16;8C20001E,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020404</id>
+	<origin_id>0C20001F</origin_id>
+	<name>曲中求</name>
+	<cost>17010204,8;17020103,16;17020104,16;8C20001F,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020405</id>
+	<origin_id>0C200020</origin_id>
+	<name>蓝晶头饰</name>
+	<cost>17010204,8;17020104,16;17020105,16;8C200020,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020406</id>
+	<origin_id>0C200021</origin_id>
+	<name>玉如意</name>
+	<cost>17010204,8;17020105,16;17020102,16;8C200021,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020501</id>
+	<origin_id>0C200022</origin_id>
+	<name>宰相葫芦</name>
+	<cost>17010205,16;17020101,32;17020102,32;17020103,32;8C200022,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020502</id>
+	<origin_id>0C200023</origin_id>
+	<name>王者编钟</name>
+	<cost>17010205,16;17020102,32;17020103,32;17020104,32;8C200023,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020503</id>
+	<origin_id>0C200024</origin_id>
+	<name>贤臣明镜</name>
+	<cost>17010205,16;17020103,32;17020104,32;17020105,32;8C200024,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星防具配方1</desc>
+</formula>
+<formula>
+	<id>18020504</id>
+	<origin_id>0C20002A</origin_id>
+	<name>蝶之魅影</name>
+	<cost>17010205,20;17020103,32;17020104,32;17020105,32;8C20002A,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星防具配方1</desc>
+</formula>
+<formula>
+	<id>18030301</id>
+	<origin_id>0C301005</origin_id>
+	<name>双环锡杖</name>
+	<cost>17010303,4;17020101,8;8C301005,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030302</id>
+	<origin_id>0C301006</origin_id>
+	<name>双环赤铜杖</name>
+	<cost>17010303,4;17020102,8;8C301006,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030303</id>
+	<origin_id>0C302005</origin_id>
+	<name>精魄杖</name>
+	<cost>17010303,4;17020103,8;8C302005,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030304</id>
+	<origin_id>0C302006</origin_id>
+	<name>精魄赤铜杖</name>
+	<cost>17010303,4;17020104,8;8C302006,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030305</id>
+	<origin_id>0C303005</origin_id>
+	<name>通神杖</name>
+	<cost>17010303,4;17020105,8;8C303005,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030306</id>
+	<origin_id>0C303006</origin_id>
+	<name>通神赤铜杖</name>
+	<cost>17010303,4;17020103,8;8C303006,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>3星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030401</id>
+	<origin_id>0C301007</origin_id>
+	<name>九头锡杖</name>
+	<cost>17010304,8;17020105,16;17020101,16;8C301007,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030402</id>
+	<origin_id>0C301008</origin_id>
+	<name>九头赤铜杖</name>
+	<cost>17010304,8;17020101,16;17020102,16;8C301008,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030403</id>
+	<origin_id>0C302007</origin_id>
+	<name>凝神杖</name>
+	<cost>17010304,8;17020102,16;17020103,16;8C302007,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030404</id>
+	<origin_id>0C302008</origin_id>
+	<name>凝神赤铜杖</name>
+	<cost>17010304,8;17020103,16;17020104,16;8C302008,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030405</id>
+	<origin_id>0C303007</origin_id>
+	<name>孔方杖</name>
+	<cost>17010304,8;17020104,16;17020105,16;8C303007,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030406</id>
+	<origin_id>0C303008</origin_id>
+	<name>孔方赤铜杖</name>
+	<cost>17010304,8;17020105,16;17020101,16;8C303008,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>4星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030501</id>
+	<origin_id>0C301009</origin_id>
+	<name>巡风</name>
+	<cost>17010305,16;17020103,32;17020104,32;17020105,32;8C301009,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030502</id>
+	<origin_id>0C302009</origin_id>
+	<name>金身</name>
+	<cost>17010305,16;17020104,32;17020105,32;17020101,32;8C302009,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030503</id>
+	<origin_id>0C303009</origin_id>
+	<name>盛装</name>
+	<cost>17010305,16;17020105,32;17020101,32;17020102,32;8C303009,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030504</id>
+	<origin_id>0C304003</origin_id>
+	<name>神机</name>
+	<cost>17010305,16;17020104,32;17020105,32;17020101,32;8C304003,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星禅杖配方5</desc>
+</formula>
+<formula>
+	<id>18030505</id>
+	<origin_id>0C305003</origin_id>
+	<name>不灭</name>
+	<cost>17010305,16;17020105,32;17020101,32;17020102,32;8C305003,1</cost>
+	<recipe_require>1</recipe_require>
+	<desc>5星禅杖配方5</desc>
+</formula>
+</root>

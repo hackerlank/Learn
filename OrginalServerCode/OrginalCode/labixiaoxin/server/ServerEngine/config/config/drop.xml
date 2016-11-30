@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<drop>
+	<id>13100001</id>
+	<name>1-1普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101002,0.4;0C104001,0.4;0C200001,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13100002</id>
+	<name>1-2普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.2;0C101002,0.2;0C103001,0.1;0C104001,0.2;0C105001,0.1;0C200001,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13100003</id>
+	<name>1-3普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.1;0C101002,0.1;0C103001,0.1;0C104001,0.1;0C105001,0.1;0C102001,0.1;0C200001,0.05;0C200002,0.05;0C101006,0.1;0C20000A,0.1;0C301002,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13100004</id>
+	<name>1-4普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.1;0C101002,0.1;0C103001,0.1;0C104001,0.1;0C105001,0.1;0C102001,0.1;0C200001,0.05;0C200002,0.05;0C101006,0.1;0C20000A,0.1;0C301002,0.05;0C105006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100005</id>
+	<name>1-5普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.1;0C101002,0.1;0C103001,0.1;0C104001,0.1;0C105001,0.1;0C102001,0.1;0C200001,0.05;0C200002,0.05;0C101006,0.1;0C20000A,0.1;0C301002,0.05;0C105006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100006</id>
+	<name>1-6普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.1;0C101002,0.1;0C103001,0.1;0C104001,0.1;0C105001,0.1;0C102001,0.1;0C200001,0.1;0C101006,0.1;0C20000A,0.1;0C301002,0.05;0C105006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100007</id>
+	<name>1-7普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.05;0C101002,0.05;0C103001,0.05;0C104001,0.05;0C105001,0.05;0C102001,0.05;0C200001,0.1;0C101006,0.1;0C20000A,0.1;0C301002,0.1;0C104006,0.1;0C20000B,0.1;0C302001,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13100008</id>
+	<name>2-1普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.1;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200002,0.1;0C200004,0.1;0C103006,0.05;0C20000B,0.05;0C102006,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100009</id>
+	<name>2-2普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.1;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200002,0.1;0C200004,0.1;0C103006,0.05;0C20000B,0.05;0C102006,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000A</id>
+	<name>2-3普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.05;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200005,0.1;0C200004,0.1;0C103006,0.05;0C20000D,0.05;0C102006,0.05;0C104007,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000B</id>
+	<name>2-4普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.05;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200005,0.1;0C200004,0.1;0C103006,0.05;0C20000D,0.05;0C102006,0.05;0C104007,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000C</id>
+	<name>2-5普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.05;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200005,0.1;0C200004,0.1;0C103006,0.05;0C20000D,0.05;0C102006,0.05;0C104007,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000D</id>
+	<name>2-6普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.05;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200005,0.1;0C200004,0.1;0C103006,0.05;0C20000D,0.05;0C102006,0.05;0C104007,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000E</id>
+	<name>2-7普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C102002,0.05;0C101003,0.05;0C103003,0.05;0C105003,0.05;0C104003,0.05;0C102003,0.1;0C303001,0.05;0C302001,0.1;0C101007,0.05;0C200005,0.1;0C200004,0.1;0C103006,0.05;0C20000D,0.05;0C102006,0.05;0C104007,0.05;0C105007,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1310000F</id>
+	<name>3-1普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C105008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100010</id>
+	<name>3-2普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C101008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100011</id>
+	<name>3-3普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C105008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100012</id>
+	<name>3-4普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C101008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100013</id>
+	<name>3-5普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C104008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100014</id>
+	<name>3-6普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C105008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100015</id>
+	<name>3-7普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101004,0.1;0C103004,0.1;0C105004,0.1;0C104004,0.1;0C102004,0.05;0C301002,0.1;0C302002,0.05;0C102007,0.05;0C103007,0.1;0C200011,0.1;0C104008,0.05;0C20000C,0.05;0C200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13100016</id>
+	<name>4-1普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C105009,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13100017</id>
+	<name>4-2普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C104009,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13100018</id>
+	<name>4-3普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C102008,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13100019</id>
+	<name>4-4普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C104009,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1310001A</id>
+	<name>4-5普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C105009,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1310001B</id>
+	<name>4-6普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C105009,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1310001C</id>
+	<name>4-7普通掉落</name>
+	<rate>0</rate>
+	<drop_list>0C101005,0.2;0C103005,0.1;0C105005,0.1;0C104005,0.1;0C102005,0.1;0C301003,0.1;0C302003,0.05;0C101009,0.05;0C102008,0.05;0C20000F,0.05;0C200006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1310001D</id>
+	<name>1-1乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310001E</id>
+	<name>1-2乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310001F</id>
+	<name>1-3乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100020</id>
+	<name>1-4乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100021</id>
+	<name>1-5乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100022</id>
+	<name>1-6乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100023</id>
+	<name>1-7乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.6;0C10500A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100024</id>
+	<name>2-1乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100025</id>
+	<name>2-2乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100026</id>
+	<name>2-3乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100027</id>
+	<name>2-4乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100028</id>
+	<name>2-5乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100029</id>
+	<name>2-6乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002A</id>
+	<name>2-7乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.6;0C10500B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002B</id>
+	<name>3-1乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002C</id>
+	<name>3-2乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002D</id>
+	<name>3-3乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002E</id>
+	<name>3-4乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1310002F</id>
+	<name>3-5乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100030</id>
+	<name>3-6乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100031</id>
+	<name>3-7乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.6;0C10400A,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100032</id>
+	<name>4-1乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100033</id>
+	<name>4-2乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100034</id>
+	<name>4-3乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100035</id>
+	<name>4-4乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100036</id>
+	<name>4-5乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100037</id>
+	<name>4-6乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13100038</id>
+	<name>4-7乱入掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10300B,0.6;0C10400B,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13210001</id>
+	<name>3星装备</name>
+	<rate>0</rate>
+	<drop_list>13210002,0.3;13210002,0.4;13210008,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13210002</id>
+	<name>3星武器</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.1;0C10100B,0.1;0C10100C,0.1;0C10200A,0.05;0C10200B,0.05;0C10200C,0.05;0C10300A,0.1;0C10300B,0.1;0C10300C,0.05;0C10400A,0.05;0C10400B,0.05;0C10400C,0.05;0C10500A,0.05;0C10500B,0.05;0C10500C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13210003</id>
+	<name>3星防具禅杖</name>
+	<rate>0</rate>
+	<drop_list>0C200013,0.1;0C200014,0.1;0C200016,0.1;0C20001A,0.1;0C200019,0.1;0C200017,0.05;0C200015,0.05;0C20001B,0.05;0C200018,0.05;0C301005,0.05;0C301006,0.05;0C302005,0.05;0C302006,0.05;0C303005,0.05;0C303006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13210004</id>
+	<name>4星武器</name>
+	<rate>0</rate>
+	<drop_list>0C10100D,0.1;0C10100E,0.1;0C10200D,0.1;0C10200E,0.1;0C10300D,0.1;0C10300E,0.1;0C10400D,0.1;0C10400E,0.1;0C10500D,0.1;0C10500E,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13210005</id>
+	<name>4星防具禅杖</name>
+	<rate>0</rate>
+	<drop_list>0C20001C,0.1;0C20001D,0.1;0C20001E,0.1;0C20001F,0.1;0C200020,0.1;0C200021,0.1;0C301007,0.05;0C301008,0.05;0C302007,0.1;0C302008,0.1;0C303007,0.05;0C303008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13210006</id>
+	<name>5星武器</name>
+	<rate>0</rate>
+	<drop_list>0C10100F,0.3;0C10200F,0.1;0C10300F,0.2;0C10400F,0.2;0C10500F,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13210007</id>
+	<name>5星防具禅杖</name>
+	<rate>0</rate>
+	<drop_list>0C200022,0.2;0C200024,0.2;0C200023,0.2;0C301009,0.1;0C302009,0.2;0C303009,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13210008</id>
+	<name>3星新装备</name>
+	<rate>0</rate>
+	<drop_list>0C101010,0.1;0C101011,0.1;0C102010,0.1;0C102011,0.1;0C103010,0.1;0C103011,0.05;0C104010,0.05;0C104011,0.05;0C105010,0.05;0C105011,0.05;0C200025,0.05;0C200026,0.05;0C200027,0.05;0C304001,0.05;0C305001,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13210009</id>
+	<name>4星新装备</name>
+	<rate>0</rate>
+	<drop_list>0C101012,0.1;0C102012,0.1;0C103012,0.1;0C104012,0.15;0C105012,0.1;0C200028,0.15;0C200029,0.1;0C304002,0.1;0C305002,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13210010</id>
+	<name>5星新装备</name>
+	<rate>0</rate>
+	<drop_list>0C101013,0.05;0C102013,0.1;0C103013,0.1;0C104013,0.1;0C105013,0.1;0C20002A,0.1;0C304003,0.1;0C305003,0.1;0C101014,0.05;0C102014,0.05;0C103014,0.05;0C104014,0.05;0C105014,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13210011</id>
+	<name>4-5星装备</name>
+	<rate>0.1</rate>
+	<drop_list>13210004,0.3;13210005,0.4;13210009,0.3;13210012,-1;</drop_list>
+</drop>
+<drop>
+	<id>13210012</id>
+	<name>5星装备</name>
+	<rate>0</rate>
+	<drop_list>13210006,0,4;13210007,0.4;13210010,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13210013</id>
+	<name>1-3星普通神将</name>
+	<rate>0</rate>
+	<drop_list>13500000,0.3;135000001,0.4;13500002,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13210014</id>
+	<name>金神将</name>
+	<rate>0</rate>
+	<drop_list>13500005,0.4;13500006,0.3;13500007,0.2,13500008,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13250001</id>
+	<name>2-5星装备抽奖</name>
+	<rate>0.01</rate>
+	<drop_list>1340001F,1;13210011,-1;</drop_list>
+</drop>
+<drop>
+	<id>13250002</id>
+	<name>3-5星装备抽奖</name>
+	<rate>0.1</rate>
+	<drop_list>13210001,1;13210011,-1;</drop_list>
+</drop>
+<drop>
+	<id>13250003</id>
+	<name>4-5星装备抽奖</name>
+	<rate>0.05</rate>
+	<drop_list>13210004,0.3;13210005,0.4;13210009,0.3;13210012,-1;</drop_list>
+</drop>
+<drop>
+	<id>13250004</id>
+	<name>武将抽奖</name>
+	<rate>0.05</rate>
+	<drop_list>13500010,0.3;13500011,0.5;13500012,0.2;13500013,-1;</drop_list>
+</drop>
+<drop>
+	<id>13250005</id>
+	<name>金武将抽奖</name>
+	<rate>0.5</rate>
+	<drop_list>13210013,1;13210014,-1;</drop_list>
+</drop>
+<drop>
+	<id>13200008</id>
+	<name>1-3-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.4;0C10400A,0.3;0C200013,0.3;</drop_list>
+</drop>
+<drop>
+	<id>1320000D</id>
+	<name>1-7-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.2;0C10200A,0.1;0C10300A,0.1;0C10400A,0.2;0C200013,0.2;0C200014,0.1;0C301005,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13200012</id>
+	<name>2-3-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.3;0C10300A,0.2;0C10400A,0.3;0C200013,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13200017</id>
+	<name>2-7-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.2;0C10100C,0.1;0C10200A,0.1;0C10300A,0.1;0C10400A,0.1;0C10500A,0.1;0C200013,0.1;0C200014,0.1;0C301005,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1320001C</id>
+	<name>3-3-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.2;0C10300A,0.2;0C10400A,0.2;0C200013,0.2;0C301005,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13200021</id>
+	<name>3-7-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.1;0C10100C,0.1;0C10200A,0.1;0C10300A,0.1;0C10400A,0.1;0C10300D,0.05;0C10500A,0.1;0C200013,0.1;0C200014,0.1;0C301005,0.1;0C20001C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13200026</id>
+	<name>4-3-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.2;0C10300A,0.2;0C10400A,0.2;0C200013,0.2;0C301005,0.2;</drop_list>
+</drop>
+<drop>
+	<id>1320002B</id>
+	<name>4-7-1稀有掉落</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.1;0C10100C,0.1;0C10200A,0.1;0C10300A,0.1;0C10400A,0.1;0C10300D,0.05;0C10500A,0.1;0C200013,0.1;0C200014,0.1;0C301005,0.1;0C20001C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13300001</id>
+	<name>第一次抽奖</name>
+	<rate>0</rate>
+	<drop_list>0C10100B,0.5;0C10400A,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13300002</id>
+	<name>第二次抽奖</name>
+	<rate>0</rate>
+	<drop_list>null,0.7;null,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13310001</id>
+	<name>重复将领替代品</name>
+	<rate>0</rate>
+	<drop_list>0C10100D,0.1;0C10100E,0.1;0C10200D,0.1;0C10200E,0.1;0C10300D,0.1;0C10300E,0.1;0C10400D,0.1;0C10400E,0.1;0C10500D,0.1;0C10500E,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13110001</id>
+	<name>1-1掉落</name>
+	<rate>0</rate>
+	<drop_list>13100001,1;</drop_list>
+</drop>
+<drop>
+	<id>13110002</id>
+	<name>1-2掉落</name>
+	<rate>0</rate>
+	<drop_list>13100002,1;</drop_list>
+</drop>
+<drop>
+	<id>13110003</id>
+	<name>1-3掉落</name>
+	<rate>0</rate>
+	<drop_list>13100003,1;</drop_list>
+</drop>
+<drop>
+	<id>13110004</id>
+	<name>1-4掉落</name>
+	<rate>0</rate>
+	<drop_list>13100004,1;</drop_list>
+</drop>
+<drop>
+	<id>13110005</id>
+	<name>1-5掉落</name>
+	<rate>0</rate>
+	<drop_list>13100005,1;</drop_list>
+</drop>
+<drop>
+	<id>13110006</id>
+	<name>1-6掉落</name>
+	<rate>0</rate>
+	<drop_list>13100006,1;</drop_list>
+</drop>
+<drop>
+	<id>13110007</id>
+	<name>1-7掉落</name>
+	<rate>0</rate>
+	<drop_list>13100007,1;13700005,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13110008</id>
+	<name>2-1掉落</name>
+	<rate>0</rate>
+	<drop_list>13100008,1;</drop_list>
+</drop>
+<drop>
+	<id>13110009</id>
+	<name>2-2掉落</name>
+	<rate>0</rate>
+	<drop_list>13100009,1;</drop_list>
+</drop>
+<drop>
+	<id>1311000A</id>
+	<name>2-3掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000A,1;</drop_list>
+</drop>
+<drop>
+	<id>1311000B</id>
+	<name>2-4掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000B,1;</drop_list>
+</drop>
+<drop>
+	<id>1311000C</id>
+	<name>2-5掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000C,1;</drop_list>
+</drop>
+<drop>
+	<id>1311000D</id>
+	<name>2-6掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000D,1;</drop_list>
+</drop>
+<drop>
+	<id>1311000E</id>
+	<name>2-7掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000E,1;13700006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1311000F</id>
+	<name>3-1掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000F,1;</drop_list>
+</drop>
+<drop>
+	<id>13110010</id>
+	<name>3-2掉落</name>
+	<rate>0</rate>
+	<drop_list>13100010,1;</drop_list>
+</drop>
+<drop>
+	<id>13110011</id>
+	<name>3-3掉落</name>
+	<rate>0</rate>
+	<drop_list>13100011,1;</drop_list>
+</drop>
+<drop>
+	<id>13110012</id>
+	<name>3-4掉落</name>
+	<rate>0</rate>
+	<drop_list>13100012,1;</drop_list>
+</drop>
+<drop>
+	<id>13110013</id>
+	<name>3-5掉落</name>
+	<rate>0</rate>
+	<drop_list>13100013,1;</drop_list>
+</drop>
+<drop>
+	<id>13110014</id>
+	<name>3-6掉落</name>
+	<rate>0</rate>
+	<drop_list>13100014,1;</drop_list>
+</drop>
+<drop>
+	<id>13110015</id>
+	<name>3-7掉落</name>
+	<rate>0</rate>
+	<drop_list>13100015,1;13700007,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13110016</id>
+	<name>4-1掉落</name>
+	<rate>0</rate>
+	<drop_list>13100016,1;</drop_list>
+</drop>
+<drop>
+	<id>13110017</id>
+	<name>4-2掉落</name>
+	<rate>0</rate>
+	<drop_list>13100017,1;</drop_list>
+</drop>
+<drop>
+	<id>13110018</id>
+	<name>4-3掉落</name>
+	<rate>0</rate>
+	<drop_list>13100018,1;</drop_list>
+</drop>
+<drop>
+	<id>13110019</id>
+	<name>4-4掉落</name>
+	<rate>0</rate>
+	<drop_list>13100019,1;</drop_list>
+</drop>
+<drop>
+	<id>1311001A</id>
+	<name>4-5掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001A,1;</drop_list>
+</drop>
+<drop>
+	<id>1311001B</id>
+	<name>4-6掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001B,1;</drop_list>
+</drop>
+<drop>
+	<id>1311001C</id>
+	<name>4-7掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001C,1;13700008,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120001</id>
+	<name>1-1难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100001,0.9;13220101,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120002</id>
+	<name>1-2难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100002,0.9;13220101,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120003</id>
+	<name>1-3难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100003,0.9;13220101,0.05;13200008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13120004</id>
+	<name>1-4难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100004,0.8;13221101,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13120005</id>
+	<name>1-5难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100005,0.8;13221101,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13120006</id>
+	<name>1-6难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100006,0.7;13221102,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13120007</id>
+	<name>1-7难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100007,0.7;13221102,0.1;13220104,0.1;1320000D,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120008</id>
+	<name>2-1难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100008,0.6;13220101,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13120009</id>
+	<name>2-2难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100009,0.6;13220101,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1312000A</id>
+	<name>2-3难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000A,0.6;13220101,0.2;13200012,0.2;</drop_list>
+</drop>
+<drop>
+	<id>1312000B</id>
+	<name>2-4难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000B,0.6;13221101,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1312000C</id>
+	<name>2-5难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000C,0.6;13221101,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1312000D</id>
+	<name>2-6难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000D,0.6;13221102,0.4;</drop_list>
+</drop>
+<drop>
+	<id>1312000E</id>
+	<name>2-7难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000E,0.4;13221102,0.2;13230103,0.2;13200017,0.2;</drop_list>
+</drop>
+<drop>
+	<id>1312000F</id>
+	<name>3-1难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310000F,0.5;13220101,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13120010</id>
+	<name>3-2难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100010,0.5;13220101,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13120011</id>
+	<name>3-3难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100011,0.5;13220101,0.3;1320001C,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13120012</id>
+	<name>3-4难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100012,0.5;13221101,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13120013</id>
+	<name>3-5难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100013,0.5;13221101,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13120014</id>
+	<name>3-6难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100014,0.5;13221102,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13120015</id>
+	<name>3-7难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100015,0.5;13221102,0.2;13230104,0.2;13200021,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120016</id>
+	<name>4-1难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100016,0.4;13220101,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13120017</id>
+	<name>4-2难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100017,0.4;13220101,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13120018</id>
+	<name>4-3难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100018,0.4;13220101,0.5;13200026,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120019</id>
+	<name>4-4难度掉落</name>
+	<rate>0</rate>
+	<drop_list>13100019,0.4;13221101,0.6;</drop_list>
+</drop>
+<drop>
+	<id>1312001A</id>
+	<name>4-5难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001A,0.4;13221101,0.6;</drop_list>
+</drop>
+<drop>
+	<id>1312001B</id>
+	<name>4-6难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001B,0.4;13221102,0.6;</drop_list>
+</drop>
+<drop>
+	<id>1312001C</id>
+	<name>4-7难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1310001C,0.3;13221102,0.3;13230105,0.3;1320002B,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120020</id>
+	<name>5-1难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.3;13220101,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13120021</id>
+	<name>5-2难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.3;13220101,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13120022</id>
+	<name>5-3难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.3;13220101,0.7;13200026,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13120023</id>
+	<name>5-4难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.3;13221101,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13120024</id>
+	<name>5-5难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.3;13221101,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13120025</id>
+	<name>5-6难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.2;13221102,0.8;</drop_list>
+</drop>
+<drop>
+	<id>13120026</id>
+	<name>5-7难度掉落</name>
+	<rate>0</rate>
+	<drop_list>1340001F,0.2;13221102,0.4;13230105,0.3;1320002B,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13400001</id>
+	<name>钝器1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C101001,0.1;0C101002,0.1;0C101003,0.1;0C101004,0.1;0C101005,0.1;0C101006,0.08;0C101007,0.08;0C101008,0.08;0C101009,0.08;0C10100A,0.08;0C10100B,0.05;0C10100C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13400002</id>
+	<name>钝器3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C10100A,0.3;0C10100B,0.2;0C10100C,0.2;0C10100D,0.15;0C10100E,0.15;</drop_list>
+</drop>
+<drop>
+	<id>13400003</id>
+	<name>钝器4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C10100D,0.2;0C10100E,0.2;0C10100F,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13400005</id>
+	<name>火器1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C102001,0.1;0C102002,0.1;0C102003,0.1;0C102004,0.1;0C102005,0.1;0C102006,0.08;0C102007,0.08;0C102008,0.08;0C102009,0.08;0C10200A,0.08;0C10200B,0.05;0C10200C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13400006</id>
+	<name>火器3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C10200A,0.3;0C10200B,0.2;0C10200C,0.2;0C10200D,0.15;0C10200E,0.15;</drop_list>
+</drop>
+<drop>
+	<id>13400007</id>
+	<name>火器4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C10200D,0.2;0C10200E,0.2;0C10200F,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13400009</id>
+	<name>长柄1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C103001,0.1;0C103002,0.1;0C103003,0.1;0C103004,0.1;0C103005,0.1;0C103006,0.08;0C103007,0.08;0C103008,0.08;0C103009,0.08;0C10300A,0.08;0C10300B,0.05;0C10300C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1340000A</id>
+	<name>长柄3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C10300A,0.3;0C10300B,0.2;0C10300C,0.2;0C10300D,0.15;0C10300E,0.15;</drop_list>
+</drop>
+<drop>
+	<id>1340000B</id>
+	<name>长柄4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C10300D,0.2;0C10300E,0.2;0C10300F,0.6;</drop_list>
+</drop>
+<drop>
+	<id>1340000D</id>
+	<name>弓1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C104001,0.1;0C104002,0.1;0C104003,0.1;0C104004,0.1;0C104005,0.1;0C104006,0.08;0C104007,0.08;0C104008,0.08;0C104009,0.08;0C10400A,0.08;0C10400B,0.05;0C10400C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1340000E</id>
+	<name>弓3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C10400A,0.3;0C10400B,0.2;0C10400C,0.2;0C10400D,0.15;0C10400E,0.15;</drop_list>
+</drop>
+<drop>
+	<id>1340000F</id>
+	<name>弓4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C10400D,0.2;0C10400E,0.2;0C10400F,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13400010</id>
+	<name>法杖1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C105001,0.1;0C105002,0.1;0C105003,0.1;0C105004,0.1;0C105005,0.1;0C105006,0.08;0C105007,0.08;0C105008,0.08;0C105009,0.08;0C10500A,0.08;0C10500B,0.05;0C10500C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13400011</id>
+	<name>法杖3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C10500A,0.3;0C10500B,0.2;0C10500C,0.2;0C10500D,0.15;0C10500E,0.15;</drop_list>
+</drop>
+<drop>
+	<id>13400012</id>
+	<name>法杖4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C10500D,0.2;0C10500E,0.2;0C10500F,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13400014</id>
+	<name>防具1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C200001,0.06;0C200002,0.06;0C200003,0.06;0C200004,0.06;0C200005,0.06;0C200006,0.06;0C200007,0.04;0C200008,0.03;0C200009,0.03;0C20000A,0.03;0C20000B,0.03;0C20000C,0.03;0C20000D,0.03;0C20000E,0.03;0C20000F,0.03;0C200010,0.03;0C200011,0.03;0C200012,0.03;0C200013,0.03;0C200014,0.03;0C200015,0.03;0C200016,0.03;0C200017,0.03;0C200018,0.03;0C200019,0.03;0C20001A,0.03;0C20001B,0.03;</drop_list>
+</drop>
+<drop>
+	<id>13400015</id>
+	<name>防具3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C200013,0.1;0C200014,0.1;0C200015,0.1;0C200016,0.1;0C200017,0.1;0C200018,0.09;0C200019,0.09;0C20001A,0.09;0C20001B,0.08;0C20001C,0.02;0C20001D,0.02;0C20001E,0.02;0C20001F,0.03;0C200020,0.03;0C200021,0.03;</drop_list>
+</drop>
+<drop>
+	<id>13400016</id>
+	<name>防具4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C20001C,0.05;0C20001D,0.05;0C20001E,0.05;0C20001F,0.05;0C200020,0.05;0C200021,0.05;0C200022,0.3;0C200023,0.2;0C200024,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13400018</id>
+	<name>禅杖1-3星</name>
+	<rate>0</rate>
+	<drop_list>0C301001,0.1;0C301002,0.1;0C302001,0.1;0C302002,0.1;0C303001,0.1;0C303002,0.1;0C301003,0.05;0C301004,0.05;0C302003,0.05;0C302004,0.05;0C303003,0.05;0C303004,0.05;0C301005,0.02;0C301006,0.02;0C302005,0.02;0C302006,0.02;0C303005,0.01;0C303006,0.01;</drop_list>
+</drop>
+<drop>
+	<id>13400019</id>
+	<name>禅杖3-4星</name>
+	<rate>0</rate>
+	<drop_list>0C301005,0.15;0C301006,0.15;0C302005,0.15;0C302006,0.15;0C303005,0.15;0C303006,0.1;0C301007,0.02;0C301008,0.02;0C302007,0.02;0C302008,0.03;0C303007,0.03;0C303008,0.03;</drop_list>
+</drop>
+<drop>
+	<id>1340001A</id>
+	<name>禅杖4-5星</name>
+	<rate>0</rate>
+	<drop_list>0C301007,0.05;0C301008,0.05;0C302007,0.05;0C302008,0.05;0C303007,0.05;0C303008,0.05;0C301009,0.2;0C302009,0.3;0C303009,0.2;</drop_list>
+</drop>
+<drop>
+	<id>1340001B</id>
+	<name>棍枪2-3星</name>
+	<rate>0</rate>
+	<drop_list>0C101006,0.08;0C101007,0.08;0C101008,0.08;0C101009,0.08;0C10100A,0.08;0C10100B,0.05;0C10100C,0.05;0C102006,0.08;0C102007,0.08;0C102008,0.08;0C102009,0.08;0C10200A,0.08;0C10200B,0.05;0C10200C,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1340001C</id>
+	<name>铲弓法杖2-3星</name>
+	<rate>0</rate>
+	<drop_list>0C103006,0.06;0C103007,0.06;0C103008,0.06;0C103009,0.06;0C10300A,0.06;0C10300B,0.03;0C10300C,0.03;0C104006,0.05;0C104007,0.05;0C104008,0.05;0C104009,0.05;0C10400A,0.05;0C10400B,0.03;0C10400C,0.03;0C105006,0.05;0C105007,0.05;0C105008,0.05;0C105009,0.05;0C10500A,0.05;0C10500B,0.04;0C10500C,0.04;</drop_list>
+</drop>
+<drop>
+	<id>1340001D</id>
+	<name>防具2-3星</name>
+	<rate>0</rate>
+	<drop_list>0C20000A,0.07;0C20000B,0.07;0C20000C,0.07;0C20000D,0.07;0C20000E,0.07;0C20000F,0.07;0C200010,0.07;0C200011,0.07;0C200012,0.07;0C200013,0.05;0C200014,0.04;0C200015,0.04;0C200016,0.04;0C200017,0.04;0C200018,0.04;0C200019,0.04;0C20001A,0.04;0C20001B,0.04;</drop_list>
+</drop>
+<drop>
+	<id>1340001E</id>
+	<name>禅杖2-3星</name>
+	<rate>0</rate>
+	<drop_list>0C301003,0.1;0C301004,0.1;0C302003,0.1;0C302004,0.1;0C303003,0.1;0C303004,0.1;0C301005,0.07;0C301006,0.07;0C302005,0.07;0C302006,0.07;0C303005,0.07;0C303006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1340001F</id>
+	<name>装备2-3星奖励</name>
+	<rate>0</rate>
+	<drop_list>1340001B,0.3;1340001C,0.3;1340001D,0.3;1340001E,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13400101</id>
+	<name>钝器火器1-3星奖励</name>
+	<rate>0</rate>
+	<drop_list>13400001,0.5;13400005,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13400102</id>
+	<name>钝器火器3-4星奖励</name>
+	<rate>0</rate>
+	<drop_list>13400002,0.5;13400006,0.5;</drop_list>
+</drop>
+<drop>
+	<id>13400103</id>
+	<name>钝器火器3-5星奖励</name>
+	<rate>0.05</rate>
+	<drop_list>13400002,0.5;13400003,-0.7;13400006,0.5;13400007,-0.3;</drop_list>
+</drop>
+<drop>
+	<id>13400105</id>
+	<name>弓长柄法杖1-3星奖励</name>
+	<rate>0</rate>
+	<drop_list>13400009,0.4;1340000D,0.3;13400010,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13400106</id>
+	<name>弓长柄法杖3-4星奖励</name>
+	<rate>0</rate>
+	<drop_list>1340000A,0.4;1340000E,0.3;13400011,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13400107</id>
+	<name>弓长柄法杖3-5星奖励</name>
+	<rate>0.05</rate>
+	<drop_list>1340000A,0.4;1340000B,-0.3;1340000E,0.3;1340000F,-0.3;13400011,0.3;13400012,-0.4;</drop_list>
+</drop>
+<drop>
+	<id>13400109</id>
+	<name>防具1-3奖励</name>
+	<rate>0</rate>
+	<drop_list>13400014,1;</drop_list>
+</drop>
+<drop>
+	<id>1340010A</id>
+	<name>防具3-4奖励</name>
+	<rate>0</rate>
+	<drop_list>13400015,1;</drop_list>
+</drop>
+<drop>
+	<id>1340010B</id>
+	<name>防具3-5奖励</name>
+	<rate>0.05</rate>
+	<drop_list>13400015,1;13400016,-1;</drop_list>
+</drop>
+<drop>
+	<id>1340010D</id>
+	<name>禅杖1-3奖励</name>
+	<rate>0</rate>
+	<drop_list>13400018,1;</drop_list>
+</drop>
+<drop>
+	<id>1340010E</id>
+	<name>禅杖3-4奖励</name>
+	<rate>0</rate>
+	<drop_list>13400019,1;</drop_list>
+</drop>
+<drop>
+	<id>1340010F</id>
+	<name>禅杖3-5奖励</name>
+	<rate>0.05</rate>
+	<drop_list>13400019,1;1340001A,-1;</drop_list>
+</drop>
+<drop>
+	<id>13220101</id>
+	<name>3星装备材料</name>
+	<rate>0</rate>
+	<drop_list>17010103,0.1;17010203,0.1;17010303,0.1;17020101,0.2;17020102,0.2;17020103,0.2;17020104,0.05;17020105,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220102</id>
+	<name>4星装备材料</name>
+	<rate>0</rate>
+	<drop_list>17010104,0.1;17010204,0.1;17010304,0.1;17020101,0.2;17020102,0.2;17020103,0.2;17020104,0.05;17020105,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220103</id>
+	<name>5星装备材料</name>
+	<rate>0</rate>
+	<drop_list>17010105,0.1;17010205,0.1;17010305,0.1;17020101,0.2;17020102,0.2;17020103,0.2;17020104,0.05;17020105,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13221101</id>
+	<name>3-4星装备材料</name>
+	<rate>0</rate>
+	<drop_list>13220101,0.8;13220102,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13221102</id>
+	<name>3-5星装备材料</name>
+	<rate>0</rate>
+	<drop_list>13220101,0.7;13220102,0.2;13220103,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13220104</id>
+	<name>1星将魂</name>
+	<rate>0</rate>
+	<drop_list>17010401,1;</drop_list>
+</drop>
+<drop>
+	<id>13220105</id>
+	<name>2星将魂</name>
+	<rate>0</rate>
+	<drop_list>17010402,1;</drop_list>
+</drop>
+<drop>
+	<id>13220106</id>
+	<name>3星将魂</name>
+	<rate>0</rate>
+	<drop_list>17010403,1;</drop_list>
+</drop>
+<drop>
+	<id>13220107</id>
+	<name>4星将魂</name>
+	<rate>0</rate>
+	<drop_list>17010404,1;</drop_list>
+</drop>
+<drop>
+	<id>13220108</id>
+	<name>5星将魂</name>
+	<rate>0</rate>
+	<drop_list>17010405,1;</drop_list>
+</drop>
+<drop>
+	<id>13220201</id>
+	<name>3星武器配方</name>
+	<rate>0</rate>
+	<drop_list>8c10100a,0.05;8c10100b,0.05;8c10100c,0.05;8c10200a,0.05;8c10200b,0.05;8c10200c,0.05;8c10300a,0.05;8c10300b,0.05;8c10300c,0.1;8c10400a,0.1;8c10400b,0.1;8c10400c,0.1;8c10500a,0.1;8c10500b,0.05;8c10500c,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220202</id>
+	<name>3星防具禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c200013,0.1;8c200014,0.1;8c200015,0.1;8c200016,0.1;8c200017,0.1;8c200018,0.05;8c200019,0.05;8c20001a,0.05;8c20001b,0.05;8c301005,0.05;8c301006,0.05;8c302005,0.05;8c302006,0.05;8c303005,0.05;8c303006,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220203</id>
+	<name>4星武器配方</name>
+	<rate>0</rate>
+	<drop_list>8c10100d,0.1;8c10100e,0.1;8c10200d,0.1;8c10200e,0.1;8c10300d,0.1;8c10300e,0.1;8c10400d,0.1;8c10400e,0.1;8c10500d,0.1;8c10500e,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13220204</id>
+	<name>4星防具禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c20001c,0.1;8c20001d,0.1;8c20001e,0.1;8c20001f,0.1;8c200020,0.1;8c200021,0.1;8c301007,0.1;8c301008,0.1;8c302007,0.05;8c302008,0.05;8c303007,0.05;8c303008,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220205</id>
+	<name>5星防具禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c304003,0.2;8c305003,0.2;8c200022,0.1;8c200023,0.1;8c200024,0.1;8c301009,0.05;8c302009,0.1;8c303009,0.05;8c20002a,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13220206</id>
+	<name>2星将领配方</name>
+	<rate>0</rate>
+	<drop_list>8a201002,0.3;8a202002,0.2;8a204002,0.3;8a205002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13220207</id>
+	<name>3星防具配方</name>
+	<rate>0</rate>
+	<drop_list>8c200013,0.2;8c200014,0.2;8c200015,0.2;8c200016,0.1;8c200017,0.1;8c200018,0.05;8c200019,0.05;8c20001a,0.05;8c20001b,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13220208</id>
+	<name>3星禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c301005,0.2;8c301006,0.2;8c302005,0.2;8c302006,0.2;8c303005,0.1;8c303006,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13220209</id>
+	<name>4星防具配方</name>
+	<rate>0</rate>
+	<drop_list>8c20001c,0.2;8c20001d,0.2;8c20001e,0.2;8c20001f,0.2;8c200020,0.1;8c200021,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1322020A</id>
+	<name>4星禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c301007,0.2;8c301008,0.2;8c302007,0.2;8c302008,0.2;8c303007,0.1;8c303008,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1322020B</id>
+	<name>5星武器配方</name>
+	<rate>0</rate>
+	<drop_list>8c10100f,0.15;8c10200f,0.15;8c10300f,0.15;8c10400f,0.15;8c10500f,0.15;8c101013,0.05;8c102013,0.05;8c103013,0.05;8c104013,0.05;8c105013,0.05;</drop_list>
+</drop>
+<drop>
+	<id>1322020C</id>
+	<name>5星防具配方</name>
+	<rate>0</rate>
+	<drop_list>8c200022,0.4;8c200023,0.3;8c200024,0.2;8c20002a,0.1;</drop_list>
+</drop>
+<drop>
+	<id>1322020D</id>
+	<name>5星禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>8c301009,0.2;8c302009,0.2;8c303009,0.2;8c304003,0.2;8c305003,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13230101</id>
+	<name>3-5星装备材料</name>
+	<rate>0</rate>
+	<drop_list>13220101,0.7;13220102,0.2;13220103,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13230102</id>
+	<name>3-5星装备配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.3;13220202,0.3;13220203,0.2;13220204,0.1;13220205,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13230103</id>
+	<name>1-2星将魂</name>
+	<rate>0</rate>
+	<drop_list>13220104,0.6;13220105,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13230104</id>
+	<name>1-3星将魂</name>
+	<rate>0</rate>
+	<drop_list>13220104,0.5;13220105,0.3;13220106,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13230105</id>
+	<name>1-4星将魂</name>
+	<rate>0</rate>
+	<drop_list>13220104,0.5;13220105,0.2;13220106,0.2;13220107,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13404001</id>
+	<name>3星武器+防具配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.3;13220207,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13404002</id>
+	<name>3星防具+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>13220207,0.7;13220208,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13404003</id>
+	<name>3星武器+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.4;13220208,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13404004</id>
+	<name>4星武器+防具配方</name>
+	<rate>0</rate>
+	<drop_list>13220203,0.3;13220209,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13404005</id>
+	<name>4星防具+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>13220209,0.7;1322020A,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13404006</id>
+	<name>4星武器+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>13220203,0.4;1322020A,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13404007</id>
+	<name>5星武器+防具配方</name>
+	<rate>0</rate>
+	<drop_list>1322020B,0.3;1322020C,0.7;</drop_list>
+</drop>
+<drop>
+	<id>13404008</id>
+	<name>5星防具+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>1322020C,0.7;1322020D,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13404009</id>
+	<name>5星武器+禅杖配方</name>
+	<rate>0</rate>
+	<drop_list>1322020B,0.4;1322020D,0.6;</drop_list>
+</drop>
+<drop>
+	<id>13401001</id>
+	<name>3-4星武器+防具配方</name>
+	<rate>0.3</rate>
+	<drop_list>13404001,1;13404004,-1;</drop_list>
+</drop>
+<drop>
+	<id>13401002</id>
+	<name>3-4星防具+禅杖配方</name>
+	<rate>0.3</rate>
+	<drop_list>13404002,1;13404005,-1;</drop_list>
+</drop>
+<drop>
+	<id>13401003</id>
+	<name>3-4星武器+禅杖配方</name>
+	<rate>0.3</rate>
+	<drop_list>13404003,1;13404006,-1;</drop_list>
+</drop>
+<drop>
+	<id>13401004</id>
+	<name>3-5星武器+防具配方</name>
+	<rate>0.1</rate>
+	<drop_list>13404001,0.6;13404004,0.4;13404007,-1;</drop_list>
+</drop>
+<drop>
+	<id>13401005</id>
+	<name>3-5星防具+禅杖配方</name>
+	<rate>0.1</rate>
+	<drop_list>13404002,0.6;13404005,0.4;13404008,-1;</drop_list>
+</drop>
+<drop>
+	<id>13401006</id>
+	<name>3-5星武器+禅杖配方</name>
+	<rate>0.1</rate>
+	<drop_list>13404003,0.6;13404006,0.4;13404009,-1;</drop_list>
+</drop>
+<drop>
+	<id>13402001</id>
+	<name>1-2星神将+3星装备配方</name>
+	<rate>0</rate>
+	<drop_list>13220202,0.7;13601001,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13402002</id>
+	<name>1-2星神将+3星武器配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.7;13601001,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13402003</id>
+	<name>1-3星神将+3-4星装备配方</name>
+	<rate>0</rate>
+	<drop_list>13220202,0.5;13220204,0.3;13601002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13402004</id>
+	<name>1-3星神将+3-4星武器配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.5;13220203,0.3;13601002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13402005</id>
+	<name>1-4星神将+3-5星装备配方</name>
+	<rate>0</rate>
+	<drop_list>13220202,0.4;13220204,0.3;13220205,0.1;13601002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13402006</id>
+	<name>1-4星神将+3-5星武器配方</name>
+	<rate>0</rate>
+	<drop_list>13220201,0.4;13220203,0.3;1322020B,0.1;13601002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13403001</id>
+	<name>周一副本1</name>
+	<rate>0</rate>
+	<drop_list>13404001,1;</drop_list>
+</drop>
+<drop>
+	<id>13403002</id>
+	<name>周一副本2</name>
+	<rate>0</rate>
+	<drop_list>13404001,0.7;13404004,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13403003</id>
+	<name>周一副本3</name>
+	<rate>0.1</rate>
+	<drop_list>13404001,0.6;13404004,0.4;13404007,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403004</id>
+	<name>周二副本1</name>
+	<rate>0</rate>
+	<drop_list>13404002,1;</drop_list>
+</drop>
+<drop>
+	<id>13403005</id>
+	<name>周二副本2</name>
+	<rate>0</rate>
+	<drop_list>13404002,0.7;13404005,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13403006</id>
+	<name>周二副本3</name>
+	<rate>0.1</rate>
+	<drop_list>13404002,0.6;13404005,0.4;13404008,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403007</id>
+	<name>周三副本1</name>
+	<rate>0</rate>
+	<drop_list>13404003,1;</drop_list>
+</drop>
+<drop>
+	<id>13403008</id>
+	<name>周三副本2</name>
+	<rate>0</rate>
+	<drop_list>13404003,0.7;13404006,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13403009</id>
+	<name>周三副本3</name>
+	<rate>0.1</rate>
+	<drop_list>13404003,0.6;13404006,0.4;13404009,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403010</id>
+	<name>周四副本1</name>
+	<rate>0</rate>
+	<drop_list>13402001,1;</drop_list>
+</drop>
+<drop>
+	<id>13403011</id>
+	<name>周四副本2</name>
+	<rate>0</rate>
+	<drop_list>13402003,1;</drop_list>
+</drop>
+<drop>
+	<id>13403012</id>
+	<name>周四副本3</name>
+	<rate>0.05</rate>
+	<drop_list>13402005,1;13600004,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403013</id>
+	<name>周五副本1</name>
+	<rate>0</rate>
+	<drop_list>13402002,1;</drop_list>
+</drop>
+<drop>
+	<id>13403014</id>
+	<name>周五副本2</name>
+	<rate>0</rate>
+	<drop_list>13402004,1;</drop_list>
+</drop>
+<drop>
+	<id>13403015</id>
+	<name>周五副本3</name>
+	<rate>0.05</rate>
+	<drop_list>13402006,1;13600004,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403016</id>
+	<name>周六副本1</name>
+	<rate>0.01</rate>
+	<drop_list>13400101,0.8;13700001,0.2;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403017</id>
+	<name>周六副本2</name>
+	<rate>0.02</rate>
+	<drop_list>13400101,0.7;13700001,0.3;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403018</id>
+	<name>周六副本3</name>
+	<rate>0.05</rate>
+	<drop_list>13400101,0.7;13700001,0.3;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403019</id>
+	<name>周日副本1</name>
+	<rate>0.01</rate>
+	<drop_list>13400101,0.8;13700001,0.2;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403020</id>
+	<name>周日副本2</name>
+	<rate>0.02</rate>
+	<drop_list>13400101,0.7;13700001,0.3;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13403021</id>
+	<name>周日副本3</name>
+	<rate>0.05</rate>
+	<drop_list>13400101,0.7;13700001,0.3;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13500000</id>
+	<name>1星普通武将</name>
+	<rate>0</rate>
+	<drop_list>0A201001,0.05;0A203001,0.1;0A202001,0.1;0A204001,0.05;0A205001,0.1;0A401001,0.2;0A401002,0.1;0A401003,0.1;0A401004,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13500001</id>
+	<name>2星普通武将</name>
+	<rate>0</rate>
+	<drop_list>0A101001,0.05;0A102001,0.1;0A103001,0.2;0A104001,0.1;0A105001,0.1;0A201002,0.05;0A202002,0.1;0A204002,0.1;0A205002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13500002</id>
+	<name>3星普通武将</name>
+	<rate>0</rate>
+	<drop_list>0A203002,0.1;0A201003,0.1;0A401005,0.4;0A401006,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13500003</id>
+	<name>4星普通武将</name>
+	<rate>0</rate>
+	<drop_list>0A401007,0.2;0A401008,0.1;0A401009,0.1;0A401010,0.1;0A401011,0.1;0A401012,0.1;0A401013,0.1;0A401014,0.1;0A401015,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13500004</id>
+	<name>5星普通武将</name>
+	<rate>0</rate>
+	<drop_list>0A401010,0.2;0A401011,0.2;0A401012,0.2;0A401013,0.2;0A401014,0.1;0A401015,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13500005</id>
+	<name>2星金武将</name>
+	<rate>0</rate>
+	<drop_list>0A500001,0.05;0A500003,0.1;0A500002,0.1;0A500004,0.05;0A500005,0.1;0A500006,0.2;0A500007,0.1;0A500008,0.1;0A500009,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13500006</id>
+	<name>3星金武将</name>
+	<rate>0</rate>
+	<drop_list>0A501000,0.05;0A501001,0.1;0A501002,0.2;0A501003,0.1;0A501004,0.1;0A501005,0.05;0A501006,0.1;0A501007,0.1;0A501008,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13500007</id>
+	<name>4星金武将</name>
+	<rate>0</rate>
+	<drop_list>0A502001,0.3;0A502002,0.1;0A502003,0.3;0A502004,0.3;</drop_list>
+</drop>
+<drop>
+	<id>13500008</id>
+	<name>5星金武将</name>
+	<rate>0</rate>
+	<drop_list>0A503001,0.2;0A503002,0.1;0A503003,0.1;0A503004,0.1;0A503005,0.1;0A503006,0.1;0A503007,0.1;0A503008,0.1;0A503009,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13500009</id>
+	<name>6星金武将</name>
+	<rate>0</rate>
+	<drop_list>0A503004,0.2;0A503005,0.2;0A503006,0.2;0A503007,0.2;0A503008,0.1;0A503009,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13500010</id>
+	<name>1星全部武将</name>
+	<rate>0</rate>
+	<drop_list>0A201001,0.05;0A203001,0.1;0A202001,0.1;0A204001,0.05;0A205001,0.1;0A401001,0.2;0A401002,0.1;0A401003,0.1;0A401004,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13500011</id>
+	<name>2星全部武将</name>
+	<rate>0</rate>
+	<drop_list>0A101001,0.05;0A102001,0.1;0A103001,0.1;0A104001,0.1;0A105001,0.1;0A201002,0.05;0A202002,0.1;0A204002,0.1;0A205002,0.1;0A500001,0.03;0A500003,0.03;0A500002,0.02;0A500004,0.01;0A500005,0.02;0A500006,0.03;0A500007,0.02;0A500008,0.02;0A500009,0.02;</drop_list>
+</drop>
+<drop>
+	<id>13500012</id>
+	<name>3星全部武将</name>
+	<rate>0</rate>
+	<drop_list>0A203002,0.1;0A201003,0.1;0A401005,0.3;0A401006,0.3;0A501000,0.01;0A501001,0.02;0A501002,0.02;0A501003,0.01;0A501004,0.03;0A501005,0.05;0A501006,0.02;0A501007,0.02;0A501008,0.02;</drop_list>
+</drop>
+<drop>
+	<id>13500013</id>
+	<name>4星全部武将</name>
+	<rate>0</rate>
+	<drop_list>0A401007,0.2;0A401008,0.1;0A401009,0.05;0A401010,0.05;0A401011,0.1;0A401012,0.1;0A401013,0.05;0A401014,0.1;0A401015,0.05;0A502001,0.05;0A502002,0.05;0A502003,0.05;0A502004,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13500014</id>
+	<name>5星全部武将</name>
+	<rate>0</rate>
+	<drop_list>0A503001,0.2;0A503002,0.1;0A503003,0.1;0A503004,0.1;0A503005,0.1;0A503006,0.1;0A503007,0.1;0A503008,0.1;0A503009,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13600001</id>
+	<name>1星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>8a201001,0.05;8a203001,0.1;8a202001,0.1;8a204001,0.05;8a205001,0.1;8a401001,0.2;8a401002,0.1;8a401003,0.1;8a401004,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13600002</id>
+	<name>2星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>8a101001,0.05;8a102001,0.1;8a103001,0.2;8a104001,0.1;8a105001,0.1;8a201002,0.05;8a202002,0.1;8a204002,0.1;8a205002,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13600003</id>
+	<name>3星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>8a203002,0.1;8a201003,0.1;8a401005,0.4;8a401006,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13600004</id>
+	<name>4星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>8a401007,0.2;8a401008,0.1;8a401009,0.1;8a401010,0.1;8a401011,0.1;8a401012,0.1;8a401013,0.1;8a401014,0.1;8a401015,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13600005</id>
+	<name>5星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>8a401007,0.4;8a401008,0.4;8a401009,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13601001</id>
+	<name>1-2星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>13600001,0.6;13600002,0.4;</drop_list>
+</drop>
+<drop>
+	<id>13601002</id>
+	<name>1-3星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>13600001,0.5;13600002,0.3;13600003,0.2;</drop_list>
+</drop>
+<drop>
+	<id>13601003</id>
+	<name>1-4星普通武将配方</name>
+	<rate>0</rate>
+	<drop_list>13600001,0.4;13600002,0.3;13600003,0.2;13600004,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13700001</id>
+	<name>普通技能</name>
+	<rate>0</rate>
+	<drop_list>21000001,0.2;21000002,0.1;21000007,0.2;21000008,0.1;21000012,0.1;21000014,0.1;21000015,0.1;21000016,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13700002</id>
+	<name>高级技能</name>
+	<rate>0</rate>
+	<drop_list>21000003,0.1;21000004,0.1;21000005,0.1;21000006,0.1;21000009,0.1;21000010,0.1;21000011,0.1;21000013,0.1;21000017,0.1;21000018,0.1;</drop_list>
+</drop>
+<drop>
+	<id>13700003</id>
+	<name>所有技能</name>
+	<rate>0</rate>
+	<drop_list>21000001,0.1;21000002,0.05;21000003,0.05;21000004,0.05;21000005,0.05;21000006,0.05;21000007,0.05;21000008,0.05;21000009,0.05;21000010,0.05;21000011,0.05;21000012,0.05;21000013,0.1;21000014,0.05;21000015,0.05;21000016,0.05;21000017,0.05;21000018,0.05;</drop_list>
+</drop>
+<drop>
+	<id>13700004</id>
+	<name>副本技能掉落</name>
+	<rate>0.05</rate>
+	<drop_list>13700001,1;13700002,-1;</drop_list>
+</drop>
+<drop>
+	<id>13700005</id>
+	<name>基础技能1</name>
+	<rate>0</rate>
+	<drop_list>21000012,1;</drop_list>
+</drop>
+<drop>
+	<id>13700006</id>
+	<name>基础技能2</name>
+	<rate>0</rate>
+	<drop_list>21000014,1;</drop_list>
+</drop>
+<drop>
+	<id>13700007</id>
+	<name>基础技能3</name>
+	<rate>0</rate>
+	<drop_list>21000013,1;</drop_list>
+</drop>
+<drop>
+	<id>13700008</id>
+	<name>基础技能4</name>
+	<rate>0</rate>
+	<drop_list>21000004,1;</drop_list>
+</drop>
+<drop>
+	<id>13801001</id>
+	<name>pvp奖励</name>
+	<rate>0</rate>
+	<drop_list>0C101015,0.2;0C102015,0.2;0C103015,0.2;0C104015,0.2;0C105015,0.2;</drop_list>
+</drop>
+</root>

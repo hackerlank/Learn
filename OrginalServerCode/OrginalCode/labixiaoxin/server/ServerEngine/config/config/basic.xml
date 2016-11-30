@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<basic>
+	<id>19001001</id>
+	<name>小悟空</name>
+	<attribute>35,35,30,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001002</id>
+	<name>猪小戒</name>
+	<attribute>25,40,35,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001003</id>
+	<name>沙小僧</name>
+	<attribute>20,50,50,60,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001004</id>
+	<name>萌兔精</name>
+	<attribute>40,20,20,100,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001005</id>
+	<name>紫霞小仙</name>
+	<attribute>30,40,30,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001006</id>
+	<name>胡一刀</name>
+	<attribute>24,36,40,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001007</id>
+	<name>胡二棒</name>
+	<attribute>20,40,50,70,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001008</id>
+	<name>胡三弓</name>
+	<attribute>25,40,35,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001009</id>
+	<name>金三胖</name>
+	<attribute>22,38,40,80,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19002001</id>
+	<name>天狼</name>
+	<attribute>40,40,40,80,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002002</id>
+	<name>西域使者</name>
+	<attribute>38,42,50,70,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002003</id>
+	<name>雷牙</name>
+	<attribute>35,45,60,60,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002004</id>
+	<name>绿影</name>
+	<attribute>30,50,50,30,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002005</id>
+	<name>雪灵子</name>
+	<attribute>32,48,45,55,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002006</id>
+	<name>武曲星</name>
+	<attribute>40,40,30,90,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002007</id>
+	<name>火德星君</name>
+	<attribute>50,30,20,100,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002008</id>
+	<name>鹤童</name>
+	<attribute>35,45,40,80,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002009</id>
+	<name>瑶池仙子</name>
+	<attribute>30,50,40,80,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19003001</id>
+	<name>龙三公主</name>
+	<attribute>45,45,40,90,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003002</id>
+	<name>齐天大圣</name>
+	<attribute>50,50,50,70,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003003</id>
+	<name>黑熊精</name>
+	<attribute>40,70,60,50,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003004</id>
+	<name>长须大王</name>
+	<attribute>50,40,50,80,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19004001</id>
+	<name>多目神君</name>
+	<attribute>55,65,45,75,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004002</id>
+	<name>北海龙王</name>
+	<attribute>50,70,40,80,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004003</id>
+	<name>二郎神</name>
+	<attribute>60,60,50,70,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004004</id>
+	<name>哪咤</name>
+	<attribute>59,60,50,71,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004005</id>
+	<name>托塔天王</name>
+	<attribute>58,62,52,68,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004006</id>
+	<name>木吒</name>
+	<attribute>56,64,60,60,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004007</id>
+	<name>九尾妖狐</name>
+	<attribute>62,56,46,76,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004008</id>
+	<name>虎力大仙</name>
+	<attribute>57,63,52,68,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004009</id>
+	<name>巨灵神</name>
+	<attribute>61,61,52,66,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19000000</id>
+	<name>唐僧</name>
+	<attribute>0,0,0,0,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19008000</id>
+	<name>血牛小怪</name>
+	<attribute>6,75,25,50,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008001</id>
+	<name>攻高小怪 </name>
+	<attribute>10,65,20,70,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008002</id>
+	<name>血牛boss</name>
+	<attribute>12,180,30,50,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008003</id>
+	<name>攻高boss</name>
+	<attribute>15,130,30,80,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008004</id>
+	<name>血牛小boss</name>
+	<attribute>11,140,25,50,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008005</id>
+	<name>攻高小boss</name>
+	<attribute>13,100,20,70,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19011001</id>
+	<name>金·小悟空</name>
+	<attribute>40,40,35,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011002</id>
+	<name>金·猪小戒</name>
+	<attribute>30,45,40,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011003</id>
+	<name>金·沙小僧</name>
+	<attribute>25,55,55,65,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011004</id>
+	<name>金·萌兔精</name>
+	<attribute>45,25,25,105,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011005</id>
+	<name>金·紫霞小仙</name>
+	<attribute>35,45,35,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011006</id>
+	<name>金·胡一刀</name>
+	<attribute>29,41,45,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011007</id>
+	<name>金·胡二棒</name>
+	<attribute>25,45,55,75,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011008</id>
+	<name>金·胡三弓</name>
+	<attribute>30,45,40,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19011009</id>
+	<name>金·金三胖</name>
+	<attribute>27,43,45,85,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19012001</id>
+	<name>金·天狼</name>
+	<attribute>45,45,45,85,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012002</id>
+	<name>金·西域使者</name>
+	<attribute>43,47,55,75,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012003</id>
+	<name>金·雷牙</name>
+	<attribute>40,50,65,65,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012004</id>
+	<name>金·绿影</name>
+	<attribute>35,55,55,35,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012005</id>
+	<name>金·雪灵子</name>
+	<attribute>37,55,50,60,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012006</id>
+	<name>金·武曲星</name>
+	<attribute>45,45,35,95,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012007</id>
+	<name>金·火德星君</name>
+	<attribute>55,35,25,105,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012008</id>
+	<name>金·鹤童</name>
+	<attribute>40,50,45,85,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19012009</id>
+	<name>金·瑶池仙子</name>
+	<attribute>35,55,45,85,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19013001</id>
+	<name>金·龙三公主</name>
+	<attribute>50,50,45,95,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19013002</id>
+	<name>金·齐天大圣</name>
+	<attribute>55,55,55,75,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19013003</id>
+	<name>金·黑熊精</name>
+	<attribute>45,75,65,55,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19013004</id>
+	<name>金·长须大王</name>
+	<attribute>55,45,55,85,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19014001</id>
+	<name>金·多目神君</name>
+	<attribute>60,70,50,80,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014002</id>
+	<name>金·北海龙王</name>
+	<attribute>55,75,45,85,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014003</id>
+	<name>金·二郎神</name>
+	<attribute>65,65,55,75,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014004</id>
+	<name>金·哪咤</name>
+	<attribute>64,65,54,77,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014005</id>
+	<name>金·托塔天王</name>
+	<attribute>63,70,52,75,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014006</id>
+	<name>金·木吒</name>
+	<attribute>60,73,65,62,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014007</id>
+	<name>金·九尾妖狐</name>
+	<attribute>67,60,50,83,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014008</id>
+	<name>金·虎力大仙</name>
+	<attribute>62,68,58,72,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19014009</id>
+	<name>金·巨灵神</name>
+	<attribute>66,66,57,71,0</attribute>
+	<quality>5</quality>
+</basic>
+</root>

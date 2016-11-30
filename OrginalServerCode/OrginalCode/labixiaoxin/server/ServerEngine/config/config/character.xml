@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<character>
+	<id>0A101001</id>
+	<name>天狼</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_zj_gun</picture_id>
+	<quality>2</quality>
+	<basic_id>19002001</basic_id>
+	<growing_id>20001009</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040100</formula_id>
+	<desc>少林寺的俗家弟子，天赋聪颖，学了几年棒法后下山四处找人挑战。路遇唐僧一行，和小悟空不打不相识</desc>
+</character>
+<character>
+	<id>0A102001</id>
+	<name>西域使者</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_zj_shouqiang</picture_id>
+	<quality>2</quality>
+	<basic_id>19002002</basic_id>
+	<growing_id>2000100A</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040101</formula_id>
+	<desc>原是流传于丝绸之路的侠盗，和当年曾任捕快的猪小戒火枪决斗后，改邪归正。</desc>
+</character>
+<character>
+	<id>0A103001</id>
+	<name>雷牙</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_zj_chan</picture_id>
+	<quality>2</quality>
+	<basic_id>19002003</basic_id>
+	<growing_id>2000100B</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040102</formula_id>
+	<desc>昆仑山的猎户，幼时受山中仙人指点练就一身硬打本领，可降服仙兽飞禽。后意外捕兽夹误抓住萌兔子，和小悟空一行闹了一大场误会后加入队伍。</desc>
+</character>
+<character>
+	<id>0A104001</id>
+	<name>绿影</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_zj_gong</picture_id>
+	<quality>2</quality>
+	<basic_id>19002004</basic_id>
+	<growing_id>2000100C</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040103</formula_id>
+	<desc>雷牙的好基友，最爱拔弓射飞鸟，经常把天宫送信的神鹤射伤。王母一怒之下罚他护送唐长老西行取经赎罪。</desc>
+</character>
+<character>
+	<id>0A105001</id>
+	<name>雪灵子</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_zj_zhang</picture_id>
+	<quality>2</quality>
+	<basic_id>19002005</basic_id>
+	<growing_id>2000100D</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040104</formula_id>
+	<desc>水玉峰玄冰教的道士，冷艳高贵，自恋无比。最瞧不起金三胖爱美装扮，觉得自己是天下最俊美之人，直到他看见了二郎神。。。</desc>
+</character>
+<character>
+	<id>0A201001</id>
+	<name>小悟空</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_wukong</picture_id>
+	<quality>1</quality>
+	<basic_id>19001001</basic_id>
+	<growing_id>20001000</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040105</formula_id>
+	<desc>唐僧的大徒弟，东海灵石所化，曾随菩提老祖学艺，大闹天宫之后被派往保护唐僧取经，性如烈火。经典语录：先吃俺老孙一棒，再问问有没有背景</desc>
+</character>
+<character>
+	<id>0A202001</id>
+	<name>猪小戒</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_bajie</picture_id>
+	<quality>1</quality>
+	<basic_id>19001002</basic_id>
+	<growing_id>20001001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040106</formula_id>
+	<desc>因调戏嫦娥被贬下凡间时，时空错乱，移植某神秘西方大陆，学会一身好枪法。回到大唐后担任过一阵捕快，结交了很多江湖好友。</desc>
+</character>
+<character>
+	<id>0A203001</id>
+	<name>沙小僧</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_shaseng</picture_id>
+	<quality>1</quality>
+	<basic_id>19001003</basic_id>
+	<growing_id>20001002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040107</formula_id>
+	<desc>曾为卷帘大将，因醉酒误事，打碎琉璃盏而被贬下凡间，保护唐僧取经作为惩罚，为了反思自己的过错，经常一边喝酒一边思考如何戒酒。经典语录：取经不喝酒，喝酒不取经</desc>
+</character>
+<character>
+	<id>0A204001</id>
+	<name>萌兔精</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_yutu</picture_id>
+	<quality>1</quality>
+	<basic_id>19001004</basic_id>
+	<growing_id>20001003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040108</formula_id>
+	<desc>嫦娥派下凡间监视猪八戒的特使，负责记录猪八戒与哪些女性有暧昧，作为交换条件加入了取经队伍。经典语录：我才是真正的兔女郎</desc>
+</character>
+<character>
+	<id>0A205001</id>
+	<name>紫霞小仙</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_zixia</picture_id>
+	<quality>1</quality>
+	<basic_id>19001005</basic_id>
+	<growing_id>20001004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040109</formula_id>
+	<desc>如来佛祖灯芯所化，一直觉得孙悟空似曾相识，因此加入唐僧队伍寻找答案，沉默寡言，只有面对孙悟空时话才多一点。经典语录：我记得好像有个人叫至尊宝</desc>
+</character>
+<character>
+	<id>0A201002</id>
+	<name>武曲星</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_wuquxing</picture_id>
+	<quality>2</quality>
+	<basic_id>19002006</basic_id>
+	<growing_id>2000100E</growing_id>
+	<increment_formula>202</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040200</formula_id>
+	<desc>在围剿花果山战斗中因为作战不力而下狱，之后得观音点化，护送唐僧取经换得自由。经典语录：你这不入流的小小弼马温</desc>
+</character>
+<character>
+	<id>0A202002</id>
+	<name>火德星君</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_huodexingjun</picture_id>
+	<quality>2</quality>
+	<basic_id>19002007</basic_id>
+	<growing_id>200010F0</growing_id>
+	<increment_formula>202</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040201</formula_id>
+	<desc>南方火神，对于火的研究非常有心得，并将自己的成果炫耀给凡人，即火器技术，造成了凡间非常大的伤亡，玉帝怒其造成杀戮太多本欲将之处死，得观音求情改成保护唐僧取经，同时学习佛法化解自身的杀孽，经典语录：你要火啦！</desc>
+</character>
+<character>
+	<id>0A203002</id>
+	<name>龙三公主</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_longsan</picture_id>
+	<quality>3</quality>
+	<basic_id>19003001</basic_id>
+	<growing_id>200010F3</growing_id>
+	<increment_formula>203</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040202</formula_id>
+	<desc>东海龙王最宠爱的小女儿，性格外向，整天就喜欢打打杀杀，手中一杆双头枪使得出神入化，后来听说许多厉害的妖怪会出现在西天路上，遂主动加入取经队伍。经典语录：哪吒如果当年碰到的是本小姐，管叫他跪地求饶！</desc>
+</character>
+<character>
+	<id>0A204002</id>
+	<name>鹤童</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_hetong</picture_id>
+	<quality>2</quality>
+	<basic_id>19002007</basic_id>
+	<growing_id>200010F1</growing_id>
+	<increment_formula>202</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040203</formula_id>
+	<desc>南极仙翁的关门弟子，孙悟空在天庭任职期间常与南极仙翁打赌下棋，输给孙悟空一壶酒，之后为还人情，派自己的徒弟鹤童，协助唐僧取经，经典语录：我是仙鹤，不是鸟人</desc>
+</character>
+<character>
+	<id>0A205002</id>
+	<name>瑶池仙子</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_yaochi</picture_id>
+	<quality>2</quality>
+	<basic_id>19002008</basic_id>
+	<growing_id>200010F2</growing_id>
+	<increment_formula>202</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040204</formula_id>
+	<desc>原为瑶池一滴甘露吸收日精月华所化人形，与凡人相恋而触犯天条，之后被王母软禁在瑶池三百年，听说到达西天后可从佛祖口中得知恋人下落，便加入取经队伍。经典语录：与君相离未白首，妾当独做一心人</desc>
+</character>
+<character>
+	<id>0A201003</id>
+	<name>齐天大圣</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_wukong2</picture_id>
+	<quality>3</quality>
+	<basic_id>19003002</basic_id>
+	<growing_id>200010F4</growing_id>
+	<increment_formula>203</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040205</formula_id>
+	<desc>因为不服玉帝给的芝麻绿豆官弼马温，自封为齐天大圣，之后掌管蟠桃园，偷桃盗丹，引得天兵天将下界捉拿，最后大闹天宫，威震三界，经典语录：皇帝轮流做，明年到我家</desc>
+</character>
+<character>
+	<id>0A300001</id>
+	<name>唐僧</name>
+	<resid>zhiye_tangseng</resid>
+	<picture_id>pic_tangseng</picture_id>
+	<quality>4</quality>
+	<basic_id>19000000</basic_id>
+	<growing_id>200010FA</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C301001</equipment_id>
+	<skillid>0</skillid>
+	<formula_id>0</formula_id>
+	<desc>如来佛祖指定的取经人，表面文弱，实际上双手力大无穷，徒弟不听话时就将其打飞，信奉的准则是：打妖怪徒弟上，打女妖怪师父上！</desc>
+</character>
+<character>
+	<id>0A401001</id>
+	<name>胡一刀</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_huyidao</picture_id>
+	<quality>1</quality>
+	<basic_id>19001006</basic_id>
+	<growing_id>20001005</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040207</formula_id>
+	<desc>胡氏三妖的老大，青云山大总管。被唐长老一行打败后归于门下，最爱带着大刀赶小贩。</desc>
+</character>
+<character>
+	<id>0A401002</id>
+	<name>胡二棒</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_huerbang</picture_id>
+	<quality>1</quality>
+	<basic_id>19001007</basic_id>
+	<growing_id>20001006</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040208</formula_id>
+	<desc>胡氏三妖的老二，青云山狗腿队长。跟随老大入了唐长老一行，经常找小悟空比试被修理得很惨。</desc>
+</character>
+<character>
+	<id>0A401003</id>
+	<name>胡三弓</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_hushangong</picture_id>
+	<quality>1</quality>
+	<basic_id>19001008</basic_id>
+	<growing_id>20001007</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040209</formula_id>
+	<desc>胡氏三妖的老幺，青云山监察队长。早年因误伤黑熊老大被弄瞎一只眼，道上又称一只眼。</desc>
+</character>
+<character>
+	<id>0A401004</id>
+	<name>金三胖</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jinshanpang</picture_id>
+	<quality>1</quality>
+	<basic_id>19001009</basic_id>
+	<growing_id>20001008</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040300</formula_id>
+	<desc>水玉峰的雷妖。原本长得异常粗壮但是异常爱美，喜爱用兽皮装扮。听说沙小僧有独家减肥丹药，遂加入唐长老以求灵丹。</desc>
+</character>
+<character>
+	<id>0A401005</id>
+	<name>黑熊精</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_heixiong</picture_id>
+	<quality>3</quality>
+	<basic_id>19003003</basic_id>
+	<growing_id>200010F5</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040301</formula_id>
+	<desc>青云山山头老大。早年被胡三弓误射眼睛，留下疤痕。与小悟空一行不打不相识，后还与小悟空结拜为兄弟，一起加入西天取经的队伍。</desc>
+</character>
+<character>
+	<id>0A401006</id>
+	<name>长须大王</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_chanxu</picture_id>
+	<quality>3</quality>
+	<basic_id>19003004</basic_id>
+	<growing_id>200010F6</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040302</formula_id>
+	<desc>在水下生活了千年的鱼妖，厌倦了水底一成不变的生活，卖了自己的金刚双锤，换取了陆地呼吸的本领。想跟着唐长老一行去见识未知世界。</desc>
+</character>
+<character>
+	<id>0A401007</id>
+	<name>多目神君</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_duomu</picture_id>
+	<quality>4</quality>
+	<basic_id>19004001</basic_id>
+	<growing_id>200010F7</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040303</formula_id>
+	<desc>盘丝洞蜘蛛精们的师兄，心狠手辣却对女子格外怜香惜玉。在与唐长老一战中，对紫霞仙子一见钟情，遂一路跟随追求。</desc>
+</character>
+<character>
+	<id>0A401008</id>
+	<name>北海龙王</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_beilongwang</picture_id>
+	<quality>4</quality>
+	<basic_id>19004002</basic_id>
+	<growing_id>200010F8</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040304</formula_id>
+	<desc>北海龙王，听说失踪多年的女儿正在唐僧一行的队伍中。遂在水玉峰设关等候。</desc>
+</character>
+<character>
+	<id>0A401009</id>
+	<name>二郎神</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_erlangshen</picture_id>
+	<quality>4</quality>
+	<basic_id>19004003</basic_id>
+	<growing_id>200010F9</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040305</formula_id>
+	<desc>英明神武，相貌无双，是天宫众仙女的梦中情人。当年与齐天大圣空前一战打得难分高下，大圣被降服后他再也难找对手。于是不惜下凡寻找变成小悟空的大圣，期待它恢复神位后与之再度对决。</desc>
+</character>
+<character>
+	<id>0A401010</id>
+	<name>哪咤</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_nezha</picture_id>
+	<quality>4</quality>
+	<basic_id>19004004</basic_id>
+	<growing_id>20001010</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040306</formula_id>
+	<desc>托塔李天王三子，头戴乾坤圈，臂绕混天绫，脚踏风火轮，手持火尖枪，拥有三头六臂至神通</desc>
+</character>
+<character>
+	<id>0A401011</id>
+	<name>托塔天王</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_tuota</picture_id>
+	<quality>4</quality>
+	<basic_id>19004005</basic_id>
+	<growing_id>20001011</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040307</formula_id>
+	<desc>托塔天王姓李名靖，是天宫中的卫戍司令。李家父子武艺超群，法力深厚，又对玉帝忠心耿耿，在天界享有崇高而又重要的地位。</desc>
+</character>
+<character>
+	<id>0A401012</id>
+	<name>木吒</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_muzha</picture_id>
+	<quality>4</quality>
+	<basic_id>19004006</basic_id>
+	<growing_id>20001012</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040308</formula_id>
+	<desc>木叉又叫木吒，是托塔天王的二儿子，哪吒的二兄长，法名惠岸，是南海观世音菩萨的护教大徒弟。</desc>
+</character>
+<character>
+	<id>0A401013</id>
+	<name>九尾妖狐</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jiuwei</picture_id>
+	<quality>4</quality>
+	<basic_id>19004007</basic_id>
+	<growing_id>20001013</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040309</formula_id>
+	<desc>传说是西方紫驼林中的小狐狸受某神仙点化，化为狐妖，虽然修行千年可始终无法隐藏自己的9条尾巴。</desc>
+</character>
+<character>
+	<id>0A401014</id>
+	<name>虎力大仙</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_hulidaxian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004008</basic_id>
+	<growing_id>20001014</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040310</formula_id>
+	<desc>由于帮助车迟国解脱旱魃,被车迟国国王奉为国师。路遇唐僧一行与之斗法，每每被悟空戏弄。</desc>
+</character>
+<character>
+	<id>0A401015</id>
+	<name>巨灵神</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_julingshen</picture_id>
+	<quality>4</quality>
+	<basic_id>19004009</basic_id>
+	<growing_id>20001015</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040311</formula_id>
+	<desc>巨灵神是托塔天王帐下的一员战将，使用的兵器是件宣花板斧，舞动起沉重的宣花板斧，就象凤凰穿花，灵巧无比。</desc>
+</character>
+<character>
+	<id>0A500001</id>
+	<name>金·小悟空</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_wukong</picture_id>
+	<quality>2</quality>
+	<basic_id>19011001</basic_id>
+	<growing_id>20011000</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>唐僧的大徒弟，东海灵石所化，曾随菩提老祖学艺，大闹天宫之后被派往保护唐僧取经，性如烈火。经典语录：先吃俺老孙一棒，再问问有没有背景</desc>
+</character>
+<character>
+	<id>0A500002</id>
+	<name>金·猪小戒</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_jin_bajie</picture_id>
+	<quality>2</quality>
+	<basic_id>19011002</basic_id>
+	<growing_id>20011001</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>0</formula_id>
+	<desc>因调戏嫦娥被贬下凡间时，时空错乱，移植某神秘西方大陆，学会一身好枪法。回到大唐后担任过一阵捕快，结交了很多江湖好友。</desc>
+</character>
+<character>
+	<id>0A500003</id>
+	<name>金·沙小僧</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_shaseng</picture_id>
+	<quality>2</quality>
+	<basic_id>19011003</basic_id>
+	<growing_id>20011002</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>曾为卷帘大将，因醉酒误事，打碎琉璃盏而被贬下凡间，保护唐僧取经作为惩罚，为了反思自己的过错，经常一边喝酒一边思考如何戒酒。经典语录：取经不喝酒，喝酒不取经</desc>
+</character>
+<character>
+	<id>0A500004</id>
+	<name>金·萌兔精</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jin_yutu</picture_id>
+	<quality>2</quality>
+	<basic_id>19011004</basic_id>
+	<growing_id>20011003</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>0</formula_id>
+	<desc>嫦娥派下凡间监视猪八戒的特使，负责记录猪八戒与哪些女性有暧昧，作为交换条件加入了取经队伍。经典语录：我才是真正的兔女郎</desc>
+</character>
+<character>
+	<id>0A500005</id>
+	<name>金·紫霞小仙</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_jin_zixia</picture_id>
+	<quality>2</quality>
+	<basic_id>19011005</basic_id>
+	<growing_id>20011004</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>0</formula_id>
+	<desc>如来佛祖灯芯所化，一直觉得孙悟空似曾相识，因此加入唐僧队伍寻找答案，沉默寡言，只有面对孙悟空时话才多一点。经典语录：我记得好像有个人叫至尊宝</desc>
+</character>
+<character>
+	<id>0A500006</id>
+	<name>金·胡一刀</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_huyidao</picture_id>
+	<quality>2</quality>
+	<basic_id>19011006</basic_id>
+	<growing_id>20011005</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>胡氏三妖的老大，青云山大总管。被唐长老一行打败后归于门下，最爱带着大刀赶小贩。</desc>
+</character>
+<character>
+	<id>0A500007</id>
+	<name>金·胡二棒</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_huerbang</picture_id>
+	<quality>2</quality>
+	<basic_id>19011007</basic_id>
+	<growing_id>20011006</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>胡氏三妖的老二，青云山狗腿队长。跟随老大入了唐长老一行，经常找小悟空比试被修理得很惨。</desc>
+</character>
+<character>
+	<id>0A500008</id>
+	<name>金·胡三弓</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jin_husangong</picture_id>
+	<quality>2</quality>
+	<basic_id>19011008</basic_id>
+	<growing_id>20011007</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>0</formula_id>
+	<desc>胡氏三妖的老幺，青云山监察队长。早年因误伤黑熊老大被弄瞎一只眼，道上又称一只眼。</desc>
+</character>
+<character>
+	<id>0A500009</id>
+	<name>金·金三胖</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_jinshanpang</picture_id>
+	<quality>2</quality>
+	<basic_id>19011009</basic_id>
+	<growing_id>20011008</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>水玉峰的雷妖。原本长得异常粗壮但是异常爱美，喜爱用兽皮装扮。听说沙小僧有独家减肥丹药，遂加入唐长老以求灵丹。</desc>
+</character>
+<character>
+	<id>0A501000</id>
+	<name>金·天狼</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_tianlang</picture_id>
+	<quality>3</quality>
+	<basic_id>19012001</basic_id>
+	<growing_id>20011009</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>少林寺的俗家弟子，天赋聪颖，学了几年棒法后下山四处找人挑战。路遇唐僧一行，和小悟空不打不相识</desc>
+</character>
+<character>
+	<id>0A501001</id>
+	<name>金·西域使者</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_jin_xiyu</picture_id>
+	<quality>3</quality>
+	<basic_id>19012002</basic_id>
+	<growing_id>2001100A</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>0</formula_id>
+	<desc>原是流传于丝绸之路的侠盗，和当年曾任捕快的猪小戒火枪决斗后，改邪归正。</desc>
+</character>
+<character>
+	<id>0A501002</id>
+	<name>金·雷牙</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_leiya</picture_id>
+	<quality>3</quality>
+	<basic_id>19012003</basic_id>
+	<growing_id>2001100B</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>昆仑山的猎户，幼时受山中仙人指点练就一身硬打本领，可降服仙兽飞禽。后意外捕兽夹误抓住萌兔子，和小悟空一行闹了一大场误会后加入队伍。</desc>
+</character>
+<character>
+	<id>0A501003</id>
+	<name>金·绿影</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jin_lvying</picture_id>
+	<quality>3</quality>
+	<basic_id>19012004</basic_id>
+	<growing_id>2001100C</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>0</formula_id>
+	<desc>雷牙的好基友，最爱拔弓射飞鸟，经常把天宫送信的神鹤射伤。王母一怒之下罚他护送唐长老西行取经赎罪。</desc>
+</character>
+<character>
+	<id>0A501004</id>
+	<name>金·雪灵子</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_jin_xulingzi</picture_id>
+	<quality>3</quality>
+	<basic_id>19012005</basic_id>
+	<growing_id>2001100D</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>0</formula_id>
+	<desc>水玉峰玄冰教的道士，冷艳高贵，自恋无比。最瞧不起金三胖爱美装扮，觉得自己是天下最俊美之人，直到他看见了二郎神。。。</desc>
+</character>
+<character>
+	<id>0A501005</id>
+	<name>金·武曲星</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_wuquxing</picture_id>
+	<quality>3</quality>
+	<basic_id>19012006</basic_id>
+	<growing_id>2001100E</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>在围剿花果山战斗中因为作战不力而下狱，之后得观音点化，护送唐僧取经换得自由。经典语录：你这不入流的小小弼马温</desc>
+</character>
+<character>
+	<id>0A501006</id>
+	<name>金·火德星君</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_jin_huodexingjun</picture_id>
+	<quality>3</quality>
+	<basic_id>19012007</basic_id>
+	<growing_id>200110F0</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>0</formula_id>
+	<desc>南方火神，对于火的研究非常有心得，并将自己的成果炫耀给凡人，即火器技术，造成了凡间非常大的伤亡，玉帝怒其造成杀戮太多本欲将之处死，得观音求情改成保护唐僧取经，同时学习佛法化解自身的杀孽，经典语录：你要火啦！</desc>
+</character>
+<character>
+	<id>0A501007</id>
+	<name>金·鹤童</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jin_hetong</picture_id>
+	<quality>3</quality>
+	<basic_id>19012008</basic_id>
+	<growing_id>200110F1</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>0</formula_id>
+	<desc>南极仙翁的关门弟子，孙悟空在天庭任职期间常与南极仙翁打赌下棋，输给孙悟空一壶酒，之后为还人情，派自己的徒弟鹤童，协助唐僧取经，经典语录：我是仙鹤，不是鸟人</desc>
+</character>
+<character>
+	<id>0A501008</id>
+	<name>金·瑶池仙子</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_jin_yaochi</picture_id>
+	<quality>3</quality>
+	<basic_id>19012009</basic_id>
+	<growing_id>200110F2</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>0</formula_id>
+	<desc>原为瑶池一滴甘露吸收日精月华所化人形，与凡人相恋而触犯天条，之后被王母软禁在瑶池三百年，听说到达西天后可从佛祖口中得知恋人下落，便加入取经队伍。经典语录：与君相离未白首，妾当独做一心人</desc>
+</character>
+<character>
+	<id>0A502001</id>
+	<name>金·龙三公主</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_longsan</picture_id>
+	<quality>4</quality>
+	<basic_id>19013001</basic_id>
+	<growing_id>200110F3</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>东海龙王最宠爱的小女儿，性格外向，整天就喜欢打打杀杀，手中一杆双头枪使得出神入化，后来听说许多厉害的妖怪会出现在西天路上，遂主动加入取经队伍。经典语录：哪吒如果当年碰到的是本小姐，管叫他跪地求饶！</desc>
+</character>
+<character>
+	<id>0A502002</id>
+	<name>金·齐天大圣</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_qitiandasheng</picture_id>
+	<quality>4</quality>
+	<basic_id>19013002</basic_id>
+	<growing_id>200110F4</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>因为不服玉帝给的芝麻绿豆官弼马温，自封为齐天大圣，之后掌管蟠桃园，偷桃盗丹，引得天兵天将下界捉拿，最后大闹天宫，威震三界，经典语录：皇帝轮流做，明年到我家</desc>
+</character>
+<character>
+	<id>0A502003</id>
+	<name>金·黑熊精</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_heixiong</picture_id>
+	<quality>4</quality>
+	<basic_id>19013003</basic_id>
+	<growing_id>200110F5</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>青云山山头老大。早年被胡三弓误射眼睛，留下疤痕。与小悟空一行不打不相识，后还与小悟空结拜为兄弟，一起加入西天取经的队伍。</desc>
+</character>
+<character>
+	<id>0A502004</id>
+	<name>金·长须大王</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_jin_changxu</picture_id>
+	<quality>4</quality>
+	<basic_id>19013004</basic_id>
+	<growing_id>200110F6</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>0</formula_id>
+	<desc>在水下生活了千年的鱼妖，厌倦了水底一成不变的生活，卖了自己的金刚双锤，换取了陆地呼吸的本领。想跟着唐长老一行去见识未知世界。</desc>
+</character>
+<character>
+	<id>0A503001</id>
+	<name>金·多目神君</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_jin_duomu</picture_id>
+	<quality>5</quality>
+	<basic_id>19014001</basic_id>
+	<growing_id>200110F7</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>0</formula_id>
+	<desc>盘丝洞蜘蛛精们的师兄，心狠手辣却对女子格外怜香惜玉。在与唐长老一战中，对紫霞仙子一见钟情，遂一路跟随追求。</desc>
+</character>
+<character>
+	<id>0A503002</id>
+	<name>金·北海龙王</name>
+	<resid>zhiye_zhang</resid>
+	<picture_id>pic_jin_beilongwang</picture_id>
+	<quality>5</quality>
+	<basic_id>19014002</basic_id>
+	<growing_id>200110F8</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>0</formula_id>
+	<desc>北海龙王，听说失踪多年的女儿正在唐僧一行的队伍中。遂在水玉峰设关等候。</desc>
+</character>
+<character>
+	<id>0A503003</id>
+	<name>金·二郎神</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_erlangshen</picture_id>
+	<quality>5</quality>
+	<basic_id>19014003</basic_id>
+	<growing_id>200110F9</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>英明神武，相貌无双，是天宫众仙女的梦中情人。当年与齐天大圣空前一战打得难分高下，大圣被降服后他再也难找对手。于是不惜下凡寻找变成小悟空的大圣，期待它恢复神位后与之再度对决。</desc>
+</character>
+<character>
+	<id>0A503004</id>
+	<name>金·哪咤</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_nezha</picture_id>
+	<quality>5</quality>
+	<basic_id>19014004</basic_id>
+	<growing_id>200110F7</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>托塔李天王三子，头戴乾坤圈，臂绕混天绫，脚踏风火轮，手持火尖枪，拥有三头六臂至神通</desc>
+</character>
+<character>
+	<id>0A503005</id>
+	<name>金·托塔天王</name>
+	<resid>zhiye_shouqiang</resid>
+	<picture_id>pic_jin_tuota</picture_id>
+	<quality>5</quality>
+	<basic_id>19014005</basic_id>
+	<growing_id>200110F8</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>0</formula_id>
+	<desc>托塔天王姓李名靖，是天宫中的卫戍司令。李家父子武艺超群，法力深厚，又对玉帝忠心耿耿，在天界享有崇高而又重要的地位。</desc>
+</character>
+<character>
+	<id>0A503006</id>
+	<name>金·木吒</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_muzha</picture_id>
+	<quality>5</quality>
+	<basic_id>19014006</basic_id>
+	<growing_id>200110F9</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>木叉又叫木吒，是托塔天王的二儿子，哪吒的二兄长，法名惠岸，是南海观世音菩萨的护教大徒弟。</desc>
+</character>
+<character>
+	<id>0A503007</id>
+	<name>金·九尾妖狐</name>
+	<resid>zhiye_gong</resid>
+	<picture_id>pic_jin_jiuwei</picture_id>
+	<quality>5</quality>
+	<basic_id>19014007</basic_id>
+	<growing_id>200110F7</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>0</formula_id>
+	<desc>传说是西方紫驼林中的小狐狸受某神仙点化，化为狐妖，虽然修行千年可始终无法隐藏自己的9条尾巴。</desc>
+</character>
+<character>
+	<id>0A503008</id>
+	<name>金·虎力大仙</name>
+	<resid>zhiye_chan</resid>
+	<picture_id>pic_jin_hulidaxian</picture_id>
+	<quality>5</quality>
+	<basic_id>19014008</basic_id>
+	<growing_id>200110F8</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>0</formula_id>
+	<desc>由于帮助车迟国解脱旱魃,被车迟国国王奉为国师。路遇唐僧一行与之斗法，每每被悟空戏弄。</desc>
+</character>
+<character>
+	<id>0A503009</id>
+	<name>金·巨灵神</name>
+	<resid>zhiye_gun</resid>
+	<picture_id>pic_jin_julingshen</picture_id>
+	<quality>5</quality>
+	<basic_id>19014009</basic_id>
+	<growing_id>200110F9</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>0</formula_id>
+	<desc>巨灵神是托塔天王帐下的一员战将，使用的兵器是件宣花板斧，舞动起沉重的宣花板斧，就象凤凰穿花，灵巧无比。</desc>
+</character>
+</root>

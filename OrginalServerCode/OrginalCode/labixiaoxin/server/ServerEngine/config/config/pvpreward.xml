@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<pvpreward>
+	<id>22000001</id>
+	<name>无量天尊</name>
+	<reward>14020001,500;13801001,1</reward>
+	<rank>1</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000002</id>
+	<name>斗战胜佛</name>
+	<reward>14020001,300;13210012,1</reward>
+	<rank>2-10</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000003</id>
+	<name>天蓬元帅</name>
+	<reward>14020001,100</reward>
+	<rank>11-100</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000004</id>
+	<name>灵寂尊者</name>
+	<reward>14020001,50</reward>
+	<rank>0-2%</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000005</id>
+	<name>八臂罗汉</name>
+	<reward>14020001,30</reward>
+	<rank>2-20%</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000006</id>
+	<name>名动四方</name>
+	<reward>14020001,20</reward>
+	<rank>20-50%</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000007</id>
+	<name>崭露头角</name>
+	<reward>14020001,10</reward>
+	<rank>50-80%</rank>
+</pvpreward>
+<pvpreward>
+	<id>22000008</id>
+	<name>籍籍无名</name>
+	<reward>14020001,5</reward>
+	<rank>80-100%</rank>
+</pvpreward>
+</root>

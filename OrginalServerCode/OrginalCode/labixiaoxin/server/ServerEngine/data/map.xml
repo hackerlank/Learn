@@ -1,0 +1,2943 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<map>
+	<id>0F010101</id>
+	<resid>map1_1</resid>
+	<name>初试</name>
+	<unlock>0F010201</unlock>
+	<best_reward>reward01,reward02</best_reward>
+	<reward_desc>1星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>0</level_up>
+	<bell_coin>50</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13110001,1;14050001,78</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>2</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110001,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010103</id>
+	<resid>map1_1</resid>
+	<name>初试</name>
+	<unlock>0F010201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>1</level_up>
+	<bell_coin>70</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120001,3;14050001,96</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110001,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010105</id>
+	<resid>map1_1</resid>
+	<name>初试</name>
+	<unlock>0F010201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>2</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120001,3;14050001,108</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110001,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010201</id>
+	<resid>map1_2</resid>
+	<name>遇袭</name>
+	<unlock>0F010301</unlock>
+	<best_reward>reward01,reward02</best_reward>
+	<reward_desc>1星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>0</level_up>
+	<bell_coin>50</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13110002,2;14050001,87</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>2</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110002,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010203</id>
+	<resid>map1_2</resid>
+	<name>遇袭</name>
+	<unlock>0F010301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>1</level_up>
+	<bell_coin>70</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120002,3;14050001,99</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110002,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010205</id>
+	<resid>map1_2</resid>
+	<name>遇袭</name>
+	<unlock>0F010301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>2</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120002,3;14050001,111</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110002,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010301</id>
+	<resid>map1_3</resid>
+	<name>黑熊精</name>
+	<unlock>0F010401</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>0</level_up>
+	<bell_coin>50</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13110003,2;14050001,97</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110003,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010303</id>
+	<resid>map1_3</resid>
+	<name>黑熊精</name>
+	<unlock>0F010401</unlock>
+	<best_reward>reward01,reward02,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>1</level_up>
+	<bell_coin>70</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120003,3;14050001,109</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110003,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010305</id>
+	<resid>map1_3</resid>
+	<name>黑熊精</name>
+	<unlock>0F010401</unlock>
+	<best_reward>reward01,reward02,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>2</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120003,3;14050001,121</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110003,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010401</id>
+	<resid>map1_4</resid>
+	<name>埋伏</name>
+	<unlock>0F010501</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>1</level_up>
+	<bell_coin>50</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13110004,2;14050001,115</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110004,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010403</id>
+	<resid>map1_4</resid>
+	<name>埋伏</name>
+	<unlock>0F010501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>3</level_up>
+	<bell_coin>70</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120004,3;14050001,143</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110004,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010405</id>
+	<resid>map1_4</resid>
+	<name>埋伏</name>
+	<unlock>0F010501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>5</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120004,3;14050001,161</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110004,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010501</id>
+	<resid>map1_5</resid>
+	<name>战斗</name>
+	<unlock>0F010601</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>3</level_up>
+	<bell_coin>60</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>13110005,2;14050001,140</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110005,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010503</id>
+	<resid>map1_5</resid>
+	<name>战斗</name>
+	<unlock>0F010601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>4</level_up>
+	<bell_coin>90</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>13120005,3;14050001,158</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110005,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010505</id>
+	<resid>map1_5</resid>
+	<name>战斗</name>
+	<unlock>0F010601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>6</level_up>
+	<bell_coin>130</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>13120005,3;14050001,176</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>9</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110005,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010601</id>
+	<resid>map1_6</resid>
+	<name>强敌</name>
+	<unlock>0F010701</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>4</level_up>
+	<bell_coin>60</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13110006,2;14050001,144</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110006,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010603</id>
+	<resid>map1_6</resid>
+	<name>强敌</name>
+	<unlock>0F010701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>5</level_up>
+	<bell_coin>90</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120006,3;14050001,162</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110006,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010605</id>
+	<resid>map1_6</resid>
+	<name>强敌</name>
+	<unlock>0F010701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>6</level_up>
+	<bell_coin>130</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120006,3;14050001,180</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>19</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110006,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010701</id>
+	<resid>map1_7</resid>
+	<name>突围</name>
+	<unlock>0F020101</unlock>
+	<best_reward>reward01,reward02,reward03,21000012</best_reward>
+	<reward_desc>1星,1-2星,1星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>6</level_up>
+	<bell_coin>60</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>21000012,1;13110007,2;14050001,149</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110007,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010703</id>
+	<resid>map1_7</resid>
+	<name>突围</name>
+	<unlock>0F020101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>8</level_up>
+	<bell_coin>90</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120007,3;14050001,170</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>19</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110007,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F010705</id>
+	<resid>map1_7</resid>
+	<name>突围</name>
+	<unlock>0F020101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>130</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120007,3;14050001,191</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>22</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110007,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020101</id>
+	<resid>map2_1</resid>
+	<name>流沙河</name>
+	<unlock>0F020201</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>7</level_up>
+	<bell_coin>80</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13110008,2;14050001,150</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>2</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110008,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020103</id>
+	<resid>map2_1</resid>
+	<name>流沙河</name>
+	<unlock>0F020201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>8</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120008,3;14050001,155</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110008,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020105</id>
+	<resid>map2_1</resid>
+	<name>流沙河</name>
+	<unlock>0F020201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>12</bell_sumcount>
+	<reward>13120008,4;14050001,164</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110008,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020201</id>
+	<resid>map2_2</resid>
+	<name>暗流</name>
+	<unlock>0F020301</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>8</level_up>
+	<bell_coin>80</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13110009,2;14050001,153</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>3</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110009,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020203</id>
+	<resid>map2_2</resid>
+	<name>暗流</name>
+	<unlock>0F020301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>9</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13120009,3;14050001,160</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>6</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110009,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020205</id>
+	<resid>map2_2</resid>
+	<name>暗流</name>
+	<unlock>0F020301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>12</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13120009,4;14050001,171</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110009,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020301</id>
+	<resid>map2_3</resid>
+	<name>鱼怪</name>
+	<unlock>0F020401</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>9</level_up>
+	<bell_coin>80</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>1311000A,2;14050001,155</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>4</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020303</id>
+	<resid>map2_3</resid>
+	<name>鱼怪</name>
+	<unlock>0F020401</unlock>
+	<best_reward>reward01,reward02,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>11</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>1312000A,3;14050001,162</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020305</id>
+	<resid>map2_3</resid>
+	<name>鱼怪</name>
+	<unlock>0F020401</unlock>
+	<best_reward>reward01,reward02,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>13</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>1312000A,4;14050001,173</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020401</id>
+	<resid>map2_4</resid>
+	<name>陡坡</name>
+	<unlock>0F020501</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>9</level_up>
+	<bell_coin>80</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>1311000B,2;14050001,157</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020403</id>
+	<resid>map2_4</resid>
+	<name>陡坡</name>
+	<unlock>0F020501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>12</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>1312000B,3;14050001,164</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020405</id>
+	<resid>map2_4</resid>
+	<name>陡坡</name>
+	<unlock>0F020501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>14</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>1312000B,4;14050001,175</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>12</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020501</id>
+	<resid>map2_5</resid>
+	<name>箭雨</name>
+	<unlock>0F020601</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>15</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1311000C,2;14050001,160</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020503</id>
+	<resid>map2_5</resid>
+	<name>箭雨</name>
+	<unlock>0F020601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>16</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1312000C,3;14050001,171</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020505</id>
+	<resid>map2_5</resid>
+	<name>箭雨</name>
+	<unlock>0F020601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>17</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1312000C,4;14050001,187</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>19</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020601</id>
+	<resid>map2_6</resid>
+	<name>虾兵蟹将</name>
+	<unlock>0F020701</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>16</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>1311000D,2;14050001,162</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>11</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000D,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020603</id>
+	<resid>map2_6</resid>
+	<name>虾兵蟹将</name>
+	<unlock>0F020701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>17</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>1312000D,3;14050001,173</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>16</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000D,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020605</id>
+	<resid>map2_6</resid>
+	<name>虾兵蟹将</name>
+	<unlock>0F020701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>19</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>1312000D,4;14050001,189</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>22</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000D,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020701</id>
+	<resid>map2_7</resid>
+	<name>曙光</name>
+	<unlock>0F030101</unlock>
+	<best_reward>reward01,reward02,reward03,21000014</best_reward>
+	<reward_desc>1-2星,1-2星,1星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>17</level_up>
+	<bell_coin>80</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>21000014,1;1311000E,2;14050001,164</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>17</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000E,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020703</id>
+	<resid>map2_7</resid>
+	<name>曙光</name>
+	<unlock>0F030101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>19</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>1312000E,3;14050001,175</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>24</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000E,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F020705</id>
+	<resid>map2_7</resid>
+	<name>曙光</name>
+	<unlock>0F030101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>21</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>1312000E,4;14050001,191</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>28</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000E,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030101</id>
+	<resid>map3_1</resid>
+	<name>盘丝洞</name>
+	<unlock>0F030201</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>19</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>1311000F,2;14050001,166</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>3</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000F,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030103</id>
+	<resid>map3_1</resid>
+	<name>盘丝洞</name>
+	<unlock>0F030201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>20</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>1312000F,3;14050001,183</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>6</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000F,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030105</id>
+	<resid>map3_1</resid>
+	<name>盘丝洞</name>
+	<unlock>0F030201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>22</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>17</bell_sumcount>
+	<reward>1312000F,4;14050001,204</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311000F,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030201</id>
+	<resid>map3_2</resid>
+	<name>蜘蛛网</name>
+	<unlock>0F030301</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>22</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13110010,2;14050001,172</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>3</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110010,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030203</id>
+	<resid>map3_2</resid>
+	<name>蜘蛛网</name>
+	<unlock>0F030301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>23</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13120010,3;14050001,189</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>6</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110010,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030205</id>
+	<resid>map3_2</resid>
+	<name>蜘蛛网</name>
+	<unlock>0F030301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>25</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>15</bell_sumcount>
+	<reward>13120010,4;14050001,210</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110010,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030301</id>
+	<resid>map3_3</resid>
+	<name>蜈蚣精</name>
+	<unlock>0F030401</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>22</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13110011,2;14050001,178</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110011,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030303</id>
+	<resid>map3_3</resid>
+	<name>蜈蚣精</name>
+	<unlock>0F030401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>23</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13120011,3;14050001,195</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110011,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030305</id>
+	<resid>map3_3</resid>
+	<name>蜈蚣精</name>
+	<unlock>0F030401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>26</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13120011,4;14050001,216</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>12</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110011,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030401</id>
+	<resid>map3_4</resid>
+	<name>冲锋</name>
+	<unlock>0F030501</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>25</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13110012,2;14050001,184</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110012,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030403</id>
+	<resid>map3_4</resid>
+	<name>冲锋</name>
+	<unlock>0F030501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>26</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120012,3;14050001,201</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>12</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110012,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030405</id>
+	<resid>map3_4</resid>
+	<name>冲锋</name>
+	<unlock>0F030501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>28</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120012,4;14050001,222</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>16</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110012,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030501</id>
+	<resid>map3_5</resid>
+	<name>恐惧</name>
+	<unlock>0F030601</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>27</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13110013,2;14050001,190</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>11</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110013,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030503</id>
+	<resid>map3_5</resid>
+	<name>恐惧</name>
+	<unlock>0F030601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>29</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120013,3;14050001,207</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>16</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110013,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030505</id>
+	<resid>map3_5</resid>
+	<name>恐惧</name>
+	<unlock>0F030601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>31</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120013,4;14050001,228</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>12</launch_count>
+	<bell_count>22</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110013,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030601</id>
+	<resid>map3_6</resid>
+	<name>密集</name>
+	<unlock>0F030701</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>30</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13110014,2;14050001,196</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>21</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110014,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030603</id>
+	<resid>map3_6</resid>
+	<name>密集</name>
+	<unlock>0F030701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>33</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13120014,3;14050001,213</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>21</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110014,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030605</id>
+	<resid>map3_6</resid>
+	<name>密集</name>
+	<unlock>0F030701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>35</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13120014,4;14050001,234</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>28</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110014,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030701</id>
+	<resid>map3_7</resid>
+	<name>大王</name>
+	<unlock>0F040101</unlock>
+	<best_reward>reward01,reward02,reward03,21000013</best_reward>
+	<reward_desc>1-2星,1-2星,1星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>32</level_up>
+	<bell_coin>110</bell_coin>
+	<bell_sumcount>40</bell_sumcount>
+	<reward>21000013,1;13110015,2;14050001,202</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>20</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110015,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030703</id>
+	<resid>map3_7</resid>
+	<name>大王</name>
+	<unlock>0F040101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>34</level_up>
+	<bell_coin>150</bell_coin>
+	<bell_sumcount>40</bell_sumcount>
+	<reward>13120015,3;14050001,219</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>28</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110015,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F030705</id>
+	<resid>map3_7</resid>
+	<name>大王</name>
+	<unlock>0F040101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>36</level_up>
+	<bell_coin>230</bell_coin>
+	<bell_sumcount>40</bell_sumcount>
+	<reward>13120015,4;14050001,240</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>32</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110015,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040101</id>
+	<resid>map4_1</resid>
+	<name>冰原</name>
+	<unlock>0F040201</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>34</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13110016,2;14050001,254</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>3</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110016,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040103</id>
+	<resid>map4_1</resid>
+	<name>冰原</name>
+	<unlock>0F040201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>35</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120016,3;14050001,334</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>6</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110016,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040105</id>
+	<resid>map4_1</resid>
+	<name>冰原</name>
+	<unlock>0F040201</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>37</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>13120016,3;14050001,475</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>9</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110016,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040201</id>
+	<resid>map4_2</resid>
+	<name>深渊</name>
+	<unlock>0F040301</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>35</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13110017,2;14050001,252</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>3</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110017,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040203</id>
+	<resid>map4_2</resid>
+	<name>深渊</name>
+	<unlock>0F040301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>37</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13120017,3;14050001,341</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110017,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040205</id>
+	<resid>map4_2</resid>
+	<name>深渊</name>
+	<unlock>0F040301</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>40</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13120017,3;14050001,486</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110017,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040301</id>
+	<resid>map4_3</resid>
+	<name>小龙王</name>
+	<unlock>0F040401</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>39</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13110018,2;14050001,258</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>7</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110018,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040303</id>
+	<resid>map4_3</resid>
+	<name>小龙王</name>
+	<unlock>0F040401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>41</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120018,3;14050001,345</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>12</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110018,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040305</id>
+	<resid>map4_3</resid>
+	<name>小龙王</name>
+	<unlock>0F040401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3星,3星,3星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>44</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>24</bell_sumcount>
+	<reward>13120018,4;14050001,496</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>16</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110018,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040401</id>
+	<resid>map4_4</resid>
+	<name>游魂</name>
+	<unlock>0F040501</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>41</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13110019,2;14050001,263</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>8</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110019,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040403</id>
+	<resid>map4_4</resid>
+	<name>游魂</name>
+	<unlock>0F040501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>43</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13120019,3;14050001,349</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>17</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110019,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040405</id>
+	<resid>map4_4</resid>
+	<name>游魂</name>
+	<unlock>0F040501</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>45</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13120019,4;14050001,504</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>19</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>13110019,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040501</id>
+	<resid>map4_5</resid>
+	<name>险境</name>
+	<unlock>0F040601</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>41</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>1311001A,2;14050001,266</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>21</launch_count>
+	<bell_count>14</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040503</id>
+	<resid>map4_5</resid>
+	<name>险境</name>
+	<unlock>0F040601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>43</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>1312001A,3;14050001,359</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>21</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040505</id>
+	<resid>map4_5</resid>
+	<name>险境</name>
+	<unlock>0F040601</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-4星,3-4星,3-4星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>45</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>1312001A,4;14050001,530</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>28</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001A,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040601</id>
+	<resid>map4_6</resid>
+	<name>陷阱</name>
+	<unlock>0F040701</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>42</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>39</bell_sumcount>
+	<reward>1311001B,2;14050001,265</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>21</launch_count>
+	<bell_count>16</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040603</id>
+	<resid>map4_6</resid>
+	<name>陷阱</name>
+	<unlock>0F040701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>44</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>39</bell_sumcount>
+	<reward>1312001B,3;14050001,395</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>24</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040605</id>
+	<resid>map4_6</resid>
+	<name>陷阱</name>
+	<unlock>0F040701</unlock>
+	<best_reward>reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>47</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>39</bell_sumcount>
+	<reward>1312001B,4;14050001,570</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>32</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001B,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040701</id>
+	<resid>map4_7</resid>
+	<name>北海龙王</name>
+	<unlock>0F050101</unlock>
+	<best_reward>reward01,reward02,reward03,21000004</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>42</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>46</bell_sumcount>
+	<reward>21000004,1;1311001C,2;14050001,285</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>24</launch_count>
+	<bell_count>22</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040703</id>
+	<resid>map4_7</resid>
+	<name>北海龙王</name>
+	<unlock>0F050101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>45</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>46</bell_sumcount>
+	<reward>1312001C,3;14050001,477</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>33</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F040705</id>
+	<resid>map4_7</resid>
+	<name>北海龙王</name>
+	<unlock>0F050101</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>47</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>46</bell_sumcount>
+	<reward>1312001C,4;14050001,600</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>39</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050101</id>
+	<resid>map5_1</resid>
+	<name>车迟国</name>
+	<unlock>0F050201</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>43</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13110016,2;14050001,260</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>24</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050103</id>
+	<resid>map5_1</resid>
+	<name>车迟国</name>
+	<unlock>0F050201</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>44</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13120016,3;14050001,344</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>18</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050105</id>
+	<resid>map5_1</resid>
+	<name>车迟国</name>
+	<unlock>0F050201</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>50</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>26</bell_sumcount>
+	<reward>13120016,3;14050001,485</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>10</launch_count>
+	<bell_count>24</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050201</id>
+	<resid>map5_2</resid>
+	<name>遇险</name>
+	<unlock>0F050301</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>43</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>20</bell_sumcount>
+	<reward>13110017,2;14050001,262</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050203</id>
+	<resid>map5_2</resid>
+	<name>遇险</name>
+	<unlock>0F050301</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>45</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>20</bell_sumcount>
+	<reward>13120017,3;14050001,351</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>15</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050205</id>
+	<resid>map5_2</resid>
+	<name>遇险</name>
+	<unlock>0F050301</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>52</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>20</bell_sumcount>
+	<reward>13120017,3;14050001,486</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>10</launch_count>
+	<bell_count>18</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050301</id>
+	<resid>map5_3</resid>
+	<name>激战</name>
+	<unlock>0F050401</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>44</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13110018,2;14050001,278</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>15</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050303</id>
+	<resid>map5_3</resid>
+	<name>激战</name>
+	<unlock>0F050401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>46</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120018,3;14050001,355</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>25</launch_count>
+	<bell_count>18</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050305</id>
+	<resid>map5_3</resid>
+	<name>激战</name>
+	<unlock>0F050401</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>54</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>28</bell_sumcount>
+	<reward>13120018,4;14050001,506</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>26</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050401</id>
+	<resid>map5_4</resid>
+	<name>埋伏</name>
+	<unlock>0F050501</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>45</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>21</bell_sumcount>
+	<reward>13110019,2;14050001,283</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>25</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050403</id>
+	<resid>map5_4</resid>
+	<name>埋伏</name>
+	<unlock>0F050501</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>48</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>21</bell_sumcount>
+	<reward>13120019,3;14050001,359</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>18</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050405</id>
+	<resid>map5_4</resid>
+	<name>埋伏</name>
+	<unlock>0F050501</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>55</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>21</bell_sumcount>
+	<reward>13120019,4;14050001,514</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>11</launch_count>
+	<bell_count>21</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050501</id>
+	<resid>map5_5</resid>
+	<name>虎力国师</name>
+	<unlock>0F050601</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>45</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1311001A,2;14050001,296</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>24</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050503</id>
+	<resid>map5_5</resid>
+	<name>虎力国师</name>
+	<unlock>0F050601</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>48</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1312001A,3;14050001,369</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>20</launch_count>
+	<bell_count>18</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050505</id>
+	<resid>map5_5</resid>
+	<name>虎力国师</name>
+	<unlock>0F050601</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>56</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>23</bell_sumcount>
+	<reward>1312001A,4;14050001,530</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>22</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050601</id>
+	<resid>map5_6</resid>
+	<name>深入</name>
+	<unlock>0F050701</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>46</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>22</bell_sumcount>
+	<reward>1311001B,2;14050001,305</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>22</launch_count>
+	<bell_count>10</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050603</id>
+	<resid>map5_6</resid>
+	<name>深入</name>
+	<unlock>0F050701</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>49</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>22</bell_sumcount>
+	<reward>1312001B,3;14050001,395</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>15</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050605</id>
+	<resid>map5_6</resid>
+	<name>深入</name>
+	<unlock>0F050701</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>58</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>22</bell_sumcount>
+	<reward>1312001B,4;14050001,570</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>13</launch_count>
+	<bell_count>20</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050701</id>
+	<resid>map5_7</resid>
+	<name>虎力大仙</name>
+	<unlock>0</unlock>
+	<best_reward>reward01,reward02,reward03</best_reward>
+	<reward_desc>1-2星,1-2星,1-2星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,2</cost>
+	<level_up>47</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>32</bell_sumcount>
+	<reward>1311001C,2;14050001,315</reward>
+	<reward_gold>14020001,2</reward_gold>
+	<launch_count>24</launch_count>
+	<bell_count>5</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050703</id>
+	<resid>map5_7</resid>
+	<name>虎力大仙</name>
+	<unlock>0</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,4</cost>
+	<level_up>50</level_up>
+	<bell_coin>180</bell_coin>
+	<bell_sumcount>32</bell_sumcount>
+	<reward>1312001C,3;14050001,477</reward>
+	<reward_gold>14020001,3</reward_gold>
+	<launch_count>22</launch_count>
+	<bell_count>25</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0F050705</id>
+	<resid>map5_7</resid>
+	<name>虎力大仙</name>
+	<unlock>0</unlock>
+	<best_reward>reward01,reward02,reward03,reward09,reward10,reward11,reward13</best_reward>
+	<reward_desc>3星,3星,3星,3-5星,3-5星,3-5星,,</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,6</cost>
+	<level_up>61</level_up>
+	<bell_coin>260</bell_coin>
+	<bell_sumcount>32</bell_sumcount>
+	<reward>1312001C,4;14050001,600</reward>
+	<reward_gold>14020001,6</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>29</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>1311001C,1;</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0101</id>
+	<resid>mapFF_1</resid>
+	<name>招财进宝</name>
+	<unlock>0</unlock>
+	<best_reward>0</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>0</cooldown>
+	<cost>14030001,5</cost>
+	<level_up>1</level_up>
+	<bell_coin>666</bell_coin>
+	<bell_sumcount>163</bell_sumcount>
+	<reward>0</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>0</launch_count>
+	<bell_count>0</bell_count>
+	<victory_type>2</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0201</id>
+	<resid>mapFF_2</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,3;14020001,6</cost>
+	<level_up>5</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>14010001,30000</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0301</id>
+	<resid>mapFF_3</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,4;14020001,12</cost>
+	<level_up>8</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>14010001,80000</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0401</id>
+	<resid>mapFF_4</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,18</cost>
+	<level_up>19</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>14010001,200000</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0501</id>
+	<resid>mapFF_5</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,10;14020001,30</cost>
+	<level_up>27</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>14010001,500000</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0601</id>
+	<resid>mapFF_6</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10100A,0C10200B</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,1;14010001,20000</cost>
+	<level_up>5</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400101,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0602</id>
+	<resid>mapFF_6</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10100D,0C10200E</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,2;14020001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400102,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0603</id>
+	<resid>mapFF_6</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10100F,0C10200F</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,3;14020001,15</cost>
+	<level_up>20</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400103,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0701</id>
+	<resid>mapFF_7</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10300A,0C10400A,0C10500B</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,1;14010001,20000</cost>
+	<level_up>5</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400105,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0702</id>
+	<resid>mapFF_7</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10300D,0C10400D,0C10500D</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,2;14020001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400106,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0703</id>
+	<resid>mapFF_7</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C10300F,0C10400F,0C10500F</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,3;14020001,15</cost>
+	<level_up>20</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400107,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0801</id>
+	<resid>mapFF_8</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C200013,0C200016,0C200018</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,1;14010001,20000</cost>
+	<level_up>5</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>13400109,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0802</id>
+	<resid>mapFF_8</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C20001C,0C20001D,0C20001F</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,2;14020001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>1340010A,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0803</id>
+	<resid>mapFF_8</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C200022,0C200023,0C200024</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,3;14020001,15</cost>
+	<level_up>20</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>1340010B,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0901</id>
+	<resid>mapFF_9</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C301005,0C302006,0C303006</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,1;14010001,20000</cost>
+	<level_up>5</level_up>
+	<bell_coin>100</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>1340010D,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0902</id>
+	<resid>mapFF_9</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C301007,0C302008,0C303008</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,2;14020001,6</cost>
+	<level_up>10</level_up>
+	<bell_coin>120</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>1340010E,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0903</id>
+	<resid>mapFF_9</resid>
+	<name>0</name>
+	<unlock>0</unlock>
+	<best_reward>0C301009,0C302009,0C303009</best_reward>
+	<reward_desc>0</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,3;14020001,15</cost>
+	<level_up>20</level_up>
+	<bell_coin>140</bell_coin>
+	<bell_sumcount>0</bell_sumcount>
+	<reward>1340010F,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>0</desc>
+</map>
+<map>
+	<id>0FFF0904</id>
+	<resid>mapmon_1</resid>
+	<name>智擒黑熊精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward06</best_reward>
+	<reward_desc>3星,3星</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>13403001,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF0905</id>
+	<resid>mapmon_1</resid>
+	<name>智擒黑熊精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward06</best_reward>
+	<reward_desc>3-4星,3-4星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>13403002,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF0906</id>
+	<resid>mapmon_1</resid>
+	<name>智擒黑熊精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward06</best_reward>
+	<reward_desc>3-5星,3-5星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>30</bell_sumcount>
+	<reward>13403003,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+<map>
+	<id>0FFF0907</id>
+	<resid>map_tue</resid>
+	<name>勇斗蜈蚣精</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07</best_reward>
+	<reward_desc>3星,3星</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>35</bell_sumcount>
+	<reward>13403004,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF0908</id>
+	<resid>map_tue</resid>
+	<name>勇斗蜈蚣精</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07</best_reward>
+	<reward_desc>3-4星,3-4星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>35</bell_sumcount>
+	<reward>13403005,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF0909</id>
+	<resid>map_tue</resid>
+	<name>勇斗蜈蚣精</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07</best_reward>
+	<reward_desc>3-5星,3-5星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>35</bell_sumcount>
+	<reward>13403006,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+<map>
+	<id>0FFF090A</id>
+	<resid>map_wed</resid>
+	<name>大战鲤鱼精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward07</best_reward>
+	<reward_desc>3星,3星</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13403007,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF090B</id>
+	<resid>map_wed</resid>
+	<name>大战鲤鱼精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward07</best_reward>
+	<reward_desc>3-4星,3-4星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13403008,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF090C</id>
+	<resid>map_wed</resid>
+	<name>大战鲤鱼精</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward07</best_reward>
+	<reward_desc>3-5星,3-5星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>34</bell_sumcount>
+	<reward>13403009,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+<map>
+	<id>0FFF090D</id>
+	<resid>map2_4</resid>
+	<name>河底战虾将</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07,reward08</best_reward>
+	<reward_desc>3星,3星,1-2星</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403010,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF090E</id>
+	<resid>map2_4</resid>
+	<name>河底战虾将</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07,reward08</best_reward>
+	<reward_desc>3-4星,3-4星,1-3星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403011,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF090F</id>
+	<resid>map2_4</resid>
+	<name>河底战虾将</name>
+	<unlock>0</unlock>
+	<best_reward>reward06,reward07,reward08</best_reward>
+	<reward_desc>3-5星,3-5星,1-4星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403012,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+<map>
+	<id>0FFF0910</id>
+	<resid>map_fri</resid>
+	<name>深渊探险</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward08</best_reward>
+	<reward_desc>3星,1-2星</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403013,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF0911</id>
+	<resid>map_fri</resid>
+	<name>深渊探险</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward08</best_reward>
+	<reward_desc>3-4星,1-3星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403014,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF0912</id>
+	<resid>map_fri</resid>
+	<name>深渊探险</name>
+	<unlock>0</unlock>
+	<best_reward>reward05,reward08</best_reward>
+	<reward_desc>3-5星,1-4星</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>18</bell_sumcount>
+	<reward>13403015,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+<map>
+	<id>0FFF0913</id>
+	<resid>map_sat</resid>
+	<name>冰天雪地</name>
+	<unlock>0</unlock>
+	<best_reward>reward15,reward14</best_reward>
+	<reward_desc>10000,,</reward_desc>
+	<cooldown>1,86400,5,0</cooldown>
+	<cost>14030001,5;14020001,0</cost>
+	<level_up>10</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>14010001,10000;13403016,1</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv10-15</desc>
+</map>
+<map>
+	<id>0FFF0914</id>
+	<resid>map_sat</resid>
+	<name>冰天雪地</name>
+	<unlock>0</unlock>
+	<best_reward>reward15,reward14</best_reward>
+	<reward_desc>50000,,</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,8;14020001,1</cost>
+	<level_up>22</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>14010001,50000;13403017,2</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 LV15-30</desc>
+</map>
+<map>
+	<id>0FFF0915</id>
+	<resid>map_sat</resid>
+	<name>冰天雪地</name>
+	<unlock>0</unlock>
+	<best_reward>reward15,reward14</best_reward>
+	<reward_desc>100000,,</reward_desc>
+	<cooldown>1,86400,3,0</cooldown>
+	<cost>14030001,10;14020001,2</cost>
+	<level_up>40</level_up>
+	<bell_coin>200</bell_coin>
+	<bell_sumcount>14</bell_sumcount>
+	<reward>14010001,100000;13403018,3</reward>
+	<reward_gold>0</reward_gold>
+	<launch_count>18</launch_count>
+	<bell_count>1</bell_count>
+	<victory_type>1</victory_type>
+	<subboss_rate>0</subboss_rate>
+	<drop_special>0</drop_special>
+	<desc>建议等级 Lv30以上</desc>
+</map>
+</root>

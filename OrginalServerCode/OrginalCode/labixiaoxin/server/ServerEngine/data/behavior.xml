@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<behavior>
+	<id>16000001</id>
+	<reward>14030001,999</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,10,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买体力，每天购买10次</desc>
+</behavior>
+<behavior>
+	<id>16000002</id>
+	<reward>14010001,10000</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>1</vip_level_require>
+	<desc>领取vip1级每日奖励</desc>
+</behavior>
+<behavior>
+	<id>16000003</id>
+	<reward>14010001,20000;14040001,100</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>2</vip_level_require>
+	<desc>领取vip2级每日奖励</desc>
+</behavior>
+<behavior>
+	<id>16000004</id>
+	<reward>14010001,30000;14040001,200;14020001,6</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>3</vip_level_require>
+	<desc>领取vip3级每日奖励</desc>
+</behavior>
+<behavior>
+	<id>16000005</id>
+	<reward>14010001,50000;14040001,300;14020001,8</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>4</vip_level_require>
+	<desc>领取vip4级每日奖励</desc>
+</behavior>
+<behavior>
+	<id>16000006</id>
+	<reward>14010001,100000;14040001,500;14020001,10</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>5</vip_level_require>
+	<desc>领取vip5级每日奖励</desc>
+</behavior>
+<behavior>
+	<id>16000007</id>
+	<reward>13250003</reward>
+	<cost>14020001,30</cost>
+	<cooldown>259200,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4-5级装备抽奖</desc>
+</behavior>
+<behavior>
+	<id>16000008</id>
+	<reward>13250002</reward>
+	<cost>14020001,10</cost>
+	<cooldown>86400,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3-5级装备抽奖</desc>
+</behavior>
+<behavior>
+	<id>16000009</id>
+	<reward>13250001</reward>
+	<cost>14010001,10000</cost>
+	<cooldown>0,0,0,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>2-5级装备抽奖</desc>
+</behavior>
+<behavior>
+	<id>1600000A</id>
+	<reward>13250004</reward>
+	<cost>14020001,30</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>武将抽奖</desc>
+</behavior>
+<behavior>
+	<id>16100000</id>
+	<reward>17020101,1</reward>
+	<cost>14070001,5</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>金</desc>
+</behavior>
+<behavior>
+	<id>16100001</id>
+	<reward>17020102,1</reward>
+	<cost>14070001,5</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>木</desc>
+</behavior>
+<behavior>
+	<id>16100002</id>
+	<reward>17020103,1</reward>
+	<cost>14070001,5</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>水</desc>
+</behavior>
+<behavior>
+	<id>16100003</id>
+	<reward>17020104,1</reward>
+	<cost>14070001,5</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>火</desc>
+</behavior>
+<behavior>
+	<id>16100004</id>
+	<reward>17020105,1</reward>
+	<cost>14070001,5</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>土</desc>
+</behavior>
+<behavior>
+	<id>16100005</id>
+	<reward>14040001,10</reward>
+	<cost>14070001,20</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>晶石</desc>
+</behavior>
+<behavior>
+	<id>16100006</id>
+	<reward>17010103,1</reward>
+	<cost>14070001,10</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3星武器碎片</desc>
+</behavior>
+<behavior>
+	<id>16100007</id>
+	<reward>17010104,1</reward>
+	<cost>14070001,20</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4星武器碎片</desc>
+</behavior>
+<behavior>
+	<id>16100008</id>
+	<reward>17010105,1</reward>
+	<cost>14070001,25</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>5星武器碎片</desc>
+</behavior>
+<behavior>
+	<id>16100009</id>
+	<reward>17010203,1</reward>
+	<cost>14070001,10</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3星防具碎片</desc>
+</behavior>
+<behavior>
+	<id>16100010</id>
+	<reward>17010204,1</reward>
+	<cost>14070001,20</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4星防具碎片</desc>
+</behavior>
+<behavior>
+	<id>16100011</id>
+	<reward>17010205,1</reward>
+	<cost>14070001,25</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>5星防具碎片</desc>
+</behavior>
+<behavior>
+	<id>16100012</id>
+	<reward>17010303,1</reward>
+	<cost>14070001,20</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3星禅杖碎片</desc>
+</behavior>
+<behavior>
+	<id>16100013</id>
+	<reward>17010304,1</reward>
+	<cost>14070001,30</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4星禅杖碎片</desc>
+</behavior>
+<behavior>
+	<id>16100014</id>
+	<reward>17010305,1</reward>
+	<cost>14070001,40</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>5星禅杖碎片</desc>
+</behavior>
+<behavior>
+	<id>16100015</id>
+	<reward>17010401,1</reward>
+	<cost>14070001,10</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>1星神将魂</desc>
+</behavior>
+<behavior>
+	<id>16100016</id>
+	<reward>17010402,1</reward>
+	<cost>14070001,15</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>2星神将魂</desc>
+</behavior>
+<behavior>
+	<id>16100017</id>
+	<reward>17010403,1</reward>
+	<cost>14070001,20</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3星神将魂</desc>
+</behavior>
+<behavior>
+	<id>16100018</id>
+	<reward>17010404,1</reward>
+	<cost>14070001,30</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4星神将魂</desc>
+</behavior>
+<behavior>
+	<id>16100019</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>10800,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>浇水cd</desc>
+</behavior>
+<behavior>
+	<id>16100020</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>7200,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>摇钱树收获cd</desc>
+</behavior>
+<behavior>
+	<id>16100021</id>
+	<reward>14080001,999</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,10,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买斗点，每天10次</desc>
+</behavior>
+<behavior>
+	<id>16000022</id>
+	<reward>14030001,999</reward>
+	<cost>0</cost>
+	<cooldown>7200,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>体力回满吃人参果</desc>
+</behavior>
+<behavior>
+	<id>16000023</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>每日登陆</desc>
+</behavior>
+<behavior>
+	<id>16000024</id>
+	<reward>14040001,350</reward>
+	<cost>14020001,10</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>10元宝购买50晶石</desc>
+</behavior>
+<behavior>
+	<id>16000025</id>
+	<reward>14010001,150000;14040001,600;14020001,10</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>5</vip_level_require>
+	<desc>领取vip6级每日奖励</desc>
+</behavior>
+</root>

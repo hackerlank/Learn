@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<skill>
+	<id>0E010001</id>
+	<name>跳斩（1级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.0[-]</desc>
+</skill>
+<skill>
+	<id>0E010002</id>
+	<name>跳斩（2级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.1[-]</desc>
+</skill>
+<skill>
+	<id>0E010003</id>
+	<name>跳斩（3级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,1,200</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.2[-]</desc>
+</skill>
+<skill>
+	<id>0E010004</id>
+	<name>跳斩（4级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,1,300</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.3[-]</desc>
+</skill>
+<skill>
+	<id>0E010005</id>
+	<name>跳斩（5级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,1,400</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.4[-]</desc>
+</skill>
+<skill>
+	<id>0E010006</id>
+	<name>跳斩（6级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,1,500</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.5[-]</desc>
+</skill>
+<skill>
+	<id>0E010007</id>
+	<name>跳斩（7级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,1,600</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.6[-]</desc>
+</skill>
+<skill>
+	<id>0E010008</id>
+	<name>跳斩（8级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,1,700</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.7[-]</desc>
+</skill>
+<skill>
+	<id>0E010009</id>
+	<name>跳斩（9级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,1,800</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]1.8[-]</desc>
+</skill>
+<skill>
+	<id>0E01000A</id>
+	<name>跳斩（10级）</name>
+	<resid>jn_gun</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,1,1000</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为攻击力*[00ff00]2.0[-]</desc>
+</skill>
+<skill>
+	<id>0E020001</id>
+	<name>速射（1级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]发子弹,伤害为攻击力*[00ff00]1.0[-]</desc>
+</skill>
+<skill>
+	<id>0E020002</id>
+	<name>速射（2级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]发子弹,伤害为攻击力*[00ff00]1.1[-]</desc>
+</skill>
+<skill>
+	<id>0E020003</id>
+	<name>速射（3级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,1,200</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]发子弹,伤害为攻击力*[00ff00]1.2[-]</desc>
+</skill>
+<skill>
+	<id>0E020004</id>
+	<name>速射（4级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,1,300</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]发子弹,伤害为攻击力*[00ff00]1.3[-]</desc>
+</skill>
+<skill>
+	<id>0E020005</id>
+	<name>速射（5级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,1,400</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]发子弹,伤害为攻击力*[00ff00]1.4[-]</desc>
+</skill>
+<skill>
+	<id>0E020006</id>
+	<name>速射（6级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,1,500</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]发子弹,伤害为攻击力*[00ff00]1.5[-]</desc>
+</skill>
+<skill>
+	<id>0E020007</id>
+	<name>速射（7级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,1,600</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]发子弹,伤害为攻击力*[00ff00]1.6[-]</desc>
+</skill>
+<skill>
+	<id>0E020008</id>
+	<name>速射（8级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,1,700</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]发子弹,伤害为攻击力*[00ff00]1.7[-]</desc>
+</skill>
+<skill>
+	<id>0E020009</id>
+	<name>速射（9级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,1,800</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]发子弹,伤害为攻击力*[00ff00]1.8[-]</desc>
+</skill>
+<skill>
+	<id>0E02000A</id>
+	<name>速射（10级）</name>
+	<resid>jn_shouqiang</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,1,1000</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]发子弹,伤害为攻击力*[00ff00]2.0[-]</desc>
+</skill>
+<skill>
+	<id>0E030001</id>
+	<name>横扫（1级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.0[-]</desc>
+</skill>
+<skill>
+	<id>0E030002</id>
+	<name>横扫（2级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.1[-]</desc>
+</skill>
+<skill>
+	<id>0E030003</id>
+	<name>横扫（3级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,1,200</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.2[-]</desc>
+</skill>
+<skill>
+	<id>0E030004</id>
+	<name>横扫（4级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,1,300</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.3[-]</desc>
+</skill>
+<skill>
+	<id>0E030005</id>
+	<name>横扫（5级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,1,400</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.4[-]</desc>
+</skill>
+<skill>
+	<id>0E030006</id>
+	<name>横扫（6级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,1,500</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.5[-]</desc>
+</skill>
+<skill>
+	<id>0E030007</id>
+	<name>横扫（7级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,1,600</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.6[-]</desc>
+</skill>
+<skill>
+	<id>0E030008</id>
+	<name>横扫（8级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,1,700</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.7[-]</desc>
+</skill>
+<skill>
+	<id>0E030009</id>
+	<name>横扫（9级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,1,800</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]1.8[-]</desc>
+</skill>
+<skill>
+	<id>0E03000A</id>
+	<name>横扫（10级）</name>
+	<resid>jn_chan</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,1,1000</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动武器[00ff00]1[-]次,伤害为攻击力*[00ff00]2.0[-]</desc>
+</skill>
+<skill>
+	<id>0E040001</id>
+	<name>连珠（1级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]支箭矢,伤害为攻击力*[00ff00]1.0[-]</desc>
+</skill>
+<skill>
+	<id>0E040002</id>
+	<name>连珠（2级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]支箭矢,伤害为攻击力*[00ff00]1.1[-]</desc>
+</skill>
+<skill>
+	<id>0E040003</id>
+	<name>连珠（3级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,1,200</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]支箭矢,伤害为攻击力*[00ff00]1.2[-]</desc>
+</skill>
+<skill>
+	<id>0E040004</id>
+	<name>连珠（4级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,1,300</property_value>
+	<damage_count>4</damage_count>
+	<desc>射出[00ff00]4[-]支箭矢,伤害为攻击力*[00ff00]1.3[-]</desc>
+</skill>
+<skill>
+	<id>0E040005</id>
+	<name>连珠（5级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,1,400</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]支箭矢,伤害为攻击力*[00ff00]1.4[-]</desc>
+</skill>
+<skill>
+	<id>0E040006</id>
+	<name>连珠（6级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,1,550</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]支箭矢,伤害为攻击力*[00ff00]1.55[-]</desc>
+</skill>
+<skill>
+	<id>0E040007</id>
+	<name>连珠（7级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,1,700</property_value>
+	<damage_count>5</damage_count>
+	<desc>射出[00ff00]5[-]支箭矢,伤害为攻击力*[00ff00]1.7[-]</desc>
+</skill>
+<skill>
+	<id>0E040008</id>
+	<name>连珠（8级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,1,850</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]支箭矢,伤害为攻击力*[00ff00]1.85[-]</desc>
+</skill>
+<skill>
+	<id>0E040009</id>
+	<name>连珠（9级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,1,1000</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]支箭矢,伤害为攻击力*[00ff00]2.0[-]</desc>
+</skill>
+<skill>
+	<id>0E04000A</id>
+	<name>连珠（10级）</name>
+	<resid>jn_gong</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,1,1200</property_value>
+	<damage_count>6</damage_count>
+	<desc>射出[00ff00]6[-]支箭矢,伤害为攻击力*[00ff00]2.2[-]</desc>
+</skill>
+<skill>
+	<id>0E050001</id>
+	<name>霜落（1级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.0[-]</desc>
+</skill>
+<skill>
+	<id>0E050002</id>
+	<name>霜落（2级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.1[-]</desc>
+</skill>
+<skill>
+	<id>0E050003</id>
+	<name>霜落（3级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,1,200</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.2[-]</desc>
+</skill>
+<skill>
+	<id>0E050004</id>
+	<name>霜落（4级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,1,300</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.3[-]</desc>
+</skill>
+<skill>
+	<id>0E050005</id>
+	<name>霜落（5级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,1,400</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.4[-]</desc>
+</skill>
+<skill>
+	<id>0E050006</id>
+	<name>霜落（6级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,1,500</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.5[-]</desc>
+</skill>
+<skill>
+	<id>0E050007</id>
+	<name>霜落（7级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,1,600</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.6[-]</desc>
+</skill>
+<skill>
+	<id>0E050008</id>
+	<name>霜落（8级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,1,700</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.7[-]</desc>
+</skill>
+<skill>
+	<id>0E050009</id>
+	<name>霜落（9级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,1,800</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]1.8[-]</desc>
+</skill>
+<skill>
+	<id>0E05000A</id>
+	<name>霜落（10级）</name>
+	<resid>jn_zhang</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,1,1000</property_value>
+	<damage_count>10</damage_count>
+	<desc>召唤[00ff00]10[-]枚冰霜弹,伤害为攻击力*[00ff00]2.0[-]</desc>
+</skill>
+<skill>
+	<id>0E060001</id>
+	<name>单次攻击1</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>最多伤害1次，每次100%伤害</desc>
+</skill>
+<skill>
+	<id>0E070001</id>
+	<name>单次攻击2</name>
+	<resid>jn_danci2</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,100</property_value>
+	<damage_count>1</damage_count>
+	<desc>最多伤害1次，每次110%伤害</desc>
+</skill>
+<skill>
+	<id>0E080001</id>
+	<name>多次攻击1</name>
+	<resid>jn_duoci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>4</damage_count>
+	<desc>最多伤害3次，每次100%伤害</desc>
+</skill>
+<skill>
+	<id>0E090001</id>
+	<name>多次攻击2</name>
+	<resid>jn_duoci2</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,3</property_value>
+	<damage_count>4</damage_count>
+	<desc>最多伤害4次，每次100%伤害</desc>
+</skill>
+<skill>
+	<id>0E0A0001</id>
+	<name>多次攻击3</name>
+	<resid>jn_duoci3</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,1,0</property_value>
+	<damage_count>3</damage_count>
+	<desc>最多伤害3次，共100%伤害</desc>
+</skill>
+</root>

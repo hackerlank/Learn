@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<extraskill>
+	<id>21000001</id>
+	<name>三昧真火</name>
+	<resid>tx_01</resid>
+	<icon_id>tb_01</icon_id>
+	<cartoon_id>ct_01</cartoon_id>
+	<skill_type>1</skill_type>
+	<type_desc>单体伤害</type_desc>
+	<property_value>1,1,100</property_value>
+	<probability>20</probability>
+	<pve_desc>20%造成110%伤害</pve_desc>
+	<pvp_desc>造成110%的伤害，消耗15点怒气</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000002</id>
+	<name>六丁神火</name>
+	<resid>tx_02</resid>
+	<icon_id>tb_02</icon_id>
+	<cartoon_id>ct_02</cartoon_id>
+	<skill_type>1</skill_type>
+	<type_desc>单体伤害</type_desc>
+	<property_value>1,1,300</property_value>
+	<probability>20</probability>
+	<pve_desc>20%造成130%伤害</pve_desc>
+	<pvp_desc>造成130%伤害，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000003</id>
+	<name>无极大道</name>
+	<resid>tx_03</resid>
+	<icon_id>tb_03</icon_id>
+	<cartoon_id>ct_03</cartoon_id>
+	<skill_type>1</skill_type>
+	<type_desc>单体伤害</type_desc>
+	<property_value>1,1,500</property_value>
+	<probability>20</probability>
+	<pve_desc>20%造成150%伤害</pve_desc>
+	<pvp_desc>造成150%伤害，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000004</id>
+	<name>定身法</name>
+	<resid>tx_04</resid>
+	<icon_id>tb_04</icon_id>
+	<cartoon_id>ct_04</cartoon_id>
+	<skill_type>2</skill_type>
+	<type_desc>眩晕</type_desc>
+	<property_value>2,2,1</property_value>
+	<probability>20</probability>
+	<pve_desc>20%禁止目标攻击一次</pve_desc>
+	<pvp_desc>禁止目标攻击一次，消耗10点怒气。</pvp_desc>
+	<cost>10</cost>
+</extraskill>
+<extraskill>
+	<id>21000005</id>
+	<name>盘丝术</name>
+	<resid>tx_05</resid>
+	<icon_id>tb_05</icon_id>
+	<cartoon_id>ct_05</cartoon_id>
+	<skill_type>2</skill_type>
+	<type_desc>眩晕</type_desc>
+	<property_value>2,2,1</property_value>
+	<probability>25</probability>
+	<pve_desc>25%禁止目标攻击一次</pve_desc>
+	<pvp_desc>禁止目标攻击一次，消耗10点怒气。</pvp_desc>
+	<cost>10</cost>
+</extraskill>
+<extraskill>
+	<id>21000006</id>
+	<name>紧箍咒</name>
+	<resid>tx_06</resid>
+	<icon_id>tb_06</icon_id>
+	<cartoon_id>ct_06</cartoon_id>
+	<skill_type>2</skill_type>
+	<type_desc>眩晕</type_desc>
+	<property_value>2,2,2</property_value>
+	<probability>10</probability>
+	<pve_desc>10%停止目标攻击两次</pve_desc>
+	<pvp_desc>停止目标攻击两次，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000007</id>
+	<name>推气过宫</name>
+	<resid>tx_07</resid>
+	<icon_id>tb_07</icon_id>
+	<cartoon_id>ct_07</cartoon_id>
+	<skill_type>3</skill_type>
+	<type_desc>单体回复</type_desc>
+	<property_value>3,1,300</property_value>
+	<probability>20</probability>
+	<pve_desc>20%概率随机回复受过伤的角色最大生命值30%的血量</pve_desc>
+	<pvp_desc>随机回复受过伤的角色最大生命值30%的血量，消耗5点怒气。</pvp_desc>
+	<cost>5</cost>
+</extraskill>
+<extraskill>
+	<id>21000008</id>
+	<name>慈悲为怀</name>
+	<resid>tx_08</resid>
+	<icon_id>tb_08</icon_id>
+	<cartoon_id>ct_08</cartoon_id>
+	<skill_type>3</skill_type>
+	<type_desc>单体回复</type_desc>
+	<property_value>3,1,450</property_value>
+	<probability>20</probability>
+	<pve_desc>20%概率随机回复受过伤的角色最大生命值45%的血量</pve_desc>
+	<pvp_desc>随机回复受过伤的角色最大生命值45%的血量，消耗10点怒气。</pvp_desc>
+	<cost>10</cost>
+</extraskill>
+<extraskill>
+	<id>21000009</id>
+	<name>普度众生</name>
+	<resid>tx_09</resid>
+	<icon_id>tb_09</icon_id>
+	<cartoon_id>ct_09</cartoon_id>
+	<skill_type>3</skill_type>
+	<type_desc>单体回复</type_desc>
+	<property_value>3,1,600</property_value>
+	<probability>10</probability>
+	<pve_desc>10%概率回复受伤角色最大生命值60%的血量</pve_desc>
+	<pvp_desc>回复受伤角色最大生命值60%的血量，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000010</id>
+	<name>我佛慈悲</name>
+	<resid>tx_07</resid>
+	<icon_id>tb_10</icon_id>
+	<cartoon_id>ct_10</cartoon_id>
+	<skill_type>7</skill_type>
+	<type_desc>全体回复</type_desc>
+	<property_value>7,1,300</property_value>
+	<probability>20</probability>
+	<pve_desc>20%回复全队30%最大生命值血量</pve_desc>
+	<pvp_desc>回复全队30%最大生命值血量，消耗10点怒气。</pvp_desc>
+	<cost>10</cost>
+</extraskill>
+<extraskill>
+	<id>21000011</id>
+	<name>慈航普渡</name>
+	<resid>tx_08</resid>
+	<icon_id>tb_11</icon_id>
+	<cartoon_id>ct_11</cartoon_id>
+	<skill_type>7</skill_type>
+	<type_desc>全体回复</type_desc>
+	<property_value>7,1,400</property_value>
+	<probability>10</probability>
+	<pve_desc>10%回复全队40%最大生命值血量</pve_desc>
+	<pvp_desc>回复全队40%最大生命值血量，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000012</id>
+	<name>佛光抚顶</name>
+	<resid>tx_12</resid>
+	<icon_id>tb_12</icon_id>
+	<cartoon_id>ct_12</cartoon_id>
+	<skill_type>4</skill_type>
+	<type_desc>攻击增益</type_desc>
+	<property_value>4,1,100</property_value>
+	<probability>10</probability>
+	<pve_desc>10%概率增加我方攻击10%</pve_desc>
+	<pvp_desc>增加我方攻击10%，消耗5点怒气。</pvp_desc>
+	<cost>5</cost>
+</extraskill>
+<extraskill>
+	<id>21000013</id>
+	<name>金刚咒</name>
+	<resid>tx_13</resid>
+	<icon_id>tb_13</icon_id>
+	<cartoon_id>ct_13</cartoon_id>
+	<skill_type>5</skill_type>
+	<type_desc>防御增益</type_desc>
+	<property_value>5,1,100</property_value>
+	<probability>10</probability>
+	<pve_desc>10%概率增加我方全体防御10%</pve_desc>
+	<pvp_desc>增加我方全体防御5%，消耗5点怒气。</pvp_desc>
+	<cost>5</cost>
+</extraskill>
+<extraskill>
+	<id>21000014</id>
+	<name>地宫赦罪</name>
+	<resid>tx_14</resid>
+	<icon_id>tb_14</icon_id>
+	<cartoon_id>ct_14</cartoon_id>
+	<skill_type>8</skill_type>
+	<type_desc>攻击减益</type_desc>
+	<property_value>8,1,100</property_value>
+	<probability>10</probability>
+	<pve_desc>10%概率减少敌方全体攻击10%</pve_desc>
+	<pvp_desc>减少加敌方全体攻击10%，消耗5点怒气。</pvp_desc>
+	<cost>5</cost>
+</extraskill>
+<extraskill>
+	<id>21000015</id>
+	<name>天罗地网符</name>
+	<resid>tx_15</resid>
+	<icon_id>tb_15</icon_id>
+	<cartoon_id>ct_15</cartoon_id>
+	<skill_type>9</skill_type>
+	<type_desc>防御减益</type_desc>
+	<property_value>9,1,100</property_value>
+	<probability>10</probability>
+	<pve_desc>10%概减少加敌方全体防御10%</pve_desc>
+	<pvp_desc>减少加敌方全体防御10%，消耗5点怒气。</pvp_desc>
+	<cost>5</cost>
+</extraskill>
+<extraskill>
+	<id>21000016</id>
+	<name>兴云布雷</name>
+	<resid>tx_16</resid>
+	<icon_id>tb_16</icon_id>
+	<cartoon_id>ct_16</cartoon_id>
+	<skill_type>6</skill_type>
+	<type_desc>全体伤害</type_desc>
+	<property_value>6,1,100</property_value>
+	<probability>10</probability>
+	<pve_desc>10%对当前节所有目标造成110%的伤害</pve_desc>
+	<pvp_desc>对敌方全体造成110%的伤害，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000017</id>
+	<name>横扫千军</name>
+	<resid>tx_17</resid>
+	<icon_id>tb_17</icon_id>
+	<cartoon_id>ct_17</cartoon_id>
+	<skill_type>6</skill_type>
+	<type_desc>全体伤害</type_desc>
+	<property_value>6,1,200</property_value>
+	<probability>10</probability>
+	<pve_desc>10%对当前节所有目标造成120%的伤害</pve_desc>
+	<pvp_desc>对敌方全体造成120%的伤害，消耗15点怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+<extraskill>
+	<id>21000018</id>
+	<name>五雷轰顶</name>
+	<resid>tx_18</resid>
+	<icon_id>tb_18</icon_id>
+	<cartoon_id>ct_18</cartoon_id>
+	<skill_type>6</skill_type>
+	<type_desc>全体伤害</type_desc>
+	<property_value>6,1,300</property_value>
+	<probability>10</probability>
+	<pve_desc>10%对当前节所有目标造成130%的伤害</pve_desc>
+	<pvp_desc>对敌方全体造成130%的伤害，消耗15怒气。</pvp_desc>
+	<cost>15</cost>
+</extraskill>
+</root>

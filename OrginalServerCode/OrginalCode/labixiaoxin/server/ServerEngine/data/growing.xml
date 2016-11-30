@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<growing>
+	<id>20001000</id>
+	<name>小悟空</name>
+	<attribute>7,13,10,0,0</attribute>
+	<value>30</value>
+</growing>
+<growing>
+	<id>20001001</id>
+	<name>猪小戒</name>
+	<attribute>6,12,10,0,0</attribute>
+	<value>28</value>
+</growing>
+<growing>
+	<id>20001002</id>
+	<name>沙小僧</name>
+	<attribute>3,13,11,0,0</attribute>
+	<value>27</value>
+</growing>
+<growing>
+	<id>20001003</id>
+	<name>萌兔精</name>
+	<attribute>9,10,7,0,0</attribute>
+	<value>26</value>
+</growing>
+<growing>
+	<id>20001004</id>
+	<name>紫霞小仙</name>
+	<attribute>6,12,11,0,0</attribute>
+	<value>29</value>
+</growing>
+<growing>
+	<id>20001005</id>
+	<name>胡一刀</name>
+	<attribute>5,10,11,0,0</attribute>
+	<value>26</value>
+</growing>
+<growing>
+	<id>20001006</id>
+	<name>胡二棒</name>
+	<attribute>3,11,11,0,0</attribute>
+	<value>25</value>
+</growing>
+<growing>
+	<id>20001007</id>
+	<name>胡三弓</name>
+	<attribute>6,9,10,0,0</attribute>
+	<value>25</value>
+</growing>
+<growing>
+	<id>20001008</id>
+	<name>金三胖</name>
+	<attribute>4,11,10,0,0</attribute>
+	<value>25</value>
+</growing>
+<growing>
+	<id>20001009</id>
+	<name>天狼</name>
+	<attribute>8,15,12,0,0</attribute>
+	<value>35</value>
+</growing>
+<growing>
+	<id>2000100A</id>
+	<name>西域使者</name>
+	<attribute>7,16,10,0,0</attribute>
+	<value>33</value>
+</growing>
+<growing>
+	<id>2000100B</id>
+	<name>雷牙</name>
+	<attribute>7,18,9,0,0</attribute>
+	<value>34</value>
+</growing>
+<growing>
+	<id>2000100C</id>
+	<name>绿影</name>
+	<attribute>6,20,7,0,0</attribute>
+	<value>33</value>
+</growing>
+<growing>
+	<id>2000100D</id>
+	<name>雪灵子</name>
+	<attribute>6,18,7,0,0</attribute>
+	<value>31</value>
+</growing>
+<growing>
+	<id>2000100E</id>
+	<name>武曲星</name>
+	<attribute>8,15,12,0,0</attribute>
+	<value>35</value>
+</growing>
+<growing>
+	<id>200010F0</id>
+	<name>火德星君</name>
+	<attribute>10,12,10,0,0</attribute>
+	<value>32</value>
+</growing>
+<growing>
+	<id>200010F1</id>
+	<name>鹤童</name>
+	<attribute>7,19,7,0,0</attribute>
+	<value>33</value>
+</growing>
+<growing>
+	<id>200010F2</id>
+	<name>瑶池仙子</name>
+	<attribute>6,20,8,0,0</attribute>
+	<value>34</value>
+</growing>
+<growing>
+	<id>200010F3</id>
+	<name>龙三公主</name>
+	<attribute>10,19,8,0,0</attribute>
+	<value>37</value>
+</growing>
+<growing>
+	<id>200010F4</id>
+	<name>齐天大圣</name>
+	<attribute>10,20,10,0,0</attribute>
+	<value>40</value>
+</growing>
+<growing>
+	<id>200010F5</id>
+	<name>黑熊精</name>
+	<attribute>5,25,8,0,0</attribute>
+	<value>38</value>
+</growing>
+<growing>
+	<id>200010F6</id>
+	<name>长须大王</name>
+	<attribute>10,18,8,0,0</attribute>
+	<value>36</value>
+</growing>
+<growing>
+	<id>200010F7</id>
+	<name>多目神君</name>
+	<attribute>10,20,10,0,0</attribute>
+	<value>40</value>
+</growing>
+<growing>
+	<id>200010F8</id>
+	<name>北海龙王</name>
+	<attribute>10,24,10,0,0</attribute>
+	<value>44</value>
+</growing>
+<growing>
+	<id>200010F9</id>
+	<name>二郎神</name>
+	<attribute>12,21,12,0,0</attribute>
+	<value>45</value>
+</growing>
+<growing>
+	<id>20001010</id>
+	<name>哪咤</name>
+	<attribute>11,20,12,0,0</attribute>
+	<value>43</value>
+</growing>
+<growing>
+	<id>20001011</id>
+	<name>托塔天王</name>
+	<attribute>10,21,11,0,0</attribute>
+	<value>42</value>
+</growing>
+<growing>
+	<id>20001012</id>
+	<name>木吒</name>
+	<attribute>9,21,12,0,0</attribute>
+	<value>42</value>
+</growing>
+<growing>
+	<id>20001013</id>
+	<name>九尾妖狐</name>
+	<attribute>14,18,8,0,0</attribute>
+	<value>40</value>
+</growing>
+<growing>
+	<id>20001014</id>
+	<name>虎力大仙</name>
+	<attribute>10,20,11,0,0</attribute>
+	<value>41</value>
+</growing>
+<growing>
+	<id>20001015</id>
+	<name>巨灵神</name>
+	<attribute>13,21,12,0,0</attribute>
+	<value>47</value>
+</growing>
+<growing>
+	<id>200010FA</id>
+	<name>唐僧</name>
+	<attribute>0,0,0,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002000</id>
+	<name>血牛小怪</name>
+	<attribute>12,25,20,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002001</id>
+	<name>攻高小怪 </name>
+	<attribute>15,20,15,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002002</id>
+	<name>血牛boss</name>
+	<attribute>20,50,25,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002003</id>
+	<name>攻高boss</name>
+	<attribute>25,40,20,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002004</id>
+	<name>血牛小boss</name>
+	<attribute>15,30,20,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20002005</id>
+	<name>攻高小boss</name>
+	<attribute>18,25,20,0,0</attribute>
+	<value>0</value>
+</growing>
+<growing>
+	<id>20011000</id>
+	<name>金·小悟空</name>
+	<attribute>9,16,12,0,0</attribute>
+	<value>37</value>
+</growing>
+<growing>
+	<id>20011001</id>
+	<name>金·猪小戒</name>
+	<attribute>8,15,12,0,0</attribute>
+	<value>35</value>
+</growing>
+<growing>
+	<id>20011002</id>
+	<name>金·沙小僧</name>
+	<attribute>5,16,13,0,0</attribute>
+	<value>34</value>
+</growing>
+<growing>
+	<id>20011003</id>
+	<name>金·萌兔精</name>
+	<attribute>11,13,9,0,0</attribute>
+	<value>33</value>
+</growing>
+<growing>
+	<id>20011004</id>
+	<name>金·紫霞小仙</name>
+	<attribute>8,15,13,0,0</attribute>
+	<value>36</value>
+</growing>
+<growing>
+	<id>20011005</id>
+	<name>金·胡一刀</name>
+	<attribute>7,13,13,0,0</attribute>
+	<value>33</value>
+</growing>
+<growing>
+	<id>20011006</id>
+	<name>金·胡二棒</name>
+	<attribute>5,14,13,0,0</attribute>
+	<value>32</value>
+</growing>
+<growing>
+	<id>20011007</id>
+	<name>金·胡三弓</name>
+	<attribute>8,12,12,0,0</attribute>
+	<value>32</value>
+</growing>
+<growing>
+	<id>20011008</id>
+	<name>金·金三胖</name>
+	<attribute>6,14,12,0,0</attribute>
+	<value>32</value>
+</growing>
+<growing>
+	<id>20011009</id>
+	<name>金·天狼</name>
+	<attribute>10,18,14,0,0</attribute>
+	<value>42</value>
+</growing>
+<growing>
+	<id>2001100A</id>
+	<name>金·西域使者</name>
+	<attribute>9,19,12,0,0</attribute>
+	<value>41</value>
+</growing>
+<growing>
+	<id>2001100B</id>
+	<name>金·雷牙</name>
+	<attribute>9,21,11,0,0</attribute>
+	<value>41</value>
+</growing>
+<growing>
+	<id>2001100C</id>
+	<name>金·绿影</name>
+	<attribute>8,23,9,0,0</attribute>
+	<value>40</value>
+</growing>
+<growing>
+	<id>2001100D</id>
+	<name>金·雪灵子</name>
+	<attribute>8,21,9,0,0</attribute>
+	<value>38</value>
+</growing>
+<growing>
+	<id>2001100E</id>
+	<name>金·武曲星</name>
+	<attribute>10,18,14,0,0</attribute>
+	<value>42</value>
+</growing>
+<growing>
+	<id>200110F0</id>
+	<name>金·火德星君</name>
+	<attribute>12,15,12,0,0</attribute>
+	<value>39</value>
+</growing>
+<growing>
+	<id>200110F1</id>
+	<name>金·鹤童</name>
+	<attribute>9,21,9,0,0</attribute>
+	<value>39</value>
+</growing>
+<growing>
+	<id>200110F2</id>
+	<name>金·瑶池仙子</name>
+	<attribute>8,23,10,0,0</attribute>
+	<value>39</value>
+</growing>
+<growing>
+	<id>200110F3</id>
+	<name>金·龙三公主</name>
+	<attribute>12,22,10,0,0</attribute>
+	<value>43</value>
+</growing>
+<growing>
+	<id>200110F4</id>
+	<name>金·齐天大圣</name>
+	<attribute>12,23,12,0,0</attribute>
+	<value>47</value>
+</growing>
+<growing>
+	<id>200110F5</id>
+	<name>金·黑熊精</name>
+	<attribute>7,28,10,0,0</attribute>
+	<value>45</value>
+</growing>
+<growing>
+	<id>200110F6</id>
+	<name>金·长须大王</name>
+	<attribute>12,21,10,0,0</attribute>
+	<value>43</value>
+</growing>
+<growing>
+	<id>200110F7</id>
+	<name>金·多目神君</name>
+	<attribute>12,23,12,0,0</attribute>
+	<value>47</value>
+</growing>
+<growing>
+	<id>200110F8</id>
+	<name>金·北海龙王</name>
+	<attribute>12,27,12,0,0</attribute>
+	<value>51</value>
+</growing>
+<growing>
+	<id>200110F9</id>
+	<name>金·二郎神</name>
+	<attribute>14,24,14,0,0</attribute>
+	<value>52</value>
+</growing>
+<growing>
+	<id>20011010</id>
+	<name>金·哪咤</name>
+	<attribute>13,23,14,0,0</attribute>
+	<value>50</value>
+</growing>
+<growing>
+	<id>20011011</id>
+	<name>金·托塔天王</name>
+	<attribute>12,24,13,0,0</attribute>
+	<value>49</value>
+</growing>
+<growing>
+	<id>20011012</id>
+	<name>金·木吒</name>
+	<attribute>11,23,15,0,0</attribute>
+	<value>49</value>
+</growing>
+<growing>
+	<id>20011013</id>
+	<name>金·九尾妖狐</name>
+	<attribute>16,22,13,0,0</attribute>
+	<value>51</value>
+</growing>
+<growing>
+	<id>20011014</id>
+	<name>金·虎力大仙</name>
+	<attribute>12,23,13,0,0</attribute>
+	<value>48</value>
+</growing>
+<growing>
+	<id>20011015</id>
+	<name>金·巨灵神</name>
+	<attribute>15,25,14,0,0</attribute>
+	<value>54</value>
+</growing>
+</root>

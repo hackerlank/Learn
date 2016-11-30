@@ -1,0 +1,2343 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<equipment>
+	<id>0C101001</id>
+	<resid>zb_wq_gun1</resid>
+	<lresid>lzb_wq_gun1</lresid>
+	<name>劣质木棍</name>
+	<quality>1</quality>
+	<property_value>1,2,18</property_value>
+	<level_require>1</level_require>
+	<price>160</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>路边不起眼的木棍，比较结实</desc>
+</equipment>
+<equipment>
+	<id>0C101002</id>
+	<resid>zb_wq_gun2</resid>
+	<lresid>lzb_wq_gun2</lresid>
+	<name>轻型铁锤</name>
+	<quality>1</quality>
+	<property_value>1,2,20</property_value>
+	<level_require>2</level_require>
+	<price>170</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>铁制锤子，比较轻便</desc>
+</equipment>
+<equipment>
+	<id>0C101003</id>
+	<resid>zb_wq_gun3</resid>
+	<lresid>lzb_wq_gun3</lresid>
+	<name>废弃灯管</name>
+	<quality>1</quality>
+	<property_value>1,2,26</property_value>
+	<level_require>3</level_require>
+	<price>180</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>这是1根神秘材质的管子，没有人知道它原来是干什么的</desc>
+</equipment>
+<equipment>
+	<id>0C101004</id>
+	<resid>zb_wq_gun4</resid>
+	<lresid>lzb_wq_gun4</lresid>
+	<name>熟铜棒</name>
+	<quality>1</quality>
+	<property_value>1,2,33</property_value>
+	<level_require>4</level_require>
+	<price>190</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>少林武僧用的练习棒子</desc>
+</equipment>
+<equipment>
+	<id>0C101005</id>
+	<resid>zb_wq_gun5</resid>
+	<lresid>lzb_wq_gun5</lresid>
+	<name>重型铁锤</name>
+	<quality>1</quality>
+	<property_value>1,2,38</property_value>
+	<level_require>5</level_require>
+	<price>200</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>精铁制成的锤子，非常沉重</desc>
+</equipment>
+<equipment>
+	<id>0C102001</id>
+	<resid>zb_wq_shouqiang1</resid>
+	<lresid>lzb_wq_shouqiang1</lresid>
+	<name>短管左轮</name>
+	<quality>1</quality>
+	<property_value>1,2,20</property_value>
+	<level_require>1</level_require>
+	<price>200</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>西方流传过来的武器，由于比较老旧所以威力不大</desc>
+</equipment>
+<equipment>
+	<id>0C102002</id>
+	<resid>zb_wq_shouqiang2</resid>
+	<lresid>lzb_wq_shouqiang2</lresid>
+	<name>旧式火铳</name>
+	<quality>1</quality>
+	<property_value>1,2,24</property_value>
+	<level_require>2</level_require>
+	<price>210</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>世人仿制的火器，比较粗糙</desc>
+</equipment>
+<equipment>
+	<id>0C102003</id>
+	<resid>zb_wq_shouqiang3</resid>
+	<lresid>lzb_wq_shouqiang3</lresid>
+	<name>蓝鲤枪</name>
+	<quality>1</quality>
+	<property_value>1,2,33</property_value>
+	<level_require>3</level_require>
+	<price>220</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>龙族幼子的玩具，被捕鱼者无意捞获</desc>
+</equipment>
+<equipment>
+	<id>0C102004</id>
+	<resid>zb_wq_shouqiang4</resid>
+	<lresid>lzb_wq_shouqiang4</lresid>
+	<name>燧发枪</name>
+	<quality>1</quality>
+	<property_value>1,2,41</property_value>
+	<level_require>4</level_require>
+	<price>230</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>西域流寇的常用武器</desc>
+</equipment>
+<equipment>
+	<id>0C102005</id>
+	<resid>zb_wq_shouqiang5</resid>
+	<lresid>lzb_wq_shouqiang5</lresid>
+	<name>阔口左轮</name>
+	<quality>1</quality>
+	<property_value>1,2,50</property_value>
+	<level_require>5</level_require>
+	<price>240</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>威力较小的阔口枪，声音很大</desc>
+</equipment>
+<equipment>
+	<id>0C103001</id>
+	<resid>zb_wq_chan1</resid>
+	<lresid>lzb_wq_chan1</lresid>
+	<name>自制铁铲</name>
+	<quality>1</quality>
+	<property_value>1,2,19</property_value>
+	<level_require>1</level_require>
+	<price>200</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>少林伙夫经常使用的工具</desc>
+</equipment>
+<equipment>
+	<id>0C103002</id>
+	<resid>zb_wq_chan2</resid>
+	<lresid>lzb_wq_chan2</lresid>
+	<name>生锈的铁戟</name>
+	<quality>1</quality>
+	<property_value>1,2,22</property_value>
+	<level_require>2</level_require>
+	<price>210</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>战场上被遗弃的长戟</desc>
+</equipment>
+<equipment>
+	<id>0C103003</id>
+	<resid>zb_wq_chan3</resid>
+	<lresid>lzb_wq_chan3</lresid>
+	<name>摆渡人船桨</name>
+	<quality>1</quality>
+	<property_value>1,2,28</property_value>
+	<level_require>3</level_require>
+	<price>220</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>船公的木桨，即可战斗又可划水。。</desc>
+</equipment>
+<equipment>
+	<id>0C103004</id>
+	<resid>zb_wq_chan4</resid>
+	<lresid>lzb_wq_chan4</lresid>
+	<name>精钢长戟</name>
+	<quality>1</quality>
+	<property_value>1,2,35</property_value>
+	<level_require>4</level_require>
+	<price>230</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>钢制的长戟，比铁制更为坚固</desc>
+</equipment>
+<equipment>
+	<id>0C103005</id>
+	<resid>zb_wq_chan5</resid>
+	<lresid>lzb_wq_chan5</lresid>
+	<name>精致铁铲</name>
+	<quality>1</quality>
+	<property_value>1,2,43</property_value>
+	<level_require>5</level_require>
+	<price>240</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>锋利的铁铲，原是沙小僧的喜爱武器</desc>
+</equipment>
+<equipment>
+	<id>0C104001</id>
+	<resid>zb_wq_gong1</resid>
+	<lresid>lzb_wq_gong1</lresid>
+	<name>猎户软弓</name>
+	<quality>1</quality>
+	<property_value>1,2,18</property_value>
+	<level_require>1</level_require>
+	<price>200</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>山林中猎户的常用弓箭，比较适合少年力小者使用</desc>
+</equipment>
+<equipment>
+	<id>0C104002</id>
+	<resid>zb_wq_gong2</resid>
+	<lresid>lzb_wq_gong2</lresid>
+	<name>羽毛弯弓</name>
+	<quality>1</quality>
+	<property_value>1,2,22</property_value>
+	<level_require>2</level_require>
+	<price>210</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>使用大雁毛制成的弓箭，非常轻便</desc>
+</equipment>
+<equipment>
+	<id>0C104003</id>
+	<resid>zb_wq_gong3</resid>
+	<lresid>lzb_wq_gong3</lresid>
+	<name>鱼骨弓</name>
+	<quality>1</quality>
+	<property_value>1,2,29</property_value>
+	<level_require>3</level_require>
+	<price>220</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>渔夫无意中打捞得不知名鱼骨，其长而韧</desc>
+</equipment>
+<equipment>
+	<id>0C104004</id>
+	<resid>zb_wq_gong4</resid>
+	<lresid>lzb_wq_gong4</lresid>
+	<name>扭木弓</name>
+	<quality>1</quality>
+	<property_value>1,2,36</property_value>
+	<level_require>4</level_require>
+	<price>230</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>柳树枝做成的弓箭</desc>
+</equipment>
+<equipment>
+	<id>0C104005</id>
+	<resid>zb_wq_gong5</resid>
+	<lresid>lzb_wq_gong5</lresid>
+	<name>三叶强弓</name>
+	<quality>1</quality>
+	<property_value>1,2,42</property_value>
+	<level_require>5</level_require>
+	<price>240</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>榆木制成的弓箭，蕴含些许灵气</desc>
+</equipment>
+<equipment>
+	<id>0C105001</id>
+	<resid>zb_wq_zhang1</resid>
+	<lresid>lzb_wq_zhang1</lresid>
+	<name>牛骨杖</name>
+	<quality>1</quality>
+	<property_value>1,2,21</property_value>
+	<level_require>1</level_require>
+	<price>200</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>牦牛骨制的蛮杖</desc>
+</equipment>
+<equipment>
+	<id>0C105002</id>
+	<resid>zb_wq_zhang2</resid>
+	<lresid>lzb_wq_zhang2</lresid>
+	<name>蓝木节杖</name>
+	<quality>1</quality>
+	<property_value>1,2,23</property_value>
+	<level_require>2</level_require>
+	<price>210</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>北风镜特有的蓝色树木制成的法杖，蕴含雪之力</desc>
+</equipment>
+<equipment>
+	<id>0C105003</id>
+	<resid>zb_wq_zhang3</resid>
+	<lresid>lzb_wq_zhang3</lresid>
+	<name>冰糖葫芦</name>
+	<quality>1</quality>
+	<property_value>1,2,27</property_value>
+	<level_require>3</level_require>
+	<price>220</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>被施了咒的冰糖葫芦，又好吃又好用！</desc>
+</equipment>
+<equipment>
+	<id>0C105004</id>
+	<resid>zb_wq_zhang4</resid>
+	<lresid>lzb_wq_zhang4</lresid>
+	<name>三叉法杖</name>
+	<quality>1</quality>
+	<property_value>1,2,33</property_value>
+	<level_require>4</level_require>
+	<price>230</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>无名手骨制成的法杖，隐隐有着阴寒之气</desc>
+</equipment>
+<equipment>
+	<id>0C105005</id>
+	<resid>zb_wq_zhang5</resid>
+	<lresid>lzb_wq_zhang5</lresid>
+	<name>训子鸡毛掸</name>
+	<quality>1</quality>
+	<property_value>1,2,39</property_value>
+	<level_require>5</level_require>
+	<price>240</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>这是1根让无数顽童幼仔惧怕的法杖，据说它经常围绕着声声愤怒的咆哮声</desc>
+</equipment>
+<equipment>
+	<id>0C101006</id>
+	<resid>zb_wq_gun6</resid>
+	<lresid>lzb_wq_gun6</lresid>
+	<name>破倭狼筅</name>
+	<quality>2</quality>
+	<property_value>1,2,35</property_value>
+	<level_require>3</level_require>
+	<price>800</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>传说古时东倭入侵时，有一老乞丐使用此竹棒，棒打上百倭狗</desc>
+</equipment>
+<equipment>
+	<id>0C101007</id>
+	<resid>zb_wq_gun7</resid>
+	<lresid>lzb_wq_gun7</lresid>
+	<name>抛光熟铜棍</name>
+	<quality>2</quality>
+	<property_value>1,2,40</property_value>
+	<level_require>6</level_require>
+	<price>1000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>铜制的棍器，其上冒着绿光</desc>
+</equipment>
+<equipment>
+	<id>0C101008</id>
+	<resid>zb_wq_gun8</resid>
+	<lresid>lzb_wq_gun8</lresid>
+	<name>轻型狼牙锤</name>
+	<quality>2</quality>
+	<property_value>1,2,48</property_value>
+	<level_require>10</level_require>
+	<price>1200</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>紫铜制成的狼牙棒</desc>
+</equipment>
+<equipment>
+	<id>0C101009</id>
+	<resid>zb_wq_gun9</resid>
+	<lresid>lzb_wq_gun9</lresid>
+	<name>鎏金铜杵</name>
+	<quality>2</quality>
+	<property_value>1,2,55</property_value>
+	<level_require>15</level_require>
+	<price>1500</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>仙品坊制造的擎天赝品，取其形而无其神</desc>
+</equipment>
+<equipment>
+	<id>0C102006</id>
+	<resid>zb_wq_shouqiang6</resid>
+	<lresid>lzb_wq_shouqiang6</lresid>
+	<name>草金铃</name>
+	<quality>2</quality>
+	<property_value>1,2,40</property_value>
+	<level_require>3</level_require>
+	<price>800</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>百花仙与火德星君打赌失败后，命喇叭花灵变成火器让其使用百年</desc>
+</equipment>
+<equipment>
+	<id>0C102007</id>
+	<resid>zb_wq_shouqiang7</resid>
+	<lresid>lzb_wq_shouqiang7</lresid>
+	<name>铜柄左轮枪</name>
+	<quality>2</quality>
+	<property_value>1,2,49</property_value>
+	<level_require>6</level_require>
+	<price>1000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>铜质的左轮枪，发射的时候会过烫</desc>
+</equipment>
+<equipment>
+	<id>0C102008</id>
+	<resid>zb_wq_shouqiang8</resid>
+	<lresid>lzb_wq_shouqiang8</lresid>
+	<name>银质手枪</name>
+	<quality>2</quality>
+	<property_value>1,2,55</property_value>
+	<level_require>10</level_require>
+	<price>1200</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>银质手枪，据说西方有种吸血魔物特别惧怕此枪的威力</desc>
+</equipment>
+<equipment>
+	<id>0C102009</id>
+	<resid>zb_wq_shouqiang9</resid>
+	<lresid>lzb_wq_shouqiang9</lresid>
+	<name>复古燧发枪</name>
+	<quality>2</quality>
+	<property_value>1,2,65</property_value>
+	<level_require>15</level_require>
+	<price>1500</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>黑铁镶金的质感，你值得拥有！</desc>
+</equipment>
+<equipment>
+	<id>0C103006</id>
+	<resid>zb_wq_chan6</resid>
+	<lresid>lzb_wq_chan6</lresid>
+	<name>老式月牙铲</name>
+	<quality>2</quality>
+	<property_value>1,2,35</property_value>
+	<level_require>3</level_require>
+	<price>800</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>老旧的月牙铲</desc>
+</equipment>
+<equipment>
+	<id>0C103007</id>
+	<resid>zb_wq_chan7</resid>
+	<lresid>lzb_wq_chan7</lresid>
+	<name>莳青葱</name>
+	<quality>2</quality>
+	<property_value>1,2,43</property_value>
+	<level_require>6</level_require>
+	<price>1000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>这是一根神奇的大葱，据说在未来会有关于它的歌曲流传</desc>
+</equipment>
+<equipment>
+	<id>0C103008</id>
+	<resid>zb_wq_chan8</resid>
+	<lresid>lzb_wq_chan8</lresid>
+	<name>画杆戟</name>
+	<quality>2</quality>
+	<property_value>1,2,49</property_value>
+	<level_require>10</level_require>
+	<price>1200</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>锋利的长戟，多用于战场士兵</desc>
+</equipment>
+<equipment>
+	<id>0C103009</id>
+	<resid>zb_wq_chan9</resid>
+	<lresid>lzb_wq_chan9</lresid>
+	<name>双月铲</name>
+	<quality>2</quality>
+	<property_value>1,2,60</property_value>
+	<level_require>15</level_require>
+	<price>1500</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>双月铲，散发玄月冷光</desc>
+</equipment>
+<equipment>
+	<id>0C104006</id>
+	<resid>zb_wq_gong6</resid>
+	<lresid>lzb_wq_gong6</lresid>
+	<name>青羽弓</name>
+	<quality>2</quality>
+	<property_value>1,2,38</property_value>
+	<level_require>3</level_require>
+	<price>800</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>传话是最后一只青鸟的尾羽制成，拉弓时会散发阵阵鸟鸣</desc>
+</equipment>
+<equipment>
+	<id>0C104007</id>
+	<resid>zb_wq_gong7</resid>
+	<lresid>lzb_wq_gong7</lresid>
+	<name>五音弓</name>
+	<quality>2</quality>
+	<property_value>1,2,43</property_value>
+	<level_require>6</level_require>
+	<price>1000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>天宫竖琴改造的弓箭，上面的4根弦可以同时拉动</desc>
+</equipment>
+<equipment>
+	<id>0C104008</id>
+	<resid>zb_wq_gong8</resid>
+	<lresid>lzb_wq_gong8</lresid>
+	<name>白翼弓</name>
+	<quality>2</quality>
+	<property_value>1,2,50</property_value>
+	<level_require>10</level_require>
+	<price>1200</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>白鹭翅膀化成的弓，射出的剑可有飞翔之速</desc>
+</equipment>
+<equipment>
+	<id>0C104009</id>
+	<resid>zb_wq_gong9</resid>
+	<lresid>lzb_wq_gong9</lresid>
+	<name>傲雪梅花弓</name>
+	<quality>2</quality>
+	<property_value>1,2,60</property_value>
+	<level_require>15</level_require>
+	<price>1500</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>倒霉的百花仙与鹤童打赌继续失败后，折了梅灵化成一支弓箭赠与鹤童</desc>
+</equipment>
+<equipment>
+	<id>0C105006</id>
+	<resid>zb_wq_zhang6</resid>
+	<lresid>lzb_wq_zhang6</lresid>
+	<name>坎水权杖</name>
+	<quality>2</quality>
+	<property_value>1,2,40</property_value>
+	<level_require>3</level_require>
+	<price>800</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>蓝色水晶制成的法杖，由于年代久远而灵气不足</desc>
+</equipment>
+<equipment>
+	<id>0C105007</id>
+	<resid>zb_wq_zhang7</resid>
+	<lresid>lzb_wq_zhang7</lresid>
+	<name>开聪拨浪鼓</name>
+	<quality>2</quality>
+	<property_value>1,2,48</property_value>
+	<level_require>6</level_require>
+	<price>1000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>开缘鼓的仿制品，略具其灵，但威力不大</desc>
+</equipment>
+<equipment>
+	<id>0C105008</id>
+	<resid>zb_wq_zhang8</resid>
+	<lresid>lzb_wq_zhang8</lresid>
+	<name>魔腾曲节杖</name>
+	<quality>2</quality>
+	<property_value>1,2,53</property_value>
+	<level_require>10</level_require>
+	<price>1200</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>寒冰聚结而成的法杖</desc>
+</equipment>
+<equipment>
+	<id>0C105009</id>
+	<resid>zb_wq_zhang9</resid>
+	<lresid>lzb_wq_zhang9</lresid>
+	<name>三趾魔杖</name>
+	<quality>2</quality>
+	<property_value>1,2,62</property_value>
+	<level_require>15</level_require>
+	<price>1500</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由凶兽利爪制成的法杖，阴气缭绕</desc>
+</equipment>
+<equipment>
+	<id>0C10100A</id>
+	<resid>zb_wq_gun10</resid>
+	<lresid>lzb_wq_gun10</lresid>
+	<name>马良神笔</name>
+	<quality>3</quality>
+	<property_value>1,2,90,4,2,50</property_value>
+	<level_require>1</level_require>
+	<price>5000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>18010301</formula_id>
+	<desc>马良使用过的笔，虽然失去了画物成形的灵力但仍残留了些许仙力</desc>
+</equipment>
+<equipment>
+	<id>0C10100B</id>
+	<resid>zb_wq_gun11</resid>
+	<lresid>lzb_wq_gun11</lresid>
+	<name>虎牙锤</name>
+	<quality>3</quality>
+	<property_value>1,2,90,4,2,60</property_value>
+	<level_require>10</level_require>
+	<price>7000</price>
+	<improve_point>1,2,5,4,2,2</improve_point>
+	<formula_id>18010302</formula_id>
+	<desc>啐了蛇毒的虎牙制成的圆锤，被击中者非死即伤</desc>
+</equipment>
+<equipment>
+	<id>0C10100C</id>
+	<resid>zb_wq_gun12</resid>
+	<lresid>lzb_wq_gun12</lresid>
+	<name>宝蓝博玉柱</name>
+	<quality>3</quality>
+	<property_value>1,2,105,4,2,70</property_value>
+	<level_require>15</level_require>
+	<price>10000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>18010303</formula_id>
+	<desc>蓝色巨灵木制成金箍棒，威力很大</desc>
+</equipment>
+<equipment>
+	<id>0C10200A</id>
+	<resid>zb_wq_shouqiang10</resid>
+	<lresid>lzb_wq_shouqiang10</lresid>
+	<name>炙热之风</name>
+	<quality>3</quality>
+	<property_value>1,2,86,4,2,50</property_value>
+	<level_require>1</level_require>
+	<price>5000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>18010304</formula_id>
+	<desc>来自奇异空间的武器，据说开启时会散发出灼热的风，曾被八戒拿着风干牛肉，后来被改制成武器</desc>
+</equipment>
+<equipment>
+	<id>0C10200B</id>
+	<resid>zb_wq_shouqiang11</resid>
+	<lresid>lzb_wq_shouqiang11</lresid>
+	<name>广口燧发枪</name>
+	<quality>3</quality>
+	<property_value>1,2,99,4,2,60</property_value>
+	<level_require>10</level_require>
+	<price>7000</price>
+	<improve_point>1,2,5,4,2,2</improve_point>
+	<formula_id>18010305</formula_id>
+	<desc>西方大陆的优质武器，射程远，威力大</desc>
+</equipment>
+<equipment>
+	<id>0C10200C</id>
+	<resid>zb_wq_shouqiang12</resid>
+	<lresid>lzb_wq_shouqiang12</lresid>
+	<name>悲怆的赤焰</name>
+	<quality>3</quality>
+	<property_value>1,2,90,4,2,70</property_value>
+	<level_require>15</level_require>
+	<price>10000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>18010306</formula_id>
+	<desc>一位老枪手遗留之物，留有其本人的悲煞之气，发射时其上纹理似有血光流转</desc>
+</equipment>
+<equipment>
+	<id>0C10300A</id>
+	<resid>zb_wq_chan10</resid>
+	<lresid>lzb_wq_chan10</lresid>
+	<name>青龙双刃戟</name>
+	<quality>3</quality>
+	<property_value>1,2,84,4,2,50</property_value>
+	<level_require>1</level_require>
+	<price>5000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>18010307</formula_id>
+	<desc>白银与龙骨制成的三叉戟，隐约有龙吟之声缭绕</desc>
+</equipment>
+<equipment>
+	<id>0C10300B</id>
+	<resid>zb_wq_chan11</resid>
+	<lresid>lzb_wq_chan11</lresid>
+	<name>知秋蒲扇</name>
+	<quality>3</quality>
+	<property_value>1,2,85,4,2,60</property_value>
+	<level_require>10</level_require>
+	<price>7000</price>
+	<improve_point>1,2,5,4,2,2</improve_point>
+	<formula_id>18010308</formula_id>
+	<desc>铁扇公主的法宝，被小悟空借去扑灭火焰山之火</desc>
+</equipment>
+<equipment>
+	<id>0C10300C</id>
+	<resid>zb_wq_chan12</resid>
+	<lresid>lzb_wq_chan12</lresid>
+	<name>疯魔月牙铲</name>
+	<quality>3</quality>
+	<property_value>1,2,90,4,2,70</property_value>
+	<level_require>15</level_require>
+	<price>10000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>18010309</formula_id>
+	<desc>据说会迷惑人心智的法铲</desc>
+</equipment>
+<equipment>
+	<id>0C10400A</id>
+	<resid>zb_wq_gong10</resid>
+	<lresid>lzb_wq_gong10</lresid>
+	<name>雕翎短弓</name>
+	<quality>3</quality>
+	<property_value>1,2,80,4,2,50</property_value>
+	<level_require>1</level_require>
+	<price>5000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>18010310</formula_id>
+	<desc>雪雕之翎制成的弓箭，犀利无比</desc>
+</equipment>
+<equipment>
+	<id>0C10400B</id>
+	<resid>zb_wq_gong11</resid>
+	<lresid>lzb_wq_gong11</lresid>
+	<name>束鹤之弓</name>
+	<quality>3</quality>
+	<property_value>1,2,95,4,2,60</property_value>
+	<level_require>10</level_require>
+	<price>7000</price>
+	<improve_point>1,2,5,4,2,2</improve_point>
+	<formula_id>18010311</formula_id>
+	<desc>原是蟠桃园看守的宠物，盗吃无数仙桃后成精作乱天宫。后被天将捉住绑住脖子制成武器</desc>
+</equipment>
+<equipment>
+	<id>0C10400C</id>
+	<resid>zb_wq_gong12</resid>
+	<lresid>lzb_wq_gong12</lresid>
+	<name>午夜凋零</name>
+	<quality>3</quality>
+	<property_value>1,2,108,4,2,70</property_value>
+	<level_require>15</level_require>
+	<price>10000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>18010312</formula_id>
+	<desc>一支只会在午夜盛开与凋零的蓝色蔷薇，充满夜的沉暮气息</desc>
+</equipment>
+<equipment>
+	<id>0C10500A</id>
+	<resid>zb_wq_zhang10</resid>
+	<lresid>lzb_wq_zhang10</lresid>
+	<name>碧落莲花</name>
+	<quality>3</quality>
+	<property_value>1,2,84,4,2,50</property_value>
+	<level_require>1</level_require>
+	<price>5000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>18010313</formula_id>
+	<desc>碧落仙子的清冷雪莲</desc>
+</equipment>
+<equipment>
+	<id>0C10500B</id>
+	<resid>zb_wq_zhang11</resid>
+	<lresid>lzb_wq_zhang11</lresid>
+	<name>离火直杖</name>
+	<quality>3</quality>
+	<property_value>1,2,99,4,2,60</property_value>
+	<level_require>10</level_require>
+	<price>7000</price>
+	<improve_point>1,2,5,4,2,2</improve_point>
+	<formula_id>18010314</formula_id>
+	<desc>镶嵌了火麒麟魂珠的鬼木法杖，持有者不惧火焰</desc>
+</equipment>
+<equipment>
+	<id>0C10500C</id>
+	<resid>zb_wq_zhang12</resid>
+	<lresid>lzb_wq_zhang12</lresid>
+	<name>镇魂杖</name>
+	<quality>3</quality>
+	<property_value>1,2,105,4,2,70</property_value>
+	<level_require>15</level_require>
+	<price>10000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>18010315</formula_id>
+	<desc>邪龙骨制成的法杖，一代蛮巫的身份象征！</desc>
+</equipment>
+<equipment>
+	<id>0C10100D</id>
+	<resid>zb_wq_gun13</resid>
+	<lresid>lzb_wq_gun13</lresid>
+	<name>浸血之牙</name>
+	<quality>4</quality>
+	<property_value>1,2,100,4,2,95</property_value>
+	<level_require>10</level_require>
+	<price>30000</price>
+	<improve_point>1,2,7,4,2,3</improve_point>
+	<formula_id>18010401</formula_id>
+	<desc>一代犬神战亡后，其牙沾染了无边煞气，被制成了重锤，成为天将神兵之一。</desc>
+</equipment>
+<equipment>
+	<id>0C10100E</id>
+	<resid>zb_wq_gun14</resid>
+	<lresid>lzb_wq_gun14</lresid>
+	<name>甘彩漩涡</name>
+	<quality>4</quality>
+	<property_value>1,2,100,4,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,3</improve_point>
+	<formula_id>18010402</formula_id>
+	<desc>这个武器有点甜。。。</desc>
+</equipment>
+<equipment>
+	<id>0C10200D</id>
+	<resid>zb_wq_shouqiang13</resid>
+	<lresid>lzb_wq_shouqiang13</lresid>
+	<name>魔音灌耳</name>
+	<quality>4</quality>
+	<property_value>1,2,115,4,2,95</property_value>
+	<level_require>10</level_require>
+	<price>30000</price>
+	<improve_point>1,2,7,4,2,3</improve_point>
+	<formula_id>18010403</formula_id>
+	<desc>奇异空间神器之一，启动后不停发出重复一首叫“民族风”的歌曲，使无数神仙尽折腰，后被制成火器才偃旗息鼓</desc>
+</equipment>
+<equipment>
+	<id>0C10200E</id>
+	<resid>zb_wq_shouqiang14</resid>
+	<lresid>lzb_wq_shouqiang14</lresid>
+	<name>地狱巨口</name>
+	<quality>4</quality>
+	<property_value>1,2,120,4,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,3</improve_point>
+	<formula_id>18010404</formula_id>
+	<desc>地狱之主的武器</desc>
+</equipment>
+<equipment>
+	<id>0C10300D</id>
+	<resid>zb_wq_chan13</resid>
+	<lresid>lzb_wq_chan13</lresid>
+	<name>了尘缘</name>
+	<quality>4</quality>
+	<property_value>1,2,105,4,2,95</property_value>
+	<level_require>10</level_require>
+	<price>30000</price>
+	<improve_point>1,2,7,4,2,3</improve_point>
+	<formula_id>18010405</formula_id>
+	<desc>某得道扫地僧曾用过的神秘扫帚</desc>
+</equipment>
+<equipment>
+	<id>0C10300E</id>
+	<resid>zb_wq_chan14</resid>
+	<lresid>lzb_wq_chan14</lresid>
+	<name>金雁从革</name>
+	<quality>4</quality>
+	<property_value>1,2,110,4,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,3</improve_point>
+	<formula_id>18010406</formula_id>
+	<desc>黄金制成的三叉戟，是海龙宫土豪龙收藏之一</desc>
+</equipment>
+<equipment>
+	<id>0C10400D</id>
+	<resid>zb_wq_gong13</resid>
+	<lresid>lzb_wq_gong13</lresid>
+	<name>黑羽冥弓</name>
+	<quality>4</quality>
+	<property_value>1,2,120,4,2,95</property_value>
+	<level_require>10</level_require>
+	<price>30000</price>
+	<improve_point>1,2,7,4,2,3</improve_point>
+	<formula_id>18010407</formula_id>
+	<desc>来自冥王的诅咒之弓，上面羽毛是以血池染红至黑，散发浓郁幽冥气息</desc>
+</equipment>
+<equipment>
+	<id>0C10400E</id>
+	<resid>zb_wq_gong14</resid>
+	<lresid>lzb_wq_gong14</lresid>
+	<name>花开堪折</name>
+	<quality>4</quality>
+	<property_value>1,2,110,4,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,3</improve_point>
+	<formula_id>18010408</formula_id>
+	<desc>本是生长在瑶池边上的血色蔷薇。</desc>
+</equipment>
+<equipment>
+	<id>0C10500D</id>
+	<resid>zb_wq_zhang13</resid>
+	<lresid>lzb_wq_zhang13</lresid>
+	<name>百花神杖</name>
+	<quality>4</quality>
+	<property_value>1,2,110,4,2,95</property_value>
+	<level_require>10</level_require>
+	<price>30000</price>
+	<improve_point>1,2,7,4,2,3</improve_point>
+	<formula_id>18010409</formula_id>
+	<desc>百花仙子的第99个抵债神器，由黄色水晶与琼萧花制成</desc>
+</equipment>
+<equipment>
+	<id>0C10500E</id>
+	<resid>zb_wq_zhang14</resid>
+	<lresid>lzb_wq_zhang14</lresid>
+	<name>血之仪式</name>
+	<quality>4</quality>
+	<property_value>1,2,120,4,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,3</improve_point>
+	<formula_id>18010410</formula_id>
+	<desc>洒满了祭司之血的巫器，充满了诅咒之力</desc>
+</equipment>
+<equipment>
+	<id>0C10100F</id>
+	<resid>zb_wq_gun15</resid>
+	<lresid>lzb_wq_gun15</lresid>
+	<name>擎天</name>
+	<quality>5</quality>
+	<property_value>1,2,245,4,2,180</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,9,4,2,9</improve_point>
+	<formula_id>18010501</formula_id>
+	<desc>据说是由女娲娘娘补天神石制成，原来是东海的顶天之柱，是龙王的宝贝。</desc>
+</equipment>
+<equipment>
+	<id>0C10200F</id>
+	<resid>zb_wq_shouqiang15</resid>
+	<lresid>lzb_wq_shouqiang15</lresid>
+	<name>天命</name>
+	<quality>5</quality>
+	<property_value>1,2,246,4,2,180</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,9,4,2,9</improve_point>
+	<formula_id>18010502</formula_id>
+	<desc>拥有密密麻麻蓝色符印的火器，传说是由西方传教士带入，可杀一切邪物，拥有不可思议的奇妙力量</desc>
+</equipment>
+<equipment>
+	<id>0C10300F</id>
+	<resid>zb_wq_chan15</resid>
+	<lresid>lzb_wq_chan15</lresid>
+	<name>渡劫</name>
+	<quality>5</quality>
+	<property_value>1,2,247,4,2,190</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,8,4,2,10</improve_point>
+	<formula_id>18010503</formula_id>
+	<desc>某罗汉渡金身时手持的武器，随着主人渡劫成功，它也获得金身，启开灵性。</desc>
+</equipment>
+<equipment>
+	<id>0C10400F</id>
+	<resid>zb_wq_gong15</resid>
+	<lresid>lzb_wq_gong15</lresid>
+	<name>斩棘</name>
+	<quality>5</quality>
+	<property_value>1,2,250,4,2,200</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,10,4,2,8</improve_point>
+	<formula_id>18010504</formula_id>
+	<desc>北海原古凶兽的触角被斩落后制成的神器。虽粘滑柔软确有无与伦比的韧性，是凶兽神器之一</desc>
+</equipment>
+<equipment>
+	<id>0C10500F</id>
+	<resid>zb_wq_zhang15</resid>
+	<lresid>lzb_wq_zhang15</lresid>
+	<name>诛邪</name>
+	<quality>5</quality>
+	<property_value>1,2,248,4,2,170</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,9,4,2,9</improve_point>
+	<formula_id>18010505</formula_id>
+	<desc>百花仙子在第一百次打赌失败后，再无鲜花可供其偿还赌债，遂以自身花灵化为神器降临于世</desc>
+</equipment>
+<equipment>
+	<id>0C101010</id>
+	<resid>zb_wq_gun16</resid>
+	<lresid>lzb_wq_gun16</lresid>
+	<name>鎏金重槊</name>
+	<quality>3</quality>
+	<property_value>1,2,112,4,2,70</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,4,4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>武曲星的本命武器，鎏金烫银华丽非凡</desc>
+</equipment>
+<equipment>
+	<id>0C101011</id>
+	<resid>zb_wq_gun17</resid>
+	<lresid>lzb_wq_gun17</lresid>
+	<name>紫竹棍</name>
+	<quality>3</quality>
+	<property_value>1,2,120,4,2,80</property_value>
+	<level_require>10</level_require>
+	<price>20000</price>
+	<improve_point>1,2,4,4,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由天庭的金丝紫竹制成，除了能当武器还能缩小当竹笛吹奏，是天庭流行的摆帅神器。</desc>
+</equipment>
+<equipment>
+	<id>0C102010</id>
+	<resid>zb_wq_shouqiang16</resid>
+	<lresid>lzb_wq_shouqiang16</lresid>
+	<name>金鲤鱼</name>
+	<quality>3</quality>
+	<property_value>1,2,114,4,2,70</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>龙王太子的专属玩具，玩具中的战斗机！</desc>
+</equipment>
+<equipment>
+	<id>0C102011</id>
+	<resid>zb_wq_shouqiang17</resid>
+	<lresid>lzb_wq_shouqiang17</lresid>
+	<name>岁星左轮</name>
+	<quality>3</quality>
+	<property_value>1,2,122,4,2,80</property_value>
+	<level_require>10</level_require>
+	<price>20000</price>
+	<improve_point>1,2,6,4,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>刻印有五角星的火器</desc>
+</equipment>
+<equipment>
+	<id>0C103010</id>
+	<resid>zb_wq_chan16</resid>
+	<lresid>lzb_wq_chan16</lresid>
+	<name>双环残月铲</name>
+	<quality>3</quality>
+	<property_value>1,2,113,4,2,70</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>散发着蓝色光芒的法铲</desc>
+</equipment>
+<equipment>
+	<id>0C103011</id>
+	<resid>zb_wq_chan17</resid>
+	<lresid>lzb_wq_chan17</lresid>
+	<name>画杆白银戟</name>
+	<quality>3</quality>
+	<property_value>1,2,125,4,2,80</property_value>
+	<level_require>10</level_require>
+	<price>20000</price>
+	<improve_point>1,2,7,4,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>银质的长戟，战场上猛将所持</desc>
+</equipment>
+<equipment>
+	<id>0C104010</id>
+	<resid>zb_wq_gong16</resid>
+	<lresid>lzb_wq_gong16</lresid>
+	<name>六花软弓</name>
+	<quality>3</quality>
+	<property_value>1,2,111,4,2,70</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由七彩雪梅制成的神弓，引动时如见雪花飘舞</desc>
+</equipment>
+<equipment>
+	<id>0C104011</id>
+	<resid>zb_wq_gong17</resid>
+	<lresid>lzb_wq_gong17</lresid>
+	<name>天禽弓</name>
+	<quality>3</quality>
+	<property_value>1,2,121,4,2,80</property_value>
+	<level_require>10</level_require>
+	<price>20000</price>
+	<improve_point>1,2,5,4,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>天庭中某七彩神鸟的羽毛制成，流光溢彩很是美丽。</desc>
+</equipment>
+<equipment>
+	<id>0C105010</id>
+	<resid>zb_wq_zhang16</resid>
+	<lresid>lzb_wq_zhang16</lresid>
+	<name>恨别离</name>
+	<quality>3</quality>
+	<property_value>1,2,116,4,2,70</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,6,4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>瑶池仙子的伞，据说是情人离开前所赠，蕴含了无限的相思情怀</desc>
+</equipment>
+<equipment>
+	<id>0C105011</id>
+	<resid>zb_wq_zhang17</resid>
+	<lresid>lzb_wq_zhang17</lresid>
+	<name>开缘鼓</name>
+	<quality>3</quality>
+	<property_value>1,2,121,4,2,80</property_value>
+	<level_require>10</level_require>
+	<price>20000</price>
+	<improve_point>1,2,6,4,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>天帝之子的玩具，受到众仙的祝福，所以拥有无限灵力</desc>
+</equipment>
+<equipment>
+	<id>0C101012</id>
+	<resid>zb_wq_gun18</resid>
+	<lresid>lzb_wq_gun18</lresid>
+	<name>判官金笔</name>
+	<quality>4</quality>
+	<property_value>1,2,178,4,2,120</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,8,4,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>地狱判官的笔，金币一挥可定凡人生死</desc>
+</equipment>
+<equipment>
+	<id>0C102012</id>
+	<resid>zb_wq_shouqiang18</resid>
+	<lresid>lzb_wq_shouqiang18</lresid>
+	<name>荧惑之风</name>
+	<quality>4</quality>
+	<property_value>1,2,180,4,2,120</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>奇异空间神器之一，更被土豪龙改制成金色，放于其收藏百宝中</desc>
+</equipment>
+<equipment>
+	<id>0C103012</id>
+	<resid>zb_wq_chan18</resid>
+	<lresid>lzb_wq_chan18</lresid>
+	<name>蟠龙炙火</name>
+	<quality>4</quality>
+	<property_value>1,2,182,4,2,120</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,9,4,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>龙三公主的本命武器，上有龙魂缠绕。</desc>
+</equipment>
+<equipment>
+	<id>0C104012</id>
+	<resid>zb_wq_gong18</resid>
+	<lresid>lzb_wq_gong18</lresid>
+	<name>鹤冲玉弓</name>
+	<quality>4</quality>
+	<property_value>1,2,150,4,2,200</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>1,2,8,4,2,7</improve_point>
+	<formula_id>0</formula_id>
+	<desc>九色神鹤之羽制成的神功，只有强将才能拉开</desc>
+</equipment>
+<equipment>
+	<id>0C105012</id>
+	<resid>zb_wq_zhang18</resid>
+	<lresid>lzb_wq_zhang18</lresid>
+	<name>步步生莲</name>
+	<quality>4</quality>
+	<property_value>1,2,160,4,2,180</property_value>
+	<level_require>15</level_require>
+	<price>35000</price>
+	<improve_point>1,2,9,4,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>千年一开的神池之莲化成宝物</desc>
+</equipment>
+<equipment>
+	<id>0C101013</id>
+	<resid>zb_wq_gun19</resid>
+	<lresid>lzb_wq_gun19</lresid>
+	<name>灭世</name>
+	<quality>5</quality>
+	<property_value>1,2,250,4,2,170</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,10,4,2,10</improve_point>
+	<formula_id>18010601</formula_id>
+	<desc>天庭神将所持之物，雷霆万千，挥舞之下如狂龙过境</desc>
+</equipment>
+<equipment>
+	<id>0C102013</id>
+	<resid>zb_wq_shouqiang19</resid>
+	<lresid>lzb_wq_shouqiang19</lresid>
+	<name>致命</name>
+	<quality>5</quality>
+	<property_value>1,2,255,4,2,180</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,9,4,2,11</improve_point>
+	<formula_id>18010602</formula_id>
+	<desc>自从火德星君游学归来施展的火器惊艳天庭后，由天匠以玄石锻造百年制成，其器所成之日，群鸟飞舞，百兽齐鸣</desc>
+</equipment>
+<equipment>
+	<id>0C103013</id>
+	<resid>zb_wq_chan19</resid>
+	<lresid>lzb_wq_chan19</lresid>
+	<name>斩孽</name>
+	<quality>5</quality>
+	<property_value>1,2,258,4,2,190</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,8,4,2,12</improve_point>
+	<formula_id>18010603</formula_id>
+	<desc>由天庭流落于人间的神器之一，有一代传于关姓大将之手，杀敌无数，威武不凡</desc>
+</equipment>
+<equipment>
+	<id>0C104013</id>
+	<resid>zb_wq_gong19</resid>
+	<lresid>lzb_wq_gong19</lresid>
+	<name>披荆</name>
+	<quality>5</quality>
+	<property_value>1,2,260,4,2,200</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,12,4,2,8</improve_point>
+	<formula_id>18010604</formula_id>
+	<desc>由龙牙骨刺制成的神功，所射之间可穿透世间最厚的铠甲</desc>
+</equipment>
+<equipment>
+	<id>0C105013</id>
+	<resid>zb_wq_zhang19</resid>
+	<lresid>lzb_wq_zhang19</lresid>
+	<name>救赎</name>
+	<quality>5</quality>
+	<property_value>1,2,256,4,2,190</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>1,2,10,4,2,10</improve_point>
+	<formula_id>18010605</formula_id>
+	<desc>传说神秘的西方上仙都拥有洁白羽翼，此杖为他们流传过来的法宝，拥有未知的灵力</desc>
+</equipment>
+<equipment>
+	<id>0C101014</id>
+	<resid>zb_wq_gun20</resid>
+	<lresid>lzb_wq_gun20</lresid>
+	<name>琉晶巨棒</name>
+	<quality>5</quality>
+	<property_value>1,2,252,4,2,172</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,11,4,2,10</improve_point>
+	<formula_id>0</formula_id>
+	<desc>女娲娘娘补天遗留下来的五色玄石所打造的武器，经过千年炼化，结成七彩琉晶，坚固无比，无坚不摧。</desc>
+</equipment>
+<equipment>
+	<id>0C102014</id>
+	<resid>zb_wq_shouqiang20</resid>
+	<lresid>lzb_wq_shouqiang20</lresid>
+	<name>琉晶火铳</name>
+	<quality>5</quality>
+	<property_value>1,2,257,4,2,182</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,10,4,2,11</improve_point>
+	<formula_id>0</formula_id>
+	<desc>女娲娘娘补天遗留下来的五色玄石所打造的武器，经过千年炼化，结成七彩琉晶，坚固无比，无坚不摧。</desc>
+</equipment>
+<equipment>
+	<id>0C103014</id>
+	<resid>zb_wq_chan20</resid>
+	<lresid>lzb_wq_chan20</lresid>
+	<name>琉晶利铲</name>
+	<quality>5</quality>
+	<property_value>1,2,260,4,2,192</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,9,4,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>女娲娘娘补天遗留下来的五色玄石所打造的武器，经过千年炼化，结成七彩琉晶，坚固无比，无坚不摧。</desc>
+</equipment>
+<equipment>
+	<id>0C104014</id>
+	<resid>zb_wq_gong20</resid>
+	<lresid>lzb_wq_gong20</lresid>
+	<name>琉晶重弓</name>
+	<quality>5</quality>
+	<property_value>1,2,262,4,2,202</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,13,4,2,8</improve_point>
+	<formula_id>0</formula_id>
+	<desc>女娲娘娘补天遗留下来的五色玄石所打造的武器，经过千年炼化，结成七彩琉晶，坚固无比，无坚不摧。</desc>
+</equipment>
+<equipment>
+	<id>0C105014</id>
+	<resid>zb_wq_zhang20</resid>
+	<lresid>lzb_wq_zhang20</lresid>
+	<name>琉晶命运</name>
+	<quality>5</quality>
+	<property_value>1,2,258,4,2,192</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,10,4,2,11</improve_point>
+	<formula_id>0</formula_id>
+	<desc>女娲娘娘补天遗留下来的五色玄石所打造的武器，经过千年炼化，结成七彩琉晶，坚固无比，无坚不摧。</desc>
+</equipment>
+<equipment>
+	<id>0C101015</id>
+	<resid>zb_wq_gun21</resid>
+	<lresid>lzb_wq_gun20</lresid>
+	<name>暗影之力</name>
+	<quality>5</quality>
+	<property_value>1,2,252,4,2,172</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,11,4,2,10</improve_point>
+	<formula_id>0</formula_id>
+	<desc>诛仙池边万年来怨气纵生，黑色怨气一度直逼天庭，后有大脚罗汉抽取怨气炼化，不料竟形成一批阴邪利器。</desc>
+</equipment>
+<equipment>
+	<id>0C102015</id>
+	<resid>zb_wq_shouqiang21</resid>
+	<lresid>lzb_wq_shouqiang21</lresid>
+	<name>暗影之殇</name>
+	<quality>5</quality>
+	<property_value>1,2,257,4,2,182</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,10,4,2,11</improve_point>
+	<formula_id>0</formula_id>
+	<desc>诛仙池边万年来怨气纵生，黑色怨气一度直逼天庭，后有大脚罗汉抽取怨气炼化，不料竟形成一批阴邪利器。</desc>
+</equipment>
+<equipment>
+	<id>0C103015</id>
+	<resid>zb_wq_chan21</resid>
+	<lresid>lzb_wq_chan21</lresid>
+	<name>暗影之刃</name>
+	<quality>5</quality>
+	<property_value>1,2,260,4,2,192</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,9,4,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>诛仙池边万年来怨气纵生，黑色怨气一度直逼天庭，后有大脚罗汉抽取怨气炼化，不料竟形成一批阴邪利器。</desc>
+</equipment>
+<equipment>
+	<id>0C104015</id>
+	<resid>zb_wq_gong21</resid>
+	<lresid>lzb_wq_gong21</lresid>
+	<name>暗影之眼</name>
+	<quality>5</quality>
+	<property_value>1,2,262,4,2,202</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,13,4,2,8</improve_point>
+	<formula_id>0</formula_id>
+	<desc>诛仙池边万年来怨气纵生，黑色怨气一度直逼天庭，后有大脚罗汉抽取怨气炼化，不料竟形成一批阴邪利器。</desc>
+</equipment>
+<equipment>
+	<id>0C105015</id>
+	<resid>zb_wq_zhang21</resid>
+	<lresid>lzb_wq_zhang21</lresid>
+	<name>暗影之魂</name>
+	<quality>5</quality>
+	<property_value>1,2,258,4,2,192</property_value>
+	<level_require>20</level_require>
+	<price>180000</price>
+	<improve_point>1,2,10,4,2,11</improve_point>
+	<formula_id>0</formula_id>
+	<desc>诛仙池边万年来怨气纵生，黑色怨气一度直逼天庭，后有大脚罗汉抽取怨气炼化，不料竟形成一批阴邪利器。</desc>
+</equipment>
+<equipment>
+	<id>0C200001</id>
+	<resid>zb_fj_huwan1</resid>
+	<lresid>lzb_fj_huwan1</lresid>
+	<name>寒铁护腕</name>
+	<quality>1</quality>
+	<property_value>2,2,21</property_value>
+	<level_require>1</level_require>
+	<price>120</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>寒铁打造的护腕，比较粗糙</desc>
+</equipment>
+<equipment>
+	<id>0C200002</id>
+	<resid>zb_fj_huwan2</resid>
+	<lresid>lzb_fj_huwan2</lresid>
+	<name>平安念珠</name>
+	<quality>1</quality>
+	<property_value>2,2,26</property_value>
+	<level_require>1</level_require>
+	<price>130</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由亲人赠送的念珠，蕴含了祝福之意</desc>
+</equipment>
+<equipment>
+	<id>0C200003</id>
+	<resid>zb_fj_huwan3</resid>
+	<lresid>lzb_fj_huwan3</lresid>
+	<name>皮制手镯</name>
+	<quality>1</quality>
+	<property_value>2,2,35</property_value>
+	<level_require>1</level_require>
+	<price>140</price>
+	<improve_point>2,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>兽皮制成的手镯，缠绕猛兽之筋</desc>
+</equipment>
+<equipment>
+	<id>0C200004</id>
+	<resid>zb_fj_yupei1</resid>
+	<lresid>lzb_fj_yupei1</lresid>
+	<name>虎牙石</name>
+	<quality>1</quality>
+	<property_value>2,2,25</property_value>
+	<level_require>1</level_require>
+	<price>150</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>猛虎之牙制成的护身符</desc>
+</equipment>
+<equipment>
+	<id>0C200005</id>
+	<resid>zb_fj_yupei2</resid>
+	<lresid>lzb_fj_yupei2</lresid>
+	<name>沾露荷叶</name>
+	<quality>1</quality>
+	<property_value>2,2,32</property_value>
+	<level_require>1</level_require>
+	<price>160</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>天池莲花边的荷叶，沾染了莲花灵气，故而有些微守护之力</desc>
+</equipment>
+<equipment>
+	<id>0C200006</id>
+	<resid>zb_fj_yupei3</resid>
+	<lresid>lzb_fj_yupei3</lresid>
+	<name>暗淡的晶石</name>
+	<quality>1</quality>
+	<property_value>2,2,40</property_value>
+	<level_require>1</level_require>
+	<price>170</price>
+	<improve_point>2,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>一块黯淡的晶石制成的石头</desc>
+</equipment>
+<equipment>
+	<id>0C200007</id>
+	<resid>zb_fj_jiezhi1</resid>
+	<lresid>lzb_fj_jiezhi1</lresid>
+	<name>士族玉佩</name>
+	<quality>1</quality>
+	<property_value>2,2,27</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>白玉制成的玉佩，刻有祝福祥纹，可惜有所破损</desc>
+</equipment>
+<equipment>
+	<id>0C200008</id>
+	<resid>zb_fj_jiezhi2</resid>
+	<lresid>lzb_fj_jiezhi2</lresid>
+	<name>福禄玉佩</name>
+	<quality>1</quality>
+	<property_value>2,2,36</property_value>
+	<level_require>1</level_require>
+	<price>190</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>碧绿的圆形玉佩，多用于情人间的定情之物</desc>
+</equipment>
+<equipment>
+	<id>0C200009</id>
+	<resid>zb_fj_jiezhi3</resid>
+	<lresid>lzb_fj_jiezhi3</lresid>
+	<name>出云指环</name>
+	<quality>1</quality>
+	<property_value>2,2,45</property_value>
+	<level_require>1</level_require>
+	<price>200</price>
+	<improve_point>2,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>纤细的银质指环</desc>
+</equipment>
+<equipment>
+	<id>0C20000A</id>
+	<resid>zb_fj_huwan4</resid>
+	<lresid>lzb_fj_huwan4</lresid>
+	<name>翡翠吊坠</name>
+	<quality>2</quality>
+	<property_value>2,2,54</property_value>
+	<level_require>5</level_require>
+	<price>400</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>上好翡翠制成的玉镯</desc>
+</equipment>
+<equipment>
+	<id>0C20000B</id>
+	<resid>zb_fj_huwan5</resid>
+	<lresid>lzb_fj_huwan5</lresid>
+	<name>褐眼石</name>
+	<quality>2</quality>
+	<property_value>2,2,61</property_value>
+	<level_require>5</level_require>
+	<price>420</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由1个匠人偶尔发现的奇异形状的黄铜，蕴含着一些奇妙之力</desc>
+</equipment>
+<equipment>
+	<id>0C20000C</id>
+	<resid>zb_fj_huwan6</resid>
+	<lresid>lzb_fj_huwan6</lresid>
+	<name>喵星人护符</name>
+	<quality>2</quality>
+	<property_value>2,2,66</property_value>
+	<level_require>5</level_require>
+	<price>440</price>
+	<improve_point>2,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>会发出喵喵声的奇怪石头，在夜间双眼会发出莹绿之光</desc>
+</equipment>
+<equipment>
+	<id>0C20000D</id>
+	<resid>zb_fj_yupei4</resid>
+	<lresid>lzb_fj_yupei4</lresid>
+	<name>鼎足护符</name>
+	<quality>2</quality>
+	<property_value>2,2,56</property_value>
+	<level_require>5</level_require>
+	<price>460</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>精致的护身符，多见于凡人望族佩戴</desc>
+</equipment>
+<equipment>
+	<id>0C20000E</id>
+	<resid>zb_fj_yupei5</resid>
+	<lresid>lzb_fj_yupei5</lresid>
+	<name>奇彩护符</name>
+	<quality>2</quality>
+	<property_value>2,2,62</property_value>
+	<level_require>5</level_require>
+	<price>480</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>彩色的神鸟造型的护符</desc>
+</equipment>
+<equipment>
+	<id>0C20000F</id>
+	<resid>zb_fj_yupei6</resid>
+	<lresid>lzb_fj_yupei6</lresid>
+	<name>冰晶挂饰</name>
+	<quality>2</quality>
+	<property_value>2,2,71</property_value>
+	<level_require>5</level_require>
+	<price>500</price>
+	<improve_point>2,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由永远不会消融的玄冰打造而成的护符，拥有冰之灵气</desc>
+</equipment>
+<equipment>
+	<id>0C200010</id>
+	<resid>zb_fj_jiezhi4</resid>
+	<lresid>lzb_fj_jiezhi4</lresid>
+	<name>王侯指环</name>
+	<quality>2</quality>
+	<property_value>2,2,58</property_value>
+	<level_require>5</level_require>
+	<price>520</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>镶嵌巨型宝石的指环，凡人豪族特别喜爱</desc>
+</equipment>
+<equipment>
+	<id>0C200011</id>
+	<resid>zb_fj_jiezhi5</resid>
+	<lresid>lzb_fj_jiezhi5</lresid>
+	<name>贪食蛇之戒</name>
+	<quality>2</quality>
+	<property_value>2,2,64</property_value>
+	<level_require>5</level_require>
+	<price>540</price>
+	<improve_point>2,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由于贪吃被道士施咒的小蛇，永不满足的吃，甚至连自身尾巴也不放过</desc>
+</equipment>
+<equipment>
+	<id>0C200012</id>
+	<resid>zb_fj_jiezhi6</resid>
+	<lresid>lzb_fj_jiezhi6</lresid>
+	<name>趋吉玉佩</name>
+	<quality>2</quality>
+	<property_value>2,2,69</property_value>
+	<level_require>5</level_require>
+	<price>560</price>
+	<improve_point>2,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>祥云造型的玉佩，充满了祥和气息</desc>
+</equipment>
+<equipment>
+	<id>0C200013</id>
+	<resid>zb_fj_huwan7</resid>
+	<lresid>lzb_fj_huwan7</lresid>
+	<name>轻羽石</name>
+	<quality>3</quality>
+	<property_value>2,2,85,3,2,50</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020301</formula_id>
+	<desc>白色羽毛制成的羽翎，散发柔和光芒</desc>
+</equipment>
+<equipment>
+	<id>0C200014</id>
+	<resid>zb_fj_huwan8</resid>
+	<lresid>lzb_fj_huwan8</lresid>
+	<name>自然符石</name>
+	<quality>3</quality>
+	<property_value>2,2,96,3,2,55</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020302</formula_id>
+	<desc>由石灵化成的符石，散发着灵气</desc>
+</equipment>
+<equipment>
+	<id>0C200015</id>
+	<resid>zb_fj_huwan9</resid>
+	<lresid>lzb_fj_huwan9</lresid>
+	<name>玉中缘</name>
+	<quality>3</quality>
+	<property_value>2,2,112,3,2,60</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,8</improve_point>
+	<formula_id>18020303</formula_id>
+	<desc>一块巨大的优质玉石，虽然未经雕琢，但已初具神通</desc>
+</equipment>
+<equipment>
+	<id>0C200016</id>
+	<resid>zb_fj_yupei7</resid>
+	<lresid>lzb_fj_yupei7</lresid>
+	<name>大夫指环</name>
+	<quality>3</quality>
+	<property_value>2,2,118,3,2,65</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020304</formula_id>
+	<desc>王侯佩戴的指环，隐含王侯贵气</desc>
+</equipment>
+<equipment>
+	<id>0C200017</id>
+	<resid>zb_fj_yupei8</resid>
+	<lresid>lzb_fj_yupei8</lresid>
+	<name>皇族指环</name>
+	<quality>3</quality>
+	<property_value>2,2,113,3,2,60</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020305</formula_id>
+	<desc>人皇佩戴，蕴含九五之尊之气</desc>
+</equipment>
+<equipment>
+	<id>0C200018</id>
+	<resid>zb_fj_yupei9</resid>
+	<lresid>lzb_fj_yupei9</lresid>
+	<name>仙池玉佩</name>
+	<quality>3</quality>
+	<property_value>2,2,124,3,2,70</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,8</improve_point>
+	<formula_id>18020306</formula_id>
+	<desc>某偷溜至人间游玩的仙子掉落的玉佩，上面刻有水纹</desc>
+</equipment>
+<equipment>
+	<id>0C200019</id>
+	<resid>zb_fj_jiezhi7</resid>
+	<lresid>lzb_fj_jiezhi7</lresid>
+	<name>映日红</name>
+	<quality>3</quality>
+	<property_value>2,2,127,3,2,75</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020307</formula_id>
+	<desc>百花仙子的第22件大作，佩戴之人可大大提高血气之力</desc>
+</equipment>
+<equipment>
+	<id>0C20001A</id>
+	<resid>zb_fj_jiezhi8</resid>
+	<lresid>lzb_fj_jiezhi8</lresid>
+	<name>霜白露</name>
+	<quality>3</quality>
+	<property_value>2,2,107,3,2,60</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,6</improve_point>
+	<formula_id>18020308</formula_id>
+	<desc>白色玉兰花制成的护符，蕴含霜雪之气</desc>
+</equipment>
+<equipment>
+	<id>0C20001B</id>
+	<resid>zb_fj_jiezhi9</resid>
+	<lresid>lzb_fj_jiezhi9</lresid>
+	<name>凝心环</name>
+	<quality>3</quality>
+	<property_value>2,2,137,3,2,80</property_value>
+	<level_require>10</level_require>
+	<price>5000</price>
+	<improve_point>2,2,8</improve_point>
+	<formula_id>18020309</formula_id>
+	<desc>蓝色晶石制成的手镯，佩戴之人可凝神静气</desc>
+</equipment>
+<equipment>
+	<id>0C20001C</id>
+	<resid>zb_fj_huwan10</resid>
+	<lresid>lzb_fj_huwan10</lresid>
+	<name>蟠龙玉佩</name>
+	<quality>4</quality>
+	<property_value>2,2,194,3,2,100</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,10,3,2,3</improve_point>
+	<formula_id>18020401</formula_id>
+	<desc>天帝佩戴的玉佩，蕴含无限天威</desc>
+</equipment>
+<equipment>
+	<id>0C20001D</id>
+	<resid>zb_fj_huwan11</resid>
+	<lresid>lzb_fj_huwan11</lresid>
+	<name>展红绫</name>
+	<quality>4</quality>
+	<property_value>2,2,219,3,2,110</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,11,3,2,3</improve_point>
+	<formula_id>18020402</formula_id>
+	<desc>据说是哪吒闹海时留下的法宝，离开主人的红菱也是一件威力强大的护身法宝</desc>
+</equipment>
+<equipment>
+	<id>0C20001E</id>
+	<resid>zb_fj_yupei10</resid>
+	<lresid>lzb_fj_yupei10</lresid>
+	<name>天机玉佩</name>
+	<quality>4</quality>
+	<property_value>2,2,207,3,2,105</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,12,3,2,3</improve_point>
+	<formula_id>18020403</formula_id>
+	<desc>天机老人制成的玉佩。传说如明悟其中天机即可坐化成仙</desc>
+</equipment>
+<equipment>
+	<id>0C20001F</id>
+	<resid>zb_fj_yupei11</resid>
+	<lresid>lzb_fj_yupei11</lresid>
+	<name>曲中求</name>
+	<quality>4</quality>
+	<property_value>2,2,233,3,2,115</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,10,3,2,3</improve_point>
+	<formula_id>18020404</formula_id>
+	<desc>捆仙藤的一部分，任何神通在其面前威力都会大大降低</desc>
+</equipment>
+<equipment>
+	<id>0C200020</id>
+	<resid>zb_fj_jiezhi10</resid>
+	<lresid>lzb_fj_jiezhi10</lresid>
+	<name>蓝晶头饰</name>
+	<quality>4</quality>
+	<property_value>2,2,228,3,2,115</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,11,3,2,3</improve_point>
+	<formula_id>18020405</formula_id>
+	<desc>天庭仙子的发饰，由七彩凤羽制成</desc>
+</equipment>
+<equipment>
+	<id>0C200021</id>
+	<resid>zb_fj_jiezhi11</resid>
+	<lresid>lzb_fj_jiezhi11</lresid>
+	<name>玉如意</name>
+	<quality>4</quality>
+	<property_value>2,2,231,3,2,115</property_value>
+	<level_require>15</level_require>
+	<price>30000</price>
+	<improve_point>2,2,12,3,2,3</improve_point>
+	<formula_id>18020406</formula_id>
+	<desc>福禄寿三仙的法宝之一</desc>
+</equipment>
+<equipment>
+	<id>0C200022</id>
+	<resid>zb_fj_huwan12</resid>
+	<lresid>lzb_fj_huwan12</lresid>
+	<name>宰相葫芦</name>
+	<quality>5</quality>
+	<property_value>2,2,350,3,2,130</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>2,2,14,3,2,4</improve_point>
+	<formula_id>18020501</formula_id>
+	<desc>南极仙翁的玉制葫芦，据说内部为1个洞府世界</desc>
+</equipment>
+<equipment>
+	<id>0C200023</id>
+	<resid>zb_fj_yupei12</resid>
+	<lresid>lzb_fj_yupei12</lresid>
+	<name>王者编钟</name>
+	<quality>5</quality>
+	<property_value>2,2,360,3,2,135</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>2,2,14,3,2,4</improve_point>
+	<formula_id>18020502</formula_id>
+	<desc>此钟一开，则万物寂静。</desc>
+</equipment>
+<equipment>
+	<id>0C200024</id>
+	<resid>zb_fj_jiezhi12</resid>
+	<lresid>lzb_fj_jiezhi12</lresid>
+	<name>贤臣明镜</name>
+	<quality>5</quality>
+	<property_value>2,2,410,3,2,140</property_value>
+	<level_require>20</level_require>
+	<price>150000</price>
+	<improve_point>2,2,15,3,2,4</improve_point>
+	<formula_id>18020503</formula_id>
+	<desc>贤臣用来自省的明镜，久之则含清明之意</desc>
+</equipment>
+<equipment>
+	<id>0C200025</id>
+	<resid>zb_fj_jiezhi13</resid>
+	<lresid>lzb_fj_jiezhi13</lresid>
+	<name>水蓝之纱</name>
+	<quality>3</quality>
+	<property_value>2,2,120,3,2,90</property_value>
+	<level_require>10</level_require>
+	<price>10000</price>
+	<improve_point>2,2,8,3,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>传说有个李生一日巧遇天女沐浴，被天女发现后。天女惊慌离去，只留池边一抹蓝纱</desc>
+</equipment>
+<equipment>
+	<id>0C200026</id>
+	<resid>zb_fj_jiezhi14</resid>
+	<lresid>lzb_fj_jiezhi14</lresid>
+	<name>紫葫芦</name>
+	<quality>3</quality>
+	<property_value>2,2,132,3,2,90</property_value>
+	<level_require>10</level_require>
+	<price>10000</price>
+	<improve_point>2,2,8,3,2,3</improve_point>
+	<formula_id>0</formula_id>
+	<desc>紫玉制成的葫芦，蕴含祥瑞之气</desc>
+</equipment>
+<equipment>
+	<id>0C200027</id>
+	<resid>zb_fj_jiezhi15</resid>
+	<lresid>lzb_fj_jiezhi15</lresid>
+	<name>结云指环</name>
+	<quality>3</quality>
+	<property_value>2,2,145,3,2,90</property_value>
+	<level_require>10</level_require>
+	<price>10000</price>
+	<improve_point>2,2,7,3,2,5</improve_point>
+	<formula_id>0</formula_id>
+	<desc>缀有珠宝的银质指环</desc>
+</equipment>
+<equipment>
+	<id>0C200028</id>
+	<resid>zb_fj_jiezhi16</resid>
+	<lresid>lzb_fj_jiezhi16</lresid>
+	<name>孔雀石</name>
+	<quality>4</quality>
+	<property_value>2,2,220,3,2,120</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>2,2,8,3,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>孔雀仙禽之羽制成的护符</desc>
+</equipment>
+<equipment>
+	<id>0C200029</id>
+	<resid>zb_fj_jiezhi17</resid>
+	<lresid>lzb_fj_jiezhi17</lresid>
+	<name>落华头饰</name>
+	<quality>4</quality>
+	<property_value>2,2,245,3,2,120</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>2,2,9,3,2,4</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由天池雪莲制成的发饰</desc>
+</equipment>
+<equipment>
+	<id>0C20002A</id>
+	<resid>zb_fj_jiezhi18</resid>
+	<lresid>lzb_fj_jiezhi18</lresid>
+	<name>蝶之魅影</name>
+	<quality>5</quality>
+	<property_value>2,2,425,3,2,150</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>2,2,15,3,2,6</improve_point>
+	<formula_id>18020504</formula_id>
+	<desc>西王母钟爱的发饰，七彩流光，灵气逼人</desc>
+</equipment>
+<equipment>
+	<id>0C301001</id>
+	<resid>zb_cz_gongji1</resid>
+	<lresid>lzb_cz_gongji1</lresid>
+	<name>生铁禅杖</name>
+	<quality>1</quality>
+	<property_value>1,2,5</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>普通生铁制成的禅杖</desc>
+</equipment>
+<equipment>
+	<id>0C301002</id>
+	<resid>zb_cz_gongji2</resid>
+	<lresid>lzb_cz_gongji2</lresid>
+	<name>镀铜禅杖</name>
+	<quality>1</quality>
+	<property_value>1,2,8</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>普通铜制禅杖，</desc>
+</equipment>
+<equipment>
+	<id>0C302001</id>
+	<resid>zb_cz_xueliang1</resid>
+	<lresid>lzb_cz_xueliang1</lresid>
+	<name>铁壁禅杖</name>
+	<quality>1</quality>
+	<property_value>2,2,10</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>简单的铁制禅杖</desc>
+</equipment>
+<equipment>
+	<id>0C302002</id>
+	<resid>zb_cz_xueliang2</resid>
+	<lresid>lzb_cz_xueliang2</lresid>
+	<name>铜鼎杖</name>
+	<quality>1</quality>
+	<property_value>2,2,15</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>铜制的普通禅杖，似有微量血气</desc>
+</equipment>
+<equipment>
+	<id>0C303001</id>
+	<resid>zb_cz_qian1</resid>
+	<lresid>lzb_cz_qian1</lresid>
+	<name>连环杖</name>
+	<quality>1</quality>
+	<property_value>5,2,5</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由双环制成的铁杖</desc>
+</equipment>
+<equipment>
+	<id>0C303002</id>
+	<resid>zb_cz_qian2</resid>
+	<lresid>lzb_cz_qian2</lresid>
+	<name>连环铜杖</name>
+	<quality>1</quality>
+	<property_value>5,2,8</property_value>
+	<level_require>1</level_require>
+	<price>500</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由双环制成的铜杖</desc>
+</equipment>
+<equipment>
+	<id>0C301003</id>
+	<resid>zb_cz_gongji3</resid>
+	<lresid>lzb_cz_gongji3</lresid>
+	<name>寒铁杖</name>
+	<quality>2</quality>
+	<property_value>1,2,10</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>寒铁制成的禅杖，握之能感受些微气力增加</desc>
+</equipment>
+<equipment>
+	<id>0C301004</id>
+	<resid>zb_cz_gongji4</resid>
+	<lresid>lzb_cz_gongji4</lresid>
+	<name>赤铜杖</name>
+	<quality>2</quality>
+	<property_value>1,2,15</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>赤铜制成的禅杖，握之能感受些微气力增加</desc>
+</equipment>
+<equipment>
+	<id>0C302003</id>
+	<resid>zb_cz_xueliang3</resid>
+	<lresid>lzb_cz_xueliang3</lresid>
+	<name>子母杖</name>
+	<quality>2</quality>
+	<property_value>2,2,20</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>普通生铁制成的禅杖，其图案有祝福之意</desc>
+</equipment>
+<equipment>
+	<id>0C302004</id>
+	<resid>zb_cz_xueliang4</resid>
+	<lresid>lzb_cz_xueliang4</lresid>
+	<name>子母赤铜杖</name>
+	<quality>2</quality>
+	<property_value>2,2,25</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>赤铜制成禅杖，其图案有祝福之意</desc>
+</equipment>
+<equipment>
+	<id>0C303003</id>
+	<resid>zb_cz_qian3</resid>
+	<lresid>lzb_cz_qian3</lresid>
+	<name>寒金杖</name>
+	<quality>2</quality>
+	<property_value>5,2,10</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>由寒金铸成的禅杖，隐约含有吸金之力</desc>
+</equipment>
+<equipment>
+	<id>0C303004</id>
+	<resid>zb_cz_qian4</resid>
+	<lresid>lzb_cz_qian4</lresid>
+	<name>镀金杖</name>
+	<quality>2</quality>
+	<property_value>5,2,15</property_value>
+	<level_require>5</level_require>
+	<price>8000</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>镀金的禅杖，隐约含有吸金之力</desc>
+</equipment>
+<equipment>
+	<id>0C301005</id>
+	<resid>zb_cz_gongji5</resid>
+	<lresid>lzb_cz_gongji5</lresid>
+	<name>双环锡杖</name>
+	<quality>3</quality>
+	<property_value>1,2,20</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>18030301</formula_id>
+	<desc>精铁制成的禅杖，握之气力大增</desc>
+</equipment>
+<equipment>
+	<id>0C301006</id>
+	<resid>zb_cz_gongji6</resid>
+	<lresid>lzb_cz_gongji6</lresid>
+	<name>双环赤铜杖</name>
+	<quality>3</quality>
+	<property_value>1,2,30</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>1,2,1</improve_point>
+	<formula_id>18030302</formula_id>
+	<desc>赤铜制成的禅杖，握之气力大增</desc>
+</equipment>
+<equipment>
+	<id>0C302005</id>
+	<resid>zb_cz_xueliang5</resid>
+	<lresid>lzb_cz_xueliang5</lresid>
+	<name>精魄杖</name>
+	<quality>3</quality>
+	<property_value>2,2,35</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>18030303</formula_id>
+	<desc>镶嵌紫晶石的银色禅杖，握之感受气血大涨</desc>
+</equipment>
+<equipment>
+	<id>0C302006</id>
+	<resid>zb_cz_xueliang6</resid>
+	<lresid>lzb_cz_xueliang6</lresid>
+	<name>精魄赤铜杖</name>
+	<quality>3</quality>
+	<property_value>2,2,45</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>2,2,1</improve_point>
+	<formula_id>18030304</formula_id>
+	<desc>镶嵌紫晶石的金色禅杖，握之感受气血大涨</desc>
+</equipment>
+<equipment>
+	<id>0C303005</id>
+	<resid>zb_cz_qian5</resid>
+	<lresid>lzb_cz_qian5</lresid>
+	<name>通神杖</name>
+	<quality>3</quality>
+	<property_value>5,2,30</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>18030305</formula_id>
+	<desc>具有钱币形状的银色禅杖，孔中有财气缭绕</desc>
+</equipment>
+<equipment>
+	<id>0C303006</id>
+	<resid>zb_cz_qian6</resid>
+	<lresid>lzb_cz_qian6</lresid>
+	<name>通神赤铜杖</name>
+	<quality>3</quality>
+	<property_value>5,2,40</property_value>
+	<level_require>10</level_require>
+	<price>15000</price>
+	<improve_point>5,2,1</improve_point>
+	<formula_id>18030306</formula_id>
+	<desc>具有钱币形状的金色禅杖，孔中有财气缭绕</desc>
+</equipment>
+<equipment>
+	<id>0C301007</id>
+	<resid>zb_cz_gongji7</resid>
+	<lresid>lzb_cz_gongji7</lresid>
+	<name>九头锡杖</name>
+	<quality>4</quality>
+	<property_value>1,2,35</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>18030401</formula_id>
+	<desc>拥有梵文的银色禅杖，握之感觉有战神附体</desc>
+</equipment>
+<equipment>
+	<id>0C301008</id>
+	<resid>zb_cz_gongji8</resid>
+	<lresid>lzb_cz_gongji8</lresid>
+	<name>九头赤铜杖</name>
+	<quality>4</quality>
+	<property_value>1,2,45</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>1,2,2</improve_point>
+	<formula_id>18030402</formula_id>
+	<desc>拥有梵文的金色禅杖，握之感觉有战神附体</desc>
+</equipment>
+<equipment>
+	<id>0C302007</id>
+	<resid>zb_cz_xueliang7</resid>
+	<lresid>lzb_cz_xueliang7</lresid>
+	<name>凝神杖</name>
+	<quality>4</quality>
+	<property_value>2,2,60</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>18030403</formula_id>
+	<desc>七彩宝石镶嵌的银色禅杖，握之可增长寿元</desc>
+</equipment>
+<equipment>
+	<id>0C302008</id>
+	<resid>zb_cz_xueliang8</resid>
+	<lresid>lzb_cz_xueliang8</lresid>
+	<name>凝神赤铜杖</name>
+	<quality>4</quality>
+	<property_value>2,2,70</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>2,2,2</improve_point>
+	<formula_id>18030404</formula_id>
+	<desc>七彩宝石镶嵌的金色禅杖，握之可增长寿元</desc>
+</equipment>
+<equipment>
+	<id>0C303007</id>
+	<resid>zb_cz_qian7</resid>
+	<lresid>lzb_cz_qian7</lresid>
+	<name>孔方杖</name>
+	<quality>4</quality>
+	<property_value>5,2,50</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>5,2,2</improve_point>
+	<formula_id>18030405</formula_id>
+	<desc>金玉之意缭绕的银色禅杖</desc>
+</equipment>
+<equipment>
+	<id>0C303008</id>
+	<resid>zb_cz_qian8</resid>
+	<lresid>lzb_cz_qian8</lresid>
+	<name>孔方赤铜杖</name>
+	<quality>4</quality>
+	<property_value>5,2,60</property_value>
+	<level_require>15</level_require>
+	<price>50000</price>
+	<improve_point>5,2,2</improve_point>
+	<formula_id>18030406</formula_id>
+	<desc>金玉之意缭绕的金色禅杖</desc>
+</equipment>
+<equipment>
+	<id>0C301009</id>
+	<resid>zb_cz_gongji9</resid>
+	<lresid>lzb_cz_gongji9</lresid>
+	<name>巡风</name>
+	<quality>5</quality>
+	<property_value>1,2,60</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>1,2,3</improve_point>
+	<formula_id>18030501</formula_id>
+	<desc>由伏魔罗汉祝福的禅杖，铲妖除魔威力无比</desc>
+</equipment>
+<equipment>
+	<id>0C302009</id>
+	<resid>zb_cz_xueliang9</resid>
+	<lresid>lzb_cz_xueliang9</lresid>
+	<name>金身</name>
+	<quality>5</quality>
+	<property_value>2,2,90</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>2,2,3</improve_point>
+	<formula_id>18030502</formula_id>
+	<desc>受观音大师祝福的禅杖，如获金身一般</desc>
+</equipment>
+<equipment>
+	<id>0C303009</id>
+	<resid>zb_cz_qian9</resid>
+	<lresid>lzb_cz_qian9</lresid>
+	<name>盛装</name>
+	<quality>5</quality>
+	<property_value>5,2,80</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>5,2,3</improve_point>
+	<formula_id>18030503</formula_id>
+	<desc>受财神爷祝福的禅杖，不尽财源滚滚来哦</desc>
+</equipment>
+<equipment>
+	<id>0C304001</id>
+	<resid>zb_cz_baoji1</resid>
+	<lresid>lzb_cz_baoji1</lresid>
+	<name>紫金杖</name>
+	<quality>3</quality>
+	<property_value>4,2,45</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>4,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>紫金制成的禅杖，隐约增加了狂暴之意</desc>
+</equipment>
+<equipment>
+	<id>0C305001</id>
+	<resid>zb_cz_hujia1</resid>
+	<lresid>lzb_cz_hujia1</lresid>
+	<name>明黄杖</name>
+	<quality>3</quality>
+	<property_value>3,2,45</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>3,2,1</improve_point>
+	<formula_id>0</formula_id>
+	<desc>黄金打造的禅杖，具有防护之力</desc>
+</equipment>
+<equipment>
+	<id>0C304002</id>
+	<resid>zb_cz_baoji2</resid>
+	<lresid>lzb_cz_baoji2</lresid>
+	<name>紫金神杖</name>
+	<quality>4</quality>
+	<property_value>4,2,75</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>4,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>紫金打造的神杖，狂暴之力缭绕</desc>
+</equipment>
+<equipment>
+	<id>0C305002</id>
+	<resid>zb_cz_hujia2</resid>
+	<lresid>lzb_cz_hujia2</lresid>
+	<name>明黄神杖</name>
+	<quality>4</quality>
+	<property_value>3,2,75</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>3,2,2</improve_point>
+	<formula_id>0</formula_id>
+	<desc>黄金打造的神杖，具有防护之力</desc>
+</equipment>
+<equipment>
+	<id>0C304003</id>
+	<resid>zb_cz_baoji3</resid>
+	<lresid>lzb_cz_baoji3</lresid>
+	<name>神机</name>
+	<quality>5</quality>
+	<property_value>4,2,100</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>4,2,3</improve_point>
+	<formula_id>18030504</formula_id>
+	<desc>由天王祝福的神杖，围绕着无尽狂暴神力</desc>
+</equipment>
+<equipment>
+	<id>0C305003</id>
+	<resid>zb_cz_hujia3</resid>
+	<lresid>lzb_cz_hujia3</lresid>
+	<name>不灭</name>
+	<quality>5</quality>
+	<property_value>3,2,100</property_value>
+	<level_require>20</level_require>
+	<price>200000</price>
+	<improve_point>3,2,3</improve_point>
+	<formula_id>18030505</formula_id>
+	<desc>由如来佛祖祝福的神杖，望之既有无尽稳固之意</desc>
+</equipment>
+</root>
