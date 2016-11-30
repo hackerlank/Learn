@@ -1,0 +1,5223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<stage>
+	<id>12100101</id>
+	<name>云1001</name>
+	<resid>yun1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100102</id>
+	<name>云1002</name>
+	<resid>yun1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100103</id>
+	<name>树1001</name>
+	<resid>shu1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100104</id>
+	<name>树1002</name>
+	<resid>shu1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100105</id>
+	<name>草1001</name>
+	<resid>cao1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100106</id>
+	<name>草1002</name>
+	<resid>cao1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100107</id>
+	<name>小山1001</name>
+	<resid>tushan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100108</id>
+	<name>山脉1002</name>
+	<resid>shan1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100109</id>
+	<name>山脉1001</name>
+	<resid>shan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010A</id>
+	<name>边缘1001</name>
+	<resid>bianyuan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010B</id>
+	<name>地面1001</name>
+	<resid>dimian1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010C</id>
+	<name>金钱1001</name>
+	<resid>bell1001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010D</id>
+	<name>buff道具1001</name>
+	<resid>power1001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210010E</id>
+	<name>hp道具1001</name>
+	<resid>hp1001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210010F</id>
+	<name>房子1001</name>
+	<resid>fangzi1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100110</id>
+	<name>神龛1001</name>
+	<resid>shenkan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100111</id>
+	<name>天空1001</name>
+	<resid>tiankong1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100112</id>
+	<name>新天空01</name>
+	<resid>tiankong01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100113</id>
+	<name>新远景房子</name>
+	<resid>yuanjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100114</id>
+	<name>房子01</name>
+	<resid>fangzi01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100115</id>
+	<name>房子02</name>
+	<resid>fangzi02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100116</id>
+	<name>房子03</name>
+	<resid>fangzi03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100117</id>
+	<name>地形1</name>
+	<resid>dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100118</id>
+	<name>前景1</name>
+	<resid>qianjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100119</id>
+	<name>云</name>
+	<resid>baiyun01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100201</id>
+	<name>地面2001</name>
+	<resid>dimian2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100202</id>
+	<name>地面2002</name>
+	<resid>dimian2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100203</id>
+	<name>地面2003</name>
+	<resid>dimian2003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100204</id>
+	<name>顶部2001</name>
+	<resid>dingbu2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100205</id>
+	<name>水草2001</name>
+	<resid>shuicao2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100206</id>
+	<name>水草2002</name>
+	<resid>shuicao2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100207</id>
+	<name>鱼骨2001</name>
+	<resid>yugu2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100208</id>
+	<name>骷髅2001</name>
+	<resid>kulou2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100209</id>
+	<name>骷髅2002</name>
+	<resid>kulou2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020A</id>
+	<name>波纹2001</name>
+	<resid>bowen2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020B</id>
+	<name>波纹2002</name>
+	<resid>bowen2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020C</id>
+	<name>背景2001</name>
+	<resid>beijing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020D</id>
+	<name>前景2001</name>
+	<resid>qianjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020E</id>
+	<name>中景2001</name>
+	<resid>zhongjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020F</id>
+	<name>中景2002</name>
+	<resid>zhongjing2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100210</id>
+	<name>远景2001</name>
+	<resid>yuanjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100211</id>
+	<name>远景2002</name>
+	<resid>yuanjing2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100212</id>
+	<name>背景2002</name>
+	<resid>tiankong2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100213</id>
+	<name>金钱2001</name>
+	<resid>bell2001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100214</id>
+	<name>buff道具2001</name>
+	<resid>power2001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100215</id>
+	<name>hp道具2001</name>
+	<resid>hp2001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100216</id>
+	<name>水泡2001</name>
+	<resid>paopao2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100301</id>
+	<name>背景3001</name>
+	<resid>beijing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100302</id>
+	<name>地面3001</name>
+	<resid>dimian3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100303</id>
+	<name>地面3002</name>
+	<resid>dimian3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100304</id>
+	<name>地面3003</name>
+	<resid>dimian3003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100305</id>
+	<name>顶部3001</name>
+	<resid>dingbu3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100306</id>
+	<name>火盆3001</name>
+	<resid>huopen3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100307</id>
+	<name>钟乳石3001</name>
+	<resid>zhongrushi3001</resid>
+	<effect_target>5</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0.15</damage_value>
+</stage>
+<stage>
+	<id>12100308</id>
+	<name>前景3001</name>
+	<resid>qianjing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100309</id>
+	<name>前景3002</name>
+	<resid>qianjing3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030A</id>
+	<name>中景3001</name>
+	<resid>zhongjing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030B</id>
+	<name>中景3002</name>
+	<resid>zhongjing3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030C</id>
+	<name>金钱3001</name>
+	<resid>bell3001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030D</id>
+	<name>buff道具3001</name>
+	<resid>power3001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210030E</id>
+	<name>hp道具3001</name>
+	<resid>hp3001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210030F</id>
+	<name>石柱3001</name>
+	<resid>shizhu3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100401</id>
+	<name>背景天空4001</name>
+	<resid>beijing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100402</id>
+	<name>背景寒气4002</name>
+	<resid>beijing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100403</id>
+	<name>背景山洞4003</name>
+	<resid>beijing4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100404</id>
+	<name>雪地4001</name>
+	<resid>dimian4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100405</id>
+	<name>冰地4002</name>
+	<resid>dimian4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100406</id>
+	<name>地块4003</name>
+	<resid>dimian4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100407</id>
+	<name>地块4004</name>
+	<resid>dimian4004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100408</id>
+	<name>冰雪地4005</name>
+	<resid>dimian4005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100409</id>
+	<name>远景4001</name>
+	<resid>yuanjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040A</id>
+	<name>远景4002</name>
+	<resid>yuanjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040B</id>
+	<name>中景4001</name>
+	<resid>zhongjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040C</id>
+	<name>中景4002</name>
+	<resid>zhongjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040D</id>
+	<name>中景4003</name>
+	<resid>zhongjing4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040E</id>
+	<name>前景4001</name>
+	<resid>qianjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040F</id>
+	<name>前景4002</name>
+	<resid>qianjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100410</id>
+	<name>极光4001</name>
+	<resid>jiguang4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100411</id>
+	<name>极光4002</name>
+	<resid>jiguang4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100412</id>
+	<name>顶部4001</name>
+	<resid>dingbu4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100413</id>
+	<name>冰柱4001</name>
+	<resid>bingzhu4001</resid>
+	<effect_target>5</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0.15</damage_value>
+</stage>
+<stage>
+	<id>12100414</id>
+	<name>边缘4001</name>
+	<resid>bianyuan4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100415</id>
+	<name>金钱4001</name>
+	<resid>bell4001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100416</id>
+	<name>buff道具4001</name>
+	<resid>power4001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100417</id>
+	<name>hp道具4001</name>
+	<resid>hp4001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100514</id>
+	<name>车迟国路块</name>
+	<resid>lukuai</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100515</id>
+	<name>车迟国平路</name>
+	<resid>pinglu</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100516</id>
+	<name>车迟国斜块</name>
+	<resid>xiekuai</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100517</id>
+	<name>车迟国邪路</name>
+	<resid>xielu</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100518</id>
+	<name>箱子</name>
+	<resid>xiangzi</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100519</id>
+	<name>包子铺</name>
+	<resid>bzp</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051A</id>
+	<name>房子1</name>
+	<resid>fz1</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051B</id>
+	<name>房子2</name>
+	<resid>fz2</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051C</id>
+	<name>房子3</name>
+	<resid>fz3</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051D</id>
+	<name>房子4</name>
+	<resid>fz4</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051E</id>
+	<name>桥</name>
+	<resid>qiao</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210051F</id>
+	<name>山</name>
+	<resid>shan</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100520</id>
+	<name>女儿国树1</name>
+	<resid>shu1</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100521</id>
+	<name>女儿国树2</name>
+	<resid>shu2</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100522</id>
+	<name>女儿国树3</name>
+	<resid>shu3</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100523</id>
+	<name>女儿国塔</name>
+	<resid>ta</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100524</id>
+	<name>女儿国天空</name>
+	<resid>tk</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100525</id>
+	<name>小车</name>
+	<resid>xc</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100526</id>
+	<name>女儿国云1</name>
+	<resid>yun1</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100527</id>
+	<name>女儿国云2</name>
+	<resid>yun2</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100528</id>
+	<name>女儿国CC</name>
+	<resid>cc</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100529</id>
+	<name>buff道具5001</name>
+	<resid>power5001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210052A</id>
+	<name>hp道具5001</name>
+	<resid>hp5001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210052B</id>
+	<name>金钱5001</name>
+	<resid>bell5001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210052C</id>
+	<name>车迟国地面5</name>
+	<resid>dm5</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210052D</id>
+	<name>车迟国河流</name>
+	<resid>river</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210052F</id>
+	<name>云6001</name>
+	<resid>cloud</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100601</id>
+	<name>路灯6001</name>
+	<resid>dl1</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100602</id>
+	<name>路灯6002</name>
+	<resid>dl2</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100603</id>
+	<name>地面6001</name>
+	<resid>dm6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100604</id>
+	<name>地面6002</name>
+	<resid>dm6002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100605</id>
+	<name>地面6003</name>
+	<resid>dm6003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100606</id>
+	<name>地面6004</name>
+	<resid>dm6004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100607</id>
+	<name>地面6005</name>
+	<resid>dm6005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100608</id>
+	<name>地面6006</name>
+	<resid>dm6006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100609</id>
+	<name>地面6007</name>
+	<resid>dm6007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060A</id>
+	<name>地面6008</name>
+	<resid>dm6008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060B</id>
+	<name>地面6009</name>
+	<resid>dm6009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060C</id>
+	<name>房子6001</name>
+	<resid>fz6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060D</id>
+	<name>房子6002</name>
+	<resid>fz6002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060E</id>
+	<name>房子6003</name>
+	<resid>fz6003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210060F</id>
+	<name>房子6004</name>
+	<resid>fz6004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100610</id>
+	<name>花6001</name>
+	<resid>hua6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100611</id>
+	<name>月亮6001</name>
+	<resid>yueliang6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100612</id>
+	<name>桥6001</name>
+	<resid>qiao6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100613</id>
+	<name>塔6001</name>
+	<resid>ta6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100614</id>
+	<name>树6001</name>
+	<resid>shu6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100615</id>
+	<name>树6002</name>
+	<resid>shu6002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100616</id>
+	<name>屋顶6001</name>
+	<resid>wuding6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100617</id>
+	<name>云6001</name>
+	<resid>yun6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100618</id>
+	<name>云6002</name>
+	<resid>yun6002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100619</id>
+	<name>云6003</name>
+	<resid>yun6003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210061A</id>
+	<name>buff道具6001</name>
+	<resid>yaoji6001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210061B</id>
+	<name>hp道具6001</name>
+	<resid>tz6001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210061C</id>
+	<name>金钱6001</name>
+	<resid>bell6001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210062D</id>
+	<name>背景6001</name>
+	<resid>bg6001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101000</id>
+	<name>社区房子01</name>
+	<resid>map1_fangzi01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101001</id>
+	<name>社区房子02</name>
+	<resid>map1_fangzi02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101002</id>
+	<name>社区房子03</name>
+	<resid>map1_fangzi03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101003</id>
+	<name>社区灌木</name>
+	<resid>map1_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101004</id>
+	<name>社区前景</name>
+	<resid>map1_qianjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101005</id>
+	<name>社区背景</name>
+	<resid>map1_yuanjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101006</id>
+	<name>社区云01</name>
+	<resid>map1_baiyun01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101007</id>
+	<name>社区云02</name>
+	<resid>map1_baiyun03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101008</id>
+	<name>社区云03</name>
+	<resid>map1_baiyun05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101009</id>
+	<name>社区天空</name>
+	<resid>map1_tiankong01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210100A</id>
+	<name>社区地形0</name>
+	<resid>map1_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210100B</id>
+	<name>社区地形填充</name>
+	<resid>map1_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210100C</id>
+	<name>星星饼干</name>
+	<resid>xiaoxin_cookie1001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210100D</id>
+	<name>力量</name>
+	<resid>xiaoxin_power1001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210100E</id>
+	<name>生命</name>
+	<resid>xiaoxin_hp1001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210100F</id>
+	<name>社区汽车1</name>
+	<resid>map1_zhangai01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101010</id>
+	<name>社区汽车2</name>
+	<resid>map1_zhangai02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101011</id>
+	<name>社区汽车3</name>
+	<resid>map1_zhangai03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101012</id>
+	<name>游乐场天空</name>
+	<resid>map2_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101013</id>
+	<name>游乐场水面</name>
+	<resid>map2_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101014</id>
+	<name>游乐场船</name>
+	<resid>map2_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101015</id>
+	<name>游乐场山1</name>
+	<resid>map2_zhongjing_010</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101016</id>
+	<name>游乐场山2</name>
+	<resid>map2_zhongjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101017</id>
+	<name>游乐场地形0</name>
+	<resid>map2_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101018</id>
+	<name>游乐场地形填充</name>
+	<resid>map2_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101019</id>
+	<name>游乐场气球01</name>
+	<resid>map2_qiqiu_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101A</id>
+	<name>游乐场气球02</name>
+	<resid>map2_qiqiu_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101B</id>
+	<name>游乐场气球03</name>
+	<resid>map2_qiqiu_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101C</id>
+	<name>游乐场云01</name>
+	<resid>map2_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101D</id>
+	<name>游乐场云02</name>
+	<resid>map2_yuanjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101E</id>
+	<name>游乐场树01</name>
+	<resid>map1_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210101F</id>
+	<name>游乐场树02</name>
+	<resid>map1_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101020</id>
+	<name>游乐场树03</name>
+	<resid>map1_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101021</id>
+	<name>游乐场树04</name>
+	<resid>map1_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101022</id>
+	<name>游乐场树05</name>
+	<resid>map1_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101023</id>
+	<name>游乐场树06</name>
+	<resid>map1_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101024</id>
+	<name>社区树01</name>
+	<resid>map1_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101025</id>
+	<name>社区树02</name>
+	<resid>map1_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101026</id>
+	<name>社区树03</name>
+	<resid>map1_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101027</id>
+	<name>社区树04</name>
+	<resid>map1_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101028</id>
+	<name>社区树05</name>
+	<resid>map1_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101029</id>
+	<name>社区树06</name>
+	<resid>map1_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102A</id>
+	<name>游乐场地形下45_01</name>
+	<resid>map2_dixin_45_down_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102B</id>
+	<name>游乐场地形下45_02</name>
+	<resid>map2_dixin_45_down_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102C</id>
+	<name>游乐场地形下45_03</name>
+	<resid>map2_dixin_45_down_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102D</id>
+	<name>游乐场地形下45_04</name>
+	<resid>map2_dixin_45_down_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102E</id>
+	<name>游乐场地形下60_01</name>
+	<resid>map2_dixin_60_down_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210102F</id>
+	<name>游乐场地形下60_02</name>
+	<resid>map2_dixin_60_down_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101030</id>
+	<name>游乐场地形下60_03</name>
+	<resid>map2_dixin_60_down_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101031</id>
+	<name>游乐场地形下60_04</name>
+	<resid>map2_dixin_60_down_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101032</id>
+	<name>游乐场地形下30_01</name>
+	<resid>map2_dixin_30_down_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101033</id>
+	<name>游乐场地形下30_02</name>
+	<resid>map2_dixin_30_down_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101034</id>
+	<name>游乐场地形下30_03</name>
+	<resid>map2_dixin_30_down_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101035</id>
+	<name>游乐场地形下30_04</name>
+	<resid>map2_dixin_30_down_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101036</id>
+	<name>游乐场摩天轮</name>
+	<resid>map2_zhongjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101037</id>
+	<name>游乐场远景房子</name>
+	<resid>map2_yuanjing_010</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101038</id>
+	<name>游乐场中景树</name>
+	<resid>map2_zhongjing_013</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101039</id>
+	<name>游乐场城堡01</name>
+	<resid>map2_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103A</id>
+	<name>游乐场城堡02</name>
+	<resid>map2_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103B</id>
+	<name>游乐场帐篷01</name>
+	<resid>map2_zhongjing_011</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103C</id>
+	<name>游乐场帐篷02</name>
+	<resid>map2_zhongjing_012</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103D</id>
+	<name>游乐场地形下60_05</name>
+	<resid>map2_dixin_60_down_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103E</id>
+	<name>海滩背景01</name>
+	<resid>map3_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210103F</id>
+	<name>海滩地形0_01</name>
+	<resid>map3_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101040</id>
+	<name>海滩地形0_02</name>
+	<resid>map3_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101041</id>
+	<name>海滩地形30_01</name>
+	<resid>map3_dixin_30_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101042</id>
+	<name>海滩地形30_02</name>
+	<resid>map3_dixin_30_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101043</id>
+	<name>海滩地形30_03</name>
+	<resid>map3_dixin_30_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101044</id>
+	<name>海滩地形30_04</name>
+	<resid>map3_dixin_30_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101045</id>
+	<name>海滩地形45_01</name>
+	<resid>map3_dixin_45_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101046</id>
+	<name>海滩地形45_02</name>
+	<resid>map3_dixin_45_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101047</id>
+	<name>海滩地形45_03</name>
+	<resid>map3_dixin_45_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101048</id>
+	<name>海滩地形45_04</name>
+	<resid>map3_dixin_45_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101049</id>
+	<name>海滩前景001</name>
+	<resid>map3_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104A</id>
+	<name>海滩远景001</name>
+	<resid>map3_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104B</id>
+	<name>海滩船001</name>
+	<resid>map3_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104C</id>
+	<name>海滩白云001</name>
+	<resid>map3_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104D</id>
+	<name>海滩白云002</name>
+	<resid>map3_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104E</id>
+	<name>海滩白云003</name>
+	<resid>map3_yuanjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210104F</id>
+	<name>海滩白云004</name>
+	<resid>map3_yuanjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101050</id>
+	<name>海滩白云005</name>
+	<resid>map3_yuanjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101051</id>
+	<name>海滩太阳001</name>
+	<resid>map3_yuanjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101052</id>
+	<name>海滩天空001</name>
+	<resid>map3_yuanjing_010</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101053</id>
+	<name>海滩远景011</name>
+	<resid>map3_yuanjing_011</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101054</id>
+	<name>海滩远景012</name>
+	<resid>map3_yuanjing_012</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101055</id>
+	<name>海滩远景伞001</name>
+	<resid>map3_yuanjing_014</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101056</id>
+	<name>海滩树001</name>
+	<resid>map3_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101057</id>
+	<name>海滩树002</name>
+	<resid>map3_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101058</id>
+	<name>海滩树003</name>
+	<resid>map3_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101059</id>
+	<name>海滩中景伞001</name>
+	<resid>map3_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105A</id>
+	<name>社区背景</name>
+	<resid>map1_yuanjing02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105B</id>
+	<name>社区云04</name>
+	<resid>map1_baiyun02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105C</id>
+	<name>社区云05</name>
+	<resid>map1_baiyun04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105D</id>
+	<name>社区云06</name>
+	<resid>map1_baiyun06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105E</id>
+	<name>游乐场云03</name>
+	<resid>map2_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210105F</id>
+	<name>游乐场云04</name>
+	<resid>map2_yuanjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101060</id>
+	<name>游乐场云05</name>
+	<resid>map2_yuanjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101061</id>
+	<name>游乐场云06</name>
+	<resid>map2_yuanjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101062</id>
+	<name>游乐场云07</name>
+	<resid>map2_yuanjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200001</id>
+	<name>发射点</name>
+	<resid>EmissionPoint</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200002</id>
+	<name>运动物体</name>
+	<resid>ActiveObjectFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200003</id>
+	<name>对象类</name>
+	<resid>BorderFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200004</id>
+	<name>地板类</name>
+	<resid>GroundFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200005</id>
+	<name>物品类</name>
+	<resid>ItemsFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200006</id>
+	<name>地图类</name>
+	<resid>MapFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200007</id>
+	<name>怪物类</name>
+	<resid>MonsterFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200008</id>
+	<name>静物背景</name>
+	<resid>StaticBackgroundFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200009</id>
+	<name>纵向视野重心</name>
+	<resid>FixedV</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000A</id>
+	<name>视野下极限</name>
+	<resid>LimitBottom</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000B</id>
+	<name>视野左极限</name>
+	<resid>LimitLeft</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000C</id>
+	<name>视野右极限</name>
+	<resid>LimitRight</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000D</id>
+	<name>视野上极限</name>
+	<resid>LimitUp</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000E</id>
+	<name>方形阻挡</name>
+	<resid>pengzhuang</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000F</id>
+	<name>圆形阻挡</name>
+	<resid>pengzhuang2</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200010</id>
+	<name>方形阻挡可穿透</name>
+	<resid>pengzhuang3</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200011</id>
+	<name>圆形阻挡可穿透</name>
+	<resid>pengzhuang4</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200012</id>
+	<name>方形阻挡可穿透技能</name>
+	<resid>pengzhuang5</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200014</id>
+	<name>圆形阻挡可穿透技能</name>
+	<resid>pengzhuang6</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200015</id>
+	<name>锚点玩家</name>
+	<resid>AnchorPlayer</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200016</id>
+	<name>锚点敌人</name>
+	<resid>AnchorEnemy</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101063</id>
+	<name>森林天空背景</name>
+	<resid>map4_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101064</id>
+	<name>森林地形0_001</name>
+	<resid>map4_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101065</id>
+	<name>森林地形0_002</name>
+	<resid>map4_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101066</id>
+	<name>森林地形0_003</name>
+	<resid>map4_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101067</id>
+	<name>森林地形45_001</name>
+	<resid>map4_dixin_45_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101068</id>
+	<name>森林地形45_002</name>
+	<resid>map4_dixin_45_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101069</id>
+	<name>森林地形45_003</name>
+	<resid>map4_dixin_45_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106A</id>
+	<name>森林地形45_004</name>
+	<resid>map4_dixin_45_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106B</id>
+	<name>森林地形60_001</name>
+	<resid>map4_dixin_60_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106C</id>
+	<name>森林地形60_002</name>
+	<resid>map4_dixin_60_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106D</id>
+	<name>森林地形60_003</name>
+	<resid>map4_dixin_60_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106E</id>
+	<name>森林地形60_004</name>
+	<resid>map4_dixin_60_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210106F</id>
+	<name>森林前景灌木001</name>
+	<resid>map4_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101070</id>
+	<name>森林远景树林001</name>
+	<resid>map4_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101071</id>
+	<name>森林远景树林003</name>
+	<resid>map4_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101072</id>
+	<name>森林远景004</name>
+	<resid>map4_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101073</id>
+	<name>森林中景乔木001</name>
+	<resid>map4_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101074</id>
+	<name>森林中景乔木002</name>
+	<resid>map4_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101075</id>
+	<name>森林中景乔木003</name>
+	<resid>map4_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101076</id>
+	<name>森林中景乔木004</name>
+	<resid>map4_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101077</id>
+	<name>森林中景乔木005</name>
+	<resid>map4_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101078</id>
+	<name>森林中景乔木006</name>
+	<resid>map4_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101079</id>
+	<name>森林中景灌木007</name>
+	<resid>map4_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107A</id>
+	<name>森林中景灌木008</name>
+	<resid>map4_zhongjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107B</id>
+	<name>森林中景灌木009</name>
+	<resid>map4_zhongjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107C</id>
+	<name>森林中景石头010</name>
+	<resid>map4_zhongjing_010</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107D</id>
+	<name>森林中景011</name>
+	<resid>map4_zhongjing_011</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107E</id>
+	<name>森林地形0_004</name>
+	<resid>map4_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210107F</id>
+	<name>森林地形0_005</name>
+	<resid>map4_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101080</id>
+	<name>森林地形石头</name>
+	<resid>map4_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101081</id>
+	<name>森林前景延伸</name>
+	<resid>map4_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101082</id>
+	<name>森林远景悬崖</name>
+	<resid>map4_yuanjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101083</id>
+	<name>森林远景悬崖延伸</name>
+	<resid>map4_yuanjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101084</id>
+	<name>游乐场前景延伸</name>
+	<resid>map2_qianjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101085</id>
+	<name>山地背景天空01</name>
+	<resid>map5_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101086</id>
+	<name>山地背景天空02</name>
+	<resid>map5_beijing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101087</id>
+	<name>山地悬浮地形01</name>
+	<resid>map5_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101088</id>
+	<name>山地悬浮地形02</name>
+	<resid>map5_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101089</id>
+	<name>山地地形0_01</name>
+	<resid>map5_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108A</id>
+	<name>山地地形延伸</name>
+	<resid>map5_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108B</id>
+	<name>山地前景01</name>
+	<resid>map5_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108C</id>
+	<name>山地前景02</name>
+	<resid>map5_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108D</id>
+	<name>山地远景山01</name>
+	<resid>map5_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108E</id>
+	<name>山地远景山02</name>
+	<resid>map5_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210108F</id>
+	<name>山地远景火山灰01</name>
+	<resid>map5_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101090</id>
+	<name>山地远景火山灰02</name>
+	<resid>map5_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101091</id>
+	<name>山地中景树01</name>
+	<resid>map5_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101092</id>
+	<name>山地中景树02</name>
+	<resid>map5_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101093</id>
+	<name>山地中景树03</name>
+	<resid>map5_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101094</id>
+	<name>山地中景树04</name>
+	<resid>map5_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101095</id>
+	<name>山地中景树05</name>
+	<resid>map5_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101096</id>
+	<name>山地中景石01</name>
+	<resid>map5_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101097</id>
+	<name>山地中景石02</name>
+	<resid>map5_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101098</id>
+	<name>山地中景石像01</name>
+	<resid>map5_zhongjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101099</id>
+	<name>山地远景山补丁</name>
+	<resid>map5_yuanjing_002_bd</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109A</id>
+	<name>山地地形0_悬崖</name>
+	<resid>map5_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109B</id>
+	<name>雪地背景</name>
+	<resid>map6_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109C</id>
+	<name>雪地地形0_01</name>
+	<resid>map6_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109D</id>
+	<name>雪地地形0_01延伸</name>
+	<resid>map6_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109E</id>
+	<name>雪地地形0_03</name>
+	<resid>map6_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210109F</id>
+	<name>雪地地形0_04</name>
+	<resid>map6_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101100</id>
+	<name>雪地地形0_05</name>
+	<resid>map6_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101101</id>
+	<name>雪地地形0_06</name>
+	<resid>map6_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101102</id>
+	<name>雪地地形0_07</name>
+	<resid>map6_dixin_0_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101103</id>
+	<name>雪地前景顶部</name>
+	<resid>map6_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101104</id>
+	<name>雪地前景顶部_延伸</name>
+	<resid>map6_qianjing_001_bd</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101105</id>
+	<name>雪地前景底部</name>
+	<resid>map6_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101106</id>
+	<name>雪地前景底部_延伸</name>
+	<resid>map6_qianjing_002_bd</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101107</id>
+	<name>雪地中间底部</name>
+	<resid>map6_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101108</id>
+	<name>雪地中景顶部</name>
+	<resid>map6_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101109</id>
+	<name>雪地中景光</name>
+	<resid>map6_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110A</id>
+	<name>雪地地形0_08</name>
+	<resid>map6_dixin_0_08</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110B</id>
+	<name>雪地地形0_09</name>
+	<resid>map6_dixin_0_09</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110C</id>
+	<name>基地背景</name>
+	<resid>map7_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110D</id>
+	<name>基地地形0_01</name>
+	<resid>map7_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110E</id>
+	<name>基地地形0_延伸</name>
+	<resid>map7_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210110F</id>
+	<name>基地阻挡01</name>
+	<resid>map7_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101110</id>
+	<name>基地阻挡02</name>
+	<resid>map7_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101111</id>
+	<name>基地阻挡03</name>
+	<resid>map7_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101112</id>
+	<name>基地阻挡04</name>
+	<resid>map7_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101113</id>
+	<name>基地阻挡05</name>
+	<resid>map7_dixin_0_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101114</id>
+	<name>基地阻挡06</name>
+	<resid>map7_dixin_0_08</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101115</id>
+	<name>基地阻挡07</name>
+	<resid>map7_dixin_0_09</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101116</id>
+	<name>基地前景01</name>
+	<resid>map7_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101117</id>
+	<name>基地前景01延伸</name>
+	<resid>map7_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101118</id>
+	<name>基地远景山</name>
+	<resid>map7_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101119</id>
+	<name>基地远云01</name>
+	<resid>map7_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111A</id>
+	<name>基地远云02</name>
+	<resid>map7_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111B</id>
+	<name>基地中景</name>
+	<resid>map7_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111C</id>
+	<name>椰子树干</name>
+	<resid>map3_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111D</id>
+	<name>椰子树冠</name>
+	<resid>map3_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111E</id>
+	<name>椰子树叶</name>
+	<resid>map3_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210111F</id>
+	<name>椰子树果</name>
+	<resid>map3_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>1</caculate_type>
+	<damage_value>500</damage_value>
+</stage>
+<stage>
+	<id>12101120</id>
+	<name>社区地形45_01</name>
+	<resid>map1_dixin_45_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101121</id>
+	<name>社区地形45_02</name>
+	<resid>map1_dixin_45_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101122</id>
+	<name>社区地形45_03</name>
+	<resid>map1_dixin_45_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101123</id>
+	<name>社区地形45_04</name>
+	<resid>map1_dixin_45_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101124</id>
+	<name>社区地形45_05</name>
+	<resid>map1_dixin_45_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101125</id>
+	<name>社区地形45_06</name>
+	<resid>map1_dixin_45_up_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116D</id>
+	<name>游乐场云霄飞车</name>
+	<resid>map2_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116E</id>
+	<name>游乐场云霄飞车</name>
+	<resid>map2_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101126</id>
+	<name>海底背景</name>
+	<resid>MapGold_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101127</id>
+	<name>海底地形0_01</name>
+	<resid>MapGold_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101128</id>
+	<name>海底地形0补丁</name>
+	<resid>MapGold_dixin_0_bd01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101129</id>
+	<name>海底地形45_01</name>
+	<resid>MapGold_dixin_45_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112A</id>
+	<name>海底地形45_02</name>
+	<resid>MapGold_dixin_45_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112B</id>
+	<name>海底地形45_03</name>
+	<resid>MapGold_dixin_45_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112C</id>
+	<name>海底地形60_01</name>
+	<resid>MapGold_dixin_60_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112D</id>
+	<name>海底地形60_02</name>
+	<resid>MapGold_dixin_60_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112E</id>
+	<name>海底地形60_03</name>
+	<resid>MapGold_dixin_60_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210112F</id>
+	<name>海底前景海平面</name>
+	<resid>MapGold_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101130</id>
+	<name>海底前景02</name>
+	<resid>MapGold_qianjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101131</id>
+	<name>海底远景01</name>
+	<resid>MapGold_yuanjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101132</id>
+	<name>海底远景02</name>
+	<resid>MapGold_yuanjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101133</id>
+	<name>海底中景浮岛01</name>
+	<resid>MapGold_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101134</id>
+	<name>海底中景浮岛02</name>
+	<resid>MapGold_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101135</id>
+	<name>海底中景珊瑚01</name>
+	<resid>MapGold_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101136</id>
+	<name>海底中景珊瑚02</name>
+	<resid>MapGold_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101137</id>
+	<name>海底中景海草01</name>
+	<resid>MapGold_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101138</id>
+	<name>海底中景海草02</name>
+	<resid>MapGold_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101139</id>
+	<name>海底中景岩石01</name>
+	<resid>MapGold_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113A</id>
+	<name>海底中景岩石02</name>
+	<resid>MapGold_zhongjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113B</id>
+	<name>海底背景</name>
+	<resid>MapGold_zhongjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113C</id>
+	<name>海底光影</name>
+	<resid>MapGold_zhongjing_011</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113D</id>
+	<name>海底中景船帆01</name>
+	<resid>MapGold_zhongjing_013</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113E</id>
+	<name>海底中景船帆02</name>
+	<resid>MapGold_zhongjing_014</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210113F</id>
+	<name>海底中景船</name>
+	<resid>MapGold_zhongjing_015</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101140</id>
+	<name>海底中景船夹板</name>
+	<resid>MapGold_zhongjing_016</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101141</id>
+	<name>海底前景03</name>
+	<resid>MapGold_qianjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101142</id>
+	<name>海底前景补丁</name>
+	<resid>MapGold_qianjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101143</id>
+	<name>黄昏社区动态云01</name>
+	<resid>mapMetal_baiyun01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101144</id>
+	<name>黄昏社区动态云02</name>
+	<resid>mapMetal_baiyun02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101145</id>
+	<name>黄昏社区动态云03</name>
+	<resid>mapMetal_baiyun03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101146</id>
+	<name>黄昏社区动态云04</name>
+	<resid>mapMetal_baiyun04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101147</id>
+	<name>黄昏社区动态云05</name>
+	<resid>mapMetal_baiyun05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101148</id>
+	<name>黄昏社区动态云06</name>
+	<resid>mapMetal_baiyun06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101149</id>
+	<name>黄昏社区地形0_01</name>
+	<resid>mapMetal_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114A</id>
+	<name>黄昏社区地形0_补丁</name>
+	<resid>mapMetal_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114B</id>
+	<name>黄昏社区地形30_01</name>
+	<resid>mapMetal_dixin_30_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114C</id>
+	<name>黄昏社区地形30_02</name>
+	<resid>mapMetal_dixin_30_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114D</id>
+	<name>黄昏社区地形30_03</name>
+	<resid>mapMetal_dixin_30_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114E</id>
+	<name>黄昏社区地形30_04</name>
+	<resid>mapMetal_dixin_30_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210114F</id>
+	<name>黄昏社区地形30_05</name>
+	<resid>mapMetal_dixin_30_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101150</id>
+	<name>黄昏社区地形30_06</name>
+	<resid>mapMetal_dixin_30_up_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101151</id>
+	<name>黄昏社区地形45_01</name>
+	<resid>mapMetal_dixin_45_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101152</id>
+	<name>黄昏社区地形45_02</name>
+	<resid>mapMetal_dixin_45_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101153</id>
+	<name>黄昏社区地形45_03</name>
+	<resid>mapMetal_dixin_45_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101154</id>
+	<name>黄昏社区地形45_04</name>
+	<resid>mapMetal_dixin_45_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101155</id>
+	<name>黄昏社区地形45_05</name>
+	<resid>mapMetal_dixin_45_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101156</id>
+	<name>黄昏社区地形45_06</name>
+	<resid>mapMetal_dixin_45_up_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101157</id>
+	<name>黄昏社区地形60_01</name>
+	<resid>mapMetal_dixin_60_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101158</id>
+	<name>黄昏社区地形60_02</name>
+	<resid>mapMetal_dixin_60_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101159</id>
+	<name>黄昏社区地形60_03</name>
+	<resid>mapMetal_dixin_60_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115A</id>
+	<name>黄昏社区地形60_04</name>
+	<resid>mapMetal_dixin_60_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115B</id>
+	<name>黄昏社区地形60_05</name>
+	<resid>mapMetal_dixin_60_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115C</id>
+	<name>黄昏社区地形60_06</name>
+	<resid>mapMetal_dixin_60_up_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115D</id>
+	<name>黄昏社区房子01</name>
+	<resid>mapMetal_fangzi01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115E</id>
+	<name>黄昏社区房子02</name>
+	<resid>mapMetal_fangzi02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210115F</id>
+	<name>黄昏社区房子03</name>
+	<resid>mapMetal_fangzi03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101160</id>
+	<name>黄昏社区天空01</name>
+	<resid>mapMetal_hui01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101161</id>
+	<name>黄昏社区前景01</name>
+	<resid>mapMetal_qianjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101162</id>
+	<name>黄昏社区天空02</name>
+	<resid>mapMetal_tiankong01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101163</id>
+	<name>黄昏社区远景楼房01</name>
+	<resid>mapMetal_yuanjing01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101164</id>
+	<name>黄昏社区远景楼房02</name>
+	<resid>mapMetal_yuanjing02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101165</id>
+	<name>黄昏社区远景灌木01</name>
+	<resid>mapMetal_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101166</id>
+	<name>黄昏社区中景灌木01</name>
+	<resid>mapMetal_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101167</id>
+	<name>黄昏社区中景灌木02</name>
+	<resid>mapMetal_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101168</id>
+	<name>黄昏社区中景乔木01</name>
+	<resid>mapMetal_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101169</id>
+	<name>黄昏社区远景乔木01</name>
+	<resid>mapMetal_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116A</id>
+	<name>黄昏社区远景乔木02</name>
+	<resid>mapMetal_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116B</id>
+	<name>黄昏社区远景灌木02</name>
+	<resid>mapMetal_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116C</id>
+	<name>雪地地形0_07</name>
+	<resid>map6_dixin_0_10</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101171</id>
+	<name>黄昏社区远景障碍01</name>
+	<resid>mapMetal_zhangai_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101172</id>
+	<name>黄昏社区远景障碍02</name>
+	<resid>mapMetal_zhangai_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210116F</id>
+	<name>黄昏社区远景障碍03</name>
+	<resid>mapMetal_zhangai_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101170</id>
+	<name>黄昏社区远景地面黄线</name>
+	<resid>mapMetal_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101173</id>
+	<name>1区特效树叶</name>
+	<resid>map1_FX_shuye_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101174</id>
+	<name>1区特效烟囱</name>
+	<resid>map1_FX_yancong_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101175</id>
+	<name>2区特效面烟</name>
+	<resid>map2_FX_shuimian_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101176</id>
+	<name>2区特效烟花</name>
+	<resid>map2_FX_yanhua_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101177</id>
+	<name>3区特效船</name>
+	<resid>map3_FX_chuan_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101178</id>
+	<name>3区特效海浪</name>
+	<resid>map3_FX_hailang_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101179</id>
+	<name>3区特效太阳</name>
+	<resid>map3_FX_taiyang_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117A</id>
+	<name>4区特效瀑布</name>
+	<resid>map4_FX_xiliu_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117B</id>
+	<name>4区特效鸟1</name>
+	<resid>map4_FX_xiaoniao_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117C</id>
+	<name>4区特效鸟2</name>
+	<resid>map4_FX_xiaoniao_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117D</id>
+	<name>4区特效光</name>
+	<resid>map4_FX_yangguang_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117E</id>
+	<name>5区特效雾气</name>
+	<resid>map5_FX_changjingyw_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210117F</id>
+	<name>5区特效火山烟</name>
+	<resid>map5_FX_huoshanhui_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101180</id>
+	<name>5区特效坑</name>
+	<resid>map5_FX_keng_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101181</id>
+	<name>5区特效瀑布</name>
+	<resid>map5_FX_pubu_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101182</id>
+	<name>5区特效云</name>
+	<resid>map5_FX_yun_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101183</id>
+	<name>5区特效坑边缘</name>
+	<resid>map5_FX_huoshanbi_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101184</id>
+	<name>1区特效桥洞01</name>
+	<resid>map1_dixin_qiao_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101185</id>
+	<name>1区特效桥洞02</name>
+	<resid>map1_dixin_qiao_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101186</id>
+	<name>1区特效桥洞03</name>
+	<resid>map1_dixin_qiao_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101187</id>
+	<name>1区特效桥架01</name>
+	<resid>map1_zhongjing_qiao_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101188</id>
+	<name>1区特效桥架02</name>
+	<resid>map1_zhongjing_qiao_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101189</id>
+	<name>1区特效桥架03</name>
+	<resid>map1_zhongjing_qiao_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118A</id>
+	<name>试练关背景001</name>
+	<resid>MapC1_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118B</id>
+	<name>试练关地形01</name>
+	<resid>MapC1_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118C</id>
+	<name>试练关地形02</name>
+	<resid>MapC1_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118D</id>
+	<name>试练关地形03</name>
+	<resid>MapC1_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118E</id>
+	<name>试练关地形04</name>
+	<resid>MapC1_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210118F</id>
+	<name>试练关地形05</name>
+	<resid>MapC1_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101190</id>
+	<name>试练关地形06</name>
+	<resid>MapC1_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101191</id>
+	<name>试练关地形45_01</name>
+	<resid>MapC1_dixin_45_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101192</id>
+	<name>试练关地形45_02</name>
+	<resid>MapC1_dixin_45_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101193</id>
+	<name>试练关地形45_03</name>
+	<resid>MapC1_dixin_45_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101194</id>
+	<name>试练关地形45_04</name>
+	<resid>MapC1_dixin_45_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101195</id>
+	<name>试练关地形60_01</name>
+	<resid>MapC1_dixin_60_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101196</id>
+	<name>试练关地形60_02</name>
+	<resid>MapC1_dixin_60_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101197</id>
+	<name>试练关地形60_03</name>
+	<resid>MapC1_dixin_60_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101198</id>
+	<name>试练关地形60_04</name>
+	<resid>MapC1_dixin_60_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101199</id>
+	<name>试练关前景_001</name>
+	<resid>MapC1_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119A</id>
+	<name>试练关前景_002</name>
+	<resid>MapC1_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119B</id>
+	<name>试练关远景_001</name>
+	<resid>MapC1_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119C</id>
+	<name>试练关远景_002</name>
+	<resid>MapC1_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119D</id>
+	<name>试练关远景_003</name>
+	<resid>MapC1_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119E</id>
+	<name>试练关中景_001</name>
+	<resid>MapC1_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210119F</id>
+	<name>试练关中景_002</name>
+	<resid>MapC1_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101200</id>
+	<name>试练关中景_003</name>
+	<resid>MapC1_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101201</id>
+	<name>试练关中景_004</name>
+	<resid>MapC1_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101202</id>
+	<name>试练关中景_005</name>
+	<resid>MapC1_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101203</id>
+	<name>试练关中景_006</name>
+	<resid>MapC1_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101204</id>
+	<name>试练关中景_007</name>
+	<resid>MapC1_zhongjing_007</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101205</id>
+	<name>试练关中景_008</name>
+	<resid>MapC1_zhongjing_008</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101206</id>
+	<name>试练关中景_009</name>
+	<resid>MapC1_zhongjing_009</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101207</id>
+	<name>试练关中景_010</name>
+	<resid>MapC1_zhongjing_010</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101208</id>
+	<name>试练关中景_011</name>
+	<resid>MapC1_zhongjing_011</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101209</id>
+	<name>试练关中景_012</name>
+	<resid>MapC1_zhongjing_012</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120A</id>
+	<name>试练关中景_013</name>
+	<resid>MapC1_zhongjing_013</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120B</id>
+	<name>试练关中景_014</name>
+	<resid>MapC1_zhongjing_014</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120C</id>
+	<name>试练关中景_015</name>
+	<resid>MapC1_zhongjing_015</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120D</id>
+	<name>试练关中景_016</name>
+	<resid>MapC1_zhongjing_016</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120E</id>
+	<name>试练关中景_017</name>
+	<resid>MapC1_zhongjing_017</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210120F</id>
+	<name>试练关远景_004</name>
+	<resid>MapC1_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101210</id>
+	<name>试练关2背景001</name>
+	<resid>MapC2_beijing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101211</id>
+	<name>试练关2背景002</name>
+	<resid>MapC2_beijing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101212</id>
+	<name>试练关2地形001</name>
+	<resid>MapC2_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101213</id>
+	<name>试练关2地形002</name>
+	<resid>MapC2_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101214</id>
+	<name>试练关2地形003</name>
+	<resid>MapC2_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101215</id>
+	<name>试练关2地形004</name>
+	<resid>MapC2_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101216</id>
+	<name>试练关2地形005</name>
+	<resid>MapC2_dixin_0_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101217</id>
+	<name>试练关2前景001</name>
+	<resid>MapC2_qianjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101218</id>
+	<name>试练关2前景002</name>
+	<resid>MapC2_qianjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101219</id>
+	<name>试练关2远景001</name>
+	<resid>MapC2_yuanjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121A</id>
+	<name>试练关2远景002</name>
+	<resid>MapC2_yuanjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121B</id>
+	<name>试练关2远景003</name>
+	<resid>MapC2_yuanjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121C</id>
+	<name>试练关2远景004</name>
+	<resid>MapC2_yuanjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121D</id>
+	<name>试练关2远景005</name>
+	<resid>MapC2_yuanjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121E</id>
+	<name>试练关2远景006</name>
+	<resid>MapC2_yuanjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210121F</id>
+	<name>试练关2中景001</name>
+	<resid>MapC2_zhongjing_001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101220</id>
+	<name>试练关2中景002</name>
+	<resid>MapC2_zhongjing_002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101221</id>
+	<name>试练关2中景003</name>
+	<resid>MapC2_zhongjing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101222</id>
+	<name>试练关2中景004</name>
+	<resid>MapC2_zhongjing_004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101223</id>
+	<name>试练关2中景005</name>
+	<resid>MapC2_zhongjing_005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101224</id>
+	<name>试练关2中景006</name>
+	<resid>MapC2_zhongjing_006</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101225</id>
+	<name>试练关2地形006</name>
+	<resid>MapC2_dixin_0_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101226</id>
+	<name>社区地形30度向上_01</name>
+	<resid>map1_dixin_30_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101227</id>
+	<name>社区地形30度向上_02</name>
+	<resid>map1_dixin_30_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101228</id>
+	<name>社区地形30度向上_03</name>
+	<resid>map1_dixin_30_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101229</id>
+	<name>社区地形30度向下_01</name>
+	<resid>map1_dixin_30_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210122A</id>
+	<name>社区地形30度向下_02</name>
+	<resid>map1_dixin_30_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210122B</id>
+	<name>社区地形30度向下_03</name>
+	<resid>map1_dixin_30_up_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210122C</id>
+	<name>炸弹</name>
+	<resid>trap_bomb</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>1</caculate_type>
+	<damage_value>300</damage_value>
+</stage>
+<stage>
+	<id>1210122D</id>
+	<name>试练关3背景</name>
+	<resid>MapC3_beijing_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210122E</id>
+	<name>试练关3地形01</name>
+	<resid>MapC3_dixin_0_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210122F</id>
+	<name>试练关3地形02</name>
+	<resid>MapC3_dixin_0_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101230</id>
+	<name>试练关3地形03</name>
+	<resid>MapC3_dixin_0_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101231</id>
+	<name>试练关3地形04</name>
+	<resid>MapC3_dixin_0_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101232</id>
+	<name>试练关3地形45度_01</name>
+	<resid>MapC3_dixin_45_up_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101233</id>
+	<name>试练关3地形45度_02</name>
+	<resid>MapC3_dixin_45_up_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101234</id>
+	<name>试练关3地形45度_03</name>
+	<resid>MapC3_dixin_45_up_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101235</id>
+	<name>试练关3地形45度_04</name>
+	<resid>MapC3_dixin_45_up_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101236</id>
+	<name>试练关3地形45度_05</name>
+	<resid>MapC3_dixin_45_up_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101237</id>
+	<name>试练关3地形45度_06</name>
+	<resid>MapC3_dixin_45_up_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101238</id>
+	<name>试练关3前景_01</name>
+	<resid>MapC3_qianjing_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101239</id>
+	<name>试练关3远景_01</name>
+	<resid>MapC3_yuanjing_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123A</id>
+	<name>试练关3远景_02</name>
+	<resid>MapC3_yuanjing_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123B</id>
+	<name>试练关3中景_01</name>
+	<resid>MapC3_zhongjing_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123C</id>
+	<name>试练关3中景_02</name>
+	<resid>MapC3_zhongjing_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123D</id>
+	<name>试练关3中景_03</name>
+	<resid>MapC3_zhongjing_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123E</id>
+	<name>试练关3中景_04</name>
+	<resid>MapC3_zhongjing_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210123F</id>
+	<name>试练关3中景_05</name>
+	<resid>MapC3_zhongjing_05</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101240</id>
+	<name>试练关3中景_06</name>
+	<resid>MapC3_zhongjing_06</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101241</id>
+	<name>试练关3中景_07</name>
+	<resid>MapC3_zhongjing_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101242</id>
+	<name>试练关3中景_08</name>
+	<resid>MapC3_zhongjing_08</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101243</id>
+	<name>试练关3中景_09</name>
+	<resid>MapC3_zhongjing_09</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101244</id>
+	<name>试练关3中景_10</name>
+	<resid>MapC3_zhongjing_10</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101245</id>
+	<name>试练关3中景_11</name>
+	<resid>MapC3_zhongjing_11</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101246</id>
+	<name>地图一空中地形_01</name>
+	<resid>map1_dixin_sky_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101247</id>
+	<name>地图一空中地形_02</name>
+	<resid>map1_dixin_sky_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101248</id>
+	<name>地图一空中地形_03</name>
+	<resid>map1_dixin_sky_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101249</id>
+	<name>地图一空中地形_04</name>
+	<resid>map1_dixin_sky_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124A</id>
+	<name>试练关1地形07</name>
+	<resid>MapC1_dixin_0_07</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124B</id>
+	<name>试练关2灯笼</name>
+	<resid>MapC2_denglong</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124C</id>
+	<name>试练关2井</name>
+	<resid>MapC2_jing</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124D</id>
+	<name>地图二空中地形_01</name>
+	<resid>map2_dixin_sky_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124E</id>
+	<name>地图二空中地形_02</name>
+	<resid>map2_dixin_sky_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210124F</id>
+	<name>地图二空中地形_03</name>
+	<resid>map2_dixin_sky_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101250</id>
+	<name>地图二空中地形_04</name>
+	<resid>map2_dixin_sky_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101251</id>
+	<name>地图三空中地形_01</name>
+	<resid>map3_dixin_sky_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101252</id>
+	<name>地图三空中地形_02</name>
+	<resid>map3_dixin_sky_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101253</id>
+	<name>地图三空中地形_03</name>
+	<resid>map3_dixin_sky_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101254</id>
+	<name>地图三空中地形_04</name>
+	<resid>map3_dixin_sky_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101255</id>
+	<name>地图四空中地形_01</name>
+	<resid>map4_dixin_sky_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101256</id>
+	<name>地图四空中地形_02</name>
+	<resid>map4_dixin_sky_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101257</id>
+	<name>地图四空中地形_03</name>
+	<resid>map4_dixin_sky_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101258</id>
+	<name>地图四空中地形_04</name>
+	<resid>map4_dixin_sky_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101259</id>
+	<name>地图五空中地形_01</name>
+	<resid>map5_dixin_sky_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125A</id>
+	<name>地图五空中地形_02</name>
+	<resid>map5_dixin_sky_02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125B</id>
+	<name>地图五空中地形_03</name>
+	<resid>map5_dixin_sky_03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125C</id>
+	<name>地图五空中地形_04</name>
+	<resid>map5_dixin_sky_04</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125D</id>
+	<name>地图五空中纯色块</name>
+	<resid>map5_beijing_003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125E</id>
+	<name>试练关3石头特效</name>
+	<resid>mapc3_FX_changjing_shitou_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210125F</id>
+	<name>试练关3烟雾特效</name>
+	<resid>mapc3_FX_changjing_yanwu_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101260</id>
+	<name>试练关3萤火虫特效</name>
+	<resid>mapc3_FX_qianjing_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12101261</id>
+	<name>试练关3星星特效</name>
+	<resid>mapc3_FX_xingixng_01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<caculate_type>0</caculate_type>
+	<damage_value>0</damage_value>
+</stage>
+</root>

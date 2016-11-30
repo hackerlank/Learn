@@ -1,0 +1,5283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<robotteams>
+	<ID>1</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>6</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>7</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>8</ID>
+	<Level>1</Level>
+	<EquipLevel>2</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>101</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>102</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>103</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>104</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>105</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>106</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>107</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>108</ID>
+	<Level>2</Level>
+	<EquipLevel>4</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>201</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>202</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>203</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>204</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>205</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>206</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>207</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>208</ID>
+	<Level>3</Level>
+	<EquipLevel>6</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>301</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>302</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>303</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>304</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>305</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>306</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>307</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>308</ID>
+	<Level>4</Level>
+	<EquipLevel>8</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>401</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>402</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>403</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>404</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>405</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>406</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>407</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>408</ID>
+	<Level>5</Level>
+	<EquipLevel>10</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>501</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>502</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>503</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>504</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>505</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>506</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>507</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>508</ID>
+	<Level>6</Level>
+	<EquipLevel>12</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>601</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>602</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>603</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>604</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>605</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>606</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>607</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>608</ID>
+	<Level>7</Level>
+	<EquipLevel>14</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>701</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>702</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>703</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>704</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>705</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>706</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>707</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>708</ID>
+	<Level>8</Level>
+	<EquipLevel>16</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>801</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>802</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>803</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>804</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>805</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>806</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>807</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>808</ID>
+	<Level>9</Level>
+	<EquipLevel>18</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>901</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>白虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>902</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>白炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>903</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>白冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>904</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>白雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>905</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>白岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>906</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>白震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>907</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>白刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>908</ID>
+	<Level>10</Level>
+	<EquipLevel>20</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>白空之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1001</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1002</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1003</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1004</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1005</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1006</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1007</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1008</ID>
+	<Level>11</Level>
+	<EquipLevel>22</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1101</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1102</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1103</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1104</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1105</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1106</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1107</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1108</ID>
+	<Level>12</Level>
+	<EquipLevel>24</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1201</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1202</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1203</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1204</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1205</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1206</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1207</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1208</ID>
+	<Level>13</Level>
+	<EquipLevel>26</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1301</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1302</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1303</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1304</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1305</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1306</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1307</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1308</ID>
+	<Level>14</Level>
+	<EquipLevel>28</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1401</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1402</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1403</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1404</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1405</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1406</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1407</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1408</ID>
+	<Level>15</Level>
+	<EquipLevel>30</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1501</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1502</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1503</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1504</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1505</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1506</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1507</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1508</ID>
+	<Level>16</Level>
+	<EquipLevel>32</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1601</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1602</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1603</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1604</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1605</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1606</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1607</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1608</ID>
+	<Level>17</Level>
+	<EquipLevel>34</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1701</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1702</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1703</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1704</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1705</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1706</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1707</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1708</ID>
+	<Level>18</Level>
+	<EquipLevel>36</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1801</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1802</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1803</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1804</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1805</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1806</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1807</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1808</ID>
+	<Level>19</Level>
+	<EquipLevel>38</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1901</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>1</LeaderID>
+	<Member1ID>2</Member1ID>
+	<Member2ID>3</Member2ID>
+	<Member3ID>4</Member3ID>
+	<Member4ID>5</Member4ID>
+	<TeamName>翠虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1902</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>2</LeaderID>
+	<Member1ID>3</Member1ID>
+	<Member2ID>4</Member2ID>
+	<Member3ID>5</Member3ID>
+	<Member4ID>6</Member4ID>
+	<TeamName>翠炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1903</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>3</LeaderID>
+	<Member1ID>4</Member1ID>
+	<Member2ID>5</Member2ID>
+	<Member3ID>6</Member3ID>
+	<Member4ID>7</Member4ID>
+	<TeamName>翠冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1904</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>4</LeaderID>
+	<Member1ID>5</Member1ID>
+	<Member2ID>6</Member2ID>
+	<Member3ID>7</Member3ID>
+	<Member4ID>8</Member4ID>
+	<TeamName>翠雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1905</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>5</LeaderID>
+	<Member1ID>6</Member1ID>
+	<Member2ID>7</Member2ID>
+	<Member3ID>8</Member3ID>
+	<Member4ID>1</Member4ID>
+	<TeamName>翠岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1906</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>6</LeaderID>
+	<Member1ID>7</Member1ID>
+	<Member2ID>8</Member2ID>
+	<Member3ID>1</Member3ID>
+	<Member4ID>2</Member4ID>
+	<TeamName>翠震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1907</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>7</LeaderID>
+	<Member1ID>8</Member1ID>
+	<Member2ID>1</Member2ID>
+	<Member3ID>2</Member3ID>
+	<Member4ID>3</Member4ID>
+	<TeamName>翠刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>1908</ID>
+	<Level>20</Level>
+	<EquipLevel>40</EquipLevel>
+	<LeaderID>8</LeaderID>
+	<Member1ID>1</Member1ID>
+	<Member2ID>2</Member2ID>
+	<Member3ID>3</Member3ID>
+	<Member4ID>4</Member4ID>
+	<TeamName>翠空之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2001</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2002</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2003</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2004</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2005</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2006</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2007</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2008</ID>
+	<Level>21</Level>
+	<EquipLevel>42</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2101</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2102</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2103</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2104</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2105</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2106</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2107</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2108</ID>
+	<Level>22</Level>
+	<EquipLevel>44</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2201</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2202</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2203</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2204</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2205</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2206</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2207</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2208</ID>
+	<Level>23</Level>
+	<EquipLevel>46</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2301</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2302</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2303</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2304</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2305</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2306</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2307</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2308</ID>
+	<Level>24</Level>
+	<EquipLevel>48</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2401</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2402</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2403</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2404</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2405</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2406</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2407</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2408</ID>
+	<Level>25</Level>
+	<EquipLevel>50</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2501</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2502</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2503</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2504</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2505</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2506</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2507</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2508</ID>
+	<Level>26</Level>
+	<EquipLevel>52</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2601</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2602</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2603</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2604</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2605</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2606</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2607</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2608</ID>
+	<Level>27</Level>
+	<EquipLevel>54</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2701</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2702</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2703</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2704</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2705</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2706</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2707</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2708</ID>
+	<Level>28</Level>
+	<EquipLevel>56</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2801</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2802</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2803</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2804</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2805</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2806</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2807</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2808</ID>
+	<Level>29</Level>
+	<EquipLevel>58</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2901</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>苍虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2902</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>苍炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2903</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>苍冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2904</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>苍雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2905</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>苍岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2906</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>苍震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2907</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>苍刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>2908</ID>
+	<Level>30</Level>
+	<EquipLevel>60</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>苍空之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3001</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3002</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3003</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3004</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3005</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3006</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3007</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3008</ID>
+	<Level>31</Level>
+	<EquipLevel>62</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3101</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3102</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3103</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3104</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3105</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3106</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3107</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3108</ID>
+	<Level>32</Level>
+	<EquipLevel>64</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3201</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3202</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3203</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3204</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3205</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3206</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3207</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3208</ID>
+	<Level>33</Level>
+	<EquipLevel>66</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3301</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3302</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3303</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3304</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3305</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3306</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3307</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3308</ID>
+	<Level>34</Level>
+	<EquipLevel>68</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3401</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3402</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3403</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3404</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3405</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3406</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3407</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3408</ID>
+	<Level>35</Level>
+	<EquipLevel>70</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3501</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3502</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3503</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3504</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3505</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3506</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3507</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3508</ID>
+	<Level>36</Level>
+	<EquipLevel>72</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3601</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3602</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3603</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3604</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3605</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3606</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3607</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3608</ID>
+	<Level>37</Level>
+	<EquipLevel>74</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3701</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3702</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3703</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3704</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3705</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3706</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3707</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3708</ID>
+	<Level>38</Level>
+	<EquipLevel>76</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3801</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3802</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3803</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3804</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3805</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3806</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3807</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3808</ID>
+	<Level>39</Level>
+	<EquipLevel>78</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3901</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>藤虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3902</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>藤炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3903</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>藤冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3904</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>藤雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3905</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>藤岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3906</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>藤震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3907</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>藤刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>3908</ID>
+	<Level>40</Level>
+	<EquipLevel>80</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>藤空之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4001</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4002</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4003</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4004</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4005</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4006</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4007</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4008</ID>
+	<Level>41</Level>
+	<EquipLevel>82</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4101</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4102</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4103</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4104</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4105</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4106</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4107</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4108</ID>
+	<Level>42</Level>
+	<EquipLevel>84</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4201</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4202</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4203</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4204</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4205</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4206</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4207</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4208</ID>
+	<Level>43</Level>
+	<EquipLevel>86</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4301</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4302</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4303</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4304</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4305</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4306</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4307</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4308</ID>
+	<Level>44</Level>
+	<EquipLevel>88</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4401</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4402</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4403</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4404</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4405</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4406</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4407</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4408</ID>
+	<Level>45</Level>
+	<EquipLevel>90</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4501</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4502</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4503</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4504</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4505</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4506</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4507</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4508</ID>
+	<Level>46</Level>
+	<EquipLevel>92</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4601</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4602</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4603</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4604</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4605</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4606</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4607</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4608</ID>
+	<Level>47</Level>
+	<EquipLevel>94</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4701</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4702</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4703</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4704</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4705</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4706</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4707</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4708</ID>
+	<Level>48</Level>
+	<EquipLevel>96</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4801</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4802</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4803</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4804</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4805</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4806</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4807</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4808</ID>
+	<Level>49</Level>
+	<EquipLevel>98</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4901</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>琥虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4902</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>琥炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4903</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>琥冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4904</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>琥雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4905</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>琥岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4906</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>琥震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4907</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>琥刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>4908</ID>
+	<Level>50</Level>
+	<EquipLevel>100</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>琥空之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5001</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱炎之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5002</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱冰之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5003</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱雷之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5004</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱岚之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5005</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱震之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5006</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱刻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5007</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱空之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5008</ID>
+	<Level>51</Level>
+	<EquipLevel>102</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱幻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5101</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱冰之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5102</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱雷之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5103</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱岚之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5104</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱震之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5105</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱刻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5106</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱空之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5107</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱幻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5108</ID>
+	<Level>52</Level>
+	<EquipLevel>104</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱星之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5201</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱雷之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5202</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱岚之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5203</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱震之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5204</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱刻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5205</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱空之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5206</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱幻之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5207</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱星之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5208</ID>
+	<Level>53</Level>
+	<EquipLevel>106</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱虹之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5301</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱岚之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5302</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱震之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5303</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱刻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5304</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱空之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5305</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱幻之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5306</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱星之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5307</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱虹之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5308</ID>
+	<Level>54</Level>
+	<EquipLevel>108</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱炎之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5401</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱震之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5402</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱刻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5403</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱空之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5404</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱幻之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5405</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱星之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5406</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱虹之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5407</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱炎之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5408</ID>
+	<Level>55</Level>
+	<EquipLevel>110</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱冰之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5501</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱刻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5502</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱空之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5503</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱幻之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5504</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱星之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5505</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱虹之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5506</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱炎之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5507</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱冰之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5508</ID>
+	<Level>56</Level>
+	<EquipLevel>112</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱雷之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5601</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱空之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5602</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱幻之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5603</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱星之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5604</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱虹之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5605</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱炎之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5606</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱冰之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5607</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱雷之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5608</ID>
+	<Level>57</Level>
+	<EquipLevel>114</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱岚之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5701</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱幻之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5702</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱星之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5703</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱虹之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5704</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱炎之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5705</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱冰之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5706</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱雷之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5707</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱岚之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5708</ID>
+	<Level>58</Level>
+	<EquipLevel>116</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱震之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5801</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱星之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5802</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱虹之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5803</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱炎之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5804</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱冰之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5805</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱雷之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5806</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱岚之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5807</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱震之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5808</ID>
+	<Level>59</Level>
+	<EquipLevel>118</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱刻之阿呆</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5901</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>101</LeaderID>
+	<Member1ID>102</Member1ID>
+	<Member2ID>103</Member2ID>
+	<Member3ID>104</Member3ID>
+	<Member4ID>105</Member4ID>
+	<TeamName>朱虹之小新</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5902</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>102</LeaderID>
+	<Member1ID>103</Member1ID>
+	<Member2ID>104</Member2ID>
+	<Member3ID>105</Member3ID>
+	<Member4ID>106</Member4ID>
+	<TeamName>朱炎之小爱</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5903</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>103</LeaderID>
+	<Member1ID>104</Member1ID>
+	<Member2ID>105</Member2ID>
+	<Member3ID>106</Member3ID>
+	<Member4ID>107</Member4ID>
+	<TeamName>朱冰之妮妮</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5904</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>104</LeaderID>
+	<Member1ID>105</Member1ID>
+	<Member2ID>106</Member2ID>
+	<Member3ID>107</Member3ID>
+	<Member4ID>108</Member4ID>
+	<TeamName>朱雷之正南</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5905</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>105</LeaderID>
+	<Member1ID>106</Member1ID>
+	<Member2ID>107</Member2ID>
+	<Member3ID>108</Member3ID>
+	<Member4ID>101</Member4ID>
+	<TeamName>朱岚之风间</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5906</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>106</LeaderID>
+	<Member1ID>107</Member1ID>
+	<Member2ID>108</Member2ID>
+	<Member3ID>101</Member3ID>
+	<Member4ID>102</Member4ID>
+	<TeamName>朱震之肥嘟嘟</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5907</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>107</LeaderID>
+	<Member1ID>108</Member1ID>
+	<Member2ID>101</Member2ID>
+	<Member3ID>102</Member3ID>
+	<Member4ID>103</Member4ID>
+	<TeamName>朱刻之小葵</TeamName>
+</robotteams>
+<robotteams>
+	<ID>5908</ID>
+	<Level>60</Level>
+	<EquipLevel>120</EquipLevel>
+	<LeaderID>108</LeaderID>
+	<Member1ID>101</Member1ID>
+	<Member2ID>102</Member2ID>
+	<Member3ID>103</Member3ID>
+	<Member4ID>104</Member4ID>
+	<TeamName>朱空之阿呆</TeamName>
+</robotteams>
+</root>

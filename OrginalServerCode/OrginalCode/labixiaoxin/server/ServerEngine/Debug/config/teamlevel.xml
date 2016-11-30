@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<teamlevel>
+	<level>1</level>
+	<levelup_exp>48</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>5</player_levelmax>
+	<equip_levelmax>11</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>2</level>
+	<levelup_exp>53</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>6</player_levelmax>
+	<equip_levelmax>12</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>3</level>
+	<levelup_exp>60</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>21000001</extraskill_learn>
+	<player_levelmax>6</player_levelmax>
+	<equip_levelmax>13</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>4</level>
+	<levelup_exp>69</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>7</player_levelmax>
+	<equip_levelmax>14</equip_levelmax>
+	<levelup_tips>可以在[12f622]伙伴[-]处查看成员了。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>5</level>
+	<levelup_exp>78</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>7</player_levelmax>
+	<equip_levelmax>15</equip_levelmax>
+	<levelup_tips>[12f622]动感百货[-]现已开张。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>6</level>
+	<levelup_exp>89</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>8</player_levelmax>
+	<equip_levelmax>16</equip_levelmax>
+	<levelup_tips>[12f622]金卡抽奖[-]现已解锁，可以去金卡抽奖了哦。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>7</level>
+	<levelup_exp>101</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>8</player_levelmax>
+	<equip_levelmax>17</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>8</level>
+	<levelup_exp>113</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>21010001</extraskill_learn>
+	<player_levelmax>9</player_levelmax>
+	<equip_levelmax>18</equip_levelmax>
+	<levelup_tips>[12f622]礼品[-]已开启，快去领去8级礼包奖励。=[12f622]装备[-]已解锁</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>9</level>
+	<levelup_exp>126</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>9</player_levelmax>
+	<equip_levelmax>19</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>10</level>
+	<levelup_exp>140</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>10</player_levelmax>
+	<equip_levelmax>20</equip_levelmax>
+	<levelup_tips>可领取10级礼包。=[12f622]活动[-]已开启，动感能量等你来摸。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>11</level>
+	<levelup_exp>155</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>11</player_levelmax>
+	<equip_levelmax>22</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>12</level>
+	<levelup_exp>171</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>12</player_levelmax>
+	<equip_levelmax>24</equip_levelmax>
+	<levelup_tips>可领取12级礼包。=[12f622]宝山副本[-]已开启，那里有好多贝壳和合金哦。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>13</level>
+	<levelup_exp>187</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>13</player_levelmax>
+	<equip_levelmax>26</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>14</level>
+	<levelup_exp>204</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>21020001</extraskill_learn>
+	<player_levelmax>14</player_levelmax>
+	<equip_levelmax>28</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>15</level>
+	<levelup_exp>253</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>15</player_levelmax>
+	<equip_levelmax>30</equip_levelmax>
+	<levelup_tips>可领取15级礼包。=[12f622]合成[-]已开启，可以合成更好的装备哦。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>16</level>
+	<levelup_exp>309</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>16</player_levelmax>
+	<equip_levelmax>32</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>17</level>
+	<levelup_exp>369</levelup_exp>
+	<extraskill_slots>1</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>17</player_levelmax>
+	<equip_levelmax>34</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>18</level>
+	<levelup_exp>436</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>18</player_levelmax>
+	<equip_levelmax>36</equip_levelmax>
+	<levelup_tips>可领取18级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>19</level>
+	<levelup_exp>508</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>19</player_levelmax>
+	<equip_levelmax>38</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>20</level>
+	<levelup_exp>585</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>20</player_levelmax>
+	<equip_levelmax>40</equip_levelmax>
+	<levelup_tips>[12f622]试炼副本[-]已开启，想获得更多装备就来这里。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>21</level>
+	<levelup_exp>669</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>21030001</extraskill_learn>
+	<player_levelmax>21</player_levelmax>
+	<equip_levelmax>42</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>22</level>
+	<levelup_exp>760</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>22</player_levelmax>
+	<equip_levelmax>44</equip_levelmax>
+	<levelup_tips>可领取22级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>23</level>
+	<levelup_exp>856</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>23</player_levelmax>
+	<equip_levelmax>46</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>24</level>
+	<levelup_exp>959</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>24</player_levelmax>
+	<equip_levelmax>48</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>25</level>
+	<levelup_exp>1069</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>25</player_levelmax>
+	<equip_levelmax>50</equip_levelmax>
+	<levelup_tips>可领取25级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>26</level>
+	<levelup_exp>1186</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>26</player_levelmax>
+	<equip_levelmax>52</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>27</level>
+	<levelup_exp>1309</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>27</player_levelmax>
+	<equip_levelmax>54</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>28</level>
+	<levelup_exp>1440</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>21040001</extraskill_learn>
+	<player_levelmax>28</player_levelmax>
+	<equip_levelmax>56</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>29</level>
+	<levelup_exp>1740</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>29</player_levelmax>
+	<equip_levelmax>58</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>30</level>
+	<levelup_exp>2067</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>30</player_levelmax>
+	<equip_levelmax>60</equip_levelmax>
+	<levelup_tips>可领取30级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>31</level>
+	<levelup_exp>2423</levelup_exp>
+	<extraskill_slots>2</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>31</player_levelmax>
+	<equip_levelmax>62</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>32</level>
+	<levelup_exp>2808</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>32</player_levelmax>
+	<equip_levelmax>64</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>33</level>
+	<levelup_exp>3225</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>33</player_levelmax>
+	<equip_levelmax>66</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>34</level>
+	<levelup_exp>3675</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>34</player_levelmax>
+	<equip_levelmax>68</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>35</level>
+	<levelup_exp>4159</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>21050001</extraskill_learn>
+	<player_levelmax>35</player_levelmax>
+	<equip_levelmax>70</equip_levelmax>
+	<levelup_tips>可领取35级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>36</level>
+	<levelup_exp>4679</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>36</player_levelmax>
+	<equip_levelmax>72</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>37</level>
+	<levelup_exp>5236</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>37</player_levelmax>
+	<equip_levelmax>74</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>38</level>
+	<levelup_exp>5833</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>38</player_levelmax>
+	<equip_levelmax>76</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>39</level>
+	<levelup_exp>6470</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>39</player_levelmax>
+	<equip_levelmax>78</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>40</level>
+	<levelup_exp>7149</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>40</player_levelmax>
+	<equip_levelmax>80</equip_levelmax>
+	<levelup_tips>可领取40级礼包。</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>41</level>
+	<levelup_exp>7871</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>41</player_levelmax>
+	<equip_levelmax>82</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>42</level>
+	<levelup_exp>8640</levelup_exp>
+	<extraskill_slots>3</extraskill_slots>
+	<extraskill_learn>21060001</extraskill_learn>
+	<player_levelmax>42</player_levelmax>
+	<equip_levelmax>84</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>43</level>
+	<levelup_exp>9723</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>43</player_levelmax>
+	<equip_levelmax>86</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>44</level>
+	<levelup_exp>10885</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>44</player_levelmax>
+	<equip_levelmax>88</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>45</level>
+	<levelup_exp>12128</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>45</player_levelmax>
+	<equip_levelmax>90</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>46</level>
+	<levelup_exp>13458</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>46</player_levelmax>
+	<equip_levelmax>92</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>47</level>
+	<levelup_exp>14877</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>47</player_levelmax>
+	<equip_levelmax>94</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>48</level>
+	<levelup_exp>16389</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>48</player_levelmax>
+	<equip_levelmax>96</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>49</level>
+	<levelup_exp>18000</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>49</player_levelmax>
+	<equip_levelmax>98</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>50</level>
+	<levelup_exp>20097</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>50</player_levelmax>
+	<equip_levelmax>100</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>51</level>
+	<levelup_exp>22348</levelup_exp>
+	<extraskill_slots>4</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>51</player_levelmax>
+	<equip_levelmax>102</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>52</level>
+	<levelup_exp>24757</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>52</player_levelmax>
+	<equip_levelmax>104</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>53</level>
+	<levelup_exp>27335</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>53</player_levelmax>
+	<equip_levelmax>106</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>54</level>
+	<levelup_exp>30089</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>54</player_levelmax>
+	<equip_levelmax>108</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>55</level>
+	<levelup_exp>33027</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>55</player_levelmax>
+	<equip_levelmax>110</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>56</level>
+	<levelup_exp>36158</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>56</player_levelmax>
+	<equip_levelmax>112</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>57</level>
+	<levelup_exp>39491</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>57</player_levelmax>
+	<equip_levelmax>114</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>58</level>
+	<levelup_exp>43035</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>58</player_levelmax>
+	<equip_levelmax>116</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>59</level>
+	<levelup_exp>46800</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>59</player_levelmax>
+	<equip_levelmax>118</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+<teamlevel>
+	<level>60</level>
+	<levelup_exp>0</levelup_exp>
+	<extraskill_slots>5</extraskill_slots>
+	<extraskill_learn>0</extraskill_learn>
+	<player_levelmax>60</player_levelmax>
+	<equip_levelmax>120</equip_levelmax>
+	<levelup_tips>0</levelup_tips>
+</teamlevel>
+</root>

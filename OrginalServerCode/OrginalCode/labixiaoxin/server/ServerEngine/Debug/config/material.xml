@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<material>
+	<id>17010011</id>
+	<resid>chuisuipian1</resid>
+	<name>1星锤子碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星锤子的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010012</id>
+	<resid>chuisuipian1</resid>
+	<name>2星锤子碎片</name>
+	<formula_id>18050011</formula_id>
+	<quality>2</quality>
+	<desc>合成2星锤子的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010013</id>
+	<resid>chuisuipian1</resid>
+	<name>3星锤子碎片</name>
+	<formula_id>18050012</formula_id>
+	<quality>3</quality>
+	<desc>合成3星锤子的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010014</id>
+	<resid>chuisuipian2</resid>
+	<name>4星锤子碎片</name>
+	<formula_id>18050013</formula_id>
+	<quality>4</quality>
+	<desc>合成4星锤子的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010015</id>
+	<resid>chuisuipian3</resid>
+	<name>5星锤子碎片</name>
+	<formula_id>18050014</formula_id>
+	<quality>5</quality>
+	<desc>合成5星锤子的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010021</id>
+	<resid>gongsuipian1</resid>
+	<name>1星弓碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星弓的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010022</id>
+	<resid>gongsuipian1</resid>
+	<name>2星弓碎片</name>
+	<formula_id>18050021</formula_id>
+	<quality>2</quality>
+	<desc>合成2星弓的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010023</id>
+	<resid>gongsuipian1</resid>
+	<name>3星弓碎片</name>
+	<formula_id>18050022</formula_id>
+	<quality>3</quality>
+	<desc>合成3星弓的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010024</id>
+	<resid>gongsuipian2</resid>
+	<name>4星弓碎片</name>
+	<formula_id>18050023</formula_id>
+	<quality>4</quality>
+	<desc>合成4星弓的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010025</id>
+	<resid>gongsuipian3</resid>
+	<name>5星弓碎片</name>
+	<formula_id>18050024</formula_id>
+	<quality>5</quality>
+	<desc>合成5星弓的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010031</id>
+	<resid>tuzisuipian1</resid>
+	<name>1星兔子碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星兔子的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010032</id>
+	<resid>tuzisuipian1</resid>
+	<name>2星兔子碎片</name>
+	<formula_id>18050031</formula_id>
+	<quality>2</quality>
+	<desc>合成2星兔子的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010033</id>
+	<resid>tuzisuipian1</resid>
+	<name>3星兔子碎片</name>
+	<formula_id>18050032</formula_id>
+	<quality>3</quality>
+	<desc>合成3星兔子的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010034</id>
+	<resid>tuzisuipian2</resid>
+	<name>4星兔子碎片</name>
+	<formula_id>18050033</formula_id>
+	<quality>4</quality>
+	<desc>合成4星兔子的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010035</id>
+	<resid>tuzisuipian3</resid>
+	<name>5星兔子碎片</name>
+	<formula_id>18050034</formula_id>
+	<quality>5</quality>
+	<desc>合成5星兔子的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010041</id>
+	<resid>shusuipian1</resid>
+	<name>1星漫画碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星漫画的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010042</id>
+	<resid>shusuipian1</resid>
+	<name>2星漫画碎片</name>
+	<formula_id>18050041</formula_id>
+	<quality>2</quality>
+	<desc>合成2星漫画的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010043</id>
+	<resid>shusuipian1</resid>
+	<name>3星漫画碎片</name>
+	<formula_id>18050042</formula_id>
+	<quality>3</quality>
+	<desc>合成3星漫画的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010044</id>
+	<resid>shusuipian2</resid>
+	<name>4星漫画碎片</name>
+	<formula_id>18050043</formula_id>
+	<quality>4</quality>
+	<desc>合成4星漫画的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010045</id>
+	<resid>shusuipian3</resid>
+	<name>5星漫画碎片</name>
+	<formula_id>18050044</formula_id>
+	<quality>5</quality>
+	<desc>合成5星漫画的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010051</id>
+	<resid>mozhangsuipian1</resid>
+	<name>1星杖碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星杖的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010052</id>
+	<resid>mozhangsuipian1</resid>
+	<name>2星杖碎片</name>
+	<formula_id>18050051</formula_id>
+	<quality>2</quality>
+	<desc>合成2星杖的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010053</id>
+	<resid>mozhangsuipian1</resid>
+	<name>3星杖碎片</name>
+	<formula_id>18050052</formula_id>
+	<quality>3</quality>
+	<desc>合成3星杖的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010054</id>
+	<resid>mozhangsuipian2</resid>
+	<name>4星杖碎片</name>
+	<formula_id>18050053</formula_id>
+	<quality>4</quality>
+	<desc>合成4星杖的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010055</id>
+	<resid>mozhangsuipian3</resid>
+	<name>5星杖碎片</name>
+	<formula_id>18050054</formula_id>
+	<quality>5</quality>
+	<desc>合成5星杖的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010061</id>
+	<resid>jiansuipian1</resid>
+	<name>1星刀碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星刀的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010062</id>
+	<resid>jiansuipian1</resid>
+	<name>2星刀碎片</name>
+	<formula_id>18050061</formula_id>
+	<quality>2</quality>
+	<desc>合成2星刀的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010063</id>
+	<resid>jiansuipian1</resid>
+	<name>3星刀碎片</name>
+	<formula_id>18050062</formula_id>
+	<quality>3</quality>
+	<desc>合成3星刀的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010064</id>
+	<resid>jiansuipian2</resid>
+	<name>4星刀碎片</name>
+	<formula_id>18050063</formula_id>
+	<quality>4</quality>
+	<desc>合成4星刀的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010065</id>
+	<resid>jiansuipian3</resid>
+	<name>5星刀碎片</name>
+	<formula_id>18050064</formula_id>
+	<quality>5</quality>
+	<desc>合成5星刀的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010071</id>
+	<resid>wanjvsuipian1</resid>
+	<name>1星玩具碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星玩具的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010072</id>
+	<resid>wanjvsuipian1</resid>
+	<name>2星玩具碎片</name>
+	<formula_id>18050071</formula_id>
+	<quality>2</quality>
+	<desc>合成2星玩具的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010073</id>
+	<resid>wanjvsuipian1</resid>
+	<name>3星玩具碎片</name>
+	<formula_id>18050072</formula_id>
+	<quality>3</quality>
+	<desc>合成3星玩具的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010074</id>
+	<resid>wanjvsuipian2</resid>
+	<name>4星玩具碎片</name>
+	<formula_id>18050073</formula_id>
+	<quality>4</quality>
+	<desc>合成4星玩具的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010075</id>
+	<resid>wanjvsuipian3</resid>
+	<name>5星玩具碎片</name>
+	<formula_id>18050074</formula_id>
+	<quality>5</quality>
+	<desc>合成5星玩具的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17010081</id>
+	<resid>huasuipian1</resid>
+	<name>1星花碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星花的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17010082</id>
+	<resid>huasuipian1</resid>
+	<name>2星花碎片</name>
+	<formula_id>18050081</formula_id>
+	<quality>2</quality>
+	<desc>合成2星花的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17010083</id>
+	<resid>huasuipian1</resid>
+	<name>3星花碎片</name>
+	<formula_id>18050082</formula_id>
+	<quality>3</quality>
+	<desc>合成3星花的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17010084</id>
+	<resid>huasuipian2</resid>
+	<name>4星花碎片</name>
+	<formula_id>18050083</formula_id>
+	<quality>4</quality>
+	<desc>合成4星花的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17010085</id>
+	<resid>huasuipian3</resid>
+	<name>5星花碎片</name>
+	<formula_id>18050084</formula_id>
+	<quality>5</quality>
+	<desc>合成5星花的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17011001</id>
+	<resid>jiezhisuipian1</resid>
+	<name>1星戒指碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星戒指的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17011002</id>
+	<resid>jiezhisuipian1</resid>
+	<name>2星戒指碎片</name>
+	<formula_id>18051001</formula_id>
+	<quality>2</quality>
+	<desc>合成2星戒指的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17011003</id>
+	<resid>jiezhisuipian1</resid>
+	<name>3星戒指碎片</name>
+	<formula_id>18051002</formula_id>
+	<quality>3</quality>
+	<desc>合成3星戒指的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17011004</id>
+	<resid>jiezhisuipian2</resid>
+	<name>4星戒指碎片</name>
+	<formula_id>18051003</formula_id>
+	<quality>4</quality>
+	<desc>合成4星戒指的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17011005</id>
+	<resid>jiezhisuipian3</resid>
+	<name>5星戒指碎片</name>
+	<formula_id>18051004</formula_id>
+	<quality>5</quality>
+	<desc>合成5星戒指的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17012001</id>
+	<resid>yaodaisuipian1</resid>
+	<name>1星腰带碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星腰带的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17012002</id>
+	<resid>yaodaisuipian1</resid>
+	<name>2星腰带碎片</name>
+	<formula_id>18052001</formula_id>
+	<quality>2</quality>
+	<desc>合成2星腰带的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17012003</id>
+	<resid>yaodaisuipian1</resid>
+	<name>3星腰带碎片</name>
+	<formula_id>18052002</formula_id>
+	<quality>3</quality>
+	<desc>合成3星腰带的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17012004</id>
+	<resid>yaodaisuipian2</resid>
+	<name>4星腰带碎片</name>
+	<formula_id>18052003</formula_id>
+	<quality>4</quality>
+	<desc>合成4星腰带的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17012005</id>
+	<resid>yaodaisuipian3</resid>
+	<name>5星腰带碎片</name>
+	<formula_id>18052004</formula_id>
+	<quality>5</quality>
+	<desc>合成5星腰带的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17014001</id>
+	<resid>xiangliansuipian1</resid>
+	<name>1星项链碎片</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>合成1星项链的主要材料</desc>
+	<shop>14010001,1000</shop>
+</material>
+<material>
+	<id>17014002</id>
+	<resid>xiangliansuipian1</resid>
+	<name>2星项链碎片</name>
+	<formula_id>18051101</formula_id>
+	<quality>2</quality>
+	<desc>合成2星项链的主要材料</desc>
+	<shop>14010001,2000</shop>
+</material>
+<material>
+	<id>17014003</id>
+	<resid>xiangliansuipian1</resid>
+	<name>3星项链碎片</name>
+	<formula_id>18051102</formula_id>
+	<quality>3</quality>
+	<desc>合成3星项链的主要材料</desc>
+	<shop>14010001,4000</shop>
+</material>
+<material>
+	<id>17014004</id>
+	<resid>xiangliansuipian2</resid>
+	<name>4星项链碎片</name>
+	<formula_id>18051103</formula_id>
+	<quality>4</quality>
+	<desc>合成4星项链的主要材料</desc>
+	<shop>14010001,9000</shop>
+</material>
+<material>
+	<id>17014005</id>
+	<resid>xiangliansuipian3</resid>
+	<name>5星项链碎片</name>
+	<formula_id>18051104</formula_id>
+	<quality>5</quality>
+	<desc>合成5星项链的主要材料</desc>
+	<shop>14010001,25000</shop>
+</material>
+<material>
+	<id>17050001</id>
+	<resid>sxl1</resid>
+	<name>普通刷新令</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>立即刷新神秘商店中出售的商品。</desc>
+	<shop>0</shop>
+</material>
+<material>
+	<id>17050002</id>
+	<resid>sxl2</resid>
+	<name>高级刷新令</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>较高几率使神秘商店刷新高星级物品。</desc>
+	<shop>0</shop>
+</material>
+<material>
+	<id>17050006</id>
+	<resid>sdl</resid>
+	<name>扫荡令</name>
+	<formula_id>0</formula_id>
+	<quality>1</quality>
+	<desc>使用后可以扫荡普通剧情副本1次</desc>
+	<shop>0</shop>
+</material>
+</root>

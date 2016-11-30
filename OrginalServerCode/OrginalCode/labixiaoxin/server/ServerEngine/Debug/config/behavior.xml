@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<behavior>
+	<id>16000001</id>
+	<reward>17050006,10</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>领取vip0每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000002</id>
+	<reward>14010001,10000;17050006,20</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>1</vip_level_require>
+	<desc>领取vip1每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000003</id>
+	<reward>14010001,20000;14040001,100;17050006,40</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>2</vip_level_require>
+	<desc>领取vip2每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000004</id>
+	<reward>14010001,30000;14040001,200;14020001,6;17050006,60</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>3</vip_level_require>
+	<desc>领取vip3每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000005</id>
+	<reward>14010001,50000;14040001,300;14020001,8;17050006,80</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>4</vip_level_require>
+	<desc>领取vip4每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000006</id>
+	<reward>14010001,100000;14040001,500;14020001,10;17050006,100</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>5</vip_level_require>
+	<desc>领取vip5每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000007</id>
+	<reward>13200002</reward>
+	<cost>14020001,300</cost>
+	<cooldown>86400,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>钻石抽奖</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000008</id>
+	<reward>13200001</reward>
+	<cost>14090001,200</cost>
+	<cooldown>86400,1,1,300</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>友情抽奖</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000009</id>
+	<reward>13200003</reward>
+	<cost>14020001,300</cost>
+	<cooldown>0,0,0,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>钻石抽奖(10连)</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>1600000A</id>
+	<reward>13300002</reward>
+	<cost>14010001,300</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>钻石首抽</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>1600000B</id>
+	<reward>13300001</reward>
+	<cost>14090001,200</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>友情首抽</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000022</id>
+	<reward>14030001,30</reward>
+	<cost>0</cost>
+	<cooldown>7200,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>回复30点体力</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000023</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>每日登陆</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000025</id>
+	<reward>14010001,150000;14040001,600;14020001,10;17050006,120</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>6</vip_level_require>
+	<desc>领取vip6每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000026</id>
+	<reward>14010001,200000;14040001,600;14020001,10;17050001,5;17050002,1;17050006,140</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>7</vip_level_require>
+	<desc>领取vip7每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16000027</id>
+	<reward>14010001,250000;14040001,800;14020001,10;17050001,10;17050002,2;17050006,160</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>8</vip_level_require>
+	<desc>领取vip8每日奖励</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001001</id>
+	<reward>14020001,10;14090001,200</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>1日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001002</id>
+	<reward>0AA06001,20;14020001,20;14090001,400</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>2日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001003</id>
+	<reward>0AA06001,5;14020001,30;14090001,400</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>3日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001004</id>
+	<reward>0AA06001,5;14020001,40;14090001,600</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>4日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001005</id>
+	<reward>0AA06001,5;14020001,50;14090001,600</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>5日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001006</id>
+	<reward>0AA06001,5;14020001,50;14090001,1000</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>6日礼包</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16001007</id>
+	<reward>0AA06001,20;14020001,100;14090001,2000</reward>
+	<cost>0</cost>
+	<cooldown>1,86400,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>7日礼包</desc>
+	<ismall></ismall>
+	<resid></resid>
+	<mall_desc></mall_desc>
+</behavior>
+<behavior>
+	<id>16100019</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>10800,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>浇水cd</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16100020</id>
+	<reward>0</reward>
+	<cost>0</cost>
+	<cooldown>7200,1,1,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>摇钱树收获cd</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16800001</id>
+	<reward>17050001,1</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买普通刷新令</desc>
+	<ismall>1</ismall>
+	<resid>icon_17050001</resid>
+	<mall_desc>购买,普通刷新令</mall_desc>
+</behavior>
+<behavior>
+	<id>16800002</id>
+	<reward>17050002,1</reward>
+	<cost>14020001,12</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买高级刷新令</desc>
+	<ismall>1</ismall>
+	<resid>icon_17050002</resid>
+	<mall_desc>购买,高级刷新令</mall_desc>
+</behavior>
+<behavior>
+	<id>16800101</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,3,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买体力，每天购买3次</desc>
+	<ismall>1</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800102</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,4,0</cooldown>
+	<vip_level_require>1</vip_level_require>
+	<desc>购买体力，每天购买4次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800103</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,5,0</cooldown>
+	<vip_level_require>2</vip_level_require>
+	<desc>购买体力，每天购买5次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800104</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,6,0</cooldown>
+	<vip_level_require>3</vip_level_require>
+	<desc>购买体力，每天购买6次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800105</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,7,0</cooldown>
+	<vip_level_require>4</vip_level_require>
+	<desc>购买体力，每天购买7次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800106</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,8,0</cooldown>
+	<vip_level_require>5</vip_level_require>
+	<desc>购买体力，每天购买8次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800107</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,9,0</cooldown>
+	<vip_level_require>6</vip_level_require>
+	<desc>购买体力，每天购买9次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800108</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,10,0</cooldown>
+	<vip_level_require>7</vip_level_require>
+	<desc>购买体力，每天购买10次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800109</id>
+	<reward>14030001,30</reward>
+	<cost>14020001,20</cost>
+	<cooldown>1,86400,11,0</cooldown>
+	<vip_level_require>8</vip_level_require>
+	<desc>购买体力，每天购买11次</desc>
+	<ismall>2</ismall>
+	<resid>tlhf</resid>
+	<mall_desc>购买,体力</mall_desc>
+</behavior>
+<behavior>
+	<id>16800201</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,10,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买元气，每天10次</desc>
+	<ismall>1</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800202</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,11,0</cooldown>
+	<vip_level_require>1</vip_level_require>
+	<desc>购买元气，每天11次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800203</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,12,0</cooldown>
+	<vip_level_require>2</vip_level_require>
+	<desc>购买元气，每天12次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800204</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,13,0</cooldown>
+	<vip_level_require>3</vip_level_require>
+	<desc>购买元气，每天13次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800205</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,14,0</cooldown>
+	<vip_level_require>4</vip_level_require>
+	<desc>购买元气，每天14次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800206</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,15,0</cooldown>
+	<vip_level_require>5</vip_level_require>
+	<desc>购买元气，每天15次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800207</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,16,0</cooldown>
+	<vip_level_require>6</vip_level_require>
+	<desc>购买元气，每天16次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800208</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,17,0</cooldown>
+	<vip_level_require>7</vip_level_require>
+	<desc>购买元气，每天17次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800209</id>
+	<reward>14080001,30</reward>
+	<cost>14020001,6</cost>
+	<cooldown>1,86400,18,0</cooldown>
+	<vip_level_require>8</vip_level_require>
+	<desc>购买元气，每天18次</desc>
+	<ismall>2</ismall>
+	<resid>ddhf</resid>
+	<mall_desc>购买,斗点</mall_desc>
+</behavior>
+<behavior>
+	<id>16800301</id>
+	<reward>14040001,350</reward>
+	<cost>14020001,10</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>10元宝购买350晶石</desc>
+	<ismall>1</ismall>
+	<resid>icon_powerpoint</resid>
+	<mall_desc>购买,晶石</mall_desc>
+</behavior>
+<behavior>
+	<id>16800302</id>
+	<reward>14040001,350</reward>
+	<cost>14020001,8</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>8</vip_level_require>
+	<desc>10元宝购买350晶石</desc>
+	<ismall>2</ismall>
+	<resid>icon_powerpoint</resid>
+	<mall_desc>购买,晶石</mall_desc>
+</behavior>
+<behavior>
+	<id>16800401</id>
+	<reward>0</reward>
+	<cost>17050006,1</cost>
+	<cooldown>0,0,0,0,</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>使用扫荡券</desc>
+	<ismall>0</ismall>
+	<resid>0</resid>
+	<mall_desc>0</mall_desc>
+</behavior>
+<behavior>
+	<id>16800501</id>
+	<reward>14010001,300000</reward>
+	<cost>14020001,10</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>0</vip_level_require>
+	<desc>购买金币</desc>
+	<ismall>1</ismall>
+	<resid>icon_coin</resid>
+	<mall_desc>购买,金币</mall_desc>
+</behavior>
+<behavior>
+	<id>16800502</id>
+	<reward>14010001,300000</reward>
+	<cost>14020001,8</cost>
+	<cooldown>1,86400,99999,0</cooldown>
+	<vip_level_require>8</vip_level_require>
+	<desc>购买金币</desc>
+	<ismall>2</ismall>
+	<resid>icon_coin</resid>
+	<mall_desc>购买,金币</mall_desc>
+</behavior>
+</root>

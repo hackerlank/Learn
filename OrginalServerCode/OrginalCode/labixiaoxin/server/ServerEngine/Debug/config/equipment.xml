@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<equipment>
+	<id>0C101101</id>
+	<resid>0C101101</resid>
+	<lresid>0C101101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小绿锤</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>路边不起眼的木棍，比较结实</desc>
+</equipment>
+<equipment>
+	<id>0C101201</id>
+	<resid>0C101201</resid>
+	<lresid>0C101201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小铜锤</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>龙族幼子的玩具，被捕鱼者无意捞获</desc>
+</equipment>
+<equipment>
+	<id>0C101202</id>
+	<resid>0C101202</resid>
+	<lresid>0C101202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小银锤</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>西域流寇的常用武器</desc>
+</equipment>
+<equipment>
+	<id>0C101301</id>
+	<resid>0C101301</resid>
+	<lresid>0C101301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>章鱼锤</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>少林伙夫经常使用的工具</desc>
+</equipment>
+<equipment>
+	<id>0C101302</id>
+	<resid>0C101302</resid>
+	<lresid>0C101302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>鲨鱼锤</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>使用大雁毛制成的弓箭，非常轻便</desc>
+</equipment>
+<equipment>
+	<id>0C101401</id>
+	<resid>0C101401</resid>
+	<lresid>0C101401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小鸡锤</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18101401</formula_id>
+	<desc>柳树枝做成的弓箭</desc>
+</equipment>
+<equipment>
+	<id>0C101402</id>
+	<resid>0C101402</resid>
+	<lresid>0C101402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小狗锤</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18101402</formula_id>
+	<desc>榆木制成的弓箭，蕴含些许灵气</desc>
+</equipment>
+<equipment>
+	<id>0C101403</id>
+	<resid>0C101403</resid>
+	<lresid>0C101403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>大象锤</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18101403</formula_id>
+	<desc>北风镜特有的蓝色树木制成的法杖，蕴含雪之力</desc>
+</equipment>
+<equipment>
+	<id>0C101501</id>
+	<resid>0C101501</resid>
+	<lresid>0C101501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>闪电锤</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18101501</formula_id>
+	<desc>铜制的棍器，其上冒着绿光</desc>
+</equipment>
+<equipment>
+	<id>0C101502</id>
+	<resid>0C101502</resid>
+	<lresid>0C101502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>火焰锤</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18101502</formula_id>
+	<desc>紫铜制成的狼牙棒</desc>
+</equipment>
+<equipment>
+	<id>0C101503</id>
+	<resid>0C101503</resid>
+	<lresid>0C101503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>冰晶锤</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18101503</formula_id>
+	<desc>仙品坊制造的擎天赝品，取其形而无其神</desc>
+</equipment>
+<equipment>
+	<id>0C102101</id>
+	<resid>0C102101</resid>
+	<lresid>0C102101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色之弓</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102201</id>
+	<resid>0C102201</resid>
+	<lresid>0C102201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色之弓</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102202</id>
+	<resid>0C102202</resid>
+	<lresid>0C102202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色之弓</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102301</id>
+	<resid>0C102301</resid>
+	<lresid>0C102301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>神奇之弓</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102302</id>
+	<resid>0C102302</resid>
+	<lresid>0C102302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>花朵之弓</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102401</id>
+	<resid>0C102401</resid>
+	<lresid>0C102401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>希望之弓</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18102401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102402</id>
+	<resid>0C102402</resid>
+	<lresid>0C102402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>诚实之弓</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18102402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102403</id>
+	<resid>0C102403</resid>
+	<lresid>0C102403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>友情之弓</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18102403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102501</id>
+	<resid>0C102501</resid>
+	<lresid>0C102501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>云雾之弓</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18102501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102502</id>
+	<resid>0C102502</resid>
+	<lresid>0C102502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>冰晶之弓</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18102502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C102503</id>
+	<resid>0C102503</resid>
+	<lresid>0C102503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>火焰之弓</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18102503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103101</id>
+	<resid>0C103101</resid>
+	<lresid>0C103101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色兔子</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103201</id>
+	<resid>0C103201</resid>
+	<lresid>0C103201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色兔子</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103202</id>
+	<resid>0C103202</resid>
+	<lresid>0C103202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色兔子</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103301</id>
+	<resid>0C103301</resid>
+	<lresid>0C103301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿叶兔子</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103302</id>
+	<resid>0C103302</resid>
+	<lresid>0C103302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>黑耀兔子</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103401</id>
+	<resid>0C103401</resid>
+	<lresid>0C103401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>芒果兔子</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18103401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103402</id>
+	<resid>0C103402</resid>
+	<lresid>0C103402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>樱桃兔子</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18103402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103403</id>
+	<resid>0C103403</resid>
+	<lresid>0C103403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>南瓜兔子</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18103403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103501</id>
+	<resid>0C103501</resid>
+	<lresid>0C103501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>希望兔子</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18103501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103502</id>
+	<resid>0C103502</resid>
+	<lresid>0C103502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>诚实兔子</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18103502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C103503</id>
+	<resid>0C103503</resid>
+	<lresid>0C103503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>爱心兔子</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18103503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104101</id>
+	<resid>0C104101</resid>
+	<lresid>0C104101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色漫画</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104201</id>
+	<resid>0C104201</resid>
+	<lresid>0C104201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色漫画</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104202</id>
+	<resid>0C104202</resid>
+	<lresid>0C104202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色漫画</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104301</id>
+	<resid>0C104301</resid>
+	<lresid>0C104301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>超人上卷</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104302</id>
+	<resid>0C104302</resid>
+	<lresid>0C104302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>超人下卷</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104401</id>
+	<resid>0C104401</resid>
+	<lresid>0C104401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>假面上卷</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18104401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104402</id>
+	<resid>0C104402</resid>
+	<lresid>0C104402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>假面中卷</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18104402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104403</id>
+	<resid>0C104403</resid>
+	<lresid>0C104403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>假面下卷</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18104403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104501</id>
+	<resid>0C104501</resid>
+	<lresid>0C104501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>鲁邦1卷</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18104501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104502</id>
+	<resid>0C104502</resid>
+	<lresid>0C104502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>鲁邦2卷</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18104502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C104503</id>
+	<resid>0C104503</resid>
+	<lresid>0C104503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>鲁邦3卷</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18104503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105101</id>
+	<resid>0C105101</resid>
+	<lresid>0C105101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小绿杖</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105201</id>
+	<resid>0C105201</resid>
+	<lresid>0C105201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小铜杖</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105202</id>
+	<resid>0C105202</resid>
+	<lresid>0C105202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小银杖</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105301</id>
+	<resid>0C105301</resid>
+	<lresid>0C105301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>拳头杖</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105302</id>
+	<resid>0C105302</resid>
+	<lresid>0C105302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>指向杖</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105401</id>
+	<resid>0C105401</resid>
+	<lresid>0C105401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>海王星杖</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18105401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105402</id>
+	<resid>0C105402</resid>
+	<lresid>0C105402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>天王星杖</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18105402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105403</id>
+	<resid>0C105403</resid>
+	<lresid>0C105403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>土星杖</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18105403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105501</id>
+	<resid>0C105501</resid>
+	<lresid>0C105501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>希望之杖</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18105501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105502</id>
+	<resid>0C105502</resid>
+	<lresid>0C105502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>诚实之杖</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18105502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C105503</id>
+	<resid>0C105503</resid>
+	<lresid>0C105503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>爱心之杖</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18105503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106101</id>
+	<resid>0C106101</resid>
+	<lresid>0C106101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色刀</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106201</id>
+	<resid>0C106201</resid>
+	<lresid>0C106201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色刀</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106202</id>
+	<resid>0C106202</resid>
+	<lresid>0C106202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色刀</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106301</id>
+	<resid>0C106301</resid>
+	<lresid>0C106301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>武士刀</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106302</id>
+	<resid>0C106302</resid>
+	<lresid>0C106302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>妖女刀</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106401</id>
+	<resid>0C106401</resid>
+	<lresid>0C106401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>流金刃</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18106401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106402</id>
+	<resid>0C106402</resid>
+	<lresid>0C106402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>幻光刃</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18106402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106403</id>
+	<resid>0C106403</resid>
+	<lresid>0C106403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>断水刃</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18106403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106501</id>
+	<resid>0C106501</resid>
+	<lresid>0C106501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>碎铁牙</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18106501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106502</id>
+	<resid>0C106502</resid>
+	<lresid>0C106502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>生天牙</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18106502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C106503</id>
+	<resid>0C106503</resid>
+	<lresid>0C106503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>云丛牙</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18106503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107101</id>
+	<resid>0C107101</resid>
+	<lresid>0C107101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色骨头</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107201</id>
+	<resid>0C107201</resid>
+	<lresid>0C107201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色骨头</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107202</id>
+	<resid>0C107202</resid>
+	<lresid>0C107202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色骨头</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107301</id>
+	<resid>0C107301</resid>
+	<lresid>0C107301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>柠檬飞盘</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107302</id>
+	<resid>0C107302</resid>
+	<lresid>0C107302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>密瓜飞盘</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107401</id>
+	<resid>0C107401</resid>
+	<lresid>0C107401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小猪飞盘</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18107401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107402</id>
+	<resid>0C107402</resid>
+	<lresid>0C107402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小熊飞盘</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18107402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107403</id>
+	<resid>0C107403</resid>
+	<lresid>0C107403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>小猫飞盘</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18107403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107501</id>
+	<resid>0C107501</resid>
+	<lresid>0C107501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>希望飞盘</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18107501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107502</id>
+	<resid>0C107502</resid>
+	<lresid>0C107502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>诚实飞盘</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18107502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C107503</id>
+	<resid>0C107503</resid>
+	<lresid>0C107503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>爱心飞盘</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18107503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108101</id>
+	<resid>0C108101</resid>
+	<lresid>0C108101</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>绿色花</name>
+	<quality>1</quality>
+	<property_value>1,2,12</property_value>
+	<level_require>1</level_require>
+	<price>180</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108201</id>
+	<resid>0C108201</resid>
+	<lresid>0C108201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色花</name>
+	<quality>2</quality>
+	<property_value>1,2,96</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108202</id>
+	<resid>0C108202</resid>
+	<lresid>0C108202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色花</name>
+	<quality>2</quality>
+	<property_value>1,2,152</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108301</id>
+	<resid>0C108301</resid>
+	<lresid>0C108301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>四叶草</name>
+	<quality>3</quality>
+	<property_value>1,2,264</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108302</id>
+	<resid>0C108302</resid>
+	<lresid>0C108302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>薰衣草</name>
+	<quality>3</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>460</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108401</id>
+	<resid>0C108401</resid>
+	<lresid>0C108401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>荷花</name>
+	<quality>4</quality>
+	<property_value>1,2,600</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18108401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108402</id>
+	<resid>0C108402</resid>
+	<lresid>0C108402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>马蹄莲</name>
+	<quality>4</quality>
+	<property_value>1,2,720</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18108402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108403</id>
+	<resid>0C108403</resid>
+	<lresid>0C108403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>勿忘我</name>
+	<quality>4</quality>
+	<property_value>1,2,864</property_value>
+	<level_require>1</level_require>
+	<price>765</price>
+	<improve_point>1,2,36</improve_point>
+	<formula_id>18108403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108501</id>
+	<resid>0C108501</resid>
+	<lresid>0C108501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>梅花</name>
+	<quality>5</quality>
+	<property_value>1,2,1104</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18108501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108502</id>
+	<resid>0C108502</resid>
+	<lresid>0C108502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>茉莉花</name>
+	<quality>5</quality>
+	<property_value>1,2,1264</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18108502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C108503</id>
+	<resid>0C108503</resid>
+	<lresid>0C108503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>蓝色妖姬</name>
+	<quality>5</quality>
+	<property_value>1,2,1456</property_value>
+	<level_require>1</level_require>
+	<price>1525</price>
+	<improve_point>1,2,48</improve_point>
+	<formula_id>18108503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200201</id>
+	<resid>0C200201</resid>
+	<lresid>0C200201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色指环</name>
+	<quality>2</quality>
+	<property_value>1,2,48</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200202</id>
+	<resid>0C200202</resid>
+	<lresid>0C200202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色指环</name>
+	<quality>2</quality>
+	<property_value>1,2,76</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>1,2,6</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200301</id>
+	<resid>0C200301</resid>
+	<lresid>0C200301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>苹果指环</name>
+	<quality>3</quality>
+	<property_value>1,2,132</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200302</id>
+	<resid>0C200302</resid>
+	<lresid>0C200302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>草莓指环</name>
+	<quality>3</quality>
+	<property_value>1,2,180</property_value>
+	<level_require>1</level_require>
+	<price>360</price>
+	<improve_point>1,2,12</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200401</id>
+	<resid>0C200401</resid>
+	<lresid>0C200401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>风系指环</name>
+	<quality>4</quality>
+	<property_value>1,2,300</property_value>
+	<level_require>1</level_require>
+	<price>690</price>
+	<improve_point>1,2,18</improve_point>
+	<formula_id>18200401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200402</id>
+	<resid>0C200402</resid>
+	<lresid>0C200402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>雷系指环</name>
+	<quality>4</quality>
+	<property_value>1,2,360</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>1,2,18</improve_point>
+	<formula_id>18200402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200403</id>
+	<resid>0C200403</resid>
+	<lresid>0C200403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>电系指环</name>
+	<quality>4</quality>
+	<property_value>1,2,432</property_value>
+	<level_require>1</level_require>
+	<price>740</price>
+	<improve_point>1,2,18</improve_point>
+	<formula_id>18200403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200501</id>
+	<resid>0C200501</resid>
+	<lresid>0C200501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>友情指环</name>
+	<quality>5</quality>
+	<property_value>1,2,552</property_value>
+	<level_require>1</level_require>
+	<price>1375</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>18200501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200502</id>
+	<resid>0C200502</resid>
+	<lresid>0C200502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>勇气指环</name>
+	<quality>5</quality>
+	<property_value>1,2,632</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>18200502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C200503</id>
+	<resid>0C200503</resid>
+	<lresid>0C200503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>智慧指环</name>
+	<quality>5</quality>
+	<property_value>1,2,728</property_value>
+	<level_require>1</level_require>
+	<price>1475</price>
+	<improve_point>1,2,24</improve_point>
+	<formula_id>18200503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300201</id>
+	<resid>0C300201</resid>
+	<lresid>0C300201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色腰带</name>
+	<quality>2</quality>
+	<property_value>3,2,80</property_value>
+	<level_require>1</level_require>
+	<price>170</price>
+	<improve_point>3,2,10</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300202</id>
+	<resid>0C300202</resid>
+	<lresid>0C300202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色腰带</name>
+	<quality>2</quality>
+	<property_value>3,2,127</property_value>
+	<level_require>1</level_require>
+	<price>170</price>
+	<improve_point>3,2,10</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300301</id>
+	<resid>0C300301</resid>
+	<lresid>0C300301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>苹果腰带</name>
+	<quality>3</quality>
+	<property_value>3,2,220</property_value>
+	<level_require>1</level_require>
+	<price>220</price>
+	<improve_point>3,2,20</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300302</id>
+	<resid>0C300302</resid>
+	<lresid>0C300302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>草莓腰带</name>
+	<quality>3</quality>
+	<property_value>3,2,300</property_value>
+	<level_require>1</level_require>
+	<price>220</price>
+	<improve_point>3,2,20</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300401</id>
+	<resid>0C300401</resid>
+	<lresid>0C300401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>风系腰带</name>
+	<quality>4</quality>
+	<property_value>3,2,500</property_value>
+	<level_require>1</level_require>
+	<price>400</price>
+	<improve_point>3,2,30</improve_point>
+	<formula_id>18300401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300402</id>
+	<resid>0C300402</resid>
+	<lresid>0C300402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>雷系腰带</name>
+	<quality>4</quality>
+	<property_value>3,2,600</property_value>
+	<level_require>1</level_require>
+	<price>400</price>
+	<improve_point>3,2,30</improve_point>
+	<formula_id>18300402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300403</id>
+	<resid>0C300403</resid>
+	<lresid>0C300403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>电系腰带</name>
+	<quality>4</quality>
+	<property_value>3,2,720</property_value>
+	<level_require>1</level_require>
+	<price>400</price>
+	<improve_point>3,2,30</improve_point>
+	<formula_id>18300403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300501</id>
+	<resid>0C300501</resid>
+	<lresid>0C300501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>友情腰带</name>
+	<quality>5</quality>
+	<property_value>3,2,920</property_value>
+	<level_require>1</level_require>
+	<price>750</price>
+	<improve_point>3,2,40</improve_point>
+	<formula_id>18300501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300502</id>
+	<resid>0C300502</resid>
+	<lresid>0C300502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>勇气腰带</name>
+	<quality>5</quality>
+	<property_value>3,2,1053</property_value>
+	<level_require>1</level_require>
+	<price>750</price>
+	<improve_point>3,2,40</improve_point>
+	<formula_id>18300502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C300503</id>
+	<resid>0C300503</resid>
+	<lresid>0C300503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>智慧腰带</name>
+	<quality>5</quality>
+	<property_value>3,2,1213</property_value>
+	<level_require>1</level_require>
+	<price>750</price>
+	<improve_point>3,2,40</improve_point>
+	<formula_id>18300503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500201</id>
+	<resid>0C500201</resid>
+	<lresid>0C500201</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>铜色项链</name>
+	<quality>2</quality>
+	<property_value>2,2,144</property_value>
+	<level_require>1</level_require>
+	<price>250</price>
+	<improve_point>2,2,18</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500202</id>
+	<resid>0C500202</resid>
+	<lresid>0C500202</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>银色项链</name>
+	<quality>2</quality>
+	<property_value>2,2,228</property_value>
+	<level_require>1</level_require>
+	<price>260</price>
+	<improve_point>2,2,18</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500301</id>
+	<resid>0C500301</resid>
+	<lresid>0C500301</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>苹果项链</name>
+	<quality>3</quality>
+	<property_value>2,2,396</property_value>
+	<level_require>1</level_require>
+	<price>340</price>
+	<improve_point>2,2,36</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500302</id>
+	<resid>0C500302</resid>
+	<lresid>0C500302</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>草莓项链</name>
+	<quality>3</quality>
+	<property_value>2,2,540</property_value>
+	<level_require>1</level_require>
+	<price>360</price>
+	<improve_point>2,2,36</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500401</id>
+	<resid>0C500401</resid>
+	<lresid>0C500401</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>风系坠饰</name>
+	<quality>4</quality>
+	<property_value>2,2,900</property_value>
+	<level_require>1</level_require>
+	<price>690</price>
+	<improve_point>2,2,54</improve_point>
+	<formula_id>18500401</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500402</id>
+	<resid>0C500402</resid>
+	<lresid>0C500402</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>雷系坠饰</name>
+	<quality>4</quality>
+	<property_value>2,2,1080</property_value>
+	<level_require>1</level_require>
+	<price>715</price>
+	<improve_point>2,2,54</improve_point>
+	<formula_id>18500402</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500403</id>
+	<resid>0C500403</resid>
+	<lresid>0C500403</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>电系坠饰</name>
+	<quality>4</quality>
+	<property_value>2,2,1296</property_value>
+	<level_require>1</level_require>
+	<price>740</price>
+	<improve_point>2,2,54</improve_point>
+	<formula_id>18500403</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500501</id>
+	<resid>0C500501</resid>
+	<lresid>0C500501</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>友情坠饰</name>
+	<quality>5</quality>
+	<property_value>2,2,1656</property_value>
+	<level_require>1</level_require>
+	<price>1375</price>
+	<improve_point>2,2,72</improve_point>
+	<formula_id>18500501</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500502</id>
+	<resid>0C500502</resid>
+	<lresid>0C500502</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>勇气坠饰</name>
+	<quality>5</quality>
+	<property_value>2,2,1896</property_value>
+	<level_require>1</level_require>
+	<price>1425</price>
+	<improve_point>2,2,72</improve_point>
+	<formula_id>18500502</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C500503</id>
+	<resid>0C500503</resid>
+	<lresid>0C500503</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>智慧坠饰</name>
+	<quality>5</quality>
+	<property_value>2,2,2184</property_value>
+	<level_require>1</level_require>
+	<price>1475</price>
+	<improve_point>2,2,72</improve_point>
+	<formula_id>18500503</formula_id>
+	<desc>0</desc>
+</equipment>
+<equipment>
+	<id>0C100001</id>
+	<resid>0C100001</resid>
+	<lresid>0C100001</lresid>
+	<type>0</type>
+	<time>0</time>
+	<name>机器残骸</name>
+	<quality>3</quality>
+	<property_value>1,2,0</property_value>
+	<level_require>99</level_require>
+	<price>5000</price>
+	<improve_point>1,2,0</improve_point>
+	<formula_id>0</formula_id>
+	<desc>0</desc>
+</equipment>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<activity>
+	<id>15000001</id>
+	<name>逃跑的锦鲤</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,3,5,0</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00101,0FA00103,0FA00105</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>15000002</id>
+	<name>巨大机器人</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>2,4,6,0</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00201,0FA00203,0FA00205</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>15000003</id>
+	<name>体之试练</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,4,0</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00301,0FA00303,0FA00305</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>15000004</id>
+	<name>技之试练</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>2,5,0</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00501,0FA00503,0FA00505</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>15000005</id>
+	<name>心之试练</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>3,6,0</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00401,0FA00403,0FA00405</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>1500000B</id>
+	<name>美味饭团</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,2,3,4,5,6,0</week_circle>
+	<last_time>43200,50400;64800,72000</last_time>
+	<related_id>16000022</related_id>
+	<desc>0</desc>
+</activity>
+</root>

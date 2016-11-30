@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<dropcurrency>
+	<id>25000001</id>
+	<name>vip1级独享礼包</name>
+	<reward>14010001,50000;14040001,50000</reward>
+	<desc>5万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000002</id>
+	<name>vip2级独享礼包</name>
+	<reward>14010001,150000;14040001,150000</reward>
+	<desc>15万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000003</id>
+	<name>vip3级独享礼包</name>
+	<reward>14010001,300000;14040001,300000</reward>
+	<desc>30万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000004</id>
+	<name>vip4级独享礼包</name>
+	<reward>14010001,500000;14040001,500000</reward>
+	<desc>50万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000005</id>
+	<name>vip5级独享礼包</name>
+	<reward>14010001,750000;14040001,750000</reward>
+	<desc>75万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000006</id>
+	<name>vip6级独享礼包</name>
+	<reward>14010001,1050000;14040001,1050000</reward>
+	<desc>105万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000007</id>
+	<name>vip7级独享礼包</name>
+	<reward>14010001,1400000;14040001,1400000</reward>
+	<desc>140万金币,合金</desc>
+</dropcurrency>
+<dropcurrency>
+	<id>25000008</id>
+	<name>vip8级独享礼包</name>
+	<reward>14010001,1800000;14040001,1800000</reward>
+	<desc>180万金币,合金</desc>
+</dropcurrency>
+</root>

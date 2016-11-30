@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<vip>
+	<id>05000001</id>
+	<vip_level>1</vip_level>
+	<vip_benefit>07001001</vip_benefit>
+	<recharge_require>18</recharge_require>
+	<gift_id>04000001</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+100%[-];每日可购买体力[00ff00]4[-]次;可领取vip1级礼包</desc>
+</vip>
+<vip>
+	<id>05000002</id>
+	<vip_level>2</vip_level>
+	<vip_benefit>07001002,07002001</vip_benefit>
+	<recharge_require>128</recharge_require>
+	<gift_id>04000002</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+110%[-];每日可购买体力[00ff00]5[-]次;每日有[00ff00]1[-]次免费战斗复活;可领取vip2级礼包</desc>
+</vip>
+<vip>
+	<id>05000003</id>
+	<vip_level>3</vip_level>
+	<vip_benefit>07001003,07002002,07000003</vip_benefit>
+	<recharge_require>328</recharge_require>
+	<gift_id>04000003</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+120[-]%;每日可购买体力[00ff00]6[-]次;背包上限增加[00ff00]10[-]个;每日有[00ff00]2[-]次免费战斗复活;可领取vip3级礼包</desc>
+</vip>
+<vip>
+	<id>05000004</id>
+	<vip_level>4</vip_level>
+	<vip_benefit>07001004,07002003,07000003,07000004</vip_benefit>
+	<recharge_require>888</recharge_require>
+	<gift_id>04000004</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+130%[-];每日可购买体力[00ff00]7[-]次;背包上限增加[00ff00]10[-]个;每日有[00ff00]3[-]次免费战斗复活;好友上限增加[00ff00]10[-]个;可领取vip4级礼包</desc>
+</vip>
+<vip>
+	<id>05000005</id>
+	<vip_level>5</vip_level>
+	<vip_benefit>07001005,07002004,07000003,07000004,07000005</vip_benefit>
+	<recharge_require>1888</recharge_require>
+	<gift_id>04000005</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+140%[-];每日可购买体力[00ff00]8[-]次;背包上限增加[00ff00]10[-]个;每日有[00ff00]4[-]次免费战斗复活;好友上限增加[00ff00]10个[-];体力点上限增加[00ff00]20[-]个;可领取vip5级礼包</desc>
+</vip>
+<vip>
+	<id>05000006</id>
+	<vip_level>6</vip_level>
+	<vip_benefit>07001006,07002005,0700000C,0700000D,07000005</vip_benefit>
+	<recharge_require>3688</recharge_require>
+	<gift_id>04000006</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+150%[-];每日可购买体力[00ff00]9[-]次;背包上限增加[00ff00]30[-]个;每日有[00ff00]5[-]次免费战斗复活;好友上限增加[00ff00]30[-]个;体力点上限增加[00ff00]20[-]个;可领取vip6级礼包</desc>
+</vip>
+<vip>
+	<id>05000007</id>
+	<vip_level>7</vip_level>
+	<vip_benefit>07001007,07002006,0700000C,0700000D,07000005</vip_benefit>
+	<recharge_require>5888</recharge_require>
+	<gift_id>04000007</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+160%[-];每日可购买体力[00ff00]10[-]次;背包上限增加[00ff00]30[-]个;每日有[00ff00]6[-]次免费战斗复活;好友上限增加[00ff00]30[-]个;体力点上限增加[00ff00]20[-]个;可领取vip7级礼包</desc>
+</vip>
+<vip>
+	<id>05000008</id>
+	<vip_level>8</vip_level>
+	<vip_benefit>07001008,07002007,0700000C,0700000D,07000005</vip_benefit>
+	<recharge_require>8888</recharge_require>
+	<gift_id>04000008</gift_id>
+	<desc>副本战斗胜利金币奖励[00ff00]+170%[-];每日可购买体力[00ff00]11[-]次;背包上限增加[00ff00]30[-]个;每日有[00ff00]7[-]次免费战斗复活;好友上限增加[00ff00]30个[-];体力点上限增加[00ff00]20[-]个;可领取vip8级礼包</desc>
+</vip>
+</root>

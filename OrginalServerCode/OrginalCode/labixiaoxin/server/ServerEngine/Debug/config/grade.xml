@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<grade>
+	<gradelevel>1</gradelevel>
+	<icon>ui_spr_kuang_02</icon>
+	<level_bg>ui_spr_lv_02</level_bg>
+	<showstar>2</showstar>
+	<shownumber>0</shownumber>
+	<namecolour>00FF00</namecolour>
+	<upgradecost>10</upgradecost>
+	<attribute_rate>1</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>2</gradelevel>
+	<icon>ui_spr_kuang_03</icon>
+	<level_bg>ui_spr_lv_03</level_bg>
+	<showstar>3</showstar>
+	<shownumber>0</shownumber>
+	<namecolour>00FFFF</namecolour>
+	<upgradecost>20</upgradecost>
+	<attribute_rate>1.2</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>3</gradelevel>
+	<icon>ui_spr_kuang_03</icon>
+	<level_bg>ui_spr_lv_03</level_bg>
+	<showstar>3</showstar>
+	<shownumber>1</shownumber>
+	<namecolour>00FFFF</namecolour>
+	<upgradecost>40</upgradecost>
+	<attribute_rate>1.4</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>4</gradelevel>
+	<icon>ui_spr_kuang_04</icon>
+	<level_bg>ui_spr_lv_04</level_bg>
+	<showstar>4</showstar>
+	<shownumber>0</shownumber>
+	<namecolour>FF00FF</namecolour>
+	<upgradecost>80</upgradecost>
+	<attribute_rate>1.7</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>5</gradelevel>
+	<icon>ui_spr_kuang_04</icon>
+	<level_bg>ui_spr_lv_04</level_bg>
+	<showstar>4</showstar>
+	<shownumber>1</shownumber>
+	<namecolour>FF00FF</namecolour>
+	<upgradecost>120</upgradecost>
+	<attribute_rate>2</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>6</gradelevel>
+	<icon>ui_spr_kuang_04</icon>
+	<level_bg>ui_spr_lv_04</level_bg>
+	<showstar>4</showstar>
+	<shownumber>2</shownumber>
+	<namecolour>FF00FF</namecolour>
+	<upgradecost>180</upgradecost>
+	<attribute_rate>2.3</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>7</gradelevel>
+	<icon>ui_spr_kuang_05</icon>
+	<level_bg>ui_spr_lv_05</level_bg>
+	<showstar>5</showstar>
+	<shownumber>0</shownumber>
+	<namecolour>FFA000</namecolour>
+	<upgradecost>300</upgradecost>
+	<attribute_rate>2.7</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>8</gradelevel>
+	<icon>ui_spr_kuang_05</icon>
+	<level_bg>ui_spr_lv_05</level_bg>
+	<showstar>5</showstar>
+	<shownumber>1</shownumber>
+	<namecolour>FFA000</namecolour>
+	<upgradecost>450</upgradecost>
+	<attribute_rate>3.1</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>9</gradelevel>
+	<icon>ui_spr_kuang_05</icon>
+	<level_bg>ui_spr_lv_05</level_bg>
+	<showstar>5</showstar>
+	<shownumber>2</shownumber>
+	<namecolour>FFA000</namecolour>
+	<upgradecost>800</upgradecost>
+	<attribute_rate>3.5</attribute_rate>
+</grade>
+<grade>
+	<gradelevel>10</gradelevel>
+	<icon>ui_spr_kuang_05</icon>
+	<level_bg>ui_spr_lv_05</level_bg>
+	<showstar>5</showstar>
+	<shownumber>3</shownumber>
+	<namecolour>FFA000</namecolour>
+	<upgradecost>0</upgradecost>
+	<attribute_rate>4</attribute_rate>
+</grade>
+</root>

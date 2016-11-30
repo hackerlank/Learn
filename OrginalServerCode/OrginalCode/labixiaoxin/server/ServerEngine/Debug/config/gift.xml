@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<gift>
+	<id>04000001</id>
+	<name>vip1独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,5000;14040001,5000</reward>
+	<desc>5000金币,合金</desc>
+</gift>
+<gift>
+	<id>04000002</id>
+	<name>vip2独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,15000;14040001,15000</reward>
+	<desc>1.5万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000003</id>
+	<name>vip3独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,30000;14040001,30000</reward>
+	<desc>3万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000004</id>
+	<name>vip4独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,50000;14040001,50000</reward>
+	<desc>5万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000005</id>
+	<name>vip5独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,75000;14040001,75000</reward>
+	<desc>7.5万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000006</id>
+	<name>vip6独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,105000;14040001,105000</reward>
+	<desc>10.5万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000007</id>
+	<name>vip7独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,140000;14040001,140000</reward>
+	<desc>14万金币,合金</desc>
+</gift>
+<gift>
+	<id>04000008</id>
+	<name>vip8独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,180000;14040001,180000</reward>
+	<desc>18万金币,合金</desc>
+</gift>
+<gift>
+	<id>04010001</id>
+	<name>8级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA01001,10;14010001,5000;14040001,5000</reward>
+	<desc>金币, 晶石, 小新碎片</desc>
+</gift>
+<gift>
+	<id>04010002</id>
+	<name>10级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA05001,15;14010001,10000;14040001,10000</reward>
+	<desc>金币, 晶石, 风间碎片</desc>
+</gift>
+<gift>
+	<id>04010003</id>
+	<name>12级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA08001,20;14010001,15000;14040001,15000</reward>
+	<desc>金币, 晶石, 阿呆碎片</desc>
+</gift>
+<gift>
+	<id>04010004</id>
+	<name>15级礼包</name>
+	<countdown>0</countdown>
+	<reward>0A202001,1;8C200401,1;17011004,25</reward>
+	<desc>戒指图纸, 戒指碎片, 小爱(蓝)</desc>
+</gift>
+<gift>
+	<id>04010005</id>
+	<name>18级礼包</name>
+	<countdown>0</countdown>
+	<reward>0C500401,1;14010001,25000;14040001,25000</reward>
+	<desc>金币, 晶石, 项链(紫低级)</desc>
+</gift>
+<gift>
+	<id>04010006</id>
+	<name>22级礼包</name>
+	<countdown>0</countdown>
+	<reward>0C200401,1;14010001,40000;14040001,40000</reward>
+	<desc>金币, 晶石, 指环(紫低级)</desc>
+</gift>
+<gift>
+	<id>04010007</id>
+	<name>25级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA01001,50;14010001,60000;14040001,60000</reward>
+	<desc>金币, 晶石, 小新碎片</desc>
+</gift>
+<gift>
+	<id>04010008</id>
+	<name>30级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA05001,70;14010001,80000;14040001,80000</reward>
+	<desc>金币, 晶石, 风间碎片</desc>
+</gift>
+<gift>
+	<id>04010009</id>
+	<name>35级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA08001,100;14010001,100000;14040001,100000</reward>
+	<desc>金币, 晶石, 阿呆碎片</desc>
+</gift>
+<gift>
+	<id>04010010</id>
+	<name>40级礼包</name>
+	<countdown>0</countdown>
+	<reward>0AA02001,150;14010001,120000;14040001,120000</reward>
+	<desc>金币, 晶石, 小爱碎片</desc>
+</gift>
+</root>

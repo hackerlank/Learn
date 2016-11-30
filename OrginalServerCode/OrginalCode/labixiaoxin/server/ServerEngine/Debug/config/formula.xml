@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<formula>
+	<id>18101401</id>
+	<origin_id>0C101401</origin_id>
+	<icon_id>icon_chuizi-019</icon_id>
+	<name>小鸡锤配方</name>
+	<cost>8C101401,1;17010014,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造小鸡锤的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18101402</id>
+	<origin_id>0C101402</origin_id>
+	<icon_id>icon_chuizi-020</icon_id>
+	<name>小狗锤配方</name>
+	<cost>8C101402,1;17010014,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造小狗锤的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18101403</id>
+	<origin_id>0C101403</origin_id>
+	<icon_id>icon_chuizi-022</icon_id>
+	<name>大象锤配方</name>
+	<cost>8C101403,1;17010014,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造大象锤的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18101501</id>
+	<origin_id>0C101501</origin_id>
+	<icon_id>icon_chuizi-027</icon_id>
+	<name>闪电锤配方</name>
+	<cost>8C101501,1;17010015,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造闪电锤的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18101502</id>
+	<origin_id>0C101502</origin_id>
+	<icon_id>icon_chuizi-028</icon_id>
+	<name>火焰锤配方</name>
+	<cost>8C101502,1;17010015,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造火焰锤的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18101503</id>
+	<origin_id>0C101503</origin_id>
+	<icon_id>icon_chuizi-029</icon_id>
+	<name>冰晶锤配方</name>
+	<cost>8C101503,1;17010015,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造冰晶锤的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18102401</id>
+	<origin_id>0C102401</origin_id>
+	<icon_id>icon_gong-019</icon_id>
+	<name>希望之弓配方</name>
+	<cost>8C102401,1;17010024,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造希望之弓的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18102402</id>
+	<origin_id>0C102402</origin_id>
+	<icon_id>icon_gong-020</icon_id>
+	<name>诚实之弓配方</name>
+	<cost>8C102402,1;17010024,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造诚实之弓的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18102403</id>
+	<origin_id>0C102403</origin_id>
+	<icon_id>icon_gong-022</icon_id>
+	<name>友情之弓配方</name>
+	<cost>8C102403,1;17010024,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造友情之弓的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18102501</id>
+	<origin_id>0C102501</origin_id>
+	<icon_id>icon_gong-027</icon_id>
+	<name>云雾之弓配方</name>
+	<cost>8C102501,1;17010025,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造云雾之弓的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18102502</id>
+	<origin_id>0C102502</origin_id>
+	<icon_id>icon_gong-028</icon_id>
+	<name>冰晶之弓配方</name>
+	<cost>8C102502,1;17010025,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造冰晶之弓的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18102503</id>
+	<origin_id>0C102503</origin_id>
+	<icon_id>icon_gong-029</icon_id>
+	<name>火焰之弓配方</name>
+	<cost>8C102503,1;17010025,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造火焰之弓的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18103401</id>
+	<origin_id>0C103401</origin_id>
+	<icon_id>icon_tuzi-019</icon_id>
+	<name>芒果兔子配方</name>
+	<cost>8C103401,1;17010034,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造芒果的兔子的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18103402</id>
+	<origin_id>0C103402</origin_id>
+	<icon_id>icon_tuzi-020</icon_id>
+	<name>樱桃兔子配方</name>
+	<cost>8C103402,1;17010034,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造樱桃的兔子的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18103403</id>
+	<origin_id>0C103403</origin_id>
+	<icon_id>icon_tuzi-022</icon_id>
+	<name>南瓜兔子配方</name>
+	<cost>8C103403,1;17010034,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造南瓜的兔子的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18103501</id>
+	<origin_id>0C103501</origin_id>
+	<icon_id>icon_tuzi-027</icon_id>
+	<name>希望兔子配方</name>
+	<cost>8C103501,1;17010035,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造希望的兔子的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18103502</id>
+	<origin_id>0C103502</origin_id>
+	<icon_id>icon_tuzi-028</icon_id>
+	<name>诚实兔子配方</name>
+	<cost>8C103502,1;17010035,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造诚实的兔子的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18103503</id>
+	<origin_id>0C103503</origin_id>
+	<icon_id>icon_tuzi-029</icon_id>
+	<name>爱心兔子配方</name>
+	<cost>8C103503,1;17010035,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造爱心的兔子的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18104401</id>
+	<origin_id>0C104401</origin_id>
+	<icon_id>icon_shu-019</icon_id>
+	<name>假面上卷配方</name>
+	<cost>8C104401,1;17010044,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造正男假面上卷的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18104402</id>
+	<origin_id>0C104402</origin_id>
+	<icon_id>icon_shu-020</icon_id>
+	<name>假面中卷配方</name>
+	<cost>8C104402,1;17010044,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造正男假面中卷的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18104403</id>
+	<origin_id>0C104403</origin_id>
+	<icon_id>icon_shu-022</icon_id>
+	<name>假面下卷配方</name>
+	<cost>8C104403,1;17010044,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造正男假面下卷的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18104501</id>
+	<origin_id>0C104501</origin_id>
+	<icon_id>icon_shu-027</icon_id>
+	<name>鲁邦1卷配方</name>
+	<cost>8C104501,1;17010045,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造鲁邦三世1卷的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18104502</id>
+	<origin_id>0C104502</origin_id>
+	<icon_id>icon_shu-028</icon_id>
+	<name>鲁邦2卷配方</name>
+	<cost>8C104502,1;17010045,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造鲁邦三世2卷的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18104503</id>
+	<origin_id>0C104503</origin_id>
+	<icon_id>icon_shu-029</icon_id>
+	<name>鲁邦3卷配方</name>
+	<cost>8C104503,1;17010045,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造鲁邦三世3卷的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18105401</id>
+	<origin_id>0C105401</origin_id>
+	<icon_id>icon_fazhang-019</icon_id>
+	<name>海王星杖配方</name>
+	<cost>8C105401,1;17010054,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造海王星杖的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18105402</id>
+	<origin_id>0C105402</origin_id>
+	<icon_id>icon_fazhang-020</icon_id>
+	<name>天王星杖配方</name>
+	<cost>8C105402,1;17010054,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造天王星杖的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18105403</id>
+	<origin_id>0C105403</origin_id>
+	<icon_id>icon_fazhang-022</icon_id>
+	<name>土星杖配方</name>
+	<cost>8C105403,1;17010054,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造土星杖的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18105501</id>
+	<origin_id>0C105501</origin_id>
+	<icon_id>icon_fazhang-027</icon_id>
+	<name>希望之杖配方</name>
+	<cost>8C105501,1;17010055,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造希望之杖的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18105502</id>
+	<origin_id>0C105502</origin_id>
+	<icon_id>icon_fazhang-028</icon_id>
+	<name>诚实之杖配方</name>
+	<cost>8C105502,1;17010055,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造诚实之杖的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18105503</id>
+	<origin_id>0C105503</origin_id>
+	<icon_id>icon_fazhang-029</icon_id>
+	<name>爱心之杖配方</name>
+	<cost>8C105503,1;17010055,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造爱心之杖的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18106401</id>
+	<origin_id>0C106401</origin_id>
+	<icon_id>icon_dao-019</icon_id>
+	<name>流金刃配方</name>
+	<cost>8C106401,1;17010064,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造流金刃的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18106402</id>
+	<origin_id>0C106402</origin_id>
+	<icon_id>icon_dao-020</icon_id>
+	<name>幻光刃配方</name>
+	<cost>8C106402,1;17010064,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造幻光刃的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18106403</id>
+	<origin_id>0C106403</origin_id>
+	<icon_id>icon_dao-022</icon_id>
+	<name>断水刃配方</name>
+	<cost>8C106403,1;17010064,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造断水刃的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18106501</id>
+	<origin_id>0C106501</origin_id>
+	<icon_id>icon_dao-027</icon_id>
+	<name>碎铁牙配方</name>
+	<cost>8C106501,1;17010065,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造碎铁牙的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18106502</id>
+	<origin_id>0C106502</origin_id>
+	<icon_id>icon_dao-028</icon_id>
+	<name>生天牙配方</name>
+	<cost>8C106502,1;17010065,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造生天牙的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18106503</id>
+	<origin_id>0C106503</origin_id>
+	<icon_id>icon_dao-029</icon_id>
+	<name>云丛牙配方</name>
+	<cost>8C106503,1;17010065,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造云丛牙的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18107401</id>
+	<origin_id>0C107401</origin_id>
+	<icon_id>icon_wanju-019</icon_id>
+	<name>小猪飞盘配方</name>
+	<cost>8C107401,1;17010074,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造小猪飞盘的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18107402</id>
+	<origin_id>0C107402</origin_id>
+	<icon_id>icon_wanju-020</icon_id>
+	<name>小熊飞盘配方</name>
+	<cost>8C107402,1;17010074,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造小熊飞盘的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18107403</id>
+	<origin_id>0C107403</origin_id>
+	<icon_id>icon_wanju-022</icon_id>
+	<name>小猫飞盘配方</name>
+	<cost>8C107403,1;17010074,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造小猫飞盘的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18107501</id>
+	<origin_id>0C107501</origin_id>
+	<icon_id>icon_wanju-027</icon_id>
+	<name>希望飞盘配方</name>
+	<cost>8C107501,1;17010075,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造希望飞盘的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18107502</id>
+	<origin_id>0C107502</origin_id>
+	<icon_id>icon_wanju-028</icon_id>
+	<name>诚实飞盘配方</name>
+	<cost>8C107502,1;17010075,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造诚实飞盘的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18107503</id>
+	<origin_id>0C107503</origin_id>
+	<icon_id>icon_wanju-029</icon_id>
+	<name>爱心飞盘配方</name>
+	<cost>8C107503,1;17010075,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造爱心飞盘的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18108401</id>
+	<origin_id>0C108401</origin_id>
+	<icon_id>icon_hua-019</icon_id>
+	<name>荷花配方</name>
+	<cost>8C108401,1;17010084,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造荷花的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18108402</id>
+	<origin_id>0C108402</origin_id>
+	<icon_id>icon_hua-020</icon_id>
+	<name>马蹄莲配方</name>
+	<cost>8C108402,1;17010084,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造马蹄莲的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18108403</id>
+	<origin_id>0C108403</origin_id>
+	<icon_id>icon_hua-022</icon_id>
+	<name>勿忘我配方</name>
+	<cost>8C108403,1;17010084,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造勿忘我的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18108501</id>
+	<origin_id>0C108501</origin_id>
+	<icon_id>icon_hua-027</icon_id>
+	<name>梅花配方</name>
+	<cost>8C108501,1;17010085,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造梅花的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18108502</id>
+	<origin_id>0C108502</origin_id>
+	<icon_id>icon_hua-028</icon_id>
+	<name>茉莉花配方</name>
+	<cost>8C108502,1;17010085,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造茉莉花的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18108503</id>
+	<origin_id>0C108503</origin_id>
+	<icon_id>icon_hua-029</icon_id>
+	<name>蓝色妖姬配方</name>
+	<cost>8C108503,1;17010085,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造蓝色妖姬的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18200401</id>
+	<origin_id>0C200401</origin_id>
+	<icon_id>icon_jiezhi-019</icon_id>
+	<name>风系指环配方</name>
+	<cost>8C200401,1;17011004,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造风系指环的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18200402</id>
+	<origin_id>0C200402</origin_id>
+	<icon_id>icon_jiezhi-020</icon_id>
+	<name>雷系指环配方</name>
+	<cost>8C200402,1;17011004,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造雷系指环的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18200403</id>
+	<origin_id>0C200403</origin_id>
+	<icon_id>icon_jiezhi-021</icon_id>
+	<name>电系指环配方</name>
+	<cost>8C200403,1;17011004,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造电系指环的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18200501</id>
+	<origin_id>0C200501</origin_id>
+	<icon_id>icon_jiezhi-027</icon_id>
+	<name>友情指环配方</name>
+	<cost>8C200501,1;17011005,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造友情指环的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18200502</id>
+	<origin_id>0C200502</origin_id>
+	<icon_id>icon_jiezhi-028</icon_id>
+	<name>勇气指环配方</name>
+	<cost>8C200502,1;17011005,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造勇气指环的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18200503</id>
+	<origin_id>0C200503</origin_id>
+	<icon_id>icon_jiezhi-029</icon_id>
+	<name>智慧指环配方</name>
+	<cost>8C200503,1;17011005,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造智慧指环的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18300401</id>
+	<origin_id>0C300401</origin_id>
+	<icon_id>icon_yaodai-021</icon_id>
+	<name>风系坠饰配方</name>
+	<cost>8C300401,1;17012004,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造风系坠饰的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18300402</id>
+	<origin_id>0C300402</origin_id>
+	<icon_id>icon_yaodai-022</icon_id>
+	<name>雷系坠饰配方</name>
+	<cost>8C300402,1;17012004,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造雷系坠饰的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18300403</id>
+	<origin_id>0C300403</origin_id>
+	<icon_id>icon_yaodai-023</icon_id>
+	<name>电系坠饰配方</name>
+	<cost>8C300403,1;17012004,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造电系坠饰的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18300501</id>
+	<origin_id>0C300501</origin_id>
+	<icon_id>icon_yaodai-031</icon_id>
+	<name>友情坠饰配方</name>
+	<cost>8C300501,1;17012005,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造友情坠饰的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18300502</id>
+	<origin_id>0C300502</origin_id>
+	<icon_id>icon_yaodai-032</icon_id>
+	<name>勇气坠饰配方</name>
+	<cost>8C300502,1;17012005,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造勇气坠饰的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18300503</id>
+	<origin_id>0C300503</origin_id>
+	<icon_id>icon_yaodai-033</icon_id>
+	<name>智慧坠饰配方</name>
+	<cost>8C300503,1;17012005,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造智慧坠饰的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18500401</id>
+	<origin_id>0C500401</origin_id>
+	<icon_id>icon_xianglian-019</icon_id>
+	<name>风系腰带配方</name>
+	<cost>8C500401,1;17014004,25</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造风系腰带的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18500402</id>
+	<origin_id>0C500402</origin_id>
+	<icon_id>icon_xianglian-020</icon_id>
+	<name>雷系腰带配方</name>
+	<cost>8C500402,1;17014004,30</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造雷系腰带的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18500403</id>
+	<origin_id>0C500403</origin_id>
+	<icon_id>icon_xianglian-021</icon_id>
+	<name>电系腰带配方</name>
+	<cost>8C500403,1;17014004,35</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造电系腰带的配方</desc>
+	<shop>14020001,180</shop>
+</formula>
+<formula>
+	<id>18500501</id>
+	<origin_id>0C500501</origin_id>
+	<icon_id>icon_xianglian-027</icon_id>
+	<name>友情腰带配方</name>
+	<cost>8C500501,1;17014005,40</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造友情腰带的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18500502</id>
+	<origin_id>0C500502</origin_id>
+	<icon_id>icon_xianglian-028</icon_id>
+	<name>勇气腰带配方</name>
+	<cost>8C500502,1;17014005,50</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造勇气腰带的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18500503</id>
+	<origin_id>0C500503</origin_id>
+	<icon_id>icon_xianglian-029</icon_id>
+	<name>智慧腰带配方</name>
+	<cost>8C500503,1;17014005,60</cost>
+	<recipe_require>1</recipe_require>
+	<desc>制造智慧腰带的配方</desc>
+	<shop>14020001,900</shop>
+</formula>
+<formula>
+	<id>18050011</id>
+	<origin_id>17010012</origin_id>
+	<icon_id>chuisuipian1</icon_id>
+	<name>2星锤子碎片</name>
+	<cost>17010011,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星锤子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050012</id>
+	<origin_id>17010013</origin_id>
+	<icon_id>chuisuipian1</icon_id>
+	<name>3星锤子碎片</name>
+	<cost>17010012,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星锤子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050013</id>
+	<origin_id>17010014</origin_id>
+	<icon_id>chuisuipian2</icon_id>
+	<name>4星锤子碎片</name>
+	<cost>17010013,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星锤子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050014</id>
+	<origin_id>17010015</origin_id>
+	<icon_id>chuisuipian3</icon_id>
+	<name>5星锤子碎片</name>
+	<cost>17010014,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星锤子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050021</id>
+	<origin_id>17010022</origin_id>
+	<icon_id>gongsuipian1</icon_id>
+	<name>2星弓碎片</name>
+	<cost>17010021,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星弓碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050022</id>
+	<origin_id>17010023</origin_id>
+	<icon_id>gongsuipian1</icon_id>
+	<name>3星弓碎片</name>
+	<cost>17010022,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星弓碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050023</id>
+	<origin_id>17010024</origin_id>
+	<icon_id>gongsuipian2</icon_id>
+	<name>4星弓碎片</name>
+	<cost>17010023,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星弓碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050024</id>
+	<origin_id>17010025</origin_id>
+	<icon_id>gongsuipian3</icon_id>
+	<name>5星弓碎片</name>
+	<cost>17010024,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星弓碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050031</id>
+	<origin_id>17010032</origin_id>
+	<icon_id>tuzisuipian1</icon_id>
+	<name>2星兔子碎片</name>
+	<cost>17010031,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星兔子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050032</id>
+	<origin_id>17010033</origin_id>
+	<icon_id>tuzisuipian1</icon_id>
+	<name>3星兔子碎片</name>
+	<cost>17010032,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星兔子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050033</id>
+	<origin_id>17010034</origin_id>
+	<icon_id>tuzisuipian2</icon_id>
+	<name>4星兔子碎片</name>
+	<cost>17010033,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星兔子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050034</id>
+	<origin_id>17010035</origin_id>
+	<icon_id>tuzisuipian3</icon_id>
+	<name>5星兔子碎片</name>
+	<cost>17010034,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星兔子碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050041</id>
+	<origin_id>17010042</origin_id>
+	<icon_id>shusuipian1</icon_id>
+	<name>2星漫画碎片</name>
+	<cost>17010041,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星漫画碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050042</id>
+	<origin_id>17010043</origin_id>
+	<icon_id>shusuipian1</icon_id>
+	<name>3星漫画碎片</name>
+	<cost>17010042,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星漫画碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050043</id>
+	<origin_id>17010044</origin_id>
+	<icon_id>shusuipian2</icon_id>
+	<name>4星漫画碎片</name>
+	<cost>17010043,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星漫画碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050044</id>
+	<origin_id>17010045</origin_id>
+	<icon_id>shusuipian3</icon_id>
+	<name>5星漫画碎片</name>
+	<cost>17010044,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星漫画碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050051</id>
+	<origin_id>17010052</origin_id>
+	<icon_id>mozhangsuipian1</icon_id>
+	<name>2星杖碎片</name>
+	<cost>17010051,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星杖碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050052</id>
+	<origin_id>17010053</origin_id>
+	<icon_id>mozhangsuipian1</icon_id>
+	<name>3星杖碎片</name>
+	<cost>17010052,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星杖碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050053</id>
+	<origin_id>17010054</origin_id>
+	<icon_id>mozhangsuipian2</icon_id>
+	<name>4星杖碎片</name>
+	<cost>17010053,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星杖碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050054</id>
+	<origin_id>17010055</origin_id>
+	<icon_id>mozhangsuipian3</icon_id>
+	<name>5星杖碎片</name>
+	<cost>17010054,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星杖碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050061</id>
+	<origin_id>17010062</origin_id>
+	<icon_id>jiansuipian1</icon_id>
+	<name>2星刀碎片</name>
+	<cost>17010061,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星刀碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050062</id>
+	<origin_id>17010063</origin_id>
+	<icon_id>jiansuipian1</icon_id>
+	<name>3星刀碎片</name>
+	<cost>17010062,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星刀碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050063</id>
+	<origin_id>17010064</origin_id>
+	<icon_id>jiansuipian2</icon_id>
+	<name>4星刀碎片</name>
+	<cost>17010063,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星刀碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050064</id>
+	<origin_id>17010065</origin_id>
+	<icon_id>jiansuipian3</icon_id>
+	<name>5星刀碎片</name>
+	<cost>17010064,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星刀碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050071</id>
+	<origin_id>17010072</origin_id>
+	<icon_id>wanjvsuipian1</icon_id>
+	<name>2星玩具碎片</name>
+	<cost>17010071,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星玩具碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050072</id>
+	<origin_id>17010073</origin_id>
+	<icon_id>wanjvsuipian1</icon_id>
+	<name>3星玩具碎片</name>
+	<cost>17010072,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星玩具碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050073</id>
+	<origin_id>17010074</origin_id>
+	<icon_id>wanjvsuipian2</icon_id>
+	<name>4星玩具碎片</name>
+	<cost>17010073,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星玩具碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050074</id>
+	<origin_id>17010075</origin_id>
+	<icon_id>wanjvsuipian3</icon_id>
+	<name>5星玩具碎片</name>
+	<cost>17010074,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星玩具碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050081</id>
+	<origin_id>17010082</origin_id>
+	<icon_id>huasuipian1</icon_id>
+	<name>2星花碎片</name>
+	<cost>17010081,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星花碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050082</id>
+	<origin_id>17010083</origin_id>
+	<icon_id>huasuipian1</icon_id>
+	<name>3星花碎片</name>
+	<cost>17010082,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星花碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050083</id>
+	<origin_id>17010084</origin_id>
+	<icon_id>huasuipian2</icon_id>
+	<name>4星花碎片</name>
+	<cost>17010083,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星花碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18050084</id>
+	<origin_id>17010085</origin_id>
+	<icon_id>huasuipian3</icon_id>
+	<name>5星花碎片</name>
+	<cost>17010084,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星花碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18051001</id>
+	<origin_id>17011002</origin_id>
+	<icon_id>jiezhisuipian1</icon_id>
+	<name>2星戒指碎片</name>
+	<cost>17011001,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星戒指碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18051002</id>
+	<origin_id>17011003</origin_id>
+	<icon_id>jiezhisuipian1</icon_id>
+	<name>3星戒指碎片</name>
+	<cost>17011002,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星戒指碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18051003</id>
+	<origin_id>17011004</origin_id>
+	<icon_id>jiezhisuipian2</icon_id>
+	<name>4星戒指碎片</name>
+	<cost>17011003,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星戒指碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18051004</id>
+	<origin_id>17011005</origin_id>
+	<icon_id>jiezhisuipian3</icon_id>
+	<name>5星戒指碎片</name>
+	<cost>17011004,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星戒指碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18052001</id>
+	<origin_id>17012002</origin_id>
+	<icon_id>yaodaisuipian1</icon_id>
+	<name>2星腰带碎片</name>
+	<cost>17012001,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星腰带碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18052002</id>
+	<origin_id>17012003</origin_id>
+	<icon_id>yaodaisuipian1</icon_id>
+	<name>3星腰带碎片</name>
+	<cost>17012002,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星腰带碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18052003</id>
+	<origin_id>17012004</origin_id>
+	<icon_id>yaodaisuipian2</icon_id>
+	<name>4星腰带碎片</name>
+	<cost>17012003,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星腰带碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18052004</id>
+	<origin_id>17012005</origin_id>
+	<icon_id>yaodaisuipian3</icon_id>
+	<name>5星腰带碎片</name>
+	<cost>17012004,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星腰带碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18054001</id>
+	<origin_id>17014002</origin_id>
+	<icon_id>xiangliansuipian1</icon_id>
+	<name>2星项链碎片</name>
+	<cost>17011101,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>2星项链碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18054002</id>
+	<origin_id>17014003</origin_id>
+	<icon_id>xiangliansuipian1</icon_id>
+	<name>3星项链碎片</name>
+	<cost>17011102,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>3星项链碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18054003</id>
+	<origin_id>17014004</origin_id>
+	<icon_id>xiangliansuipian2</icon_id>
+	<name>4星项链碎片</name>
+	<cost>17011103,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>4星项链碎片</desc>
+	<shop>0</shop>
+</formula>
+<formula>
+	<id>18054004</id>
+	<origin_id>17014005</origin_id>
+	<icon_id>xiangliansuipian3</icon_id>
+	<name>5星项链碎片</name>
+	<cost>17011104,3</cost>
+	<recipe_require>0</recipe_require>
+	<desc>5星项链碎片</desc>
+	<shop>0</shop>
+</formula>
+</root>

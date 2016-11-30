@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<activemission>
+	<ID>200001</ID>
+	<MissionTitle>闯关副本</MissionTitle>
+	<MissionType>1,0,10</MissionType>
+	<ActiveScore>20</ActiveScore>
+	<Icon>renwutubiao_002</Icon>
+</activemission>
+<activemission>
+	<ID>200002</ID>
+	<MissionTitle>宝山</MissionTitle>
+	<MissionType>2,0,1</MissionType>
+	<ActiveScore>15</ActiveScore>
+	<Icon>renwutubiao_007</Icon>
+</activemission>
+<activemission>
+	<ID>200003</ID>
+	<MissionTitle>试炼</MissionTitle>
+	<MissionType>3,0,1</MissionType>
+	<ActiveScore>15</ActiveScore>
+	<Icon>renwutubiao_012</Icon>
+</activemission>
+<activemission>
+	<ID>200004</ID>
+	<MissionTitle>抽奖</MissionTitle>
+	<MissionType>4,0,1</MissionType>
+	<ActiveScore>20</ActiveScore>
+	<Icon>renwutubiao_004</Icon>
+</activemission>
+<activemission>
+	<ID>200005</ID>
+	<MissionTitle>装备升级</MissionTitle>
+	<MissionType>6,0,1</MissionType>
+	<ActiveScore>10</ActiveScore>
+	<Icon>renwutubiao_006</Icon>
+</activemission>
+<activemission>
+	<ID>200006</ID>
+	<MissionTitle>角色升级</MissionTitle>
+	<MissionType>5,0,1</MissionType>
+	<ActiveScore>10</ActiveScore>
+	<Icon>renwutubiao_001</Icon>
+</activemission>
+<activemission>
+	<ID>200007</ID>
+	<MissionTitle>技能升级</MissionTitle>
+	<MissionType>7,0,1</MissionType>
+	<ActiveScore>5</ActiveScore>
+	<Icon>renwutubiao_009</Icon>
+</activemission>
+<activemission>
+	<ID>200008</ID>
+	<MissionTitle>购买神秘商品</MissionTitle>
+	<MissionType>8,0,1</MissionType>
+	<ActiveScore>10</ActiveScore>
+	<Icon>renwutubiao_005</Icon>
+</activemission>
+<activemission>
+	<ID>200009</ID>
+	<MissionTitle>超人能量石</MissionTitle>
+	<MissionType>9,0,1</MissionType>
+	<ActiveScore>10</ActiveScore>
+	<Icon>renwutubiao_011</Icon>
+</activemission>
+</root>

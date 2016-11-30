@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<equipstep>
+	<equipstep>1</equipstep>
+	<max_level_bonus>0</max_level_bonus>
+	<attribute_rate>1</attribute_rate>
+</equipstep>
+<equipstep>
+	<equipstep>2</equipstep>
+	<max_level_bonus>5</max_level_bonus>
+	<attribute_rate>1.1</attribute_rate>
+</equipstep>
+<equipstep>
+	<equipstep>3</equipstep>
+	<max_level_bonus>10</max_level_bonus>
+	<attribute_rate>1.2</attribute_rate>
+</equipstep>
+<equipstep>
+	<equipstep>4</equipstep>
+	<max_level_bonus>15</max_level_bonus>
+	<attribute_rate>1.3</attribute_rate>
+</equipstep>
+<equipstep>
+	<equipstep>5</equipstep>
+	<max_level_bonus>20</max_level_bonus>
+	<attribute_rate>1.4</attribute_rate>
+</equipstep>
+<equipstep>
+	<equipstep>6</equipstep>
+	<max_level_bonus>25</max_level_bonus>
+	<attribute_rate>1.5</attribute_rate>
+</equipstep>
+</root>

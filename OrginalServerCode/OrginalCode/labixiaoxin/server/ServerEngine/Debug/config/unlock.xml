@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<unlock>
+	<id>06000001</id>
+	<unlock_require>1,8</unlock_require>
+	<reward>04010001,1</reward>
+	<desc>8级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000002</id>
+	<unlock_require>1,10</unlock_require>
+	<reward>04010002,1</reward>
+	<desc>10级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000003</id>
+	<unlock_require>1,12</unlock_require>
+	<reward>04010003,1</reward>
+	<desc>12级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000005</id>
+	<unlock_require>1,15</unlock_require>
+	<reward>04010004,1</reward>
+	<desc>15级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000006</id>
+	<unlock_require>1,18</unlock_require>
+	<reward>04010005,1</reward>
+	<desc>18级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000007</id>
+	<unlock_require>1,22</unlock_require>
+	<reward>04010006,1</reward>
+	<desc>22级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000008</id>
+	<unlock_require>1,25</unlock_require>
+	<reward>04010007,1</reward>
+	<desc>25级礼包</desc>
+</unlock>
+<unlock>
+	<id>06000009</id>
+	<unlock_require>1,30</unlock_require>
+	<reward>04010008,1</reward>
+	<desc>30级礼包</desc>
+</unlock>
+<unlock>
+	<id>0600000A</id>
+	<unlock_require>1,35</unlock_require>
+	<reward>04010009,1</reward>
+	<desc>35级礼包</desc>
+</unlock>
+<unlock>
+	<id>0600000B</id>
+	<unlock_require>1,40</unlock_require>
+	<reward>04010010,1</reward>
+	<desc>40级礼包</desc>
+</unlock>
+</root>

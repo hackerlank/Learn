@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<robotchars>
+	<CharID>1</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A101001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C101101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>2</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A102001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C102101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>3</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A103001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C103101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>4</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A104001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C104101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>5</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A105001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C105101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>6</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A106001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C106101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>7</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A107001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C107101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>8</CharID>
+	<Grade>1</Grade>
+	<RealCharID>0A108001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C108101</EquipID1>
+	<EquipID2>0C200101</EquipID2>
+	<EquipID3>0C300101</EquipID3>
+	<EquipID4>0C500101</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>101</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A101001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C101201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>102</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A102001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C102201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>103</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A103001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C103201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>104</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A104001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C104201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>105</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A105001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C105201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>106</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A106001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C106201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>107</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A107001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C107201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+<robotchars>
+	<CharID>108</CharID>
+	<Grade>2</Grade>
+	<RealCharID>0A108001</RealCharID>
+	<EquipStep>1</EquipStep>
+	<EquipID1>0C108201</EquipID1>
+	<EquipID2>0C200201</EquipID2>
+	<EquipID3>0C300201</EquipID3>
+	<EquipID4>0C500201</EquipID4>
+</robotchars>
+</root>

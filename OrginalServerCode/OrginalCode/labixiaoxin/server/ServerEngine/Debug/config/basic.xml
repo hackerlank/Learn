@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<basic>
+	<id>19001001</id>
+	<name>小新</name>
+	<attribute>177,327,86,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001002</id>
+	<name>小爱</name>
+	<attribute>343,171,77,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001003</id>
+	<name>妮妮</name>
+	<attribute>224,299,67,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001004</id>
+	<name>正南</name>
+	<attribute>156,316,118,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001005</id>
+	<name>风间</name>
+	<attribute>264,225,101,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001006</id>
+	<name>肥嘟嘟</name>
+	<attribute>234,312,45,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001007</id>
+	<name>小葵</name>
+	<attribute>210,281,99,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19001008</id>
+	<name>阿呆</name>
+	<attribute>199,321,70,10,0</attribute>
+	<quality>1</quality>
+</basic>
+<basic>
+	<id>19002001</id>
+	<name>小新1</name>
+	<attribute>230,426,111,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002002</id>
+	<name>小爱1</name>
+	<attribute>445,222,100,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002003</id>
+	<name>妮妮1</name>
+	<attribute>291,389,87,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002004</id>
+	<name>正南1</name>
+	<attribute>203,411,153,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002005</id>
+	<name>风间1</name>
+	<attribute>343,293,132,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002006</id>
+	<name>肥嘟嘟1</name>
+	<attribute>304,405,58,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002007</id>
+	<name>小葵1</name>
+	<attribute>274,365,129,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19002008</id>
+	<name>阿呆1</name>
+	<attribute>259,418,90,13,0</attribute>
+	<quality>2</quality>
+</basic>
+<basic>
+	<id>19003001</id>
+	<name>小新2</name>
+	<attribute>292,540,141,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003002</id>
+	<name>小爱2</name>
+	<attribute>565,282,127,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003003</id>
+	<name>妮妮2</name>
+	<attribute>370,493,111,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003004</id>
+	<name>正南2</name>
+	<attribute>257,522,195,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003005</id>
+	<name>风间2</name>
+	<attribute>435,372,167,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003006</id>
+	<name>肥嘟嘟2</name>
+	<attribute>386,514,74,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003007</id>
+	<name>小葵2</name>
+	<attribute>347,463,163,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19003008</id>
+	<name>阿呆2</name>
+	<attribute>329,530,115,16,0</attribute>
+	<quality>3</quality>
+</basic>
+<basic>
+	<id>19004001</id>
+	<name>小新3</name>
+	<attribute>363,671,176,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004002</id>
+	<name>小爱3</name>
+	<attribute>702,350,157,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004003</id>
+	<name>妮妮3</name>
+	<attribute>460,613,138,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004004</id>
+	<name>正南3</name>
+	<attribute>319,649,242,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004005</id>
+	<name>风间3</name>
+	<attribute>540,462,208,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004006</id>
+	<name>肥嘟嘟3</name>
+	<attribute>479,639,91,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004007</id>
+	<name>小葵3</name>
+	<attribute>431,575,203,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19004008</id>
+	<name>阿呆3</name>
+	<attribute>409,659,143,20,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19005001</id>
+	<name>小新4</name>
+	<attribute>443,818,214,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005002</id>
+	<name>小爱4</name>
+	<attribute>857,427,192,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005003</id>
+	<name>妮妮4</name>
+	<attribute>560,747,168,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005004</id>
+	<name>正南4</name>
+	<attribute>390,791,295,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005005</id>
+	<name>风间4</name>
+	<attribute>659,563,253,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005006</id>
+	<name>肥嘟嘟4</name>
+	<attribute>584,779,112,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005007</id>
+	<name>小葵4</name>
+	<attribute>526,701,248,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19005008</id>
+	<name>阿呆4</name>
+	<attribute>498,803,174,25,0</attribute>
+	<quality>5</quality>
+</basic>
+<basic>
+	<id>19000000</id>
+	<name>动感超人</name>
+	<attribute>0,0,0,0,0</attribute>
+	<quality>4</quality>
+</basic>
+<basic>
+	<id>19008001</id>
+	<name>小怪（血）</name>
+	<attribute>300,500,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008002</id>
+	<name>小怪（平衡）</name>
+	<attribute>375,450,150,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008003</id>
+	<name>小怪（攻）</name>
+	<attribute>525,350,50,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008004</id>
+	<name>小怪(猩猩)</name>
+	<attribute>300,250,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008101</id>
+	<name>精英(血）</name>
+	<attribute>300,813,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008102</id>
+	<name>精英(平衡)</name>
+	<attribute>375,725,150,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008103</id>
+	<name>精英(攻)</name>
+	<attribute>525,563,50,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008104</id>
+	<name>精英(猩猩)</name>
+	<attribute>300,400,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008201</id>
+	<name>乱入Boss(血)</name>
+	<attribute>300,5463,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008202</id>
+	<name>乱入Boss(平衡)</name>
+	<attribute>375,4875,150,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008203</id>
+	<name>乱入Boss(攻)</name>
+	<attribute>300,3788,50,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008204</id>
+	<name>乱入Boss(猩猩)</name>
+	<attribute>300,2725,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008301</id>
+	<name>Boss(血)</name>
+	<attribute>300,3388,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008302</id>
+	<name>Boss(平衡）</name>
+	<attribute>375,3025,150,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008303</id>
+	<name>Boss(攻）</name>
+	<attribute>300,2350,50,0,0</attribute>
+	<quality>0</quality>
+</basic>
+<basic>
+	<id>19008304</id>
+	<name>Boss(猩猩）</name>
+	<attribute>300,1688,250,0,0</attribute>
+	<quality>0</quality>
+</basic>
+</root>

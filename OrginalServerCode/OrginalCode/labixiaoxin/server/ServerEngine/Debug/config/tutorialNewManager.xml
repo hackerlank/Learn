@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<tutorialNewManager>
+	<TutorialID>1</TutorialID>
+	<TriggerLevel>1</TriggerLevel>
+	<IgnoreLevel>2</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10000,10001,10002,10003,10004,11001,10005</EventList>
+	<TutorialGoal>1</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>2</TutorialID>
+	<TriggerLevel>2</TriggerLevel>
+	<IgnoreLevel>3</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>1</SmallMapLimit>
+	<EventList>10006,10007,10008,10009,10010,10011,11003,11002</EventList>
+	<TutorialGoal>2</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>4</TutorialID>
+	<TriggerLevel>3</TriggerLevel>
+	<IgnoreLevel>4</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>2</SmallMapLimit>
+	<EventList>10012,10013,10014,10015,10016,10017,11004,11005</EventList>
+	<TutorialGoal>3</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>8</TutorialID>
+	<TriggerLevel>4</TriggerLevel>
+	<IgnoreLevel>5</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>3</SmallMapLimit>
+	<EventList>10018,10019,10020,10021,11010,11011,11012,11013,10022,10023</EventList>
+	<TutorialGoal>4</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>16</TutorialID>
+	<TriggerLevel>4</TriggerLevel>
+	<IgnoreLevel>5</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>3</SmallMapLimit>
+	<EventList>10024,10025,10026,10027,10028,10029</EventList>
+	<TutorialGoal>5</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>32</TutorialID>
+	<TriggerLevel>5</TriggerLevel>
+	<IgnoreLevel>6</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>4</SmallMapLimit>
+	<EventList>10030,10031,10032,10033,10035</EventList>
+	<TutorialGoal>6</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>64</TutorialID>
+	<TriggerLevel>5</TriggerLevel>
+	<IgnoreLevel>6</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>4</SmallMapLimit>
+	<EventList>10036,10037,10038,10039,10040,11021,11022</EventList>
+	<TutorialGoal>7</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>2048</TutorialID>
+	<TriggerLevel>5</TriggerLevel>
+	<IgnoreLevel>6</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>4</SmallMapLimit>
+	<EventList>10069,10070,10071</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>128</TutorialID>
+	<TriggerLevel>5</TriggerLevel>
+	<IgnoreLevel>6</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>4</SmallMapLimit>
+	<EventList>10042,10043,10044,10045,10046,10047</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>256</TutorialID>
+	<TriggerLevel>6</TriggerLevel>
+	<IgnoreLevel>7</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>5</SmallMapLimit>
+	<EventList>10048,10049,10050,10051,10053</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>512</TutorialID>
+	<TriggerLevel>6</TriggerLevel>
+	<IgnoreLevel>7</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>5</SmallMapLimit>
+	<EventList>10054,10055,10056,10057,10058,10059,11006,11007</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>262144</TutorialID>
+	<TriggerLevel>8</TriggerLevel>
+	<IgnoreLevel>9</IgnoreLevel>
+	<BigMapLimit>1</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10079,10080,10090,10081</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>16384</TutorialID>
+	<TriggerLevel>8</TriggerLevel>
+	<IgnoreLevel>9</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10101</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>8192</TutorialID>
+	<TriggerLevel>11</TriggerLevel>
+	<IgnoreLevel>12</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10100</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>32768</TutorialID>
+	<TriggerLevel>10</TriggerLevel>
+	<IgnoreLevel>11</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10102,10103,10104</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>65536</TutorialID>
+	<TriggerLevel>12</TriggerLevel>
+	<IgnoreLevel>13</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10105</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>524288</TutorialID>
+	<TriggerLevel>15</TriggerLevel>
+	<IgnoreLevel>16</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10082,10084,10085,10086,10087,10088</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>4096</TutorialID>
+	<TriggerLevel>15</TriggerLevel>
+	<IgnoreLevel>16</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10072,10073,10074,10108,10075,10076,10077,10078</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>131072</TutorialID>
+	<TriggerLevel>20</TriggerLevel>
+	<IgnoreLevel>21</IgnoreLevel>
+	<BigMapLimit>0</BigMapLimit>
+	<SmallMapLimit>0</SmallMapLimit>
+	<EventList>10106,10107</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>1</TutorialComplete>
+</tutorialNewManager>
+</root>
