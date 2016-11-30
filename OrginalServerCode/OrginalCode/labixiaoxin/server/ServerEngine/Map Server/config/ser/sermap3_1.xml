@@ -1,0 +1,51 @@
+<Map name="Map" id="12200006" idx="0" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_dushe1" id="0B000037" idx="1" x="42.38" y="5.4" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="2" x="49.31" y="5.32" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="3" x="55.47" y="5.32" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_dushe1" id="0B000037" idx="1" x="126.51" y="5.5" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="2" x="133.07" y="5.42" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="3" x="139.24" y="5.51" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="4" x="145.43" y="5.42" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_dushe1" id="0B000037" idx="1" x="216.09" y="5.44" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="2" x="222.96" y="5.49" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_dushe1" id="0B000037" idx="3" x="229.79" y="5.53" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_boss_dushe1" id="0B000047" idx="4" x="237.23" y="7.37" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell3001" id="1210030C" idx="1" x="45.34" y="12.4" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="2" x="45.71" y="9.97" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="3" x="46.71" y="8.01" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="4" x="49.1" y="10.3" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="5" x="51.62" y="7.96" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="6" x="52.49" y="9.87" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="7" x="52.81" y="12.47" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell3001" id="1210030C" idx="1" x="125.9" y="9.08" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="2" x="132.28" y="9.06" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="3" x="135.55" y="11.16" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="4" x="138.51" y="9.14" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="5" x="144.82" y="9.11" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="zhongrushi3001" id="12100307" idx="6" x="129.88" y="15.23" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+    <obji name="zhongrushi3001" id="12100307" idx="7" x="136.75" y="16.28" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+    <obji name="zhongrushi3001" id="12100307" idx="8" x="143.56" y="15.87" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell3001" id="1210030C" idx="1" x="214.73" y="11.14" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="2" x="214.77" y="9.01" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="3" x="219.78" y="9.03" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="4" x="224.4" y="9.02" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell3001" id="1210030C" idx="5" x="224.46" y="11.19" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="hp3001" id="1210030E" idx="6" x="219.89" y="11.46" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="buff3001" id="1210030D" idx="7" x="229.54" y="10.01" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="zhongrushi3001" id="12100307" idx="8" x="221.22" y="16.06" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+    <obji name="zhongrushi3001" id="12100307" idx="9" x="223.87" y="15.72" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+    <obji name="zhongrushi3001" id="12100307" idx="10" x="226.42" y="15.94" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+    <obji name="zhongrushi3001" id="12100307" idx="11" x="231.09" y="15.64" z="-0.1" rx="0" ry="0" rz="180" sx="12" sy="12" sz="6" />
+  </Items>
+</Map>

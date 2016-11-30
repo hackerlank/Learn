@@ -1,0 +1,30 @@
+<Map name="Map" id="12200006" idx="0" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_chidao1" id="0B000005" idx="1" x="55.18" y="10.73" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_chidao1" id="0B000005" idx="1" x="135.65" y="10.51" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_chidao1" id="0B000005" idx="2" x="141.99" y="11.01" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_boss_chidao1" id="0B000013" idx="1" x="229.53" y="12.24" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="35.64" y="11.14" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="39.77" y="12.31" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="44.83" y="13.09" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="50.11" y="12.39" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="118.04" y="11.03" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="122.21" y="12.24" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="126.6" y="13.07" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="131.24" y="12.16" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="209.02" y="12.93" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="213.08" y="14.28" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="217.61" y="15.19" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="223.33" y="14.34" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+</Map>

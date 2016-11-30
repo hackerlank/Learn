@@ -1,0 +1,39 @@
+<Map name="Map" id="12200006" idx="0" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_shuzhuang3" id="0B000003" idx="1" x="39.91" y="7.54" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shuzhuang4" id="0B000004" idx="2" x="48.58" y="7.56" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shuzhuang3" id="0B000003" idx="3" x="53.17" y="7.51" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_gongjian1" id="0B00000D" idx="1" x="124.88" y="11.22" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_gongjian2" id="0B00000E" idx="2" x="136.62" y="10.75" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_boss_chibang1" id="0B000015" idx="1" x="212.34" y="9.32" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="35.98" y="11.22" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="39.1" y="11.75" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="42.13" y="12.22" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="45.08" y="12.51" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="5" x="48.35" y="12.28" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="6" x="51.58" y="11.54" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="118.49" y="13.64" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="122.18" y="14.49" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="125.87" y="15.22" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="129.69" y="15.48" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="5" x="133.23" y="15.12" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="6" x="136.2" y="14.26" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell1001" id="1210010C" idx="1" x="202.16" y="13.89" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="2" x="205.29" y="13.91" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="3" x="205.3" y="15.83" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="4" x="205.33" y="12.19" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell1001" id="1210010C" idx="5" x="208.47" y="13.91" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="hp1001" id="1210010E" idx="6" x="211.75" y="13.98" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="buff1001" id="1210010D" idx="7" x="205.27" y="9.68" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+  </Items>
+</Map>

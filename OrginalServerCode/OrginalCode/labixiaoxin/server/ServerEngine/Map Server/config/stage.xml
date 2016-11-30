@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<stage>
+	<id>12200001</id>
+	<name>发射点</name>
+	<resid>EmissionPoint</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200002</id>
+	<name>运动物体</name>
+	<resid>ActiveObjectFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200003</id>
+	<name>对象类</name>
+	<resid>BorderFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200004</id>
+	<name>地板类</name>
+	<resid>GroundFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200005</id>
+	<name>物品类</name>
+	<resid>ItemsFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200006</id>
+	<name>地图类</name>
+	<resid>MapFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200007</id>
+	<name>怪物类</name>
+	<resid>MonsterFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200008</id>
+	<name>静物背景</name>
+	<resid>StaticBackgroundFolder</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12200009</id>
+	<name>纵向视野重心</name>
+	<resid>FixedV</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000A</id>
+	<name>视野下极限</name>
+	<resid>LimitBottom</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000B</id>
+	<name>视野左极限</name>
+	<resid>LimitLeft</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000C</id>
+	<name>视野右极限</name>
+	<resid>LimitRight</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000D</id>
+	<name>视野上极限</name>
+	<resid>LimitUp</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1220000E</id>
+	<name>阻挡</name>
+	<resid>pengzhuang</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100101</id>
+	<name>云1001</name>
+	<resid>yun1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100102</id>
+	<name>云1002</name>
+	<resid>yun1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100103</id>
+	<name>树1001</name>
+	<resid>shu1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100104</id>
+	<name>树1002</name>
+	<resid>shu1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100105</id>
+	<name>草1001</name>
+	<resid>cao1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100106</id>
+	<name>草1002</name>
+	<resid>cao1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100107</id>
+	<name>小山1001</name>
+	<resid>tushan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100108</id>
+	<name>山脉1002</name>
+	<resid>shan1002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100109</id>
+	<name>山脉1001</name>
+	<resid>shan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010A</id>
+	<name>边缘1001</name>
+	<resid>bianyuan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010B</id>
+	<name>地面1001</name>
+	<resid>dimian1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010C</id>
+	<name>金钱1001</name>
+	<resid>bell1001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210010D</id>
+	<name>buff道具1001</name>
+	<resid>power1001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<effect_value>1,1,0.5,2,1,0.5</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210010E</id>
+	<name>hp道具1001</name>
+	<resid>hp1001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210010F</id>
+	<name>房子1001</name>
+	<resid>fangzi1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100110</id>
+	<name>神龛1001</name>
+	<resid>shenkan1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100111</id>
+	<name>天空1001</name>
+	<resid>tiankong1001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100201</id>
+	<name>地面2001</name>
+	<resid>dimian2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100202</id>
+	<name>地面2002</name>
+	<resid>dimian2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100203</id>
+	<name>地面2003</name>
+	<resid>dimian2003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100204</id>
+	<name>顶部2001</name>
+	<resid>dingbu2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100205</id>
+	<name>水草2001</name>
+	<resid>shuicao2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100206</id>
+	<name>水草2002</name>
+	<resid>shuicao2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100207</id>
+	<name>鱼骨2001</name>
+	<resid>yugu2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100208</id>
+	<name>骷髅2001</name>
+	<resid>kulou2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100209</id>
+	<name>骷髅2002</name>
+	<resid>kulou2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020A</id>
+	<name>波纹2001</name>
+	<resid>bowen2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020B</id>
+	<name>波纹2002</name>
+	<resid>bowen2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020C</id>
+	<name>背景2001</name>
+	<resid>beijing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020D</id>
+	<name>前景2001</name>
+	<resid>qianjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020E</id>
+	<name>中景2001</name>
+	<resid>zhongjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210020F</id>
+	<name>中景2002</name>
+	<resid>zhongjing2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100210</id>
+	<name>远景2001</name>
+	<resid>yuanjing2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100211</id>
+	<name>远景2002</name>
+	<resid>yuanjing2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100212</id>
+	<name>背景2002</name>
+	<resid>tiankong2002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100213</id>
+	<name>金钱2001</name>
+	<resid>bell2001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100214</id>
+	<name>buff道具2001</name>
+	<resid>power2001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<effect_value>1,1,0.5,2,1,0.5</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100215</id>
+	<name>hp道具2001</name>
+	<resid>hp2001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100216</id>
+	<name>水泡2001</name>
+	<resid>paopao2001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100301</id>
+	<name>背景3001</name>
+	<resid>beijing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100302</id>
+	<name>地面3001</name>
+	<resid>dimian3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100303</id>
+	<name>地面3002</name>
+	<resid>dimian3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100304</id>
+	<name>地面3003</name>
+	<resid>dimian3003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100305</id>
+	<name>顶部3001</name>
+	<resid>dingbu3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100306</id>
+	<name>火盆3001</name>
+	<resid>huopen3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100307</id>
+	<name>钟乳石3001</name>
+	<resid>zhongrushi3001</resid>
+	<effect_target>5</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>0.15</damage_value>
+</stage>
+<stage>
+	<id>12100308</id>
+	<name>前景3001</name>
+	<resid>qianjing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100309</id>
+	<name>前景3002</name>
+	<resid>qianjing3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030A</id>
+	<name>中景3001</name>
+	<resid>zhongjing3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030B</id>
+	<name>中景3002</name>
+	<resid>zhongjing3002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030C</id>
+	<name>金钱3001</name>
+	<resid>bell3001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210030D</id>
+	<name>buff道具3001</name>
+	<resid>power3001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<effect_value>1,1,0.5,2,1,0.5</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210030E</id>
+	<name>hp道具3001</name>
+	<resid>hp3001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210030F</id>
+	<name>石柱3001</name>
+	<resid>shizhu3001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100401</id>
+	<name>背景天空4001</name>
+	<resid>beijing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100402</id>
+	<name>背景寒气4002</name>
+	<resid>beijing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100403</id>
+	<name>背景山洞4003</name>
+	<resid>beijing4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100404</id>
+	<name>雪地4001</name>
+	<resid>dimian4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100405</id>
+	<name>冰地4002</name>
+	<resid>dimian4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100406</id>
+	<name>地块4003</name>
+	<resid>dimian4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100407</id>
+	<name>地块4004</name>
+	<resid>dimian4004</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100408</id>
+	<name>冰雪地4005</name>
+	<resid>dimian4005</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100409</id>
+	<name>远景4001</name>
+	<resid>yuanjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040A</id>
+	<name>远景4002</name>
+	<resid>yuanjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040B</id>
+	<name>中景4001</name>
+	<resid>zhongjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040C</id>
+	<name>中景4002</name>
+	<resid>zhongjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040D</id>
+	<name>中景4003</name>
+	<resid>zhongjing4003</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040E</id>
+	<name>前景4001</name>
+	<resid>qianjing4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210040F</id>
+	<name>前景4002</name>
+	<resid>qianjing4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100410</id>
+	<name>极光4001</name>
+	<resid>jiguang4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100411</id>
+	<name>极光4002</name>
+	<resid>jiguang4002</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100412</id>
+	<name>顶部4001</name>
+	<resid>dingbu4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100413</id>
+	<name>冰柱4001</name>
+	<resid>bingzhu4001</resid>
+	<effect_target>5</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>0.15</damage_value>
+</stage>
+<stage>
+	<id>12100414</id>
+	<name>边缘4001</name>
+	<resid>bianyuan4001</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100415</id>
+	<name>金钱4001</name>
+	<resid>bell4001</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>12100416</id>
+	<name>buff道具4001</name>
+	<resid>power4001</resid>
+	<effect_target>1</effect_target>
+	<type>3</type>
+	<effect_value>1,1,0.5,2,1,0.5</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>12100417</id>
+	<name>hp道具4001</name>
+	<resid>hp4001</resid>
+	<effect_target>1</effect_target>
+	<type>1</type>
+	<effect_value>0</effect_value>
+	<damage_value>-0.5</damage_value>
+</stage>
+<stage>
+	<id>1210FF01</id>
+	<name>背景FF01</name>
+	<resid>beijingFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF02</id>
+	<name>地面FF01</name>
+	<resid>dimianFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF03</id>
+	<name>房子FF01</name>
+	<resid>fangziFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF04</id>
+	<name>房子FF02</name>
+	<resid>fangziFF02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF05</id>
+	<name>草FF01</name>
+	<resid>caoFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF06</id>
+	<name>彩灯FF01</name>
+	<resid>caidengFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF07</id>
+	<name>树FF01</name>
+	<resid>shuFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF08</id>
+	<name>树FF02</name>
+	<resid>shuFF02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF09</id>
+	<name>云FF01</name>
+	<resid>yunFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF10</id>
+	<name>远景FF01</name>
+	<resid>yuanjingFF01</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF11</id>
+	<name>远景FF02</name>
+	<resid>yuanjingFF02</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF12</id>
+	<name>远景FF03</name>
+	<resid>yuanjingFF03</resid>
+	<effect_target>0</effect_target>
+	<type>0</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+<stage>
+	<id>1210FF13</id>
+	<name>灯笼FF01</name>
+	<resid>bellFF01</resid>
+	<effect_target>0</effect_target>
+	<type>2</type>
+	<effect_value>0</effect_value>
+	<damage_value>0</damage_value>
+</stage>
+</root>

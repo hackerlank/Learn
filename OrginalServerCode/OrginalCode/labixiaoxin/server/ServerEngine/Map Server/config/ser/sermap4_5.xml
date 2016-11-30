@@ -1,0 +1,87 @@
+<Map name="Map" id="12200006" idx="0" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_shiren4" id="0B000055" idx="1" x="39.62" y="5.56" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="2" x="44.7" y="9.93" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="3" x="47.14" y="5.6" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="4" x="53.68" y="5.37" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_shiren4" id="0B000055" idx="1" x="118.91" y="6" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="2" x="123.37" y="9.04" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="3" x="129.06" y="5.97" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="4" x="133.55" y="9.04" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_guiying1" id="0B00005E" idx="1" x="204.23" y="8.66" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="2" x="220.85" y="9.5" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="3" x="226.25" y="9.55" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_boss_shiren2" id="0B000063" idx="4" x="232.36" y="7.36" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_shiren4" id="0B000055" idx="1" x="311.96" y="5.79" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="2" x="314.7" y="10.39" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="3" x="320.55" y="5.81" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="4" x="324.59" y="10.43" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="5" x="332.31" y="10.14" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Monster name="Monster" id="12200007" idx="0" x="0.29" y="4.94" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <objm name="guai_shiren4" id="0B000055" idx="1" x="416.09" y="1.67" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_shiren4" id="0B000055" idx="2" x="424.37" y="1.82" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_boss_guiying1" id="0B000068" idx="3" x="425.13" y="8.44" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+    <objm name="guai_guiying1" id="0B00005E" idx="4" x="437.54" y="12" z="-0.3" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+  </Monster>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell4001" id="12100415" idx="1" x="27.94" y="8.85" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="2" x="31.95" y="10.42" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="3" x="36.56" y="12.04" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="4" x="41.57" y="13.21" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="5" x="46.94" y="14.49" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="6" x="51.12" y="12.73" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="7" x="52.9" y="9.81" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell4001" id="12100415" idx="1" x="124.14" y="12.44" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="2" x="125.23" y="14.92" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="3" x="127.04" y="13.69" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="4" x="127.07" y="9.09" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="5" x="127.08" y="11.48" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="6" x="128.82" y="14.94" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="7" x="129.78" y="12.52" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell4001" id="12100415" idx="1" x="206.1" y="13.05" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="2" x="207.33" y="9.45" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="3" x="209.24" y="11.32" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="4" x="210.98" y="9.31" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="5" x="212.44" y="12.93" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="6" x="219.82" y="12.43" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="7" x="223.25" y="13.9" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="buff4001" id="12100416" idx="8" x="209.42" y="13.89" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="bingzhu4001" id="12100413" idx="9" x="215.99" y="17.98" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+    <obji name="bingzhu4001" id="12100413" idx="10" x="220.94" y="18.33" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+    <obji name="bingzhu4001" id="12100413" idx="11" x="225.89" y="18.32" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+    <obji name="bingzhu4001" id="12100413" idx="12" x="230.48" y="17.9" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell4001" id="12100415" idx="1" x="305.49" y="12.56" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="2" x="305.58" y="8.69" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="3" x="310.11" y="9.61" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="4" x="310.17" y="13.66" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="5" x="317.06" y="13.25" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="6" x="317.16" y="8.93" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="hp4001" id="12100417" idx="7" x="310.12" y="11.66" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="bingzhu4001" id="12100413" idx="8" x="318.67" y="18.38" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+    <obji name="bingzhu4001" id="12100413" idx="9" x="322.81" y="18.41" z="-0.1" rx="0" ry="0" rz="180" sx="12.45" sy="12" sz="1" />
+  </Items>
+  <Items name="Items" id="12200005" idx="0" x="0.08" y="4.46" z="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1">
+    <obji name="bell4001" id="12100415" idx="1" x="406.46" y="13.11" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="2" x="410.29" y="14.76" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="3" x="410.93" y="12.49" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="4" x="414.13" y="15.97" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="5" x="415.08" y="10.86" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="6" x="418.02" y="8.21" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="bell4001" id="12100415" idx="7" x="418.37" y="16.72" z="-0.2" rx="0" ry="0" rz="0" sx="3.5" sy="3.5" sz="3.5" />
+    <obji name="hp4001" id="12100417" idx="8" x="424.28" y="16.2" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+    <obji name="buff4001" id="12100416" idx="9" x="429.52" y="14.68" z="-0.2" rx="0" ry="0" rz="0" sx="9" sy="9" sz="9" />
+  </Items>
+</Map>

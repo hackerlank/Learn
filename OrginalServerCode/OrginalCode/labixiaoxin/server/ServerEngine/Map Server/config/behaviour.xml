@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<behaviour>
+	<id>16000001</id>
+	<name>购买体力</name>
+</behaviour>
+<behaviour>
+	<id>16000002</id>
+	<name>领取活动元宝</name>
+</behaviour>
+<behaviour>
+	<id>16010001</id>
+	<name>领取vip1登陆奖励</name>
+</behaviour>
+<behaviour>
+	<id>16010002</id>
+	<name>领取vip2登陆奖励</name>
+</behaviour>
+<behaviour>
+	<id>16010003</id>
+	<name>领取vip3登陆奖励</name>
+</behaviour>
+<behaviour>
+	<id>16010004</id>
+	<name>领取vip4登陆奖励</name>
+</behaviour>
+<behaviour>
+	<id>16010005</id>
+	<name>领取vip5登陆奖励</name>
+</behaviour>
+</root>

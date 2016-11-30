@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<gift>
+	<id>04000001</id>
+	<name>vip1级独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,50000;0A501005,1</reward>
+	<desc>金武曲星，金币</desc>
+</gift>
+<gift>
+	<id>04000002</id>
+	<name>vip2级独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,500000;21000005,1;8A401006,1</reward>
+	<desc>长须大王配方，盘丝术</desc>
+</gift>
+<gift>
+	<id>04000003</id>
+	<name>vip3级独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,1000000;0C103013,1;0A401008,1</reward>
+	<desc>北海龙王，斩孽</desc>
+</gift>
+<gift>
+	<id>04000004</id>
+	<name>vip4级独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,2000000;0C104013,1;0A502001,1</reward>
+	<desc>金龙三，劈荆</desc>
+</gift>
+<gift>
+	<id>04000005</id>
+	<name>vip5级独享礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,5000000;0C102013,1;0A503003,1</reward>
+	<desc>金二郎神，致命</desc>
+</gift>
+<gift>
+	<id>04010001</id>
+	<name>2级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,500</reward>
+	<desc>金币</desc>
+</gift>
+<gift>
+	<id>04010002</id>
+	<name>4级礼包</name>
+	<countdown>0</countdown>
+	<reward>14020001,30;21000001,1</reward>
+	<desc>元宝,三味真火</desc>
+</gift>
+<gift>
+	<id>04010003</id>
+	<name>6级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,1000;0A203001,1</reward>
+	<desc>金币，沙小僧</desc>
+</gift>
+<gift>
+	<id>04010004</id>
+	<name>8级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,5000;14040001,50;21000007,1</reward>
+	<desc>金币，晶石,推气入宫</desc>
+</gift>
+<gift>
+	<id>04010005</id>
+	<name>12级礼包</name>
+	<countdown>0</countdown>
+	<reward>14020001,30;0A101001,1</reward>
+	<desc>天狼，元宝</desc>
+</gift>
+<gift>
+	<id>04010006</id>
+	<name>20级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,10000;14020001,30;0A500004,1</reward>
+	<desc>金币，元宝,金萌兔精</desc>
+</gift>
+<gift>
+	<id>04010007</id>
+	<name>30级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,50000;14020001,30;0A201003,1</reward>
+	<desc>金币，元宝,齐天大圣</desc>
+</gift>
+<gift>
+	<id>04010008</id>
+	<name>40级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,80000;14020001,30;14040001,200</reward>
+	<desc>金币，元宝</desc>
+</gift>
+<gift>
+	<id>04010009</id>
+	<name>50级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,100000;14020001,30;0A501008,1</reward>
+	<desc>金币，元宝，金瑶池</desc>
+</gift>
+<gift>
+	<id>04010010</id>
+	<name>60级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,150000;14020001,30;14040001,500</reward>
+	<desc>金币，元宝</desc>
+</gift>
+<gift>
+	<id>04010011</id>
+	<name>70级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,250000;14020001,30;14040001,500</reward>
+	<desc>金币，元宝</desc>
+</gift>
+<gift>
+	<id>04010012</id>
+	<name>80级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,400000;14020001,30;14040001,1000</reward>
+	<desc>金币，元宝</desc>
+</gift>
+<gift>
+	<id>04010013</id>
+	<name>90级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,500000;14020001,30;14040001,1000</reward>
+	<desc>金币，元宝</desc>
+</gift>
+<gift>
+	<id>04010014</id>
+	<name>100级礼包</name>
+	<countdown>0</countdown>
+	<reward>14010001,1000000;14020001,30;14040001,1000</reward>
+	<desc>金币，元宝</desc>
+</gift>
+</root>
