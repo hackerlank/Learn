@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<tutorialManager>
+	<ID>1</ID>
+	<TriggerLevel>1</TriggerLevel>
+	<IgnoreLevel>2</IgnoreLevel>
+	<Event>1001</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>2</ID>
+	<TriggerLevel>2</TriggerLevel>
+	<IgnoreLevel>3</IgnoreLevel>
+	<Event>1015</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>3</ID>
+	<TriggerLevel>2</TriggerLevel>
+	<IgnoreLevel>3</IgnoreLevel>
+	<Event>1020</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>4</ID>
+	<TriggerLevel>3</TriggerLevel>
+	<IgnoreLevel>4</IgnoreLevel>
+	<Event>1027</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>5</ID>
+	<TriggerLevel>3</TriggerLevel>
+	<IgnoreLevel>4</IgnoreLevel>
+	<Event>1031</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>6</ID>
+	<TriggerLevel>4</TriggerLevel>
+	<IgnoreLevel>5</IgnoreLevel>
+	<Event>1038</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+<tutorialManager>
+	<ID>7</ID>
+	<TriggerLevel>4</TriggerLevel>
+	<IgnoreLevel>5</IgnoreLevel>
+	<Event>1042</Event>
+	<Condition>0</Condition>
+</tutorialManager>
+</root>

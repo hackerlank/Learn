@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<function>
+	<id>08000001</id>
+	<name>map</name>
+	<resid>btn_ditu1</resid>
+	<islocked>0</islocked>
+	<des>冒险</des>
+</function>
+<function>
+	<id>08000002</id>
+	<name>equipment</name>
+	<resid>thzb</resid>
+	<islocked>1</islocked>
+	<des>通过换装可以改变你的装备和技能</des>
+</function>
+<function>
+	<id>08000003</id>
+	<name>sold</name>
+	<resid>cswp</resid>
+	<islocked>0</islocked>
+	<des>卖出</des>
+</function>
+<function>
+	<id>08000004</id>
+	<name>team</name>
+	<resid>djdw</resid>
+	<islocked>0</islocked>
+	<des>编队</des>
+</function>
+<function>
+	<id>08000005</id>
+	<name>rename</name>
+	<resid>ggmz</resid>
+	<islocked>0</islocked>
+	<des>改名</des>
+</function>
+<function>
+	<id>08000006</id>
+	<name>hero_improve</name>
+	<resid>fjqh</resid>
+	<islocked>1</islocked>
+	<des>强化伙伴可以永久提升伙伴属性值</des>
+</function>
+<function>
+	<id>08000007</id>
+	<name>equipment_improve</name>
+	<resid>zbqh</resid>
+	<islocked>1</islocked>
+	<des>强化装备可以永久提升装备属性值</des>
+</function>
+<function>
+	<id>08000008</id>
+	<name>skill_improve</name>
+	<resid>jnqh</resid>
+	<islocked>1</islocked>
+	<des>强化技能可以永久提升伙伴战斗力</des>
+</function>
+<function>
+	<id>08000009</id>
+	<name>equipment_up</name>
+	<resid>zbsj</resid>
+	<islocked>1</islocked>
+	<des>装备升阶可以永久提升装备等级上限</des>
+</function>
+<function>
+	<id>0800000A</id>
+	<name>reward</name>
+	<resid>btn_qiubao2</resid>
+	<islocked>1</islocked>
+	<des>求宝有一定几率获得极品装备和将领</des>
+</function>
+<function>
+	<id>0800000B</id>
+	<name>friend_list</name>
+	<resid>btn_wdhy</resid>
+	<islocked>0</islocked>
+	<des>好友列表</des>
+</function>
+<function>
+	<id>0800000C</id>
+	<name>friend_research</name>
+	<resid>btn_tjhy</resid>
+	<islocked>0</islocked>
+	<des>好友搜索</des>
+</function>
+<function>
+	<id>0800000D</id>
+	<name>energy</name>
+	<resid>btn_hftl</resid>
+	<islocked>0</islocked>
+	<des>购买体力</des>
+</function>
+<function>
+	<id>0800000E</id>
+	<name>package</name>
+	<resid>btn_bbkc</resid>
+	<islocked>0</islocked>
+	<des>购买背包</des>
+</function>
+<function>
+	<id>0800000F</id>
+	<name>friend_limit</name>
+	<resid>btn_hykc</resid>
+	<islocked>0</islocked>
+	<des>购买好友</des>
+</function>
+<function>
+	<id>08000010</id>
+	<name>gold_mall</name>
+	<resid>btn_ybsb</resid>
+	<islocked>0</islocked>
+	<des>金卡商城</des>
+</function>
+<function>
+	<id>08000011</id>
+	<name>music</name>
+	<resid>btn_yyyx</resid>
+	<islocked>0</islocked>
+	<des>音乐音效</des>
+</function>
+<function>
+	<id>08000012</id>
+	<name>reload</name>
+	<resid>btn_ghzh</resid>
+	<islocked>0</islocked>
+	<des>更换账号</des>
+</function>
+<function>
+	<id>08000013</id>
+	<name>pvp</name>
+	<resid>btn_doufa1</resid>
+	<islocked>1</islocked>
+	<des>pvp</des>
+</function>
+<function>
+	<id>08000014</id>
+	<name>qianghua</name>
+	<resid>btn_qianghua_yes</resid>
+	<islocked>1</islocked>
+	<des>强化装备</des>
+</function>
+<function>
+	<id>08000015</id>
+	<name>activity</name>
+	<resid>btn_hd</resid>
+	<islocked>0</islocked>
+	<des>活动</des>
+</function>
+<function>
+	<id>08000016</id>
+	<name>gift</name>
+	<resid>btn_lb</resid>
+	<islocked>0</islocked>
+	<des>礼包</des>
+</function>
+</root>

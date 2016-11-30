@@ -1,0 +1,4620 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<skill>
+	<id>0E010001</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,10</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+10[-]</desc>
+</skill>
+<skill>
+	<id>0E010002</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,100,22</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+22[-]</desc>
+</skill>
+<skill>
+	<id>0E010003</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,100,36</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+36[-]</desc>
+</skill>
+<skill>
+	<id>0E010004</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,100,52</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+52[-]</desc>
+</skill>
+<skill>
+	<id>0E010005</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,100,69</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+69[-]</desc>
+</skill>
+<skill>
+	<id>0E010006</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,100,87</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+87[-]</desc>
+</skill>
+<skill>
+	<id>0E010007</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,100,108</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+108[-]</desc>
+</skill>
+<skill>
+	<id>0E010008</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,100,129</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+129[-]</desc>
+</skill>
+<skill>
+	<id>0E010009</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,100,153</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+153[-]</desc>
+</skill>
+<skill>
+	<id>0E01000A</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,100,178</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+178[-]</desc>
+</skill>
+<skill>
+	<id>0E01000B</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,100,204</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+204[-]</desc>
+</skill>
+<skill>
+	<id>0E01000C</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,100,232</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+232[-]</desc>
+</skill>
+<skill>
+	<id>0E01000D</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,100,262</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+262[-]</desc>
+</skill>
+<skill>
+	<id>0E01000E</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,100,293</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+293[-]</desc>
+</skill>
+<skill>
+	<id>0E01000F</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,100,326</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+326[-]</desc>
+</skill>
+<skill>
+	<id>0E010010</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,100,360</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+360[-]</desc>
+</skill>
+<skill>
+	<id>0E010011</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,100,396</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+396[-]</desc>
+</skill>
+<skill>
+	<id>0E010012</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,100,434</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+434[-]</desc>
+</skill>
+<skill>
+	<id>0E010013</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,100,473</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+473[-]</desc>
+</skill>
+<skill>
+	<id>0E010014</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,100,514</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+514[-]</desc>
+</skill>
+<skill>
+	<id>0E010015</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,100,556</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+556[-]</desc>
+</skill>
+<skill>
+	<id>0E010016</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,100,600</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+600[-]</desc>
+</skill>
+<skill>
+	<id>0E010017</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,100,645</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+645[-]</desc>
+</skill>
+<skill>
+	<id>0E010018</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,100,692</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+692[-]</desc>
+</skill>
+<skill>
+	<id>0E010019</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,100,741</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+741[-]</desc>
+</skill>
+<skill>
+	<id>0E01001A</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,100,791</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+791[-]</desc>
+</skill>
+<skill>
+	<id>0E01001B</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,100,843</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+843[-]</desc>
+</skill>
+<skill>
+	<id>0E01001C</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,100,896</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+896[-]</desc>
+</skill>
+<skill>
+	<id>0E01001D</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,100,951</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+951[-]</desc>
+</skill>
+<skill>
+	<id>0E01001E</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,100,1007</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1007[-]</desc>
+</skill>
+<skill>
+	<id>0E01001F</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,100,1065</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1065[-]</desc>
+</skill>
+<skill>
+	<id>0E010020</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,100,1125</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1125[-]</desc>
+</skill>
+<skill>
+	<id>0E010021</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,100,1186</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1186[-]</desc>
+</skill>
+<skill>
+	<id>0E010022</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,100,1249</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1249[-]</desc>
+</skill>
+<skill>
+	<id>0E010023</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,100,1313</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1313[-]</desc>
+</skill>
+<skill>
+	<id>0E010024</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,100,1379</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1379[-]</desc>
+</skill>
+<skill>
+	<id>0E010025</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,100,1447</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1447[-]</desc>
+</skill>
+<skill>
+	<id>0E010026</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,100,1516</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1516[-]</desc>
+</skill>
+<skill>
+	<id>0E010027</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,100,1587</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1587[-]</desc>
+</skill>
+<skill>
+	<id>0E010028</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,100,1659</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1659[-]</desc>
+</skill>
+<skill>
+	<id>0E010029</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,100,1733</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1733[-]</desc>
+</skill>
+<skill>
+	<id>0E01002A</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,100,1808</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1808[-]</desc>
+</skill>
+<skill>
+	<id>0E01002B</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,100,1885</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1885[-]</desc>
+</skill>
+<skill>
+	<id>0E01002C</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,100,1964</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+1964[-]</desc>
+</skill>
+<skill>
+	<id>0E01002D</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,100,2044</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2044[-]</desc>
+</skill>
+<skill>
+	<id>0E01002E</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,100,2126</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2126[-]</desc>
+</skill>
+<skill>
+	<id>0E01002F</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,100,2209</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2209[-]</desc>
+</skill>
+<skill>
+	<id>0E010030</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,100,2294</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2294[-]</desc>
+</skill>
+<skill>
+	<id>0E010031</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,100,2381</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2381[-]</desc>
+</skill>
+<skill>
+	<id>0E010032</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,100,2469</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2469[-]</desc>
+</skill>
+<skill>
+	<id>0E010033</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,100,2558</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2558[-]</desc>
+</skill>
+<skill>
+	<id>0E010034</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,100,2649</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2649[-]</desc>
+</skill>
+<skill>
+	<id>0E010035</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,100,2742</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2742[-]</desc>
+</skill>
+<skill>
+	<id>0E010036</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,100,2837</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2837[-]</desc>
+</skill>
+<skill>
+	<id>0E010037</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,100,2933</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+2933[-]</desc>
+</skill>
+<skill>
+	<id>0E010038</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,100,3030</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+3030[-]</desc>
+</skill>
+<skill>
+	<id>0E010039</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,100,3129</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+3129[-]</desc>
+</skill>
+<skill>
+	<id>0E01003A</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,100,3230</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+3230[-]</desc>
+</skill>
+<skill>
+	<id>0E01003B</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,100,3332</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+3332[-]</desc>
+</skill>
+<skill>
+	<id>0E01003C</id>
+	<name>动感一击</name>
+	<resid>ui_spr_jineng_005</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,100,3436</property_value>
+	<damage_count>1</damage_count>
+	<desc>跳起并下斩[00ff00]1[-]次,伤害为[00ff00]100%攻击+3436[-]</desc>
+</skill>
+<skill>
+	<id>0E020001</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,90,9</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+9[-]</desc>
+</skill>
+<skill>
+	<id>0E020002</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,90,19</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+19[-]</desc>
+</skill>
+<skill>
+	<id>0E020003</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,90,32</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+32[-]</desc>
+</skill>
+<skill>
+	<id>0E020004</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,90,46</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+46[-]</desc>
+</skill>
+<skill>
+	<id>0E020005</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,90,62</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+62[-]</desc>
+</skill>
+<skill>
+	<id>0E020006</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,90,78</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+78[-]</desc>
+</skill>
+<skill>
+	<id>0E020007</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,90,97</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+97[-]</desc>
+</skill>
+<skill>
+	<id>0E020008</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,90,116</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+116[-]</desc>
+</skill>
+<skill>
+	<id>0E020009</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,90,137</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+137[-]</desc>
+</skill>
+<skill>
+	<id>0E02000A</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,90,160</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+160[-]</desc>
+</skill>
+<skill>
+	<id>0E02000B</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,90,183</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+183[-]</desc>
+</skill>
+<skill>
+	<id>0E02000C</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,90,208</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+208[-]</desc>
+</skill>
+<skill>
+	<id>0E02000D</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,90,235</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+235[-]</desc>
+</skill>
+<skill>
+	<id>0E02000E</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,90,263</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+263[-]</desc>
+</skill>
+<skill>
+	<id>0E02000F</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,90,293</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+293[-]</desc>
+</skill>
+<skill>
+	<id>0E020010</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,90,324</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+324[-]</desc>
+</skill>
+<skill>
+	<id>0E020011</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,90,356</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+356[-]</desc>
+</skill>
+<skill>
+	<id>0E020012</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,90,390</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+390[-]</desc>
+</skill>
+<skill>
+	<id>0E020013</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,90,425</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+425[-]</desc>
+</skill>
+<skill>
+	<id>0E020014</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,90,462</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+462[-]</desc>
+</skill>
+<skill>
+	<id>0E020015</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,90,500</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+500[-]</desc>
+</skill>
+<skill>
+	<id>0E020016</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,90,540</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+540[-]</desc>
+</skill>
+<skill>
+	<id>0E020017</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,90,580</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+580[-]</desc>
+</skill>
+<skill>
+	<id>0E020018</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,90,622</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+622[-]</desc>
+</skill>
+<skill>
+	<id>0E020019</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,90,666</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+666[-]</desc>
+</skill>
+<skill>
+	<id>0E02001A</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,90,711</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+711[-]</desc>
+</skill>
+<skill>
+	<id>0E02001B</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,90,758</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+758[-]</desc>
+</skill>
+<skill>
+	<id>0E02001C</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,90,806</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+806[-]</desc>
+</skill>
+<skill>
+	<id>0E02001D</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,90,855</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+855[-]</desc>
+</skill>
+<skill>
+	<id>0E02001E</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,90,906</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+906[-]</desc>
+</skill>
+<skill>
+	<id>0E02001F</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,90,958</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+958[-]</desc>
+</skill>
+<skill>
+	<id>0E020020</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,90,1012</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1012[-]</desc>
+</skill>
+<skill>
+	<id>0E020021</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,90,1067</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1067[-]</desc>
+</skill>
+<skill>
+	<id>0E020022</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,90,1124</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1124[-]</desc>
+</skill>
+<skill>
+	<id>0E020023</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,90,1181</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1181[-]</desc>
+</skill>
+<skill>
+	<id>0E020024</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,90,1241</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1241[-]</desc>
+</skill>
+<skill>
+	<id>0E020025</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,90,1302</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1302[-]</desc>
+</skill>
+<skill>
+	<id>0E020026</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,90,1364</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1364[-]</desc>
+</skill>
+<skill>
+	<id>0E020027</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,90,1428</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1428[-]</desc>
+</skill>
+<skill>
+	<id>0E020028</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,90,1493</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1493[-]</desc>
+</skill>
+<skill>
+	<id>0E020029</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,90,1559</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1559[-]</desc>
+</skill>
+<skill>
+	<id>0E02002A</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,90,1627</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1627[-]</desc>
+</skill>
+<skill>
+	<id>0E02002B</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,90,1696</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1696[-]</desc>
+</skill>
+<skill>
+	<id>0E02002C</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,90,1767</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1767[-]</desc>
+</skill>
+<skill>
+	<id>0E02002D</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,90,1839</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1839[-]</desc>
+</skill>
+<skill>
+	<id>0E02002E</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,90,1913</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1913[-]</desc>
+</skill>
+<skill>
+	<id>0E02002F</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,90,1988</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+1988[-]</desc>
+</skill>
+<skill>
+	<id>0E020030</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,90,2064</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2064[-]</desc>
+</skill>
+<skill>
+	<id>0E020031</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,90,2142</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2142[-]</desc>
+</skill>
+<skill>
+	<id>0E020032</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,90,2222</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2222[-]</desc>
+</skill>
+<skill>
+	<id>0E020033</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,90,2302</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2302[-]</desc>
+</skill>
+<skill>
+	<id>0E020034</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,90,2384</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2384[-]</desc>
+</skill>
+<skill>
+	<id>0E020035</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,90,2467</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2467[-]</desc>
+</skill>
+<skill>
+	<id>0E020036</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,90,2553</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2553[-]</desc>
+</skill>
+<skill>
+	<id>0E020037</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,90,2639</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2639[-]</desc>
+</skill>
+<skill>
+	<id>0E020038</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,90,2727</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2727[-]</desc>
+</skill>
+<skill>
+	<id>0E020039</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,90,2816</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2816[-]</desc>
+</skill>
+<skill>
+	<id>0E02003A</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,90,2907</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2907[-]</desc>
+</skill>
+<skill>
+	<id>0E02003B</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,90,2998</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+2998[-]</desc>
+</skill>
+<skill>
+	<id>0E02003C</id>
+	<name>爱之箭</name>
+	<resid>ui_spr_jineng_004</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,90,3092</property_value>
+	<damage_count>1</damage_count>
+	<desc>向最远的敌人射出[00ff00]1[-]支箭,伤害为[00ff00]90%攻击+3092[-]</desc>
+</skill>
+<skill>
+	<id>0E030001</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,110,11</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+11[-]</desc>
+</skill>
+<skill>
+	<id>0E030002</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,110,24</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+24[-]</desc>
+</skill>
+<skill>
+	<id>0E030003</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,110,39</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+39[-]</desc>
+</skill>
+<skill>
+	<id>0E030004</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,110,57</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+57[-]</desc>
+</skill>
+<skill>
+	<id>0E030005</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,110,75</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+75[-]</desc>
+</skill>
+<skill>
+	<id>0E030006</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,110,95</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+95[-]</desc>
+</skill>
+<skill>
+	<id>0E030007</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,110,118</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+118[-]</desc>
+</skill>
+<skill>
+	<id>0E030008</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,110,141</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+141[-]</desc>
+</skill>
+<skill>
+	<id>0E030009</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,110,168</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+168[-]</desc>
+</skill>
+<skill>
+	<id>0E03000A</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,110,195</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+195[-]</desc>
+</skill>
+<skill>
+	<id>0E03000B</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,110,224</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+224[-]</desc>
+</skill>
+<skill>
+	<id>0E03000C</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,110,255</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+255[-]</desc>
+</skill>
+<skill>
+	<id>0E03000D</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,110,288</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+288[-]</desc>
+</skill>
+<skill>
+	<id>0E03000E</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,110,322</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+322[-]</desc>
+</skill>
+<skill>
+	<id>0E03000F</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,110,358</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+358[-]</desc>
+</skill>
+<skill>
+	<id>0E030010</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,110,396</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+396[-]</desc>
+</skill>
+<skill>
+	<id>0E030011</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,110,435</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+435[-]</desc>
+</skill>
+<skill>
+	<id>0E030012</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,110,477</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+477[-]</desc>
+</skill>
+<skill>
+	<id>0E030013</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,110,520</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+520[-]</desc>
+</skill>
+<skill>
+	<id>0E030014</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,110,565</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+565[-]</desc>
+</skill>
+<skill>
+	<id>0E030015</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,110,611</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+611[-]</desc>
+</skill>
+<skill>
+	<id>0E030016</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,110,660</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+660[-]</desc>
+</skill>
+<skill>
+	<id>0E030017</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,110,709</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+709[-]</desc>
+</skill>
+<skill>
+	<id>0E030018</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,110,761</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+761[-]</desc>
+</skill>
+<skill>
+	<id>0E030019</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,110,815</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+815[-]</desc>
+</skill>
+<skill>
+	<id>0E03001A</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,110,870</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+870[-]</desc>
+</skill>
+<skill>
+	<id>0E03001B</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,110,927</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+927[-]</desc>
+</skill>
+<skill>
+	<id>0E03001C</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,110,985</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+985[-]</desc>
+</skill>
+<skill>
+	<id>0E03001D</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,110,1046</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1046[-]</desc>
+</skill>
+<skill>
+	<id>0E03001E</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,110,1107</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1107[-]</desc>
+</skill>
+<skill>
+	<id>0E03001F</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,110,1171</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1171[-]</desc>
+</skill>
+<skill>
+	<id>0E030020</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,110,1237</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1237[-]</desc>
+</skill>
+<skill>
+	<id>0E030021</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,110,1304</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1304[-]</desc>
+</skill>
+<skill>
+	<id>0E030022</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,110,1373</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1373[-]</desc>
+</skill>
+<skill>
+	<id>0E030023</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,110,1444</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1444[-]</desc>
+</skill>
+<skill>
+	<id>0E030024</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,110,1516</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1516[-]</desc>
+</skill>
+<skill>
+	<id>0E030025</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,110,1591</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1591[-]</desc>
+</skill>
+<skill>
+	<id>0E030026</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,110,1667</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1667[-]</desc>
+</skill>
+<skill>
+	<id>0E030027</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,110,1745</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1745[-]</desc>
+</skill>
+<skill>
+	<id>0E030028</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,110,1824</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1824[-]</desc>
+</skill>
+<skill>
+	<id>0E030029</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,110,1906</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1906[-]</desc>
+</skill>
+<skill>
+	<id>0E03002A</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,110,1988</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+1988[-]</desc>
+</skill>
+<skill>
+	<id>0E03002B</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,110,2073</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2073[-]</desc>
+</skill>
+<skill>
+	<id>0E03002C</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,110,2160</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2160[-]</desc>
+</skill>
+<skill>
+	<id>0E03002D</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,110,2248</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2248[-]</desc>
+</skill>
+<skill>
+	<id>0E03002E</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,110,2338</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2338[-]</desc>
+</skill>
+<skill>
+	<id>0E03002F</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,110,2429</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2429[-]</desc>
+</skill>
+<skill>
+	<id>0E030030</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,110,2523</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2523[-]</desc>
+</skill>
+<skill>
+	<id>0E030031</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,110,2619</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2619[-]</desc>
+</skill>
+<skill>
+	<id>0E030032</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,110,2715</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2715[-]</desc>
+</skill>
+<skill>
+	<id>0E030033</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,110,2813</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2813[-]</desc>
+</skill>
+<skill>
+	<id>0E030034</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,110,2913</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+2913[-]</desc>
+</skill>
+<skill>
+	<id>0E030035</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,110,3016</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3016[-]</desc>
+</skill>
+<skill>
+	<id>0E030036</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,110,3120</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3120[-]</desc>
+</skill>
+<skill>
+	<id>0E030037</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,110,3226</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3226[-]</desc>
+</skill>
+<skill>
+	<id>0E030038</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,110,3333</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3333[-]</desc>
+</skill>
+<skill>
+	<id>0E030039</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,110,3441</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3441[-]</desc>
+</skill>
+<skill>
+	<id>0E03003A</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,110,3553</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3553[-]</desc>
+</skill>
+<skill>
+	<id>0E03003B</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,110,3665</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3665[-]</desc>
+</skill>
+<skill>
+	<id>0E03003C</id>
+	<name>萌兔重锤</name>
+	<resid>ui_spr_jineng_002</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,110,3779</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤[00ff00]1[-]只巨大的兔子攻击前方的敌人,伤害为[00ff00]110%攻击+3779[-]</desc>
+</skill>
+<skill>
+	<id>0E040001</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,8</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+8[-]</desc>
+</skill>
+<skill>
+	<id>0E040002</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,80,17</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+17[-]</desc>
+</skill>
+<skill>
+	<id>0E040003</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,80,28</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+28[-]</desc>
+</skill>
+<skill>
+	<id>0E040004</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,80,41</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+41[-]</desc>
+</skill>
+<skill>
+	<id>0E040005</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,80,55</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+55[-]</desc>
+</skill>
+<skill>
+	<id>0E040006</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,80,69</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+69[-]</desc>
+</skill>
+<skill>
+	<id>0E040007</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,80,86</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+86[-]</desc>
+</skill>
+<skill>
+	<id>0E040008</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,80,103</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+103[-]</desc>
+</skill>
+<skill>
+	<id>0E040009</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,80,122</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+122[-]</desc>
+</skill>
+<skill>
+	<id>0E04000A</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,80,142</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+142[-]</desc>
+</skill>
+<skill>
+	<id>0E04000B</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,80,163</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+163[-]</desc>
+</skill>
+<skill>
+	<id>0E04000C</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,80,185</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+185[-]</desc>
+</skill>
+<skill>
+	<id>0E04000D</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,80,209</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+209[-]</desc>
+</skill>
+<skill>
+	<id>0E04000E</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,80,234</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+234[-]</desc>
+</skill>
+<skill>
+	<id>0E04000F</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,80,260</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+260[-]</desc>
+</skill>
+<skill>
+	<id>0E040010</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,80,288</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+288[-]</desc>
+</skill>
+<skill>
+	<id>0E040011</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,80,316</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+316[-]</desc>
+</skill>
+<skill>
+	<id>0E040012</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,80,347</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+347[-]</desc>
+</skill>
+<skill>
+	<id>0E040013</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,80,378</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+378[-]</desc>
+</skill>
+<skill>
+	<id>0E040014</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,80,411</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+411[-]</desc>
+</skill>
+<skill>
+	<id>0E040015</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,80,444</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+444[-]</desc>
+</skill>
+<skill>
+	<id>0E040016</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,80,480</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+480[-]</desc>
+</skill>
+<skill>
+	<id>0E040017</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,80,516</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+516[-]</desc>
+</skill>
+<skill>
+	<id>0E040018</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,80,553</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+553[-]</desc>
+</skill>
+<skill>
+	<id>0E040019</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,80,592</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+592[-]</desc>
+</skill>
+<skill>
+	<id>0E04001A</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,80,632</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+632[-]</desc>
+</skill>
+<skill>
+	<id>0E04001B</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,80,674</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+674[-]</desc>
+</skill>
+<skill>
+	<id>0E04001C</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,80,716</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+716[-]</desc>
+</skill>
+<skill>
+	<id>0E04001D</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,80,760</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+760[-]</desc>
+</skill>
+<skill>
+	<id>0E04001E</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,80,805</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+805[-]</desc>
+</skill>
+<skill>
+	<id>0E04001F</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,80,852</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+852[-]</desc>
+</skill>
+<skill>
+	<id>0E040020</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,80,900</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+900[-]</desc>
+</skill>
+<skill>
+	<id>0E040021</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,80,948</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+948[-]</desc>
+</skill>
+<skill>
+	<id>0E040022</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,80,999</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+999[-]</desc>
+</skill>
+<skill>
+	<id>0E040023</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,80,1050</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1050[-]</desc>
+</skill>
+<skill>
+	<id>0E040024</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,80,1103</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1103[-]</desc>
+</skill>
+<skill>
+	<id>0E040025</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,80,1157</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1157[-]</desc>
+</skill>
+<skill>
+	<id>0E040026</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,80,1212</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1212[-]</desc>
+</skill>
+<skill>
+	<id>0E040027</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,80,1269</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1269[-]</desc>
+</skill>
+<skill>
+	<id>0E040028</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,80,1327</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1327[-]</desc>
+</skill>
+<skill>
+	<id>0E040029</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,80,1386</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1386[-]</desc>
+</skill>
+<skill>
+	<id>0E04002A</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,80,1446</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1446[-]</desc>
+</skill>
+<skill>
+	<id>0E04002B</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,80,1508</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1508[-]</desc>
+</skill>
+<skill>
+	<id>0E04002C</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,80,1571</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1571[-]</desc>
+</skill>
+<skill>
+	<id>0E04002D</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,80,1635</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1635[-]</desc>
+</skill>
+<skill>
+	<id>0E04002E</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,80,1700</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1700[-]</desc>
+</skill>
+<skill>
+	<id>0E04002F</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,80,1767</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1767[-]</desc>
+</skill>
+<skill>
+	<id>0E040030</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,80,1835</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1835[-]</desc>
+</skill>
+<skill>
+	<id>0E040031</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,80,1904</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1904[-]</desc>
+</skill>
+<skill>
+	<id>0E040032</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,80,1975</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+1975[-]</desc>
+</skill>
+<skill>
+	<id>0E040033</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,80,2046</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2046[-]</desc>
+</skill>
+<skill>
+	<id>0E040034</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,80,2119</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2119[-]</desc>
+</skill>
+<skill>
+	<id>0E040035</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,80,2193</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2193[-]</desc>
+</skill>
+<skill>
+	<id>0E040036</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,80,2269</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2269[-]</desc>
+</skill>
+<skill>
+	<id>0E040037</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,80,2346</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2346[-]</desc>
+</skill>
+<skill>
+	<id>0E040038</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,80,2424</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2424[-]</desc>
+</skill>
+<skill>
+	<id>0E040039</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,80,2503</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2503[-]</desc>
+</skill>
+<skill>
+	<id>0E04003A</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,80,2584</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2584[-]</desc>
+</skill>
+<skill>
+	<id>0E04003B</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,80,2665</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2665[-]</desc>
+</skill>
+<skill>
+	<id>0E04003C</id>
+	<name>超频声波</name>
+	<resid>ui_spr_jineng_003</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,80,2748</property_value>
+	<damage_count>1</damage_count>
+	<desc>用哭声攻击周围的敌人[00ff00]1[-]次,伤害为[00ff00]80%攻击+2748[-]</desc>
+</skill>
+<skill>
+	<id>0E050001</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,12</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+12[-]</desc>
+</skill>
+<skill>
+	<id>0E050002</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,120,26</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+26[-]</desc>
+</skill>
+<skill>
+	<id>0E050003</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,120,43</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+43[-]</desc>
+</skill>
+<skill>
+	<id>0E050004</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,120,62</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+62[-]</desc>
+</skill>
+<skill>
+	<id>0E050005</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,120,82</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+82[-]</desc>
+</skill>
+<skill>
+	<id>0E050006</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,120,104</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+104[-]</desc>
+</skill>
+<skill>
+	<id>0E050007</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,120,129</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+129[-]</desc>
+</skill>
+<skill>
+	<id>0E050008</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,120,154</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+154[-]</desc>
+</skill>
+<skill>
+	<id>0E050009</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,120,183</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+183[-]</desc>
+</skill>
+<skill>
+	<id>0E05000A</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,120,213</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+213[-]</desc>
+</skill>
+<skill>
+	<id>0E05000B</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,120,244</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+244[-]</desc>
+</skill>
+<skill>
+	<id>0E05000C</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,120,278</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+278[-]</desc>
+</skill>
+<skill>
+	<id>0E05000D</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,120,314</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+314[-]</desc>
+</skill>
+<skill>
+	<id>0E05000E</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,120,351</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+351[-]</desc>
+</skill>
+<skill>
+	<id>0E05000F</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,120,391</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+391[-]</desc>
+</skill>
+<skill>
+	<id>0E050010</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,120,432</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+432[-]</desc>
+</skill>
+<skill>
+	<id>0E050011</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,120,475</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+475[-]</desc>
+</skill>
+<skill>
+	<id>0E050012</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,120,520</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+520[-]</desc>
+</skill>
+<skill>
+	<id>0E050013</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,120,567</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+567[-]</desc>
+</skill>
+<skill>
+	<id>0E050014</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,120,616</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+616[-]</desc>
+</skill>
+<skill>
+	<id>0E050015</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,120,667</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+667[-]</desc>
+</skill>
+<skill>
+	<id>0E050016</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,120,720</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+720[-]</desc>
+</skill>
+<skill>
+	<id>0E050017</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,120,774</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+774[-]</desc>
+</skill>
+<skill>
+	<id>0E050018</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,120,830</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+830[-]</desc>
+</skill>
+<skill>
+	<id>0E050019</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,120,889</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+889[-]</desc>
+</skill>
+<skill>
+	<id>0E05001A</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,120,949</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+949[-]</desc>
+</skill>
+<skill>
+	<id>0E05001B</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,120,1011</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1011[-]</desc>
+</skill>
+<skill>
+	<id>0E05001C</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,120,1075</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1075[-]</desc>
+</skill>
+<skill>
+	<id>0E05001D</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,120,1141</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1141[-]</desc>
+</skill>
+<skill>
+	<id>0E05001E</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,120,1208</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1208[-]</desc>
+</skill>
+<skill>
+	<id>0E05001F</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,120,1278</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1278[-]</desc>
+</skill>
+<skill>
+	<id>0E050020</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,120,1350</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1350[-]</desc>
+</skill>
+<skill>
+	<id>0E050021</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,120,1423</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1423[-]</desc>
+</skill>
+<skill>
+	<id>0E050022</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,120,1498</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1498[-]</desc>
+</skill>
+<skill>
+	<id>0E050023</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,120,1575</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1575[-]</desc>
+</skill>
+<skill>
+	<id>0E050024</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,120,1654</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1654[-]</desc>
+</skill>
+<skill>
+	<id>0E050025</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,120,1736</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1736[-]</desc>
+</skill>
+<skill>
+	<id>0E050026</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,120,1819</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1819[-]</desc>
+</skill>
+<skill>
+	<id>0E050027</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,120,1904</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1904[-]</desc>
+</skill>
+<skill>
+	<id>0E050028</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,120,1990</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+1990[-]</desc>
+</skill>
+<skill>
+	<id>0E050029</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,120,2079</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2079[-]</desc>
+</skill>
+<skill>
+	<id>0E05002A</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,120,2169</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2169[-]</desc>
+</skill>
+<skill>
+	<id>0E05002B</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,120,2262</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2262[-]</desc>
+</skill>
+<skill>
+	<id>0E05002C</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,120,2356</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2356[-]</desc>
+</skill>
+<skill>
+	<id>0E05002D</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,120,2452</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2452[-]</desc>
+</skill>
+<skill>
+	<id>0E05002E</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,120,2551</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2551[-]</desc>
+</skill>
+<skill>
+	<id>0E05002F</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,120,2650</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2650[-]</desc>
+</skill>
+<skill>
+	<id>0E050030</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,120,2752</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2752[-]</desc>
+</skill>
+<skill>
+	<id>0E050031</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,120,2857</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2857[-]</desc>
+</skill>
+<skill>
+	<id>0E050032</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,120,2962</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+2962[-]</desc>
+</skill>
+<skill>
+	<id>0E050033</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,120,3069</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3069[-]</desc>
+</skill>
+<skill>
+	<id>0E050034</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,120,3178</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3178[-]</desc>
+</skill>
+<skill>
+	<id>0E050035</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,120,3290</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3290[-]</desc>
+</skill>
+<skill>
+	<id>0E050036</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,120,3404</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3404[-]</desc>
+</skill>
+<skill>
+	<id>0E050037</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,120,3519</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3519[-]</desc>
+</skill>
+<skill>
+	<id>0E050038</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,120,3636</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3636[-]</desc>
+</skill>
+<skill>
+	<id>0E050039</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,120,3754</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3754[-]</desc>
+</skill>
+<skill>
+	<id>0E05003A</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,120,3876</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3876[-]</desc>
+</skill>
+<skill>
+	<id>0E05003B</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,120,3998</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+3998[-]</desc>
+</skill>
+<skill>
+	<id>0E05003C</id>
+	<name>流星火雨</name>
+	<resid>ui_spr_jineng_006</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,120,4123</property_value>
+	<damage_count>5</damage_count>
+	<desc>召唤[00ff00]5[-]枚火球攻击前方的敌人,总伤害为[00ff00]120%攻击+4123[-]</desc>
+</skill>
+<skill>
+	<id>0E060001</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,10</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+10[-]</desc>
+</skill>
+<skill>
+	<id>0E060002</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,100,22</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+22[-]</desc>
+</skill>
+<skill>
+	<id>0E060003</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,100,36</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+36[-]</desc>
+</skill>
+<skill>
+	<id>0E060004</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,100,52</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+52[-]</desc>
+</skill>
+<skill>
+	<id>0E060005</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,100,69</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+69[-]</desc>
+</skill>
+<skill>
+	<id>0E060006</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,100,87</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+87[-]</desc>
+</skill>
+<skill>
+	<id>0E060007</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,100,108</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+108[-]</desc>
+</skill>
+<skill>
+	<id>0E060008</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,100,129</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+129[-]</desc>
+</skill>
+<skill>
+	<id>0E060009</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,100,153</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+153[-]</desc>
+</skill>
+<skill>
+	<id>0E06000A</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,100,178</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+178[-]</desc>
+</skill>
+<skill>
+	<id>0E06000B</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,100,204</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+204[-]</desc>
+</skill>
+<skill>
+	<id>0E06000C</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,100,232</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+232[-]</desc>
+</skill>
+<skill>
+	<id>0E06000D</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,100,262</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+262[-]</desc>
+</skill>
+<skill>
+	<id>0E06000E</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,100,293</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+293[-]</desc>
+</skill>
+<skill>
+	<id>0E06000F</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,100,326</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+326[-]</desc>
+</skill>
+<skill>
+	<id>0E060010</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,100,360</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+360[-]</desc>
+</skill>
+<skill>
+	<id>0E060011</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,100,396</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+396[-]</desc>
+</skill>
+<skill>
+	<id>0E060012</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,100,434</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+434[-]</desc>
+</skill>
+<skill>
+	<id>0E060013</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,100,473</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+473[-]</desc>
+</skill>
+<skill>
+	<id>0E060014</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,100,514</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+514[-]</desc>
+</skill>
+<skill>
+	<id>0E060015</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,100,556</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+556[-]</desc>
+</skill>
+<skill>
+	<id>0E060016</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,100,600</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+600[-]</desc>
+</skill>
+<skill>
+	<id>0E060017</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,100,645</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+645[-]</desc>
+</skill>
+<skill>
+	<id>0E060018</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,100,692</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+692[-]</desc>
+</skill>
+<skill>
+	<id>0E060019</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,100,741</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+741[-]</desc>
+</skill>
+<skill>
+	<id>0E06001A</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,100,791</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+791[-]</desc>
+</skill>
+<skill>
+	<id>0E06001B</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,100,843</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+843[-]</desc>
+</skill>
+<skill>
+	<id>0E06001C</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,100,896</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+896[-]</desc>
+</skill>
+<skill>
+	<id>0E06001D</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,100,951</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+951[-]</desc>
+</skill>
+<skill>
+	<id>0E06001E</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,100,1007</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1007[-]</desc>
+</skill>
+<skill>
+	<id>0E06001F</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,100,1065</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1065[-]</desc>
+</skill>
+<skill>
+	<id>0E060020</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,100,1125</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1125[-]</desc>
+</skill>
+<skill>
+	<id>0E060021</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,100,1186</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1186[-]</desc>
+</skill>
+<skill>
+	<id>0E060022</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,100,1249</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1249[-]</desc>
+</skill>
+<skill>
+	<id>0E060023</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,100,1313</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1313[-]</desc>
+</skill>
+<skill>
+	<id>0E060024</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,100,1379</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1379[-]</desc>
+</skill>
+<skill>
+	<id>0E060025</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,100,1447</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1447[-]</desc>
+</skill>
+<skill>
+	<id>0E060026</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,100,1516</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1516[-]</desc>
+</skill>
+<skill>
+	<id>0E060027</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,100,1587</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1587[-]</desc>
+</skill>
+<skill>
+	<id>0E060028</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,100,1659</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1659[-]</desc>
+</skill>
+<skill>
+	<id>0E060029</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,100,1733</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1733[-]</desc>
+</skill>
+<skill>
+	<id>0E06002A</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,100,1808</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1808[-]</desc>
+</skill>
+<skill>
+	<id>0E06002B</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,100,1885</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1885[-]</desc>
+</skill>
+<skill>
+	<id>0E06002C</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,100,1964</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+1964[-]</desc>
+</skill>
+<skill>
+	<id>0E06002D</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,100,2044</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2044[-]</desc>
+</skill>
+<skill>
+	<id>0E06002E</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,100,2126</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2126[-]</desc>
+</skill>
+<skill>
+	<id>0E06002F</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,100,2209</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2209[-]</desc>
+</skill>
+<skill>
+	<id>0E060030</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,100,2294</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2294[-]</desc>
+</skill>
+<skill>
+	<id>0E060031</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,100,2381</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2381[-]</desc>
+</skill>
+<skill>
+	<id>0E060032</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,100,2469</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2469[-]</desc>
+</skill>
+<skill>
+	<id>0E060033</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,100,2558</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2558[-]</desc>
+</skill>
+<skill>
+	<id>0E060034</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,100,2649</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2649[-]</desc>
+</skill>
+<skill>
+	<id>0E060035</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,100,2742</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2742[-]</desc>
+</skill>
+<skill>
+	<id>0E060036</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,100,2837</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2837[-]</desc>
+</skill>
+<skill>
+	<id>0E060037</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,100,2933</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+2933[-]</desc>
+</skill>
+<skill>
+	<id>0E060038</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,100,3030</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+3030[-]</desc>
+</skill>
+<skill>
+	<id>0E060039</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,100,3129</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+3129[-]</desc>
+</skill>
+<skill>
+	<id>0E06003A</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,100,3230</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+3230[-]</desc>
+</skill>
+<skill>
+	<id>0E06003B</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,100,3332</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+3332[-]</desc>
+</skill>
+<skill>
+	<id>0E06003C</id>
+	<name>迅捷闪击</name>
+	<resid>ui_spr_jineng_007</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,100,3436</property_value>
+	<damage_count>1</damage_count>
+	<desc>攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]100%攻击+3436[-]</desc>
+</skill>
+<skill>
+	<id>0E070001</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,110,11</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+11[-]</desc>
+</skill>
+<skill>
+	<id>0E070002</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,110,24</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+24[-]</desc>
+</skill>
+<skill>
+	<id>0E070003</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,110,39</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+39[-]</desc>
+</skill>
+<skill>
+	<id>0E070004</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,110,57</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+57[-]</desc>
+</skill>
+<skill>
+	<id>0E070005</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,110,75</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+75[-]</desc>
+</skill>
+<skill>
+	<id>0E070006</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,110,95</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+95[-]</desc>
+</skill>
+<skill>
+	<id>0E070007</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,110,118</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+118[-]</desc>
+</skill>
+<skill>
+	<id>0E070008</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,110,141</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+141[-]</desc>
+</skill>
+<skill>
+	<id>0E070009</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,110,168</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+168[-]</desc>
+</skill>
+<skill>
+	<id>0E07000A</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,110,195</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+195[-]</desc>
+</skill>
+<skill>
+	<id>0E07000B</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,110,224</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+224[-]</desc>
+</skill>
+<skill>
+	<id>0E07000C</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,110,255</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+255[-]</desc>
+</skill>
+<skill>
+	<id>0E07000D</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,110,288</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+288[-]</desc>
+</skill>
+<skill>
+	<id>0E07000E</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,110,322</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+322[-]</desc>
+</skill>
+<skill>
+	<id>0E07000F</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,110,358</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+358[-]</desc>
+</skill>
+<skill>
+	<id>0E070010</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,110,396</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+396[-]</desc>
+</skill>
+<skill>
+	<id>0E070011</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,110,435</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+435[-]</desc>
+</skill>
+<skill>
+	<id>0E070012</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,110,477</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+477[-]</desc>
+</skill>
+<skill>
+	<id>0E070013</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,110,520</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+520[-]</desc>
+</skill>
+<skill>
+	<id>0E070014</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,110,565</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+565[-]</desc>
+</skill>
+<skill>
+	<id>0E070015</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,110,611</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+611[-]</desc>
+</skill>
+<skill>
+	<id>0E070016</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,110,660</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+660[-]</desc>
+</skill>
+<skill>
+	<id>0E070017</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,110,709</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+709[-]</desc>
+</skill>
+<skill>
+	<id>0E070018</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,110,761</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+761[-]</desc>
+</skill>
+<skill>
+	<id>0E070019</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,110,815</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+815[-]</desc>
+</skill>
+<skill>
+	<id>0E07001A</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,110,870</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+870[-]</desc>
+</skill>
+<skill>
+	<id>0E07001B</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,110,927</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+927[-]</desc>
+</skill>
+<skill>
+	<id>0E07001C</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,110,985</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+985[-]</desc>
+</skill>
+<skill>
+	<id>0E07001D</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,110,1046</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1046[-]</desc>
+</skill>
+<skill>
+	<id>0E07001E</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,110,1107</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1107[-]</desc>
+</skill>
+<skill>
+	<id>0E07001F</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,110,1171</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1171[-]</desc>
+</skill>
+<skill>
+	<id>0E070020</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,110,1237</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1237[-]</desc>
+</skill>
+<skill>
+	<id>0E070021</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,110,1304</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1304[-]</desc>
+</skill>
+<skill>
+	<id>0E070022</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,110,1373</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1373[-]</desc>
+</skill>
+<skill>
+	<id>0E070023</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,110,1444</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1444[-]</desc>
+</skill>
+<skill>
+	<id>0E070024</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,110,1516</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1516[-]</desc>
+</skill>
+<skill>
+	<id>0E070025</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,110,1591</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1591[-]</desc>
+</skill>
+<skill>
+	<id>0E070026</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,110,1667</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1667[-]</desc>
+</skill>
+<skill>
+	<id>0E070027</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,110,1745</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1745[-]</desc>
+</skill>
+<skill>
+	<id>0E070028</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,110,1824</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1824[-]</desc>
+</skill>
+<skill>
+	<id>0E070029</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,110,1906</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1906[-]</desc>
+</skill>
+<skill>
+	<id>0E07002A</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,110,1988</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+1988[-]</desc>
+</skill>
+<skill>
+	<id>0E07002B</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,110,2073</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2073[-]</desc>
+</skill>
+<skill>
+	<id>0E07002C</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,110,2160</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2160[-]</desc>
+</skill>
+<skill>
+	<id>0E07002D</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,110,2248</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2248[-]</desc>
+</skill>
+<skill>
+	<id>0E07002E</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,110,2338</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2338[-]</desc>
+</skill>
+<skill>
+	<id>0E07002F</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,110,2429</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2429[-]</desc>
+</skill>
+<skill>
+	<id>0E070030</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,110,2523</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2523[-]</desc>
+</skill>
+<skill>
+	<id>0E070031</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,110,2619</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2619[-]</desc>
+</skill>
+<skill>
+	<id>0E070032</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,110,2715</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2715[-]</desc>
+</skill>
+<skill>
+	<id>0E070033</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,110,2813</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2813[-]</desc>
+</skill>
+<skill>
+	<id>0E070034</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,110,2913</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+2913[-]</desc>
+</skill>
+<skill>
+	<id>0E070035</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,110,3016</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3016[-]</desc>
+</skill>
+<skill>
+	<id>0E070036</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,110,3120</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3120[-]</desc>
+</skill>
+<skill>
+	<id>0E070037</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,110,3226</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3226[-]</desc>
+</skill>
+<skill>
+	<id>0E070038</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,110,3333</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3333[-]</desc>
+</skill>
+<skill>
+	<id>0E070039</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,110,3441</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3441[-]</desc>
+</skill>
+<skill>
+	<id>0E07003A</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,110,3553</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3553[-]</desc>
+</skill>
+<skill>
+	<id>0E07003B</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,110,3665</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3665[-]</desc>
+</skill>
+<skill>
+	<id>0E07003C</id>
+	<name>小白出击</name>
+	<resid>ui_spr_jineng_001</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,110,3779</property_value>
+	<damage_count>2</damage_count>
+	<desc>把小白当做溜溜球攻击路径上的敌人[00ff00]1[-]次,伤害为[00ff00]110%攻击+3779[-]</desc>
+</skill>
+<skill>
+	<id>0E080001</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,12</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+12[-]</desc>
+</skill>
+<skill>
+	<id>0E080002</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>2</skill_level>
+	<property_value>1,120,26</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+26[-]</desc>
+</skill>
+<skill>
+	<id>0E080003</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>3</skill_level>
+	<property_value>1,120,43</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+43[-]</desc>
+</skill>
+<skill>
+	<id>0E080004</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>4</skill_level>
+	<property_value>1,120,62</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+62[-]</desc>
+</skill>
+<skill>
+	<id>0E080005</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>5</skill_level>
+	<property_value>1,120,82</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+82[-]</desc>
+</skill>
+<skill>
+	<id>0E080006</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>6</skill_level>
+	<property_value>1,120,104</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+104[-]</desc>
+</skill>
+<skill>
+	<id>0E080007</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>7</skill_level>
+	<property_value>1,120,129</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+129[-]</desc>
+</skill>
+<skill>
+	<id>0E080008</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>8</skill_level>
+	<property_value>1,120,154</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+154[-]</desc>
+</skill>
+<skill>
+	<id>0E080009</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>9</skill_level>
+	<property_value>1,120,183</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+183[-]</desc>
+</skill>
+<skill>
+	<id>0E08000A</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>10</skill_level>
+	<property_value>1,120,213</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+213[-]</desc>
+</skill>
+<skill>
+	<id>0E08000B</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>11</skill_level>
+	<property_value>1,120,244</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+244[-]</desc>
+</skill>
+<skill>
+	<id>0E08000C</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>12</skill_level>
+	<property_value>1,120,278</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+278[-]</desc>
+</skill>
+<skill>
+	<id>0E08000D</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>13</skill_level>
+	<property_value>1,120,314</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+314[-]</desc>
+</skill>
+<skill>
+	<id>0E08000E</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>14</skill_level>
+	<property_value>1,120,351</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+351[-]</desc>
+</skill>
+<skill>
+	<id>0E08000F</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>15</skill_level>
+	<property_value>1,120,391</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+391[-]</desc>
+</skill>
+<skill>
+	<id>0E080010</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>16</skill_level>
+	<property_value>1,120,432</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+432[-]</desc>
+</skill>
+<skill>
+	<id>0E080011</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>17</skill_level>
+	<property_value>1,120,475</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+475[-]</desc>
+</skill>
+<skill>
+	<id>0E080012</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>18</skill_level>
+	<property_value>1,120,520</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+520[-]</desc>
+</skill>
+<skill>
+	<id>0E080013</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>19</skill_level>
+	<property_value>1,120,567</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+567[-]</desc>
+</skill>
+<skill>
+	<id>0E080014</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>20</skill_level>
+	<property_value>1,120,616</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+616[-]</desc>
+</skill>
+<skill>
+	<id>0E080015</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>21</skill_level>
+	<property_value>1,120,667</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+667[-]</desc>
+</skill>
+<skill>
+	<id>0E080016</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>22</skill_level>
+	<property_value>1,120,720</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+720[-]</desc>
+</skill>
+<skill>
+	<id>0E080017</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>23</skill_level>
+	<property_value>1,120,774</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+774[-]</desc>
+</skill>
+<skill>
+	<id>0E080018</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>24</skill_level>
+	<property_value>1,120,830</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+830[-]</desc>
+</skill>
+<skill>
+	<id>0E080019</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>25</skill_level>
+	<property_value>1,120,889</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+889[-]</desc>
+</skill>
+<skill>
+	<id>0E08001A</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>26</skill_level>
+	<property_value>1,120,949</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+949[-]</desc>
+</skill>
+<skill>
+	<id>0E08001B</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>27</skill_level>
+	<property_value>1,120,1011</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1011[-]</desc>
+</skill>
+<skill>
+	<id>0E08001C</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>28</skill_level>
+	<property_value>1,120,1075</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1075[-]</desc>
+</skill>
+<skill>
+	<id>0E08001D</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>29</skill_level>
+	<property_value>1,120,1141</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1141[-]</desc>
+</skill>
+<skill>
+	<id>0E08001E</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>30</skill_level>
+	<property_value>1,120,1208</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1208[-]</desc>
+</skill>
+<skill>
+	<id>0E08001F</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>31</skill_level>
+	<property_value>1,120,1278</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1278[-]</desc>
+</skill>
+<skill>
+	<id>0E080020</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>32</skill_level>
+	<property_value>1,120,1350</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1350[-]</desc>
+</skill>
+<skill>
+	<id>0E080021</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>33</skill_level>
+	<property_value>1,120,1423</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1423[-]</desc>
+</skill>
+<skill>
+	<id>0E080022</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>34</skill_level>
+	<property_value>1,120,1498</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1498[-]</desc>
+</skill>
+<skill>
+	<id>0E080023</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>35</skill_level>
+	<property_value>1,120,1575</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1575[-]</desc>
+</skill>
+<skill>
+	<id>0E080024</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>36</skill_level>
+	<property_value>1,120,1654</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1654[-]</desc>
+</skill>
+<skill>
+	<id>0E080025</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>37</skill_level>
+	<property_value>1,120,1736</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1736[-]</desc>
+</skill>
+<skill>
+	<id>0E080026</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>38</skill_level>
+	<property_value>1,120,1819</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1819[-]</desc>
+</skill>
+<skill>
+	<id>0E080027</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>39</skill_level>
+	<property_value>1,120,1904</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1904[-]</desc>
+</skill>
+<skill>
+	<id>0E080028</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>40</skill_level>
+	<property_value>1,120,1990</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+1990[-]</desc>
+</skill>
+<skill>
+	<id>0E080029</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>41</skill_level>
+	<property_value>1,120,2079</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2079[-]</desc>
+</skill>
+<skill>
+	<id>0E08002A</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>42</skill_level>
+	<property_value>1,120,2169</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2169[-]</desc>
+</skill>
+<skill>
+	<id>0E08002B</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>43</skill_level>
+	<property_value>1,120,2262</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2262[-]</desc>
+</skill>
+<skill>
+	<id>0E08002C</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>44</skill_level>
+	<property_value>1,120,2356</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2356[-]</desc>
+</skill>
+<skill>
+	<id>0E08002D</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>45</skill_level>
+	<property_value>1,120,2452</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2452[-]</desc>
+</skill>
+<skill>
+	<id>0E08002E</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>46</skill_level>
+	<property_value>1,120,2551</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2551[-]</desc>
+</skill>
+<skill>
+	<id>0E08002F</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>47</skill_level>
+	<property_value>1,120,2650</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2650[-]</desc>
+</skill>
+<skill>
+	<id>0E080030</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>48</skill_level>
+	<property_value>1,120,2752</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2752[-]</desc>
+</skill>
+<skill>
+	<id>0E080031</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>49</skill_level>
+	<property_value>1,120,2857</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2857[-]</desc>
+</skill>
+<skill>
+	<id>0E080032</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>50</skill_level>
+	<property_value>1,120,2962</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+2962[-]</desc>
+</skill>
+<skill>
+	<id>0E080033</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>51</skill_level>
+	<property_value>1,120,3069</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3069[-]</desc>
+</skill>
+<skill>
+	<id>0E080034</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>52</skill_level>
+	<property_value>1,120,3178</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3178[-]</desc>
+</skill>
+<skill>
+	<id>0E080035</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>53</skill_level>
+	<property_value>1,120,3290</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3290[-]</desc>
+</skill>
+<skill>
+	<id>0E080036</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>54</skill_level>
+	<property_value>1,120,3404</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3404[-]</desc>
+</skill>
+<skill>
+	<id>0E080037</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>55</skill_level>
+	<property_value>1,120,3519</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3519[-]</desc>
+</skill>
+<skill>
+	<id>0E080038</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>56</skill_level>
+	<property_value>1,120,3636</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3636[-]</desc>
+</skill>
+<skill>
+	<id>0E080039</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>57</skill_level>
+	<property_value>1,120,3754</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3754[-]</desc>
+</skill>
+<skill>
+	<id>0E08003A</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>58</skill_level>
+	<property_value>1,120,3876</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3876[-]</desc>
+</skill>
+<skill>
+	<id>0E08003B</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>59</skill_level>
+	<property_value>1,120,3998</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+3998[-]</desc>
+</skill>
+<skill>
+	<id>0E08003C</id>
+	<name>鼻涕重击</name>
+	<resid>ui_spr_jineng_008</resid>
+	<skill_level>60</skill_level>
+	<property_value>1,120,4123</property_value>
+	<damage_count>1</damage_count>
+	<desc>用鼻涕攻击敌人[00ff00]1[-]次,伤害为[00ff00]120%攻击+4123[-]</desc>
+</skill>
+<skill>
+	<id>0E000001</id>
+	<name>红蝎子队1</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,300,0</property_value>
+	<damage_count>6</damage_count>
+	<desc>喷嚏的水珠6连射</desc>
+</skill>
+<skill>
+	<id>0E000002</id>
+	<name>红蝎子队2</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>音波发射1次</desc>
+</skill>
+<skill>
+	<id>0E000003</id>
+	<name>红蝎子队3</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,160,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>踩地板</desc>
+</skill>
+<skill>
+	<id>0E000004</id>
+	<name>小鸟</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>身体周围发光造成伤害</desc>
+</skill>
+<skill>
+	<id>0E000005</id>
+	<name>蜘蛛机器人</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,225,0</property_value>
+	<damage_count>3</damage_count>
+	<desc>发射3个蜘蛛造成伤害</desc>
+</skill>
+<skill>
+	<id>0E000006</id>
+	<name>骷髅怪人</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>投掷一发炸弹</desc>
+</skill>
+<skill>
+	<id>0E000007</id>
+	<name>怪异老鼠</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,124,0</property_value>
+	<damage_count>2</damage_count>
+	<desc>空中投掷两发炸弹</desc>
+</skill>
+<skill>
+	<id>0E000008</id>
+	<name>狼人</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>3</damage_count>
+	<desc>发射三颗子弹</desc>
+</skill>
+<skill>
+	<id>0E000009</id>
+	<name>Z魔王炸弹</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>投掷一发炸弹</desc>
+</skill>
+<skill>
+	<id>0E00000A</id>
+	<name>Z魔王自爆</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,500,0</property_value>
+	<damage_count>7</damage_count>
+	<desc>近身范围自爆攻击</desc>
+</skill>
+<skill>
+	<id>0E00000B</id>
+	<name>娃娃</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>水球抛射攻击</desc>
+</skill>
+<skill>
+	<id>0E00000C</id>
+	<name>老鹰头激光</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,90,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>8米左右的激光攻击</desc>
+</skill>
+<skill>
+	<id>0E00000D</id>
+	<name>老鹰头光波</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>16米左右的光波攻击</desc>
+</skill>
+<skill>
+	<id>0E00000E</id>
+	<name>麻雀小队</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,120,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>近身攻击，用拳头对玩家发动攻击，玩家在怪物攻击范围内时，会收到怪物的多次攻击。</desc>
+</skill>
+<skill>
+	<id>0E00000F</id>
+	<name>大猩猩</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,200,0</property_value>
+	<damage_count>3</damage_count>
+	<desc>双手捶地，地面出现石笋，石笋逐个向外扩散且变得更大。（扩散出3个）在规定范围内，对玩家造成单体单次伤害。</desc>
+</skill>
+<skill>
+	<id>0E000010</id>
+	<name>小鸟导弹</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,200,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>无攻击动作，当玩家公司怪物时，怪物会自爆</desc>
+</skill>
+<skill>
+	<id>0E000011</id>
+	<name>木乃伊沙尘</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤沙尘暴，以怪物本身为中心向外扩散的烟雾，烟雾在规定范围内造成单人单次伤害，技能有宽度和高度设定，超出范围后烟雾消失，全过程为淡入淡出。</desc>
+</skill>
+<skill>
+	<id>0E000012</id>
+	<name>猩猩总督刺</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,180,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>在面前产生两道交叉的刀光，对面前的敌人产生伤害</desc>
+</skill>
+<skill>
+	<id>0E000013</id>
+	<name>猩猩总督黑洞</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,150,0</property_value>
+	<damage_count>3</damage_count>
+	<desc>在前方召唤出一个黑色漩涡，黑色漩涡对附近的所有角色造成多次伤害。</desc>
+</skill>
+<skill>
+	<id>0E000014</id>
+	<name>蓝波党小风暴</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,150,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥舞袖子，袖子对近身范围内的怪物产生伤害</desc>
+</skill>
+<skill>
+	<id>0E000015</id>
+	<name>蓝波党大风暴</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,90,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>在身体前方召唤出龙卷风，龙卷风对附近的所有角色造成多次伤害</desc>
+</skill>
+<skill>
+	<id>0E000016</id>
+	<name>雪女冰球</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,300,0</property_value>
+	<damage_count>6</damage_count>
+	<desc>挥舞袖子发出暴风雪（冰石），暴风雪对有效范围内的玩家产生单体单次伤害</desc>
+</skill>
+<skill>
+	<id>0E000017</id>
+	<name>雪女冰刺</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,110,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>召唤出冰刺（和石笋类似），地面出现冰刺，冰刺逐个向外扩散且变得更大。在规定范围内，对玩家造成单体单次伤害。</desc>
+</skill>
+<skill>
+	<id>0E000018</id>
+	<name>暗黑佐罗刀光</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,130,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥舞剑，飞出一个剑痕，剑痕对有效范围内对玩家产生单体单次伤害</desc>
+</skill>
+<skill>
+	<id>0E000019</id>
+	<name>暗黑佐罗黑洞</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,300,0</property_value>
+	<damage_count>6</damage_count>
+	<desc>在前方召唤出一个黑洞，黑洞会掉落出匕首，每个尖锐的匕首，每个匕首会对玩家造成一次伤害。玩家触碰多个匕首，会被造成多次伤害。</desc>
+</skill>
+<skill>
+	<id>0E00001A</id>
+	<name>兹拜丁巴哈(变身前)</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥舞光剑，向前方发射出剑痕，对前方有效距离内的玩家造成单体单次伤害</desc>
+</skill>
+<skill>
+	<id>0E00001B</id>
+	<name>兹拜丁巴哈(boss)风暴</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,180,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>旋转上身，带起龙卷风和沙尘，对身体周围的角色造成1次伤害</desc>
+</skill>
+<skill>
+	<id>0E00001C</id>
+	<name>兹拜丁巴哈(boss)激光</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>从眼睛里发射出激光，激光扫射地面，头部以一个30°小伤抬起，激光随之移动，对触碰到激光的玩家造成单体单次伤害</desc>
+</skill>
+<skill>
+	<id>0E00001D</id>
+	<name>死神</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,100,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>挥动爪子产生刀痕，对近身玩家产生伤害</desc>
+</skill>
+<skill>
+	<id>0E00001E</id>
+	<name>锦鲤鱼甩尾</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>11111111</desc>
+</skill>
+<skill>
+	<id>0E00001F</id>
+	<name>锦鲤鱼龙卷风</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>1111111</desc>
+</skill>
+<skill>
+	<id>0E000020</id>
+	<name>机器人踏地</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>111111</desc>
+</skill>
+<skill>
+	<id>0E000021</id>
+	<name>机器人挥拳</name>
+	<resid>jn_danci1</resid>
+	<skill_level>1</skill_level>
+	<property_value>1,80,0</property_value>
+	<damage_count>1</damage_count>
+	<desc>11111111</desc>
+</skill>
+</root>

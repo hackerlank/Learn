@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<dialog>
+	<MapID>0F010101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>咦，他们是红蝎子队耶，怎么像是被施了魔法一样。呆呆的.</Content>
+</dialog>
+<dialog>
+	<MapID>0F010101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_hxd_01</Header>
+	<Side>2</Side>
+	<Content>怪博士必胜！怪博士必胜！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>看来她们是被蜘蛛机器人控制了，快要失去意识了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>好！让我来帮他们睁开眼睛，来，亲-亲—么么哒！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>太好了，大家都恢复了！多谢有你们哦！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_ad_01</Header>
+	<Side>2</Side>
+	<Content>但是前面好像有一个大蜘蛛机器人耶！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>哇~真的耶，他是蜘蛛机器人的妈妈吗？</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>不好，这一定又是资拜因巴哈的什么诡计。大家小心了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>不好了，不好了，大蜘蛛机器人要逃跑了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>6</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>那我们就乘胜追击！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>7</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>好！春日部防卫队，乘胜追击咯！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>怎么不见了，大蜘蛛机器人到哪里去了？</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_ad_01</Header>
+	<Side>2</Side>
+	<Content>这里好像是游乐场耶。</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>哇是游乐场耶，那里面一定有漂亮的大姐姐，我们快进去吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>现在还不能玩哦，说不定那些坏人就躲在里面！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>漂亮姐姐在哪里呢</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>1</Trigger>
+	<Priority>6</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>小新，等等我们啦！！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>没想到这里有那么多的骷髅怪人！</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>2</Side>
+	<Content>我一点儿也不害怕哟。</Content>
+</dialog>
+<dialog>
+	<MapID>0F010201</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>哈哈，好，那么我们就打破坏人的阴谋吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>咦，坏人不见了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_ad_01</Header>
+	<Side>2</Side>
+	<Content>小新快看，是麦老鼠耶！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>在哪里，在哪里？</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>别过去，说不定是一个陷阱！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_fj_01</Header>
+	<Side>1</Side>
+	<Content>不好了，好多的老鼠过来了。</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>看来资拜因巴哈已经全面入侵地球了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>hoho，好像很严重的样子。</Content>
+</dialog>
+<dialog>
+	<MapID>0F020301</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>那我们赶紧行动吧，找到资拜因巴哈！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>我能感觉到他们的存在了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>2</Side>
+	<Content>在哪儿在哪儿？漂亮姐姐！？</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>不，不是漂亮姐姐。是更强大的人！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_zmw_01</Header>
+	<Side>2</Side>
+	<Content>你还真有闲功夫呀动感超人！原来大英雄和小孩是好朋友？</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>果然是你，臭名昭著的Z魔王。</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>6</Priority>
+	<Header>ui_spr_npc_zmw_01</Header>
+	<Side>2</Side>
+	<Content>地球迟早是我们的，废话少说，动手吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_zmw_01</Header>
+	<Side>2</Side>
+	<Content>没想到你们还有两下子。看来我低估你们了。</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>Z魔王，快告诉我们资拜因巴哈倒底在哪里！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_zmw_01</Header>
+	<Side>2</Side>
+	<Content>博士正在实施巨浪计划，这里接下来会有大事儿发送。不玩了，我要走了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F020701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>想跑，没那么容易！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>我也累了。</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>可恶，竟然让Z魔王跑了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>哦~哦~~，海滩耶恩，好想休息一下</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_fj_01</Header>
+	<Side>2</Side>
+	<Content>都什么时候了小新！！Z魔王说要有不好的事情发生了哦，不是要休息的时候啦！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>动感超人，那现现在该怎么办呢？</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>6</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>我们就在附近找找吧，不过大家要小心，这里说不定有敌人的陷阱。</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>发现前面有一个大鸭子耶！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_zn_01</Header>
+	<Side>2</Side>
+	<Content>我也看到了！前面还有好多人呢！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030101</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>好，那我们就过去看看吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>2</Side>
+	<Content>动感超人，你们终于来了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>老鹰头，竟然是你！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>2</Side>
+	<Content>难道害怕了么，哈哈，小麻雀们，给我上！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030301</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>没用的，他被资拜因巴哈控制了，只有打败他，才能让他清醒了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>老鹰头，觉悟吧，我不会让资拜因巴哈的诡计得逞的</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>2</Side>
+	<Content>你们休想破天才博士的坏巨浪计划。</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>我一定要阻止你们的阴谋诡计！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>1</Side>
+	<Content>我怎么在这里，你们是谁？！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>2</Side>
+	<Content>已经恢复记忆了哦。</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>你之前被资拜因巴哈控制了，现在看来你清醒了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>1</Side>
+	<Content>该死的，亏我这么信任他，没想到他竟然控制我！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>老鹰头，你愿意加入我们，带我们去找资拜因巴哈吗？</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>6</Priority>
+	<Header>ui_spr_npc_lyt_01</Header>
+	<Side>1</Side>
+	<Content>真的可以加入你们吗，那真的是太好了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F030701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>7</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>2</Side>
+	<Content>那我们现在就去找那个坏博士吧！哈哈哈哈哈~</Content>
+</dialog>
+<dialog>
+	<MapID>0F040101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>坏人都去哪里了？</Content>
+</dialog>
+<dialog>
+	<MapID>0F040101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_fj_01</Header>
+	<Side>2</Side>
+	<Content>我觉得那个森林有问题！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>不管他们躲到哪里，让我找到他们吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_lbd_01</Header>
+	<Side>2</Side>
+	<Content>动感超人，欢迎光临迷雾深林！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>迷雾森林，好像很厉害的样子。</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_lbd_01</Header>
+	<Side>2</Side>
+	<Content>哈哈！让我们一起哇捉迷藏吧，你们来找我吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>蓝波党，休想把我们困在这里！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>5</Priority>
+	<Header>ui_spr_npc_lbd_01</Header>
+	<Side>2</Side>
+	<Content>哈哈！放马过来吧~</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>终于击败蓝波党了！迷雾消散了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>太好了，距离成功又近了一步！</Content>
+</dialog>
+<dialog>
+	<MapID>0F040701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>胜利！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>天空中有小鸟机器人在飞，这里一定还有敌人！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>2</Side>
+	<Content>嘿咻嘿咻，打败他！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050101</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>1</Side>
+	<Content>大家向前冲！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xxzd_01</Header>
+	<Side>2</Side>
+	<Content>动感超人，终于等到你了！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>哇，大猩猩说话了耶？</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>3</Priority>
+	<Header>ui_spr_npc_cr_01</Header>
+	<Side>2</Side>
+	<Content>他可不是一般的大猩猩，他是猩猩总督！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>1</Trigger>
+	<Priority>4</Priority>
+	<Header>ui_spr_npc_xxzd_01</Header>
+	<Side>2</Side>
+	<Content>好不容易才到这里让我好好招待你们吧！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>1</Priority>
+	<Header>ui_spr_npc_xx_01</Header>
+	<Side>1</Side>
+	<Content>怎么样，投降吧！猴子总督！</Content>
+</dialog>
+<dialog>
+	<MapID>0F050701</MapID>
+	<Trigger>2</Trigger>
+	<Priority>2</Priority>
+	<Header>ui_spr_npc_xxzd_01</Header>
+	<Side>2</Side>
+	<Content>我是猩猩总督！你们以为这样就战胜我了吗？太天真了，动感超人给我等着！我会回来找你们的！</Content>
+</dialog>
+</root>

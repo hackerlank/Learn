@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<tutorialEvent>
+	<EventID>1001</EventID>
+	<BeforeEventID>0</BeforeEventID>
+	<AfterEventID>1002</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_bottomright/PVEButton</LockObject>
+	<markSize>150,150</markSize>
+	<Type>1</Type>
+	<DialogPos>0,-180,0</DialogPos>
+	<DialogString>点击闯关按钮，可以进入关卡地图哦</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1002</EventID>
+	<BeforeEventID>1001</BeforeEventID>
+	<AfterEventID>1003</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageSelectMapPrefab(Clone)/staticobj/StoryMap/BoardMapUIPrefab(Clone)/Panel/Map/MapContent/StageList/cell1</LockObject>
+	<markSize>100,80</markSize>
+	<Type>1</Type>
+	<DialogPos>100,0,0</DialogPos>
+	<DialogString>红色的是可以进入的关卡</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1003</EventID>
+	<BeforeEventID>1002</BeforeEventID>
+	<AfterEventID>1004</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapLevelPrefab(Clone)/moveobj/root/StartButtonTea1</LockObject>
+	<markSize>200,100</markSize>
+	<Type>1</Type>
+	<DialogPos>-100,0,0</DialogPos>
+	<DialogString>选择开始战斗来进入游戏</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1004</EventID>
+	<BeforeEventID>1003</BeforeEventID>
+	<AfterEventID>1005</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapChooseFriendPrefab(Clone)/moveobj/Panel/UIGrid/BoardMapFriendDetailPrefab_friend_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>选择一个战友</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1005</EventID>
+	<BeforeEventID>1004</BeforeEventID>
+	<AfterEventID>1006</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapBeforeFightPrefab(Clone)/moveobj/ButtonFightTea1</LockObject>
+	<markSize>140,60</markSize>
+	<Type>1</Type>
+	<DialogPos>0,50,0</DialogPos>
+	<DialogString>开始战斗吧</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1006</EventID>
+	<BeforeEventID>1005</BeforeEventID>
+	<AfterEventID>1007</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导小新)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1007</EventID>
+	<BeforeEventID>1006</BeforeEventID>
+	<AfterEventID>1008</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导点击)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1008</EventID>
+	<BeforeEventID>1007</BeforeEventID>
+	<AfterEventID>1009</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageFightPvePrefab(Clone)/RolePositionChange/hero/item3</LockObject>
+	<markSize>95,95</markSize>
+	<Type>1</Type>
+	<DialogPos>0,80,0</DialogPos>
+	<DialogString>点击角色头像可以更换发射顺序</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1009</EventID>
+	<BeforeEventID>1008</BeforeEventID>
+	<AfterEventID>1010</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导阿呆)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1010</EventID>
+	<BeforeEventID>1009</BeforeEventID>
+	<AfterEventID>1011</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导点击)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1011</EventID>
+	<BeforeEventID>1010</BeforeEventID>
+	<AfterEventID>1012</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageFightPvePrefab(Clone)/RolePositionChange/hero/item1</LockObject>
+	<markSize>95,95</markSize>
+	<Type>1</Type>
+	<DialogPos>0,80,0</DialogPos>
+	<DialogString>再次换个发射角色试试</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1012</EventID>
+	<BeforeEventID>1011</BeforeEventID>
+	<AfterEventID>1013</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导风间)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>1</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1013</EventID>
+	<BeforeEventID>1012</BeforeEventID>
+	<AfterEventID>1014</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>(引导点击)</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>2</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1014</EventID>
+	<BeforeEventID>1013</BeforeEventID>
+	<AfterEventID>1015</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>220,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>春日部防卫队的伙伴们可以通过升级变强哦！</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>2</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1015</EventID>
+	<BeforeEventID>1014</BeforeEventID>
+	<AfterEventID>1016</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/PlayerButton</LockObject>
+	<markSize>96,96</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>选择伙伴按钮</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>2</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1016</EventID>
+	<BeforeEventID>1015</BeforeEventID>
+	<AfterEventID>1017</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerHomePrefab(Clone)/moveobj/Panel/UIGrid/BoardPlayerHomeDetailPrefab_Pve_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>选择要升级的角色</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>2</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1017</EventID>
+	<BeforeEventID>1016</BeforeEventID>
+	<AfterEventID>1018</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerInfoPrefab(Clone)/moveobj/anchor_center/Buttons/ImproveButton</LockObject>
+	<markSize>200,80</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>点击升级按钮即可升级</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1018</EventID>
+	<BeforeEventID>1017</BeforeEventID>
+	<AfterEventID>1019</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>270,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>变强了哦，去挑战更强的敌人吧。</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1019</EventID>
+	<BeforeEventID>1018</BeforeEventID>
+	<AfterEventID>1020</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>270,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1020</EventID>
+	<BeforeEventID>1019</BeforeEventID>
+	<AfterEventID>1021</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_bottomright/PVEButton</LockObject>
+	<markSize>150,150</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1021</EventID>
+	<BeforeEventID>1020</BeforeEventID>
+	<AfterEventID>1022</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageSelectMapPrefab(Clone)/staticobj/StoryMap/BoardMapUIPrefab(Clone)/Panel/Map/MapContent/StageList/cell2</LockObject>
+	<markSize>100,80</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1022</EventID>
+	<BeforeEventID>1021</BeforeEventID>
+	<AfterEventID>1023</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapLevelPrefab(Clone)/moveobj/root/StartButtonTea1</LockObject>
+	<markSize>200,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1023</EventID>
+	<BeforeEventID>1022</BeforeEventID>
+	<AfterEventID>1024</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapChooseFriendPrefab(Clone)/moveobj/Panel/UIGrid/BoardMapFriendDetailPrefab_friend_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1024</EventID>
+	<BeforeEventID>1023</BeforeEventID>
+	<AfterEventID>1025</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapBeforeFightPrefab(Clone)/moveobj/ButtonFightTea1</LockObject>
+	<markSize>140,60</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>3</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1025</EventID>
+	<BeforeEventID>1024</BeforeEventID>
+	<AfterEventID>1026</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>4</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1026</EventID>
+	<BeforeEventID>1025</BeforeEventID>
+	<AfterEventID>1027</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>220,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>商店中抽奖可以得到新的伙伴。</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>4</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1027</EventID>
+	<BeforeEventID>1026</BeforeEventID>
+	<AfterEventID>1028</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topright/LotteryButton</LockObject>
+	<markSize>110,110</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>点击商店按钮。</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>4</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1028</EventID>
+	<BeforeEventID>1027</BeforeEventID>
+	<AfterEventID>1029</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageLotteryMainPrefab(Clone)/moveobj/Lottery/StartLeft/Button</LockObject>
+	<markSize>140,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0,170,0</DialogPos>
+	<DialogString>买一份这个看看哦。</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>4</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1029</EventID>
+	<BeforeEventID>1028</BeforeEventID>
+	<AfterEventID>1030</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/DlgPanelPrefab(Clone)/DialoguLotteryAskPrefab(Clone)/qb1/qb1Button</LockObject>
+	<markSize>370,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1030</EventID>
+	<BeforeEventID>1029</BeforeEventID>
+	<AfterEventID>1031</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>220,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1031</EventID>
+	<BeforeEventID>1030</BeforeEventID>
+	<AfterEventID>1032</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_bottomright/PVEButton</LockObject>
+	<markSize>150,150</markSize>
+	<Type>1</Type>
+	<DialogPos>0,-180,0</DialogPos>
+	<DialogString>加入了新的伙伴，一起去玩吧</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1032</EventID>
+	<BeforeEventID>1031</BeforeEventID>
+	<AfterEventID>1033</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageSelectMapPrefab(Clone)/staticobj/StoryMap/BoardMapUIPrefab(Clone)/Panel/Map/MapContent/StageList/cell3</LockObject>
+	<markSize>100,80</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1033</EventID>
+	<BeforeEventID>1032</BeforeEventID>
+	<AfterEventID>1034</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapLevelPrefab(Clone)/moveobj/root/StartButtonTea1</LockObject>
+	<markSize>200,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1034</EventID>
+	<BeforeEventID>1033</BeforeEventID>
+	<AfterEventID>1035</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapChooseFriendPrefab(Clone)/moveobj/Panel/UIGrid/BoardMapFriendDetailPrefab_friend_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1035</EventID>
+	<BeforeEventID>1034</BeforeEventID>
+	<AfterEventID>1036</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMapBeforeFightPrefab(Clone)/moveobj/ButtonFightTea1</LockObject>
+	<markSize>140,60</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>5</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1036</EventID>
+	<BeforeEventID>1035</BeforeEventID>
+	<AfterEventID>1037</AfterEventID>
+	<Scene>2</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>0</LockObject>
+	<markSize>0</markSize>
+	<Type>2</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>0</ArrowDirection>
+	<NextTutorialID>6</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1037</EventID>
+	<BeforeEventID>1036</BeforeEventID>
+	<AfterEventID>1038</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>220,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>6</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1038</EventID>
+	<BeforeEventID>1037</BeforeEventID>
+	<AfterEventID>1039</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topright/LotteryButton</LockObject>
+	<markSize>110,110</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>再去商店逛逛，给伙伴们买更强力的装备吧。</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>6</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1039</EventID>
+	<BeforeEventID>1038</BeforeEventID>
+	<AfterEventID>1040</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageLotteryMainPrefab(Clone)/moveobj/Lottery/StartRight/Button</LockObject>
+	<markSize>140,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>这里买到的东西更高级哦</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>6</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1040</EventID>
+	<BeforeEventID>1039</BeforeEventID>
+	<AfterEventID>1041</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/DlgPanelPrefab(Clone)/DialoguLotteryAskPrefab(Clone)/qb1/qb1Button</LockObject>
+	<markSize>370,100</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1041</EventID>
+	<BeforeEventID>1040</BeforeEventID>
+	<AfterEventID>1042</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_topLeft/PanelBack/PageNameWidget</LockObject>
+	<markSize>220,90</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1042</EventID>
+	<BeforeEventID>1041</BeforeEventID>
+	<AfterEventID>1043</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/PlayerButton</LockObject>
+	<markSize>96,96</markSize>
+	<Type>1</Type>
+	<DialogPos>0,0,0</DialogPos>
+	<DialogString>把武器变得更厉害</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1043</EventID>
+	<BeforeEventID>1042</BeforeEventID>
+	<AfterEventID>1044</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerHomePrefab(Clone)/moveobj/Panel/UIGrid/BoardPlayerHomeDetailPrefab_Pve_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1044</EventID>
+	<BeforeEventID>1043</BeforeEventID>
+	<AfterEventID>1045</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerInfoPrefab(Clone)/moveobj/anchor_center/PlayerPanel/equipment/Weapon</LockObject>
+	<markSize>110,140</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>4</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1045</EventID>
+	<BeforeEventID>1044</BeforeEventID>
+	<AfterEventID>1046</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/DlgPanelPrefab(Clone)/DlgEquipmentExchangePanelPrefab(Clone)/Button_ok/Background</LockObject>
+	<markSize>170,85</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>7</NextTutorialID>
+</tutorialEvent>
+<tutorialEvent>
+	<EventID>1046</EventID>
+	<BeforeEventID>1045</BeforeEventID>
+	<AfterEventID>1047</AfterEventID>
+	<Scene>1</Scene>
+	<TriggerPanel>0</TriggerPanel>
+	<LockObject>UI Root (2D)/Camera/Anchor/RootPanel/DlgPanelPrefab(Clone)/DialoguExchangeEquipmentPrefab(Clone)/ChangeEqu/Panel/UIGrid/BoardEquipmentExchangePrefab_1_0</LockObject>
+	<markSize>150,410</markSize>
+	<Type>1</Type>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsPos>0</TipsPos>
+	<TipsString>0</TipsString>
+	<ArrowDirection>1</ArrowDirection>
+	<NextTutorialID>8</NextTutorialID>
+</tutorialEvent>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<activity>
+	<id>15000001</id>
+	<name>逃跑的锦鲤</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,2,3,4,5,6,7</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00101,0FA00102,0FA00103</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>15000002</id>
+	<name>巨大机器人</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,2,3,4,5,6,7</week_circle>
+	<last_time>0,86399</last_time>
+	<related_id>0FA00201,0FA00202,0FA00203</related_id>
+	<desc>0</desc>
+</activity>
+<activity>
+	<id>1500000B</id>
+	<name>美味饭团</name>
+	<start_time>0</start_time>
+	<end_time>0</end_time>
+	<week_circle>1,2,3,4,5,6</week_circle>
+	<last_time>43200,50400;64800,72000</last_time>
+	<related_id>16000022</related_id>
+	<desc>0</desc>
+</activity>
+</root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<currency>
+	<id>14010001</id>
+	<name>coin</name>
+	<name2>贝壳</name2>
+	<desc>强化升级的基本货币</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14020001</id>
+	<name>gold</name>
+	<name2>金卡</name2>
+	<desc>商城求宝以及购买功能的稀有货币</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14030001</id>
+	<name>energy</name>
+	<name2>体力</name2>
+	<desc>冒险模式需要消耗的体力</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14040001</id>
+	<name>powerpoint</name>
+	<name2>超合金</name2>
+	<desc>分解物品获得的材料，是强化装备的必要材料</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14050001</id>
+	<name>exp</name>
+	<name2>经验</name2>
+	<desc>参与副本或活动所获得的奖励，用于玩家升级</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14060001</id>
+	<name>recharge</name>
+	<name2>充值</name2>
+	<desc>账户充值</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14070001</id>
+	<name>honorpoint</name>
+	<name2>荣誉</name2>
+	<desc>对战模式下战斗即可获得的荣誉点，在荣誉圣殿中可兑换各种稀有材料</desc>
+	<shop>0</shop>
+</currency>
+<currency>
+	<id>14080001</id>
+	<name>battlepoint</name>
+	<name2>元气</name2>
+	<desc>对战消耗的体力</desc>
+	<shop>0</shop>
+</currency>
+</root>

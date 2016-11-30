@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<pvp100>
+		<stage>1</stage>
+		<pvp_count>10</pvp_count>
+		<points>1000,3000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>2</stage>
+		<pvp_count>10</pvp_count>
+		<points>3001,5000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>3</stage>
+		<pvp_count>10</pvp_count>
+		<points>5001,7000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>4</stage>
+		<pvp_count>10</pvp_count>
+		<points>7001,9000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>5</stage>
+		<pvp_count>10</pvp_count>
+		<points>9001,11000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>6</stage>
+		<pvp_count>10</pvp_count>
+		<points>10001,13000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>7</stage>
+		<pvp_count>10</pvp_count>
+		<points>13001,15000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>8</stage>
+		<pvp_count>10</pvp_count>
+		<points>15001,17000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>9</stage>
+		<pvp_count>10</pvp_count>
+		<points>17001,19000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	<pvp100>
+		<stage>10</stage>
+		<pvp_count>10</pvp_count>
+		<points>19001,21000</points>
+		<reward>14040001,100</reward>
+	</pvp100>
+
+	
+	<pvp_buff>
+	<type>1</type>
+	<name>毁灭</name>
+	<desc>所有属性加成5%</desc>
+	<cost>140001,30</cost>
+	<add_value>0.05</add_value>	
+	</pvp_buff>
+	
+	<pvp_buff>
+	<type>2</type>
+	<name>力量祝福</name>
+	<desc>随机属性加2%(血量，攻击，防御，暴击)</desc>
+	<cost>140001,10000</cost>
+	<add_value>0.02</add_value>	
+	</pvp_buff>
+	
+	<pvp_buff>
+	<type>3</type>
+	<name>心有灵犀</name>
+	<desc>技能暴击几率增加1%</desc>
+	<cost>140001,10000</cost>
+	<add_value>0.01</add_value>	
+	</pvp_buff>
+
+</root>

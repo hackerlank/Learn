@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<tutorialNewEvent>
+	<EventID>10000</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>100</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_topright/LeftButton/GiftButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(-50,-50)</TipsOffsetPos>
+	<TipsString>有新的礼包</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10001</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>101</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/EquipmentButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>多余的装备可以分解</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10002</EventID>
+	<TriggerPanel>PageEquipmentMainPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>101</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageEquipmentMainPrefab(Clone)/moveobj/Button_fj</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(-50,-40)</TipsOffsetPos>
+	<TipsString>在这里分解装备</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10003</EventID>
+	<TriggerPanel>PageEquipmentSellPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>101</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageEquipmentSellPrefab(Clone)/moveobj/position/1weapon/Panel/UIGrid/weapon_icon_0</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,-40)</TipsOffsetPos>
+	<TipsString>勾选要分解的装备</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10004</EventID>
+	<TriggerPanel>PageEquipmentSellPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>101</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageEquipmentSellPrefab(Clone)/moveobj/position/Under/Button</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,40)</TipsOffsetPos>
+	<TipsString>确认分解</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10005</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>102</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_bottomLeft_parent/TeamButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>可以更换超人技能</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10006</EventID>
+	<TriggerPanel>PagePlayerHomeQueuePrefab</TriggerPanel>
+	<SubTriggerPanel>moveobj/TabPagePrefab/panel_A_background</SubTriggerPanel>
+	<TutorialID>102</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerHomeQueuePrefab(Clone)/moveobj/TabPagePrefab/TabButtonPrefab_1/Button</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,-25)</TipsOffsetPos>
+	<TipsString>从这里进入技能界面</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10007</EventID>
+	<TriggerPanel>PagePlayerHomeQueuePrefab</TriggerPanel>
+	<SubTriggerPanel>moveobj/TabPagePrefab/panel_B_background</SubTriggerPanel>
+	<TutorialID>102</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PagePlayerHomeQueuePrefab(Clone)/moveobj/TabPagePrefab/panel_B_background/Skill_Manager/skill_Item1_Pos/Sprite_back</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,70)</TipsOffsetPos>
+	<TipsString>选择装备栏</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10008</EventID>
+	<TriggerPanel>PageSkillPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>102</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageSkillPrefab(Clone)/moveobj/2magic/Panel/UIGrid/BoardMagicDetailPrefab_1/pos/ButtonPuton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,30)</TipsOffsetPos>
+	<TipsString>选择装备</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10009</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>103</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_topright/LeftButton/ActivityButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(-50,-50)</TipsOffsetPos>
+	<TipsString>你已解锁能量石</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(-60,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10010</EventID>
+	<TriggerPanel>PageActivityHomePrefabNew</TriggerPanel>
+	<SubTriggerPanel>moveobj/2Dinner/Panel/UIGrid/ActivityRSGPage(Clone)</SubTriggerPanel>
+	<TutorialID>103</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageActivityHomePrefabNew(Clone)/moveobj/TabPagePrefab/TabButtonPrefab_1/Button</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,-30)</TipsOffsetPos>
+	<TipsString>进入能量石界面</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10011</EventID>
+	<TriggerPanel>PageActivityHomePrefabNew</TriggerPanel>
+	<SubTriggerPanel>moveobj/3Power/Panel/UIGrid/ActivityMoneyTreePage(Clone)</SubTriggerPanel>
+	<TutorialID>103</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageActivityHomePrefabNew(Clone)/moveobj/3Power/Panel/UIGrid/ActivityMoneyTreePage(Clone)/ActionRoot/Background</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>点击获得经验</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10012</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>104</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/EquipmentButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>可以升级装备了</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10013</EventID>
+	<TriggerPanel>PageEquipmentMainPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>104</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageEquipmentMainPrefab(Clone)/moveobj/1weapon/Panel/UIGrid/Equipment_wq_0/Button_view</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,30)</TipsOffsetPos>
+	<TipsString>选择要升级的装备</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10014</EventID>
+	<TriggerPanel>PageEquipmentInfoPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>104</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageEquipmentInfoPrefab(Clone)/moveobj/InfoPanel_B/GameObject/Button1</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,40)</TipsOffsetPos>
+	<TipsString>点击升级</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10015</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>105</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/anchor_bottomright/ActiveButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,100)</TipsOffsetPos>
+	<TipsString>这里进入活动副本</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10016</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>106</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/MagicButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>可以升级超人技能了</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10017</EventID>
+	<TriggerPanel>PageSkillPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>106</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageSkillPrefab(Clone)/moveobj/2magic/Panel/UIGrid/BoardMagicDetailPrefab_0/pos/ButtonMagic</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,35)</TipsOffsetPos>
+	<TipsString>选择要强化的技能</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10018</EventID>
+	<TriggerPanel>PageMagicLevelupPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>106</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageMagicLevelupPrefab(Clone)/moveobj/DataPanel/ImproveButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,40)</TipsOffsetPos>
+	<TipsString>材料足够时点此升级</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10019</EventID>
+	<TriggerPanel>PageMainFramePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>107</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/PageMainFramePrefab(Clone)/PageHomePrefab/anchor_bottomleft/BottomButton/MeltButton</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>可以合成装备了</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10020</EventID>
+	<TriggerPanel>PageStoveHomePrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>107</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageStoveHomePrefab(Clone)/moveobj/1weapon/Panel/UIGrid/IconPrefab_0</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0.-60)</TipsOffsetPos>
+	<TipsString>选择要合成的装备</TipsString>
+	<TipsArrowLocation>1</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+<tutorialNewEvent>
+	<EventID>10021</EventID>
+	<TriggerPanel>PageCompoundPrefab</TriggerPanel>
+	<SubTriggerPanel>0</SubTriggerPanel>
+	<TutorialID>107</TutorialID>
+	<TutorialType>2</TutorialType>
+	<markSize>0</markSize>
+	<LockObj>UI Root (2D)/Camera/Anchor/RootPanel/UIRootPanel/RootPage/PageCompoundPrefab(Clone)/moveobj/InfoPanel_B/GameObject/Button1</LockObj>
+	<DialogPos>0</DialogPos>
+	<DialogString>0</DialogString>
+	<TipsOffsetPos>(0,50)</TipsOffsetPos>
+	<TipsString>材料足够时点此合成</TipsString>
+	<TipsArrowLocation>2</TipsArrowLocation>
+	<TipsArrowDirection>2</TipsArrowDirection>
+	<TipsContentOffset>(0,0)</TipsContentOffset>
+	<NextEventID>0</NextEventID>
+</tutorialNewEvent>
+</root>

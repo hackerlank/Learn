@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<unlock>
+	<id>06000001</id>
+	<unlock_require>1,2</unlock_require>
+	<reward>0C101002,1;04010001,1;08000006,1;08000002,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000002</id>
+	<unlock_require>1,3</unlock_require>
+	<reward>0800000A,1;14040001,30</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000003</id>
+	<unlock_require>1,4</unlock_require>
+	<reward>04010002,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000005</id>
+	<unlock_require>1,6</unlock_require>
+	<reward>04010003,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000006</id>
+	<unlock_require>1,5</unlock_require>
+	<reward>08000007,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000007</id>
+	<unlock_require>1,8</unlock_require>
+	<reward>08000008,1;04010004,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000008</id>
+	<unlock_require>1,9</unlock_require>
+	<reward>08000009,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000009</id>
+	<unlock_require>1,12</unlock_require>
+	<reward>04010005,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000A</id>
+	<unlock_require>1,15</unlock_require>
+	<reward>08000013,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000B</id>
+	<unlock_require>1,20</unlock_require>
+	<reward>04010006,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000C</id>
+	<unlock_require>1,30</unlock_require>
+	<reward>04010007,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000D</id>
+	<unlock_require>1,40</unlock_require>
+	<reward>04010008,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000E</id>
+	<unlock_require>1,50</unlock_require>
+	<reward>04010009,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>0600000F</id>
+	<unlock_require>1,60</unlock_require>
+	<reward>04010010,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000010</id>
+	<unlock_require>1,70</unlock_require>
+	<reward>04010011,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000011</id>
+	<unlock_require>1,80</unlock_require>
+	<reward>04010012,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000012</id>
+	<unlock_require>1,90</unlock_require>
+	<reward>04010013,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000013</id>
+	<unlock_require>1,100</unlock_require>
+	<reward>04010014,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000101</id>
+	<unlock_require>3,1</unlock_require>
+	<reward>04000001,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000102</id>
+	<unlock_require>3,2</unlock_require>
+	<reward>04000002,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000103</id>
+	<unlock_require>3,3</unlock_require>
+	<reward>04000003,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000104</id>
+	<unlock_require>3,4</unlock_require>
+	<reward>04000004,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000105</id>
+	<unlock_require>3,5</unlock_require>
+	<reward>04000005,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000106</id>
+	<unlock_require>3,6</unlock_require>
+	<reward>04000006,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000107</id>
+	<unlock_require>3,7</unlock_require>
+	<reward>04000007,1</reward>
+	<desc>0</desc>
+</unlock>
+<unlock>
+	<id>06000108</id>
+	<unlock_require>3,8</unlock_require>
+	<reward>04000008,1</reward>
+	<desc>0</desc>
+</unlock>
+</root>

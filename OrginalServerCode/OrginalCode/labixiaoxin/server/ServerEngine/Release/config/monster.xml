@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<monster>
+	<id>0B000001</id>
+	<name>红蝎子队1</name>
+	<resid>monster_hxz_2</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000002</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000002</id>
+	<name>红蝎子队2</name>
+	<resid>monster_hxz_1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000003</id>
+	<name>红蝎子队3</name>
+	<resid>monster_hxz_3</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000003</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000004</id>
+	<name>小鸟</name>
+	<resid>monster_bird</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000004</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000005</id>
+	<name>蜘蛛机器人</name>
+	<resid>monster_spider</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000005</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000006</id>
+	<name>骷髅怪人</name>
+	<resid>monster_skeleton</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000006</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000007</id>
+	<name>麦老鼠</name>
+	<resid>monster_fly_mouse</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000007</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000008</id>
+	<name>狼人</name>
+	<resid>monster_wolf_man</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000008</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000009</id>
+	<name>Z魔王</name>
+	<resid>monster_z_devil</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000009</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000A</id>
+	<name>大猩猩</name>
+	<resid>monster_gorilla</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00000F</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000B</id>
+	<name>麻雀小队</name>
+	<resid>monster_mqxd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00000E</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000C</id>
+	<name>娃娃</name>
+	<resid>monster_baby</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00000B</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000D</id>
+	<name>老鹰头</name>
+	<resid>monster_eagle_header</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00000C</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000E</id>
+	<name>鳄鱼</name>
+	<resid>guai_gongjian2</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000F</id>
+	<name>小鸟导弹</name>
+	<resid>monster_xndd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000010</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000010</id>
+	<name>木乃伊</name>
+	<resid>monster_mummy</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000011</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000011</id>
+	<name>蓝波党</name>
+	<resid>monster_lbd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000014</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000012</id>
+	<name>怪异老鼠</name>
+	<resid>monster_death</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00001D</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000013</id>
+	<name>暗黑佐罗</name>
+	<resid>monster_ahzl</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000018</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000014</id>
+	<name>雪女</name>
+	<resid>monster_yokime</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000016</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000015</id>
+	<name>兹拜丁巴哈(变身前)</name>
+	<resid>monster_zbdbh</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00001A</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000016</id>
+	<name>兹拜丁巴哈</name>
+	<resid>monster_zbdbh_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00001B</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000017</id>
+	<name>猩猩总督</name>
+	<resid>monster_xxzd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000012</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000018</id>
+	<name>锦鲤鱼</name>
+	<resid>monster_jly</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E00001E</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00001A</id>
+	<name>巨大机器人</name>
+	<resid>monster_big_robot</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000020</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010001</id>
+	<name>红蝎子队1</name>
+	<resid>monster_hxz_2</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000002</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010002</id>
+	<name>红蝎子队2</name>
+	<resid>monster_hxz_1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010003</id>
+	<name>红蝎子队3</name>
+	<resid>monster_hxz_3</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000003</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B010004</id>
+	<name>小鸟</name>
+	<resid>monster_bird</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000004</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B010005</id>
+	<name>蜘蛛机器人</name>
+	<resid>monster_spider_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000005</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B010006</id>
+	<name>骷髅怪人</name>
+	<resid>monster_skeleton</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000006</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010007</id>
+	<name>麦老鼠</name>
+	<resid>monster_fly_mouse</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000007</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010008</id>
+	<name>狼人</name>
+	<resid>monster_wolf_man</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000008</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010009</id>
+	<name>Z魔王</name>
+	<resid>monster_z_devil</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000009,0E00000A</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000A</id>
+	<name>大猩猩</name>
+	<resid>monster_gorilla</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00000F</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000B</id>
+	<name>麻雀小队</name>
+	<resid>monster_mqxd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00000E</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000C</id>
+	<name>娃娃</name>
+	<resid>monster_baby</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00000B</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000D</id>
+	<name>老鹰头</name>
+	<resid>monster_eagle_header</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00000C,0E00000D</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000E</id>
+	<name>鳄鱼</name>
+	<resid>guai_yubing1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01000F</id>
+	<name>小鸟导弹</name>
+	<resid>monster_xndd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000010</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010010</id>
+	<name>木乃伊</name>
+	<resid>monster_mummy</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000011</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010011</id>
+	<name>蓝波党</name>
+	<resid>monster_lbd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000014,0E000015</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010012</id>
+	<name>怪异老鼠</name>
+	<resid>monster_death</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00001D</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010013</id>
+	<name>暗黑佐罗</name>
+	<resid>monster_ahzl</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000018,0E000019</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010014</id>
+	<name>雪女</name>
+	<resid>monster_yokime</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000016,0E000017</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010015</id>
+	<name>兹拜丁巴哈(变身前)</name>
+	<resid>monster_zbdbh</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00001A</monster_skillid>
+	<basic_id>19008012</basic_id>
+	<growing_id>20002012</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010016</id>
+	<name>兹拜丁巴哈</name>
+	<resid>monster_zbdbh_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00001B,0E00001C</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010017</id>
+	<name>猩猩总督</name>
+	<resid>monster_xxzd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000012,0E000013</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B010018</id>
+	<name>锦鲤鱼</name>
+	<resid>monster_jly</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E00001E,0E00001F</monster_skillid>
+	<basic_id>19008013</basic_id>
+	<growing_id>20002013</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B01001A</id>
+	<name>巨大机器人</name>
+	<resid>monster_big_robot</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E000020,0E000021</monster_skillid>
+	<basic_id>19008011</basic_id>
+	<growing_id>20002011</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020001</id>
+	<name>红蝎子队1</name>
+	<resid>monster_hxz_2</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000002</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020002</id>
+	<name>红蝎子队2</name>
+	<resid>monster_hxz_1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020003</id>
+	<name>红蝎子队3</name>
+	<resid>monster_hxz_3</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000003</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020004</id>
+	<name>小鸟</name>
+	<resid>monster_bird</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000004</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020005</id>
+	<name>蜘蛛机器人</name>
+	<resid>monster_spider_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000005</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020006</id>
+	<name>骷髅怪人</name>
+	<resid>monster_skeleton</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000006</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020007</id>
+	<name>麦老鼠</name>
+	<resid>monster_fly_mouse</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000007</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020008</id>
+	<name>狼人</name>
+	<resid>monster_wolf_man</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000008</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B020009</id>
+	<name>Z魔王</name>
+	<resid>monster_z_devil</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000009,0E00000A</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B02000A</id>
+	<name>大猩猩</name>
+	<resid>monster_gorilla</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00000F</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B02000B</id>
+	<name>麻雀小队</name>
+	<resid>monster_mqxd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00000E</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B02000C</id>
+	<name>娃娃</name>
+	<resid>monster_baby</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00000B</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B02000D</id>
+	<name>老鹰头</name>
+	<resid>monster_eagle_header</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00000C,0E00000D</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B02000E</id>
+	<name>鳄鱼</name>
+	<resid>guai_dushe1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B02000F</id>
+	<name>小鸟导弹</name>
+	<resid>monster_xndd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000010</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020010</id>
+	<name>木乃伊</name>
+	<resid>monster_mummy</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000011</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020011</id>
+	<name>蓝波党</name>
+	<resid>monster_lbd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000014,0E000015</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020012</id>
+	<name>怪异老鼠</name>
+	<resid>monster_death</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00001D</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020013</id>
+	<name>暗黑佐罗</name>
+	<resid>monster_ahzl</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000018,0E000019</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020014</id>
+	<name>雪女</name>
+	<resid>monster_yokime</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000016,0E000017</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020015</id>
+	<name>兹拜丁巴哈(变身前)</name>
+	<resid>monster_zbdbh</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00001A</monster_skillid>
+	<basic_id>19008022</basic_id>
+	<growing_id>20002022</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020016</id>
+	<name>兹拜丁巴哈</name>
+	<resid>monster_zbdbh_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00001B,0E00001C</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020017</id>
+	<name>猩猩总督</name>
+	<resid>monster_xxzd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000012,0E000013</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B020018</id>
+	<name>锦鲤鱼</name>
+	<resid>monster_jly</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E00001E,0E00001F</monster_skillid>
+	<basic_id>19008023</basic_id>
+	<growing_id>20002023</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B02001A</id>
+	<name>巨大机器人</name>
+	<resid>monster_big_robot</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E000020,0E000021</monster_skillid>
+	<basic_id>19008021</basic_id>
+	<growing_id>20002021</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030001</id>
+	<name>红蝎子队1</name>
+	<resid>monster_hxz_2</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000002</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030002</id>
+	<name>红蝎子队2</name>
+	<resid>monster_hxz_1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030003</id>
+	<name>红蝎子队3</name>
+	<resid>monster_hxz_3</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E000003</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030004</id>
+	<name>小鸟</name>
+	<resid>monster_bird</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000004</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030005</id>
+	<name>蜘蛛机器人</name>
+	<resid>monster_spider_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000005</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030006</id>
+	<name>骷髅怪人</name>
+	<resid>monster_skeleton</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000006</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030007</id>
+	<name>麦老鼠</name>
+	<resid>monster_fly_mouse</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000007</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030008</id>
+	<name>狼人</name>
+	<resid>monster_wolf_man</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000008</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030009</id>
+	<name>Z魔王</name>
+	<resid>monster_z_devil</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000009,0E00000A</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B03000A</id>
+	<name>大猩猩</name>
+	<resid>monster_gorilla</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00000F</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B03000B</id>
+	<name>麻雀小队</name>
+	<resid>monster_mqxd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00000E</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B03000C</id>
+	<name>娃娃</name>
+	<resid>monster_baby</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00000B</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B03000D</id>
+	<name>老鹰头</name>
+	<resid>monster_eagle_header</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00000C,0E00000D</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B03000E</id>
+	<name>鳄鱼</name>
+	<resid>guai_boss_wugong1</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000001</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B03000F</id>
+	<name>小鸟导弹</name>
+	<resid>monster_xndd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000010</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B030010</id>
+	<name>木乃伊</name>
+	<resid>monster_mummy</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000011</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030011</id>
+	<name>蓝波党</name>
+	<resid>monster_lbd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000014,0E000015</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030012</id>
+	<name>怪异老鼠</name>
+	<resid>monster_death</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00001D</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030013</id>
+	<name>暗黑佐罗</name>
+	<resid>monster_ahzl</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000018,0E000019</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030014</id>
+	<name>雪女</name>
+	<resid>monster_yokime</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000016,0E000017</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030015</id>
+	<name>兹拜丁巴哈(变身前)</name>
+	<resid>monster_zbdbh</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00001A</monster_skillid>
+	<basic_id>19008032</basic_id>
+	<growing_id>20002032</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030016</id>
+	<name>兹拜丁巴哈</name>
+	<resid>monster_zbdbh_boss</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00001B,0E00001C</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030017</id>
+	<name>猩猩总督</name>
+	<resid>monster_xxzd</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000012,0E000013</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B030018</id>
+	<name>锦鲤鱼</name>
+	<resid>monster_jly</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E00001E,0E00001F</monster_skillid>
+	<basic_id>19008033</basic_id>
+	<growing_id>20002033</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B03001A</id>
+	<name>巨大机器人</name>
+	<resid>monster_big_robot</resid>
+	<clothid>0</clothid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E000020,0E000021</monster_skillid>
+	<basic_id>19008031</basic_id>
+	<growing_id>20002031</growing_id>
+	<size>1</size>
+</monster>
+</root>

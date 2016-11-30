@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<tutorialNewManager>
+	<TutorialID>100</TutorialID>
+	<TriggerLevel>5</TriggerLevel>
+	<IgnoreLevel>6</IgnoreLevel>
+	<EventList>10000</EventList>
+	<TutorialGoal>1</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>101</TutorialID>
+	<TriggerLevel>10</TriggerLevel>
+	<IgnoreLevel>12</IgnoreLevel>
+	<EventList>10001,10002,10003,10004</EventList>
+	<TutorialGoal>2</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>102</TutorialID>
+	<TriggerLevel>9</TriggerLevel>
+	<IgnoreLevel>10</IgnoreLevel>
+	<EventList>10005,10006,10007,10008</EventList>
+	<TutorialGoal>3</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>103</TutorialID>
+	<TriggerLevel>12</TriggerLevel>
+	<IgnoreLevel>15</IgnoreLevel>
+	<EventList>10009,10010,10011</EventList>
+	<TutorialGoal>4</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>104</TutorialID>
+	<TriggerLevel>6</TriggerLevel>
+	<IgnoreLevel>8</IgnoreLevel>
+	<EventList>10012,10013,10014</EventList>
+	<TutorialGoal>5</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>105</TutorialID>
+	<TriggerLevel>15</TriggerLevel>
+	<IgnoreLevel>18</IgnoreLevel>
+	<EventList>10015</EventList>
+	<TutorialGoal>6</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>106</TutorialID>
+	<TriggerLevel>8</TriggerLevel>
+	<IgnoreLevel>10</IgnoreLevel>
+	<EventList>10016,10017,10018</EventList>
+	<TutorialGoal>7</TutorialGoal>
+	<TutorialComplete>0</TutorialComplete>
+</tutorialNewManager>
+<tutorialNewManager>
+	<TutorialID>107</TutorialID>
+	<TriggerLevel>18</TriggerLevel>
+	<IgnoreLevel>20</IgnoreLevel>
+	<EventList>10019,10020,10021</EventList>
+	<TutorialGoal>8</TutorialGoal>
+	<TutorialComplete>1</TutorialComplete>
+</tutorialNewManager>
+</root>

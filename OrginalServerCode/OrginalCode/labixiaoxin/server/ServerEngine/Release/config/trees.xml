@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<trees>
+	<id>23001001</id>
+	<reward>{14050001,240}</reward>
+	<xp>0</xp>
+	<desc>1级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001002</id>
+	<reward>{14050001,270}</reward>
+	<xp>4</xp>
+	<desc>2级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001003</id>
+	<reward>{14050001,320}</reward>
+	<xp>10</xp>
+	<desc>3级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001004</id>
+	<reward>{14050001,390}</reward>
+	<xp>22</xp>
+	<desc>4级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001005</id>
+	<reward>{14050001,490}</reward>
+	<xp>40</xp>
+	<desc>5级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001006</id>
+	<reward>{14050001,620}</reward>
+	<xp>64</xp>
+	<desc>6级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001007</id>
+	<reward>{14050001,770}</reward>
+	<xp>94</xp>
+	<desc>7级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001008</id>
+	<reward>{14050001,950}</reward>
+	<xp>130</xp>
+	<desc>8级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001009</id>
+	<reward>{14050001,1160}</reward>
+	<xp>172</xp>
+	<desc>9级树收获奖励</desc>
+</trees>
+<trees>
+	<id>23001010</id>
+	<reward>{14050001,1390}</reward>
+	<xp>220</xp>
+	<desc>10级树收获奖励</desc>
+</trees>
+</root>

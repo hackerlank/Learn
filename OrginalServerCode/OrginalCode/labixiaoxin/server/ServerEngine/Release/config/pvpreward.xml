@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<pvpreward>
+	<id>22000001</id>
+	<name>无量天尊</name>
+	<resid>0</resid>
+	<reward>14020001,500;13801001,1</reward>
+	<rank>1</rank>
+	<desc>暗影系列装备</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000002</id>
+	<name>斗战胜佛</name>
+	<resid>0</resid>
+	<reward>14020001,400;13210006,1</reward>
+	<rank>2</rank>
+	<desc>五星武器</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000003</id>
+	<name>天蓬元帅</name>
+	<resid>0</resid>
+	<reward>14020001,350;13210006,1</reward>
+	<rank>3</rank>
+	<desc>五星武器</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000004</id>
+	<name>灵寂尊者</name>
+	<resid>0</resid>
+	<reward>14020001,300;13210012,1</reward>
+	<rank>4-10</rank>
+	<desc>五星装备</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000005</id>
+	<name>八臂罗汉</name>
+	<resid>0</resid>
+	<reward>14020001,150</reward>
+	<rank>11-50</rank>
+	<desc>0</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000006</id>
+	<name>名动四方</name>
+	<resid>0</resid>
+	<reward>14020001,50</reward>
+	<rank>51-100</rank>
+	<desc>0</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000007</id>
+	<name>崭露头角</name>
+	<resid>0</resid>
+	<reward>14020001,30</reward>
+	<rank>101-500</rank>
+	<desc>0</desc>
+</pvpreward>
+<pvpreward>
+	<id>22000008</id>
+	<name>籍籍无名</name>
+	<resid>0</resid>
+	<reward>14020001,20</reward>
+	<rank>500名以后</rank>
+	<desc>0</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001001</id>
+	<name>至尊王者</name>
+	<resid>hz_brz01</resid>
+	<reward>13101106,1</reward>
+	<rank>0,1</rank>
+	<desc>3-5星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001002</id>
+	<name>不朽钻石</name>
+	<resid>hz_brz02</resid>
+	<reward>13101106,1</reward>
+	<rank>2,3</rank>
+	<desc>2-5星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001003</id>
+	<name>尊贵铂金</name>
+	<resid>hz_brz03</resid>
+	<reward>13101106,1</reward>
+	<rank>4,10</rank>
+	<desc>2-4星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001004</id>
+	<name>无双黄金</name>
+	<resid>hz_brz04</resid>
+	<reward>13101106,1</reward>
+	<rank>11,20</rank>
+	<desc>2-3星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001005</id>
+	<name>闪亮白银</name>
+	<resid>hz_brz05</resid>
+	<reward>13101106,1</reward>
+	<rank>21,40</rank>
+	<desc>3星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001006</id>
+	<name>力量黄铜</name>
+	<resid>hz_brz06</resid>
+	<reward>13101102,1</reward>
+	<rank>41,70</rank>
+	<desc>2星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001007</id>
+	<name>勇气黑铁</name>
+	<resid>hz_brz07</resid>
+	<reward>13101101,1</reward>
+	<rank>71,100</rank>
+	<desc>1星翅膀</desc>
+</pvpreward>
+<pvpreward>
+	<id>22001008</id>
+	<name>初级原木</name>
+	<resid>hz_brz08</resid>
+	<reward>0</reward>
+	<rank>101,999</rank>
+	<desc>0</desc>
+</pvpreward>
+</root>

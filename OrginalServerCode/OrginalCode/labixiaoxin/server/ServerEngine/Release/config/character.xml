@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<character>
+	<id>0A101001</id>
+	<realid>0A101001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>小新</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001001</basic_id>
+	<growing_id>20011001</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040100</formula_id>
+	<desc>我是小新</desc>
+</character>
+<character>
+	<id>0A102001</id>
+	<realid>0A102001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>小爱</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001002</basic_id>
+	<growing_id>20011002</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040101</formula_id>
+	<desc>我是小爱</desc>
+</character>
+<character>
+	<id>0A103001</id>
+	<realid>0A103001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>妮妮</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001003</basic_id>
+	<growing_id>20011003</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040102</formula_id>
+	<desc>我是妮妮</desc>
+</character>
+<character>
+	<id>0A104001</id>
+	<realid>0A104001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>正南</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001004</basic_id>
+	<growing_id>20011004</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040103</formula_id>
+	<desc>我是正南</desc>
+</character>
+<character>
+	<id>0A105001</id>
+	<realid>0A105001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>风间</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001005</basic_id>
+	<growing_id>20011005</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040104</formula_id>
+	<desc>我是风间</desc>
+</character>
+<character>
+	<id>0A106001</id>
+	<realid>0A106001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>肥嘟嘟</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001006</basic_id>
+	<growing_id>20011006</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040105</formula_id>
+	<desc>我是肥嘟嘟</desc>
+</character>
+<character>
+	<id>0A107001</id>
+	<realid>0A107001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>小葵</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001007</basic_id>
+	<growing_id>20011007</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040106</formula_id>
+	<desc>我是小葵</desc>
+</character>
+<character>
+	<id>0A108001</id>
+	<realid>0A108001</realid>
+	<grade>1</grade>
+	<changenum>1</changenum>
+	<name>阿呆</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19001008</basic_id>
+	<growing_id>20011008</growing_id>
+	<increment_formula>101</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040107</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+<character>
+	<id>0A201001</id>
+	<realid>0A101001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>小新</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002001</basic_id>
+	<growing_id>20012001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040201</formula_id>
+	<desc>我是小新1</desc>
+</character>
+<character>
+	<id>0A202001</id>
+	<realid>0A102001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>小爱</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002002</basic_id>
+	<growing_id>20012002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040202</formula_id>
+	<desc>我是小爱1</desc>
+</character>
+<character>
+	<id>0A203001</id>
+	<realid>0A103001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>妮妮</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002003</basic_id>
+	<growing_id>20012003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040203</formula_id>
+	<desc>我是妮妮1</desc>
+</character>
+<character>
+	<id>0A204001</id>
+	<realid>0A104001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>正南</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002004</basic_id>
+	<growing_id>20012004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040204</formula_id>
+	<desc>我是正南1</desc>
+</character>
+<character>
+	<id>0A205001</id>
+	<realid>0A105001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>风间</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002005</basic_id>
+	<growing_id>20012005</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040205</formula_id>
+	<desc>我是风间1</desc>
+</character>
+<character>
+	<id>0A206001</id>
+	<realid>0A106001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>肥嘟嘟</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002006</basic_id>
+	<growing_id>20012006</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040206</formula_id>
+	<desc>我是肥嘟嘟1</desc>
+</character>
+<character>
+	<id>0A207001</id>
+	<realid>0A107001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>小葵</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002007</basic_id>
+	<growing_id>20012007</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040207</formula_id>
+	<desc>我是小葵2</desc>
+</character>
+<character>
+	<id>0A208001</id>
+	<realid>0A108001</realid>
+	<grade>2</grade>
+	<changenum>10</changenum>
+	<name>阿呆</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>2</quality>
+	<basic_id>19002008</basic_id>
+	<growing_id>20012008</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040207</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+<character>
+	<id>0A301001</id>
+	<realid>0A101001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>小新</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003001</basic_id>
+	<growing_id>20013001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040301</formula_id>
+	<desc>我是小新2</desc>
+</character>
+<character>
+	<id>0A302001</id>
+	<realid>0A102001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>小爱</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003002</basic_id>
+	<growing_id>20013002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040302</formula_id>
+	<desc>我是小爱2</desc>
+</character>
+<character>
+	<id>0A303001</id>
+	<realid>0A103001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>妮妮</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003003</basic_id>
+	<growing_id>20013003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040303</formula_id>
+	<desc>我是妮妮2</desc>
+</character>
+<character>
+	<id>0A304001</id>
+	<realid>0A104001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>正南</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003004</basic_id>
+	<growing_id>20013004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040304</formula_id>
+	<desc>我是正南2</desc>
+</character>
+<character>
+	<id>0A305001</id>
+	<realid>0A105001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>风间</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003005</basic_id>
+	<growing_id>20013005</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040305</formula_id>
+	<desc>我是风间2</desc>
+</character>
+<character>
+	<id>0A306001</id>
+	<realid>0A106001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>肥嘟嘟</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003006</basic_id>
+	<growing_id>20013006</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040306</formula_id>
+	<desc>我是肥嘟嘟2</desc>
+</character>
+<character>
+	<id>0A307001</id>
+	<realid>0A107001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>小葵</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003007</basic_id>
+	<growing_id>20013007</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040307</formula_id>
+	<desc>我是小葵3</desc>
+</character>
+<character>
+	<id>0A308001</id>
+	<realid>0A108001</realid>
+	<grade>4</grade>
+	<changenum>70</changenum>
+	<name>阿呆</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>3</quality>
+	<basic_id>19003008</basic_id>
+	<growing_id>20013008</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040307</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+<character>
+	<id>0A401001</id>
+	<realid>0A101001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>小新</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004001</basic_id>
+	<growing_id>20014001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040401</formula_id>
+	<desc>我是小新3</desc>
+</character>
+<character>
+	<id>0A402001</id>
+	<realid>0A102001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>小爱</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004002</basic_id>
+	<growing_id>20014002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040402</formula_id>
+	<desc>我是小爱3</desc>
+</character>
+<character>
+	<id>0A403001</id>
+	<realid>0A103001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>妮妮</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004003</basic_id>
+	<growing_id>20014003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040403</formula_id>
+	<desc>我是妮妮3</desc>
+</character>
+<character>
+	<id>0A404001</id>
+	<realid>0A104001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>正南</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004004</basic_id>
+	<growing_id>20014004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040404</formula_id>
+	<desc>我是正南3</desc>
+</character>
+<character>
+	<id>0A405001</id>
+	<realid>0A105001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>风间</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004005</basic_id>
+	<growing_id>20014005</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040405</formula_id>
+	<desc>我是风间3</desc>
+</character>
+<character>
+	<id>0A406001</id>
+	<realid>0A106001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>肥嘟嘟</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004006</basic_id>
+	<growing_id>20014006</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040406</formula_id>
+	<desc>我是肥嘟嘟3</desc>
+</character>
+<character>
+	<id>0A407001</id>
+	<realid>0A107001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>小葵</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004007</basic_id>
+	<growing_id>20014007</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040407</formula_id>
+	<desc>我是小葵3</desc>
+</character>
+<character>
+	<id>0A408001</id>
+	<realid>0A108001</realid>
+	<grade>7</grade>
+	<changenum>70</changenum>
+	<name>阿呆</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>4</quality>
+	<basic_id>19004008</basic_id>
+	<growing_id>20014008</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040407</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+<character>
+	<id>0A501001</id>
+	<realid>0A101001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>小新</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005001</basic_id>
+	<growing_id>20015001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040501</formula_id>
+	<desc>我是小新3</desc>
+</character>
+<character>
+	<id>0A502001</id>
+	<realid>0A102001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>小爱</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005002</basic_id>
+	<growing_id>20015002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040502</formula_id>
+	<desc>我是小爱3</desc>
+</character>
+<character>
+	<id>0A503001</id>
+	<realid>0A103001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>妮妮</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005003</basic_id>
+	<growing_id>20015003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040503</formula_id>
+	<desc>我是妮妮3</desc>
+</character>
+<character>
+	<id>0A504001</id>
+	<realid>0A104001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>正南</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005004</basic_id>
+	<growing_id>20015004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040504</formula_id>
+	<desc>我是正南3</desc>
+</character>
+<character>
+	<id>0A505001</id>
+	<realid>0A105001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>风间</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005005</basic_id>
+	<growing_id>20015005</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040505</formula_id>
+	<desc>我是风间3</desc>
+</character>
+<character>
+	<id>0A506001</id>
+	<realid>0A106001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>肥嘟嘟</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005006</basic_id>
+	<growing_id>20015006</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040506</formula_id>
+	<desc>我是肥嘟嘟3</desc>
+</character>
+<character>
+	<id>0A507001</id>
+	<realid>0A107001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>小葵</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005007</basic_id>
+	<growing_id>20015007</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040507</formula_id>
+	<desc>我是小葵3</desc>
+</character>
+<character>
+	<id>0A508001</id>
+	<realid>0A108001</realid>
+	<grade>11</grade>
+	<changenum>70</changenum>
+	<name>阿呆</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>5</quality>
+	<basic_id>19005008</basic_id>
+	<growing_id>20015008</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040508</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+<character>
+	<id>0A300001</id>
+	<realid>0A300001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>动感超人</name>
+	<resid>zhiye_tangseng</resid>
+	<suipian_id>pic_tangseng</suipian_id>
+	<picture_id>pic_tangseng</picture_id>
+	<quality>4</quality>
+	<basic_id>19000000</basic_id>
+	<growing_id>200010FA</growing_id>
+	<increment_formula>0</increment_formula>
+	<equipment_id>0C300001</equipment_id>
+	<skillid>0</skillid>
+	<formula_id>0</formula_id>
+	<desc>把我的动感能量分给你们</desc>
+</character>
+<character>
+	<id>0AA01001</id>
+	<realid>0A101001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>小新(碎片)</name>
+	<resid>xiaoxin_xiaoxin</resid>
+	<suipian_id>xiaoxinsuipian</suipian_id>
+	<picture_id>xiaoxinsuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005001</basic_id>
+	<growing_id>20015001</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C101001</equipment_id>
+	<skillid>0E010001</skillid>
+	<formula_id>18040501</formula_id>
+	<desc>我是小新3</desc>
+</character>
+<character>
+	<id>0AA02001</id>
+	<realid>0A102001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>小爱(碎片)</name>
+	<resid>xiaoxin_xiaoai</resid>
+	<suipian_id>xiaoaisuipian</suipian_id>
+	<picture_id>xiaoaisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005002</basic_id>
+	<growing_id>20015002</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C102001</equipment_id>
+	<skillid>0E020001</skillid>
+	<formula_id>18040502</formula_id>
+	<desc>我是小爱3</desc>
+</character>
+<character>
+	<id>0AA03001</id>
+	<realid>0A103001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>妮妮(碎片)</name>
+	<resid>xiaoxin_nini</resid>
+	<suipian_id>ninisuipian</suipian_id>
+	<picture_id>ninisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005003</basic_id>
+	<growing_id>20015003</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C103001</equipment_id>
+	<skillid>0E030001</skillid>
+	<formula_id>18040503</formula_id>
+	<desc>我是妮妮3</desc>
+</character>
+<character>
+	<id>0AA04001</id>
+	<realid>0A104001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>正南(碎片)</name>
+	<resid>xiaoxin_zhengnan</resid>
+	<suipian_id>zhengnansuipian</suipian_id>
+	<picture_id>zhengnansuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005004</basic_id>
+	<growing_id>20015004</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C104001</equipment_id>
+	<skillid>0E040001</skillid>
+	<formula_id>18040504</formula_id>
+	<desc>我是正南3</desc>
+</character>
+<character>
+	<id>0AA05001</id>
+	<realid>0A105001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>风间(碎片)</name>
+	<resid>xiaoxin_fengjian</resid>
+	<suipian_id>fengjiansuipian</suipian_id>
+	<picture_id>fengjiansuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005005</basic_id>
+	<growing_id>20015005</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C105001</equipment_id>
+	<skillid>0E050001</skillid>
+	<formula_id>18040505</formula_id>
+	<desc>我是风间3</desc>
+</character>
+<character>
+	<id>0AA06001</id>
+	<realid>0A106001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>肥嘟嘟(碎片)</name>
+	<resid>xiaoxin_feidudu</resid>
+	<suipian_id>feidudusuipian</suipian_id>
+	<picture_id>feidudusuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005006</basic_id>
+	<growing_id>20015006</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C106001</equipment_id>
+	<skillid>0E060001</skillid>
+	<formula_id>18040506</formula_id>
+	<desc>我是肥嘟嘟3</desc>
+</character>
+<character>
+	<id>0AA07001</id>
+	<realid>0A107001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>小葵(碎片)</name>
+	<resid>xiaoxin_xiaokui</resid>
+	<suipian_id>xiaokuisuipian</suipian_id>
+	<picture_id>xiaokuisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005007</basic_id>
+	<growing_id>20015007</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C107001</equipment_id>
+	<skillid>0E070001</skillid>
+	<formula_id>18040507</formula_id>
+	<desc>我是小葵3</desc>
+</character>
+<character>
+	<id>0AA08001</id>
+	<realid>0A108001</realid>
+	<grade>0</grade>
+	<changenum>1</changenum>
+	<name>阿呆(碎片)</name>
+	<resid>xiaoxin_adai</resid>
+	<suipian_id>adaisuipian</suipian_id>
+	<picture_id>adaisuipian</picture_id>
+	<quality>1</quality>
+	<basic_id>19005008</basic_id>
+	<growing_id>20015008</growing_id>
+	<increment_formula>201</increment_formula>
+	<equipment_id>0C108001</equipment_id>
+	<skillid>0E080001</skillid>
+	<formula_id>18040508</formula_id>
+	<desc>我是阿呆</desc>
+</character>
+</root>
