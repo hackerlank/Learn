@@ -1,0 +1,9 @@
+{
+    "serverIP":"192.168.1.135",
+    "serverPort":11600,
+    "isLog":true,
+    "opKey":["stop","add","start"],
+    "opvalue":[1,2,3],
+    "title":"lbxx_t",
+    "exestart":"0startup.cmd"
+}
