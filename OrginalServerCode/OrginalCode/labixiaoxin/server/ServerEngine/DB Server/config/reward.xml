@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<reward>
+	<id>0D000001</id>
+	<desc>1-5级奖品</desc>
+	<level>5</level>
+	<reward>13210001,1</reward>
+</reward>
+<reward>
+	<id>0D000002</id>
+	<desc>5级以上奖品</desc>
+	<level>999</level>
+	<reward>13210001,1</reward>
+</reward>
+</root>

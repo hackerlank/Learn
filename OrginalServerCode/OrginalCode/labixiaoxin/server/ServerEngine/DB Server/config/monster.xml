@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<monster>
+	<id>0B000001</id>
+	<name>树桩1</name>
+	<resid>guai_shuzhuang1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000002</id>
+	<name>树桩2</name>
+	<resid>guai_shuzhuang2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000003</id>
+	<name>树桩3</name>
+	<resid>guai_shuzhuang3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000004</id>
+	<name>树桩4</name>
+	<resid>guai_shuzhuang1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000005</id>
+	<name>持刀小妖1</name>
+	<resid>guai_chidao1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000006</id>
+	<name>持刀小妖2</name>
+	<resid>guai_chidao2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000007</id>
+	<name>持刀小妖3</name>
+	<resid>guai_chidao3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000008</id>
+	<name>持刀小妖4</name>
+	<resid>guai_chidao1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000009</id>
+	<name>持棒小妖1</name>
+	<resid>guai_chibang1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000A</id>
+	<name>持棒小妖2</name>
+	<resid>guai_chibang2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000B</id>
+	<name>持棒小妖3</name>
+	<resid>guai_chibang3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000C</id>
+	<name>持棒小妖4</name>
+	<resid>guai_chibang1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000D</id>
+	<name>弓箭小妖1</name>
+	<resid>guai_gongjian1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000E</id>
+	<name>弓箭小妖2</name>
+	<resid>guai_gongjian2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00000F</id>
+	<name>弓箭小妖3</name>
+	<resid>guai_gongjian3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000010</id>
+	<name>弓箭小妖4</name>
+	<resid>guai_gongjian1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000011</id>
+	<name>树桩boss1</name>
+	<resid>guai_boss_shuzhuang1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000012</id>
+	<name>树桩boss2</name>
+	<resid>guai_boss_shuzhuang1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000013</id>
+	<name>持刀boss1</name>
+	<resid>guai_boss_chidao1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000014</id>
+	<name>持刀boss2</name>
+	<resid>guai_boss_chidao1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000015</id>
+	<name>持棒boss1</name>
+	<resid>guai_boss_chibang1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000016</id>
+	<name>持棒boss2</name>
+	<resid>guai_boss_chibang1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000017</id>
+	<name>弓箭boss1</name>
+	<resid>guai_boss_gongjian1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000018</id>
+	<name>弓箭boss2</name>
+	<resid>guai_boss_gongjian1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E080001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000019</id>
+	<name>黑熊精1</name>
+	<resid>guai_boss_heixiong</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00001A</id>
+	<name>黑熊精2</name>
+	<resid>guai_boss_heixiong</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00001B</id>
+	<name>乱入黑熊精</name>
+	<resid>guai_subboss_heixiong</resid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00001C</id>
+	<name>钢叉虾兵1</name>
+	<resid>guai_xiabing1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00001D</id>
+	<name>钢叉虾兵2</name>
+	<resid>guai_xiabing2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00001E</id>
+	<name>钢叉虾兵3</name>
+	<resid>guai_xiabing3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00001F</id>
+	<name>钢叉虾兵4</name>
+	<resid>guai_xiabing1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000020</id>
+	<name>剧毒章鱼1</name>
+	<resid>guai_zhangyu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000021</id>
+	<name>剧毒章鱼2</name>
+	<resid>guai_zhangyu2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000022</id>
+	<name>剧毒章鱼3</name>
+	<resid>guai_zhangyu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000023</id>
+	<name>剧毒章鱼4</name>
+	<resid>guai_zhangyu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000024</id>
+	<name>刀盾鱼兵1</name>
+	<resid>guai_yubing1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000025</id>
+	<name>刀盾鱼兵2</name>
+	<resid>guai_yubing2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000026</id>
+	<name>刀盾鱼兵3</name>
+	<resid>guai_yubing3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000027</id>
+	<name>刀盾鱼兵4</name>
+	<resid>guai_yubing1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000028</id>
+	<name>荆棘水草1</name>
+	<resid>guai_shuicao1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000029</id>
+	<name>荆棘水草2</name>
+	<resid>guai_shuicao2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002A</id>
+	<name>荆棘水草3</name>
+	<resid>guai_shuicao3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002B</id>
+	<name>荆棘水草4</name>
+	<resid>guai_shuicao1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002C</id>
+	<name>钢叉虾兵boss1</name>
+	<resid>guai_boss_xiabing1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002D</id>
+	<name>钢叉虾兵boss2</name>
+	<resid>guai_boss_xiabing1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002E</id>
+	<name>章鱼boss1</name>
+	<resid>guai_boss_zhangyu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00002F</id>
+	<name>章鱼boss2</name>
+	<resid>guai_boss_zhangyu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000030</id>
+	<name>鱼兵boss1</name>
+	<resid>guai_boss_yubing1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000031</id>
+	<name>鱼兵boss2</name>
+	<resid>guai_boss_yubing1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000032</id>
+	<name>水草boss1</name>
+	<resid>guai_boss_shuicao1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000033</id>
+	<name>水草boss2</name>
+	<resid>guai_boss_shuicao1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000034</id>
+	<name>鲤鱼精1</name>
+	<resid>guai_boss_liyu1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000035</id>
+	<name>鲤鱼精2</name>
+	<resid>guai_boss_liyu1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000036</id>
+	<name>狂暴鲤鱼精</name>
+	<resid>guai_subboss_liyu</resid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000037</id>
+	<name>毒蛇1</name>
+	<resid>guai_dushe1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000038</id>
+	<name>毒蛇2</name>
+	<resid>guai_dushe2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000039</id>
+	<name>毒蛇3</name>
+	<resid>guai_dushe3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003A</id>
+	<name>毒蛇4</name>
+	<resid>guai_dushe1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003B</id>
+	<name>织网蜘蛛1</name>
+	<resid>guai_zhizhu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003C</id>
+	<name>织网蜘蛛2</name>
+	<resid>guai_zhizhu2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003D</id>
+	<name>织网蜘蛛3</name>
+	<resid>guai_zhizhu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003E</id>
+	<name>织网蜘蛛4</name>
+	<resid>guai_zhizhu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00003F</id>
+	<name>遁地甲虫1</name>
+	<resid>guai_jiachong1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000040</id>
+	<name>遁地甲虫2</name>
+	<resid>guai_jiachong2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000041</id>
+	<name>遁地甲虫3</name>
+	<resid>guai_jiachong3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000042</id>
+	<name>遁地甲虫4</name>
+	<resid>guai_jiachong1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000043</id>
+	<name>蝙蝠1</name>
+	<resid>guai_bianfu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000044</id>
+	<name>蝙蝠2</name>
+	<resid>guai_bianfu2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000045</id>
+	<name>蝙蝠3</name>
+	<resid>guai_bianfu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000046</id>
+	<name>蝙蝠4</name>
+	<resid>guai_bianfu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000047</id>
+	<name>毒蛇boss1</name>
+	<resid>guai_boss_dushe1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000048</id>
+	<name>毒蛇boss2</name>
+	<resid>guai_boss_dushe1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000049</id>
+	<name>蜘蛛boss1</name>
+	<resid>guai_boss_zhizhu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004A</id>
+	<name>蜘蛛boss2</name>
+	<resid>guai_boss_zhizhu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004B</id>
+	<name>甲虫boss1</name>
+	<resid>guai_boss_jiachong1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004C</id>
+	<name>甲虫boss2</name>
+	<resid>guai_boss_jiachong1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004D</id>
+	<name>蝙蝠boss1</name>
+	<resid>guai_boss_bianfu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004E</id>
+	<name>蝙蝠boss2</name>
+	<resid>guai_boss_bianfu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00004F</id>
+	<name>蜈蚣精1</name>
+	<resid>guai_boss_wugong1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000050</id>
+	<name>蜈蚣精2</name>
+	<resid>guai_boss_wugong1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000051</id>
+	<name>狂暴蜈蚣精</name>
+	<resid>guai_subboss_wugong</resid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000052</id>
+	<name>冰晶石人1</name>
+	<resid>guai_shiren1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000053</id>
+	<name>冰晶石人2</name>
+	<resid>guai_shiren2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000054</id>
+	<name>冰晶石人3</name>
+	<resid>guai_shiren3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000055</id>
+	<name>冰晶石人4</name>
+	<resid>guai_shiren1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000056</id>
+	<name>擂鼓小妖1</name>
+	<resid>guai_leigu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000057</id>
+	<name>擂鼓小妖2</name>
+	<resid>guai_leigu2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000058</id>
+	<name>擂鼓小妖3</name>
+	<resid>guai_leigu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000059</id>
+	<name>擂鼓小妖4</name>
+	<resid>guai_leigu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005A</id>
+	<name>雪球小妖1</name>
+	<resid>guai_xueqiu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005B</id>
+	<name>雪球小妖2</name>
+	<resid>guai_xueqiu2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005C</id>
+	<name>雪球小妖3</name>
+	<resid>guai_xueqiu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005D</id>
+	<name>雪球小妖4</name>
+	<resid>guai_xueqiu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005E</id>
+	<name>持灯鬼影1</name>
+	<resid>guai_guiying1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00005F</id>
+	<name>持灯鬼影2</name>
+	<resid>guai_guiying2</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000060</id>
+	<name>持灯鬼影3</name>
+	<resid>guai_guiying3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000061</id>
+	<name>持灯鬼影4</name>
+	<resid>guai_guiying1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000062</id>
+	<name>冰晶石人1</name>
+	<resid>guai_boss_shiren1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000063</id>
+	<name>冰晶石人2</name>
+	<resid>guai_boss_shiren1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000064</id>
+	<name>擂鼓boss1</name>
+	<resid>guai_boss_leigu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000065</id>
+	<name>擂鼓boss2</name>
+	<resid>guai_boss_leigu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000066</id>
+	<name>雪球boss1</name>
+	<resid>guai_boss_xueqiu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000067</id>
+	<name>雪球boss2</name>
+	<resid>guai_boss_xueqiu1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000068</id>
+	<name>持灯鬼影1</name>
+	<resid>guai_boss_guiying1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000069</id>
+	<name>持灯鬼影2</name>
+	<resid>guai_boss_guiying1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00006A</id>
+	<name>地癸龙王1</name>
+	<resid>guai_boss_longwang1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00006B</id>
+	<name>地癸龙王2</name>
+	<resid>guai_boss_longwang1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00006C</id>
+	<name>狂暴龙王</name>
+	<resid>guai_subboss_longwang</resid>
+	<level>1</level>
+	<type>3</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008002</basic_id>
+	<growing_id>20002002</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B00006D</id>
+	<name>蝙蝠活动</name>
+	<resid>guai_bianfu1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00006E</id>
+	<name>蜈蚣精2活动</name>
+	<resid>guai_boss_wugong1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E070001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000070</id>
+	<name>毒蛇boss2_活动</name>
+	<resid>guai_boss_dushe1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000071</id>
+	<name>毒蛇3_活动</name>
+	<resid>guai_dushe3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000072</id>
+	<name>遁地甲虫1_活动</name>
+	<resid>guai_jiachong1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000073</id>
+	<name>织网蜘蛛3_活动</name>
+	<resid>guai_zhizhu3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000074</id>
+	<name>冰晶石人1_活动</name>
+	<resid>guai_boss_shiren1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008004</basic_id>
+	<growing_id>20002004</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000075</id>
+	<name>冰晶石人1_活动</name>
+	<resid>guai_shiren1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000076</id>
+	<name>鲤鱼精2_活动</name>
+	<resid>guai_boss_liyu1</resid>
+	<level>1</level>
+	<type>4</type>
+	<monster_skillid>0E060001,0E0A0001</monster_skillid>
+	<basic_id>19008003</basic_id>
+	<growing_id>20002003</growing_id>
+	<size>2</size>
+</monster>
+<monster>
+	<id>0B000077</id>
+	<name>水草boss2_活动</name>
+	<resid>guai_boss_shuicao1</resid>
+	<level>1</level>
+	<type>2</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008005</basic_id>
+	<growing_id>20002005</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000078</id>
+	<name>荆棘水草3_活动</name>
+	<resid>guai_shuicao3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E090001</monster_skillid>
+	<basic_id>19008001</basic_id>
+	<growing_id>20002001</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B000079</id>
+	<name>钢叉虾兵4_活动</name>
+	<resid>guai_xiabing1</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+<monster>
+	<id>0B00007A</id>
+	<name>刀盾鱼兵3_活动</name>
+	<resid>guai_yubing3</resid>
+	<level>1</level>
+	<type>1</type>
+	<monster_skillid>0E060001</monster_skillid>
+	<basic_id>19008000</basic_id>
+	<growing_id>20002000</growing_id>
+	<size>1</size>
+</monster>
+</root>

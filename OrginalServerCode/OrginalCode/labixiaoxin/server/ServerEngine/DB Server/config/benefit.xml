@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<benefit>
+	<id>07000001</id>
+	<name>天天有礼</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>1,2,25</property_value>
+	<des>每日登陆可以额外领取25个元宝</des>
+</benefit>
+<benefit>
+	<id>07000002</id>
+	<name>原地复活</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>2,2,1</property_value>
+	<des>每日有N次免费战斗中召唤将领的机会</des>
+</benefit>
+<benefit>
+	<id>07000003</id>
+	<name>背包客</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>3,2,10</property_value>
+	<des>背包上限增加N个</des>
+</benefit>
+<benefit>
+	<id>07000004</id>
+	<name>交友广阔</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>4,2,10</property_value>
+	<des>好友上限增加N个</des>
+</benefit>
+<benefit>
+	<id>07000005</id>
+	<name>精力旺盛</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>5,2,20</property_value>
+	<des>体力点上限增加N个</des>
+</benefit>
+<benefit>
+	<id>07000006</id>
+	<name>坐地起价</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>6,1,100</property_value>
+	<des>物品卖出时，获得金钱数量增加N%</des>
+</benefit>
+<benefit>
+	<id>07000007</id>
+	<name>精炼</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>7,1,100</property_value>
+	<des>熔炼装备时，获得晶石数量增加N%</des>
+</benefit>
+<benefit>
+	<id>07000008</id>
+	<name>孜孜不倦</name>
+	<duration>0</duration>
+	<is_increase>fasle</is_increase>
+	<property_value>8,2,1680</property_value>
+	<des>体力恢复时间缩减N秒</des>
+</benefit>
+<benefit>
+	<id>07000009</id>
+	<name>首胜</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>9,1,1000</property_value>
+	<des>每日首次战斗胜利后，获得金钱和经验值增加N%</des>
+</benefit>
+<benefit>
+	<id>0700000A</id>
+	<name>抽奖打折</name>
+	<duration>0</duration>
+	<is_increase>fasle</is_increase>
+	<property_value>10,1,100</property_value>
+	<des>抽奖消费额降低N%</des>
+</benefit>
+<benefit>
+	<id>0700000B</id>
+	<name>首充翻倍</name>
+	<duration>0</duration>
+	<is_increase>ture</is_increase>
+	<property_value>11,1,1000</property_value>
+	<des>首次充值获得元宝数增加N%</des>
+</benefit>
+</root>
