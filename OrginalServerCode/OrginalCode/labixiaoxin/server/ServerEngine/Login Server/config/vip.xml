@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<vip>
+	<id>05000001</id>
+	<vip_level>1</vip_level>
+	<vip_benefit>07000009</vip_benefit>
+	<recharge_require>18</recharge_require>
+	<gift_id>04000001</gift_id>
+	<desc>每日首次胜利金钱翻倍;每日可领取登陆奖励;可领取vip1级礼包</desc>
+</vip>
+<vip>
+	<id>05000002</id>
+	<vip_level>2</vip_level>
+	<vip_benefit>07000009,07000002</vip_benefit>
+	<recharge_require>128</recharge_require>
+	<gift_id>04000002</gift_id>
+	<desc>每日首次胜利金钱翻倍;每日可领取登陆奖励;每日有1次免费战斗复活;可领取vip2级礼包</desc>
+</vip>
+<vip>
+	<id>05000003</id>
+	<vip_level>3</vip_level>
+	<vip_benefit>07000009,07000002,07000003</vip_benefit>
+	<recharge_require>328</recharge_require>
+	<gift_id>04000003</gift_id>
+	<desc>包含vip2所有特权;背包上限增加10个;可领取vip3级礼包</desc>
+</vip>
+<vip>
+	<id>05000004</id>
+	<vip_level>4</vip_level>
+	<vip_benefit>07000009,07000002,07000003,07000004</vip_benefit>
+	<recharge_require>888</recharge_require>
+	<gift_id>04000004</gift_id>
+	<desc>包含vip3所有特权;好友上限增加10个;可领取vip4级礼包</desc>
+</vip>
+<vip>
+	<id>05000005</id>
+	<vip_level>5</vip_level>
+	<vip_benefit>07000009,07000002,07000003,07000004,07000005</vip_benefit>
+	<recharge_require>1888</recharge_require>
+	<gift_id>04000005</gift_id>
+	<desc>包含vip4所有特权;体力点上限增加20个;可领取vip5级礼包</desc>
+</vip>
+</root>
