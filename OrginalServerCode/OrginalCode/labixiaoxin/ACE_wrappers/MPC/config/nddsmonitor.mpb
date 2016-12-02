@@ -1,0 +1,7 @@
+// -*- MPC -*-
+// $Id: nddsmonitor.mpb 1914 2010-10-20 09:22:05Z johnnyw $
+
+feature (nddsmonitor) :nddslib {
+  libs += rtimonitoring
+}
+
